@@ -62,124 +62,161 @@ There are 167 planned weapons. The entries below record the designs established 
 - **Internal ID:** TAXMAN
 - **Category:** Assault Rifle
 - **Rarity:** Commonplace
-- **Role:** Balanced all-rounder.
-- **Visual direction:** Modern-futuristic hybrid, with a clean and readable Roblox-style model.
-- **Weapon Action: Precision Cycle**
+- **Slot:** Primary
+- **Role:** Versatile mid-range duelling built around sustained target pressure.
+- **Core mechanic: Compound Interest**
 
-Switches the rifle from automatic fire to controlled three-round bursts. Burst mode gives the player more controlled shot placement.
+Consecutive hits on the same opponent build a visible mark. Missing or switching targets resets the progress.
 
-**Prototype stats:**
-- Damage: 25
-- Headshot multiplier: 1.5×
-- Fire rate: 600 RPM
-- Magazine: 30 rounds
-- Reserve: 120 rounds
-- Reload: 2.0 seconds
-- Ability duration: 5 seconds
-- Ability cooldown: 12 seconds
+- **Weapon Action: Collection Day**
 
-**Status:** Accepted concept. Stats are provisional.
+Activate to cash in the mark. The next shot that hits the marked opponent deals bonus damage based on the accumulated mark.
 
-### Weapon 002 — POCKET ROCKET
+**Rules and counterplay:**
+- The bonus is capped.
+- The mark is visible to the affected opponent.
+- Breaking line of sight for a short period clears the mark.
+- The action does not aim, track, or guarantee a hit.
+
+**Prototype values:** Damage, mark progression, mark duration, bonus cap, and cooldown are TBD.
+
+**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 002 — POCKET ROCKET
 - **Internal ID:** POCKET-ROCKET
 - **Category:** Submachine Gun
 - **Rarity:** Commonplace
-- **Role:** Fast close-range combat.
-- **Weapon Action: Overdrive**
+- **Slot:** Primary
+- **Role:** Aggressive close-range movement combat.
+- **Core mechanic: Runaway**
 
-Temporarily increases fire rate by 30% for 4 seconds. Damage per bullet stays the same, so the weapon consumes ammunition faster.
+The longer the player continuously fires, the faster the weapon cycles, up to a defined limit. Releasing the trigger resets the acceleration.
 
-**Prototype stats:**
-- Damage: 18
-- Headshot multiplier: 1.5×
-- Fire rate: 800 RPM
-- Magazine: 32 rounds
-- Reserve: 128 rounds
-- Reload: 1.8 seconds
-- Ability cooldown: 14 seconds
+- **Weapon Action: Hot Pursuit**
 
-**Status:** Accepted concept. Stats are provisional.
+Perform a short forward movement burst while keeping the weapon ready.
 
-### Weapon 003 — DOORBELL
+**Rules and counterplay:**
+- The movement burst has a fixed distance and brief recovery.
+- It can be activated during a jump.
+- It cannot be chained repeatedly.
+- The weapon's accelerating fire rate still requires ammunition management.
+
+**Prototype values:** Base and maximum fire rate, acceleration time, magazine, movement distance, recovery, and cooldown are TBD.
+
+**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 003 — DOORBELL
 - **Internal ID:** DOORBELL
 - **Category:** Shotgun
 - **Rarity:** Commonplace
-- **Role:** High-impact close-range combat.
-- **Weapon Action: Double Tap**
+- **Slot:** Primary
+- **Role:** Close-range combat and distance control.
+- **Core mechanic: Knock Knock**
 
-Fires two consecutive shotgun shots in quick succession, consuming two shells. A short recovery delay follows before normal firing resumes.
+The shotgun has two firing modes:
+- **Normal shot:** Wider pellet spread.
+- **Focused shot:** Tighter pellet spread with a short firing delay.
 
-**Prototype stats:**
-- Damage: 10 per pellet
-- Pellets per shot: 8
-- Magazine: 6 shells
-- Reload: 2.4 seconds
-- Ability cooldown: 16 seconds
+- **Weapon Action: House Call**
 
-**Status:** Accepted concept. Stats are provisional.
+Fire a special blast that launches the user backwards and pushes opponents caught in its impact area away.
 
-### Weapon 004 — LONG STORY
+**Rules and counterplay:**
+- House Call consumes one shell.
+- Its push direction and area are clearly telegraphed.
+- It deals limited or no damage compared with a normal shot; its primary purpose is repositioning and spacing.
+- Opponents can avoid the blast area.
+
+**Prototype values:** Pellet count, damage, spread profiles, magazine, reload, push strength, and cooldown are TBD.
+
+**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 004 — LONG STORY
 - **Internal ID:** LONG-STORY
 - **Category:** Sniper Rifle
 - **Rarity:** Altered
-- **Role:** Long-range precision.
-- **Weapon Action: Hunter's Sight**
+- **Slot:** Primary
+- **Role:** Long-range precision and planned angle manipulation.
+- **Core mechanic: Follow Through**
 
-Briefly reveals subtle outlines of opponents through walls to the sniper user. The original concept also includes a very small increase to the visible head hit area.
+A successful hit briefly stabilizes the next shot, reducing the time required to reach full accuracy.
 
-**Prototype values:**
-- Duration: 4 seconds
-- Hit-area change: 5%
-- Cooldown: 20 seconds
+- **Weapon Action: Long Distance**
 
-**Fairness note:** The hit-area change must be carefully tested. If it creates inconsistent hit registration or unfair advantages, use the reveal effect without changing hitboxes.
+Place a visible marker on a valid surface within range. The next scoped shot can travel through the marker and emerge from its position, creating an alternate firing angle.
 
-**Status:** Accepted concept, pending competitive testing.
+**Rules and counterplay:**
+- Only one marker can be active.
+- The marker is visible and can be removed by opponents.
+- The shot's exit direction is clearly indicated.
+- The shot still requires normal aim and can be dodged or blocked.
+- The marker cannot be placed through solid geometry.
 
-### Weapon 005 — LOOSE CHANGE
+**Prototype values:** Stabilization duration, marker range and lifetime, shot redirection rules, and cooldown are TBD.
+
+**Status:** Accepted redesign concept, pending competitive testing.### Weapon 005 — LOOSE CHANGE
 - **Internal ID:** LOOSE-CHANGE
 - **Category:** Pistol
 - **Rarity:** Commonplace
-- **Role:** Sidearm with a deliberate high-impact shot option.
-- **Weapon Action: Charged Shot**
+- **Slot:** Secondary
+- **Role:** Precision sidearm built around creative trick shots.
+- **Core mechanic: Spare Change**
 
-Hold Weapon Action to charge one amplified, instant-hit shot. Releasing fires the shot. It consumes one round and has a visible blue-violet charge cue and audio cue.
+The pistol fires projectiles that can ricochet once from suitable arena surfaces.
 
-**Prototype values:**
-- Charge time: 0.8 seconds
-- Damage multiplier: 1.5× normal damage
-- Cooldown: 12 seconds
+- **Weapon Action: Make It Count**
 
-**Constraints:**
-- Switching weapons cancels the charge.
-- The shot does not auto-hit or track opponents.
+Toss a special metal token into the arena. Shooting the token redirects the next projectile along a clearly indicated ricochet toward the token's position.
 
-**Status:** Accepted concept. Numbers are provisional.
+**Rules and counterplay:**
+- Only one token can exist at a time.
+- The token has a visible, readable trajectory and can be destroyed by opponents.
+- The redirected shot does not home in after the ricochet.
+- The player must still line up the initial shot.
+- Token placement and use have a limited duration.
 
-### Weapon 006 — THREE'S COMPANY
+**Prototype values:** Damage, magazine, projectile speed, ricochet rules, token lifetime, and cooldown are TBD.
+
+**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 006 — THREE'S COMPANY
 - **Internal ID:** THREES-COMPANY
 - **Category:** Burst Rifle
 - **Rarity:** Commonplace
-- **Role:** Burst-fire rifle with a temporary high-tempo firing mode.
-- **Weapon Action: Rapid Burst**
+- **Slot:** Primary
+- **Role:** Mid-range burst control and firing-rhythm mastery.
+- **Core mechanic: Third Shot**
 
-Temporarily increases firing speed so the rifle can deliver its four-shot bursts much faster than usual.
+Each standard burst contains three shots. The third shot has a distinct, predictable trajectory, giving the weapon a recognizable rhythm and rewarding players who control the complete burst.
 
-**Status:** Accepted concept. Duration, cooldown, and exact firing cadence are TBD.
+- **Weapon Action: Plus One**
 
-### Weapon 007 — LAWNMOWER
+The next burst fires a fourth projectile.
+
+**Rules and counterplay:**
+- The fourth projectile consumes additional ammunition.
+- Its trajectory is distinct and predictable, not random.
+- The extra shot adds a handling or recovery trade-off.
+- The action cannot be activated repeatedly without its cooldown.
+
+**Prototype values:** Burst interval, third-shot trajectory, fourth-shot trajectory, ammunition cost, recovery, and cooldown are TBD.
+
+**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 007 — LAWNMOWER
 - **Internal ID:** LAWNMOWER
 - **Category:** Light Machine Gun
 - **Rarity:** Commonplace (provisional)
-- **Role:** Heavy sustained-fire weapon.
-- **Design direction:** A rotating-barrel weapon with a recognizable firing rhythm and a playstyle distinct from assault rifles and SMGs.
-- **Weapon Action:** TBD
+- **Slot:** Primary
+- **Role:** Sustained fire and mobile area pressure.
+- **Core mechanic: Spool Up**
 
-**Possible action direction — Ricochet Feed:** A short temporary mode in which selected shots can bounce once from suitable arena surfaces. This remains an unapproved proposal; its exact rules and fairness need testing.
+The rotating barrel needs time to spin up before reaching full firing speed. Once running, it maintains a high firing rate.
 
-**Status:** Selected as a weapon concept. Weapon Action not accepted.
+- **Weapon Action: Grass Cutter**
 
-### Weapon 008 — RETURN TO SENDER
+Lock the barrel at maximum spin for a short period. During this window, the player can strafe faster than normal while firing.
+
+**Rules and counterplay:**
+- The weapon has a noticeable spin-up and spin-down period.
+- Grass Cutter has a limited duration and a clear audio/visual cue.
+- The action cannot be activated while the barrel is completely idle.
+- Sustained fire consumes ammunition quickly.
+
+**Prototype values:** Spin-up time, fire-rate curve, magazine, movement speed during Grass Cutter, duration, and cooldown are TBD.
+
+**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 008 — RETURN TO SENDER
 - **Internal ID:** RETURN-TO-SENDER
 - **Category:** Returning Disc Launcher
 - **Rarity:** Altered (provisional)
@@ -264,9 +301,82 @@ The next projectile can be detonated remotely while it is travelling by pressing
 
 **Status:** Proposed concept. Not yet accepted.
 
+### Weapon 012 — BAD RECEPTION
+- **Internal ID:** BAD-RECEPTION
+- **Category:** Pulse Rifle
+- **Rarity:** Evolved (provisional)
+- **Slot:** Primary
+- **Role:** Mid-range duelling through controlled bursts and concealment of firing cues.
+- **Core mechanic: Signal Burst**
+
+Fires a three-projectile burst with a slight delay between projectiles, rewarding controlled tracking.
+
+- **Weapon Action: Dead Air**
+
+For a short duration, suppresses the weapon's distinctive firing audio and removes its visible projectile trails. Damage and fire rate remain unchanged.
+
+**Rules and counterplay:**
+- Opponents can still see impacts and identify the player's position through other cues.
+- The effect does not make the player invisible.
+- The duration is short and has clear activation feedback.
+- The weapon still requires accurate burst placement.
+
+**Prototype values:** Damage, burst spacing, effect duration, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 013 — CALL WAITING
+- **Internal ID:** CALL-WAITING
+- **Category:** Charge Rifle
+- **Rarity:** Altered (provisional)
+- **Slot:** Primary
+- **Role:** Precision mid-to-long-range combat with weapon-switch combos.
+- **Core mechanic: Charge and Release**
+
+Hold fire to charge a shot. Releasing fires it. Longer charge increases damage up to a defined maximum. Charging temporarily reduces mobility. Releasing early still fires a weaker shot.
+
+- **Weapon Action: Call Waiting**
+
+Store the current charge and temporarily switch to the secondary weapon. The stored charge remains for four seconds. Switching back to CALL WAITING during that window releases the stored shot immediately.
+
+**Rules and counterplay:**
+- If the timer expires, the stored charge is lost.
+- The charge state has clear visual and audio feedback.
+- Switching to the secondary does not preserve the charge indefinitely.
+- The shot still requires normal aim.
+
+**Prototype values:** Charge time, damage curve, mobility penalty, storage duration, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 014 — SHORT NOTICE
+- **Internal ID:** SHORT-NOTICE
+- **Category:** Repeater Crossbow
+- **Rarity:** Altered (provisional)
+- **Slot:** Primary
+- **Role:** Precision combat and creative movement.
+- **Core mechanic: Split Bolt**
+
+Fires a bolt that splits into three smaller projectiles after travelling a set distance. At close range it remains concentrated; at longer range the split creates a horizontal spread.
+
+- **Weapon Action: Express Delivery**
+
+Fire a special anchor bolt that attaches to the first valid solid surface it hits. Press Weapon Action again to pull yourself toward the anchor.
+
+**Rules and counterplay:**
+- Only one anchor can exist at a time.
+- The anchor and connection are visible to opponents.
+- The anchor expires after a short duration or after use.
+- The pull requires a valid surface and can be interrupted by the anchor being removed.
+- The bolt cannot attach through solid geometry.
+
+**Prototype values:** Bolt speed, split distance, spread, anchor lifetime, pull strength, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
 ## 5. Remaining Roster
 
-Weapons 012–167 are TBD.
+Weapons 015–167 are TBD.
 
 Do not fill the remaining roster with generic category variants just to reach 167. Each new weapon should be designed around a memorable central mechanic and a clear gameplay role.
 
