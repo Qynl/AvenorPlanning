@@ -34,7 +34,8 @@ Every weapon has one fixed rarity. Rarity can guide the complexity and uniquenes
 ## 3. Loadout and Weapon Controls
 
 A loadout contains:
-- Two guns
+- One Primary weapon
+- One Secondary weapon
 - One close-combat weapon
 - One player ability
 
@@ -1235,7 +1236,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Category:** Retrieval Tool
 - **Rarity:** Altered
 - **Slot:** Secondary
-- **Role:** Recovering the user's own eligible deployed equipment from a safer position.
+- **Role:** Finding and securing a better weapon pickup.
 - **Core mechanic: Claim Ticket**
   
   The tool can tag one eligible friendly deployable within line of sight. The tag identifies it as recoverable but has no effect on opponents.
@@ -2202,7 +2203,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ## 5. New Weapons 111–167
 
 The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and **Melee**. Melee weapons occupy the dedicated close-combat slot in the loadout; they are not classified as Primary or Secondary. Primary and Secondary continue to follow the existing damage-dealer versus utility rule.
-The roster now uses three distinct equipment slots: **Primary**, **Secondary**, and **Melee**. Melee weapons occupy the dedicated close-combat slot in the loadout; they are not classified as Primary or Secondary. Primary and Secondary continue to follow the existing damage-dealer versus utility rule.
+The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and **Melee**. Melee weapons occupy the dedicated close-combat slot in the loadout; they are not classified as Primary or Secondary. Primary and Secondary continue to follow the existing damage-dealer versus utility rule.
 
 ### Weapon 111 — DOORJAM
 - **Internal ID:** DOORJAM
