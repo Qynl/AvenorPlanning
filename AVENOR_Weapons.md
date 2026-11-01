@@ -200,9 +200,73 @@ Recall the active disc early, causing it to reverse direction immediately instea
 
 **Status:** Proposed concept. Not yet accepted.
 
+### Weapon 009 — THE RENTAL
+- **Internal ID:** THE-RENTAL
+- **Category:** Special / Utility Firearm
+- **Rarity:** Altered (provisional)
+- **Role:** Mid-range, geometry-focused combat.
+- **Core firing behaviour:** Fires projectiles that bounce from arena surfaces. Their paths are readable and predictable, rewarding players who anticipate movement and use the arena's geometry.
+- **Weapon Action: One More Time**
+
+The next projectile gains one additional bounce before disappearing.
+
+**Rules and counterplay:**
+- Bounces are visually readable.
+- The projectiles do not home in on opponents.
+- The weapon is more effective in enclosed spaces and less reliable in open areas.
+- Opponents can reposition or use cover to avoid predicted paths.
+
+**Prototype values:** Damage, projectile speed, magazine, bounce limits, and cooldown are TBD.
+
+**Status:** Proposed concept. Not yet accepted.
+
+### Weapon 010 — BAD HABIT
+- **Internal ID:** BAD-HABIT
+- **Category:** Hand Cannon
+- **Rarity:** Altered (provisional)
+- **Slot:** Secondary
+- **Role:** High-impact close-to-mid-range sidearm.
+- **Core firing behaviour:** A heavy two-round sidearm that fires two shots in quick succession. Both rounds must be managed carefully, followed by a deliberate reload.
+- **Weapon Action: Recoil Therapy**
+
+Fire one loaded round downward to launch the player in the opposite direction. This creates a sudden movement option for escaping, changing angles, or extending an aerial movement sequence.
+
+**Rules and counterplay:**
+- The action consumes one loaded round.
+- The movement direction is based on the player's aim direction at activation.
+- It can be used while airborne.
+- The ability itself does not deal damage.
+- Using it reduces the ammunition available for the next fight, so players must choose between mobility and keeping the round.
+
+**Prototype values:** Damage, firing interval, magazine/reload values, movement impulse, and cooldown are TBD.
+
+**Status:** Proposed concept. Not yet accepted.
+
+### Weapon 011 — DEAD WEIGHT
+- **Internal ID:** DEAD-WEIGHT
+- **Category:** Heavy Launcher
+- **Rarity:** Altered (provisional)
+- **Slot:** Primary
+- **Role:** Mid-range area pressure and timing-based combat.
+- **Core firing behaviour:** Fires a heavy, relatively slow projectile in a straight line. On impact, it creates a small area effect.
+- **Weapon Action: Cut the Line**
+
+The next projectile can be detonated remotely while it is travelling by pressing Weapon Action again. The player chooses the timing of the detonation to catch opponents moving through an area or pressure a route before they reach cover.
+
+**Rules and counterplay:**
+- Only one projectile can be remotely detonated at a time.
+- The projectile remains visible while travelling.
+- Opponents can react to its trajectory and reposition before detonation.
+- If not remotely detonated, it follows its normal impact behaviour.
+- The remote detonation must have clear visual and audio feedback.
+
+**Prototype values:** Damage, blast radius, projectile speed, magazine, reload, and action cooldown are TBD.
+
+**Status:** Proposed concept. Not yet accepted.
+
 ## 5. Remaining Roster
 
-Weapons 009–167 are TBD.
+Weapons 012–167 are TBD.
 
 Do not fill the remaining roster with generic category variants just to reach 167. Each new weapon should be designed around a memorable central mechanic and a clear gameplay role.
 
