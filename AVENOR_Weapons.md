@@ -136,7 +136,7 @@ Fire a special blast that launches the user backwards and pushes opponents caugh
 ### Weapon 004 — LONG STORY
 - **Internal ID:** LONG-STORY
 - **Category:** Sniper Rifle
-- **Rarity:** Altered
+- **Rarity:** Extraordinary
 - **Slot:** Primary
 - **Role:** Long-range precision and planned angle manipulation.
 - **Core mechanic: Follow Through**
@@ -210,7 +210,7 @@ The next burst fires a fourth projectile.
 ### Weapon 007 — LAWNMOWER
 - **Internal ID:** LAWNMOWER
 - **Category:** Light Machine Gun
-- **Rarity:** Commonplace (provisional)
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Sustained fire and mobile area pressure.
 - **Core mechanic: Spool Up**
@@ -262,7 +262,7 @@ While the disc is travelling outward, aim at a valid surface and press Weapon Ac
 ### Weapon 009 — THE RENTAL
 - **Internal ID:** THE-RENTAL
 - **Category:** Utility Launcher
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Arena manipulation, creative movement, and team repositioning.
 - **Core mechanic: Temporary Lease**
@@ -292,7 +292,7 @@ While a panel is active, press Weapon Action to rotate its launch direction by 9
 ### Weapon 010 — BAD HABIT
 - **Internal ID:** BAD-HABIT
 - **Category:** Hand Cannon
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** High-impact close-to-mid-range sidearm.
 - **Core firing behaviour:** A heavy two-round sidearm that fires two shots in quick succession. Both rounds must be managed carefully, followed by a deliberate reload.
@@ -314,7 +314,7 @@ Fire one loaded round downward to launch the player in the opposite direction. T
 ### Weapon 011 — DEAD WEIGHT
 - **Internal ID:** DEAD-WEIGHT
 - **Category:** Heavy Launcher
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Mid-range area pressure and timing-based combat.
 - **Core firing behaviour:** Fires a heavy, relatively slow projectile in a straight line. On impact, it creates a small area effect.
@@ -336,7 +336,7 @@ The next projectile can be detonated remotely while it is travelling by pressing
 ### Weapon 012 — BAD RECEPTION
 - **Internal ID:** BAD-RECEPTION
 - **Category:** Pulse Rifle
-- **Rarity:** Evolved (provisional)
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** Mid-range duelling through controlled bursts and concealment of firing cues.
 - **Core mechanic: Signal Burst**
@@ -360,7 +360,7 @@ For a short duration, suppresses the weapon's distinctive firing audio and remov
 ### Weapon 013 — CALL WAITING
 - **Internal ID:** CALL-WAITING
 - **Category:** Charge Rifle
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Precision mid-to-long-range combat with weapon-switch combos.
 - **Core mechanic: Charge and Release**
@@ -384,7 +384,7 @@ Store the current charge and temporarily switch to the secondary weapon. The sto
 ### Weapon 014 — SHORT NOTICE
 - **Internal ID:** SHORT-NOTICE
 - **Category:** Repeater Crossbow
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Precision combat and creative movement.
 - **Core mechanic: Split Bolt**
@@ -409,7 +409,7 @@ Fire a special anchor bolt that attaches to the first valid solid surface it hit
 ### Weapon 015 — BAD NEIGHBOR
 - **Internal ID:** BAD-NEIGHBOR
 - **Category:** Nail Driver
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Mid-range setup and information control.
 - **Core mechanic: Property Damage**
@@ -437,7 +437,7 @@ Activate all existing markers. Each marker emits a short-range pulse that briefl
 ### Weapon 016 — TAXI
 - **Internal ID:** TAXI
 - **Category:** Impact Launcher
-- **Rarity:** Commonplace (provisional)
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Mid-range pressure and movement disruption.
 - **Core mechanic: Fare Meter**
@@ -464,7 +464,7 @@ Activate to make the next projectile create a short-lived circular bounce field 
 ### Weapon 017 — FALSE ALARM
 - **Internal ID:** FALSE-ALARM
 - **Category:** Signal Launcher
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Deception, distraction, and creating openings.
 - **Core mechanic: Wrong Place, Wrong Time**
@@ -491,7 +491,7 @@ Activate the decoy early. It performs a fake attack animation and creates a brie
 ### Weapon 018 — SECOND OPINION
 - **Internal ID:** SECOND-OPINION
 - **Category:** Twin-Barrel Rifle
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Mid-range duelling and deliberate shot timing.
 - **Core mechanic: Follow-Up**
@@ -517,7 +517,7 @@ Press and hold Weapon Action to hold the next shot instead of firing immediately
 ### Weapon 019 — PAPER TRAIL
 - **Internal ID:** PAPER-TRAIL
 - **Category:** Marker Rifle
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Route reading and punishing predictable movement.
 - **Core mechanic: Marked For Later**
@@ -599,7 +599,7 @@ Temporarily expands the connected line into a wider, clearly marked hazard zone.
 ### Weapon 022 — LAST CALL
 - **Internal ID:** LAST-CALL
 - **Category:** Sonic Projector
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Close-range disruption and emergency spacing.
 - **Core mechanic: Bad Connection**
@@ -626,7 +626,7 @@ Release a stronger forward pulse that pushes nearby opponents away and interrupt
 ### Weapon 023 — TWO CENTS
 - **Internal ID:** TWO-CENTS
 - **Category:** Precision Rifle
-- **Rarity:** Commonplace (provisional)
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Precision duelling and controlled firing rhythm.
 - **Core mechanic: Exact Change**
@@ -706,7 +706,7 @@ Pause the sequence timer briefly, allowing the player to maintain progress while
 ### Weapon 026 — SPLIT DECISION
 - **Internal ID:** SPLIT-DECISION
 - **Category:** Split-Feed Rifle
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Mid-range duelling with adaptable shot patterns.
 - **Core mechanic: Two Minds**
@@ -763,7 +763,7 @@ Temporarily increases travel speed along the active cable. The boost is visible 
 ### Weapon 028 — SLOW BURN
 - **Internal ID:** SLOW-BURN
 - **Category:** Heat Rifle
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Sustained mid-range pressure and heat management.
 - **Core mechanic: Getting Warmer**
@@ -790,7 +790,7 @@ Vent accumulated heat in a short-range burst that deals modest damage and pushes
 ### Weapon 029 — WRONG NUMBER
 - **Internal ID:** WRONG-NUMBER
 - **Category:** Signal Pistol
-- **Rarity:** Altered (provisional)
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Distraction and information manipulation.
 - **Core mechanic: You've Got Mail**
@@ -817,7 +817,7 @@ Trigger the signal early to produce a second, different sound cue before it disa
 ### Weapon 030 — NO REFUNDS
 - **Internal ID:** NO-REFUNDS
 - **Category:** Heavy Revolver
-- **Rarity:** Evolved (provisional)
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** High-impact precision duelling.
 - **Core mechanic: Final Sale**
@@ -895,7 +895,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 034 — GOOD MEASURE
 - **Internal ID:** GOOD-MEASURE
 - **Category:** Precision Rifle
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Precision duelling at a deliberately chosen engagement distance.
 - **Core mechanic: Just Right**
@@ -929,7 +929,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 036 — BACKFILL
 - **Internal ID:** BACKFILL
 - **Category:** Magazine Rifle
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Reliable mid-range damage with a tactical reserve-round decision.
 - **Core mechanic: One in the Chamber**
@@ -1082,7 +1082,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 045 — CLEAN BREAK
 - **Internal ID:** CLEAN-BREAK
 - **Category:** Break-Action Shotgun
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Close-range burst damage with a meaningful two-shell decision.
 - **Core mechanic: Two Different Stories**
@@ -1218,7 +1218,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 053 — DOUBLE TAKE
 - **Internal ID:** DOUBLE-TAKE
 - **Category:** Burst Rifle
-- **Rarity:** Altered
+- **Rarity:** Ascendant
 - **Slot:** Primary
 - **Role:** Mid-range pressure through delayed, predictable follow-up shots.
 - **Core mechanic: Echo Shot**
@@ -1252,7 +1252,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 055 — BAD TIMING
 - **Internal ID:** BAD-TIMING
 - **Category:** Automatic Rifle
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Rhythm-based sustained damage with a deliberate firing pattern.
 - **Core mechanic: Wrong Moment**
@@ -1286,7 +1286,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 057 — LAST RESORT
 - **Internal ID:** LAST-RESORT
 - **Category:** Heavy Pistol
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** High-stakes precision shooting with a clearly signalled final round.
 - **Core mechanic: One Left**
@@ -1388,7 +1388,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 063 — SQUARE DEAL
 - **Internal ID:** SQUARE-DEAL
 - **Category:** Precision Rifle
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Rewarding clean, deliberate shots with a stable firing cycle.
 - **Core mechanic: Fair and Square**
@@ -1456,7 +1456,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 067 — SLOW CLAP
 - **Internal ID:** SLOW-CLAP
 - **Category:** Semi-Automatic Rifle
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Mid-range damage that rewards a measured trigger rhythm.
 - **Core mechanic: Build the Applause**
@@ -1490,7 +1490,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 069 — WIDE OPEN
 - **Internal ID:** WIDE-OPEN
 - **Category:** Fan Shotgun
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Close-range damage across a broad horizontal lane.
 - **Core mechanic: Open Invitation**
@@ -1609,7 +1609,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 076 — TIME CARD
 - **Internal ID:** TIME-CARD
 - **Category:** Precision Repeater
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Timing-based mid-range damage with a predictable reload rhythm.
 - **Core mechanic: Clock In**
@@ -1626,7 +1626,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 077 — SPOT CHECK
 - **Internal ID:** SPOT-CHECK
 - **Category:** Burst Rifle
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Mid-range damage that rewards controlled bursts at a chosen target.
 - **Core mechanic: Inspection**
@@ -1660,7 +1660,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 079 — FENDER BENDER
 - **Internal ID:** FENDER-BENDER
 - **Category:** Impact Launcher
-- **Rarity:** Altered
+- **Rarity:** Ascendant
 - **Slot:** Primary
 - **Role:** Close-range damage and deliberate displacement.
 - **Core mechanic: Bumper to Bumper**
@@ -1711,7 +1711,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 082 — TALLY HO
 - **Internal ID:** TALLY-HO
 - **Category:** Light Machine Gun
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Sustained damage with an ammunition-counting mechanic.
 - **Core mechanic: Keep Score**
@@ -1762,7 +1762,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 085 — BLIND DATE
 - **Internal ID:** BLIND-DATE
 - **Category:** Close-Range Rifle
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Close-range damage through controlled hip-fire and a risky aiming trade-off.
 - **Core mechanic: No Introductions**
@@ -1864,7 +1864,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 091 — HEADCOUNT
 - **Internal ID:** HEADCOUNT
 - **Category:** Precision Repeater
-- **Rarity:** Altered
+- **Rarity:** Ascendant
 - **Slot:** Primary
 - **Role:** Precision damage with a clear reward for changing targets rather than tunnel vision.
 - **Core mechanic: Roll Call**
@@ -1881,7 +1881,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 092 — LATE FEE
 - **Internal ID:** LATE-FEE
 - **Category:** Pump Shotgun
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Close-range damage that rewards patient timing rather than rapid follow-up.
 - **Core mechanic: Payment Due**
@@ -2170,7 +2170,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 109 — SIDE DISH
 - **Internal ID:** SIDE-DISH
 - **Category:** Compact Launcher
-- **Rarity:** Altered
+- **Rarity:** Ascendant
 - **Slot:** Primary
 - **Role:** Mid-range damage with a secondary projectile that changes the main shot's path.
 - **Core mechanic: Comes With It**
@@ -2612,7 +2612,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 142 — OUT OF OFFICE
 - **Internal ID:** OUT-OF-OFFICE
 - **Category:** Compact SMG
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** An aggressive entry primary that rewards short bursts. The action is limited to the opening portion of one magazine and has clear feedback.
 - **Core mechanic:** A close-range SMG starts with a tight opening burst, then gradually widens during sustained fire. A short release resets the spread.
@@ -2638,7 +2638,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 144 — TWO-WAY STREET
 - **Internal ID:** TWO-WAY-STREET
 - **Category:** Twin-Barrel Sidearm
-- **Rarity:** Altered
+- **Rarity:** Extraordinary
 - **Slot:** Primary
 - **Role:** A versatile secondary sidearm. The action changes recoil sequence, not damage, and the barrel state is visible.
 - **Core mechanic:** Two barrels fire in alternating order. Each barrel has its own small recoil pattern, so alternating shots stay controllable while repeated same-side shots climb more.
@@ -2664,7 +2664,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 146 — SLOW NEWS
 - **Internal ID:** SLOW-NEWS
 - **Category:** Precision Repeater
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** A patient mid-range primary with a deliberate fallback. The quick shot is visibly less accurate and cannot match the normal shot's range.
 - **Core mechanic:** A low-rate rifle fires a clean, accurate shot followed by a slower cycling animation. The next shot becomes available sooner if the player remains aimed at the same lane, not the same opponent.
@@ -2729,7 +2729,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 151 — WINDOW SEAT
 - **Internal ID:** WINDOW-SEAT
 - **Category:** Compact Shotgun
-- **Rarity:** Altered
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** A close-range primary with a team callout tool. The outline is visible to both teams and gives no wall penetration or damage bonus.
 - **Core mechanic:** A short-range shotgun fires a narrow horizontal pellet fan. Turning during the shot widens the fan slightly, rewarding steady aim.
@@ -2755,7 +2755,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 153 — TRAFFIC JAM
 - **Internal ID:** TRAFFIC-JAM
 - **Category:** Scatter Launcher
-- **Rarity:** Altered
+- **Rarity:** Extraordinary
 - **Slot:** Primary
 - **Role:** A lane-pressure primary that chooses coverage or concentration. Projectiles are visible, slow, and individually avoidable.
 - **Core mechanic:** Fires a cluster of slow foam-like impact rounds that spread slightly while travelling. Each projectile deals modest damage and has no lingering hazard.
@@ -2781,7 +2781,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 155 — ON RECORD
 - **Internal ID:** ON-RECORD
 - **Category:** Combat Scanner
-- **Rarity:** Altered
+- **Rarity:** Singular
 - **Slot:** Secondary
 - **Role:** An information secondary for reading nearby fights. The reading expires quickly, has a limited radius, and can be confused by multiple simultaneous sounds.
 - **Core mechanic:** A compact scanner has a weak emergency pulse that deals negligible damage and is not intended for duelling. Its main function is to record the direction of the last loud enemy action nearby.
@@ -2898,7 +2898,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 164 — BETWEEN FRIENDS
 - **Internal ID:** BETWEEN-FRIENDS
 - **Category:** Link Pistol
-- **Rarity:** Altered
+- **Rarity:** Singular
 - **Slot:** Secondary
 - **Role:** A support sidearm for managing team setups. It requires a placed friendly object, has no enemy tracking, and the link breaks at range.
 - **Core mechanic:** A sidearm fires modest-damage shots. Hitting a friendly relay or marked teammate's nearby surface briefly refreshes the pistol's utility charge, not ammunition.
