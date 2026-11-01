@@ -572,7 +572,7 @@ Pull all active patches together into one longer slick strip between their posit
 ### Weapon 021 — CROSSWALK
 - **Internal ID:** CROSSWALK
 - **Category:** Tactical Rifle
-- **Rarity:** Altered (provisional)
+- **Rarity:** Evolved
 - **Slot:** Secondary
 - **Role:** Lane control and route denial.
 - **Core mechanic: Right of Way**
@@ -679,7 +679,7 @@ Fold the active panel down and redeploy it at a new valid surface within a limit
 ### Weapon 025 — HOLD MUSIC
 - **Internal ID:** HOLD-MUSIC
 - **Category:** Repeater
-- **Rarity:** Evolved (provisional)
+- **Rarity:** Extraordinary
 - **Slot:** Primary
 - **Role:** Sustained pressure and target commitment.
 - **Core mechanic: On The Line**
@@ -878,7 +878,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 033 — BOUNCER
 - **Internal ID:** BOUNCER
 - **Category:** Impact Shotgun
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** Close-range damage with deliberate knockback positioning.
 - **Core mechanic: House Rules**
@@ -963,7 +963,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 038 — TIN CAN
 - **Internal ID:** TIN-CAN
 - **Category:** Ricochet Launcher
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** Predictive area pressure using heavy, readable bouncing shots.
 - **Core mechanic: Empty Return**
@@ -997,7 +997,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 040 — GUEST LIST
 - **Internal ID:** GUEST-LIST
 - **Category:** Entry Sensor
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Secondary
 - **Role:** Reading a doorway or narrow route without giving permanent wall information.
 - **Core mechanic: RSVP**
@@ -1133,7 +1133,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 048 — BREADCRUMBS
 - **Internal ID:** BREADCRUMBS
 - **Category:** Navigation Tool
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Secondary
 - **Role:** Giving a team a simple, shared route through a complicated arena.
 - **Core mechanic: Trail Mix**
@@ -1167,7 +1167,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 050 — TAKE A NUMBER
 - **Internal ID:** TAKE-A-NUMBER
 - **Category:** Team Queue Tool
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Coordinating a controlled team rotation through a dangerous lane.
 - **Core mechanic: Your Turn**
@@ -1201,7 +1201,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 052 — DO NOT DISTURB
 - **Internal ID:** DO-NOT-DISTURB
 - **Category:** Defensive Projector
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Temporarily slowing incoming projectile pressure to create a repositioning window.
 - **Core mechanic: Quiet Zone**
@@ -1269,7 +1269,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 056 — HUSH MONEY
 - **Internal ID:** HUSH-MONEY
 - **Category:** Sound Field Projector
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Sound management for a temporary team rotation or defensive hold.
 - **Core mechanic: Keep It Down**
@@ -1320,7 +1320,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 059 — SHORT FUSE
 - **Internal ID:** SHORT-FUSE
 - **Category:** Explosive Repeater
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Primary
 - **Role:** Area pressure through multiple visible, short-lived impact charges.
 - **Core mechanic: Stick Around**
@@ -1405,7 +1405,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 064 — BULLPEN
 - **Internal ID:** BULLPEN
 - **Category:** Heavy Shotgun
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Primary
 - **Role:** Close-range damage with a commitment-based firing stance.
 - **Core mechanic: Hold the Line**
@@ -1524,7 +1524,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 071 — RED TAPE
 - **Internal ID:** RED-TAPE
 - **Category:** Tripwire Sensor
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Secondary
 - **Role:** Warning teammates when an opponent crosses a chosen route.
 - **Core mechanic: Restricted Area**
@@ -1643,7 +1643,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 078 — LATCHKEY
 - **Internal ID:** LATCHKEY
 - **Category:** Door Utility
-- **Rarity:** Evolved
+- **Rarity:** Extraordinary
 - **Slot:** Secondary
 - **Role:** Temporarily changing access through designated arena doors and gates.
 - **Core mechanic: Your Way In**
@@ -1779,7 +1779,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 086 — HIGH BEAMS
 - **Internal ID:** HIGH-BEAMS
 - **Category:** Illumination Tool
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Secondary
 - **Role:** Making dark or visually cluttered corners easier for teammates to inspect.
 - **Core mechanic: Full Visibility**
@@ -1830,7 +1830,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 089 — UNDERSTUDY
 - **Internal ID:** UNDERSTUDY
 - **Category:** Decoy Tool
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Creating a brief visual distraction during a rotation.
 - **Core mechanic: Stand-In**
@@ -1932,7 +1932,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 095 — BACK CHAT
 - **Internal ID:** BACK-CHAT
 - **Category:** Defensive Relay
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Giving a team a short warning when opponents pressure a defended position.
 - **Core mechanic: Talk Back**
@@ -1949,7 +1949,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 096 — ALL CLEAR
 - **Internal ID:** ALL-CLEAR
 - **Category:** Utility Cleaner
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Secondary
 - **Role:** Removing temporary arena clutter and opening a route for teammates.
 - **Core mechanic: Sweep Through**
@@ -2085,7 +2085,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 104 — NIGHT OWL
 - **Internal ID:** NIGHT-OWL
 - **Category:** Night Vision Utility
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Improving visibility through smoke, shadows, and visual clutter without revealing hidden opponents.
 - **Core mechanic: Late Shift**
@@ -2136,7 +2136,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 107 — DEAD END
 - **Internal ID:** DEAD-END
 - **Category:** Route Blocker
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Temporarily closing a narrow passage to force a different rotation.
 - **Core mechanic: Roadblock**
@@ -2187,7 +2187,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 110 — CLEAN SLATE
 - **Internal ID:** CLEAN-SLATE
 - **Category:** Status Utility
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Clearing a limited set of temporary movement or information effects from the user.
 - **Core mechanic: Start Fresh**
@@ -2209,7 +2209,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 111 — DOORJAM
 - **Internal ID:** DOORJAM
 - **Category:** Battering Baton
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A readable close-range dueller with a push-and-punish rhythm. The brace is stationary, brief, and visible; opponents can wait it out or attack from another angle.
 - **Core attack behaviour:** A compact baton whose light hits build a short-lived pressure meter. A heavy hit spends the meter to push the target a controlled distance.
@@ -2235,7 +2235,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 113 — PAPER TIGER
 - **Internal ID:** PAPER-TIGER
 - **Category:** Folding Fan Blade
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A timing-focused dueller. The deflection only covers a small frontal window, cannot be held, and fails against attacks from the side or rear.
 - **Core attack behaviour:** Quick light strikes build a three-step rhythm. Completing the rhythm with a correctly timed heavy strike adds a small lunge, not bonus damage.
@@ -2248,7 +2248,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 114 — LAST WORD
 - **Internal ID:** LAST-WORD
 - **Category:** Dueling Saber
-- **Rarity:** Evolved
+- **Rarity:** Extraordinary
 - **Slot:** Melee
 - **Role:** A high-skill one-on-one weapon. The parry window is short, has a clear stance cue, and can be baited or approached from off-angle.
 - **Core attack behaviour:** A precise thrust has short reach but a quick recovery. Landing it at the end of a brief movement burst grants a faster ready animation for the next strike.
@@ -2300,7 +2300,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 118 — BAD FORM
 - **Internal ID:** BAD-FORM
 - **Category:** Fencing Foil
-- **Rarity:** Evolved
+- **Rarity:** Extraordinary
 - **Slot:** Melee
 - **Role:** A spacing specialist, not an auto-hit. The marked thrust is predictable, cannot turn after starting, and can be sidestepped.
 - **Core attack behaviour:** A long, narrow thrust rewards precise spacing. Missing leaves a brief recovery; landing at maximum reach gives the player a small backward step.
@@ -2326,7 +2326,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 120 — THE BIG KNIT
 - **Internal ID:** THE-BIG-KNIT
 - **Category:** Oversized Yarn Mallet
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A lane-control melee weapon. The ripple is narrow, temporary, and avoidable by jumping or taking another route.
 - **Core attack behaviour:** A soft-headed mallet has a slow, wide swing. Hits apply a brief movement drag rather than a stun, making follow-up spacing easier.
@@ -2339,7 +2339,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 121 — CLOSE CALL
 - **Internal ID:** CLOSE-CALL
 - **Category:** Hooked Rescue Tool
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A mobility melee choice for route changes. The anchor must be visible and valid; the pull has a clear line and can be interrupted by geometry.
 - **Core attack behaviour:** A short hooked tool has a quick jab and a slower pull-cut animation. The two attacks have different reach, encouraging deliberate timing.
@@ -2378,7 +2378,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 124 — BOUNCED CHECK
 - **Internal ID:** BOUNCED-CHECK
 - **Category:** Spring Hammer
-- **Rarity:** Evolved
+- **Rarity:** Extraordinary
 - **Slot:** Melee
 - **Role:** A vertical repositioning tool. The launch has a strong sound cue, cannot be chained in midair, and leaves the player exposed on landing.
 - **Core attack behaviour:** The hammer compresses slightly on a held attack. Releasing early gives a quick short hit; a full hold gives a slower, longer-reaching swing.
@@ -2417,7 +2417,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 127 — SECOND HAND
 - **Internal ID:** SECOND-HAND
 - **Category:** Clockwork Gauntlet
-- **Rarity:** Evolved
+- **Rarity:** Singular
 - **Slot:** Melee
 - **Role:** A commitment-based brawler. The wind-up can be interrupted by moving out of range, and the faster strike is still aimable and dodgeable.
 - **Core attack behaviour:** A pair of heavy gauntlets strike in a fixed left-right cadence. A hit with the second hand resets the cadence faster, but does not add damage.
@@ -2430,7 +2430,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 128 — FLOOR MODEL
 - **Internal ID:** FLOOR-MODEL
 - **Category:** Display Stand Spear
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A precision reach weapon with a small traversal trick. The vault point is fixed, visible, and cannot be reused immediately.
 - **Core attack behaviour:** A straight thrust has long reach and a narrow hit area. A missed thrust briefly anchors the weapon, increasing recovery.
@@ -2469,7 +2469,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 131 — PAPER SHIELD
 - **Internal ID:** PAPER-SHIELD
 - **Category:** Clipboard Shield
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A utility-minded duelling tool. The block is single-use per activation, directional, and has a clear crack animation.
 - **Core attack behaviour:** The clipboard's reinforced edge delivers a short jab with modest reach. A clean hit briefly marks the target's direction on the user's HUD, not through walls.
@@ -2495,7 +2495,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 133 — MILESTONE
 - **Internal ID:** MILESTONE
 - **Category:** Surveyor's Pick
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A positional melee tool that rewards planning. The marker is visible, expires quickly, and the pull is small and never affects the target.
 - **Core attack behaviour:** A sturdy pick has a slow downward strike with a narrow impact zone. Hitting a marked floor tile grants a brief movement-speed reset, not bonus damage.
@@ -2508,7 +2508,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 134 — GOOD GRIP
 - **Internal ID:** GOOD-GRIP
 - **Category:** Climbing Gloves
-- **Rarity:** Evolved
+- **Rarity:** Extraordinary
 - **Slot:** Melee
 - **Role:** A wall-route specialist. Only tagged climbable surfaces work; the grip is short, visible, and leaves the player stationary relative to the wall.
 - **Core attack behaviour:** Gloved punches have short reach but almost no swing recovery. A hit does not interrupt an opponent's movement, so the player must maintain contact.
@@ -2534,7 +2534,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 136 — BACKSTAGE PASS
 - **Internal ID:** BACKSTAGE-PASS
 - **Category:** Stage Cane
-- **Rarity:** Altered
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A chase-and-route melee choice. The directional hint is brief and local; the vault is fixed and has a landing recovery.
 - **Core attack behaviour:** A cane has a quick hook-swing with moderate reach. A successful hit on a moving opponent briefly reveals their direction to the user only.
@@ -2547,7 +2547,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 137 — HOLD THE DOOR
 - **Internal ID:** HOLD-THE-DOOR
 - **Category:** Door Ram
-- **Rarity:** Evolved
+- **Rarity:** Extraordinary
 - **Slot:** Melee
 - **Role:** A frontline anchor for objective modes. It does not grant invulnerability, blocks no bullets, and is vulnerable from the sides.
 - **Core attack behaviour:** A heavy ram strike has a long wind-up and a broad frontal impact. It deals consistent damage but has no bonus against grouped opponents.
@@ -2846,7 +2846,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 160 — SPARE ROOM
 - **Internal ID:** SPARE-ROOM
 - **Category:** Deployable Launcher
-- **Rarity:** Ascendant
+- **Rarity:** Singular
 - **Slot:** Secondary
 - **Role:** A vertical route tool. The platform is visible, destructible, and temporary; it cannot be placed through solid geometry or inside objectives.
 - **Core mechanic:** Fires a puck that unfolds into a small one-way drop-through platform. Players can stand on it briefly, but it collapses after a short duration.
