@@ -2466,8 +2466,8 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 - **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
 - **Status:** Accepted concept. Prototype values are TBD.
 
-### Weapon 131 — HARD COPY
-- **Internal ID:** HARD-COPY
+### Weapon 131 — PAPER SHIELD
+- **Internal ID:** PAPER-SHIELD
 - **Category:** Clipboard Shield
 - **Rarity:** Altered
 - **Slot:** Melee
