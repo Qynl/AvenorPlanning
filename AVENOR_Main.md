@@ -256,7 +256,7 @@ Ranked systems must reward skill and consistency, with matchmaking and rating ru
 There are no customizable character outfits, faces, helmets, or accessories.
 
 Cosmetic categories include:
-- Weapon skins
+- **Weapon skins are always individual to a specific weapon.** A skin designed for one weapon cannot be equipped on another weapon. There are no universal or cross-weapon skin patterns.
 - Emotes and dances
 - Victory and win animations
 - Elimination and kill effects
