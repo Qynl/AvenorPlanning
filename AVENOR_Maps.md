@@ -1,0 +1,282 @@
+# AVENOR — Map System & Arena Design Standards
+
+> **Status: Proposed for approval.** This document defines the standards for designing, evaluating, and documenting AVENOR maps. It does not lock individual maps, layouts, dimensions, or final map counts. Every map must be tested in its intended modes before approval.
+
+## 1. Map Design Philosophy
+
+AVENOR maps should be memorable arenas built for fast, readable, competitive FPS gameplay.
+
+A map must do more than look attractive. It needs to create meaningful decisions through:
+- Route choice and positioning.
+- Clear but varied sightlines.
+- Cover, exposure, and safe rotations.
+- Sprinting, sliding, jumping, and air control.
+- Flanks and alternate approaches.
+- Verticality that creates options without making opponents impossible to read.
+- Mode-specific objective spaces.
+- Distinct visual identity and landmarks.
+
+**Core rule:** Build the gameplay layout first, then wrap the visual theme around it. A beautiful map that plays badly is not a good AVENOR map.
+
+## 2. Map Identity
+
+Every map must have a recognisable identity.
+
+Each map needs:
+- A unique name.
+- A strong visual theme and atmosphere.
+- A memorable central landmark or defining feature.
+- A distinct layout or gameplay mechanic where appropriate.
+- A clear colour and material language.
+- A short identity statement explaining what makes the map different.
+
+Maps must not feel like the same arena with different textures. Reusing proven layout principles is acceptable; copying the same flow and changing the theme is not.
+
+## 3. Map Size Categories
+
+Map size is determined by player count, travel time, sightlines, and objective spacing, not by an arbitrary stud count.
+
+| Category | Intended use | Design focus |
+|---|---|---|
+| Compact | DUEL and some DUOS layouts | Fast engagements, short rotations, tightly controlled sightlines |
+| Medium | DUOS, 4v4 team modes, ORIGIN | Multiple routes, meaningful flanks, objective control |
+| Large | FFA or modes that need more separation | More spawn options, route variety, controlled long sightlines |
+
+These are functional categories, not fixed dimensions. Exact dimensions and travel times must be measured in Roblox Studio and playtested.
+
+A map should not be enlarged simply to feel impressive. Empty travel space weakens match pacing.
+
+## 4. Layout and Route Standards
+
+### Route structure
+- Maps should provide more than one viable way to reach important areas.
+- Main routes must be easy to understand at a glance.
+- Alternate routes should offer a meaningful trade-off, such as extra travel time, exposure, elevation, or reduced cover.
+- Flanking routes must not become unavoidable instant access to every spawn.
+- Chokepoints may exist, but should have more than one possible response where practical.
+- Dead ends should be intentional and provide a clear tactical benefit or risk.
+
+A three-route structure can be a useful starting point, but it is not mandatory. Maps should not all become identical three-lane layouts.
+
+### Route readability
+Players should be able to understand:
+- Where a route leads.
+- Whether it is exposed or protected.
+- Which areas connect.
+- Whether a route is one-way or can be reversed.
+- Where important objectives and landmarks are located.
+
+Use architecture, lighting, colour, and landmarks to guide players naturally. Do not rely entirely on arrows or UI markers.
+
+## 5. Sightlines, Cover, and Engagement Distance
+
+Every map should support a deliberate mix of engagement distances.
+
+- Short sightlines create close-range encounters and movement opportunities.
+- Medium sightlines support the main rhythm of most engagements.
+- Long sightlines should be intentional and should not dominate every route.
+- Cover should break up exposed spaces without creating confusing visual clutter.
+- Players should have a reasonable way to challenge or avoid a powerful sightline.
+- Spawn areas must not be directly exposed to common enemy positions.
+
+Sniper-friendly positions can exist, but they must have counter-routes, limited dominance, or meaningful exposure. No single position should control too much of the map without a cost.
+
+Cover must be visually consistent with its actual collision. Decorative objects must not misleadingly appear solid or block shots when they do not.
+
+## 6. Verticality and Movement
+
+Maps must support AVENOR's confirmed movement direction:
+- Sprint.
+- Slide.
+- Jump.
+- Responsive ground movement.
+- Air control.
+
+Vertical routes should create interesting choices, not mandatory frustration.
+
+Standards:
+- Elevated positions need identifiable access routes.
+- Important areas should not be reachable only through obscure movement exploits.
+- Players below should have a readable way to understand threats above.
+- Jump gaps and slide routes must be tested at realistic movement values.
+- No route should depend on frame-rate-specific timing.
+- Movement paths must be checked on keyboard/mouse, controller, and mobile.
+- Avoid excessive overlapping platforms, tiny ledges, and decorative geometry that creates inconsistent collision.
+
+Not every map needs advanced verticality. Some maps should be flatter and more focused on timing, aim, and route control.
+
+## 7. Spawn Design
+
+Spawn fairness is mandatory.
+
+### Spawn principles
+- Players should not spawn in immediate enemy line of sight where practical.
+- Spawn selection must consider enemy distance, visibility, nearby combat, objective state, and recent spawn locations.
+- Avoid repeatedly spawning a player in the same unsafe area.
+- Spawn areas need more than one viable exit where possible.
+- Spawn locations should not be easy to trap with a single player or ability.
+- Spawn protection, if used by a mode, must be brief and clearly communicated.
+
+### Team modes
+- Team spawns should be separated enough to prevent immediate cross-map eliminations.
+- Spawn flipping should be predictable enough to understand but not exploitable.
+- Objective progress must not cause the spawn system to place players directly into danger.
+- Maps need safe fallback spawn locations.
+
+### FFA
+- Use several distributed spawn locations.
+- Avoid placing players beside an active opponent or directly behind an opponent who cannot reasonably react.
+- Account for recent eliminations and local combat density.
+- Test spawn logic with the full intended player count.
+
+Spawn fairness must be measured through repeated playtests, not judged only by looking at the map in Studio.
+
+## 8. Objective and Mode Support
+
+A map must list exactly which modes it supports and why its layout suits them.
+
+| Mode | Important map requirements |
+|---|---|
+| DUEL | Fair starting positions, controlled sightlines, compact routes, no dominant spawn trap |
+| DUOS | Two-player coordination, useful cover pairs, alternate approaches |
+| TEAM DEATHMATCH | Safe spawn distribution, route variety, room for repeated engagements |
+| FREE FOR ALL | Multiple viable spawn locations, low spawn repetition, several engagement routes |
+| HARDPOINT | Clear objective rotation spaces, multiple approaches, defensible but contestable zones |
+| CAPTURE THE FLAG | Readable bases, balanced attack routes, viable return paths, meaningful defence |
+| AVENOR ORIGIN | Layout built around the evolving central objective, with surrounding routes and space for changing priorities |
+
+A map may support multiple modes, but only if each mode works properly. Do not force every mode onto every map.
+
+### AVENOR ORIGIN maps
+ORIGIN maps need special attention:
+- The central structure must be visually and spatially important.
+- Players need more than one approach to the objective.
+- Surrounding areas should create meaningful choices between contesting, defending, and rotating.
+- Objective changes must remain readable from different parts of the arena.
+- The layout must support the final approved ORIGIN mechanics, not an assumed version of them.
+
+## 9. Map Interactions and Pickups
+
+Interactive map elements should exist only when they improve gameplay.
+
+Possible elements:
+- Weapon pickups.
+- Doors or gates.
+- Jump or movement features.
+- Breakable or temporary objects, if technically fair.
+- Mode-specific objective devices.
+- Resupply or interaction points, if a mode requires them.
+
+Rules:
+- Interactions need clear visual and audio feedback.
+- Activation range and timing must be consistent.
+- Interactions must not trigger accidentally during combat.
+- Important interactions must be server-validated.
+- Pickups must be visible and understandable before collection.
+- A map mechanic must not create an unavoidable advantage for one starting side.
+- Avoid adding mechanics just because they look impressive.
+
+Every interactive element must have a documented purpose, interaction rule, cooldown or reset rule where applicable, and counterplay.
+
+## 10. Visual Direction and Performance
+
+### Visual identity
+- Clean, readable, low-to-mid-poly Roblox 3D style.
+- Strong silhouettes and clear material separation.
+- Distinct map themes without visual noise.
+- Lighting that supports visibility and does not hide opponents unfairly.
+- Landmarks that help players orient themselves.
+- AVENOR's deep navy, ice blue, white, graphite, and soft violet can inform the world, but every map does not need to use the exact same palette.
+
+### Performance
+- Keep geometry, particles, lighting, and moving objects within Roblox performance budgets.
+- Avoid excessive transparent layers and overlapping effects.
+- Use level-of-detail and streaming approaches where appropriate.
+- Test on lower-end mobile devices as well as PC.
+- Avoid large numbers of unnecessary physics-driven objects.
+- Keep collision simple and predictable.
+
+Visual spectacle must never make opponents, projectiles, pickups, or objectives harder to read.
+
+## 11. Competitive Fairness Checklist
+
+Before a map is accepted, test:
+- Both starting sides.
+- All supported modes and intended player counts.
+- Spawn safety and spawn repetition.
+- Long sightline dominance.
+- Flank travel time and exposure.
+- Vertical access and escape routes.
+- Objective approach balance.
+- Pickup placement and contestability.
+- Collision accuracy.
+- Performance on target platforms.
+- Whether a player can become trapped without a reasonable response.
+- Whether one position or route dominates too many situations.
+
+Maps should be tested with real players. A layout that looks symmetrical may not play symmetrically.
+
+## 12. Map Specification Template
+
+Every individual map document should use this structure:
+
+1. **Name**
+2. **One-sentence identity**
+3. **Visual theme and atmosphere**
+4. **Supported modes**
+5. **Recommended player counts**
+6. **Size category**
+7. **Layout overview**
+8. **Main routes and flank routes**
+9. **Key areas and landmarks**
+10. **Sightlines and engagement distances**
+11. **Vertical routes and movement features**
+12. **Spawn locations and spawn logic**
+13. **Objectives and mode-specific layout**
+14. **Pickups and interactive elements**
+15. **Visual readability requirements**
+16. **Performance considerations**
+17. **Known risks and counterplay**
+18. **Playtest results and revisions**
+19. **Approval status**
+
+## 13. Map Development Workflow
+
+1. Define the map's gameplay identity.
+2. Select the modes and player counts it should support.
+3. Create a simple greybox layout.
+4. Test routes, sightlines, movement, and spawns.
+5. Revise the layout before detailed art.
+6. Add the visual theme and landmarks.
+7. Add approved interactions and pickups.
+8. Test performance and readability on multiple devices.
+9. Run repeated matches in every supported mode.
+10. Approve the map only when it meets the fairness and performance checklist.
+
+Do not build a fully decorated map before its greybox has proven fun.
+
+## 14. Current Decisions and Open Questions
+
+### Confirmed direction
+- AVENOR will have multiple distinct arena maps.
+- Maps should support movement, alternate routes, verticality, cover, and meaningful map control.
+- Maps should be designed for competitive readability and Roblox performance.
+- Mode compatibility is selective; not every map must support every mode.
+- AVENOR ORIGIN is a signature 4v4 mode and its maps must be designed around its final objective mechanics.
+
+### Proposed standards
+- Compact, Medium, and Large functional map categories.
+- Layout, route, sightline, spawn, objective, interaction, visual, and performance standards in this document.
+- Greybox-first development workflow.
+- Individual map specification template.
+
+### Still open
+- Initial launch map count.
+- Individual map themes and names.
+- Exact dimensions and movement travel times.
+- Which maps support which modes.
+- Weapon pickup rules and placements.
+- Interactive map mechanics.
+- Spawn algorithms and numerical safety thresholds.
+- Final ORIGIN objective layout requirements.
+- Ranked map pool and map-veto rules.
