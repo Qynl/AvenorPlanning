@@ -9,6 +9,7 @@ AVENOR is planned to launch with **167 weapons**.
 The goal is not to fill a spreadsheet with generic versions of familiar guns. Every weapon should feel recognizably different in the player's hands.
 
 ### Core Rules
+- **Slot rule:** Primary is for the main damage-dealing weapons. A weapon whose main purpose is utility, movement, information, deception, or arena control belongs in Secondary, even if it has incidental damage. Secondary can also contain damaging sidearms.
 - Every weapon needs a distinct identity, silhouette, sound, handling, and gameplay purpose.
 - Weapon abilities should create interesting decisions or memorable moments, not merely provide generic damage or recoil buffs.
 - Player-facing names should feel natural, memorable, and distinctive. The naming style can mix everyday words, objects, surnames, nicknames, and understated humor.
@@ -80,7 +81,9 @@ Activate to cash in the mark. The next shot that hits the marked opponent deals 
 
 **Prototype values:** Damage, mark progression, mark duration, bonus cap, and cooldown are TBD.
 
-**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 002 — POCKET ROCKET
+**Status:** Accepted redesign concept. Prototype values are TBD.
+
+### Weapon 002 — POCKET ROCKET
 - **Internal ID:** POCKET-ROCKET
 - **Category:** Submachine Gun
 - **Rarity:** Commonplace
@@ -102,7 +105,9 @@ Perform a short forward movement burst while keeping the weapon ready.
 
 **Prototype values:** Base and maximum fire rate, acceleration time, magazine, movement distance, recovery, and cooldown are TBD.
 
-**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 003 — DOORBELL
+**Status:** Accepted redesign concept. Prototype values are TBD.
+
+### Weapon 003 — DOORBELL
 - **Internal ID:** DOORBELL
 - **Category:** Shotgun
 - **Rarity:** Commonplace
@@ -126,7 +131,9 @@ Fire a special blast that launches the user backwards and pushes opponents caugh
 
 **Prototype values:** Pellet count, damage, spread profiles, magazine, reload, push strength, and cooldown are TBD.
 
-**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 004 — LONG STORY
+**Status:** Accepted redesign concept. Prototype values are TBD.
+
+### Weapon 004 — LONG STORY
 - **Internal ID:** LONG-STORY
 - **Category:** Sniper Rifle
 - **Rarity:** Altered
@@ -149,7 +156,9 @@ Place a visible marker on a valid surface within range. The next scoped shot can
 
 **Prototype values:** Stabilization duration, marker range and lifetime, shot redirection rules, and cooldown are TBD.
 
-**Status:** Accepted redesign concept, pending competitive testing.### Weapon 005 — LOOSE CHANGE
+**Status:** Accepted redesign concept, pending competitive testing.
+
+### Weapon 005 — LOOSE CHANGE
 - **Internal ID:** LOOSE-CHANGE
 - **Category:** Pistol
 - **Rarity:** Commonplace
@@ -172,7 +181,9 @@ Toss a special metal token into the arena. Shooting the token redirects the next
 
 **Prototype values:** Damage, magazine, projectile speed, ricochet rules, token lifetime, and cooldown are TBD.
 
-**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 006 — THREE'S COMPANY
+**Status:** Accepted redesign concept. Prototype values are TBD.
+
+### Weapon 006 — THREE'S COMPANY
 - **Internal ID:** THREES-COMPANY
 - **Category:** Burst Rifle
 - **Rarity:** Commonplace
@@ -194,7 +205,9 @@ The next burst fires a fourth projectile.
 
 **Prototype values:** Burst interval, third-shot trajectory, fourth-shot trajectory, ammunition cost, recovery, and cooldown are TBD.
 
-**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 007 — LAWNMOWER
+**Status:** Accepted redesign concept. Prototype values are TBD.
+
+### Weapon 007 — LAWNMOWER
 - **Internal ID:** LAWNMOWER
 - **Category:** Light Machine Gun
 - **Rarity:** Commonplace (provisional)
@@ -216,7 +229,9 @@ Lock the barrel at maximum spin for a short period. During this window, the play
 
 **Prototype values:** Spin-up time, fire-rate curve, magazine, movement speed during Grass Cutter, duration, and cooldown are TBD.
 
-**Status:** Accepted redesign concept. Prototype values are TBD.### Weapon 008 — RETURN TO SENDER
+**Status:** Accepted redesign concept. Prototype values are TBD.
+
+### Weapon 008 — RETURN TO SENDER
 - **Internal ID:** RETURN-TO-SENDER
 - **Category:** Returning Disc Launcher
 - **Rarity:** Altered (provisional)
@@ -248,7 +263,7 @@ While the disc is travelling outward, aim at a valid surface and press Weapon Ac
 - **Internal ID:** THE-RENTAL
 - **Category:** Utility Launcher
 - **Rarity:** Altered (provisional)
-- **Slot:** Primary
+- **Slot:** Secondary
 - **Role:** Arena manipulation, creative movement, and team repositioning.
 - **Core mechanic: Temporary Lease**
 
@@ -553,9 +568,282 @@ Pull all active patches together into one longer slick strip between their posit
 
 **Status:** Accepted concept. Prototype values are TBD.
 
+
+### Weapon 021 — CROSSWALK
+- **Internal ID:** CROSSWALK
+- **Category:** Tactical Rifle
+- **Rarity:** Altered (provisional)
+- **Slot:** Secondary
+- **Role:** Lane control and route denial.
+- **Core mechanic: Right of Way**
+
+Fires accurate marker rounds that stick to suitable surfaces. Two active markers create a visible line between them. Opponents crossing the line trigger a brief damaging pulse.
+
+- **Weapon Action: Road Closed**
+
+Temporarily expands the connected line into a wider, clearly marked hazard zone.
+
+**Rules and counterplay:**
+- A maximum of two markers can be active.
+- The connecting line is visible to everyone.
+- Markers can be destroyed, and opponents can avoid crossing the line.
+- The expanded zone is temporary and clearly telegraphed.
+- The weapon's main purpose is controlling routes rather than serving as a conventional damage dealer.
+
+**Visual identity:** Compact tactical marker rifle with construction-yellow details, glowing marker rounds, and a small crossing-signal display.
+
+**Prototype values:** Marker lifetime, line width, trigger damage, expanded-zone size and duration, placement range, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 022 — LAST CALL
+- **Internal ID:** LAST-CALL
+- **Category:** Sonic Projector
+- **Rarity:** Altered (provisional)
+- **Slot:** Secondary
+- **Role:** Close-range disruption and emergency spacing.
+- **Core mechanic: Bad Connection**
+
+Emits short-range sonic pulses that deal modest damage and briefly disrupt an opponent's movement momentum. Each pulse has a short recovery period.
+
+- **Weapon Action: Hang Up**
+
+Release a stronger forward pulse that pushes nearby opponents away and interrupts their current movement direction.
+
+**Rules and counterplay:**
+- Effective range is short.
+- Pulses have clear audio and visual telegraphs.
+- The weapon is not designed to compete with primary weapons at range.
+- Hang Up has a noticeable recovery window.
+- Opponents can stay outside its effective range or bait its stronger pulse.
+
+**Visual identity:** Chunky handheld speaker-projector with a telephone-receiver grip and oversized volume dial.
+
+**Prototype values:** Pulse damage, range, disruption duration, push strength, recovery, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 023 — TWO CENTS
+- **Internal ID:** TWO-CENTS
+- **Category:** Precision Rifle
+- **Rarity:** Commonplace (provisional)
+- **Slot:** Primary
+- **Role:** Precision duelling and controlled firing rhythm.
+- **Core mechanic: Exact Change**
+
+Fires accurate individual shots. Every second shot is a heavier round with a distinct sound and slightly different projectile speed. The alternating rhythm is consistent and learnable.
+
+- **Weapon Action: My Two Cents**
+
+Load one special round into the next available shot. A hit deals normal damage but briefly disrupts the opponent's aim position.
+
+**Rules and counterplay:**
+- The alternating shot pattern is predictable.
+- The special round requires a direct hit.
+- The aim disruption is brief and does not remove player control.
+- The weapon has a limited magazine and still rewards accurate aim.
+
+**Visual identity:** Long, slim precision weapon with a two-position chamber indicator and a crisp mechanical firing sound.
+
+**Prototype values:** Damage, projectile speeds, magazine, firing interval, aim-disruption duration, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 024 — OPEN HOUSE
+- **Internal ID:** OPEN-HOUSE
+- **Category:** Deployable Launcher
+- **Rarity:** Altered (provisional)
+- **Slot:** Secondary
+- **Role:** Temporary cover and defensive repositioning.
+- **Core mechanic: Viewing Appointment**
+
+Fires a compact device that unfolds into a temporary waist-high cover panel when it reaches a valid surface. The panel blocks incoming projectiles and can be destroyed.
+
+- **Weapon Action: Under New Management**
+
+Fold the active panel down and redeploy it at a new valid surface within a limited range. The player is briefly left without the panel's protection while it moves.
+
+**Rules and counterplay:**
+- Only one panel can be active.
+- The panel has a visible health state and can be destroyed.
+- Placement and redeployment have clear visual cues.
+- Moving the panel creates a temporary opening opponents can exploit.
+- The panel cannot be placed through solid geometry.
+
+**Visual identity:** Construction-style launcher with a folding rectangular panel, warning stripes, and visible hinges.
+
+**Prototype values:** Panel health, lifetime, placement range, redeployment time, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 025 — HOLD MUSIC
+- **Internal ID:** HOLD-MUSIC
+- **Category:** Repeater
+- **Rarity:** Evolved (provisional)
+- **Slot:** Primary
+- **Role:** Sustained pressure and target commitment.
+- **Core mechanic: On The Line**
+
+Fires a sequence of small damaging projectiles. Each hit adds a brief note marker to the target. Completing the sequence on one opponent triggers a final, stronger projectile.
+
+- **Weapon Action: Please Stay On The Line**
+
+Pause the sequence timer briefly, allowing the player to maintain progress while repositioning or briefly changing focus.
+
+**Rules and counterplay:**
+- Missing shots interrupts the sequence.
+- Switching targets normally resets the active sequence.
+- The final projectile must still connect to deal its damage.
+- Note markers are visible to the affected opponent.
+- The action only pauses the timer briefly; it does not preserve progress indefinitely.
+
+**Visual identity:** Clean repeater with a scrolling display and small musical indicator lights that add a note for each successful hit.
+
+**Prototype values:** Projectile damage, sequence length, final-shot damage, marker lifetime, pause duration, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 026 — SPLIT DECISION
+- **Internal ID:** SPLIT-DECISION
+- **Category:** Split-Feed Rifle
+- **Rarity:** Altered (provisional)
+- **Slot:** Primary
+- **Role:** Mid-range duelling with adaptable shot patterns.
+- **Core mechanic: Two Minds**
+
+The rifle alternates between two consistent shot types:
+- **Single:** One accurate, stronger projectile.
+- **Split:** Two weaker projectiles that separate after travelling a short distance.
+
+The sequence is fixed and learnable.
+
+- **Weapon Action: Make Your Choice**
+
+Skip the upcoming pattern and select which shot type fires next. The normal alternating sequence resumes afterward.
+
+**Rules and counterplay:**
+- The upcoming shot type is clearly indicated.
+- Split projectiles become easier to avoid at longer distances.
+- The action changes the next shot only; it does not provide automatic targeting.
+- The weapon's rhythm can be learned and anticipated.
+
+**Visual identity:** Compact rifle with two distinct feed chambers and a mechanical indicator showing the next shot type.
+
+**Prototype values:** Damage per shot, split distance, projectile spread, firing interval, magazine, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 027 — SHORTCUT
+- **Internal ID:** SHORTCUT
+- **Category:** Traversal Launcher
+- **Rarity:** Evolved (provisional)
+- **Slot:** Secondary
+- **Role:** Team movement and route creation.
+- **Core mechanic: No Walking Required**
+
+Fires two compact anchors onto valid surfaces. Once both are placed, a temporary traversable cable connects them. Players can attach to the cable and travel along it.
+
+- **Weapon Action: Express Lane**
+
+Temporarily increases travel speed along the active cable. The boost is visible and applies to anyone using the cable.
+
+**Rules and counterplay:**
+- Both anchors must attach to valid surfaces.
+- Only one cable can be active.
+- Anchors and cable are visible and can be removed.
+- The cable expires after a limited duration.
+- The weapon does not deal damage; its purpose is traversal and team utility.
+
+**Visual identity:** Compact industrial launcher with anchor cartridges, a retractable cable, and a bright deployment indicator.
+
+**Prototype values:** Anchor range, cable lifetime, travel speed, boost duration, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 028 — SLOW BURN
+- **Internal ID:** SLOW-BURN
+- **Category:** Heat Rifle
+- **Rarity:** Altered (provisional)
+- **Slot:** Primary
+- **Role:** Sustained mid-range pressure and heat management.
+- **Core mechanic: Getting Warmer**
+
+Every shot builds heat. As heat rises, projectile damage gradually increases up to a cap. Firing for too long causes the weapon to overheat and enter a forced cooling period.
+
+- **Weapon Action: Let It Breathe**
+
+Vent accumulated heat in a short-range burst that deals modest damage and pushes nearby opponents away. The vent reduces the weapon's heat level.
+
+**Rules and counterplay:**
+- Heat level is clearly displayed.
+- Overheating interrupts normal firing temporarily.
+- The vent has a limited radius and a clear warning.
+- Players can pressure the user during the cooling window.
+- The damage increase has a defined cap.
+
+**Visual identity:** Industrial rifle with visible heat vents, a temperature gauge, and increasingly bright internal components.
+
+**Prototype values:** Heat per shot, damage curve, overheat threshold, cooling time, vent damage and push strength, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 029 — WRONG NUMBER
+- **Internal ID:** WRONG-NUMBER
+- **Category:** Signal Pistol
+- **Rarity:** Altered (provisional)
+- **Slot:** Secondary
+- **Role:** Distraction and information manipulation.
+- **Core mechanic: You've Got Mail**
+
+Fires a signal that attaches to a surface and creates a temporary false audio cue at that location. It can imitate selected sounds such as footsteps, a reload, or a weapon action.
+
+- **Weapon Action: Call Back**
+
+Trigger the signal early to produce a second, different sound cue before it disappears.
+
+**Rules and counterplay:**
+- The signal does not deal damage.
+- Only one active signal can exist.
+- The device is visible and can be destroyed.
+- Audio cues have a limited range and duration.
+- Repeated cues can be recognised as artificial.
+
+**Visual identity:** Compact signal pistol with a small screen, antenna, and rotating channel selector.
+
+**Prototype values:** Signal lifetime, audio range, available sound cues, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 030 — NO REFUNDS
+- **Internal ID:** NO-REFUNDS
+- **Category:** Heavy Revolver
+- **Rarity:** Evolved (provisional)
+- **Slot:** Primary
+- **Role:** High-impact precision duelling.
+- **Core mechanic: Final Sale**
+
+The revolver has a small cylinder. Consecutive misses gradually increase the recovery time between shots. Landing a hit resets the penalty, rewarding accuracy and deliberate firing.
+
+- **Weapon Action: No Takebacks**
+
+Load one special round. If it hits an opponent, it briefly prevents them from using their Weapon Action. It deals normal damage rather than bonus damage.
+
+**Rules and counterplay:**
+- The miss penalty has a defined cap.
+- The special round must be aimed and hit normally.
+- Weapon Action lockout is brief and clearly communicated.
+- The small cylinder requires careful ammunition management.
+- Opponents can use cover and avoid predictable peeks.
+
+**Visual identity:** Heavy, slightly oversized revolver with a visible cylinder and a small red SALE indicator.
+
+**Prototype values:** Damage, cylinder capacity, recovery penalty, reload time, lockout duration, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
 ## 5. Remaining Roster
 
-Weapons 015–167 are TBD.
+Weapons 031–167 are TBD.
 
 Do not fill the remaining roster with generic category variants just to reach 167. Each new weapon should be designed around a memorable central mechanic and a clear gameplay role.
 
