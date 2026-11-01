@@ -2201,9 +2201,755 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Prototype values:** Eligible effect list, range, wind-up, charge count, and cooldown are TBD.
 - **Status:** Proposed concept. Prototype values are TBD.
 
-## 5. Remaining Roster
+## 5. New Weapons 111–167
 
-Weapons 111–167 are TBD.
+The roster now uses three distinct equipment slots: **Primary**, **Secondary**, and **Melee**. Melee weapons occupy the dedicated close-combat slot in the loadout; they are not classified as Primary or Secondary. Primary and Secondary continue to follow the existing damage-dealer versus utility rule.
+The roster now uses three distinct equipment slots: **Primary**, **Secondary**, and **Melee**. Melee weapons occupy the dedicated close-combat slot in the loadout; they are not classified as Primary or Secondary. Primary and Secondary continue to follow the existing damage-dealer versus utility rule.
+
+### Weapon 111 — DOORJAM
+- **Internal ID:** DOORJAM
+- **Category:** Battering Baton
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A readable close-range dueller with a push-and-punish rhythm. The brace is stationary, brief, and visible; opponents can wait it out or attack from another angle.
+- **Core attack behaviour:** A compact baton whose light hits build a short-lived pressure meter. A heavy hit spends the meter to push the target a controlled distance.
+- **Weapon Action:** Plant the baton into the floor to create a brief brace. The next incoming push is reduced, but the player cannot move during the brace.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A squared maintenance baton with a sliding pressure gauge.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 112 — BELLHOP
+- **Internal ID:** BELLHOP
+- **Category:** Suitcase Maul
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A crowd-control melee pick for doorways. Its slow wind-up is easy to read and punish; the action is strongest when opponents group up.
+- **Core attack behaviour:** A heavy suitcase-shaped club with slow, deliberate swings. A clean hit briefly interrupts an opponent's sprint, but does not stun or disable firing.
+- **Weapon Action:** Swing the case in a broad horizontal arc that can hit multiple nearby opponents for reduced damage. The action has a long recovery.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A battered hard-shell travel case with reinforced corners and luggage tags.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 113 — PAPER TIGER
+- **Internal ID:** PAPER-TIGER
+- **Category:** Folding Fan Blade
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A timing-focused dueller. The deflection only covers a small frontal window, cannot be held, and fails against attacks from the side or rear.
+- **Core attack behaviour:** Quick light strikes build a three-step rhythm. Completing the rhythm with a correctly timed heavy strike adds a small lunge, not bonus damage.
+- **Weapon Action:** Snap the fan open to deflect one incoming projectile from the front, then immediately close it. The timing window is narrow.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** An oversized lacquered folding fan with sharp geometric ribs and crisp snap audio.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 114 — LAST WORD
+- **Internal ID:** LAST-WORD
+- **Category:** Dueling Saber
+- **Rarity:** Evolved
+- **Slot:** Melee
+- **Role:** A high-skill one-on-one weapon. The parry window is short, has a clear stance cue, and can be baited or approached from off-angle.
+- **Core attack behaviour:** A precise thrust has short reach but a quick recovery. Landing it at the end of a brief movement burst grants a faster ready animation for the next strike.
+- **Weapon Action:** Enter a short parry stance. A correctly timed frontal melee hit is deflected and creates a small opening; ranged shots are unaffected.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A clean single-edged practice saber with a bright guard and minimal ornament.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 115 — SHOPPING CART
+- **Internal ID:** SHOPPING-CART
+- **Category:** Twin Push Bars
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A mobile space-maker with modest reach. The shove is telegraphed, travels in a straight line, and cannot pass through walls.
+- **Core attack behaviour:** Two compact bars deliver rapid alternating strikes. Holding attack repeats the sequence, but the final swing has a noticeable recovery.
+- **Weapon Action:** Lock the bars together and perform a short forward shove that moves opponents without dealing extra damage.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** Two bright steel cart handles connected by a folding hinge.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 116 — NIGHT SHIFT
+- **Internal ID:** NIGHT-SHIFT
+- **Category:** Weighted Flashlight
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A visibility-and-melee hybrid. The flash has limited range, does no damage, and briefly blooms the user's own screen too.
+- **Core attack behaviour:** A sturdy flashlight used for quick, short-range strikes. Consecutive hits on different opponents keep the attack rhythm steady; repeating one target does not increase damage.
+- **Weapon Action:** Flash a brief cone of light that makes nearby enemy silhouettes easier to distinguish for the user, without revealing them through walls.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A chunky industrial torch with a rotating head and a warm beam.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 117 — THE BUTLER
+- **Internal ID:** THE-BUTLER
+- **Category:** Serving Tray
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A defensive melee choice for holding a tight corner. The guard is directional, brief, and does not stop bullets.
+- **Core attack behaviour:** A broad tray delivers short-range swats with a wide hit arc and low reach. Hits from the side have the same damage as frontal hits.
+- **Weapon Action:** Raise the tray as a brief frontal guard against one melee strike, then it drops and enters recovery.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A polished oval serving tray with a discreet crest and scuffed underside.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 118 — BAD FORM
+- **Internal ID:** BAD-FORM
+- **Category:** Fencing Foil
+- **Rarity:** Evolved
+- **Slot:** Melee
+- **Role:** A spacing specialist, not an auto-hit. The marked thrust is predictable, cannot turn after starting, and can be sidestepped.
+- **Core attack behaviour:** A long, narrow thrust rewards precise spacing. Missing leaves a brief recovery; landing at maximum reach gives the player a small backward step.
+- **Weapon Action:** Mark a visible point on the floor. The next thrust from within a short radius is aimed along the player's current direction but starts with a tiny delay.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A lightweight training foil with a ring guard and a bright tape-wrapped grip.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 119 — PICKUP STICKS
+- **Internal ID:** PICKUP-STICKS
+- **Category:** Twin Batons
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A tempo weapon for players who stay close. It cannot chain endlessly; the recovery cancel is limited and readable.
+- **Core attack behaviour:** Fast alternating strikes have very short reach. A successful pair of hits allows the next attack to come out slightly sooner, with no damage increase.
+- **Weapon Action:** Cross both batons to cancel the current recovery early once, then the weapon enters a longer cooldown.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** Two matte batons with contrasting end caps and a clean crossed animation.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 120 — THE BIG KNIT
+- **Internal ID:** THE-BIG-KNIT
+- **Category:** Oversized Yarn Mallet
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A lane-control melee weapon. The ripple is narrow, temporary, and avoidable by jumping or taking another route.
+- **Core attack behaviour:** A soft-headed mallet has a slow, wide swing. Hits apply a brief movement drag rather than a stun, making follow-up spacing easier.
+- **Weapon Action:** Plant the mallet and send a short, visible ripple across the floor that slightly slows opponents who cross it.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A comically oversized knitted mallet with a sturdy handle and stitched seams.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 121 — CLOSE CALL
+- **Internal ID:** CLOSE-CALL
+- **Category:** Hooked Rescue Tool
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A mobility melee choice for route changes. The anchor must be visible and valid; the pull has a clear line and can be interrupted by geometry.
+- **Core attack behaviour:** A short hooked tool has a quick jab and a slower pull-cut animation. The two attacks have different reach, encouraging deliberate timing.
+- **Weapon Action:** Catch a nearby ledge or marked arena anchor and pull the player a short distance toward it. It cannot attach to opponents.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact rescue hook with a blunt safety tip and bright grip markings.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 122 — CLEAN SWEEP
+- **Internal ID:** CLEAN-SWEEP
+- **Category:** Push Broom
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** An anti-setup melee tool. The clear strip is short and visibly telegraphed; it does not remove weapons or major deployables.
+- **Core attack behaviour:** A long sweeping strike has a wide horizontal arc but modest damage and a slow turn rate during the swing.
+- **Weapon Action:** Sweep the floor in front of the player, clearing eligible small temporary gadgets from a narrow strip without affecting players or permanent map objects.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A reinforced janitorial broom with a bright, replaceable brush head.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 123 — OFF LIMITS
+- **Internal ID:** OFF-LIMITS
+- **Category:** Crowbar
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A route-aware melee pick. Its action only works on marked map features and has no combat damage bonus.
+- **Core attack behaviour:** A reliable two-stage melee: a quick tap followed by a slower overhead strike. The overhead has better reach but more recovery.
+- **Weapon Action:** Pry open one designated breakable arena shortcut or temporary service hatch. The opening is map-authored and never bypasses locked objectives.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A classic red-handled crowbar with chipped paint and a small route icon.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 124 — BOUNCED CHECK
+- **Internal ID:** BOUNCED-CHECK
+- **Category:** Spring Hammer
+- **Rarity:** Evolved
+- **Slot:** Melee
+- **Role:** A vertical repositioning tool. The launch has a strong sound cue, cannot be chained in midair, and leaves the player exposed on landing.
+- **Core attack behaviour:** The hammer compresses slightly on a held attack. Releasing early gives a quick short hit; a full hold gives a slower, longer-reaching swing.
+- **Weapon Action:** Strike the ground to launch the user a modest distance upward, with no area damage. The landing is controllable but briefly slows the next swing.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact mechanic's hammer with an exposed spring chamber.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 125 — SILENT PARTNER
+- **Internal ID:** SILENT-PARTNER
+- **Category:** Rubber Practice Knife
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A mind-game melee tool. The feint is visual only, cannot attack during the sidestep, and experienced opponents can simply hold their ground.
+- **Core attack behaviour:** A light, quick melee with very short reach. Hitting an opponent who is already facing the player grants no extra damage; it is about reliable timing, not backstab bonuses.
+- **Weapon Action:** Feint a strike: show a brief attack tell, then cancel into a short sidestep. The feint deals no damage and has a cooldown.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A blunt training knife with a rubberized blade and bright safety stripe.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 126 — TOLL BOOTH
+- **Internal ID:** TOLL-BOOTH
+- **Category:** Gatekeeper Staff
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A defensive lane holder. The zone does not block shots, lasts briefly, and leaves the user unable to attack while set.
+- **Core attack behaviour:** A staff has a long reach and slow side swings. Its tip deals less damage than the central section, rewarding deliberate distance control.
+- **Weapon Action:** Set the staff across the player's front for a moment, creating a narrow movement-check zone that opponents can walk around or jump over.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A striped gate arm redesigned as a compact collapsible staff.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 127 — SECOND HAND
+- **Internal ID:** SECOND-HAND
+- **Category:** Clockwork Gauntlet
+- **Rarity:** Evolved
+- **Slot:** Melee
+- **Role:** A commitment-based brawler. The wind-up can be interrupted by moving out of range, and the faster strike is still aimable and dodgeable.
+- **Core attack behaviour:** A pair of heavy gauntlets strike in a fixed left-right cadence. A hit with the second hand resets the cadence faster, but does not add damage.
+- **Weapon Action:** Wind the gauntlet for a short time. The next melee strike starts faster, but the wind-up is audible and movement is reduced.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A brass-and-graphite gauntlet with a visible winding dial.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 128 — FLOOR MODEL
+- **Internal ID:** FLOOR-MODEL
+- **Category:** Display Stand Spear
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A precision reach weapon with a small traversal trick. The vault point is fixed, visible, and cannot be reused immediately.
+- **Core attack behaviour:** A straight thrust has long reach and a narrow hit area. A missed thrust briefly anchors the weapon, increasing recovery.
+- **Weapon Action:** Plant the spear as a temporary pole vault point and hop over a nearby low obstacle. It cannot vault through walls or across large gaps.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A showroom display pole with a weighted base and polished tip.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 129 — NO RETURNS
+- **Internal ID:** NO-RETURNS
+- **Category:** Boomerang Club
+- **Rarity:** Evolved
+- **Slot:** Melee
+- **Role:** A mid-range melee hybrid built around path prediction. The throw is visible, has a fixed arc, and leaves the player without a melee strike until it returns.
+- **Core attack behaviour:** A short-range club has a normal swing and a charged returning throw. The thrown club follows a curved, visible path and can hit each opponent once.
+- **Weapon Action:** Recall the club early along its current return lane. The recall does not home toward opponents and can be blocked by geometry.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A thick wooden club with a bright return ring and scuffed grip.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 130 — SOFT CLOSE
+- **Internal ID:** SOFT-CLOSE
+- **Category:** Padded Tonfa
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A dependable close-range defensive pick. The guard slows the user, covers only the front, and cannot be maintained indefinitely.
+- **Core attack behaviour:** Compact paired tonfa deliver quick close-range strikes. Holding attack produces a three-hit sequence with increasing recovery, not increasing damage.
+- **Weapon Action:** Enter a short guarded walk that reduces incoming melee knockback from the front. It does not reduce ranged damage.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A pair of padded training tonfa with clean angular guards.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 131 — HARD COPY
+- **Internal ID:** HARD-COPY
+- **Category:** Clipboard Shield
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A utility-minded duelling tool. The block is single-use per activation, directional, and has a clear crack animation.
+- **Core attack behaviour:** The clipboard's reinforced edge delivers a short jab with modest reach. A clean hit briefly marks the target's direction on the user's HUD, not through walls.
+- **Weapon Action:** Raise the clipboard to block one frontal melee strike or one low-damage projectile, then it breaks open into recovery.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A reinforced field clipboard with paper tabs and a transparent status window.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 132 — GARDEN VARIETY
+- **Internal ID:** GARDEN-VARIETY
+- **Category:** Pruning Shears
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A nimble close-range option. The hop has fixed distance and landing recovery; the attack itself remains short-ranged.
+- **Core attack behaviour:** A quick snipping attack has very short reach and a crisp, fast recovery. It is strongest when used between movement bursts, not as a sustained combo.
+- **Weapon Action:** Make a short forward hop with the shears closed. The hop deals no damage and can cross small floor hazards, but not gaps or barriers.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** Oversized garden shears with bright handles and a spring-loaded hinge.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 133 — MILESTONE
+- **Internal ID:** MILESTONE
+- **Category:** Surveyor's Pick
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A positional melee tool that rewards planning. The marker is visible, expires quickly, and the pull is small and never affects the target.
+- **Core attack behaviour:** A sturdy pick has a slow downward strike with a narrow impact zone. Hitting a marked floor tile grants a brief movement-speed reset, not bonus damage.
+- **Weapon Action:** Tap the ground to place a temporary personal marker. The next successful hit near that marker pulls the user a small step toward it after the hit resolves.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A surveyor's pick with a luminous measurement strip and compact head.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 134 — GOOD GRIP
+- **Internal ID:** GOOD-GRIP
+- **Category:** Climbing Gloves
+- **Rarity:** Evolved
+- **Slot:** Melee
+- **Role:** A wall-route specialist. Only tagged climbable surfaces work; the grip is short, visible, and leaves the player stationary relative to the wall.
+- **Core attack behaviour:** Gloved punches have short reach but almost no swing recovery. A hit does not interrupt an opponent's movement, so the player must maintain contact.
+- **Weapon Action:** Grip a valid wall for a brief moment, allowing a controlled sideways shuffle before dropping. The player cannot attack while gripping.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** Chunky climbing gloves with rubber palms and bright knuckle pads.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 135 — THE PEACEMAKER
+- **Internal ID:** THE-PEACEMAKER
+- **Category:** Foam Mallet
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A close-range spacing tool for disengaging. The buffer is small, temporary, and does not protect from gunfire or stop opponents from leaving.
+- **Core attack behaviour:** A soft mallet delivers a broad, low-damage swing. It pushes opponents slightly but never launches them or interrupts their weapon actions.
+- **Weapon Action:** Plant a foam barrier marker that creates a short-lived no-melee buffer zone around the user. Ranged attacks pass through normally.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A bright toy-like foam mallet with a sturdy grip and oversized head.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 136 — BACKSTAGE PASS
+- **Internal ID:** BACKSTAGE-PASS
+- **Category:** Stage Cane
+- **Rarity:** Altered
+- **Slot:** Melee
+- **Role:** A chase-and-route melee choice. The directional hint is brief and local; the vault is fixed and has a landing recovery.
+- **Core attack behaviour:** A cane has a quick hook-swing with moderate reach. A successful hit on a moving opponent briefly reveals their direction to the user only.
+- **Weapon Action:** Vault over a low obstacle with a short cane-assisted hop. The action cannot target or pull opponents.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A polished stage cane with a curved handle and hidden telescoping sections.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 137 — HOLD THE DOOR
+- **Internal ID:** HOLD-THE-DOOR
+- **Category:** Door Ram
+- **Rarity:** Evolved
+- **Slot:** Melee
+- **Role:** A frontline anchor for objective modes. It does not grant invulnerability, blocks no bullets, and is vulnerable from the sides.
+- **Core attack behaviour:** A heavy ram strike has a long wind-up and a broad frontal impact. It deals consistent damage but has no bonus against grouped opponents.
+- **Weapon Action:** Brace the ram horizontally to resist one incoming push and hold position briefly. The brace ends if the player turns too far.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact padded breaching ram with two handles and a clear brace indicator.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 138 — SPARE PARTS
+- **Internal ID:** SPARE-PARTS
+- **Category:** Wrench Pair
+- **Rarity:** Commonplace
+- **Slot:** Melee
+- **Role:** A support melee tool with a real trade-off in direct combat. Repair requires proximity and a brief stationary action; repaired objects remain destructible.
+- **Core attack behaviour:** Two wrenches deliver alternating strikes. A hit against an opponent's active deployable does extra object damage but normal player damage.
+- **Weapon Action:** Quickly repair one friendly temporary deployable in reach, restoring a small amount of its durability. Cannot repair players or permanent objectives.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** Two oversized workshop wrenches clipped together with a small repair light.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 139 — CROWN JEWEL
+- **Internal ID:** CROWN-JEWEL
+- **Category:** Ceremonial Scepter
+- **Rarity:** Singular
+- **Slot:** Melee
+- **Role:** A team-tempo melee with a contestable pickup. Only one burst can be granted, the marker is visible to both teams, and the boost cannot stack.
+- **Core attack behaviour:** The scepter's basic strike is deliberately plain: a measured, medium-reach swing with consistent recovery and no hidden damage bonus.
+- **Weapon Action:** Place a visible crown marker on the floor. For a short time, the first friendly player to touch it gains a brief movement burst; the owner can claim it too. Opponents can contest the marker by touching it first.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** An elegant geometric scepter with a floating crown-shaped head and restrained light accents.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 140 — FINAL NOTICE
+- **Internal ID:** FINAL-NOTICE
+- **Category:** Judgment Gavel
+- **Rarity:** Extraordinary
+- **Slot:** Melee
+- **Role:** A high-commitment finisher-style melee without execution effects. The ring is a warning and timing tool only; opponents can leave before the next strike.
+- **Core attack behaviour:** A heavy gavel has a short, powerful swing with a clear wind-up. Landing a hit ends the player's current sprint, so the weapon rewards choosing the moment rather than chasing endlessly.
+- **Weapon Action:** Strike a nearby surface to create a brief circular warning ring. Opponents inside hear and see the ring, but it deals no damage and gives the user no automatic hit.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A judge's gavel scaled into a compact combat tool, with a crisp wooden impact sound.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 141 — GOOD ENOUGH
+- **Internal ID:** GOOD-ENOUGH
+- **Category:** Burst Carbine
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** A dependable mid-range primary with a timing skill ceiling. The delayed burst is slower overall and can be baited.
+- **Core mechanic:** A two-shot burst rifle with a tight first shot and a slightly wider second shot. The fixed pattern rewards controlled tracking rather than holding the trigger.
+- **Weapon Action:** Delay the next burst by a fraction of a second, letting the player correct aim before the second shot. The delay is visible in the chamber indicator.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact utilitarian carbine with a two-stage chamber light.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 142 — OUT OF OFFICE
+- **Internal ID:** OUT-OF-OFFICE
+- **Category:** Compact SMG
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** An aggressive entry primary that rewards short bursts. The action is limited to the opening portion of one magazine and has clear feedback.
+- **Core mechanic:** A close-range SMG starts with a tight opening burst, then gradually widens during sustained fire. A short release resets the spread.
+- **Weapon Action:** The next magazine begins with a short, fixed strafe window during which firing spread is unchanged by movement. It does not increase movement speed or damage.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A squared SMG with a flip-down stock and a small out-of-office status tab.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 143 — SQUARE ONE
+- **Internal ID:** SQUARE-ONE
+- **Category:** Semi-Auto Rifle
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** A rhythm-based precision primary. The beat is readable to opponents through audio and animation; the action cannot be spammed.
+- **Core mechanic:** Each shot has a consistent cadence. Firing exactly on the weapon's visible beat keeps recoil predictable; firing early increases kick but not damage.
+- **Weapon Action:** Reset the cadence indicator instantly, allowing the next shot to begin from the base rhythm. It does not reduce recoil beyond normal timing.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A clean rifle with a rotating four-step timing dial.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 144 — TWO-WAY STREET
+- **Internal ID:** TWO-WAY-STREET
+- **Category:** Twin-Barrel Sidearm
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** A versatile secondary sidearm. The action changes recoil sequence, not damage, and the barrel state is visible.
+- **Core mechanic:** Two barrels fire in alternating order. Each barrel has its own small recoil pattern, so alternating shots stay controllable while repeated same-side shots climb more.
+- **Weapon Action:** Choose which barrel fires next and lock the order for the next two shots.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact twin-barrel pistol with distinct left/right chamber windows.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 145 — MIDDLE MANAGEMENT
+- **Internal ID:** MIDDLE-MANAGEMENT
+- **Category:** Support Carbine
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** A team-oriented primary for coordinated pushes. Information is approximate, requires a recent hit, and never tracks movement.
+- **Core mechanic:** A steady carbine deals standard damage. Hits on an opponent briefly show a small directional tick to nearby teammates, without revealing exact position through walls.
+- **Weapon Action:** Send a short team ping toward the last opponent hit. The ping marks only the approximate direction and expires quickly.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A practical carbine with a small team-status display above the receiver.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 146 — SLOW NEWS
+- **Internal ID:** SLOW-NEWS
+- **Category:** Precision Repeater
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** A patient mid-range primary with a deliberate fallback. The quick shot is visibly less accurate and cannot match the normal shot's range.
+- **Core mechanic:** A low-rate rifle fires a clean, accurate shot followed by a slower cycling animation. The next shot becomes available sooner if the player remains aimed at the same lane, not the same opponent.
+- **Weapon Action:** Cancel the current cycle and take a quick, weaker shot with increased spread.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A long, slim repeater with a sliding paper-strip chamber indicator.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 147 — PUNCHLINE
+- **Internal ID:** PUNCHLINE
+- **Category:** Impact Pistol
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** A close-range secondary with spacing control. The push is modest, predictable, and the hop consumes a loaded round.
+- **Core mechanic:** A heavy sidearm fires a short-range concussive round. Damage falls sharply with distance, while the impact has a small consistent push.
+- **Weapon Action:** Fire a utility round that deals no damage but gives the user a small backward hop.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A chunky pistol with a broad muzzle shroud and a recoil indicator.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 148 — DETOUR
+- **Internal ID:** DETOUR
+- **Category:** Arc Launcher
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** A route-prediction primary. The altered path is previewed, has a limited bend, and can be dodged or blocked.
+- **Core mechanic:** Fires a slow, visible projectile that follows a shallow curve. Direct hits deal damage; near misses do not create a blast.
+- **Weapon Action:** Set the next projectile to take a wider arc around one visible corner marker, but it still cannot pass through walls.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact launcher with a curved guide rail and a bright trajectory lens.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 149 — WELL READ
+- **Internal ID:** WELL-READ
+- **Category:** Burst Marksman
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** A deliberate precision primary with manual timing. Holding the shot costs tempo and opponents can reposition during the delay.
+- **Core mechanic:** A three-shot marksman sequence has a fixed vertical spacing. The player can fire each shot separately, but the cadence tightens when all three are fired on beat.
+- **Weapon Action:** Hold the next shot for a brief moment after firing, then release it manually. The stored shot keeps its original aim direction and does not track.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A slim marksman rifle with three stacked chamber lights.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 150 — CASH ONLY
+- **Internal ID:** CASH-ONLY
+- **Category:** Heavy Sidearm
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** A high-commitment secondary for players who plan reload timing. The action can waste ammunition and has no combat bonus.
+- **Core mechanic:** A single-shot hand cannon has a large impact and a slow reload. Its final round is not stronger; the weapon's identity is its reliable shot-to-shot rhythm.
+- **Weapon Action:** Eject the remaining rounds to perform a short reload immediately, sacrificing any ammunition still loaded.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A blocky hand cannon with a visible single-row ammunition counter.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 151 — WINDOW SEAT
+- **Internal ID:** WINDOW-SEAT
+- **Category:** Compact Shotgun
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** A close-range primary with a team callout tool. The outline is visible to both teams and gives no wall penetration or damage bonus.
+- **Core mechanic:** A short-range shotgun fires a narrow horizontal pellet fan. Turning during the shot widens the fan slightly, rewarding steady aim.
+- **Weapon Action:** Fire a low-power utility shell that briefly marks the impact surface with a bright window-shaped outline for teammates. It does not reveal opponents.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact shotgun with a rectangular muzzle and folding side grip.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 152 — NO COMMENT
+- **Internal ID:** NO-COMMENT
+- **Category:** Silenced Marksman
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** A stealth-flavoured primary without invisibility. The action trades tempo for reduced shot cues and cannot hide the shooter's position after a hit.
+- **Core mechanic:** A quiet semi-auto rifle has modest damage and a clear hit indicator. Its projectile trail is short but never fully invisible.
+- **Weapon Action:** Suppress the next shot's visible tracer and impact sound at the cost of a longer firing delay. The hit remains visible to the target.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A matte marksman rifle with a simple integrated shroud and muted status light.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 153 — TRAFFIC JAM
+- **Internal ID:** TRAFFIC-JAM
+- **Category:** Scatter Launcher
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** A lane-pressure primary that chooses coverage or concentration. Projectiles are visible, slow, and individually avoidable.
+- **Core mechanic:** Fires a cluster of slow foam-like impact rounds that spread slightly while travelling. Each projectile deals modest damage and has no lingering hazard.
+- **Weapon Action:** Compress the next cluster into a tighter grouping with reduced total projectile count and a faster reload afterward.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A wide-bodied launcher with a folding cluster muzzle.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 154 — BETTER LUCK
+- **Internal ID:** BETTER-LUCK
+- **Category:** Ricochet Sidearm
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** A trick-shot secondary. Only tagged surfaces reflect the projectile; the preview is approximate and the shot never homes.
+- **Core mechanic:** A sidearm fires a single hard projectile that ricochets once from marked arena surfaces, losing damage after the bounce.
+- **Weapon Action:** Choose the side of the next ricochet before firing. The bounce angle is previewed and cannot be changed after launch.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A polished sidearm with a rotating angle selector.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 155 — ON RECORD
+- **Internal ID:** ON-RECORD
+- **Category:** Combat Scanner
+- **Rarity:** Secondary
+- **Slot:** Secondary
+- **Role:** An information secondary for reading nearby fights. The reading expires quickly, has a limited radius, and can be confused by multiple simultaneous sounds.
+- **Core mechanic:** A compact scanner has a weak emergency pulse that deals negligible damage and is not intended for duelling. Its main function is to record the direction of the last loud enemy action nearby.
+- **Weapon Action:** Replay the latest directional reading as a short cone on the user's HUD. It reports direction only, not identity or exact location.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A handheld recorder with a spinning waveform display.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 156 — FRESH COAT
+- **Internal ID:** FRESH-COAT
+- **Category:** Paint Marker
+- **Rarity:** Secondary
+- **Slot:** Secondary
+- **Role:** A navigation and coordination secondary. It does not reveal enemies, block routes, or provide combat buffs; markings are temporary and visible to both teams.
+- **Core mechanic:** Fires harmless paint markers that briefly colour a surface. Direct hits do not damage players.
+- **Weapon Action:** Mark one surface with a team-coloured route stripe visible to allies. Weapon Action removes the oldest stripe and places a new one at the aim point.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact industrial paint marker with a bright canister and nozzle guard.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 157 — NARROW ESCAPE
+- **Internal ID:** NARROW-ESCAPE
+- **Category:** Compact Launcher
+- **Rarity:** Primary
+- **Slot:** Primary
+- **Role:** A timing-based primary for controlling a small patch of space. The projectile is slow and visible; the early burst is smaller and cannot pass through cover.
+- **Core mechanic:** Fires a low-damage projectile that bursts into a small, short-lived ring on impact. The ring is a readable area-denial cue, not a persistent hazard.
+- **Weapon Action:** Detonate the next projectile early while it is in open air, creating a smaller ring at its current position.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact launcher with a circular range gauge.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 158 — SAME PAGE
+- **Internal ID:** SAME-PAGE
+- **Category:** Team Relay
+- **Rarity:** Secondary
+- **Slot:** Secondary
+- **Role:** A coordination secondary for teams that split routes. The relay is visible and destructible, has limited range, and never reveals opponents.
+- **Core mechanic:** Place a relay that shows nearby teammates the owner's current facing direction, but only while they are within a short radius.
+- **Weapon Action:** Send a one-time regroup pulse that briefly displays the relay's location to allies. It gives no enemy information or movement bonus.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A folding map beacon with a simple arrow display.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 159 — FINE TUNING
+- **Internal ID:** FINE-TUNING
+- **Category:** Precision Rifle
+- **Rarity:** Primary
+- **Slot:** Primary
+- **Role:** A precision primary that rewards understanding its recoil states. The action is announced by a visible selector and cannot improve damage or accuracy beyond the grounded baseline.
+- **Core mechanic:** A semi-automatic rifle has two stable recoil states: grounded shots are steady, while airborne shots have a predictable upward kick. Damage is unchanged.
+- **Weapon Action:** Lock the rifle into its airborne recoil profile for the next shot even while grounded, enabling a planned shot arc but not extra damage.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A precision rifle with a small two-position balance dial.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 160 — SPARE ROOM
+- **Internal ID:** SPARE-ROOM
+- **Category:** Deployable Launcher
+- **Rarity:** Secondary
+- **Slot:** Secondary
+- **Role:** A vertical route tool. The platform is visible, destructible, and temporary; it cannot be placed through solid geometry or inside objectives.
+- **Core mechanic:** Fires a puck that unfolds into a small one-way drop-through platform. Players can stand on it briefly, but it collapses after a short duration.
+- **Weapon Action:** Fold the platform early to drop the user through it immediately. Other players standing on it are safely displaced to the nearest valid floor.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact construction launcher with a folding square platform.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 161 — BAD SIGNAL
+- **Internal ID:** BAD-SIGNAL
+- **Category:** Pulse Sidearm
+- **Rarity:** Secondary
+- **Slot:** Secondary
+- **Role:** A disruption sidearm with limited combat impact. The effect is brief, non-disabling, and has strong visual feedback and cooldown.
+- **Core mechanic:** A low-damage pulse sidearm briefly disrupts the target's HUD edge indicators on direct hit, without obscuring the centre of the screen or disabling controls.
+- **Weapon Action:** Send a short pulse that removes the user's own HUD edge clutter for a moment, helping focus on a duel.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A small pulse pistol with a segmented signal bar.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 162 — DEADLINE
+- **Internal ID:** DEADLINE
+- **Category:** Lever Rifle
+- **Rarity:** Primary
+- **Slot:** Primary
+- **Role:** A deliberate mid-range primary. The faster shot is a trade-off and the recoil penalty is clearly indicated.
+- **Core mechanic:** A lever-action rifle fires one accurate shot at a time. Cycling the lever manually between shots gives the player a stable firing rhythm.
+- **Weapon Action:** Skip one lever cycle by ejecting the next round into the chamber early, but the following shot has increased recoil.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A classic lever rifle with a modern angular stock and exposed cycling lever.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 163 — PARKING FINE
+- **Internal ID:** PARKING-FINE
+- **Category:** Tripod Carbine
+- **Rarity:** Primary
+- **Slot:** Primary
+- **Role:** A setup-oriented primary for holding angles. The rest is visible, stationary, and vulnerable to flanks; it does not increase damage.
+- **Core mechanic:** A compact carbine has a folding foregrip. When the player briefly stops moving, the grip stabilizes the next shot; moving resets the benefit.
+- **Weapon Action:** Deploy the grip against a nearby wall or floor edge to make a short, fixed firing rest. It improves recoil control only and can be left by moving.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A practical carbine with a folding three-point rest.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 164 — BETWEEN FRIENDS
+- **Internal ID:** BETWEEN-FRIENDS
+- **Category:** Link Pistol
+- **Rarity:** Secondary
+- **Slot:** Secondary
+- **Role:** A support sidearm for managing team setups. It requires a placed friendly object, has no enemy tracking, and the link breaks at range.
+- **Core mechanic:** A sidearm fires modest-damage shots. Hitting a friendly relay or marked teammate's nearby surface briefly refreshes the pistol's utility charge, not ammunition.
+- **Weapon Action:** Link to one friendly deployable within range, showing its remaining lifetime on the user's HUD. It cannot extend that lifetime.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A compact pistol with a thin blue connection filament and status window.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 165 — LATE CHECKOUT
+- **Internal ID:** LATE-CHECKOUT
+- **Category:** Automatic Rifle
+- **Rarity:** Primary
+- **Slot:** Primary
+- **Role:** A resource-management primary. The action does not create ammunition and requires planning; the reserve is capped and visible.
+- **Core mechanic:** A full-auto rifle has a small, fixed magazine and fast reload. Reloading before the magazine is empty makes the next magazine start with one fewer round.
+- **Weapon Action:** Begin a tactical reload immediately, but keep the current magazine's remaining rounds in reserve for the next reload.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A clean rifle with a split magazine counter and folding charging handle.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 166 — OPEN CIRCUIT
+- **Internal ID:** OPEN-CIRCUIT
+- **Category:** Chain Pulse Rifle
+- **Rarity:** Primary
+- **Slot:** Primary
+- **Role:** A geometry-aware primary for pre-aimed lanes. The continuation path is fixed, visible, cannot bend around cover, and deals no bonus damage.
+- **Core mechanic:** A pulse rifle fires a short burst. If the first shot hits a surface, the remaining pulses continue along a fixed shallow angle; if it hits an opponent, the burst stays on that line.
+- **Weapon Action:** Flip the next burst's continuation angle left or right before firing.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A squared energy rifle with twin emitter rails and a simple angle switch.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 167 — THE LAST WORD
+- **Internal ID:** THE-LAST-WORD
+- **Category:** Precision Sidearm
+- **Rarity:** Secondary
+- **Slot:** Primary
+- **Role:** A swap-combo secondary that rewards planning. The stored shot expires, retains its original aim direction, and cannot auto-fire or track.
+- **Core mechanic:** A slow-firing sidearm has a clear, accurate first shot after switching to it. Subsequent shots use a slightly longer reset, keeping its opening advantage from becoming sustained superiority.
+- **Weapon Action:** Store the next shot for up to a short window while swapping to the primary; switching back releases it only when the player fires.
+- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
+- **Visual identity:** A refined sidearm with a single bright chamber indicator and a folding sight.
+- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+## 5A. Remaining Roster
+
+All 167 launch weapon concepts are now defined. The 111–140 block is the dedicated Melee slot; 141–167 use Primary or Secondary according to the established slot rule.
 
 Do not fill the remaining roster with generic category variants just to reach 167. Each new weapon should be designed around a memorable central mechanic and a clear gameplay role.
 
