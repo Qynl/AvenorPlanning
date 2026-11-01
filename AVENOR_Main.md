@@ -377,6 +377,7 @@ The final sound identity and detailed audio rules are **TBD**.
 - **AVENOR_Abilities.md** — ability system rules, approved ability concepts, rarity assignments, and individual ability designs.
 - **AVENOR_Gameplay.md** — detailed proposed gameplay rules, movement, combat, match flow, HUD, and first playable prototype.
 - **AVENOR_GameModes.md** — classic and original modes, including AVENOR ORIGIN, with proposed match formats and rules.
+- **AVENOR_Maps.md** — map design standards, layout and spawn principles, mode compatibility, performance, and the individual map specification template.
 - Future documents may define maps, technical architecture, progression, ranked systems, and the economy in greater detail.
 
 ## 22. Remaining Open Decisions
