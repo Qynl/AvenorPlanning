@@ -248,7 +248,7 @@ Each mode needs its own specification before implementation, including:
 - Spectating and disconnect rules.
 - Rewards and progression treatment.
 
-Exact modes and values remain **TBD**. The first prototype should focus on one small 1v1 ruleset because it makes core combat easier to test.
+Exact mode rules and values are maintained in **AVENOR_GameModes.md**. The current proposed roster includes DUEL, DUOS, TEAM DEATHMATCH, FREE FOR ALL, HARDPOINT, CAPTURE THE FLAG, and the signature original mode AVENOR ORIGIN. All values remain proposals until approved and playtested. The first prototype should still focus on one small 1v1 ruleset because it makes core combat easier to test.
 
 ## 12. HUD and Combat Feedback
 
@@ -334,6 +334,7 @@ The following are intentionally proposed rather than locked:
 
 - `AVENOR_Main.md`: Overall game identity, social hub, progression, ranked, cosmetics, and high-level vision.
 - `AVENOR_Weapons.md`: Weapon design philosophy, controls, roster, actions, mastery, skins, and weapon balance principles.
-- `AVENOR_Abilities.md` (planned): Player abilities and equipment.
+- `AVENOR_Abilities.md`: Player ability concepts and design rules.
+- `AVENOR_GameModes.md`: Mode roster, match formats, draft scoring, timers, respawns, and overtime rules.
 - `AVENOR_Maps.md` (planned): Arena layouts, spawn design, pickups, and map mechanics.
 - `AVENOR_Technical.md` (planned): Roblox architecture, networking, persistence, security, and performance.
