@@ -336,5 +336,6 @@ The following are intentionally proposed rather than locked:
 - `AVENOR_Weapons.md`: Weapon design philosophy, controls, roster, actions, mastery, skins, and weapon balance principles.
 - `AVENOR_Abilities.md`: Player ability concepts and design rules.
 - `AVENOR_GameModes.md`: Mode roster, match formats, draft scoring, timers, respawns, and overtime rules.
+- `AVENOR_Maps.md`: Map design standards, routes, sightlines, spawns, mode compatibility, interactions, and performance.
 - `AVENOR_Maps.md` (planned): Arena layouts, spawn design, pickups, and map mechanics.
 - `AVENOR_Technical.md` (planned): Roblox architecture, networking, persistence, security, and performance.
