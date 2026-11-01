@@ -1,8 +1,9 @@
 # AVENOR — Weapon Design
 
-> This document owns the weapon roster and individual weapon designs. Accepted concepts are marked **Accepted**. Prototype values are not final balance values.
+> This document owns the weapon roster and individual weapon designs. Accepted concepts are marked **Accepted**. Proposed concepts are marked **Proposed**. Prototype values are not final balance values.
 
 ## 1. Weapon Design Philosophy
+
 AVENOR is planned to launch with **167 weapons**.
 
 The goal is not to fill a spreadsheet with generic versions of familiar guns. Every weapon should feel recognizably different in the player's hands.
@@ -10,13 +11,16 @@ The goal is not to fill a spreadsheet with generic versions of familiar guns. Ev
 ### Core Rules
 - Every weapon needs a distinct identity, silhouette, sound, handling, and gameplay purpose.
 - Weapon abilities should create interesting decisions or memorable moments, not merely provide generic damage or recoil buffs.
-- Names should sound like actual weapon names or distinctive in-world names.
+- Player-facing names should feel natural, memorable, and distinctive. The naming style can mix everyday words, objects, surnames, nicknames, and understated humor.
+- Avoid generic category labels as player-facing weapon names and avoid excessive futuristic jargon.
+- The internal weapon ID must match the weapon's unique name. Category prefixes such as AR-01 or SMG-01 are not used as weapon IDs.
 - Weapon categories are useful for organization, but category alone must not determine how a weapon plays.
 - Rarity reflects exclusivity, uniqueness, and design complexity. It does not automatically mean better combat stats.
 - No weapon should be a simple reskin or a tiny stat variation of another.
 - Weapons should be fun to learn, recognize, counter, and master.
 
 ## 2. Rarity Hierarchy
+
 1. Commonplace
 2. Altered
 3. Evolved
@@ -27,6 +31,7 @@ The goal is not to fill a spreadsheet with generic versions of familiar guns. Ev
 Every weapon has one fixed rarity. Rarity can guide the complexity and uniqueness of its special mechanic, but it must not be used as a shortcut for making higher-rarity weapons objectively stronger.
 
 ## 3. Loadout and Weapon Controls
+
 A loadout contains:
 - Two guns
 - One close-combat weapon
@@ -50,10 +55,11 @@ All controls should be remappable, including keyboard and mouse, controller, and
 Weapon abilities use cooldowns. The cooldown begins after activation or after the relevant action completes, depending on the weapon's mechanic.
 
 ## 4. Weapon Roster
-There are 167 planned weapons. The entries below record the designs established so far. IDs are internal references, not final player-facing weapon names.
 
-### Weapon 001 — Assault Rifle
-- **Internal ID:** AR-01
+There are 167 planned weapons. The entries below record the designs established so far. Weapon IDs are name-based internal references and match each weapon's unique name.
+
+### Weapon 001 — MILLER
+- **Internal ID:** MILLER
 - **Category:** Assault Rifle
 - **Rarity:** Commonplace
 - **Role:** Balanced all-rounder.
@@ -74,8 +80,8 @@ Switches the rifle from automatic fire to controlled three-round bursts. Burst m
 
 **Status:** Accepted concept. Stats are provisional.
 
-### Weapon 002 — Submachine Gun
-- **Internal ID:** SMG-01
+### Weapon 002 — POCKET
+- **Internal ID:** POCKET
 - **Category:** Submachine Gun
 - **Rarity:** Commonplace
 - **Role:** Fast close-range combat.
@@ -94,8 +100,8 @@ Temporarily increases fire rate by 30% for 4 seconds. Damage per bullet stays th
 
 **Status:** Accepted concept. Stats are provisional.
 
-### Weapon 003 — Shotgun
-- **Internal ID:** SG-01
+### Weapon 003 — BOUNCER
+- **Internal ID:** BOUNCER
 - **Category:** Shotgun
 - **Rarity:** Commonplace
 - **Role:** High-impact close-range combat.
@@ -112,8 +118,8 @@ Fires two consecutive shotgun shots in quick succession, consuming two shells. A
 
 **Status:** Accepted concept. Stats are provisional.
 
-### Weapon 004 — Sniper Rifle
-- **Internal ID:** SR-01
+### Weapon 004 — SUNDAY
+- **Internal ID:** SUNDAY
 - **Category:** Sniper Rifle
 - **Rarity:** Altered
 - **Role:** Long-range precision.
@@ -130,8 +136,8 @@ Briefly reveals subtle outlines of opponents through walls to the sniper user. T
 
 **Status:** Accepted concept, pending competitive testing.
 
-### Weapon 005 — Pistol
-- **Internal ID:** P-01
+### Weapon 005 — PENNY
+- **Internal ID:** PENNY
 - **Category:** Pistol
 - **Rarity:** Commonplace
 - **Role:** Sidearm with a deliberate high-impact shot option.
@@ -150,8 +156,8 @@ Hold Weapon Action to charge one amplified, instant-hit shot. Releasing fires th
 
 **Status:** Accepted concept. Numbers are provisional.
 
-### Weapon 006 — Burst Rifle
-- **Internal ID:** BR-01
+### Weapon 006 — TRIPLET
+- **Internal ID:** TRIPLET
 - **Category:** Burst Rifle
 - **Rarity:** Commonplace
 - **Role:** Burst-fire rifle with a temporary high-tempo firing mode.
@@ -161,37 +167,65 @@ Temporarily increases firing speed so the rifle can deliver its four-shot bursts
 
 **Status:** Accepted concept. Duration, cooldown, and exact firing cadence are TBD.
 
-### Weapon 007 — Minigun
-- **Working name:** Minigun
+### Weapon 007 — THE WORKS
+- **Internal ID:** THE-WORKS
+- **Working name:** The Works
 - **Category:** Light Machine Gun
 - **Rarity:** Commonplace (provisional)
 - **Role:** Heavy sustained-fire weapon.
 - **Design direction:** A rotating-barrel weapon with a recognizable firing rhythm and a playstyle distinct from assault rifles and SMGs.
-- **Weapon Action:** TBD.
+- **Weapon Action:** TBD
 
-**Status:** Selected as the next weapon concept. Its ability has not yet been designed or approved.
+**Possible action direction — Ricochet Feed:** A short temporary mode in which selected shots can bounce once from suitable arena surfaces. This remains an unapproved proposal; its exact rules and fairness need testing.
+
+**Status:** Selected as a weapon concept. Weapon Action not accepted.
+
+### Weapon 008 — POSTCARD
+- **Internal ID:** POSTCARD
+- **Category:** Returning Disc Launcher
+- **Rarity:** Altered (provisional)
+- **Role:** Mid-range area pressure and timing-based outplays.
+- **Core firing behaviour:** Fires a flat spinning disc that travels forward and then returns to its owner after reaching its travel limit. The returning path is part of the weapon's normal firing loop.
+- **Weapon Action: Return to Sender**
+
+Recall the active disc early, causing it to reverse direction immediately instead of completing its normal travel. This lets the player choose when to bring the disc back and can create a second angle of pressure.
+
+**Rules and counterplay:**
+- The disc follows a readable, non-homing path.
+- It cannot pass through solid walls.
+- It can hit each opponent at most once per throw.
+- Opponents can avoid the outbound or returning path using movement and cover.
+- The player must consider the disc's travel and return timing rather than firing continuously without thought.
+
+**Prototype values:** Damage, travel speed, maximum travel time, and action cooldown are TBD.
+
+**Status:** Proposed concept. Not yet accepted.
 
 ## 5. Remaining Roster
-Weapons 008–167 are TBD.
+
+Weapons 009–167 are TBD.
 
 Do not fill the remaining roster with generic category variants just to reach 167. Each new weapon should be designed around a memorable central mechanic and a clear gameplay role.
 
 ## 6. Weapon Design Checklist
+
 Before a weapon is accepted, define:
 1. Player-facing weapon name.
-2. Category and rarity.
-3. Distinct visual silhouette.
-4. Core firing behaviour and handling.
-5. Intended combat range and role.
-6. Unique Weapon Action and its exact rules.
-7. Counterplay and limitations.
-8. Prototype balance values.
-9. Sound and visual feedback.
-10. Mastery progression and possible cosmetic opportunities.
+2. Matching name-based internal ID.
+3. Category and rarity.
+4. Distinct visual silhouette.
+5. Core firing behaviour and handling.
+6. Intended combat range and role.
+7. Unique Weapon Action and its exact rules.
+8. Counterplay and limitations.
+9. Prototype balance values.
+10. Sound and visual feedback.
+11. Mastery progression and possible cosmetic opportunities.
 
 A weapon is not finished merely because it has a name and an ability label. Its complete gameplay loop must feel distinct from the rest of the arsenal.
 
 ## 7. Weapon Mastery
+
 Every weapon has an independent mastery progression:
 - Weapon XP and levels.
 - Weapon-specific challenges.
@@ -203,6 +237,7 @@ Every weapon has an independent mastery progression:
 Max mastery unlocks a dedicated completion collection, including an exclusive mastery skin, special title, badge, and unique effects or animations. There is no endless prestige after max mastery.
 
 ## 8. Skins and Weapon Cosmetics
+
 - Every skin changes the weapon's appearance.
 - Extra features vary by skin: sounds, effects, animations, kill effects, announcements, and other unique details.
 - Some skins are appearance-only; others include multiple extras.
@@ -213,6 +248,7 @@ Max mastery unlocks a dedicated completion collection, including an exclusive ma
 If a skin supplies a kill effect or another overlapping cosmetic feature, that skin's feature takes priority while the weapon is equipped. The player's normal equipped effect returns when using a weapon without that skin-provided feature.
 
 ## 9. Balance Principles
+
 - Rarity is not a direct power ranking.
 - Special mechanics need clear counterplay.
 - Weapon abilities should not make normal weapon skill irrelevant.
