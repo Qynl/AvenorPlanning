@@ -234,7 +234,7 @@ Lock the barrel at maximum spin for a short period. During this window, the play
 ### Weapon 008 — RETURN TO SENDER
 - **Internal ID:** RETURN-TO-SENDER
 - **Category:** Returning Disc Launcher
-- **Rarity:** Altered (provisional)
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** Mid-range pressure, route prediction, and creative angle control.
 - **Core mechanic: Boomerang**
@@ -544,7 +544,7 @@ Make the next shot attach a tag to a surface instead of an opponent. If an oppon
 ### Weapon 020 — WET FLOOR
 - **Internal ID:** WET-FLOOR
 - **Category:** Pressure Sprayer
-- **Rarity:** Altered (provisional)
+- **Rarity:** Evolved
 - **Slot:** Secondary
 - **Role:** Area control, movement disruption, and route manipulation.
 - **Core mechanic: Slippery When Wet**
@@ -652,7 +652,7 @@ Load one special round into the next available shot. A hit deals normal damage b
 ### Weapon 024 — OPEN HOUSE
 - **Internal ID:** OPEN-HOUSE
 - **Category:** Deployable Launcher
-- **Rarity:** Altered (provisional)
+- **Rarity:** Evolved
 - **Slot:** Secondary
 - **Role:** Temporary cover and defensive repositioning.
 - **Core mechanic: Viewing Appointment**
@@ -736,7 +736,7 @@ Skip the upcoming pattern and select which shot type fires next. The normal alte
 ### Weapon 027 — SHORTCUT
 - **Internal ID:** SHORTCUT
 - **Category:** Traversal Launcher
-- **Rarity:** Evolved (provisional)
+- **Rarity:** Extraordinary
 - **Slot:** Secondary
 - **Role:** Team movement and route creation.
 - **Core mechanic: No Walking Required**
@@ -912,7 +912,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 035 — OFF THE CLOCK
 - **Internal ID:** OFF-THE-CLOCK
 - **Category:** Decoy Projector
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Misdirection and drawing attention away from a real rotation.
 - **Core mechanic: Clock Out**
@@ -946,7 +946,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 037 — SIDE EYE
 - **Internal ID:** SIDE-EYE
 - **Category:** Recon Tool
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Checking exposed lanes without revealing opponents through walls.
 - **Core mechanic: Peripheral Vision**
@@ -1031,7 +1031,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 042 — STATIC CLING
 - **Internal ID:** STATIC-CLING
 - **Category:** Magnetic Traversal Tool
-- **Rarity:** Evolved
+- **Rarity:** Singular
 - **Slot:** Secondary
 - **Role:** Briefly changing the routes available on metal arena surfaces.
 - **Core mechanic: Stick Around**
@@ -1473,7 +1473,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 068 — BACKUP PLAN
 - **Internal ID:** BACKUP-PLAN
 - **Category:** Return Beacon
-- **Rarity:** Evolved
+- **Rarity:** Singular
 - **Slot:** Secondary
 - **Role:** Giving a player one planned fallback point during a push.
 - **Core mechanic: Just in Case**
@@ -1541,7 +1541,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 072 — HARD RESET
 - **Internal ID:** HARD-RESET
 - **Category:** Momentum Brake
-- **Rarity:** Evolved
+- **Rarity:** Extraordinary
 - **Slot:** Secondary
 - **Role:** Giving players precise control over momentum during complex jumps and movement routes.
 - **Core mechanic: Full Stop**
@@ -1592,7 +1592,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 075 — TIGHTROPE
 - **Internal ID:** TIGHTROPE
 - **Category:** Traversal Cable Tool
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Creating a temporary, risky crossing between two separated platforms.
 - **Core mechanic: Walk the Line**
@@ -1728,7 +1728,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 083 — STATIC SHOCK
 - **Internal ID:** STATIC-SHOCK
 - **Category:** Arc Rifle
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Primary
 - **Role:** Mid-range damage against grouped opponents without automatic chain targeting.
 - **Core mechanic: Charge Transfer**
@@ -2000,7 +2000,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 099 — ON THE HOUSE
 - **Internal ID:** ON-THE-HOUSE
 - **Category:** Team Mobility Utility
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** Creating a one-use launch opportunity for a teammate.
 - **Core mechanic: Complimentary Ride**
@@ -2068,7 +2068,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 103 — NO SHOW
 - **Internal ID:** NO-SHOW
 - **Category:** Heavy Marksman Rifle
-- **Rarity:** Evolved
+- **Rarity:** Extraordinary
 - **Slot:** Primary
 - **Role:** Precision damage with a delayed firing commitment.
 - **Core mechanic: Missed Appointment**
@@ -2153,7 +2153,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 108 — BAIL OUT
 - **Internal ID:** BAIL-OUT
 - **Category:** Emergency Mobility Tool
-- **Rarity:** Evolved
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** A single, deliberate escape option when a player commits too far into a fight.
 - **Core mechanic: Exit Strategy**
@@ -2690,7 +2690,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 148 — DETOUR
 - **Internal ID:** DETOUR
 - **Category:** Arc Launcher
-- **Rarity:** Evolved
+- **Rarity:** Extraordinary
 - **Slot:** Primary
 - **Role:** A route-prediction primary. The altered path is previewed, has a limited bend, and can be dodged or blocked.
 - **Core mechanic:** Fires a slow, visible projectile that follows a shallow curve. Direct hits deal damage; near misses do not create a blast.
@@ -2781,7 +2781,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 155 — ON RECORD
 - **Internal ID:** ON-RECORD
 - **Category:** Combat Scanner
-- **Rarity:** Secondary
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** An information secondary for reading nearby fights. The reading expires quickly, has a limited radius, and can be confused by multiple simultaneous sounds.
 - **Core mechanic:** A compact scanner has a weak emergency pulse that deals negligible damage and is not intended for duelling. Its main function is to record the direction of the last loud enemy action nearby.
@@ -2794,7 +2794,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 156 — FRESH COAT
 - **Internal ID:** FRESH-COAT
 - **Category:** Paint Marker
-- **Rarity:** Secondary
+- **Rarity:** Commonplace
 - **Slot:** Secondary
 - **Role:** A navigation and coordination secondary. It does not reveal enemies, block routes, or provide combat buffs; markings are temporary and visible to both teams.
 - **Core mechanic:** Fires harmless paint markers that briefly colour a surface. Direct hits do not damage players.
@@ -2807,7 +2807,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 157 — NARROW ESCAPE
 - **Internal ID:** NARROW-ESCAPE
 - **Category:** Compact Launcher
-- **Rarity:** Primary
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** A timing-based primary for controlling a small patch of space. The projectile is slow and visible; the early burst is smaller and cannot pass through cover.
 - **Core mechanic:** Fires a low-damage projectile that bursts into a small, short-lived ring on impact. The ring is a readable area-denial cue, not a persistent hazard.
@@ -2820,7 +2820,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 158 — SAME PAGE
 - **Internal ID:** SAME-PAGE
 - **Category:** Team Relay
-- **Rarity:** Secondary
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** A coordination secondary for teams that split routes. The relay is visible and destructible, has limited range, and never reveals opponents.
 - **Core mechanic:** Place a relay that shows nearby teammates the owner's current facing direction, but only while they are within a short radius.
@@ -2833,7 +2833,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 159 — FINE TUNING
 - **Internal ID:** FINE-TUNING
 - **Category:** Precision Rifle
-- **Rarity:** Primary
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** A precision primary that rewards understanding its recoil states. The action is announced by a visible selector and cannot improve damage or accuracy beyond the grounded baseline.
 - **Core mechanic:** A semi-automatic rifle has two stable recoil states: grounded shots are steady, while airborne shots have a predictable upward kick. Damage is unchanged.
@@ -2846,7 +2846,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 160 — SPARE ROOM
 - **Internal ID:** SPARE-ROOM
 - **Category:** Deployable Launcher
-- **Rarity:** Secondary
+- **Rarity:** Ascendant
 - **Slot:** Secondary
 - **Role:** A vertical route tool. The platform is visible, destructible, and temporary; it cannot be placed through solid geometry or inside objectives.
 - **Core mechanic:** Fires a puck that unfolds into a small one-way drop-through platform. Players can stand on it briefly, but it collapses after a short duration.
@@ -2859,7 +2859,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 161 — BAD SIGNAL
 - **Internal ID:** BAD-SIGNAL
 - **Category:** Pulse Sidearm
-- **Rarity:** Secondary
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** A disruption sidearm with limited combat impact. The effect is brief, non-disabling, and has strong visual feedback and cooldown.
 - **Core mechanic:** A low-damage pulse sidearm briefly disrupts the target's HUD edge indicators on direct hit, without obscuring the centre of the screen or disabling controls.
@@ -2872,7 +2872,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 162 — DEADLINE
 - **Internal ID:** DEADLINE
 - **Category:** Lever Rifle
-- **Rarity:** Primary
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** A deliberate mid-range primary. The faster shot is a trade-off and the recoil penalty is clearly indicated.
 - **Core mechanic:** A lever-action rifle fires one accurate shot at a time. Cycling the lever manually between shots gives the player a stable firing rhythm.
@@ -2885,7 +2885,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 163 — PARKING FINE
 - **Internal ID:** PARKING-FINE
 - **Category:** Tripod Carbine
-- **Rarity:** Primary
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** A setup-oriented primary for holding angles. The rest is visible, stationary, and vulnerable to flanks; it does not increase damage.
 - **Core mechanic:** A compact carbine has a folding foregrip. When the player briefly stops moving, the grip stabilizes the next shot; moving resets the benefit.
@@ -2898,7 +2898,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 164 — BETWEEN FRIENDS
 - **Internal ID:** BETWEEN-FRIENDS
 - **Category:** Link Pistol
-- **Rarity:** Secondary
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** A support sidearm for managing team setups. It requires a placed friendly object, has no enemy tracking, and the link breaks at range.
 - **Core mechanic:** A sidearm fires modest-damage shots. Hitting a friendly relay or marked teammate's nearby surface briefly refreshes the pistol's utility charge, not ammunition.
@@ -2911,7 +2911,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 165 — LATE CHECKOUT
 - **Internal ID:** LATE-CHECKOUT
 - **Category:** Automatic Rifle
-- **Rarity:** Primary
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** A resource-management primary. The action does not create ammunition and requires planning; the reserve is capped and visible.
 - **Core mechanic:** A full-auto rifle has a small, fixed magazine and fast reload. Reloading before the magazine is empty makes the next magazine start with one fewer round.
@@ -2924,7 +2924,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 166 — OPEN CIRCUIT
 - **Internal ID:** OPEN-CIRCUIT
 - **Category:** Chain Pulse Rifle
-- **Rarity:** Primary
+- **Rarity:** Extraordinary
 - **Slot:** Primary
 - **Role:** A geometry-aware primary for pre-aimed lanes. The continuation path is fixed, visible, cannot bend around cover, and deals no bonus damage.
 - **Core mechanic:** A pulse rifle fires a short burst. If the first shot hits a surface, the remaining pulses continue along a fixed shallow angle; if it hits an opponent, the burst stays on that line.
@@ -2937,7 +2937,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 167 — THE LAST WORD
 - **Internal ID:** THE-LAST-WORD
 - **Category:** Precision Sidearm
-- **Rarity:** Secondary
+- **Rarity:** Evolved
 - **Slot:** Primary
 - **Role:** A swap-combo secondary that rewards planning. The stored shot expires, retains its original aim direction, and cannot auto-fire or track.
 - **Core mechanic:** A slow-firing sidearm has a clear, accurate first shot after switching to it. Subsequent shots use a slightly longer reset, keeping its opening advantage from becoming sustained superiority.
