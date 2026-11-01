@@ -302,3 +302,287 @@ The following 50 concepts were approved as a batch. Their core identities and pr
 - **Counterplay / limits:** Position only; no health restoration or reversal of combat outcomes. Cooldown and exact rewind duration are TBD.
 
 MY BAD is explicitly **Extraordinary**, not Commonplace.
+
+
+## 3. Approved Ability Roster — Batch 03
+
+The following 50 concepts (81–130) were approved as a batch. Approval confirms their core identity and concept rarity, not final implementation or balance values.
+
+### Commonplace
+
+#### 81. SPARE KEY
+- **Role:** Door access.
+- **Concept:** Create a temporary keyhole on one designated locked map door. Interacting with it opens that door briefly, even if it was previously locked.
+- **Counterplay / limits:** Only designated doors; the temporary access point is visible.
+
+#### 82. QUIET HOURS
+- **Role:** Audio utility.
+- **Concept:** Create a small sound-dampening zone. Sounds produced inside are harder to hear from outside, while visual information remains unchanged.
+- **Counterplay / limits:** Does not conceal players or suppress visual cues.
+
+#### 83. GOOD AS NEW
+- **Role:** Map maintenance.
+- **Concept:** Repair one damaged neutral map mechanism, restoring it to its original working state.
+- **Counterplay / limits:** Cannot repair player equipment or weapons; only designated mechanisms.
+
+#### 84. CHECK ENGINE
+- **Role:** Mechanism information.
+- **Concept:** Inspect a nearby moving map mechanism to see its next movement direction and approximate arrival time.
+- **Counterplay / limits:** Reveals mechanism behavior, not enemy locations.
+
+#### 85. DO NOT DISTURB
+- **Role:** Door control.
+- **Concept:** Temporarily prevent ordinary map doors within a small radius from being opened. Doors already open remain open.
+- **Counterplay / limits:** Only designated ordinary doors; visible and temporary.
+
+#### 86. ON THE HOUSE
+- **Role:** Teammate support.
+- **Concept:** Give one nearby teammate a temporary extra charge of their equipment, if that equipment supports charges.
+- **Counterplay / limits:** Does not affect abilities; only works with charge-based equipment and must respect item charge caps.
+
+#### 87. PAPER TRAIL
+- **Role:** Route communication.
+- **Concept:** Leave visible paper markers along the user's movement route. Teammates can follow them, and opponents can see them too.
+- **Counterplay / limits:** Markers are visible to both teams and fade after a limited time.
+
+#### 88. NO WORRIES
+- **Role:** Movement control.
+- **Concept:** Cancel the user's current slide early and transition into controlled standing movement while preserving some horizontal momentum.
+- **Counterplay / limits:** Does not grant invulnerability or additional speed beyond the retained momentum.
+
+### Altered
+
+#### 89. RECEIPT
+- **Role:** Directional trip sensor.
+- **Concept:** Place a small scanner on a surface. It records the time and direction of the first player who passes it, then displays that information to its owner.
+- **Counterplay / limits:** Limited to one trigger and reports direction/time rather than exact identity or location.
+
+#### 90. DEAD AIR
+- **Role:** Audio distortion.
+- **Concept:** Create a temporary audio bubble where sound cues are delayed slightly before being heard. Actual game events and visual information are unchanged.
+- **Counterplay / limits:** Does not delay gameplay events or alter player movement; only affects audio presentation within the field.
+
+#### 91. OPEN SECRET
+- **Role:** Environmental reconnaissance.
+- **Concept:** Briefly reveal hidden map passages and secret environmental interactions within a limited radius.
+- **Counterplay / limits:** Reveals designated map features only, not enemies or player-created traps unless explicitly tagged as environmental secrets.
+
+#### 92. OUT OF ORDER
+- **Role:** Mechanism denial.
+- **Concept:** Temporarily disable one designated neutral map mechanism. It displays a clear out-of-order sign while inactive.
+- **Counterplay / limits:** Only affects approved neutral mechanisms; the warning is visible.
+
+#### 93. ONE MORE THING
+- **Role:** Delayed visual effect.
+- **Concept:** Leave behind a delayed second activation that repeats the ability's harmless visual effect.
+- **Counterplay / limits:** Cannot repeat damage, movement-affecting effects, or other gameplay outcomes.
+
+#### 94. LOOSE THREAD
+- **Role:** Traversal.
+- **Concept:** Attach a visible temporary cable between two valid surfaces. Players can slide along it in either direction.
+- **Counterplay / limits:** The cable is visible and usable by both teams; attachment points and capacity are limited.
+
+#### 95. WINDOW SHOPPING
+- **Role:** Pickup information.
+- **Concept:** Temporarily display available weapon pickups in a nearby section of the map, including their categories, without revealing player locations.
+- **Counterplay / limits:** Shows pickup information only, not who is carrying a weapon or where opponents are.
+
+#### 96. UNDER THE TABLE
+- **Role:** Temporary concealment.
+- **Concept:** Create a small temporary hiding space beneath a specially designated map object. Players inside remain visible from certain angles and cannot attack while concealed.
+- **Counterplay / limits:** Only designated locations; concealment is incomplete and attacking is disabled.
+
+### Evolved
+
+#### 97. SHORT NOTICE
+- **Role:** Temporary platform.
+- **Concept:** Mark a location. After a delay, a temporary platform appears there and remains for a limited time.
+- **Counterplay / limits:** The marker telegraphs the location; platform is usable by everyone.
+
+#### 98. WEIGHT LIMIT
+- **Role:** Fall control.
+- **Concept:** Temporarily reduce the user's falling speed, allowing controlled long descents.
+- **Counterplay / limits:** Does not allow flight or upward movement.
+
+#### 99. INVENTORY CHECK
+- **Role:** Loadout intelligence.
+- **Concept:** Send out a pulse that reveals the ability and equipment categories currently equipped by nearby opponents, without revealing their exact positions.
+- **Counterplay / limits:** Gives category-level information only and is limited by range.
+
+#### 100. FLOOR SERVICE
+- **Role:** Deployable cover.
+- **Concept:** Deploy a temporary piece of waist-high cover on a valid flat surface.
+- **Counterplay / limits:** Usable by both teams; placement is limited to valid surfaces and must remain readable.
+
+#### 101. STAND-IN
+- **Role:** Static deception.
+- **Concept:** Create a stationary holographic copy of the user's current weapon and character silhouette at a selected position. It performs no actions.
+- **Counterplay / limits:** Visual only; cannot move, attack, or interact.
+
+#### 102. EARLY ACCESS
+- **Role:** Alternate route.
+- **Concept:** Temporarily activate one designated alternative route in the map. It closes automatically when the effect expires.
+- **Counterplay / limits:** Only approved map routes; opening and closure are clearly communicated.
+
+#### 103. THE SHORTCUT
+- **Role:** Shared traversal.
+- **Concept:** Create a temporary one-way launch ramp that sends players toward a selected nearby landing area.
+- **Counterplay / limits:** Both teams can use it; trajectory and landing area are telegraphed.
+
+#### 104. STICKER PRICE
+- **Role:** Interaction marking.
+- **Concept:** Mark one neutral map object. The next player to interact with it receives a temporary visual indicator visible to everyone.
+- **Counterplay / limits:** Only triggers on the next interaction and does not reveal additional information about the player.
+
+#### 105. NO RUSH
+- **Role:** Mechanism control.
+- **Concept:** Create a field that reduces the speed of moving map mechanisms inside it. Player movement remains unaffected.
+- **Counterplay / limits:** Only designated moving mechanisms; field is visible and temporary.
+
+### Ascendant
+
+#### 106. READ THE ROOM
+- **Role:** Sound reconnaissance.
+- **Concept:** Temporarily visualize recent sound events in a nearby area as fading directional waves.
+- **Counterplay / limits:** Does not reveal exact enemy positions; visualized events fade and are limited by range/time.
+
+#### 107. MEASURE TWICE
+- **Role:** Bridge construction.
+- **Concept:** Project a straight line between two valid surfaces. After a short delay, a temporary narrow bridge forms along that line.
+- **Counterplay / limits:** Both endpoints and the projected path are telegraphed; usable by both teams.
+
+#### 108. SHIFT CHANGE
+- **Role:** Platform control.
+- **Concept:** Take control of one designated moving platform and reverse its direction for a short period. Its movement is clearly announced.
+- **Counterplay / limits:** Only designated platforms; movement change is visible to all players.
+
+#### 109. SAFETY INSPECTION
+- **Role:** Hazard reconnaissance.
+- **Concept:** Scan a nearby area and mark dangerous map hazards, unstable platforms, and active environmental traps.
+- **Counterplay / limits:** Reveals environmental hazards only, not players or their equipment.
+
+#### 110. PASSING LANE
+- **Role:** Shared movement support.
+- **Concept:** Create a temporary strip of accelerated movement on the floor. Players moving along it gain speed in the strip's direction.
+- **Counterplay / limits:** Both teams benefit; the strip's direction and boundaries are visible.
+
+#### 111. TIME SHARE
+- **Role:** Mechanism pause.
+- **Concept:** Temporarily pause one designated moving map mechanism. Players can still move normally around it.
+- **Counterplay / limits:** Only designated mechanisms; does not freeze players or combat.
+
+#### 112. NO CUTTING
+- **Role:** Queue-based traversal.
+- **Concept:** Create a visible single-file passage. Players entering it are arranged into a line and move through in order. They can leave at any time.
+- **Counterplay / limits:** No player is trapped; queue is visible and applies equally to both teams.
+
+#### 113. SECOND SHIFT
+- **Role:** Remote reconnaissance.
+- **Concept:** Deploy a second controllable camera device at another nearby location. The user can switch between views, but their character remains stationary while operating either.
+- **Counterplay / limits:** The user remains vulnerable and stationary; camera range and vulnerability are TBD.
+
+#### 114. ROOM SERVICE
+- **Role:** Map layout manipulation.
+- **Concept:** Temporarily rearrange designated movable map furniture or cover objects into a predefined alternative layout.
+- **Counterplay / limits:** Only approved movable objects and predefined layouts; all changes are telegraphed and shared.
+
+### Extraordinary
+
+#### 115. YOU FIRST
+- **Role:** Platform routing.
+- **Concept:** Select a neutral moving platform and temporarily reverse its priority: it travels to the nearest waiting player before continuing its route.
+- **Counterplay / limits:** Platform remains available to everyone; route changes are visible.
+
+#### 116. SMOKE BREAK
+- **Role:** Temporary room.
+- **Concept:** Create a small temporary enclosed room made of translucent panels. Players can enter and leave freely, and everyone inside remains visible through the panels.
+- **Counterplay / limits:** Not opaque or invulnerable; both teams can enter.
+
+#### 117. THE USHER
+- **Role:** Directional movement influence.
+- **Concept:** Create a directional guidance field that gently redirects players walking through it toward a selected exit. It does not take control of their movement.
+- **Counterplay / limits:** Influence is limited and avoidable; players retain control.
+
+#### 118. LOST IN TRANSIT
+- **Role:** Paired transport.
+- **Concept:** Enter a special map transport point and reappear at its paired exit after a short, visible travel sequence. Both points are announced.
+- **Counterplay / limits:** Only designated paired points; transport is telegraphed and interruptibility is TBD.
+
+#### 119. RENT CONTROL
+- **Role:** Platform scale manipulation.
+- **Concept:** Temporarily shrink or expand one designated movable map platform. Anyone standing on it moves with it.
+- **Counterplay / limits:** Only designated platforms; size change is visible and safe movement boundaries are required.
+
+#### 120. OUT OF POCKET
+- **Role:** Deployable room.
+- **Concept:** Deploy a small portable room that unfolds around a selected surface, creating a temporary enclosed space with two openings.
+- **Counterplay / limits:** Both teams can enter; openings remain accessible and the structure is temporary.
+
+#### 121. THE BUILDING INSPECTOR
+- **Role:** Geometry information.
+- **Concept:** Temporarily reveal the structural layout of nearby map geometry, showing which surfaces are valid for climbing, standing, or placing temporary structures.
+- **Counterplay / limits:** Reveals map geometry rules only, not player positions.
+
+#### 122. NOT MY DEPARTMENT
+- **Role:** Mechanism reset.
+- **Concept:** Redirect one active neutral map mechanism to its default automated behaviour, overriding any player-controlled setting.
+- **Counterplay / limits:** Only designated neutral mechanisms; cannot control players or enemy equipment.
+
+### Singular
+
+#### 123. THE COMMITTEE
+- **Role:** Multi-platform construction.
+- **Concept:** Summon three small autonomous platforms that arrange themselves into a temporary staircase. They can be climbed by everyone.
+- **Counterplay / limits:** Shared access; assembly is visible and takes time.
+
+#### 124. EVERYBODY OUT
+- **Role:** Room evacuation.
+- **Concept:** Mark a designated room. After a visible countdown, all players inside are gently transported to the nearest valid exit.
+- **Counterplay / limits:** Applies equally to both teams; countdown is visible and no damage is dealt.
+
+#### 125. GROUND FLOOR
+- **Role:** Platform positioning.
+- **Concept:** Temporarily lower a designated movable platform to its lowest valid position, carrying everyone standing on it.
+- **Counterplay / limits:** Only designated platforms; movement is visible and shared.
+
+#### 126. THIS IS A TEST
+- **Role:** Visual map deception.
+- **Concept:** Create a temporary duplicate of a small section of neutral map geometry. The duplicate is purely visual and cannot be used as cover or for movement.
+- **Counterplay / limits:** Visual only; cannot block shots, movement, or visibility in ways that affect combat.
+
+#### 127. LOCAL TIME
+- **Role:** Mechanism speed control.
+- **Concept:** Select one moving map mechanism and change its speed for a short period. It can be slowed down or sped up, but cannot be stopped completely.
+- **Counterplay / limits:** Only designated mechanisms; speed changes are visible and bounded.
+
+#### 128. THE BUILDING MOVED
+- **Role:** Multi-platform rearrangement.
+- **Concept:** Temporarily shift a group of designated movable platforms into a different predefined arrangement.
+- **Counterplay / limits:** Changes are announced and visible; only approved layouts are allowed.
+
+#### 129. PLEASE USE OTHER DOOR
+- **Role:** Paired doorway manipulation.
+- **Concept:** Create a temporary doorway on a valid wall surface while simultaneously closing another designated doorway.
+- **Counterplay / limits:** Both changes are visible and affect everyone; only approved wall and doorway locations.
+
+#### 130. TERMS OF LEASE
+- **Role:** Room rule-set transformation.
+- **Concept:** Claim one designated neutral room for a short period. While claimed, its doors remain open, its lights change colour, and its interactive map objects operate according to a predefined alternative layout.
+- **Counterplay / limits:** Everyone can enter and use the room; the alternative layout is predefined, visible, and temporary.
+
+## 4. Rarity and Naming Notes
+
+- Names should use understated humour, everyday phrases, and dry absurdity. Avoid forced memes, excessive gamer slang, and names that explain the mechanic too literally.
+- Rarity communicates originality, uniqueness, complexity, presentation, or exclusivity, not automatic combat strength.
+- The rarity of each concept is determined by its section heading. Assignments are accepted for this batch and require explicit design review to change.
+
+## 5. Earlier Ability Concept
+
+#### MY BAD
+- **Rarity:** Extraordinary
+- **Role:** Mobility / positioning.
+- **Concept:** Rewind the player's own position by a few seconds. Health, damage, eliminations, and enemy actions are not undone. The player cannot rewind through solid walls.
+- **Presentation direction:** Blue-white fragmented afterimages, reverse-motion animation, clock-like audio, and a brief temporal distortion.
+- **Counterplay / limits:** Position only; no health restoration or reversal of combat outcomes. Cooldown and exact rewind duration are TBD.
+
+MY BAD is explicitly **Extraordinary**, not Commonplace.
