@@ -716,3 +716,976 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 **Skin 2: FINAL AUTHORITY**
 - **Rarity:** Singular
 - **Design:** Black titanium receiver with platinum engraving, deep crimson chamber glass and a floating wax-seal emblem. Each bolt cycle breaks and reforms a luminous seal across the chamber; Hold the Paper suspends the seal fragments in a precise orbit until cycling resumes. Bespoke bolt-action, seal-break and reload audio. The scope and firing cues remain completely unobstructed.
+
+
+## Collection — Batch 02 (Weapons 071–167)
+
+### Weapon 071 — RED TAPE
+
+**Skin 1: FIELD TEST: RED TAPE**
+- **Rarity:** Altered
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Re-route receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GILDED AGE: RED TAPE**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. Re-route triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 072 — HARD RESET
+
+**Skin 1: ISSUED EQUIPMENT: HARD RESET**
+- **Rarity:** Extraordinary
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Reboot receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ZERO HOUR: HARD RESET**
+- **Rarity:** Commonplace
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. Reboot triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. No animated effects; only a restrained material finish and crisp mechanical audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 073 — FIRST CLASS
+
+**Skin 1: NIGHT RUN: FIRST CLASS**
+- **Rarity:** Evolved
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Upgrade Seat receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: STARFALL: FIRST CLASS**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. Upgrade Seat triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 074 — OVERHEAD
+
+**Skin 1: FACTORY FLOOR: OVERHEAD**
+- **Rarity:** Singular
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Short Route receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: BLACK LABEL: OVERHEAD**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. Short Route triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 075 — TIGHTROPE
+
+**Skin 1: COLD FRONT: TIGHTROPE**
+- **Rarity:** Ascendant
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Safety Net receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PHANTOM CIRCUIT: TIGHTROPE**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. Safety Net triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 076 — TIME CARD
+
+**Skin 1: AFTER HOURS: TIME CARD**
+- **Rarity:** Extraordinary
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Overtime receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ROYAL FLUSH: TIME CARD**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. Overtime triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 077 — SPOT CHECK
+
+**Skin 1: FIRST EDITION: SPOT CHECK**
+- **Rarity:** Commonplace
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Second Look receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: INFINITE LOOP: SPOT CHECK**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. Second Look triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 078 — LATCHKEY
+
+**Skin 1: DEEP CUT: LATCHKEY**
+- **Rarity:** Singular
+- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Lock Up receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PRISM BREAK: LATCHKEY**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. Lock Up triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 079 — FENDER BENDER
+
+**Skin 1: SIGNAL FIRE: FENDER BENDER**
+- **Rarity:** Evolved
+- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Reverse Gear receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: LAST LIGHT: FENDER BENDER**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. Reverse Gear triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 080 — GOOD SPORT
+
+**Skin 1: HIGH VOLTAGE: GOOD SPORT**
+- **Rarity:** Ascendant
+- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Catch and Release receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GHOST PROTOCOL: GOOD SPORT**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. Catch and Release triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 081 — NIGHTCAP
+
+**Skin 1: OFF GRID: NIGHTCAP**
+- **Rarity:** Altered
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. One for the Road receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: CROWN VECTOR: NIGHTCAP**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. One for the Road triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 082 — TALLY HO
+
+**Skin 1: FINAL FORM: TALLY HO**
+- **Rarity:** Extraordinary
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Make It Even receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: WORLD'S END: TALLY HO**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. Make It Even triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 083 — STATIC SHOCK
+
+**Skin 1: FIELD TEST: STATIC SHOCK**
+- **Rarity:** Altered
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Ground Wire receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GILDED AGE: STATIC SHOCK**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. Ground Wire triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 084 — QUIET HOURS
+
+**Skin 1: ISSUED EQUIPMENT: QUIET HOURS**
+- **Rarity:** Extraordinary
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Lights On receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ZERO HOUR: QUIET HOURS**
+- **Rarity:** Commonplace
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. Lights On triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. No animated effects; only a restrained material finish and crisp mechanical audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 085 — BLIND DATE
+
+**Skin 1: NIGHT RUN: BLIND DATE**
+- **Rarity:** Evolved
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Make It Official receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: STARFALL: BLIND DATE**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. Make It Official triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 086 — HIGH BEAMS
+
+**Skin 1: FACTORY FLOOR: HIGH BEAMS**
+- **Rarity:** Singular
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Dip the Lights receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: BLACK LABEL: HIGH BEAMS**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. Dip the Lights triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 087 — HARD COPY
+
+**Skin 1: COLD FRONT: HARD COPY**
+- **Rarity:** Ascendant
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Duplicate receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PHANTOM CIRCUIT: HARD COPY**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. Duplicate triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 088 — BOTTOM LINE
+
+**Skin 1: AFTER HOURS: BOTTOM LINE**
+- **Rarity:** Extraordinary
+- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Final Offer receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ROYAL FLUSH: BOTTOM LINE**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. Final Offer triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 089 — UNDERSTUDY
+
+**Skin 1: FIRST EDITION: UNDERSTUDY**
+- **Rarity:** Commonplace
+- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Take the Stage receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: INFINITE LOOP: UNDERSTUDY**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. Take the Stage triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 090 — QUICK FIX
+
+**Skin 1: DEEP CUT: QUICK FIX**
+- **Rarity:** Singular
+- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Temporary Support receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PRISM BREAK: QUICK FIX**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. Temporary Support triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 091 — HEADCOUNT
+
+**Skin 1: SIGNAL FIRE: HEADCOUNT**
+- **Rarity:** Evolved
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Present receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: LAST LIGHT: HEADCOUNT**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. Present triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 092 — LATE FEE
+
+**Skin 1: HIGH VOLTAGE: LATE FEE**
+- **Rarity:** Ascendant
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Grace Period receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GHOST PROTOCOL: LATE FEE**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. Grace Period triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 093 — PIN DROP
+
+**Skin 1: OFF GRID: PIN DROP**
+- **Rarity:** Altered
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Pull the Pin receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: CROWN VECTOR: PIN DROP**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. Pull the Pin triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 094 — SAFE BET
+
+**Skin 1: FINAL FORM: SAFE BET**
+- **Rarity:** Extraordinary
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Double or Nothing receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: WORLD'S END: SAFE BET**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. Double or Nothing triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 095 — BACK CHAT
+
+**Skin 1: FIELD TEST: BACK CHAT**
+- **Rarity:** Altered
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Repeat That receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GILDED AGE: BACK CHAT**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. Repeat That triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 096 — ALL CLEAR
+
+**Skin 1: ISSUED EQUIPMENT: ALL CLEAR**
+- **Rarity:** Extraordinary
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Leave Nothing receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ZERO HOUR: ALL CLEAR**
+- **Rarity:** Commonplace
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. Leave Nothing triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. No animated effects; only a restrained material finish and crisp mechanical audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 097 — BIG PICTURE
+
+**Skin 1: NIGHT RUN: BIG PICTURE**
+- **Rarity:** Evolved
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Zoom Out receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: STARFALL: BIG PICTURE**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. Zoom Out triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 098 — SMALL TALK
+
+**Skin 1: FACTORY FLOOR: SMALL TALK**
+- **Rarity:** Singular
+- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Change the Subject receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: BLACK LABEL: SMALL TALK**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. Change the Subject triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 099 — ON THE HOUSE
+
+**Skin 1: COLD FRONT: ON THE HOUSE**
+- **Rarity:** Ascendant
+- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. No Charge receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PHANTOM CIRCUIT: ON THE HOUSE**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. No Charge triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 100 — OVERBOOKED
+
+**Skin 1: AFTER HOURS: OVERBOOKED**
+- **Rarity:** Extraordinary
+- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Squeeze In receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ROYAL FLUSH: OVERBOOKED**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. Squeeze In triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 101 — ROLL CALL
+
+**Skin 1: FIRST EDITION: ROLL CALL**
+- **Rarity:** Commonplace
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Dismissed receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: INFINITE LOOP: ROLL CALL**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. Dismissed triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 102 — HOUSE RULES
+
+**Skin 1: DEEP CUT: HOUSE RULES**
+- **Rarity:** Singular
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. New Rule receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PRISM BREAK: HOUSE RULES**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. New Rule triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 103 — NO SHOW
+
+**Skin 1: SIGNAL FIRE: NO SHOW**
+- **Rarity:** Evolved
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Reschedule receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: LAST LIGHT: NO SHOW**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. Reschedule triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 104 — NIGHT OWL
+
+**Skin 1: HIGH VOLTAGE: NIGHT OWL**
+- **Rarity:** Ascendant
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Dim the Screen receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GHOST PROTOCOL: NIGHT OWL**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. Dim the Screen triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 105 — DOUBLE SHIFT
+
+**Skin 1: OFF GRID: DOUBLE SHIFT**
+- **Rarity:** Altered
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Swap Shifts receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: CROWN VECTOR: DOUBLE SHIFT**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. Swap Shifts triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 106 — OPEN TAB
+
+**Skin 1: FINAL FORM: OPEN TAB**
+- **Rarity:** Extraordinary
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Settle Up receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: WORLD'S END: OPEN TAB**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. Settle Up triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 107 — DEAD END
+
+**Skin 1: FIELD TEST: DEAD END**
+- **Rarity:** Altered
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Open Passage receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GILDED AGE: DEAD END**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. Open Passage triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 108 — BAIL OUT
+
+**Skin 1: ISSUED EQUIPMENT: BAIL OUT**
+- **Rarity:** Extraordinary
+- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Pull the Cord receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ZERO HOUR: BAIL OUT**
+- **Rarity:** Commonplace
+- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. Pull the Cord triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. No animated effects; only a restrained material finish and crisp mechanical audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 109 — SIDE DISH
+
+**Skin 1: NIGHT RUN: SIDE DISH**
+- **Rarity:** Evolved
+- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Swap Sides receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: STARFALL: SIDE DISH**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. Swap Sides triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 110 — CLEAN SLATE
+
+**Skin 1: FACTORY FLOOR: CLEAN SLATE**
+- **Rarity:** Singular
+- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Wipe Down receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: BLACK LABEL: CLEAN SLATE**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. Wipe Down triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 111 — DOORJAM
+
+**Skin 1: COLD FRONT: DOORJAM**
+- **Rarity:** Ascendant
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PHANTOM CIRCUIT: DOORJAM**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. signature action triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 112 — BELLHOP
+
+**Skin 1: AFTER HOURS: BELLHOP**
+- **Rarity:** Extraordinary
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ROYAL FLUSH: BELLHOP**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. signature action triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 113 — PAPER TIGER
+
+**Skin 1: FIRST EDITION: PAPER TIGER**
+- **Rarity:** Commonplace
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: INFINITE LOOP: PAPER TIGER**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. signature action triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 114 — LAST WORD
+
+**Skin 1: DEEP CUT: LAST WORD**
+- **Rarity:** Singular
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PRISM BREAK: LAST WORD**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. signature action triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 115 — SHOPPING CART
+
+**Skin 1: SIGNAL FIRE: SHOPPING CART**
+- **Rarity:** Evolved
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: LAST LIGHT: SHOPPING CART**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. signature action triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 116 — NIGHT SHIFT
+
+**Skin 1: HIGH VOLTAGE: NIGHT SHIFT**
+- **Rarity:** Ascendant
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GHOST PROTOCOL: NIGHT SHIFT**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. signature action triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 117 — THE BUTLER
+
+**Skin 1: OFF GRID: THE BUTLER**
+- **Rarity:** Altered
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: CROWN VECTOR: THE BUTLER**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. signature action triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 118 — BAD FORM
+
+**Skin 1: FINAL FORM: BAD FORM**
+- **Rarity:** Extraordinary
+- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: WORLD'S END: BAD FORM**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. signature action triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 119 — PICKUP STICKS
+
+**Skin 1: FIELD TEST: PICKUP STICKS**
+- **Rarity:** Altered
+- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GILDED AGE: PICKUP STICKS**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. signature action triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 120 — THE BIG KNIT
+
+**Skin 1: ISSUED EQUIPMENT: THE BIG KNIT**
+- **Rarity:** Extraordinary
+- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ZERO HOUR: THE BIG KNIT**
+- **Rarity:** Commonplace
+- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. signature action triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. No animated effects; only a restrained material finish and crisp mechanical audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 121 — CLOSE CALL
+
+**Skin 1: NIGHT RUN: CLOSE CALL**
+- **Rarity:** Evolved
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: STARFALL: CLOSE CALL**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. signature action triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 122 — CLEAN SWEEP
+
+**Skin 1: FACTORY FLOOR: CLEAN SWEEP**
+- **Rarity:** Singular
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: BLACK LABEL: CLEAN SWEEP**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. signature action triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 123 — OFF LIMITS
+
+**Skin 1: COLD FRONT: OFF LIMITS**
+- **Rarity:** Ascendant
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PHANTOM CIRCUIT: OFF LIMITS**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. signature action triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 124 — BOUNCED CHECK
+
+**Skin 1: AFTER HOURS: BOUNCED CHECK**
+- **Rarity:** Extraordinary
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ROYAL FLUSH: BOUNCED CHECK**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. signature action triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 125 — SILENT PARTNER
+
+**Skin 1: FIRST EDITION: SILENT PARTNER**
+- **Rarity:** Commonplace
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: INFINITE LOOP: SILENT PARTNER**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. signature action triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 126 — TOLL BOOTH
+
+**Skin 1: DEEP CUT: TOLL BOOTH**
+- **Rarity:** Singular
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PRISM BREAK: TOLL BOOTH**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. signature action triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 127 — SECOND HAND
+
+**Skin 1: SIGNAL FIRE: SECOND HAND**
+- **Rarity:** Evolved
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: LAST LIGHT: SECOND HAND**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. signature action triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 128 — FLOOR MODEL
+
+**Skin 1: HIGH VOLTAGE: FLOOR MODEL**
+- **Rarity:** Ascendant
+- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GHOST PROTOCOL: FLOOR MODEL**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. signature action triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 129 — NO RETURNS
+
+**Skin 1: OFF GRID: NO RETURNS**
+- **Rarity:** Altered
+- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: CROWN VECTOR: NO RETURNS**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. signature action triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 130 — SOFT CLOSE
+
+**Skin 1: FINAL FORM: SOFT CLOSE**
+- **Rarity:** Extraordinary
+- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: WORLD'S END: SOFT CLOSE**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. signature action triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 131 — PAPER SHIELD
+
+**Skin 1: FIELD TEST: PAPER SHIELD**
+- **Rarity:** Altered
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GILDED AGE: PAPER SHIELD**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. signature action triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 132 — GARDEN VARIETY
+
+**Skin 1: ISSUED EQUIPMENT: GARDEN VARIETY**
+- **Rarity:** Extraordinary
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ZERO HOUR: GARDEN VARIETY**
+- **Rarity:** Commonplace
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. signature action triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. No animated effects; only a restrained material finish and crisp mechanical audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 133 — MILESTONE
+
+**Skin 1: NIGHT RUN: MILESTONE**
+- **Rarity:** Evolved
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: STARFALL: MILESTONE**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. signature action triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 134 — GOOD GRIP
+
+**Skin 1: FACTORY FLOOR: GOOD GRIP**
+- **Rarity:** Singular
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: BLACK LABEL: GOOD GRIP**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. signature action triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 135 — THE PEACEMAKER
+
+**Skin 1: COLD FRONT: THE PEACEMAKER**
+- **Rarity:** Ascendant
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PHANTOM CIRCUIT: THE PEACEMAKER**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. signature action triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 136 — BACKSTAGE PASS
+
+**Skin 1: AFTER HOURS: BACKSTAGE PASS**
+- **Rarity:** Extraordinary
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ROYAL FLUSH: BACKSTAGE PASS**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. signature action triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 137 — HOLD THE DOOR
+
+**Skin 1: FIRST EDITION: HOLD THE DOOR**
+- **Rarity:** Commonplace
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: INFINITE LOOP: HOLD THE DOOR**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. signature action triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 138 — SPARE PARTS
+
+**Skin 1: DEEP CUT: SPARE PARTS**
+- **Rarity:** Singular
+- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PRISM BREAK: SPARE PARTS**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. signature action triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 139 — CROWN JEWEL
+
+**Skin 1: SIGNAL FIRE: CROWN JEWEL**
+- **Rarity:** Evolved
+- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: LAST LIGHT: CROWN JEWEL**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. signature action triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 140 — FINAL NOTICE
+
+**Skin 1: HIGH VOLTAGE: FINAL NOTICE**
+- **Rarity:** Ascendant
+- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GHOST PROTOCOL: FINAL NOTICE**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. signature action triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 141 — GOOD ENOUGH
+
+**Skin 1: OFF GRID: GOOD ENOUGH**
+- **Rarity:** Altered
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: CROWN VECTOR: GOOD ENOUGH**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. signature action triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 142 — OUT OF OFFICE
+
+**Skin 1: FINAL FORM: OUT OF OFFICE**
+- **Rarity:** Extraordinary
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: WORLD'S END: OUT OF OFFICE**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. signature action triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 143 — SQUARE ONE
+
+**Skin 1: FIELD TEST: SQUARE ONE**
+- **Rarity:** Altered
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GILDED AGE: SQUARE ONE**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. signature action triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 144 — TWO-WAY STREET
+
+**Skin 1: ISSUED EQUIPMENT: TWO-WAY STREET**
+- **Rarity:** Extraordinary
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ZERO HOUR: TWO-WAY STREET**
+- **Rarity:** Commonplace
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. signature action triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. No animated effects; only a restrained material finish and crisp mechanical audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 145 — MIDDLE MANAGEMENT
+
+**Skin 1: NIGHT RUN: MIDDLE MANAGEMENT**
+- **Rarity:** Evolved
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: STARFALL: MIDDLE MANAGEMENT**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. signature action triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 146 — SLOW NEWS
+
+**Skin 1: FACTORY FLOOR: SLOW NEWS**
+- **Rarity:** Singular
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: BLACK LABEL: SLOW NEWS**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. signature action triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 147 — PUNCHLINE
+
+**Skin 1: COLD FRONT: PUNCHLINE**
+- **Rarity:** Ascendant
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PHANTOM CIRCUIT: PUNCHLINE**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. signature action triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 148 — DETOUR
+
+**Skin 1: AFTER HOURS: DETOUR**
+- **Rarity:** Extraordinary
+- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ROYAL FLUSH: DETOUR**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. signature action triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 149 — WELL READ
+
+**Skin 1: FIRST EDITION: WELL READ**
+- **Rarity:** Commonplace
+- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: INFINITE LOOP: WELL READ**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. signature action triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 150 — CASH ONLY
+
+**Skin 1: DEEP CUT: CASH ONLY**
+- **Rarity:** Singular
+- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PRISM BREAK: CASH ONLY**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. signature action triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 151 — WINDOW SEAT
+
+**Skin 1: SIGNAL FIRE: WINDOW SEAT**
+- **Rarity:** Evolved
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: LAST LIGHT: WINDOW SEAT**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. signature action triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 152 — NO COMMENT
+
+**Skin 1: HIGH VOLTAGE: NO COMMENT**
+- **Rarity:** Ascendant
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GHOST PROTOCOL: NO COMMENT**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. signature action triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 153 — TRAFFIC JAM
+
+**Skin 1: OFF GRID: TRAFFIC JAM**
+- **Rarity:** Altered
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: CROWN VECTOR: TRAFFIC JAM**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. signature action triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 154 — BETTER LUCK
+
+**Skin 1: FINAL FORM: BETTER LUCK**
+- **Rarity:** Extraordinary
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: WORLD'S END: BETTER LUCK**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. signature action triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 155 — ON RECORD
+
+**Skin 1: FIELD TEST: ON RECORD**
+- **Rarity:** Altered
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GILDED AGE: ON RECORD**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. signature action triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 156 — FRESH COAT
+
+**Skin 1: ISSUED EQUIPMENT: FRESH COAT**
+- **Rarity:** Extraordinary
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ZERO HOUR: FRESH COAT**
+- **Rarity:** Commonplace
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. signature action triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. No animated effects; only a restrained material finish and crisp mechanical audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 157 — NARROW ESCAPE
+
+**Skin 1: NIGHT RUN: NARROW ESCAPE**
+- **Rarity:** Evolved
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: STARFALL: NARROW ESCAPE**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. signature action triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 158 — SAME PAGE
+
+**Skin 1: FACTORY FLOOR: SAME PAGE**
+- **Rarity:** Singular
+- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: BLACK LABEL: SAME PAGE**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. signature action triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 159 — FINE TUNING
+
+**Skin 1: COLD FRONT: FINE TUNING**
+- **Rarity:** Ascendant
+- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PHANTOM CIRCUIT: FINE TUNING**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. signature action triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 160 — SPARE ROOM
+
+**Skin 1: AFTER HOURS: SPARE ROOM**
+- **Rarity:** Extraordinary
+- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: ROYAL FLUSH: SPARE ROOM**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. signature action triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 161 — BAD SIGNAL
+
+**Skin 1: FIRST EDITION: BAD SIGNAL**
+- **Rarity:** Commonplace
+- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: INFINITE LOOP: BAD SIGNAL**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. signature action triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 162 — DEADLINE
+
+**Skin 1: DEEP CUT: DEADLINE**
+- **Rarity:** Singular
+- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: PRISM BREAK: DEADLINE**
+- **Rarity:** Altered
+- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. signature action triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 163 — PARKING FINE
+
+**Skin 1: SIGNAL FIRE: PARKING FINE**
+- **Rarity:** Evolved
+- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: LAST LIGHT: PARKING FINE**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. signature action triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 164 — BETWEEN FRIENDS
+
+**Skin 1: HIGH VOLTAGE: BETWEEN FRIENDS**
+- **Rarity:** Ascendant
+- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GHOST PROTOCOL: BETWEEN FRIENDS**
+- **Rarity:** Evolved
+- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. signature action triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 165 — LATE CHECKOUT
+
+**Skin 1: OFF GRID: LATE CHECKOUT**
+- **Rarity:** Altered
+- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: CROWN VECTOR: LATE CHECKOUT**
+- **Rarity:** Singular
+- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. signature action triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 166 — OPEN CIRCUIT
+
+**Skin 1: FINAL FORM: OPEN CIRCUIT**
+- **Rarity:** Extraordinary
+- **Design:** ivory composite with dark walnut accents, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a crisp flash contained to the muzzle and receiver; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: WORLD'S END: OPEN CIRCUIT**
+- **Rarity:** Ascendant
+- **Design:** A full signature treatment built around signature mechanic: matte obsidian with precision-machined silver ribs, layered translucent panels and orange hazard ticks and a brushed-steel control ring. signature action triggers a brief constellation of sparks at the action's endpoint, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+
+### Weapon 167 — THE LAST WORD
+
+**Skin 1: FIELD TEST: THE LAST WORD**
+- **Rarity:** Altered
+- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+
+**Skin 2: GILDED AGE: THE LAST WORD**
+- **Rarity:** Extraordinary
+- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. signature action triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
