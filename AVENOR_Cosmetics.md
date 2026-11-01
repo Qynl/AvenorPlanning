@@ -215,3 +215,102 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 - **Rarity:** Singular
 - **Design:** Translucent blue resin body with suspended droplets, animated ripple patterns and a contained water-like shimmer. Weapon action produces a clean circular wave with tiny floating droplets.
 
+### Weapon 021 — CROSSWALK
+
+**Skin 1: NIGHT CROSSING**
+- **Rarity:** Altered
+- **Design:** Matte asphalt-black receiver, reflective white lane markings and amber marker housings. Marker rounds leave a short, clean white streak; the connecting line uses the same high-visibility finish as the base weapon's warning cues.
+
+**Skin 2: CITY OF LIGHTS**
+- **Rarity:** Extraordinary
+- **Design:** Deep midnight-blue body with illuminated architectural gridwork beneath translucent panels. Tiny animated traffic lights cycle along the receiver. Right of Way draws a crisp neon intersection between markers, while Road Closed unfolds a layered amber-and-violet road-sign animation. The hazard boundary remains sharply readable.
+
+### Weapon 022 — LAST CALL
+
+**Skin 1: DEAD AIR**
+- **Rarity:** Commonplace
+- **Design:** Warm ivory casing, brushed steel speaker grille and dark telephone-cord detailing around the grip. Sonic pulses produce a small, clean circular ripple with no extra screen distortion.
+
+**Skin 2: THE FINAL RING**
+- **Rarity:** Ascendant
+- **Design:** Black glass shell with a suspended violet waveform core and polished silver receiver details. The waveform visibly compresses before each pulse, then expands into thin concentric rings. Hang Up creates a larger layered soundwave disc that dissolves into tiny light fragments. Custom bass-heavy activation and pulse sounds.
+
+### Weapon 023 — TWO CENTS
+
+**Skin 1: POCKET MONEY**
+- **Rarity:** Altered
+- **Design:** Satin copper receiver, dark walnut grip panels and small coin-edge engravings. The alternating shot rhythm is shown by two distinct chamber lights, copper then silver.
+
+**Skin 2: GOLD STANDARD**
+- **Rarity:** Singular
+- **Design:** Sculpted champagne-gold frame with a deep navy inset and a suspended, rotating twin-coin mechanism. Each alternating shot briefly illuminates a different coin. My Two Cents loads a luminous coin-shaped chamber seal, and a successful hit releases a precise golden ripple with a few orbiting flecks. The effect stays around the weapon and impact, never obscuring the target.
+
+### Weapon 024 — OPEN HOUSE
+
+**Skin 1: SHOW HOME**
+- **Rarity:** Commonplace
+- **Design:** Clean white polymer panels, pale timber accents and brushed aluminium hinges. The deployable cover unfolds with a neat mechanical snap and a small status light.
+
+**Skin 2: GRAND OPENING**
+- **Rarity:** Extraordinary
+- **Design:** Black marble-effect shell with luminous ice-blue glass edges and refined chrome hinges. Animated blueprint lines travel across the launcher before deployment. The cover assembles through a brief holographic architectural frame; Under New Management folds it into glowing geometric panels before it redeploys. Cover health and edges remain obvious.
+
+### Weapon 025 — HOLD MUSIC
+
+**Skin 1: WAITING ROOM**
+- **Rarity:** Evolved
+- **Design:** Soft graphite body, muted teal display and tiny illuminated equalizer bars. Each successful hit adds one clean bar and a quiet musical tick, building a visible rhythm without clutter.
+
+**Skin 2: CONCERT HALL**
+- **Rarity:** Singular
+- **Design:** Gloss-black instrument-grade finish with a luminous violet sound chamber and fine silver waveform engraving. Each hit adds a floating musical glyph that circles the chamber; completing the sequence triggers a brief, elegant crescendo of concentric sound rings. Please Stay On The Line suspends the glyphs in a slow orbit, then resumes their movement. Bespoke musical firing and completion cues.
+
+### Weapon 026 — SPLIT DECISION
+
+**Skin 1: FORK IN THE ROAD**
+- **Rarity:** Altered
+- **Design:** Two-tone graphite and brushed steel body, with separate blue and orange feed channels for the Single and Split shots. The selector physically shifts between the two channels.
+
+**Skin 2: PARALLEL LINES**
+- **Rarity:** Ascendant
+- **Design:** Translucent smoked casing with two animated energy rails running side by side. Single shots use a concentrated blue flash; Split shots separate into two violet-edged trails after the normal split distance. Make Your Choice rotates a crisp dual-path selector around the receiver. No extra projectile width or altered timing.
+
+### Weapon 027 — SHORTCUT
+
+**Skin 1: SERVICE ROUTE**
+- **Rarity:** Evolved
+- **Design:** Industrial grey launcher with bright orange anchor cartridges, braided cable and small route labels. The deployed cable gains evenly spaced illuminated markers that make its full length easy to read.
+
+**Skin 2: SKYBRIDGE**
+- **Rarity:** Extraordinary
+- **Design:** Pearl-white and midnight-blue casing with floating glass route panels and a miniature animated skyline inside the receiver. Anchor deployment creates two brief architectural frames; the cable forms as a clean strand of blue-white light with visible anchor points. Express Lane sends a travelling pulse down the cable, clearly indicating the speed boost to everyone using it.
+
+### Weapon 028 — SLOW BURN
+
+**Skin 1: KILN**
+- **Rarity:** Altered
+- **Design:** Dark ceramic plating, copper heat vents and a small analogue temperature dial. The vents shift from cool steel to warm amber as heat rises, then return to dark when cooled.
+
+**Skin 2: SOLAR FLARE**
+- **Rarity:** Singular
+- **Design:** White-hot ceramic shell with molten-gold channels and a contained miniature solar core visible beneath the receiver. Heat builds as layered rings orbit the core, intensifying in colour without increasing brightness enough to obscure the weapon. Let It Breathe releases a broad, elegant corona that collapses into sparks. Custom thermal hum, vent and cooldown audio.
+
+### Weapon 029 — WRONG NUMBER
+
+**Skin 1: MISDIAL**
+- **Rarity:** Commonplace
+- **Design:** Retro cream casing, dark red channel dial and a tiny monochrome signal screen. Signal placement produces a short, subtle pixel flicker at the device.
+
+**Skin 2: HAUNTED FREQUENCY**
+- **Rarity:** Ascendant
+- **Design:** Dark translucent casing with a floating violet dial and animated spectral waveform. The false audio cue is accompanied by a brief, localized holographic waveform at the device, never a misleading visual enemy silhouette. Call Back sends a second waveform through the dial in a different colour. Custom electronic chime and signal-collapse sounds.
+
+### Weapon 030 — NO REFUNDS
+
+**Skin 1: CASH REGISTER**
+- **Rarity:** Evolved
+- **Design:** Brushed nickel frame, dark green grip panels and a small mechanical price display beside the cylinder. The red SALE indicator flips to SOLD after No Takebacks is loaded, then resets on use or reload.
+
+**Skin 2: KING'S RANSOM**
+- **Rarity:** Singular
+- **Design:** Blackened platinum body with deep crimson enamel, engraved crown filigree and a rotating six-point cylinder emblem. The special round forms a compact crimson seal around the chamber. No Takebacks creates a sharp royal insignia that flashes once at the weapon, followed by a controlled ring at the hit location. Bespoke cylinder rotation, reload flourish and heavy metallic firing audio.
