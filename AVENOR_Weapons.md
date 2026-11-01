@@ -48,7 +48,7 @@ Default key: **X** (remappable).
 - Right click: Aim / zoom
 - R: Reload
 - X: Weapon Action
-- Q: Player ability
+- F: Player ability
 
 All controls should be remappable, including keyboard and mouse, controller, and mobile layouts. Mobile players should be able to adjust button position and size.
 
@@ -1236,16 +1236,16 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Category:** Retrieval Tool
 - **Rarity:** Altered
 - **Slot:** Secondary
-- **Role:** Finding and securing a better weapon pickup.
+- **Role:** Weapon-pickup awareness.
 - **Core mechanic: Claim Ticket**
   
-  The tool can tag one eligible friendly deployable within line of sight. The tag identifies it as recoverable but has no effect on opponents.
+  Mark one map weapon pickup that the user has directly seen. Its location remains highlighted on the user's HUD while it is available.
 - **Weapon Action: Found It**
   
-  Recall the tagged deployable to the user's position, removing it from its old location.
-- **Rules and counterplay:** Only compatible friendly deployables can be recalled; the tool cannot steal enemy objects; the recall takes time and can be interrupted; recalled objects return with their remaining lifetime, not a refresh.
+  Briefly refresh the marked pickup's locator, helping the user relocate it during a rotation. It does not move the pickup, reserve it, or change who can collect it.
+- **Rules and counterplay:** Only one pickup can be marked; the mark ends when the pickup is collected or despawns; it cannot reveal unseen pickups or opponents.
 - **Visual identity:** A handheld lost-property scanner with a ticket slot and blinking locator light.
-- **Prototype values:** Compatible object list, scan range, recall time, and cooldown are TBD.
+- **Prototype values:** Mark duration, locator refresh duration, and cooldown are TBD.
 - **Status:** Accepted concept. Prototype values are TBD.
 
 ### Weapon 055 — BAD TIMING
@@ -1848,16 +1848,16 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Category:** Service Tool
 - **Rarity:** Altered
 - **Slot:** Secondary
-- **Role:** Restoring a damaged friendly deployable so a team can keep its setup.
+- **Role:** Emergency ammunition management.
 - **Core mechanic: Patch Job**
   
-  Repair one compatible friendly deployable at close range over a short channel. The repair restores only a limited portion of its original durability.
+  When the currently held weapon is below its magazine capacity, activate Patch Job to transfer a small, fixed amount of reserve ammunition directly into its magazine.
 - **Weapon Action: Temporary Support**
   
-  Apply a brief brace that prevents the deployable from being displaced, but does not reduce incoming damage.
-- **Rules and counterplay:** The user must remain nearby and can be interrupted; repair has a strict cap; it cannot repair player health or enemy equipment; the tool has limited charges.
-- **Visual identity:** A compact repair tool with a folding clamp and a visible service meter.
-- **Prototype values:** Compatible object list, repair amount, channel time, brace duration, and cooldown are TBD.
+  Temporarily improves the next reload's speed. The effect ends after that reload and cannot stack with itself.
+- **Rules and counterplay:** Both actions consume reserve ammunition where applicable; neither creates ammunition; the transfer has a clear animation and can be interrupted; normal magazine and reserve limits still apply.
+- **Visual identity:** A compact service tool with a folding clamp and a visible ammunition meter.
+- **Prototype values:** Ammo transfer amount, reload speed modifier, duration, and cooldown are TBD.
 - **Status:** Proposed concept. Prototype values are TBD.
 
 ### Weapon 091 — HEADCOUNT
@@ -3292,7 +3292,7 @@ Every entry below has an explicit rarity decision and a default presentation dir
 - **Default effects:** a low-intensity animated feature and a custom action effect with a short aftermath. The visual signature must communicate **Echo Shot** directly; **Save It** receives its own matching activation cue. Effects remain cosmetic and readable, with no damage, accuracy, tracking or visibility advantage.
 
 ### 054 · LOST PROPERTY
-- **Rarity decision:** **Altered · Retain for now.** Recovering the user's own eligible deployed equipment from a safer position. The concept is retained at this tier for its defined gameplay identity, not because the roster needs a particular count. Revisit it if playtests show its mechanic overlaps another weapon.
+- **Rarity decision:** **Altered · Retain for now.** Weapon-pickup awareness. The concept is retained at this tier for its defined gameplay identity, not because the roster needs a particular count. Revisit it if playtests show its mechanic overlaps another weapon.
 - **Default finish:** contrasting materials, a deliberate accent colour and a distinctive manufactured detail. Its physical identity is built around a handheld lost-property scanner with a ticket slot and blinking locator light.. The finish is built into the base model, not locked behind a skin.
 - **Default effects:** a restrained emissive indicator and localized activation effect. The visual signature must communicate **Claim Ticket** directly; **Found It** receives its own matching activation cue. Effects remain cosmetic and readable, with no damage, accuracy, tracking or visibility advantage.
 
