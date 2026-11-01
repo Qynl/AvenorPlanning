@@ -167,9 +167,8 @@ Temporarily increases firing speed so the rifle can deliver its four-shot bursts
 
 **Status:** Accepted concept. Duration, cooldown, and exact firing cadence are TBD.
 
-### Weapon 007 — THE WORKS
+### Weapon 007 — LAWNMOWER
 - **Internal ID:** LAWNMOWER
-- **Working name:** Lawnmower
 - **Category:** Light Machine Gun
 - **Rarity:** Commonplace (provisional)
 - **Role:** Heavy sustained-fire weapon.
@@ -186,7 +185,7 @@ Temporarily increases firing speed so the rifle can deliver its four-shot bursts
 - **Rarity:** Altered (provisional)
 - **Role:** Mid-range area pressure and timing-based outplays.
 - **Core firing behaviour:** Fires a flat spinning disc that travels forward and then returns to its owner after reaching its travel limit. The returning path is part of the weapon's normal firing loop.
-- **Weapon Action: Return to Sender**
+- **Weapon Action: Early Return**
 
 Recall the active disc early, causing it to reverse direction immediately instead of completing its normal travel. This lets the player choose when to bring the disc back and can create a second angle of pressure.
 
