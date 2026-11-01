@@ -314,3 +314,103 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 **Skin 2: KING'S RANSOM**
 - **Rarity:** Singular
 - **Design:** Blackened platinum body with deep crimson enamel, engraved crown filigree and a rotating six-point cylinder emblem. The special round forms a compact crimson seal around the chamber. No Takebacks creates a sharp royal insignia that flashes once at the weapon, followed by a controlled ring at the hit location. Bespoke cylinder rotation, reload flourish and heavy metallic firing audio.
+
+### Weapon 031 — OVERDUE
+
+**Skin 1: COMPOUND INTEREST**
+- **Rarity:** Evolved
+- **Design:** Brushed gunmetal, deep emerald enamel and fine gold ledger markings. A mechanical counter advances with consecutive hits; Final Notice stamps a brief gold seal at the impact point.
+
+**Skin 2: THE DEBT COLLECTOR**
+- **Rarity:** Singular
+- **Design:** Obsidian body, antique-gold plates and a luminous emerald core. Tiny numerals orbit the chamber; consecutive hits build a spectral ledger chain. Final Notice releases a golden balance-scale emblem that breaks into numbered sparks. Bespoke metallic cycling audio.
+
+### Weapon 032 — SPARE KEY
+
+**Skin 1: MASTER KEY**
+- **Rarity:** Evolved
+- **Design:** Satin brass casing, dark leather grip and engraved key profiles. Door frames unfold with a crisp brass mechanism; Deadbolt turns a physical key and locks the selected frame with a clear symbol.
+
+**Skin 2: THE SKELETON KEY**
+- **Rarity:** Singular
+- **Design:** Black chrome, violet crystal details and a floating key-shaped energy core. Linked frames resemble ornate dimensional doorways, with animated runes around their edges. Deadbolt closes one frame with a spectral lock that fractures into violet shards. Custom portal and lock audio.
+
+### Weapon 033 — BOUNCER
+
+**Skin 1: CLUB SECURITY**
+- **Rarity:** Altered
+- **Design:** Matte black steel, padded dark-red grip and white SECURITY lettering. The pressure gauge uses a bold red needle that climbs with stored knockback.
+
+**Skin 2: VIP ONLY**
+- **Rarity:** Extraordinary
+- **Design:** Gloss-black and champagne-gold construction, velvet-textured grip and rotating gold pressure chamber. Stored pressure illuminates marquee bulbs. Out You Go releases a broad gold-edged shockwave that dissolves into tiny ticket particles. Custom heavy mechanical report.
+
+### Weapon 034 — GOOD MEASURE
+
+**Skin 1: BLUEPRINT**
+- **Rarity:** Altered
+- **Design:** Blueprint-blue coating, precise white drafting lines and brushed aluminium fittings. Take Measure extends a ruler from the receiver and projects a thin, readable range guide.
+
+**Skin 2: GOLDEN RATIO**
+- **Rarity:** Ascendant
+- **Design:** Pearl-white ceramic, gold structural ribs and a transparent chamber containing a rotating geometric spiral. Aiming rearranges the distance scale into proportional markings; Take Measure projects golden geometric arcs that fold back into the weapon.
+
+### Weapon 035 — OFF THE CLOCK
+
+**Skin 1: TIME THIEF**
+- **Rarity:** Evolved
+- **Design:** Dark bronze recorder, smoked-glass screen and warm amber clockwork. The projected runner has subtle scanlines and a visible clock icon, making its decoy nature clear.
+
+**Skin 2: TOMORROW'S YOU**
+- **Rarity:** Singular
+- **Design:** Sleek silver chronometer with a miniature hourglass suspended inside a transparent receiver. Sand-like light flows upward while recording. The projected runner becomes a layered blue-violet temporal echo with three faint afterimages. Early Finish flips the hourglass and releases the projection in clock-face fragments. Bespoke ticking audio.
+
+### Weapon 036 — BACKFILL
+
+**Skin 1: RESERVE STOCK**
+- **Rarity:** Commonplace
+- **Design:** Durable olive polymer, exposed steel loading rails and a bright orange reserve chamber. The reserve round has a distinct brass finish.
+
+**Skin 2: LAST IN LINE**
+- **Rarity:** Extraordinary
+- **Design:** Deep navy body, polished titanium rails and a luminous ice-blue reserve chamber. The round rotates inside a transparent capsule. Move It Up sends a blue loading pulse along the rail as the round slides into the magazine. Custom magnetic loading sound.
+
+### Weapon 037 — SIDE EYE
+
+**Skin 1: PERISCOPE**
+- **Rarity:** Altered
+- **Design:** Military graphite housing, pale green optical lens and knurled adjustment ring. The swivelling lens has a precise iris animation; detection appears as a small green bracket on the side display.
+
+**Skin 2: ALL-SEEING**
+- **Rarity:** Singular
+- **Design:** Polished black glass and iridescent violet metal surrounding a floating multi-faceted optical crystal. Look Alive sends a clean segmented scan around the tool, with a brilliant localized lens flare. Custom crystalline scan tone.
+
+### Weapon 038 — TIN CAN
+
+**Skin 1: SCRAPYARD**
+- **Rarity:** Altered
+- **Design:** Recycled steel panels, dented olive paint, copper wire and hand-painted warning symbols. The canister rattles in its chamber and throws tiny orange sparks on each bounce.
+
+**Skin 2: ORBITAL TRASH**
+- **Rarity:** Extraordinary
+- **Design:** A spherical canister inside a dark titanium cage, with luminous planetary bands and tiny debris fragments orbiting its centre. Each bounce creates an orbital ripple; One More Time adds a temporary extra ring. Custom hollow metallic bounce audio.
+
+### Weapon 039 — HOME RUN
+
+**Skin 1: BIG LEAGUE**
+- **Rarity:** Evolved
+- **Design:** Midnight-blue sporting finish, cream pinstripes and polished aluminium fittings. A rotating scoreboard sits in the ball chamber; Curveball leaves a short curved chalk-line trail.
+
+**Skin 2: GRAND SLAM**
+- **Rarity:** Singular
+- **Design:** Gloss-black carbon body, stadium-gold trim and a luminous ball suspended in a transparent chamber. Animated constellation stitching circles the ball. Curveball draws a sweeping golden stadium arc, followed by a brief scoreboard flourish. Bespoke sporting instrumental sting.
+
+### Weapon 040 — GUEST LIST
+
+**Skin 1: EXCLUSIVE ENTRY**
+- **Rarity:** Altered
+- **Design:** Polished brass sensor plate, dark walnut backing and a cream ticket display. When triggered, the display flips to a directional arrow with a paper-ticket sound.
+
+**Skin 2: AFTERPARTY**
+- **Rarity:** Ascendant
+- **Design:** Black lacquer, luminous magenta glass and a rotating holographic guest counter. The sensor projects a miniature entrance arch. Read It Back sends a glowing ticket through the arch and unfolds it into a clear directional arrow. Custom electronic venue chime.
