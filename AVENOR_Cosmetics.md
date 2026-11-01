@@ -614,3 +614,405 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 **Skin 2: SECRET MENU**
 - **Rarity:** Ascendant
 - **Design:** Gloss-black casing with shifting iridescent menu panels and a floating holographic selector. The two firing modes have distinct chamber patterns: one luminous line and a triple-stacked motif. Change It Up flips the menu display through an elegant transition. Custom selector audio.
+
+## Collection — Batch 03 (Weapons 031–070)
+
+### Weapon 031 — OVERDUE
+
+**Skin 1: COMPOUND INTEREST**
+- **Rarity:** Altered
+- **Design:** Deep forest-green receiver, aged brass counter wheels and cream enamel number plates. The hit counter clicks forward with a tiny brass flip; Final Notice stamps a small amber invoice glyph at the normal impact marker.
+
+**Skin 2: COLLECTION AGENCY**
+- **Rarity:** Extraordinary
+- **Design:** Black-chrome frame with molten-gold ledger channels and a floating mechanical abacus inside the receiver. Consecutive hits turn the abacus wheels; the final stage releases a controlled cascade of gold numerals around the barrel. Final Notice projects a crisp holographic account seal at the impact point. Custom mechanical counter and firing audio.
+
+### Weapon 032 — SPARE KEY
+
+**Skin 1: MASTER KEY**
+- **Rarity:** Evolved
+- **Design:** Brushed gunmetal locksmith tool, antique nickel key teeth and dark leather grip. The two doorway frames unfold with precise interlocking gear movements; the active entrance receives a subtle rotating keyhole indicator.
+
+**Skin 2: BETWEEN WORLDS**
+- **Rarity:** Singular
+- **Design:** Obsidian casing with translucent violet crystal channels and a miniature impossible doorway suspended inside the tool. Each placed frame opens with layered geometric iris segments; the linked interiors show a slow-moving starfield. Deadbolt closes one frame into a luminous lock sigil before it can be reopened. Bespoke portal deployment and shutdown audio; the portal opening remains visually clear.
+
+### Weapon 033 — BOUNCER
+
+**Skin 1: NIGHTCLUB**
+- **Rarity:** Altered
+- **Design:** Gloss-black body, electric-magenta pressure gauge and polished chrome spring stock. The gauge needle pulses with stored knockback; Out You Go produces a clean pink-and-white ring that expands away from the muzzle.
+
+**Skin 2: VIP ONLY**
+- **Rarity:** Ascendant
+- **Design:** Midnight-purple enamel, gold edge plating and a rotating velvet-rope motif along the receiver. Pressure builds as illuminated ticket lights; the action releases a broad gold-edged shock ring with tiny ticket-shaped sparks. Custom bass impact and spring-release sounds.
+
+### Weapon 034 — GOOD MEASURE
+
+**Skin 1: YARDSTICK**
+- **Rarity:** Commonplace
+- **Design:** Warm maple-look stock panels, satin steel barrel and engraved measurement ticks. The sliding range scale moves with a tactile ruler-click; Take Measure projects a simple white measuring line.
+
+**Skin 2: GOLDEN RATIO**
+- **Rarity:** Extraordinary
+- **Design:** Pearl ceramic body with champagne-gold geometry and a suspended rotating proportion spiral inside the receiver. The distance scale becomes a finely animated golden spiral; Take Measure draws a clean, segmented geometric range arc across the environment, fading quickly and never outlining opponents. Custom precision chime.
+
+### Weapon 035 — OFF THE CLOCK
+
+**Skin 1: TIMEKEEPER**
+- **Rarity:** Evolved
+- **Design:** Brushed silver recorder, midnight-blue casing and a tiny analogue watch face. The stored route appears as a thin dotted timeline around the device; playback silhouette has a subtle scanline shimmer that clearly distinguishes it from a real player.
+
+**Skin 2: SECOND HAND**
+- **Rarity:** Singular
+- **Design:** Black mirror casing with a suspended clockwork heart, orbiting violet hands and fine luminous minute marks. Recording winds the internal mechanism; playback releases a translucent runner made of layered clock-face fragments. Early Finish snaps the hands to twelve and launches the projection in a burst of frozen clock glyphs. Custom ticking, rewind and projection sounds; the decoy remains unmistakably artificial.
+
+### Weapon 036 — BACKFILL
+
+**Skin 1: RESERVE UNIT**
+- **Rarity:** Altered
+- **Design:** Olive-drab receiver, black polymer furniture and a clearly exposed reserve-round chamber with a bright orange rim. The reserve indicator slides into alignment when Move It Up transfers the round.
+
+**Skin 2: LAST IN LINE**
+- **Rarity:** Ascendant
+- **Design:** Frosted titanium shell with a luminous single-round capsule suspended along the side. The capsule rotates into the feed path during transfer, leaving a short icy-blue mechanical trail. The reserve chamber empties with a clean glassy pulse; reload animation uses a bespoke articulated magazine sequence.
+
+### Weapon 037 — SIDE EYE
+
+**Skin 1: LOOKOUT**
+- **Rarity:** Evolved
+- **Design:** Sand-grey surveyor housing, dark rubber eyecup and a rotating amber lens ring. The lens gives a small directional glint when its unobstructed sensor registers movement; Look Alive sweeps one clean amber arc across the lens.
+
+**Skin 2: ALL-SEEING**
+- **Rarity:** Singular
+- **Design:** Deep obsidian instrument body with a floating multi-faceted violet lens and tiny orbiting calibration prisms. Scanning rotates the prisms into a precise iris; Look Alive releases one elegant radial pulse from the lens. The effect communicates only the tool's scan direction, never extra enemy information. Bespoke optical activation sound.
+
+### Weapon 038 — TIN CAN
+
+**Skin 1: SCRAP HEAP**
+- **Rarity:** Commonplace
+- **Design:** Reclaimed olive metal, mismatched bolts, faded shipping labels and a dented orange cap. The canister rattles with a dry metallic clink; each bounce produces a small spark in the same position as the standard bounce cue.
+
+**Skin 2: ORBITAL DEBRIS**
+- **Rarity:** Extraordinary
+- **Design:** Dark titanium launcher with a transparent chamber containing a miniature rotating debris field. The projectile becomes a polished meteor canister with thin blue orbital bands; every bounce sheds a brief ring of tiny fragments that vanish immediately. One More Time adds a distinct extra orbit around the projectile before launch. Custom metallic ricochet audio.
+
+### Weapon 039 — HOME RUN
+
+**Skin 1: BIG LEAGUE**
+- **Rarity:** Altered
+- **Design:** Cream-and-red sporting finish, stitched grip wrap and engraved scoreboard numbers. The ball chamber rotates like a compact pitching machine; Curveball adds a short red seam trail that clearly follows the selected curve.
+
+**Skin 2: GRAND SLAM**
+- **Rarity:** Singular
+- **Design:** Midnight-navy lacquer with polished gold seams, a luminous stadium-light core and animated scoreboard numerals. The ball appears as a radiant stitched sphere; its distance trail builds into a clean arc of stadium lights, while Curveball draws a sweeping golden seam through the air. Bespoke pitch wind-up, launch and impact sounds.
+
+### Weapon 040 — GUEST LIST
+
+**Skin 1: DOORMAN**
+- **Rarity:** Commonplace
+- **Design:** Brushed brass sensor plate, dark walnut trim and a small mechanical guest counter. Triggering the sensor flips the counter once and leaves a short directional arrow in warm white.
+
+**Skin 2: AFTERPARTY**
+- **Rarity:** Ascendant
+- **Design:** Gloss-black and champagne-gold casing with a miniature illuminated ballroom chandelier inside the display. The sensor's dormant state shows a slowly rotating invitation; on trigger, the invitation folds into a directional arrow. Read It Back releases a brief cascade of golden confetti squares along the recorded direction, with no exact enemy location.
+
+### Weapon 041 — DOUBLE PARKED
+
+**Skin 1: MATCHING TICKETS**
+- **Rarity:** Altered
+- **Design:** A deliberately mismatched pair: one satin silver pistol and one deep teal pistol, linked by matching numbered ticket plates. Each hand has its own distinct reload flourish and ammunition counter colour.
+
+**Skin 2: DOUBLE EXPOSURE**
+- **Rarity:** Extraordinary
+- **Design:** Two contrasting halves of one mirrored design, one pearl-white with violet inlays and one black chrome with ice-blue inlays. Their chamber windows contain mirrored rotating discs. Both Lanes fires a synchronized twin flash and a symmetrical pair of short trails; custom alternating left-right firing and reload audio.
+
+### Weapon 042 — STATIC CLING
+
+**Skin 1: POLARITY**
+- **Rarity:** Evolved
+- **Design:** Industrial graphite tool with bright cyan and orange clamp pads, exposed copper coils and a polarity dial. The pads display opposite-colour magnetic fields; Let Go releases two clean outward arcs.
+
+**Skin 2: MAGNETAR**
+- **Rarity:** Singular
+- **Design:** Black titanium frame with a contained violet magnetic core and two floating, articulated clamp heads. Active pads display elegant field lines that connect visibly to suitable surfaces; Let Go reverses the field in a dramatic but brief radial pulse. Custom magnetic hum and release audio. Field lines never obscure attached players or surfaces.
+
+### Weapon 043 — PAYPHONE
+
+**Skin 1: BUSY SIGNAL**
+- **Rarity:** Altered
+- **Design:** Retro ivory handset, dark teal body and a red illuminated busy light. The cable spool visibly winds during Switchboard; friendly connection lights illuminate in a simple sequence.
+
+**Skin 2: LONG DISTANCE**
+- **Rarity:** Extraordinary
+- **Design:** Midnight-blue enamel booth-inspired casing with translucent glass panels and a luminous constellation switchboard. Friendly links appear as fine blue filaments between connected beacons; Switchboard reroutes them through a rotating central operator dial. The filaments remain team-only information exactly as in the base mechanic. Bespoke connection chimes.
+
+### Weapon 044 — GOOD GRIEF
+
+**Skin 1: PRESSURE VALVE**
+- **Rarity:** Altered
+- **Design:** Industrial gunmetal body, copper recoil springs and a large analogue pressure gauge with cream markings. Stored knockback compresses a visible spring; Let It Out releases the spring with a short amber pressure puff.
+
+**Skin 2: BREAK THE SILENCE**
+- **Rarity:** Ascendant
+- **Design:** Dark graphite shell with translucent violet pressure chambers and animated concentric grooves. Each hit adds one visible ring inside the chamber; the action releases those rings as a crisp expanding shock pattern, then the chamber resets. Custom spring compression and low resonant firing audio.
+
+### Weapon 045 — CLEAN BREAK
+
+**Skin 1: FIELD TEST**
+- **Rarity:** Commonplace
+- **Design:** Classic walnut stock, brushed blued-steel barrels and two distinct engraved barrel marks. The compact and wide patterns are indicated by simple white and amber chamber lights.
+
+**Skin 2: SHATTERPOINT**
+- **Rarity:** Extraordinary
+- **Design:** Smoked crystal receiver with dark chrome framing and two suspended geometric barrel cores. The active barrel illuminates with a different crystalline pattern; Double Down joins both patterns into one brief symmetrical glassburst effect. Reload opens the receiver into two floating, precisely aligned barrel panels before snapping shut. Custom break-action metallic sound.
+
+### Weapon 046 — SUNDAY DRIVER
+
+**Skin 1: OPEN ROAD**
+- **Rarity:** Altered
+- **Design:** Vintage cream receiver, racing-green furniture and a small chrome speedometer dial. The dial needle follows the existing spread state; Easy Does It briefly locks the needle in place with a clean click.
+
+**Skin 2: NIGHT CRUISE**
+- **Rarity:** Ascendant
+- **Design:** Deep midnight-blue body with pearlescent trim, animated road-line inlays and a miniature illuminated dashboard. Straight movement lights a sequence of lane markers along the receiver; direction changes visibly reset them. Easy Does It holds the lane lights in a short frozen animation before they resume. Custom engine-like mechanical cycling, not an actual vehicle sound cue.
+
+### Weapon 047 — FINE PRINT
+
+**Skin 1: CONTRACT**
+- **Rarity:** Evolved
+- **Design:** Ivory ceramic receiver, dark oxblood grip and fine embossed legal-text patterns. Each successful stamp prints a tiny numbered clause on the side display; Read the Terms adds a small paper tag at the normal ground marker.
+
+**Skin 2: THE SMALL PRINT**
+- **Rarity:** Singular
+- **Design:** Black lacquer and antique gold frame with animated micro-engraving that resolves into elegant lines when inspected. Three luminous seals orbit the receiver as the sequence builds; the completed bonus shot releases a precise golden signature stroke. Read the Terms creates a floating wax seal that drops into the normal marker position. Bespoke paper-feed, stamp and signature audio.
+
+### Weapon 048 — BREADCRUMBS
+
+**Skin 1: TRAIL GUIDE**
+- **Rarity:** Commonplace
+- **Design:** Warm tan dispenser with forest-green casing, small trail symbols and matte rubber grip. Route discs have a clean cream arrow and a subtle pulse toward the next marker.
+
+**Skin 2: CONSTELLATION**
+- **Rarity:** Extraordinary
+- **Design:** Deep-space navy shell with a glass star map rotating inside the dispenser. Each placed marker becomes a bright star connected by a fine blue-violet line; Sweep Up draws the oldest star inward and redraws the route from the new starting point. The constellation is world-visible and never resembles enemy tracking. Custom celestial placement chime.
+
+### Weapon 049 — HIGH HORSE
+
+**Skin 1: POLO CLUB**
+- **Rarity:** Altered
+- **Design:** Polished mahogany-look panels, cream enamel body and brass horse-head sight. The altitude gauge uses classic racing colours; Come Down to Earth releases a compact cream-and-gold downward burst.
+
+**Skin 2: PEGASUS**
+- **Rarity:** Singular
+- **Design:** Pearl-white armour plating, iridescent feather-like fins and a luminous violet core beneath the chamber. Airborne shots animate the fins in a restrained upward ripple; the altitude gauge becomes a rotating celestial dial. Come Down to Earth creates a stylized pair of light-feather wings that fold into a circular launch ring. Bespoke rising and descending audio; no extra flight time or movement benefit.
+
+### Weapon 050 — TAKE A NUMBER
+
+**Skin 1: SERVICE DESK**
+- **Rarity:** Evolved
+- **Design:** Cream-and-cobalt ticket dispenser with a brushed steel number window and a tiny red NEXT light. Each teammate joining the queue advances the mechanical display; Next Please flips to the next number with a satisfying clack.
+
+**Skin 2: FIRST IN LINE**
+- **Rarity:** Ascendant
+- **Design:** Black glass body with luminous gold queue numerals and a floating circular clockwork display. Each active turn is represented by one rotating numbered ring; Next Please hands the spotlight to the next ring in a smooth sequence. Custom ticket tear, flip-display and activation sounds.
+
+### Weapon 051 — COLD SHOULDER
+
+**Skin 1: FROSTBITE**
+- **Rarity:** Altered
+- **Design:** Brushed ice-grey receiver, pale-blue barrel shroud and frosted grip texture. The focus indicator gains a thin frost rim as the spread tightens; Turn Away produces a brief cold-blue status flash.
+
+**Skin 2: GLACIER HEART**
+- **Rarity:** Extraordinary
+- **Design:** Translucent glacier-blue panels over dark titanium, with a slowly rotating crystalline core. Consecutive hits build tiny facets around the core; Turn Away sends a clean frost ring around the target's normal status cue, then the facets dissolve. Custom crystalline cycling and icy chamber audio.
+
+### Weapon 052 — DO NOT DISTURB
+
+**Skin 1: ROOM SERVICE**
+- **Rarity:** Evolved
+- **Design:** Polished hotel-brass projector, burgundy enamel and a miniature hanging room key. The bubble boundary uses a soft gold dotted pattern; Check Out folds the field inward like a closing curtain.
+
+**Skin 2: SILENT SUITE**
+- **Rarity:** Singular
+- **Design:** Black marble casing with translucent violet glass and a floating soundless bell core. The projectile-slowing bubble appears as layered, gently rotating acoustic rings; Check Out collapses them into a clean inward spiral before the standard outward push. The field remains equally visible to both teams. Bespoke muted chime and field-collapse audio.
+
+### Weapon 053 — DOUBLE TAKE
+
+**Skin 1: REPLAY**
+- **Rarity:** Evolved
+- **Design:** Twin graphite chambers with bright silver timing rails and a small mirrored display. The delayed follow-up shot is represented by a second light travelling along the rail; Save It pauses that light in place.
+
+**Skin 2: MIRROR IMAGE**
+- **Rarity:** Singular
+- **Design:** Reflective black chrome receiver with two floating mirror plates and a luminous violet central seam. The first shot leaves a clean straight prism trail; the delayed shot repeats the same line with a distinct mirrored shimmer. Save It suspends the second trail as a glass ribbon before releasing it along the original direction. Custom paired firing notes; no altered timing or projectile behaviour.
+
+### Weapon 054 — LOST PROPERTY
+
+**Skin 1: CLAIM CHECK**
+- **Rarity:** Commonplace
+- **Design:** Brushed aluminium scanner with orange ticket slot, dark navy casing and a small green locator lamp. Marking a seen pickup prints a tiny ticket strip; Found It advances the ticket counter once.
+
+**Skin 2: TREASURE VAULT**
+- **Rarity:** Extraordinary
+- **Design:** Deep emerald enamel, gold vault-wheel detailing and a transparent chamber holding a rotating miniature treasure chest. The marked pickup is represented by a small holographic claim token on the device, not an enhanced world marker. Found It spins the vault wheel and releases a brief gold keyhole animation. Custom scanner sweep and vault click.
+
+### Weapon 055 — BAD TIMING
+
+**Skin 1: METRONOME**
+- **Rarity:** Altered
+- **Design:** Matte charcoal body, polished pendulum housing and bright white tempo marks. The side pendulum visibly follows the fixed firing rhythm; Skip the Beat locks it briefly, then swings into the longer recovery.
+
+**Skin 2: OFFBEAT**
+- **Rarity:** Ascendant
+- **Design:** Iridescent violet shell with a floating luminous pendulum and segmented rhythm rings. The fast sequence illuminates short violet beats; the pause creates one large suspended ring. Skip the Beat snaps through the ring and leaves a brief afterimage before the longer recovery. Bespoke rhythmic firing and reset audio.
+
+### Weapon 056 — HUSH MONEY
+
+**Skin 1: SOUNDPROOF**
+- **Rarity:** Evolved
+- **Design:** Padded graphite casing, soft silver speaker dish and teal sound-level meter. The quiet zone boundary uses small evenly spaced sound-dampening marks; Loose Lips emits one short amber waveform at the edge.
+
+**Skin 2: THE QUIET ROOM**
+- **Rarity:** Singular
+- **Design:** Obsidian shell with a suspended violet tuning core and layered translucent acoustic panels. When deployed, the panels unfold into a clean circular sound-field sculpture; Loose Lips sends a single ghost waveform around the perimeter before the field vanishes. No extra sound suppression or visual concealment. Bespoke low-frequency activation tone.
+
+### Weapon 057 — LAST RESORT
+
+**Skin 1: FINAL ROUND**
+- **Rarity:** Altered
+- **Design:** Dark walnut grip, brushed steel cylinder and a bright ivory final-round chamber marker. The marker physically rotates into view as ammunition runs low; Make It Count gives the chamber a distinct amber lock.
+
+**Skin 2: LAST LIGHT**
+- **Rarity:** Extraordinary
+- **Design:** Black titanium frame with a radiant amber chamber core and fine gold sunburst engraving. The final round is enclosed by a rotating halo visible through the cylinder window; Make It Count draws the halo inward and seals the chamber with a bright, compact flare. Custom cylinder indexing and final-round firing sound.
+
+### Weapon 058 — OPEN SECRET
+
+**Skin 1: MEET ME HERE**
+- **Rarity:** Commonplace
+- **Design:** Soft white signal lantern, cobalt-blue trim and a clear circular team window. Connected friendly indicators appear as small blue dots; Roll Call sends a simple expanding blue pulse.
+
+**Skin 2: GATHERING STORM**
+- **Rarity:** Ascendant
+- **Design:** Dark storm-grey housing with a contained electric-blue cloud core and fine silver antennae. Friendly connections appear as delicate lightning-like filaments; Roll Call sends a controlled ring of blue light through the team display. The beacon never shows enemies. Custom static-charged regroup chime.
+
+### Weapon 059 — SHORT FUSE
+
+**Skin 1: SPARK PLUG**
+- **Rarity:** Evolved
+- **Design:** Industrial black launcher with copper fuse caps, ceramic white panels and a bright charge counter. Active charges show a tiny contained spark and a clear countdown ring; All at Once triggers them with synchronized orange pulses.
+
+**Skin 2: SUPERNOVA**
+- **Rarity:** Singular
+- **Design:** Deep-space violet casing with a miniature star chamber and orbiting ignition nodes. Each deployed charge contains a tiny bright core surrounded by a distinct countdown halo; All at Once sends a synchronized wave of star-like flashes to the existing charge locations. Custom ignition sequence and resonant detonation audio. No extra blast size, damage or hidden charges.
+
+### Weapon 060 — THE USUAL
+
+**Skin 1: HOUSE SPECIAL**
+- **Rarity:** Altered
+- **Design:** Warm cream receiver, dark espresso grip and a two-position selector styled like a café order dial. Single-shot and burst modes use distinct amber and teal chamber lights; Change It Up rotates the dial with a tactile click.
+
+**Skin 2: SIGNATURE ORDER**
+- **Rarity:** Extraordinary
+- **Design:** Gloss-black ceramic shell with rose-gold trim and a suspended dual-mode mechanism. The single-shot mode displays one rotating luminous ring; burst mode displays three linked rings. Change It Up transforms one pattern into the other in a brief fluid mechanical animation. Bespoke selector and mode-transition sounds.
+
+### Weapon 061 — BAD PENNY
+
+**Skin 1: LUCKY COIN**
+- **Rarity:** Commonplace
+- **Design:** Aged copper casing, dark green grip and a coin-shaped burst counter with a simple four-leaf engraving. The coin flips once after each burst; Spend It locks the coin face-up.
+
+**Skin 2: PENNY ARCADE**
+- **Rarity:** Ascendant
+- **Design:** Glossy midnight-purple shell with luminous arcade glass, animated coin slots and a rotating neon token chamber. Each complete burst lights one segment of the token; Spend It launches a single clean pixel-gold muzzle flash and resets the token with a satisfying arcade chime. Custom coin flip and firing sounds.
+
+### Weapon 062 — MILE MARKER
+
+**Skin 1: WAYPOINT**
+- **Rarity:** Altered
+- **Design:** Brushed aluminium survey tool with safety-orange pin head, dark graphite legs and engraved distance marks. The direction arrow rotates with a small mechanical tick; Move the Pin folds the marker into a compact travelling form.
+
+**Skin 2: NORTH STAR**
+- **Rarity:** Extraordinary
+- **Design:** Midnight-blue body with a luminous star-shaped compass core and polished silver support arms. The placed marker projects a clean vertical star column and a restrained compass rose; Move the Pin draws the star into the device before it reappears at the new position. No expanded range or precision. Custom compass chime.
+
+### Weapon 063 — SQUARE DEAL
+
+**Skin 1: LEVEL PLAYING FIELD**
+- **Rarity:** Evolved
+- **Design:** Satin nickel receiver with deep blue enamel panels, squared alignment rails and a tiny bubble level. The level settles after each shot; Draw a Line projects a short, crisp blue guide.
+
+**Skin 2: PERFECTLY EVEN**
+- **Rarity:** Singular
+- **Design:** White ceramic body, black mirror inlays and animated interlocking geometric squares. The central balance mechanism rotates into perfect alignment after a qualifying hit; Draw a Line creates a luminous square-frame signature on the surface behind the impact, then folds away. The guide remains cosmetic and never improves aim. Bespoke precision chime.
+
+### Weapon 064 — BULLPEN
+
+**Skin 1: HOME PLATE**
+- **Rarity:** Evolved
+- **Design:** Deep navy shotgun body, cream ceramic panels and red stitching on the grip. The stance indicator resembles a small home-plate marker; preparation illuminates its corners one by one.
+
+**Skin 2: IRON CURTAIN**
+- **Rarity:** Singular
+- **Design:** Blackened steel shell with heavy silver ribs and a contained molten-orange core beneath the foregrip. During Hold the Line, the ribs lock into a precise braced formation; Step Up releases a wide, layered orange-white muzzle fan with a brief metallic banner unfurl. Bespoke brace-lock and blast audio; no added protection or invulnerability.
+
+### Weapon 065 — PAPER CUT
+
+**Skin 1: ORIGAMI**
+- **Rarity:** Altered
+- **Design:** Matte ivory receiver with folded-paper geometry, graphite edges and a bright red paper-feed tab. The folding sight opens with a crisp crease animation; Fold Here creates two clean parallel paper-thin trails.
+
+**Skin 2: PAPER KINGDOM**
+- **Rarity:** Extraordinary
+- **Design:** Translucent pearl shell with intricate animated origami panels and a violet-lit paper core. Each hit adds a tiny folded crest to the receiver; Fold Here unfolds two elegant geometric ribbons that separate at the normal split distance and dissolve into paper-like polygons. Bespoke paper-folding reload and firing audio.
+
+### Weapon 066 — PARKING METER
+
+**Skin 1: NO PARKING**
+- **Rarity:** Commonplace
+- **Design:** Classic parking-meter green, brushed steel pole and bright red expired flag. The countdown ring uses simple white tick marks; Expired flips the flag and sends a small blue route pulse.
+
+**Skin 2: TIME IS MONEY**
+- **Rarity:** Ascendant
+- **Design:** Black chrome meter body with a rotating gold clock face and floating coin-shaped timer markers. The zone ring appears as a segmented golden clock; Expired converts the remaining segments into a brief stream of small directional arrows toward the objective. No extra objective information. Custom ticking and expiry flourish.
+
+### Weapon 067 — SLOW CLAP
+
+**Skin 1: ENCORE**
+- **Rarity:** Altered
+- **Design:** Satin black rifle with brushed silver sound ports, burgundy grip and a small applause-meter dial. Steady timing keeps the dial centred; Encore lights the dial with one clean white pulse.
+
+**Skin 2: STANDING OVATION**
+- **Rarity:** Singular
+- **Design:** Deep theatre-red enamel, polished gold frame and a miniature rotating spotlight chamber. The timing dial builds a row of illuminated audience-seat lights; Encore fires with a controlled golden stage-flash and a short fan of light particles around the receiver. Custom theatrical report and applause-like mechanical flourish, not crowd audio that masks gameplay.
+
+### Weapon 068 — BACKUP PLAN
+
+**Skin 1: SAFETY NET**
+- **Rarity:** Evolved
+- **Design:** Rescue-orange beacon housing, dark graphite base and a folding white antenna. The placed beacon displays a clear return countdown with a rotating ring; Cancel the Plan retracts the antenna and folds the ring inward.
+
+**Skin 2: TIME CAPSULE**
+- **Rarity:** Singular
+- **Design:** Translucent midnight-blue capsule with a floating miniature clock and layered violet timeline rings. The placed beacon shows a contained snapshot of its original placement moment; the recall channel fills the rings in sequence. Cancel the Plan draws the timeline back into the device in a clean rewind animation. Custom temporal chime and recall sound; no faster recall or safer teleport.
+
+### Weapon 069 — WIDE OPEN
+
+**Skin 1: FAN CLUB**
+- **Rarity:** Altered
+- **Design:** Matte cream shotgun body with bright coral fan ribs and a dark rubber grip. The horizontal and vertical patterns are represented by two clearly different fan-shaped indicators; Close the Gap rotates the selector through a quarter turn.
+
+**Skin 2: WINGS OF THE STORM**
+- **Rarity:** Extraordinary
+- **Design:** Iridescent pearl receiver with layered metallic feather panels and a deep-violet core. The horizontal shot opens a wide, flat fan of luminous feather-like streaks; the vertical pattern forms a narrow rising plume. Close the Gap folds the panels upright in a dramatic but fast transformation. Custom mechanical wing-fold and firing audio; projectile patterns remain unchanged.
+
+### Weapon 070 — DEAD CERT
+
+**Skin 1: SIGNED COPY**
+- **Rarity:** Altered
+- **Design:** Classic dark walnut stock, blued-steel barrel and a cream paper-seal chamber label. Cycling the bolt tears the seal in a small mechanical animation; Hold the Paper keeps the paper tab visibly pinched beneath the bolt.
+
+**Skin 2: FINAL AUTHORITY**
+- **Rarity:** Singular
+- **Design:** Black titanium receiver with platinum engraving, deep crimson chamber glass and a floating wax-seal emblem. Each bolt cycle breaks and reforms a luminous seal across the chamber; Hold the Paper suspends the seal fragments in a precise orbit until cycling resumes. Bespoke bolt-action, seal-break and reload audio. The scope and firing cues remain completely unobstructed.
