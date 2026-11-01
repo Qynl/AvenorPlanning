@@ -243,7 +243,7 @@ Each mode needs its own specification before implementation, including:
 - Time limit and overtime.
 - Allowed loadout changes.
 - Spectating and disconnect rules.
-- Rewards and progression treatment.
+- Match XP and reward processing must follow **AVENOR_Progression.md**. Results and rewards are recorded exactly once per match.
 
 Exact mode rules and values are maintained in **AVENOR_GameModes.md**. The current proposed roster includes DUEL, DUOS, TEAM DEATHMATCH, FREE FOR ALL, HARDPOINT, CAPTURE THE FLAG, and the signature original mode AVENOR ORIGIN. All values remain proposals until approved and playtested. The first prototype should still focus on one small 1v1 ruleset because it makes core combat easier to test.
 
@@ -273,7 +273,7 @@ The in-match HUD should show only information that helps players make decisions.
 
 ## 13. Competitive Integrity
 
-- Server authority governs damage, health, ammunition, cooldowns, pickups, match results, and progression rewards.
+- Server authority governs damage, health, ammunition, cooldowns, pickups, match results, and progression rewards. XP, mastery, challenges, currencies, unlocks and ranked rating must be validated and recorded server-side according to **AVENOR_Progression.md**.
 - The client must not be trusted to report successful hits or award itself items.
 - Remote requests must be validated for ownership, state, range, timing, and rate.
 - Matchmaking and ranked systems must be protected against obvious abuse.
