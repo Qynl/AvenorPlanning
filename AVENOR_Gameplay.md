@@ -302,6 +302,7 @@ The first prototype should prove that the basic game is fun before the full rost
 8. A simple 1v1 match loop with countdown, score, round end, and rematch.
 9. Basic HUD and match feedback.
 10. Network tests with more than one player and different latency conditions.
+11. One equipment prototype with server-validated activation, charges, and cleanup.
 
 ### Prototype exit criteria
 
@@ -329,12 +330,14 @@ The following are intentionally proposed rather than locked:
 8. First playable prototype focuses on 1v1.
 9. Build and test a small weapon selection before implementing the full 167.
 10. Exact numerical values remain open until playtesting.
+11. Equipment uses limited charges, with replenishment tied to respawn or round start, subject to item and mode rules.
 
 ## 16. Related Documents
 
 - `AVENOR_Main.md`: Overall game identity, social hub, progression, ranked, cosmetics, and high-level vision.
 - `AVENOR_Weapons.md`: Weapon design philosophy, controls, roster, actions, mastery, skins, and weapon balance principles.
 - `AVENOR_Abilities.md`: Player ability concepts and design rules.
+- `AVENOR_Equipment.md`: Equipment system rules, active roster, counterplay, and prototype priorities.
 - `AVENOR_GameModes.md`: Mode roster, match formats, draft scoring, timers, respawns, and overtime rules.
 - `AVENOR_Maps.md`: Map design standards, routes, sightlines, spawns, mode compatibility, interactions, and performance.
 - `AVENOR_Maps.md` (planned): Arena layouts, spawn design, pickups, and map mechanics.
