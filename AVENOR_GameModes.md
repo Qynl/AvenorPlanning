@@ -55,7 +55,7 @@ Target durations are goals, not hard guarantees. Actual match lengths depend on 
 ### Loadouts
 - Players use their selected loadout unless a mode-specific restriction is clearly stated.
 - Loadout changes are allowed between rounds in round-based modes, unless competitive testing identifies a reason to restrict them.
-- Mid-match weapon pickups follow the shared pickup rules and cannot silently replace Ability or Equipment.
+- Mid-match weapon pickups follow the shared pickup rules and cannot silently replace the player's Ability slot.
 
 ## 4. Classic Modes
 
