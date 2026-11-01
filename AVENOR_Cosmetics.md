@@ -414,3 +414,103 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 **Skin 2: AFTERPARTY**
 - **Rarity:** Ascendant
 - **Design:** Black lacquer, luminous magenta glass and a rotating holographic guest counter. The sensor projects a miniature entrance arch. Read It Back sends a glowing ticket through the arch and unfolds it into a clear directional arrow. Custom electronic venue chime.
+
+### Weapon 041 — DOUBLE PARKED
+
+**Skin 1: MATCHING SET**
+- **Rarity:** Commonplace
+- **Design:** Coordinated brushed-steel pistols with graphite grips and left/right markings. Separate white ammunition counters preserve the dual-magazine identity.
+
+**Skin 2: DOUBLE TROUBLE**
+- **Rarity:** Extraordinary
+- **Design:** One pistol in polished cobalt, the other vivid violet, both with mirrored chrome frames and rotating chamber rings. Alternating shots illuminate the weapons in sequence; Both Lanes synchronizes the chambers and releases twin crescent flourishes. Paired firing and reload audio.
+
+### Weapon 042 — STATIC CLING
+
+**Skin 1: POLARITY**
+- **Rarity:** Evolved
+- **Design:** Dark titanium housing, cyan and magenta magnetic clamps, visible copper coils and a polarity meter. The pads display opposite animated magnetic symbols.
+
+**Skin 2: MAGNETAR**
+- **Rarity:** Singular
+- **Design:** Deep-space black shell with floating crystalline magnetic cores and violet-blue field lines. Active pads create a visible magnetic lattice. Let Go reverses the field in a dramatic inward collapse before a clean outward pulse. The effect stays bounded and readable.
+
+### Weapon 043 — PAYPHONE
+
+**Skin 1: LONG DISTANCE**
+- **Rarity:** Altered
+- **Design:** Retro forest-green enamel, polished nickel handset and braided cream cable. Connection lights illuminate as friendly beacons link; Switchboard rotates a physical selector dial.
+
+**Skin 2: THE OPERATOR**
+- **Rarity:** Extraordinary
+- **Design:** Midnight-black body, luminous gold switchboard pins and translucent violet cable channels. Friendly connections appear as fine lines between illuminated sockets. Switchboard reroutes the glowing lines with a sweeping selector animation. Bespoke telephone connection tones.
+
+### Weapon 044 — GOOD GRIEF
+
+**Skin 1: HEAVY HEART**
+- **Rarity:** Altered
+- **Design:** Dark steel body, muted burgundy panels, copper springs and a heart-shaped pressure gauge. The gauge fills with consecutive hits; Let It Out releases a short copper pulse.
+
+**Skin 2: HEARTBREAKER**
+- **Rarity:** Singular
+- **Design:** Gloss obsidian frame with a luminous ruby crystal core suspended between polished silver springs. Fine light fractures appear as the knockback meter fills, then reform after the action. Let It Out releases a heart-shaped energy pulse that splits into geometric fragments. Custom resonant audio.
+
+### Weapon 045 — CLEAN BREAK
+
+**Skin 1: DOUBLE BARREL**
+- **Rarity:** Altered
+- **Design:** Dark walnut furniture, satin steel barrels and two distinct engraved labels. Compact and wide spread barrels have separate amber and white indicators.
+
+**Skin 2: SHATTERPOINT**
+- **Rarity:** Ascendant
+- **Design:** Frosted-glass receiver with ice-blue internal rails and crystalline barrel cores. The two spread patterns have distinct restrained trails. Double Down aligns both cores and creates a symmetrical crystalline muzzle bloom.
+
+### Weapon 046 — SUNDAY DRIVER
+
+**Skin 1: OPEN ROAD**
+- **Rarity:** Commonplace
+- **Design:** Warm cream bodywork, dark leather grip and brushed chrome trim inspired by a classic touring car. The spread display uses simple green and white markings.
+
+**Skin 2: NIGHT CRUISE**
+- **Rarity:** Extraordinary
+- **Design:** Midnight-blue automotive paint with pearlescent violet reflections and illuminated dashboard details. A miniature animated road runs along the receiver. Maintaining the firing rhythm makes lane lights stream backward; Easy Does It briefly freezes the animation into a luminous horizon line. Subtle custom mechanical idle.
+
+### Weapon 047 — FINE PRINT
+
+**Skin 1: CONTRACT**
+- **Rarity:** Evolved
+- **Design:** Cream enamel panels, dark navy receiver and fine gold clause numbering. The paper-feed mechanism carries an embossed document seal; each completed stamp adds a gold line to the display.
+
+**Skin 2: TERMS & CONDITIONS**
+- **Rarity:** Singular
+- **Design:** Black mirror body with ivory micro-patterns, gold page edges and a luminous legal seal. The three-stamp sequence builds a floating layered document motif. Read the Terms releases a golden signature flourish at the impact point, folding into a tiny sealed page. No text blocks obscure the sight picture.
+
+### Weapon 048 — BREADCRUMBS
+
+**Skin 1: TRAIL GUIDE**
+- **Rarity:** Altered
+- **Design:** Sandstone casing, forest-green grip and compass markings. Route discs resemble enamel map pins with a bright central arrow. Sweep Up retracts the oldest marker in a neat spiral.
+
+**Skin 2: CONSTELLATION**
+- **Rarity:** Extraordinary
+- **Design:** Deep indigo shell with a star-map glass panel and suspended silver particles. Route markers become miniature stars connected by fine visible lines. Sweep Up draws the route into a compact constellation before rebuilding it from the player's position. No enemy tracking visuals.
+
+### Weapon 049 — HIGH HORSE
+
+**Skin 1: CLOUD NINE**
+- **Rarity:** Evolved
+- **Design:** Pearl-white launcher with pale sky-blue fins, silver fasteners and a cloud motif around the chamber. Airborne shots receive a subtle feathered trail without changing projectile size or damage.
+
+**Skin 2: PEGASUS**
+- **Rarity:** Singular
+- **Design:** Sculpted white ceramic and iridescent silver with wing-like side plates that unfold slightly while airborne. A luminous celestial core sits beneath the barrel. Come Down to Earth gathers the panels inward and releases a brilliant feather-ring followed by a clean landing ripple. Bespoke airy activation audio.
+
+### Weapon 050 — TAKE A NUMBER
+
+**Skin 1: QUEUE JUMPER**
+- **Rarity:** Altered
+- **Design:** Brushed aluminium ticket dispenser with a red button, cream ticket roll and numbered mechanical display. Each teammate joining advances the display with a flip animation.
+
+**Skin 2: FIRST CLASS**
+- **Rarity:** Extraordinary
+- **Design:** Gloss-black and champagne-gold casing with a floating glass number wheel and illuminated velvet-rope details. Queue positions appear as luminous gold tickets orbiting the dispenser. Next Please sends the current ticket away in a gold streak and advances the next with a dramatic mechanical flip. Custom ticket-printing sounds.
