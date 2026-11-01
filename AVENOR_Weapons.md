@@ -844,7 +844,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 031 — OVERDUE
 - **Internal ID:** OVERDUE
 - **Category:** Marksman Rifle
-- **Rarity:** Evolved
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Deliberate mid-range duelling that rewards maintaining pressure on one opponent.
 - **Core mechanic: Interest Rate**
@@ -878,7 +878,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 033 — BOUNCER
 - **Internal ID:** BOUNCER
 - **Category:** Impact Shotgun
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Close-range damage with deliberate knockback positioning.
 - **Core mechanic: House Rules**
@@ -963,7 +963,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 038 — TIN CAN
 - **Internal ID:** TIN-CAN
 - **Category:** Ricochet Launcher
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Predictive area pressure using heavy, readable bouncing shots.
 - **Core mechanic: Empty Return**
@@ -997,7 +997,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 040 — GUEST LIST
 - **Internal ID:** GUEST-LIST
 - **Category:** Entry Sensor
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Reading a doorway or narrow route without giving permanent wall information.
 - **Core mechanic: RSVP**
@@ -1065,7 +1065,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 044 — GOOD GRIEF
 - **Internal ID:** GOOD-GRIEF
 - **Category:** Heavy Repeater
-- **Rarity:** Evolved
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Sustained close-to-mid-range pressure that changes opponent positioning.
 - **Core mechanic: Heavy Feelings**
@@ -1116,7 +1116,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 047 — FINE PRINT
 - **Internal ID:** FINE-PRINT
 - **Category:** Precision Rifle
-- **Rarity:** Evolved
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Rewarding varied, deliberate shot placement without relying on inconsistent avatar anatomy.
 - **Core mechanic: Different Paragraph**
@@ -1133,7 +1133,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 048 — BREADCRUMBS
 - **Internal ID:** BREADCRUMBS
 - **Category:** Navigation Tool
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Giving a team a simple, shared route through a complicated arena.
 - **Core mechanic: Trail Mix**
@@ -1184,7 +1184,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 051 — COLD SHOULDER
 - **Internal ID:** COLD-SHOULDER
 - **Category:** Precision Repeater
-- **Rarity:** Evolved
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Accurate follow-up fire against a target who keeps exposing the same angle.
 - **Core mechanic: Same Again**
@@ -1337,7 +1337,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 060 — THE USUAL
 - **Internal ID:** THE-USUAL
 - **Category:** Adaptive Rifle
-- **Rarity:** Evolved
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Flexible mid-range damage that rewards switching between two firing rhythms.
 - **Core mechanic: Same Order**
@@ -1507,7 +1507,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 070 — DEAD CERT
 - **Internal ID:** DEAD-CERT
 - **Category:** Bolt-Action Rifle
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Primary
 - **Role:** Long-range precision with a deliberate commitment after each shot.
 - **Core mechanic: Signed and Sealed**
@@ -1524,7 +1524,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 071 — RED TAPE
 - **Internal ID:** RED-TAPE
 - **Category:** Tripwire Sensor
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Warning teammates when an opponent crosses a chosen route.
 - **Core mechanic: Restricted Area**
@@ -1779,7 +1779,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 086 — HIGH BEAMS
 - **Internal ID:** HIGH-BEAMS
 - **Category:** Illumination Tool
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Making dark or visually cluttered corners easier for teammates to inspect.
 - **Core mechanic: Full Visibility**
@@ -1796,7 +1796,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 087 — HARD COPY
 - **Internal ID:** HARD-COPY
 - **Category:** Heavy Precision Rifle
-- **Rarity:** Evolved
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Long-range damage through a deliberate, repeatable shot pattern.
 - **Core mechanic: Carbon Copy**
@@ -1813,7 +1813,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 088 — BOTTOM LINE
 - **Internal ID:** BOTTOM-LINE
 - **Category:** Heavy Automatic Rifle
-- **Rarity:** Evolved
+- **Rarity:** Commonplace
 - **Slot:** Primary
 - **Role:** Mid-range damage with a firm commitment to finishing a magazine.
 - **Core mechanic: No Negotiation**
@@ -1949,7 +1949,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 096 — ALL CLEAR
 - **Internal ID:** ALL-CLEAR
 - **Category:** Utility Cleaner
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Secondary
 - **Role:** Removing temporary arena clutter and opening a route for teammates.
 - **Core mechanic: Sweep Through**
@@ -2209,7 +2209,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 111 — DOORJAM
 - **Internal ID:** DOORJAM
 - **Category:** Battering Baton
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Melee
 - **Role:** A readable close-range dueller with a push-and-punish rhythm. The brace is stationary, brief, and visible; opponents can wait it out or attack from another angle.
 - **Core attack behaviour:** A compact baton whose light hits build a short-lived pressure meter. A heavy hit spends the meter to push the target a controlled distance.
@@ -2300,7 +2300,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 118 — BAD FORM
 - **Internal ID:** BAD-FORM
 - **Category:** Fencing Foil
-- **Rarity:** Extraordinary
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A spacing specialist, not an auto-hit. The marked thrust is predictable, cannot turn after starting, and can be sidestepped.
 - **Core attack behaviour:** A long, narrow thrust rewards precise spacing. Missing leaves a brief recovery; landing at maximum reach gives the player a small backward step.
@@ -2378,7 +2378,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 124 — BOUNCED CHECK
 - **Internal ID:** BOUNCED-CHECK
 - **Category:** Spring Hammer
-- **Rarity:** Extraordinary
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A vertical repositioning tool. The launch has a strong sound cue, cannot be chained in midair, and leaves the player exposed on landing.
 - **Core attack behaviour:** The hammer compresses slightly on a held attack. Releasing early gives a quick short hit; a full hold gives a slower, longer-reaching swing.
@@ -2469,7 +2469,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 131 — PAPER SHIELD
 - **Internal ID:** PAPER-SHIELD
 - **Category:** Clipboard Shield
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Melee
 - **Role:** A utility-minded duelling tool. The block is single-use per activation, directional, and has a clear crack animation.
 - **Core attack behaviour:** The clipboard's reinforced edge delivers a short jab with modest reach. A clean hit briefly marks the target's direction on the user's HUD, not through walls.
@@ -2495,7 +2495,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 133 — MILESTONE
 - **Internal ID:** MILESTONE
 - **Category:** Surveyor's Pick
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Melee
 - **Role:** A positional melee tool that rewards planning. The marker is visible, expires quickly, and the pull is small and never affects the target.
 - **Core attack behaviour:** A sturdy pick has a slow downward strike with a narrow impact zone. Hitting a marked floor tile grants a brief movement-speed reset, not bonus damage.
@@ -2508,7 +2508,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 134 — GOOD GRIP
 - **Internal ID:** GOOD-GRIP
 - **Category:** Climbing Gloves
-- **Rarity:** Extraordinary
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A wall-route specialist. Only tagged climbable surfaces work; the grip is short, visible, and leaves the player stationary relative to the wall.
 - **Core attack behaviour:** Gloved punches have short reach but almost no swing recovery. A hit does not interrupt an opponent's movement, so the player must maintain contact.
@@ -2534,7 +2534,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 136 — BACKSTAGE PASS
 - **Internal ID:** BACKSTAGE-PASS
 - **Category:** Stage Cane
-- **Rarity:** Evolved
+- **Rarity:** Altered
 - **Slot:** Melee
 - **Role:** A chase-and-route melee choice. The directional hint is brief and local; the vault is fixed and has a landing recovery.
 - **Core attack behaviour:** A cane has a quick hook-swing with moderate reach. A successful hit on a moving opponent briefly reveals their direction to the user only.
@@ -2547,7 +2547,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 137 — HOLD THE DOOR
 - **Internal ID:** HOLD-THE-DOOR
 - **Category:** Door Ram
-- **Rarity:** Extraordinary
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A frontline anchor for objective modes. It does not grant invulnerability, blocks no bullets, and is vulnerable from the sides.
 - **Core attack behaviour:** A heavy ram strike has a long wind-up and a broad frontal impact. It deals consistent damage but has no bonus against grouped opponents.
@@ -2586,7 +2586,7 @@ The roster now uses three distinct equipment slots: **Primary**, **Secondary**, 
 ### Weapon 140 — FINAL NOTICE
 - **Internal ID:** FINAL-NOTICE
 - **Category:** Judgment Gavel
-- **Rarity:** Extraordinary
+- **Rarity:** Evolved
 - **Slot:** Melee
 - **Role:** A high-commitment finisher-style melee without execution effects. The ring is a warning and timing tool only; opponents can leave before the next strike.
 - **Core attack behaviour:** A heavy gavel has a short, powerful swing with a clear wind-up. Landing a hit ends the player's current sprint, so the weapon rewards choosing the moment rather than chasing endlessly.
