@@ -149,9 +149,57 @@ Exact mastery levels, XP thresholds and reward placement are **TBD / playtest** 
 
 ## 7. Competitive Rank
 
-AVENOR uses one universal competitive rank. Eligible competitive modes contribute to the same overall rating.
+AVENOR uses one universal competitive rank. Eligible competitive modes contribute to the same overall rating. Competitive rank measures demonstrated skill, not time played, account level, or weapon mastery.
 
-Competitive rank measures match skill, not time played.
+### Rank ladder
+
+The first seven tiers each contain three divisions. Division III is the entry division; players progress through II and then I before reaching the next tier. Each division has its own short flavour line, shown in rank details and promotion screens.
+
+| Tier | Division | Flavour line |
+|---|---|---|
+| **FRESH SPAWN** | III | Everyone starts somewhere. Try not to spawn facing a wall. |
+| **FRESH SPAWN** | II | You have discovered which end points forward. |
+| **FRESH SPAWN** | I | The tutorial is getting nervous. |
+| **WARM-UP** | III | Starting to figure things out. |
+| **WARM-UP** | II | Your aim has officially entered the chat. |
+| **WARM-UP** | I | Almost warmed up. No pressure. |
+| **SCRAPPER** | III | Not going down easily. |
+| **SCRAPPER** | II | You brought a fight. And possibly snacks. |
+| **SCRAPPER** | I | The lobby is beginning to remember you. |
+| **MENACE** | III | People are starting to notice. |
+| **MENACE** | II | Someone just said, "Watch that one." |
+| **MENACE** | I | You are becoming a scheduling problem. |
+| **PUBLIC PROBLEM** | III | You are becoming everyone's problem. |
+| **PUBLIC PROBLEM** | II | The enemy team has started a group chat about you. |
+| **PUBLIC PROBLEM** | I | Even the kill feed needs a break. |
+| **FINAL BOSS** | III | The lobby's main concern. |
+| **FINAL BOSS** | II | The warm-up match is now everyone else's problem. |
+| **FINAL BOSS** | I | Somebody has to be the final boss. Unfortunately for them, it's you. |
+| **UNTOUCHABLE** | III | Very few can keep up. |
+| **UNTOUCHABLE** | II | Your opponents are checking the settings. |
+| **UNTOUCHABLE** | I | At this point, the hitbox rumours are inevitable. |
+
+The tier flavour lines remain part of the rank identity:
+- **FRESH SPAWN:** Everyone starts somewhere.
+- **WARM-UP:** Starting to figure things out.
+- **SCRAPPER:** Not going down easily.
+- **MENACE:** People are starting to notice.
+- **PUBLIC PROBLEM:** You are becoming everyone's problem.
+- **FINAL BOSS:** The lobby's main concern.
+- **UNTOUCHABLE:** Very few can keep up.
+
+### AVENOR
+
+**AVENOR** is the single final rank. It has no divisions and no further rank promotions.
+
+Once a player reaches AVENOR:
+- Their rank remains AVENOR for the rest of the season, subject to normal ranked integrity and season rules.
+- They continue earning competitive rating or leaderboard points indefinitely.
+- Their rating/points determine their position on the AVENOR leaderboard.
+- There is no AVENOR II, AVENOR I, or extra tier above it.
+- The leaderboard provides the long-term chase after rank progression ends.
+
+AVENOR is the ultimate rank title; the leaderboard position is the ongoing competition.
 
 ### Placement and rating
 
@@ -162,8 +210,23 @@ Proposed structure:
 - Rating gains and losses are shown after every ranked match with a concise explanation.
 - Matchmaking uses rating and suitable queue constraints, not account level or weapon mastery.
 - Party matchmaking must account for rating differences to limit boosting.
+- Players advance through the divisions and tiers by reaching defined rating thresholds.
+- Rating thresholds and any demotion protection must be transparent.
 
-The exact rating algorithm, placement count, uncertainty model, rank tiers and matchmaking rules are **TBD**. Do not publish a formula until it has been tested against real match data.
+The exact rating algorithm, placement count, uncertainty model, rank thresholds and matchmaking rules are **TBD**. Do not publish a formula until it has been tested against real match data.
+
+### Seasonal top 20 reward
+
+At the end of each ranked season:
+- The **top 20 eligible players on the AVENOR leaderboard** receive a special seasonal cosmetic reward, planned as an exclusive skin.
+- The reward is based on final verified leaderboard standings, not account level or weapon mastery.
+- The reward is granted only if the ranked playlist reaches a healthy minimum participation threshold for that season.
+- If the ranked population is too small to make a top-20 award meaningful, no top-20 skin reward is issued that season. The threshold must be announced before the season begins.
+- Suspicious results, cheating, boosting, collusion or other ranked-integrity violations make a player ineligible.
+- Tie-break rules for the final qualifying position must be published in advance.
+- The reward is cosmetic and must not grant gameplay advantages.
+
+The minimum ranked population threshold, tie-break rules, exact skin design and reward delivery timing are **TBD**. The top-20 reward is a prestige reward, not a guaranteed feature for seasons with too few ranked participants.
 
 ### Competitive integrity
 
@@ -292,7 +355,7 @@ Implementation requirements:
 3. Account level cap or uncapped level display.
 4. Account XP curve, match XP values and level reward cadence.
 5. Weapon mastery level count, XP curve and reward milestones.
-6. Rank names, tiers, placement count, rating model and reset policy.
+6. Rank rating thresholds, placement count, rating model, seasonal reset policy, ranked-population threshold for the AVENOR top-20 reward, and tie-break rules. (Rank names, tier divisions and the AVENOR apex structure are now defined.)
 7. Season pass duration, tier count, pricing and rewards.
 8. AVENOR Credits earning rate and shop pricing.
 9. Whether cosmetic cases remain in the economy, and their odds/duplicate rules if so.
