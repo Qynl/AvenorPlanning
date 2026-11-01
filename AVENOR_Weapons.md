@@ -58,8 +58,8 @@ Weapon abilities use cooldowns. The cooldown begins after activation or after th
 
 There are 167 planned weapons. The entries below record the designs established so far. Weapon IDs are name-based internal references and match each weapon's unique name.
 
-### Weapon 001 — MILLER
-- **Internal ID:** MILLER
+### Weapon 001 — TAXMAN
+- **Internal ID:** TAXMAN
 - **Category:** Assault Rifle
 - **Rarity:** Commonplace
 - **Role:** Balanced all-rounder.
@@ -80,8 +80,8 @@ Switches the rifle from automatic fire to controlled three-round bursts. Burst m
 
 **Status:** Accepted concept. Stats are provisional.
 
-### Weapon 002 — POCKET
-- **Internal ID:** POCKET
+### Weapon 002 — POCKET ROCKET
+- **Internal ID:** POCKET-ROCKET
 - **Category:** Submachine Gun
 - **Rarity:** Commonplace
 - **Role:** Fast close-range combat.
@@ -100,8 +100,8 @@ Temporarily increases fire rate by 30% for 4 seconds. Damage per bullet stays th
 
 **Status:** Accepted concept. Stats are provisional.
 
-### Weapon 003 — BOUNCER
-- **Internal ID:** BOUNCER
+### Weapon 003 — DOORBELL
+- **Internal ID:** DOORBELL
 - **Category:** Shotgun
 - **Rarity:** Commonplace
 - **Role:** High-impact close-range combat.
@@ -118,8 +118,8 @@ Fires two consecutive shotgun shots in quick succession, consuming two shells. A
 
 **Status:** Accepted concept. Stats are provisional.
 
-### Weapon 004 — SUNDAY
-- **Internal ID:** SUNDAY
+### Weapon 004 — LONG STORY
+- **Internal ID:** LONG-STORY
 - **Category:** Sniper Rifle
 - **Rarity:** Altered
 - **Role:** Long-range precision.
@@ -136,8 +136,8 @@ Briefly reveals subtle outlines of opponents through walls to the sniper user. T
 
 **Status:** Accepted concept, pending competitive testing.
 
-### Weapon 005 — PENNY
-- **Internal ID:** PENNY
+### Weapon 005 — LOOSE CHANGE
+- **Internal ID:** LOOSE-CHANGE
 - **Category:** Pistol
 - **Rarity:** Commonplace
 - **Role:** Sidearm with a deliberate high-impact shot option.
@@ -156,8 +156,8 @@ Hold Weapon Action to charge one amplified, instant-hit shot. Releasing fires th
 
 **Status:** Accepted concept. Numbers are provisional.
 
-### Weapon 006 — TRIPLET
-- **Internal ID:** TRIPLET
+### Weapon 006 — THREE'S COMPANY
+- **Internal ID:** THREES-COMPANY
 - **Category:** Burst Rifle
 - **Rarity:** Commonplace
 - **Role:** Burst-fire rifle with a temporary high-tempo firing mode.
@@ -168,8 +168,8 @@ Temporarily increases firing speed so the rifle can deliver its four-shot bursts
 **Status:** Accepted concept. Duration, cooldown, and exact firing cadence are TBD.
 
 ### Weapon 007 — THE WORKS
-- **Internal ID:** THE-WORKS
-- **Working name:** The Works
+- **Internal ID:** LAWNMOWER
+- **Working name:** Lawnmower
 - **Category:** Light Machine Gun
 - **Rarity:** Commonplace (provisional)
 - **Role:** Heavy sustained-fire weapon.
@@ -180,8 +180,8 @@ Temporarily increases firing speed so the rifle can deliver its four-shot bursts
 
 **Status:** Selected as a weapon concept. Weapon Action not accepted.
 
-### Weapon 008 — POSTCARD
-- **Internal ID:** POSTCARD
+### Weapon 008 — RETURN TO SENDER
+- **Internal ID:** RETURN-TO-SENDER
 - **Category:** Returning Disc Launcher
 - **Rarity:** Altered (provisional)
 - **Role:** Mid-range area pressure and timing-based outplays.
