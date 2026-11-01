@@ -206,13 +206,12 @@ The lobby should make it easy to group up, personalize a profile, explore the ga
 
 ## 13. Progression
 
-There are two separate progression tracks.
+There are three separate progression tracks: account progression, weapon mastery, and competitive rank. Their full rules are defined in **AVENOR_Progression.md**.
 
 ### Account Progression
 
 Account XP and levels can unlock:
-- Weapons
-- Abilities
+- Eligible gameplay unlocks, subject to the final unlock policy
 - Currencies and rewards
 - Cosmetics
 - Titles and badges
@@ -236,10 +235,11 @@ Max mastery grants a dedicated completion collection. There is no endless presti
 ## 14. Ranked and Seasons
 
 Planned:
-- One universal rank.
+- One universal competitive rank, separate from account level and weapon mastery.
 - Competitive modes contribute to the overall rank.
 - Monthly ranked seasons.
-- A season pass.
+- A free and optional premium cosmetic season pass.
+- Full XP, reward, currency, mastery, ranked and season rules in **AVENOR_Progression.md**.
 
 Still **TBD**:
 - Rank names and tiers.
@@ -293,7 +293,7 @@ Planned unlock routes:
 - Earnable currencies
 - Robux as one possible purchase route
 
-The default loadout is available immediately. Whether any weapon access can be paid-exclusive remains **TBD**. Paid options must not create a gameplay-stat advantage.
+The default loadout is available immediately. The final weapon unlock policy, including whether any weapon access can be paid-exclusive, remains **TBD**. The recommended direction is that every gameplay weapon is earnable by everyone and never Robux-exclusive. Paid options must not create a gameplay-stat advantage.
 
 The economy should make unlock paths clear and avoid making competitive viability depend on spending.
 
