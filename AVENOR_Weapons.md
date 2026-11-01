@@ -3001,3 +3001,863 @@ If a skin supplies a kill effect or another overlapping cosmetic feature, that s
 - Strong effects should have readable visual and audio cues.
 - Prototype stats must be tested in real matches before being treated as final.
 - Avoid mechanics that quietly change hit registration or create confusing outcomes without strong justification.
+
+## 10. Full-Roster Rarity and Default Presentation Audit
+
+This section applies to **all 167 weapons**. Rarity presentation is part of each weapon's default model and animation set, not a skin unlock. Skins may replace or extend cosmetic features, but the weapon must already communicate its tier when completely unskinned.
+
+### 10.1 Non-negotiable rarity rules
+- Rarity is about originality, execution, visual identity and mechanical distinctiveness, never raw damage, accuracy, fire rate or competitive superiority.
+- A weapon must earn its tier on its own merits. The desired descending rarity distribution is a planning target, never a reason to force a weak weapon into a tier.
+- Effects must remain readable in first-person and at competitive distances. No effect may hide hitboxes, obscure opponents, disguise a projectile's real path or create misleading audio.
+- Higher tiers add craft, animation, material quality and signature presentation, not visual clutter. Commonplace weapons remain polished and intentional; they are not deliberately ugly or unfinished.
+- Every weapon's signature effect must communicate its own mechanic. A generic coloured glow is not sufficient.
+- If a concept is mechanically redundant, poorly differentiated or visually unconvincing beside another weapon, it must be redesigned or replaced before final acceptance. No roster slot is protected merely to preserve the number 167.
+
+### 10.2 Default visual progression
+| Tier | Default construction | Default effects |
+|---|---|---|
+| Commonplace | Satin metal, durable polymer, restrained paint | One simple mechanic indicator; minimal activation cue |
+| Altered | Contrasting materials and a distinct accent detail | Restrained emissive indicator; localized action cue |
+| Evolved | Layered premium materials and machined details | Animated mechanism; contained action trail or pulse |
+| Ascendant | Bespoke material pairing and unmistakable silhouette detail | Animated feature; custom action effect and brief aftermath |
+| Extraordinary | Highly individual silhouette and signature moving component | Bespoke animated centerpiece; custom firing and action feedback |
+| Singular | One-of-one construction and material language | Unique centerpiece, signature firing/action effects and dedicated inspect flourish |
+
+### 10.3 Individual weapon audit and default presentation
+
+### 001 · TAXMAN
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Compound Interest**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Compound Interest**: its state indicator, moving part or environmental cue communicates that mechanic. **Collection Day** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 002 · POCKET ROCKET
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Runaway**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Runaway**: its state indicator, moving part or environmental cue communicates that mechanic. **Hot Pursuit** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 003 · DOORBELL
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Knock Knock**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Knock Knock**: its state indicator, moving part or environmental cue communicates that mechanic. **House Call** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 004 · LONG STORY
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Follow Through**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **Follow Through**: its state indicator, moving part or environmental cue communicates that mechanic. **Long Distance** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 005 · LOOSE CHANGE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Spare Change**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Spare Change**: its state indicator, moving part or environmental cue communicates that mechanic. **Make It Count** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 006 · THREE'S COMPANY
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Third Shot**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Third Shot**: its state indicator, moving part or environmental cue communicates that mechanic. **Plus One** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 007 · LAWNMOWER
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Spool Up**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Spool Up**: its state indicator, moving part or environmental cue communicates that mechanic. **Grass Cutter** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 008 · RETURN TO SENDER
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Boomerang**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Boomerang**: its state indicator, moving part or environmental cue communicates that mechanic. **Forwarding Address** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 009 · THE RENTAL
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Temporary Lease**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Temporary Lease**: its state indicator, moving part or environmental cue communicates that mechanic. **Change of Address** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 010 · BAD HABIT
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Recoil Therapy** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 011 · DEAD WEIGHT
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Cut the Line** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 012 · BAD RECEPTION
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Signal Burst**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Signal Burst**: its state indicator, moving part or environmental cue communicates that mechanic. **Dead Air** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 013 · CALL WAITING
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Charge and Release**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Charge and Release**: its state indicator, moving part or environmental cue communicates that mechanic. **Call Waiting** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 014 · SHORT NOTICE
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Split Bolt**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Split Bolt**: its state indicator, moving part or environmental cue communicates that mechanic. **Express Delivery** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 015 · BAD NEIGHBOR
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Property Damage**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Property Damage**: its state indicator, moving part or environmental cue communicates that mechanic. **Noise Complaint** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 016 · TAXI
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Fare Meter**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Fare Meter**: its state indicator, moving part or environmental cue communicates that mechanic. **Final Stop** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 017 · FALSE ALARM
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Wrong Place, Wrong Time**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Wrong Place, Wrong Time**: its state indicator, moving part or environmental cue communicates that mechanic. **Panic Button** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 018 · SECOND OPINION
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Follow-Up**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Follow-Up**: its state indicator, moving part or environmental cue communicates that mechanic. **Objection** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 019 · PAPER TRAIL
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Marked For Later**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Marked For Later**: its state indicator, moving part or environmental cue communicates that mechanic. **Return Address** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 020 · WET FLOOR
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Slippery When Wet**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Slippery When Wet**: its state indicator, moving part or environmental cue communicates that mechanic. **Mopping Service** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 021 · CROSSWALK
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Right of Way**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Right of Way**: its state indicator, moving part or environmental cue communicates that mechanic. **Road Closed** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 022 · LAST CALL
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Bad Connection**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Bad Connection**: its state indicator, moving part or environmental cue communicates that mechanic. **Hang Up** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 023 · TWO CENTS
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Exact Change**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Exact Change**: its state indicator, moving part or environmental cue communicates that mechanic. **My Two Cents** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 024 · OPEN HOUSE
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Viewing Appointment**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Viewing Appointment**: its state indicator, moving part or environmental cue communicates that mechanic. **Under New Management** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 025 · HOLD MUSIC
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **On The Line**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **On The Line**: its state indicator, moving part or environmental cue communicates that mechanic. **Please Stay On The Line** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 026 · SPLIT DECISION
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Two Minds**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Two Minds**: its state indicator, moving part or environmental cue communicates that mechanic. **Make Your Choice** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 027 · SHORTCUT
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **No Walking Required**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **No Walking Required**: its state indicator, moving part or environmental cue communicates that mechanic. **Express Lane** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 028 · SLOW BURN
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Getting Warmer**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Getting Warmer**: its state indicator, moving part or environmental cue communicates that mechanic. **Let It Breathe** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 029 · WRONG NUMBER
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **You've Got Mail**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **You've Got Mail**: its state indicator, moving part or environmental cue communicates that mechanic. **Call Back** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 030 · NO REFUNDS
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Final Sale**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Final Sale**: its state indicator, moving part or environmental cue communicates that mechanic. **No Takebacks** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 031 · OVERDUE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Interest Rate**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Interest Rate**: its state indicator, moving part or environmental cue communicates that mechanic. **Final Notice** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 032 · SPARE KEY
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Open Door Policy**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Open Door Policy**: its state indicator, moving part or environmental cue communicates that mechanic. **Deadbolt** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 033 · BOUNCER
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **House Rules**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **House Rules**: its state indicator, moving part or environmental cue communicates that mechanic. **Out You Go** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 034 · GOOD MEASURE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Just Right**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Just Right**: its state indicator, moving part or environmental cue communicates that mechanic. **Take Measure** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 035 · OFF THE CLOCK
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Clock Out**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Clock Out**: its state indicator, moving part or environmental cue communicates that mechanic. **Early Finish** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 036 · BACKFILL
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **One in the Chamber**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **One in the Chamber**: its state indicator, moving part or environmental cue communicates that mechanic. **Move It Up** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 037 · SIDE EYE
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Peripheral Vision**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Peripheral Vision**: its state indicator, moving part or environmental cue communicates that mechanic. **Look Alive** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 038 · TIN CAN
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Empty Return**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Empty Return**: its state indicator, moving part or environmental cue communicates that mechanic. **One More Time** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 039 · HOME RUN
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Long Drive**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Long Drive**: its state indicator, moving part or environmental cue communicates that mechanic. **Curveball** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 040 · GUEST LIST
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **RSVP**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **RSVP**: its state indicator, moving part or environmental cue communicates that mechanic. **Read It Back** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 041 · DOUBLE PARKED
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Alternating Ticket**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Alternating Ticket**: its state indicator, moving part or environmental cue communicates that mechanic. **Both Lanes** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 042 · STATIC CLING
+- **Rarity audit:** Retained provisionally as **Singular**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Stick Around**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a one-of-one construction and material language that cannot be mistaken for another weapon. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a unique animated centerpiece, signature firing/action effects and a dedicated inspect flourish. The signature visual is tied specifically to **Stick Around**: its state indicator, moving part or environmental cue communicates that mechanic. **Let Go** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 043 · PAYPHONE
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Local Line**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Local Line**: its state indicator, moving part or environmental cue communicates that mechanic. **Switchboard** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 044 · GOOD GRIEF
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Heavy Feelings**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Heavy Feelings**: its state indicator, moving part or environmental cue communicates that mechanic. **Let It Out** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 045 · CLEAN BREAK
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Two Different Stories**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Two Different Stories**: its state indicator, moving part or environmental cue communicates that mechanic. **Double Down** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 046 · SUNDAY DRIVER
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Cruise Control**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Cruise Control**: its state indicator, moving part or environmental cue communicates that mechanic. **Easy Does It** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 047 · FINE PRINT
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Different Paragraph**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Different Paragraph**: its state indicator, moving part or environmental cue communicates that mechanic. **Read the Terms** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 048 · BREADCRUMBS
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Trail Mix**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Trail Mix**: its state indicator, moving part or environmental cue communicates that mechanic. **Sweep Up** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 049 · HIGH HORSE
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Above Yourself**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Above Yourself**: its state indicator, moving part or environmental cue communicates that mechanic. **Come Down to Earth** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 050 · TAKE A NUMBER
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Your Turn**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Your Turn**: its state indicator, moving part or environmental cue communicates that mechanic. **Next Please** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 051 · COLD SHOULDER
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Same Again**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Same Again**: its state indicator, moving part or environmental cue communicates that mechanic. **Turn Away** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 052 · DO NOT DISTURB
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Quiet Zone**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Quiet Zone**: its state indicator, moving part or environmental cue communicates that mechanic. **Check Out** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 053 · DOUBLE TAKE
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Echo Shot**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Echo Shot**: its state indicator, moving part or environmental cue communicates that mechanic. **Save It** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 054 · LOST PROPERTY
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Claim Ticket**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Claim Ticket**: its state indicator, moving part or environmental cue communicates that mechanic. **Found It** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 055 · BAD TIMING
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Wrong Moment**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Wrong Moment**: its state indicator, moving part or environmental cue communicates that mechanic. **Skip the Beat** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 056 · HUSH MONEY
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Keep It Down**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Keep It Down**: its state indicator, moving part or environmental cue communicates that mechanic. **Loose Lips** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 057 · LAST RESORT
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **One Left**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **One Left**: its state indicator, moving part or environmental cue communicates that mechanic. **Make It Count** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 058 · OPEN SECRET
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **All Together**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **All Together**: its state indicator, moving part or environmental cue communicates that mechanic. **Roll Call** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 059 · SHORT FUSE
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Stick Around**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Stick Around**: its state indicator, moving part or environmental cue communicates that mechanic. **All at Once** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 060 · THE USUAL
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Same Order**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Same Order**: its state indicator, moving part or environmental cue communicates that mechanic. **Change It Up** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 061 · BAD PENNY
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Turns Up Again**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Turns Up Again**: its state indicator, moving part or environmental cue communicates that mechanic. **Spend It** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 062 · MILE MARKER
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **You Are Here**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **You Are Here**: its state indicator, moving part or environmental cue communicates that mechanic. **Move the Pin** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 063 · SQUARE DEAL
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Fair and Square**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Fair and Square**: its state indicator, moving part or environmental cue communicates that mechanic. **Draw a Line** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 064 · BULLPEN
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Hold the Line**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Hold the Line**: its state indicator, moving part or environmental cue communicates that mechanic. **Step Up** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 065 · PAPER CUT
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Thin Margin**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Thin Margin**: its state indicator, moving part or environmental cue communicates that mechanic. **Fold Here** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 066 · PARKING METER
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Paid Time**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Paid Time**: its state indicator, moving part or environmental cue communicates that mechanic. **Expired** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 067 · SLOW CLAP
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Build the Applause**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Build the Applause**: its state indicator, moving part or environmental cue communicates that mechanic. **Encore** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 068 · BACKUP PLAN
+- **Rarity audit:** Retained provisionally as **Singular**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Just in Case**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a one-of-one construction and material language that cannot be mistaken for another weapon. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a unique animated centerpiece, signature firing/action effects and a dedicated inspect flourish. The signature visual is tied specifically to **Just in Case**: its state indicator, moving part or environmental cue communicates that mechanic. **Cancel the Plan** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 069 · WIDE OPEN
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Open Invitation**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Open Invitation**: its state indicator, moving part or environmental cue communicates that mechanic. **Close the Gap** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 070 · DEAD CERT
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Signed and Sealed**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Signed and Sealed**: its state indicator, moving part or environmental cue communicates that mechanic. **Hold the Paper** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 071 · RED TAPE
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Restricted Area**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Restricted Area**: its state indicator, moving part or environmental cue communicates that mechanic. **Re-route** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 072 · HARD RESET
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Full Stop**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **Full Stop**: its state indicator, moving part or environmental cue communicates that mechanic. **Reboot** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 073 · FIRST CLASS
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Priority Boarding**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Priority Boarding**: its state indicator, moving part or environmental cue communicates that mechanic. **Upgrade Seat** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 074 · OVERHEAD
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Coming Through**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Coming Through**: its state indicator, moving part or environmental cue communicates that mechanic. **Short Route** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 075 · TIGHTROPE
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Walk the Line**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Walk the Line**: its state indicator, moving part or environmental cue communicates that mechanic. **Safety Net** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 076 · TIME CARD
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Clock In**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Clock In**: its state indicator, moving part or environmental cue communicates that mechanic. **Overtime** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 077 · SPOT CHECK
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Inspection**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Inspection**: its state indicator, moving part or environmental cue communicates that mechanic. **Second Look** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 078 · LATCHKEY
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Your Way In**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **Your Way In**: its state indicator, moving part or environmental cue communicates that mechanic. **Lock Up** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 079 · FENDER BENDER
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Bumper to Bumper**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Bumper to Bumper**: its state indicator, moving part or environmental cue communicates that mechanic. **Reverse Gear** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 080 · GOOD SPORT
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Fair Play**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Fair Play**: its state indicator, moving part or environmental cue communicates that mechanic. **Catch and Release** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 081 · NIGHTCAP
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Lights Out**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Lights Out**: its state indicator, moving part or environmental cue communicates that mechanic. **One for the Road** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 082 · TALLY HO
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Keep Score**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Keep Score**: its state indicator, moving part or environmental cue communicates that mechanic. **Make It Even** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 083 · STATIC SHOCK
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Charge Transfer**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Charge Transfer**: its state indicator, moving part or environmental cue communicates that mechanic. **Ground Wire** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 084 · QUIET HOURS
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Closed for the Night**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Closed for the Night**: its state indicator, moving part or environmental cue communicates that mechanic. **Lights On** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 085 · BLIND DATE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **No Introductions**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **No Introductions**: its state indicator, moving part or environmental cue communicates that mechanic. **Make It Official** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 086 · HIGH BEAMS
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Full Visibility**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Full Visibility**: its state indicator, moving part or environmental cue communicates that mechanic. **Dip the Lights** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 087 · HARD COPY
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Carbon Copy**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Carbon Copy**: its state indicator, moving part or environmental cue communicates that mechanic. **Duplicate** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 088 · BOTTOM LINE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **No Negotiation**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **No Negotiation**: its state indicator, moving part or environmental cue communicates that mechanic. **Final Offer** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 089 · UNDERSTUDY
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Stand-In**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Stand-In**: its state indicator, moving part or environmental cue communicates that mechanic. **Take the Stage** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 090 · QUICK FIX
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Patch Job**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Patch Job**: its state indicator, moving part or environmental cue communicates that mechanic. **Temporary Support** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 091 · HEADCOUNT
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Roll Call**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Roll Call**: its state indicator, moving part or environmental cue communicates that mechanic. **Present** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 092 · LATE FEE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Payment Due**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Payment Due**: its state indicator, moving part or environmental cue communicates that mechanic. **Grace Period** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 093 · PIN DROP
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Mark the Spot**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Mark the Spot**: its state indicator, moving part or environmental cue communicates that mechanic. **Pull the Pin** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 094 · SAFE BET
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **House Edge**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **House Edge**: its state indicator, moving part or environmental cue communicates that mechanic. **Double or Nothing** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 095 · BACK CHAT
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Talk Back**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Talk Back**: its state indicator, moving part or environmental cue communicates that mechanic. **Repeat That** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 096 · ALL CLEAR
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Sweep Through**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Sweep Through**: its state indicator, moving part or environmental cue communicates that mechanic. **Leave Nothing** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 097 · BIG PICTURE
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Frame by Frame**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Frame by Frame**: its state indicator, moving part or environmental cue communicates that mechanic. **Zoom Out** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 098 · SMALL TALK
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Conversation Starter**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Conversation Starter**: its state indicator, moving part or environmental cue communicates that mechanic. **Change the Subject** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 099 · ON THE HOUSE
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Complimentary Ride**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Complimentary Ride**: its state indicator, moving part or environmental cue communicates that mechanic. **No Charge** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 100 · OVERBOOKED
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **No Vacancies**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **No Vacancies**: its state indicator, moving part or environmental cue communicates that mechanic. **Squeeze In** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 101 · ROLL CALL
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Present and Accounted For**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Present and Accounted For**: its state indicator, moving part or environmental cue communicates that mechanic. **Dismissed** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 102 · HOUSE RULES
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Stay in Your Lane**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Stay in Your Lane**: its state indicator, moving part or environmental cue communicates that mechanic. **New Rule** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 103 · NO SHOW
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Missed Appointment**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **Missed Appointment**: its state indicator, moving part or environmental cue communicates that mechanic. **Reschedule** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 104 · NIGHT OWL
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Late Shift**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Late Shift**: its state indicator, moving part or environmental cue communicates that mechanic. **Dim the Screen** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 105 · DOUBLE SHIFT
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Two Jobs**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Two Jobs**: its state indicator, moving part or environmental cue communicates that mechanic. **Swap Shifts** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 106 · OPEN TAB
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Put It on My Tab**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Put It on My Tab**: its state indicator, moving part or environmental cue communicates that mechanic. **Settle Up** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 107 · DEAD END
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Roadblock**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Roadblock**: its state indicator, moving part or environmental cue communicates that mechanic. **Open Passage** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 108 · BAIL OUT
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Exit Strategy**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Exit Strategy**: its state indicator, moving part or environmental cue communicates that mechanic. **Pull the Cord** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 109 · SIDE DISH
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Comes With It**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Comes With It**: its state indicator, moving part or environmental cue communicates that mechanic. **Swap Sides** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 110 · CLEAN SLATE
+- **Rarity audit:** Retained provisionally as **Ascendant**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Start Fresh**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** bespoke material pairing, refined surface treatment and an unmistakable silhouette detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a persistent but low-intensity animated feature and a custom action effect with a short aftermath. The signature visual is tied specifically to **Start Fresh**: its state indicator, moving part or environmental cue communicates that mechanic. **Wipe Down** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 111 · DOORJAM
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 112 · BELLHOP
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 113 · PAPER TIGER
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 114 · LAST WORD
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 115 · SHOPPING CART
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 116 · NIGHT SHIFT
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 117 · THE BUTLER
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 118 · BAD FORM
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 119 · PICKUP STICKS
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 120 · THE BIG KNIT
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 121 · CLOSE CALL
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 122 · CLEAN SWEEP
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 123 · OFF LIMITS
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 124 · BOUNCED CHECK
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 125 · SILENT PARTNER
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 126 · TOLL BOOTH
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 127 · SECOND HAND
+- **Rarity audit:** Retained provisionally as **Singular**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a one-of-one construction and material language that cannot be mistaken for another weapon. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a unique animated centerpiece, signature firing/action effects and a dedicated inspect flourish. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 128 · FLOOR MODEL
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 129 · NO RETURNS
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 130 · SOFT CLOSE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 131 · PAPER SHIELD
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 132 · GARDEN VARIETY
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 133 · MILESTONE
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 134 · GOOD GRIP
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 135 · THE PEACEMAKER
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 136 · BACKSTAGE PASS
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 137 · HOLD THE DOOR
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 138 · SPARE PARTS
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 139 · CROWN JEWEL
+- **Rarity audit:** Retained provisionally as **Singular**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a one-of-one construction and material language that cannot be mistaken for another weapon. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a unique animated centerpiece, signature firing/action effects and a dedicated inspect flourish. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 140 · FINAL NOTICE
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 141 · GOOD ENOUGH
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 142 · OUT OF OFFICE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 143 · SQUARE ONE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 144 · TWO-WAY STREET
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 145 · MIDDLE MANAGEMENT
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 146 · SLOW NEWS
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 147 · PUNCHLINE
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 148 · DETOUR
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 149 · WELL READ
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 150 · CASH ONLY
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 151 · WINDOW SEAT
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 152 · NO COMMENT
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 153 · TRAFFIC JAM
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 154 · BETTER LUCK
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 155 · ON RECORD
+- **Rarity audit:** Retained provisionally as **Singular**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a one-of-one construction and material language that cannot be mistaken for another weapon. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a unique animated centerpiece, signature firing/action effects and a dedicated inspect flourish. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 156 · FRESH COAT
+- **Rarity audit:** Retained provisionally as **Commonplace**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** workmanlike satin metal, durable polymer and restrained paint; no constant glow. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** one small mechanical or HUD indicator, with a brief non-luminous action cue. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 157 · NARROW ESCAPE
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 158 · SAME PAGE
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 159 · FINE TUNING
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 160 · SPARE ROOM
+- **Rarity audit:** Retained provisionally as **Singular**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a one-of-one construction and material language that cannot be mistaken for another weapon. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a unique animated centerpiece, signature firing/action effects and a dedicated inspect flourish. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 161 · BAD SIGNAL
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 162 · DEADLINE
+- **Rarity audit:** Retained provisionally as **Altered**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** contrasting materials, a deliberate accent colour and one distinctive manufactured detail. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a restrained emissive indicator and a short, localized activation effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 163 · PARKING FINE
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 164 · BETWEEN FRIENDS
+- **Rarity audit:** Retained provisionally as **Singular**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a one-of-one construction and material language that cannot be mistaken for another weapon. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a unique animated centerpiece, signature firing/action effects and a dedicated inspect flourish. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 165 · LATE CHECKOUT
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 166 · OPEN CIRCUIT
+- **Rarity audit:** Retained provisionally as **Extraordinary**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** a highly individual silhouette, premium material transitions and a signature moving component. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a bespoke animated centerpiece, custom firing feedback and a distinctive action effect. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
+### 167 · THE LAST WORD
+- **Rarity audit:** Retained provisionally as **Evolved**. Its rarity must be justified by its own identity and presentation, not by combat strength or roster quotas. The defining hook is **Weapon identity**; its final tier remains subject to comparative review against all 166 other weapons.
+- **Default finish:** layered premium materials, carefully machined parts and a recognizable secondary finish. The base weapon itself carries this finish; players do not need a skin to see its rarity identity.
+- **Default effects:** a subtle animated mechanism plus a clear, contained action trail or pulse. The signature visual is tied specifically to **Weapon identity**: its state indicator, moving part or environmental cue communicates that mechanic. **Weapon Action** receives a matching activation cue, with no extra damage, hidden tracking, or gameplay advantage from rarity.
+
