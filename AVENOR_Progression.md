@@ -68,12 +68,13 @@ The level curve should:
 - Have **no maximum account level**. Players can continue leveling indefinitely.
 - Be quick during the first few levels so new players discover progression early.
 - Require progressively more XP as the account level rises. Higher levels should take noticeably longer, while avoiding an unreasonable grind.
-- Have clearly displayed next-level progress and reward previews at every level.
-- Provide a reward at every level, with larger or more distinctive rewards at selected milestone levels.
+- Show a clearly visible XP progress bar and the exact XP needed for the next level.
+- Preview the next level's reward when one is scheduled, and highlight upcoming milestone rewards.
+- Use a deliberate reward cadence: regular rewards keep leveling satisfying, while major milestones provide larger or more distinctive rewards. Not every level must grant a separate item.
 - Never reset account levels between seasons.
 - Never grant damage, health, accuracy, cooldown, movement, or other combat-stat bonuses.
 
-The exact XP curve, level reward cadence and milestone intervals remain **TBD / playtest**. The uncapped structure and progressively increasing XP requirement are approved design decisions.
+The exact XP curve, reward cadence and milestone intervals remain **TBD / playtest**. The uncapped structure, progressively increasing XP requirement, persistent levels, visible progress display and milestone reward direction are approved design decisions.
 
 ### Level rewards
 
@@ -356,8 +357,7 @@ Implementation requirements:
 
 1. Final weapon unlock policy, including whether any weapon access can ever be paid-exclusive.
 2. Final ability unlock schedule and ranked availability.
-3. Exact account XP curve, reward cadence and milestone intervals for the uncapped level system.
-4. Account XP curve, match XP values and level reward cadence.
+3. Account XP curve, match XP values, reward cadence and milestone intervals for the uncapped level system.
 5. Weapon mastery level count, XP curve and reward milestones.
 6. Rank rating thresholds, placement count, rating model, seasonal reset policy, ranked-population threshold for the AVENOR top-20 reward, and tie-break rules. (Rank names, tier divisions and the AVENOR apex structure are now defined.)
 7. Season pass duration, tier count, pricing and rewards.
