@@ -375,6 +375,7 @@ The final sound identity and detailed audio rules are **TBD**.
 
 - **AVENOR_Weapons.md** — weapon roster, slot classification, and individual weapon concepts.
 - **AVENOR_Abilities.md** — ability system rules, approved ability concepts, rarity assignments, and individual ability designs.
+- **AVENOR_Equipment.md** — equipment system rules, selected equipment roster, counterplay, rejected concepts, and prototype priorities.
 - **AVENOR_Gameplay.md** — detailed proposed gameplay rules, movement, combat, match flow, HUD, and first playable prototype.
 - **AVENOR_GameModes.md** — classic and original modes, including AVENOR ORIGIN, with proposed match formats and rules.
 - **AVENOR_Maps.md** — map design standards, layout and spawn principles, mode compatibility, performance, and the individual map specification template.
@@ -387,7 +388,7 @@ The following areas still need detailed design or testing:
 - Health value, damage model, regeneration, and elimination rules.
 - Weapon statistics, balance, and implementation priorities.
 - Ability cooldowns, durations, ranges, charges, restrictions, and implementation priorities.
-- Equipment roster, cooldowns, and replenishment.
+- Final equipment balance, charges, replenishment, and launch selection (see **AVENOR_Equipment.md**).
 - Full mode list, player counts, scoring, and match rules.
 - Map roster, layouts, interactions, and pickup rules.
 - Respawn, spectating, overtime, and round-transition behavior.
