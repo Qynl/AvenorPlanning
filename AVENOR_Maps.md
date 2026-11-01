@@ -280,3 +280,113 @@ Do not build a fully decorated map before its greybox has proven fun.
 - Spawn algorithms and numerical safety thresholds.
 - Final ORIGIN objective layout requirements.
 - Ranked map pool and map-veto rules.
+
+
+## 15. Map 01 — FOUNDRY (Working Name)
+
+> **Status: Concept selected.** The setting and broad purpose are approved for development. The final name, exact layout, dimensions, mode compatibility, and gameplay balance remain subject to greyboxing and playtesting.
+
+### Core identity
+
+**Setting:** A futuristic industrial research facility.
+
+**Identity statement:** A high-tech research complex built around a massive central industrial structure, where clean laboratory architecture meets heavy machinery, service infrastructure, and active energy systems.
+
+The map should feel like a real, functioning facility rather than a collection of disconnected sci-fi rooms. Its visual storytelling should suggest that the complex was designed to research, manufacture, contain, or test advanced technology.
+
+### Purpose in the map roster
+
+Map 01 is intended to be AVENOR's versatile baseline arena:
+- A medium-sized map.
+- Designed to test AVENOR's core movement, combat, sightlines, and map flow.
+- Intended to support several modes rather than being built for only one.
+- A useful first environment for validating the map standards in this document.
+- A strong visual identity without allowing decoration to compromise readability.
+
+It should be broad enough to create meaningful route choices, but compact enough to keep matches active. Avoid empty corridors and long stretches of travel without decisions.
+
+### Central landmark
+
+The defining feature is a massive central industrial structure.
+
+It should:
+- Be visible and recognisable from multiple parts of the map.
+- Help players orient themselves without needing constant UI guidance.
+- Create a memorable focal point in the arena.
+- Influence the surrounding layout and route choices.
+- Provide visual identity without automatically becoming an overpowered combat position.
+
+The central structure may inspire future visual ideas for AVENOR ORIGIN, but Map 01 is **not automatically an ORIGIN-only map**, and its layout must not assume unapproved ORIGIN mechanics.
+
+### Visual language
+
+Use a futuristic industrial research-facility aesthetic:
+- Large-scale machinery, structural supports, research infrastructure, and controlled-access areas.
+- A balance of heavy industrial spaces and clean, advanced laboratory sections.
+- Strong architectural silhouettes and clear material separation.
+- Purposeful lighting, with the facility's technology providing visual interest.
+- AVENOR's navy, ice blue, white, graphite, and soft violet palette as a foundation, with restrained industrial accent colours where useful.
+
+The environment should feel advanced and polished, not excessively dark, cluttered, or visually noisy. Opponents, projectiles, pickups, and objectives must remain easy to distinguish from the environment.
+
+### Layout direction
+
+The exact layout is not locked. During greyboxing, explore:
+- A central arena organised around the landmark structure.
+- Multiple routes connecting the outer areas to the centre.
+- At least one meaningful flank route with a clear trade-off.
+- A mix of enclosed facility spaces and more open industrial areas.
+- Deliberate short-, medium-, and limited long-range sightlines.
+- Elevation changes that support sprinting, sliding, jumping, and air control.
+- More than one viable approach to important areas.
+
+Do not force a symmetrical three-lane layout. The final structure should emerge from playtesting and the map's identity.
+
+### Initial mode targets
+
+The initial design target is to evaluate the map for:
+- DUEL and DUOS, if fair compact combat spaces can be created within the layout.
+- TEAM DEATHMATCH.
+- HARDPOINT, if objective rotations work naturally with the arena.
+- AVENOR ORIGIN only if its eventual mechanics genuinely fit the map.
+
+FREE FOR ALL and CAPTURE THE FLAG are not assumed. Add them only if the final scale, spawn distribution, and route structure support them properly.
+
+These are candidates for testing, not a promise that every mode will ship on this map.
+
+### Greybox priorities
+
+The first playable version should focus on:
+1. Overall travel time between major areas.
+2. Route choice and flank viability.
+3. Whether the central structure dominates too much of the arena.
+4. Close-, medium-, and long-range engagement balance.
+5. Vertical access and counter-routes.
+6. Spawn safety for every supported mode.
+7. Whether the map remains readable at match speed.
+8. Performance on PC and lower-end mobile devices.
+
+Do not begin detailed decoration until the greybox is fun and fair.
+
+### Risks to watch
+
+- The central structure becoming an overpowered position or unavoidable chokepoint.
+- Long industrial corridors creating dominant sniper sightlines.
+- Similar-looking rooms making navigation difficult.
+- Decorative machinery creating unclear collision or blocking visibility.
+- Too many routes making the arena difficult to learn.
+- The facility theme producing excessive visual clutter or darkness.
+
+Every risk must be evaluated in playtests and addressed through layout, readability, or balance changes.
+
+### Approval checklist
+
+Map 01 is not ready for final approval until:
+- A playable greybox exists.
+- Its supported modes have been tested at their intended player counts.
+- Both starting sides have been evaluated.
+- Spawn safety and route balance have been tested repeatedly.
+- The central landmark is memorable but not unfairly dominant.
+- Movement and combat flow feel good at real match speed.
+- Performance and visual readability are acceptable across target devices.
+
