@@ -57,7 +57,7 @@ Weapon abilities use cooldowns. The cooldown begins after activation or after th
 
 ## 4. Weapon Roster
 
-There are 167 planned weapons. The entries below record the designs established so far. Weapon IDs are name-based internal references and match each weapon's unique name.
+There are 167 planned weapons. The entries below record the accepted and proposed designs established so far. Weapon IDs are name-based internal references and match each weapon's unique name.
 
 ### Weapon 001 — TAXMAN
 - **Internal ID:** TAXMAN
@@ -841,9 +841,1369 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 **Status:** Accepted concept. Prototype values are TBD.
 
+### Weapon 031 — OVERDUE
+- **Internal ID:** OVERDUE
+- **Category:** Marksman Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Deliberate mid-range duelling that rewards maintaining pressure on one opponent.
+- **Core mechanic: Interest Rate**
+  
+  Consecutive hits on the same opponent make the next shot cycle slightly faster, up to a modest cap. Missing or changing targets resets the sequence.
+- **Weapon Action: Final Notice**
+  
+  The next successful hit briefly displays a clear impact marker at the opponent's position, visible to their team but not through walls.
+- **Rules and counterplay:** The fire-rate benefit is capped and never increases damage; the sequence resets on a miss; the action requires a normal hit and gives no tracking.
+- **Visual identity:** A compact marksman rifle with a numbered mechanical counter that advances with consecutive hits.
+- **Prototype values:** Damage, fire interval, stack cap, reset window, marker duration, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 032 — SPARE KEY
+- **Internal ID:** SPARE-KEY
+- **Category:** Traversal Tool
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Creating temporary alternate routes through an arena.
+- **Core mechanic: Open Door Policy**
+  
+  Place two linked doorway frames on valid surfaces. Players can pass through one and emerge from the other, preserving their general movement direction.
+- **Weapon Action: Deadbolt**
+  
+  Temporarily disable one entrance. The exit remains visible, and the player can reopen the link before it expires.
+- **Rules and counterplay:** Only one pair can exist; both frames are visible and destructible; the pair has a short lifetime; the route cannot pass through blocked geometry or be placed inside spawn areas.
+- **Visual identity:** A chunky locksmith's tool that unfolds into two bright, rectangular doorframes.
+- **Prototype values:** Placement range, pair lifetime, frame health, traversal delay, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 033 — BOUNCER
+- **Internal ID:** BOUNCER
+- **Category:** Impact Shotgun
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Close-range damage with deliberate knockback positioning.
+- **Core mechanic: House Rules**
+  
+  A compact shotgun fires a tight, heavy spread. Hits build a small pressure meter that increases the push of the next ordinary shot, not its damage.
+- **Weapon Action: Out You Go**
+  
+  Fire a clearly telegraphed blast that launches the user backward while pushing nearby opponents away.
+- **Rules and counterplay:** Pressure has a low cap and decays; the action consumes ammunition; its area and direction are readable; opponents can maintain distance and bait the blast.
+- **Visual identity:** A short, sturdy shotgun with a spring-loaded stock and oversized pressure gauge.
+- **Prototype values:** Pellet damage, spread, pressure cap, push strength, ammunition, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 034 — GOOD MEASURE
+- **Internal ID:** GOOD-MEASURE
+- **Category:** Precision Rifle
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Precision duelling at a deliberately chosen engagement distance.
+- **Core mechanic: Just Right**
+  
+  The rifle has a clearly indicated preferred distance band. Shots within that band deal standard damage with consistent handling; shots outside it deal reduced damage.
+- **Weapon Action: Take Measure**
+  
+  Briefly projects a visible range guide from the muzzle, showing the preferred distance band against the arena.
+- **Rules and counterplay:** The band is fixed and visible on the weapon display; the action gives distance information, not enemy tracking; close-range opponents can rush inside the preferred band.
+- **Visual identity:** A long, clean rifle with a measuring-wheel motif and a sliding distance scale.
+- **Prototype values:** Preferred range, damage falloff, guide duration, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 035 — OFF THE CLOCK
+- **Internal ID:** OFF-THE-CLOCK
+- **Category:** Decoy Projector
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Misdirection and drawing attention away from a real rotation.
+- **Core mechanic: Clock Out**
+  
+  Deploys a small recorder that stores a short sample of the user's recent movement path and then projects a harmless moving silhouette replaying that route.
+- **Weapon Action: Early Finish**
+  
+  Starts the recorded playback immediately, even if the recorder has not reached its normal trigger condition.
+- **Rules and counterplay:** The projection cannot deal damage or interact with objectives; it follows a fixed recorded path; it is visibly artificial at close range and can be disabled.
+- **Visual identity:** A pocket-sized time recorder with a translucent projected runner.
+- **Prototype values:** Recording window, projection lifetime, trigger distance, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 036 — BACKFILL
+- **Internal ID:** BACKFILL
+- **Category:** Magazine Rifle
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Reliable mid-range damage with a tactical reserve-round decision.
+- **Core mechanic: One in the Chamber**
+  
+  When the magazine empties, one reserve round is automatically loaded into a separate chamber and can be fired as a normal shot.
+- **Weapon Action: Move It Up**
+  
+  Transfer the reserve round into the magazine immediately, allowing it to be used before the magazine is empty.
+- **Rules and counterplay:** The reserve round is not extra ammunition; transferring it takes a brief, interruptible action; the weapon has ordinary damage and no bonus headshot or hidden multiplier.
+- **Visual identity:** A practical rifle with a visible single-round side chamber and a mechanical loading indicator.
+- **Prototype values:** Magazine size, reload time, transfer time, and fire interval are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 037 — SIDE EYE
+- **Internal ID:** SIDE-EYE
+- **Category:** Recon Tool
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Checking exposed lanes without revealing opponents through walls.
+- **Core mechanic: Peripheral Vision**
+  
+  A directional optical sensor gives a brief visual tick when an opponent crosses its unobstructed field of view. It does not identify the opponent or maintain a marker.
+- **Weapon Action: Look Alive**
+  
+  Rotate the sensor's scan direction to a chosen angle and perform one short scan.
+- **Rules and counterplay:** The sensor only detects visible movement; it has a narrow field and short range; opponents can use cover, remain still, or approach from another direction.
+- **Visual identity:** A compact surveyor's monocular with a swivelling lens and a small side display.
+- **Prototype values:** Scan angle, range, detection delay, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 038 — TIN CAN
+- **Internal ID:** TIN-CAN
+- **Category:** Ricochet Launcher
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Predictive area pressure using heavy, readable bouncing shots.
+- **Core mechanic: Empty Return**
+  
+  Launches a chunky projectile that bounces from suitable arena surfaces. Each bounce reduces its remaining damage and speed until it expires.
+- **Weapon Action: One More Time**
+  
+  The next projectile gains one additional bounce before its normal expiry.
+- **Rules and counterplay:** The projectile never homes; its path is visible and predictable; damage falls with every bounce; open areas and movement make it easier to avoid.
+- **Visual identity:** A dented canister launcher with a rattling projectile and clear bounce sparks.
+- **Prototype values:** Initial damage, bounce count, speed loss, damage loss, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 039 — HOME RUN
+- **Internal ID:** HOME-RUN
+- **Category:** Heavy Ball Launcher
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Long-lane pressure that rewards predicting where an opponent will be.
+- **Core mechanic: Long Drive**
+  
+  Fires a heavy ball that gains a modest damage increase over distance travelled, up to a strict cap. It does not gain damage from bouncing.
+- **Weapon Action: Curveball**
+  
+  The next ball makes one broad, clearly visible curve toward the direction selected at launch, then continues on a straight path.
+- **Rules and counterplay:** The projectile is slow and visible; the distance bonus is capped; the curve is telegraphed and cannot bend around solid cover.
+- **Visual identity:** A sporting launcher with a padded barrel and oversized rotating ball chamber.
+- **Prototype values:** Projectile speed, range, distance scaling, damage cap, curve angle, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 040 — GUEST LIST
+- **Internal ID:** GUEST-LIST
+- **Category:** Entry Sensor
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Reading a doorway or narrow route without giving permanent wall information.
+- **Core mechanic: RSVP**
+  
+  Place a small floor sensor that records the direction of the first opponent who crosses it. The sensor then goes dormant.
+- **Weapon Action: Read It Back**
+  
+  Replay the recorded entry direction as a brief directional indicator for the user's team.
+- **Rules and counterplay:** One trigger per placement; the sensor is visible and can be removed; it does not reveal exact location or track anyone after crossing; wide routes can bypass it.
+- **Visual identity:** A small brass entry plate with a guest-counter display.
+- **Prototype values:** Trigger radius, sensor lifetime, indicator duration, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 041 — DOUBLE PARKED
+- **Internal ID:** DOUBLE-PARKED
+- **Category:** Dual Pistols
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** Close-to-mid-range pressure through alternating shots.
+- **Core mechanic: Alternating Ticket**
+  
+  The pistols fire one at a time, alternating hands. Each has its own small magazine, so the player manages two independent ammunition counts.
+- **Weapon Action: Both Lanes**
+  
+  Fire both loaded pistols together in a wide, short-range volley with a substantial recovery period.
+- **Rules and counterplay:** The volley consumes one round from each pistol; its spread is wide; the normal alternating rhythm is predictable; reloads expose a clear downtime.
+- **Visual identity:** A mismatched pair of compact pistols with separate ammunition counters.
+- **Prototype values:** Damage, spread, magazine sizes, alternating interval, reload, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 042 — STATIC CLING
+- **Internal ID:** STATIC-CLING
+- **Category:** Magnetic Traversal Tool
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Briefly changing the routes available on metal arena surfaces.
+- **Core mechanic: Stick Around**
+  
+  Deploys a pair of magnetic pads on suitable metal surfaces. A player touching a pad can briefly cling to that surface, including suitable walls or ceilings.
+- **Weapon Action: Let Go**
+  
+  Deactivate the pads early and release anyone attached with a small, predictable outward movement.
+- **Rules and counterplay:** Only marked surfaces accept pads; the effect is brief; pads are visible and destructible; it does not grant free movement across arbitrary geometry.
+- **Visual identity:** A magnetic tool with two bright clamp-shaped pads and a pulsing polarity indicator.
+- **Prototype values:** Pad lifetime, cling duration, placement range, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 043 — PAYPHONE
+- **Internal ID:** PAYPHONE
+- **Category:** Team Relay Tool
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Helping teammates coordinate positions without revealing enemies.
+- **Core mechanic: Local Line**
+  
+  Place a small relay beacon. Friendly players near another active PAYPHONE beacon receive a simple direction indicator pointing toward it.
+- **Weapon Action: Switchboard**
+  
+  Change which friendly beacon the user's relay is connected to.
+- **Rules and counterplay:** It only connects friendly beacons; it never reveals enemy positions; the relay has limited range and lifetime; opponents can see and destroy it.
+- **Visual identity:** A portable payphone handset with a cable spool and glowing connection lights.
+- **Prototype values:** Beacon range, connection limit, lifetime, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 044 — GOOD GRIEF
+- **Internal ID:** GOOD-GRIEF
+- **Category:** Heavy Repeater
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Sustained close-to-mid-range pressure that changes opponent positioning.
+- **Core mechanic: Heavy Feelings**
+  
+  Consecutive hits build a knockback meter. Damage remains constant; the meter only affects the push of the next hit.
+- **Weapon Action: Let It Out**
+  
+  Spend the stored meter on one clearly telegraphed shot with increased knockback and a slower recovery.
+- **Rules and counterplay:** The meter decays when not firing; knockback is capped; the action does not increase damage; opponents can use cover and avoid predictable follow-up shots.
+- **Visual identity:** A bulky repeater with a pressure gauge and oversized recoil springs.
+- **Prototype values:** Damage, meter gain, decay, knockback cap, recovery, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 045 — CLEAN BREAK
+- **Internal ID:** CLEAN-BREAK
+- **Category:** Break-Action Shotgun
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Close-range burst damage with a meaningful two-shell decision.
+- **Core mechanic: Two Different Stories**
+  
+  The two barrels have distinct fixed spread patterns: one compact and one wide. The player alternates between them with each shot.
+- **Weapon Action: Double Down**
+  
+  Fire both barrels together, combining their patterns and consuming both shells.
+- **Rules and counterplay:** The active barrel is clearly indicated; the combined shot has a long recovery; ammunition is limited; opponents can bait the double shot and punish the reload.
+- **Visual identity:** A sturdy side-by-side shotgun with two differently marked barrels and a large break-open hinge.
+- **Prototype values:** Damage, spread patterns, shell count, reload, recovery, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 046 — SUNDAY DRIVER
+- **Internal ID:** SUNDAY-DRIVER
+- **Category:** Automatic Rifle
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** Mobile mid-range combat with a distinctive movement-and-fire rhythm.
+- **Core mechanic: Cruise Control**
+  
+  Firing while moving in a straight line gradually tightens hip-fire spread. Sharp direction changes reset the benefit.
+- **Weapon Action: Easy Does It**
+  
+  Briefly preserve the current spread level while changing direction, allowing one controlled reposition without rebuilding the benefit.
+- **Rules and counterplay:** The accuracy bonus is capped; aiming normally is unaffected; abrupt movement resets the ordinary benefit; the action does not increase damage or fire rate.
+- **Visual identity:** A clean, slightly retro carbine with a speedometer-style spread display.
+- **Prototype values:** Spread curve, movement threshold, reset delay, action duration, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 047 — FINE PRINT
+- **Internal ID:** FINE-PRINT
+- **Category:** Precision Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Rewarding varied, deliberate shot placement without relying on inconsistent avatar anatomy.
+- **Core mechanic: Different Paragraph**
+  
+  Each successful hit adds a visible stamp to the target. Consecutive hits from meaningfully different directions complete a three-stamp sequence and grant one modest bonus-damage shot.
+- **Weapon Action: Read the Terms**
+  
+  The next hit briefly marks the target's last visible position with a paper tag on the ground, without tracking through walls.
+- **Rules and counterplay:** Direction sectors are broad and consistent; repeating the same angle does not advance the sequence; the stamps are visible to the target; the bonus shot still requires aim.
+- **Visual identity:** A slim rifle with a paper-feed slot and a three-part clause display.
+- **Prototype values:** Direction sectors, stamp duration, bonus damage, marker lifetime, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 048 — BREADCRUMBS
+- **Internal ID:** BREADCRUMBS
+- **Category:** Navigation Tool
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Giving a team a simple, shared route through a complicated arena.
+- **Core mechanic: Trail Mix**
+  
+  Place up to three visible route markers that teammates can follow. Each marker shows the direction to the next marker, not enemy information.
+- **Weapon Action: Sweep Up**
+  
+  Remove the oldest marker and move the route's starting point to the user's current position.
+- **Rules and counterplay:** Markers are visible to both teams and can be destroyed; they do not grant movement speed or reveal opponents; the route expires.
+- **Visual identity:** A compact marker dispenser that fires small luminous breadcrumb discs.
+- **Prototype values:** Marker count, placement range, lifetime, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 049 — HIGH HORSE
+- **Internal ID:** HIGH-HORSE
+- **Category:** Charge Launcher
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Aerial combat with a deliberate risk-reward for leaving cover.
+- **Core mechanic: Above Yourself**
+  
+  The launcher fires ordinary damaging projectiles. Shots made while the user is airborne receive a small, capped damage bonus.
+- **Weapon Action: Come Down to Earth**
+  
+  Fire a downward burst that deals modest area damage and gives the user a controlled upward boost.
+- **Rules and counterplay:** The aerial bonus is small and capped; the user is exposed while airborne; the action has a clear warning and cannot be chained; grounded opponents retain normal damage.
+- **Visual identity:** A tall launcher with a horse-head sight and a visible altitude gauge.
+- **Prototype values:** Base damage, aerial bonus, burst radius, boost strength, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 050 — TAKE A NUMBER
+- **Internal ID:** TAKE-A-NUMBER
+- **Category:** Team Queue Tool
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Coordinating a controlled team rotation through a dangerous lane.
+- **Core mechanic: Your Turn**
+  
+  Place a queue beacon. Teammates who interact with it are placed in a visible order, with one active movement window at a time.
+- **Weapon Action: Next Please**
+  
+  End the current window early and activate the next teammate's turn.
+- **Rules and counterplay:** The queue grants no invulnerability or damage; only a limited number of teammates can join; the beacon is visible and destructible; players can choose not to use it.
+- **Visual identity:** A portable ticket dispenser with numbered lights and a little flip display.
+- **Prototype values:** Queue capacity, interaction time, movement-window duration, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 051 — COLD SHOULDER
+- **Internal ID:** COLD-SHOULDER
+- **Category:** Precision Repeater
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Accurate follow-up fire against a target who keeps exposing the same angle.
+- **Core mechanic: Same Again**
+  
+  Consecutive hits on the same opponent tighten the weapon's spread slightly. The benefit resets on a miss or target switch and never increases damage.
+- **Weapon Action: Turn Away**
+  
+  The next successful hit briefly reduces the target's acceleration when changing direction, without stopping movement or disabling control.
+- **Rules and counterplay:** Spread improvement is capped; the target receives a clear status cue; the effect is short and does not stack; breaking line of sight or changing movement rhythm counters the weapon.
+- **Visual identity:** A narrow precision repeater with a frost-coloured barrel shroud and a small focus indicator.
+- **Prototype values:** Spread reduction, stack cap, effect duration, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 052 — DO NOT DISTURB
+- **Internal ID:** DO-NOT-DISTURB
+- **Category:** Defensive Projector
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Temporarily slowing incoming projectile pressure to create a repositioning window.
+- **Core mechanic: Quiet Zone**
+  
+  Deploys a visible bubble that reduces the speed of projectiles passing through it. It does not stop projectiles or protect players from hits.
+- **Weapon Action: Check Out**
+  
+  Collapse the bubble early, producing a short outward push that creates space but deals no damage.
+- **Rules and counterplay:** The bubble is stationary, temporary, and destructible; it affects projectiles from both teams; opponents can shoot around it or wait it out.
+- **Visual identity:** A small hotel-style projector with a translucent circular field and a hanging DO NOT DISTURB sign.
+- **Prototype values:** Bubble size, projectile slowdown, lifetime, health, push strength, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 053 — DOUBLE TAKE
+- **Internal ID:** DOUBLE-TAKE
+- **Category:** Burst Rifle
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Mid-range pressure through delayed, predictable follow-up shots.
+- **Core mechanic: Echo Shot**
+  
+  Each trigger fires one normal projectile and schedules a weaker second projectile along the same initial direction after a short, fixed delay.
+- **Weapon Action: Save It**
+  
+  Hold the scheduled second projectile instead of releasing it immediately. Press again to release it along the stored direction.
+- **Rules and counterplay:** The second shot is weaker and visibly telegraphed; it cannot adjust direction after being stored; switching weapons cancels it; opponents can move after the first shot.
+- **Visual identity:** A twin-chamber rifle with a split timing display and a distinctive double-click sound.
+- **Prototype values:** Damage split, delay, magazine cost, storage window, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 054 — LOST PROPERTY
+- **Internal ID:** LOST-PROPERTY
+- **Category:** Retrieval Tool
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Recovering the user's own eligible deployed equipment from a safer position.
+- **Core mechanic: Claim Ticket**
+  
+  The tool can tag one eligible friendly deployable within line of sight. The tag identifies it as recoverable but has no effect on opponents.
+- **Weapon Action: Found It**
+  
+  Recall the tagged deployable to the user's position, removing it from its old location.
+- **Rules and counterplay:** Only compatible friendly deployables can be recalled; the tool cannot steal enemy objects; the recall takes time and can be interrupted; recalled objects return with their remaining lifetime, not a refresh.
+- **Visual identity:** A handheld lost-property scanner with a ticket slot and blinking locator light.
+- **Prototype values:** Compatible object list, scan range, recall time, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 055 — BAD TIMING
+- **Internal ID:** BAD-TIMING
+- **Category:** Automatic Rifle
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Rhythm-based sustained damage with a deliberate firing pattern.
+- **Core mechanic: Wrong Moment**
+  
+  The rifle fires a fixed repeating rhythm: a short fast sequence followed by a clearly signalled pause. The pattern never randomises.
+- **Weapon Action: Skip the Beat**
+  
+  Skip the next pause, then enter a longer recovery period before the normal rhythm resumes.
+- **Rules and counterplay:** The rhythm is shown on the weapon; the action trades immediate output for later downtime; no shot is automatically aimed; opponents can time pushes around the pause.
+- **Visual identity:** A boxy rifle with a metronome-like side indicator and a mechanical click before each pause.
+- **Prototype values:** Sequence length, fire intervals, pause length, recovery, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 056 — HUSH MONEY
+- **Internal ID:** HUSH-MONEY
+- **Category:** Sound Field Projector
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Sound management for a temporary team rotation or defensive hold.
+- **Core mechanic: Keep It Down**
+  
+  Deploys a stationary quiet zone that reduces the volume and distance of movement sounds for every player inside it.
+- **Weapon Action: Loose Lips**
+  
+  End the zone early and emit a brief false footstep cue at its edge.
+- **Rules and counterplay:** The zone affects both teams; it does not hide visuals or remove weapon impacts; its boundary is visible; the false cue is short and can be recognised.
+- **Visual identity:** A compact audio mixer with a padded speaker dish and a moving sound-level meter.
+- **Prototype values:** Zone radius, sound reduction, lifetime, cue range, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 057 — LAST RESORT
+- **Internal ID:** LAST-RESORT
+- **Category:** Heavy Pistol
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** High-stakes precision shooting with a clearly signalled final round.
+- **Core mechanic: One Left**
+  
+  The final round in the cylinder deals a modest bonus to body damage. The weapon's cylinder display makes the final round obvious to everyone nearby.
+- **Weapon Action: Make It Count**
+  
+  Chamber the final round early, leaving the remaining cylinder empty and readying the special shot.
+- **Rules and counterplay:** The bonus is modest and never a one-hit guarantee; the action sacrifices remaining ammunition; the special shot still requires a normal hit; reloading resets the chamber.
+- **Visual identity:** An oversized heavy pistol with a bright final-round indicator.
+- **Prototype values:** Damage, cylinder size, bonus cap, chamber time, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 058 — OPEN SECRET
+- **Internal ID:** OPEN-SECRET
+- **Category:** Team Beacon
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Helping separated teammates regroup without providing enemy intelligence.
+- **Core mechanic: All Together**
+  
+  Deploys a friendly beacon that displays the approximate direction of connected teammates to one another while they remain within range.
+- **Weapon Action: Roll Call**
+  
+  Sends a visible pulse to connected teammates, asking them to regroup at the beacon. It does not teleport or force movement.
+- **Rules and counterplay:** Only friendly positions are shared; the beacon has a limited range and lifetime; it is visible and destructible; no enemy is revealed.
+- **Visual identity:** A clean signal lantern with a circular team display and a bright regroup pulse.
+- **Prototype values:** Connection range, beacon lifetime, update interval, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 059 — SHORT FUSE
+- **Internal ID:** SHORT-FUSE
+- **Category:** Explosive Repeater
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Area pressure through multiple visible, short-lived impact charges.
+- **Core mechanic: Stick Around**
+  
+  Fires small charges that attach to valid surfaces and automatically burst after a short fixed delay. A direct hit causes a smaller impact burst.
+- **Weapon Action: All at Once**
+  
+  Detonate all active charges early.
+- **Rules and counterplay:** Charges are visible and can be removed; only a small number can exist; the timer is clearly indicated; the action cannot detonate charges through blocked geometry.
+- **Visual identity:** A compact launcher with bright fuse caps and a visible charge counter.
+- **Prototype values:** Damage, blast radius, fuse time, active-charge limit, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 060 — THE USUAL
+- **Internal ID:** THE-USUAL
+- **Category:** Adaptive Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Flexible mid-range damage that rewards switching between two firing rhythms.
+- **Core mechanic: Same Order**
+  
+  The rifle has two modes: controlled single shots and a short automatic burst. Repeated use of one mode gradually makes the other mode's next activation more efficient, within a small cap.
+- **Weapon Action: Change It Up**
+  
+  Switch modes instantly and consume the stored efficiency bonus.
+- **Rules and counterplay:** The bonus never increases damage; the mode and bonus are clearly displayed; switching modes does not improve accuracy or aim; players can read and anticipate the chosen rhythm.
+- **Visual identity:** A practical rifle with a rotating selector and two distinct chamber indicators.
+- **Prototype values:** Mode fire rates, efficiency cap, bonus duration, and cooldown are TBD.
+- **Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 061 — BAD PENNY
+- **Internal ID:** BAD-PENNY
+- **Category:** Burst Pistol
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** Close-to-mid-range damage with a distinctive returning firing rhythm.
+- **Core mechanic: Turns Up Again**
+  
+  Fires a three-shot burst. After each burst, the next burst begins with a short delay that becomes slightly shorter if all three shots hit, up to a fixed cap.
+- **Weapon Action: Spend It**
+  
+  Fire one deliberately slower, more accurate single shot that resets the burst rhythm.
+- **Rules and counterplay:** The rhythm bonus is capped; misses do not grant the benefit; the action trades burst output for a single shot; the weapon has no automatic target correction.
+- **Visual identity:** A chunky pistol with a coin-shaped burst counter that flips after each trigger pull.
+- **Prototype values:** Burst damage, shot spacing, rhythm cap, single-shot accuracy, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 062 — MILE MARKER
+- **Internal ID:** MILE-MARKER
+- **Category:** Route Beacon
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Setting a clear team rally point and guiding rotations.
+- **Core mechanic: You Are Here**
+  
+  Place a tall, visible marker that displays a simple direction arrow for friendly players within range. It shares no enemy information.
+- **Weapon Action: Move the Pin**
+  
+  Relocate the active marker to the user's current position after a short, interruptible setup.
+- **Rules and counterplay:** Only one marker can be active; it is visible and destructible; the direction indicator is approximate; it does not grant speed or reveal opponents.
+- **Visual identity:** A fold-out survey marker with a rotating arrow and bright map-pin head.
+- **Prototype values:** Range, lifetime, relocation time, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 063 — SQUARE DEAL
+- **Internal ID:** SQUARE-DEAL
+- **Category:** Precision Rifle
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Rewarding clean, deliberate shots with a stable firing cycle.
+- **Core mechanic: Fair and Square**
+  
+  The rifle fires accurate single rounds. A hit near the centre of the visible target silhouette slightly reduces the next shot's recovery; edge hits deal normal damage but do not grant the handling benefit.
+- **Weapon Action: Draw a Line**
+  
+  The next shot projects a short, visible horizontal guide on the surface behind its impact, helping the player judge alignment without marking opponents.
+- **Rules and counterplay:** The centre zone is generous and consistent; the benefit affects handling only; the guide is visible to both teams and short-lived.
+- **Visual identity:** A squared-off rifle with a clean alignment sight and a small balance level.
+- **Prototype values:** Damage, centre-zone size, recovery reduction, guide length, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 064 — BULLPEN
+- **Internal ID:** BULLPEN
+- **Category:** Heavy Shotgun
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Close-range damage with a commitment-based firing stance.
+- **Core mechanic: Hold the Line**
+  
+  A normal shot has a broad spread. Remaining still briefly before firing tightens the spread, but moving cancels the preparation.
+- **Weapon Action: Step Up**
+  
+  Take a short, controlled forward step while firing a wider, lower-damage blast.
+- **Rules and counterplay:** The tighter shot requires a visible preparation window; the action does not grant invulnerability; the weapon is weak at range and vulnerable while preparing.
+- **Visual identity:** A broad, squared shotgun with a flip-out foregrip and a stance indicator.
+- **Prototype values:** Damage, spread profiles, preparation time, step distance, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 065 — PAPER CUT
+- **Internal ID:** PAPER-CUT
+- **Category:** Light Marksman Rifle
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** Sustained precision pressure through a readable shot cadence.
+- **Core mechanic: Thin Margin**
+  
+  Each hit leaves a short-lived visible edge mark on the target. Hitting the opposite side of the target on the next shot deals a small bonus; repeating the same side deals standard damage.
+- **Weapon Action: Fold Here**
+  
+  The next projectile splits into two weaker parallel shots at a fixed distance.
+- **Rules and counterplay:** The edge zones are broad and consistent; marks expire quickly; the split is telegraphed and spreads predictably; no shot tracks a target.
+- **Visual identity:** A slim paper-feed rifle with a folding sight and crisp stamping audio.
+- **Prototype values:** Damage, edge-zone width, mark duration, split distance, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 066 — PARKING METER
+- **Internal ID:** PARKING-METER
+- **Category:** Zone Utility
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Temporarily claiming a small piece of arena space for a planned hold.
+- **Core mechanic: Paid Time**
+  
+  Place a meter on the floor. Its visible ring gradually shrinks; while active, friendly players standing inside receive a clear countdown showing how long the zone remains.
+- **Weapon Action: Expired**
+  
+  End the zone early and convert its remaining duration into a brief, team-wide movement ping toward the nearest objective.
+- **Rules and counterplay:** The zone grants no damage reduction or invulnerability; it is visible and destructible; opponents can occupy or contest the area; the action provides information only.
+- **Visual identity:** A comically serious parking meter with a glowing circular timer and striped base.
+- **Prototype values:** Zone radius, lifetime, meter health, ping duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 067 — SLOW CLAP
+- **Internal ID:** SLOW-CLAP
+- **Category:** Semi-Automatic Rifle
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Mid-range damage that rewards a measured trigger rhythm.
+- **Core mechanic: Build the Applause**
+  
+  Firing within a steady timing window keeps the rifle's recoil predictable. Firing too quickly increases recoil; waiting too long resets the rhythm.
+- **Weapon Action: Encore**
+  
+  The next shot has reduced recoil and a distinct report, but its recovery is longer.
+- **Rules and counterplay:** The rhythm is shown with a simple indicator; no damage bonus is granted for timing; the weapon remains aim-dependent; the encore shot has a clear delay.
+- **Visual identity:** A clean semi-auto rifle with a small tempo dial and paired sound ports.
+- **Prototype values:** Timing window, recoil curve, recovery, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 068 — BACKUP PLAN
+- **Internal ID:** BACKUP-PLAN
+- **Category:** Return Beacon
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Giving a player one planned fallback point during a push.
+- **Core mechanic: Just in Case**
+  
+  Place a personal return beacon. Interacting with it later recalls the player to that exact location after a visible channel, provided the beacon remains active.
+- **Weapon Action: Cancel the Plan**
+  
+  Recall the beacon to the user without teleporting, allowing it to be placed again elsewhere after its normal cooldown.
+- **Rules and counterplay:** The recall is interruptible; the beacon is visible and destructible; it cannot be used while carrying an objective or inside restricted zones; it does not restore health or ammunition.
+- **Visual identity:** A compact emergency marker with a folding antenna and a clear return countdown.
+- **Prototype values:** Beacon lifetime, recall channel, placement range, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 069 — WIDE OPEN
+- **Internal ID:** WIDE-OPEN
+- **Category:** Fan Shotgun
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Close-range damage across a broad horizontal lane.
+- **Core mechanic: Open Invitation**
+  
+  Fires a flat horizontal fan of projectiles. The spread is wide but shallow, making it effective against lateral movement and less effective against distant targets.
+- **Weapon Action: Close the Gap**
+  
+  The next shot uses a narrow vertical fan, trading lane coverage for a taller target window.
+- **Rules and counterplay:** The two patterns are clearly indicated; damage per projectile is modest; range is limited; opponents can change elevation or keep distance.
+- **Visual identity:** A broad-barrel shotgun with a fan-shaped muzzle shroud and a two-pattern selector.
+- **Prototype values:** Pellet count, fan dimensions, damage, range, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 070 — DEAD CERT
+- **Internal ID:** DEAD-CERT
+- **Category:** Bolt-Action Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Long-range precision with a deliberate commitment after each shot.
+- **Core mechanic: Signed and Sealed**
+  
+  After firing, the bolt must be cycled manually before the next shot. Cycling can be done at any time, including before the magazine is empty.
+- **Weapon Action: Hold the Paper**
+  
+  Delay the next bolt cycle to preserve the current scope view and movement speed, then cycle instantly when the player chooses.
+- **Rules and counterplay:** The rifle has a low firing rate; the cycle is audible and visible; delaying the cycle leaves the weapon unable to fire; no shot is guaranteed.
+- **Visual identity:** A classic, clean bolt-action rifle with a large exposed bolt and paper-seal chamber indicator.
+- **Prototype values:** Damage, cycle time, magazine, movement penalty, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 071 — RED TAPE
+- **Internal ID:** RED-TAPE
+- **Category:** Tripwire Sensor
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Warning teammates when an opponent crosses a chosen route.
+- **Core mechanic: Restricted Area**
+  
+  Place a visible tripwire between two valid surfaces. Crossing it triggers a brief warning ping for the placing team, but deals no damage.
+- **Weapon Action: Re-route**
+  
+  Retract one end of the wire and place it at a new valid surface within a short range.
+- **Rules and counterplay:** The wire is visible at close range and can be destroyed; it has a limited span and lifetime; jumping or taking another route avoids it; the ping is brief and not a tracking marker.
+- **Visual identity:** A red spool tool with a bright ribbon-like sensor line and a warning flag.
+- **Prototype values:** Wire span, visibility, lifetime, trigger radius, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 072 — HARD RESET
+- **Internal ID:** HARD-RESET
+- **Category:** Momentum Brake
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Giving players precise control over momentum during complex jumps and movement routes.
+- **Core mechanic: Full Stop**
+  
+  The device emits a short field around the user that reduces their own horizontal momentum, allowing a controlled landing or stopping point.
+- **Weapon Action: Reboot**
+  
+  Store the next momentum-brake use for a brief window, allowing the player to trigger it at the chosen moment.
+- **Rules and counterplay:** It affects only the user; it does not freeze opponents or grant invulnerability; the stored use expires; it cannot cancel fall damage or bypass map boundaries.
+- **Visual identity:** A small industrial controller with a large red reset switch and a velocity display.
+- **Prototype values:** Momentum reduction, radius, stored window, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 073 — FIRST CLASS
+- **Internal ID:** FIRST-CLASS
+- **Category:** Compact Automatic Rifle
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** Dependable close-to-mid-range damage with a controlled magazine economy.
+- **Core mechanic: Priority Boarding**
+  
+  The first half of the magazine fires at a steady rate. The final portion fires slightly faster but with increased spread, creating a predictable end-of-magazine pressure window.
+- **Weapon Action: Upgrade Seat**
+  
+  Hold the next magazine's final portion at the normal fire rate, trading speed for tighter spread.
+- **Rules and counterplay:** The magazine phase is clearly displayed; the action does not increase damage; reloading resets the sequence; opponents can exploit the predictable end phase.
+- **Visual identity:** A compact, polished carbine with a boarding-pass magazine counter.
+- **Prototype values:** Magazine size, fire rates, spread, phase length, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 074 — OVERHEAD
+- **Internal ID:** OVERHEAD
+- **Category:** Arc Launcher
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Damage and pressure against opponents using predictable cover positions.
+- **Core mechanic: Coming Through**
+  
+  Fires a slow projectile in a high, fixed arc that lands at the point indicated by a ground shadow. It deals modest area damage on impact.
+- **Weapon Action: Short Route**
+  
+  The next projectile uses a lower, faster arc with reduced area damage.
+- **Rules and counterplay:** The landing shadow is visible; the projectile is slow and can be avoided; ceilings and solid geometry block it; the lower arc trades area for speed.
+- **Visual identity:** A compact lobber with an elevated barrel and a clear trajectory sight.
+- **Prototype values:** Arc height, projectile speed, impact radius, damage, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 075 — TIGHTROPE
+- **Internal ID:** TIGHTROPE
+- **Category:** Traversal Cable Tool
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Creating a temporary, risky crossing between two separated platforms.
+- **Core mechanic: Walk the Line**
+  
+  Attach two anchors to valid surfaces and create a narrow traversable cable. Players move across it at a controlled speed and cannot fire while attached.
+- **Weapon Action: Safety Net**
+  
+  Add a short-lived safety catch beneath the cable that prevents a fall once, then disappears.
+- **Rules and counterplay:** Only one cable exists; both anchors and the cable are visible and removable; traversal is slower than normal running; opponents can guard the endpoints.
+- **Visual identity:** A spool launcher with bright anchor clamps and a taut cable indicator.
+- **Prototype values:** Cable span, lifetime, traversal speed, safety-catch duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 076 — TIME CARD
+- **Internal ID:** TIME-CARD
+- **Category:** Precision Repeater
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Timing-based mid-range damage with a predictable reload rhythm.
+- **Core mechanic: Clock In**
+  
+  The weapon records the interval between the player's last two shots. Matching that interval on the next shot slightly improves handling; firing too early or too late clears the rhythm.
+- **Weapon Action: Overtime**
+  
+  The next shot can be fired outside the timing window with normal handling, preventing a forced wait during an urgent duel.
+- **Rules and counterplay:** The timing window is visible; the benefit is handling only; the action has a long recovery and cannot be chained.
+- **Visual identity:** A work-clock themed rifle with a punch-card side panel and a rotating time dial.
+- **Prototype values:** Timing tolerance, handling bonus, rhythm reset, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 077 — SPOT CHECK
+- **Internal ID:** SPOT-CHECK
+- **Category:** Burst Rifle
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Mid-range damage that rewards controlled bursts at a chosen target.
+- **Core mechanic: Inspection**
+  
+  The rifle fires a fixed four-shot burst. If all four shots hit the same opponent, the next burst has a shorter delay before its first shot, not increased damage.
+- **Weapon Action: Second Look**
+  
+  Pause the next burst before its final shot, allowing the player to adjust aim before releasing it.
+- **Rules and counterplay:** The burst is fixed and readable; the benefit is capped; the pause leaves the user exposed; switching targets or missing resets the sequence.
+- **Visual identity:** A compact inspection-style rifle with a four-light burst counter.
+- **Prototype values:** Burst spacing, damage, delay bonus, pause window, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 078 — LATCHKEY
+- **Internal ID:** LATCHKEY
+- **Category:** Door Utility
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Temporarily changing access through designated arena doors and gates.
+- **Core mechanic: Your Way In**
+  
+  Interact with a compatible map door to temporarily unlock or open it. The tool works only on designated doors built for this mechanic.
+- **Weapon Action: Lock Up**
+  
+  Close and temporarily lock the same door, with a visible countdown and warning indicator.
+- **Rules and counterplay:** It cannot create doors or pass through solid geometry; only specific map doors are compatible; the state is visible to all players; the door returns to its normal state after a short duration.
+- **Visual identity:** A large electronic key fob with a flip-out metal key and a simple lock display.
+- **Prototype values:** Interaction range, open duration, lock duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 079 — FENDER BENDER
+- **Internal ID:** FENDER-BENDER
+- **Category:** Impact Launcher
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Close-range damage and deliberate displacement.
+- **Core mechanic: Bumper to Bumper**
+  
+  Fires a short-range impact slug. Damage is consistent, but hitting an opponent while they are moving toward the player adds a small, capped knockback effect.
+- **Weapon Action: Reverse Gear**
+  
+  Fire a low-damage shot that pushes the user backward and opponents in front of the muzzle away.
+- **Rules and counterplay:** The movement-read bonus affects knockback only; the action consumes ammunition; range is short; opponents can change direction or attack from outside its effective range.
+- **Visual identity:** A compact industrial blaster with a rubber bumper muzzle and a reverse-light indicator.
+- **Prototype values:** Damage, range, knockback, ammunition, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 080 — GOOD SPORT
+- **Internal ID:** GOOD-SPORT
+- **Category:** Sports Launcher
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Mid-range damage through predictable bouncing and catching opportunities.
+- **Core mechanic: Fair Play**
+  
+  Fires a soft, fast-moving ball that deals modest impact damage and rebounds once from arena surfaces. The rebound angle is consistent and readable.
+- **Weapon Action: Catch and Release**
+  
+  Catch the next returning ball if it comes within a short frontal range, then throw it again with a fresh trajectory but reduced damage.
+- **Rules and counterplay:** The ball never homes; the catch requires facing it and timing the action; missed catches leave the player exposed; damage is modest.
+- **Visual identity:** A playful launcher with a padded cup muzzle and a ball-shaped chamber.
+- **Prototype values:** Damage, speed, rebound angle, catch window, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 081 — NIGHTCAP
+- **Internal ID:** NIGHTCAP
+- **Category:** Compact Shotgun
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** Close-range damage with a deliberate last-shell decision.
+- **Core mechanic: Lights Out**
+  
+  The shotgun fires a compact spread. Its final shell has a tighter spread but a slower pump cycle, clearly indicated by a chamber light.
+- **Weapon Action: One for the Road**
+  
+  Fire the final shell immediately, even if the magazine is not empty, then begin a full reload.
+- **Rules and counterplay:** The final-shell benefit is accuracy only; the action sacrifices remaining shells; the weapon is weak at range; the pump cycle is visible and audible.
+- **Visual identity:** A short shotgun with a flip-up chamber light and a dark polished receiver.
+- **Prototype values:** Pellet damage, spread, shell count, pump time, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 082 — TALLY HO
+- **Internal ID:** TALLY-HO
+- **Category:** Light Machine Gun
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Sustained damage with an ammunition-counting mechanic.
+- **Core mechanic: Keep Score**
+  
+  Every fifth shot is a heavier, slower projectile with the same total damage budget as a small portion of the preceding sequence. The pattern is fixed and shown on the ammo counter.
+- **Weapon Action: Make It Even**
+  
+  Skip the next marked shot to reload a small number of rounds into the belt, trading immediate pressure for ammunition.
+- **Rules and counterplay:** The heavy shot is predictable; the action cannot create ammunition beyond the weapon's reserve; the weapon has a long reload and high sustained spread.
+- **Visual identity:** A compact belt-fed LMG with a rotating tally counter and visible feed belt.
+- **Prototype values:** Damage, sequence interval, belt size, reload time, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 083 — STATIC SHOCK
+- **Internal ID:** STATIC-SHOCK
+- **Category:** Arc Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Mid-range damage against grouped opponents without automatic chain targeting.
+- **Core mechanic: Charge Transfer**
+  
+  Direct hits leave a short-lived charge on the target. A later shot at a charged target creates a small, fixed-radius arc to one nearby opponent, dealing reduced secondary damage.
+- **Weapon Action: Ground Wire**
+  
+  The next hit consumes the charge without chaining and instead briefly interrupts the target's active weapon action.
+- **Rules and counterplay:** The arc only reaches one nearby opponent; the charge is visible and expires quickly; secondary damage is low; opponents can spread out or wait for the charge to fade.
+- **Visual identity:** An insulated rifle with a visible coil and a charge meter.
+- **Prototype values:** Direct damage, arc radius, secondary damage, charge duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 084 — QUIET HOURS
+- **Internal ID:** QUIET-HOURS
+- **Category:** Team Utility Projector
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Helping a team coordinate a temporary hold without revealing enemy positions.
+- **Core mechanic: Closed for the Night**
+  
+  Deploys a small lamp that gives friendly players inside its radius a clear visual cue when another teammate enters the zone. It provides no enemy detection.
+- **Weapon Action: Lights On**
+  
+  Send a short visible pulse that lets connected teammates know the zone is active.
+- **Rules and counterplay:** The lamp is visible and destructible; the radius is limited; it does not silence footsteps or weapons; it does not reveal opponents.
+- **Visual identity:** A folding desk lamp with a circular team-status display.
+- **Prototype values:** Radius, lifetime, entry cue duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 085 — BLIND DATE
+- **Internal ID:** BLIND-DATE
+- **Category:** Close-Range Rifle
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Close-range damage through controlled hip-fire and a risky aiming trade-off.
+- **Core mechanic: No Introductions**
+  
+  Hip-fired shots have a tight, fixed pattern. Aiming down sights widens the pattern but increases projectile speed, creating a choice between spread control and faster shots.
+- **Weapon Action: Make It Official**
+  
+  Lock the weapon into its current firing mode for a short duration, preventing accidental mode changes while maintaining normal damage.
+- **Rules and counterplay:** Both modes are clearly shown; the action provides no damage bonus; the weapon has limited effective range; opponents can use distance and cover.
+- **Visual identity:** A compact rifle with a two-position sight and a bright mode indicator.
+- **Prototype values:** Spread profiles, projectile speed, range, lock duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 086 — HIGH BEAMS
+- **Internal ID:** HIGH-BEAMS
+- **Category:** Illumination Tool
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Making dark or visually cluttered corners easier for teammates to inspect.
+- **Core mechanic: Full Visibility**
+  
+  Fires a bright light puck that illuminates a small area and casts clear silhouettes of players moving through the lit space. It does not reveal players through walls.
+- **Weapon Action: Dip the Lights**
+  
+  Reduce the puck's brightness and switch it to a short-range pulse, useful for checking a nearby corner without maintaining a constant glow.
+- **Rules and counterplay:** The puck is visible and destructible; it does not mark targets; the area is small; opponents can leave the light or use cover.
+- **Visual identity:** A compact headlamp-style launcher with twin adjustable reflectors.
+- **Prototype values:** Light radius, lifetime, pulse range, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 087 — HARD COPY
+- **Internal ID:** HARD-COPY
+- **Category:** Heavy Precision Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Long-range damage through a deliberate, repeatable shot pattern.
+- **Core mechanic: Carbon Copy**
+  
+  The rifle's second shot repeats the first shot's exact firing offset and recoil pattern. The player can use the repeat to maintain a consistent angle, but must correct aim manually.
+- **Weapon Action: Duplicate**
+  
+  Store the current recoil offset and apply it to the next shot after switching position, creating a predictable but not automatically aimed follow-up.
+- **Rules and counterplay:** The repeated offset is not target tracking; the stored pattern expires; the weapon has a slow cycle; opponents can change position.
+- **Visual identity:** A long precision rifle with a twin-feed receiver and a carbon-paper chamber window.
+- **Prototype values:** Damage, cycle time, stored-pattern duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 088 — BOTTOM LINE
+- **Internal ID:** BOTTOM-LINE
+- **Category:** Heavy Automatic Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Mid-range damage with a firm commitment to finishing a magazine.
+- **Core mechanic: No Negotiation**
+  
+  The weapon's recoil pattern becomes more predictable as the magazine empties, while its fire rate remains constant. Reloading early gives up the handling benefit.
+- **Weapon Action: Final Offer**
+  
+  The next magazine starts with the improved recoil pattern but has fewer rounds available.
+- **Rules and counterplay:** The benefit is handling only; magazine size is reduced when the action is used; the recoil pattern is fixed and learnable; opponents can exploit reload windows.
+- **Visual identity:** A heavy rifle with a large descending magazine gauge and a squared receiver.
+- **Prototype values:** Damage, recoil curve, magazine reduction, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 089 — UNDERSTUDY
+- **Internal ID:** UNDERSTUDY
+- **Category:** Decoy Tool
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Creating a brief visual distraction during a rotation.
+- **Core mechanic: Stand-In**
+  
+  Deploys a stationary holographic teammate silhouette that copies the user's current stance and facing direction. It does not move, fire, or imitate audio.
+- **Weapon Action: Take the Stage**
+  
+  Switch the decoy to a different preset stance and facing direction, allowing a quick change in the visual clue it presents.
+- **Rules and counterplay:** The decoy is visibly artificial at close range; it cannot deal damage or interact; only one can exist; it is destructible and short-lived.
+- **Visual identity:** A slim projector with a folding theatre-mask lens and a pale hologram.
+- **Prototype values:** Lifetime, placement range, stance options, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 090 — QUICK FIX
+- **Internal ID:** QUICK-FIX
+- **Category:** Service Tool
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Restoring a damaged friendly deployable so a team can keep its setup.
+- **Core mechanic: Patch Job**
+  
+  Repair one compatible friendly deployable at close range over a short channel. The repair restores only a limited portion of its original durability.
+- **Weapon Action: Temporary Support**
+  
+  Apply a brief brace that prevents the deployable from being displaced, but does not reduce incoming damage.
+- **Rules and counterplay:** The user must remain nearby and can be interrupted; repair has a strict cap; it cannot repair player health or enemy equipment; the tool has limited charges.
+- **Visual identity:** A compact repair tool with a folding clamp and a visible service meter.
+- **Prototype values:** Compatible object list, repair amount, channel time, brace duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 091 — HEADCOUNT
+- **Internal ID:** HEADCOUNT
+- **Category:** Precision Repeater
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Precision damage with a clear reward for changing targets rather than tunnel vision.
+- **Core mechanic: Roll Call**
+  
+  Consecutive hits on different opponents build a small handling bonus. Hitting the same opponent twice in a row resets the sequence.
+- **Weapon Action: Present**
+  
+  The next hit briefly places a visible confirmation marker on the target's screen, indicating that the weapon has registered the hit.
+- **Rules and counterplay:** The bonus affects handling only; the sequence is capped; the marker does not reveal position through walls; the weapon remains aim-dependent.
+- **Visual identity:** A precision rifle with a numbered rotating target counter and a clean confirmation light.
+- **Prototype values:** Damage, sequence length, handling bonus, marker duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 092 — LATE FEE
+- **Internal ID:** LATE-FEE
+- **Category:** Pump Shotgun
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Close-range damage that rewards patient timing rather than rapid follow-up.
+- **Core mechanic: Payment Due**
+  
+  The shotgun deals consistent damage. If the player waits until the pump indicator fully settles before firing again, the next shot has a tighter spread.
+- **Weapon Action: Grace Period**
+  
+  Hold the next pump cycle open briefly, allowing the player to choose when to finish cycling and fire.
+- **Rules and counterplay:** The spread benefit is modest; the indicator is visible; firing early forfeits the benefit; the weapon's slow cycle creates a clear punish window.
+- **Visual identity:** A pump shotgun with a receipt-like cycle indicator and a chunky sliding fore-end.
+- **Prototype values:** Damage, spread, pump duration, grace window, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 093 — PIN DROP
+- **Internal ID:** PIN-DROP
+- **Category:** Position Marker
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Giving teammates a precise shared destination for a coordinated push.
+- **Core mechanic: Mark the Spot**
+  
+  Place a small pin on a visible surface. Friendly players receive a simple direction indicator toward it while it remains active.
+- **Weapon Action: Pull the Pin**
+  
+  Recall the marker to the user's current position and set a new destination without waiting for the original lifetime to expire.
+- **Rules and counterplay:** The marker gives no teleport or speed boost; it is visible and destructible; the indicator is approximate and expires; it does not reveal opponents.
+- **Visual identity:** A small survey pin launcher with a bright pinhead and folding rangefinder.
+- **Prototype values:** Placement range, lifetime, indicator range, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 094 — SAFE BET
+- **Internal ID:** SAFE-BET
+- **Category:** Semi-Automatic Hand Cannon
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** Consistent mid-range damage with a predictable risk-reward shot.
+- **Core mechanic: House Edge**
+  
+  Every third shot is a lower-damage, faster projectile. The pattern is fixed and clearly shown, letting players use it to pressure moving targets without increasing total damage output.
+- **Weapon Action: Double or Nothing**
+  
+  Skip the next fast shot and fire a slower, heavier round with a longer recovery.
+- **Rules and counterplay:** The pattern is visible; the heavier shot has no guaranteed critical effect; the action is a trade-off, not a damage multiplier; opponents can read the cycle.
+- **Visual identity:** A clean hand cannon with a three-position cylinder display and a small card-suit indicator.
+- **Prototype values:** Damage values, projectile speeds, shot interval, recovery, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 095 — BACK CHAT
+- **Internal ID:** BACK-CHAT
+- **Category:** Defensive Relay
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Giving a team a short warning when opponents pressure a defended position.
+- **Core mechanic: Talk Back**
+  
+  Place a relay on a wall. When an opponent damages the relay, it emits a brief directional warning for the owner and nearby teammates.
+- **Weapon Action: Repeat That**
+  
+  Trigger one final warning pulse manually, then the relay shuts down.
+- **Rules and counterplay:** The relay does not damage or reveal opponents; it only reports the direction of the hit; it is visible and destructible; the warning is brief.
+- **Visual identity:** A wall-mounted intercom puck with a small speaker grille and red indicator.
+- **Prototype values:** Relay health, warning radius, lifetime, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 096 — ALL CLEAR
+- **Internal ID:** ALL-CLEAR
+- **Category:** Utility Cleaner
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Removing temporary arena clutter and opening a route for teammates.
+- **Core mechanic: Sweep Through**
+  
+  Emits a short-range pulse that disables eligible temporary utility objects in a narrow cone. It does not affect players, map geometry, or permanent objectives.
+- **Weapon Action: Leave Nothing**
+  
+  Expand the next pulse into a wider but shorter-range sweep.
+- **Rules and counterplay:** The pulse has limited charges and a clear warning; it cannot destroy weapons or permanent map objects; affected objects are clearly identified in the UI; opponents can place objects outside the cone.
+- **Visual identity:** A compact industrial sweeper with a rotating brush head and a clean status lamp.
+- **Prototype values:** Compatible object list, cone width, range, charge count, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 097 — BIG PICTURE
+- **Internal ID:** BIG-PICTURE
+- **Category:** Heavy Burst Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Mid-range damage with a deliberate wide-to-tight shot sequence.
+- **Core mechanic: Frame by Frame**
+  
+  Fires a three-shot sequence whose spread narrows with each shot. The first shot covers a broad area; the final shot is the most accurate.
+- **Weapon Action: Zoom Out**
+  
+  Reverse the next sequence, starting with the tightest shot and widening on subsequent shots.
+- **Rules and counterplay:** The pattern is fixed and visible; the action changes spread order, not damage; the sequence has a recovery window; opponents can reposition between shots.
+- **Visual identity:** A boxy rifle with a three-frame display and a sliding lens assembly.
+- **Prototype values:** Damage, spread stages, shot intervals, recovery, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 098 — SMALL TALK
+- **Internal ID:** SMALL-TALK
+- **Category:** Compact SMG
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Role:** Close-range damage with a short, controlled firing window.
+- **Core mechanic: Conversation Starter**
+  
+  The first part of a continuous burst has a tight spread. As firing continues, spread gradually increases, then resets after a short release.
+- **Weapon Action: Change the Subject**
+  
+  Instantly reset the spread but discard a small amount of ammunition from the magazine.
+- **Rules and counterplay:** The spread curve is predictable; the reset costs ammunition; damage does not increase over time; opponents can disengage during sustained fire.
+- **Visual identity:** A tiny SMG with a folding stock and a small conversation-bubble heat indicator.
+- **Prototype values:** Fire rate, spread curve, reset cost, magazine, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 099 — ON THE HOUSE
+- **Internal ID:** ON-THE-HOUSE
+- **Category:** Team Mobility Utility
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Creating a one-use launch opportunity for a teammate.
+- **Core mechanic: Complimentary Ride**
+  
+  Place a visible launch pad that gives the first friendly player who steps on it a controlled upward-and-forward boost. Opponents can also use it.
+- **Weapon Action: No Charge**
+  
+  Remove the active pad early and return it to the user's inventory after a short cooldown.
+- **Rules and counterplay:** One pad can exist; it is visible and destructible; it can be used by either team; the boost direction is fixed and shown before use.
+- **Visual identity:** A small folding hospitality mat with a bright arrow and spring-loaded base.
+- **Prototype values:** Pad lifetime, boost strength, launch angle, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 100 — OVERBOOKED
+- **Internal ID:** OVERBOOKED
+- **Category:** Automatic Shotgun
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Close-range damage with a riskier, overfilled firing mode.
+- **Core mechanic: No Vacancies**
+  
+  The shotgun fires a controlled automatic sequence. The final shot in a continuous sequence has wider spread and increased recoil, making prolonged fire less reliable.
+- **Weapon Action: Squeeze In**
+  
+  Load one additional shell beyond the normal magazine capacity, but the next reload takes longer.
+- **Rules and counterplay:** The extra shell is not bonus damage; the action creates a clear reload penalty; spread increases predictably; the weapon is ineffective at long range.
+- **Visual identity:** A bulky shotgun with an over-capacity shell window and a red FULL sign.
+- **Prototype values:** Damage, fire rate, magazine, extra-shell cost, spread, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 101 — ROLL CALL
+- **Internal ID:** ROLL-CALL
+- **Category:** Team Rally Tool
+- **Rarity:** Altered
+- **Slot:** Secondary
+- **Role:** Helping a scattered team synchronise a push.
+- **Core mechanic: Present and Accounted For**
+  
+  Send a short-range team signal. Friendly players who acknowledge it appear on a simple local roster, showing who is ready to move.
+- **Weapon Action: Dismissed**
+  
+  End the roster and send a clear visual go-signal to acknowledged teammates.
+- **Rules and counterplay:** It gives no enemy information, movement boost, or invulnerability; acknowledgement is optional; the signal has limited range and a cooldown.
+- **Visual identity:** A compact field clipboard with a row of illuminated team slots.
+- **Prototype values:** Signal range, roster duration, acknowledgement window, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 102 — HOUSE RULES
+- **Internal ID:** HOUSE-RULES
+- **Category:** Precision Carbine
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Reliable damage when defending a clearly chosen angle.
+- **Core mechanic: Stay in Your Lane**
+  
+  Shots fired while the player remains inside a small, visible stance zone around their starting point have reduced recoil. Leaving the zone resets the benefit.
+- **Weapon Action: New Rule**
+  
+  Move the stance zone to the player's current position, beginning a new setup window.
+- **Rules and counterplay:** The zone is visible to the user; the benefit affects recoil only; the user must remain stationary and can be flanked; the action has a setup delay.
+- **Visual identity:** A compact carbine with a folding floor marker and a simple rulebook-style selector.
+- **Prototype values:** Zone radius, setup time, recoil reduction, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 103 — NO SHOW
+- **Internal ID:** NO-SHOW
+- **Category:** Heavy Marksman Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Precision damage with a delayed firing commitment.
+- **Core mechanic: Missed Appointment**
+  
+  After aiming for a short uninterrupted period, the rifle prepares one accurate shot with a distinct chamber sound. Moving or firing early cancels the preparation.
+- **Weapon Action: Reschedule**
+  
+  Preserve the prepared shot for a brief period while switching to the secondary weapon; switching back releases the preparation state but does not fire automatically.
+- **Rules and counterplay:** The charge-up is audible and visible; the shot still requires aim; the stored state expires; the user is vulnerable while preparing.
+- **Visual identity:** A long rifle with a clock-face chamber and a sliding appointment marker.
+- **Prototype values:** Preparation time, damage, storage duration, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 104 — NIGHT OWL
+- **Internal ID:** NIGHT-OWL
+- **Category:** Night Vision Utility
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Improving visibility through smoke, shadows, and visual clutter without revealing hidden opponents.
+- **Core mechanic: Late Shift**
+  
+  Activate a short-duration visor overlay that increases contrast on visible surfaces and friendly markers. It does not highlight enemies or see through walls.
+- **Weapon Action: Dim the Screen**
+  
+  Narrow the overlay to a small central area for a shorter duration, preserving peripheral normal vision.
+- **Rules and counterplay:** The overlay is personal and temporary; it does not reveal opponents; it can be disrupted by bright effects; it has a clear battery meter and cooldown.
+- **Visual identity:** A fold-out visor tool with twin green lenses and a compact battery display.
+- **Prototype values:** Duration, contrast level, central area size, disruption time, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 105 — DOUBLE SHIFT
+- **Internal ID:** DOUBLE-SHIFT
+- **Category:** Dual-Feed Rifle
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Role:** Mid-range damage with a deliberate choice between two ammunition feeds.
+- **Core mechanic: Two Jobs**
+  
+  The rifle alternates between two feeds: a steady, accurate round and a faster, lighter round with reduced damage. The order is fixed and visible.
+- **Weapon Action: Swap Shifts**
+  
+  Skip the next feed and choose which ammunition type fires next, then return to the standard sequence.
+- **Rules and counterplay:** Neither feed is strictly stronger; the pattern is visible; the action only changes order; the rifle requires the player to manage the firing rhythm.
+- **Visual identity:** A clean rifle with two visible feed tubes and a rotating shift selector.
+- **Prototype values:** Damage, projectile speed, feed interval, magazine, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 106 — OPEN TAB
+- **Internal ID:** OPEN-TAB
+- **Category:** Burst Sidearm
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Close-range damage through a controlled sequence of delayed follow-up shots.
+- **Core mechanic: Put It on My Tab**
+  
+  Each trigger pull fires one normal projectile and queues a second, weaker shot after a fixed delay. The player can continue moving while the second shot resolves.
+- **Weapon Action: Settle Up**
+  
+  Cancel the queued shot and immediately begin reloading a small amount of ammunition.
+- **Rules and counterplay:** The follow-up is weaker and visibly indicated; it travels along the original firing direction; cancelling it gives up damage; opponents can reposition after the first shot.
+- **Visual identity:** A compact sidearm with a two-part chamber and a small running-total display.
+- **Prototype values:** Damage split, delay, magazine, reload amount, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 107 — DEAD END
+- **Internal ID:** DEAD-END
+- **Category:** Route Blocker
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Temporarily closing a narrow passage to force a different rotation.
+- **Core mechanic: Roadblock**
+  
+  Deploys a visible, waist-high barrier across a narrow opening. It blocks movement but can be vaulted by players who commit to a short climb.
+- **Weapon Action: Open Passage**
+  
+  Fold the barrier flat early, reopening the route for either team.
+- **Rules and counterplay:** The barrier is destructible and temporary; it does not block projectiles; players can vault it or take another route; only suitable openings accept it.
+- **Visual identity:** A folding road barrier with reflective stripes and a large red stop panel.
+- **Prototype values:** Barrier health, lifetime, vault time, placement restrictions, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 108 — BAIL OUT
+- **Internal ID:** BAIL-OUT
+- **Category:** Emergency Mobility Tool
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** A single, deliberate escape option when a player commits too far into a fight.
+- **Core mechanic: Exit Strategy**
+  
+  Deploys a small emergency tether behind the player. After a brief visible delay, it pulls the user a short distance back toward the point where it was deployed.
+- **Weapon Action: Pull the Cord**
+  
+  Trigger the return early, shortening the delay but reducing the travel distance.
+- **Rules and counterplay:** The tether is visible; the pull can be interrupted; it cannot pass through solid geometry; it does not grant invulnerability or restore health.
+- **Visual identity:** A compact safety harness launcher with a bright cord spool and a countdown light.
+- **Prototype values:** Tether lifetime, pull distance, delay, interruption rules, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 109 — SIDE DISH
+- **Internal ID:** SIDE-DISH
+- **Category:** Compact Launcher
+- **Rarity:** Altered
+- **Slot:** Primary
+- **Role:** Mid-range damage with a secondary projectile that changes the main shot's path.
+- **Core mechanic: Comes With It**
+  
+  Fires a main projectile followed by a smaller companion projectile at a fixed offset. The two paths remain separate and can hit different opponents.
+- **Weapon Action: Swap Sides**
+  
+  Reverse the companion projectile's offset for the next shot, allowing the player to choose which side of cover to pressure.
+- **Rules and counterplay:** Both paths are visible; the companion deals reduced damage; the action changes direction only; the weapon does not bend shots around solid geometry.
+- **Visual identity:** A compact launcher with twin offset barrels and a rotating side selector.
+- **Prototype values:** Main and companion damage, offset, projectile speed, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
+### Weapon 110 — CLEAN SLATE
+- **Internal ID:** CLEAN-SLATE
+- **Category:** Status Utility
+- **Rarity:** Evolved
+- **Slot:** Secondary
+- **Role:** Clearing a limited set of temporary movement or information effects from the user.
+- **Core mechanic: Start Fresh**
+  
+  Activate a short self-pulse that removes one eligible temporary status effect, such as a slow or a brief reveal marker. It does not restore health, ammunition, or ability charges.
+- **Weapon Action: Wipe Down**
+  
+  Expand the pulse to a nearby friendly teammate, but consume the tool's full charge and require close range.
+- **Rules and counterplay:** Only specifically tagged removable effects are cleared; the action has a visible wind-up; it cannot remove damage or permanent match states; it has a long cooldown.
+- **Visual identity:** A clean, white handheld scanner with a sweeping blue status bar.
+- **Prototype values:** Eligible effect list, range, wind-up, charge count, and cooldown are TBD.
+- **Status:** Proposed concept. Prototype values are TBD.
+
 ## 5. Remaining Roster
 
-Weapons 031–167 are TBD.
+Weapons 111–167 are TBD.
 
 Do not fill the remaining roster with generic category variants just to reach 167. Each new weapon should be designed around a memorable central mechanic and a clear gameplay role.
 
