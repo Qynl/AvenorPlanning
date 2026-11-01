@@ -358,11 +358,11 @@ Implementation requirements:
 1. Final weapon unlock policy, including whether any weapon access can ever be paid-exclusive.
 2. Final ability unlock schedule and ranked availability.
 3. Account XP curve, match XP values, reward cadence and milestone intervals for the uncapped level system.
-5. Weapon mastery level count, XP curve and reward milestones.
-6. Rank rating thresholds, placement count, rating model, seasonal reset policy, ranked-population threshold for the AVENOR top-20 reward, and tie-break rules. (Rank names, tier divisions and the AVENOR apex structure are now defined.)
-7. Season pass duration, tier count, pricing and rewards.
-8. AVENOR Credits earning rate and shop pricing.
-9. Whether cosmetic cases remain in the economy, and their odds/duplicate rules if so.
+4. Weapon mastery level count, XP curve and reward milestones.
+5. Rank rating thresholds, placement count, rating model, seasonal reset policy, ranked-population threshold for the AVENOR top-20 reward, and tie-break rules. (Rank names, tier divisions and the AVENOR apex structure are now defined.)
+6. Season pass duration, tier count, pricing and rewards.
+7. AVENOR Credits earning rate and shop pricing.
+8. Whether cosmetic cases remain in the economy, and their odds/duplicate rules if so.
 
 ## 15. Recommended Implementation Order
 
