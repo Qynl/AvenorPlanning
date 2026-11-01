@@ -390,3 +390,200 @@ Map 01 is not ready for final approval until:
 - Movement and combat flow feel good at real match speed.
 - Performance and visual readability are acceptable across target devices.
 
+
+
+## 16. Additional Map Concepts — Maps 02–08
+
+> **Status: Initial concepts.** These seven maps expand the proposed roster to eight maps including Map 01 — FOUNDRY. Their identities and gameplay directions are planning decisions; names, exact layouts, mode pools, dimensions, and balance remain subject to greyboxing and playtesting. Each map must earn its place through a distinct gameplay experience, not merely a different theme.
+
+---
+
+### Map 02 — BREAKWATER
+
+**Setting:** A storm-battered offshore shipping terminal.
+
+**Identity:** A coastal freight complex built across loading platforms, container yards, cranes, and a large dockside vessel.
+
+**Gameplay character:** Open sightlines broken up by dense, layered cover. The map should reward route planning and controlled rotations between exposed dock areas and protected cargo spaces.
+
+**Layout direction:**
+- A broad central container yard with several readable paths through it.
+- A dockside vessel that creates a distinct enclosed combat space.
+- An elevated crane-maintenance route, accessible from predictable entrances.
+- A lower service route near the waterline, slower but more protected.
+- Open loading lanes that create deliberate long-range opportunities without letting one angle dominate the whole map.
+
+**Size:** Medium to Large.
+
+**Initial mode targets:** TEAM DEATHMATCH, HARDPOINT, CAPTURE THE FLAG, FREE FOR ALL.
+
+**Signature landmark:** A huge cargo ship at the terminal, visible from much of the arena.
+
+**Risks to watch:** Container stacks creating confusing sightlines, crane positions becoming too dominant, and water or dock edges creating frustrating movement restrictions. Water should be visual or carefully bounded, not a source of unpredictable physics.
+
+---
+
+### Map 03 — SUNSPIRE
+
+**Setting:** An ancient desert citadel adapted into a high-tech energy research site.
+
+**Identity:** A sunlit fortress of stone courtyards, modern installations, narrow passages, and layered terraces.
+
+**Gameplay character:** A more deliberate, vertical arena where elevation and route commitment matter. Unlike FOUNDRY's industrial centre, SUNSPIRE should feel open-air, warm, and architectural.
+
+**Layout direction:**
+- A large central courtyard with several entrances and substantial cover.
+- Two elevated terraces with separate access routes.
+- Tight interior passages that connect outer courtyards.
+- A lower route through the foundations, offering safer but slower rotations.
+- Carefully limited long sightlines across open courtyards.
+
+**Size:** Medium.
+
+**Initial mode targets:** DUEL, DUOS, HARDPOINT, AVENOR ORIGIN.
+
+**Signature landmark:** A tall sunspire tower rising above the central courtyard. It is a navigation landmark, not a freely accessible sniper nest.
+
+**Risks to watch:** Upper levels controlling too much of the map, narrow passages becoming unavoidable chokepoints, and bright lighting reducing opponent visibility. Every elevated position needs a readable counter-route.
+
+---
+
+### Map 04 — NEON DISTRICT
+
+**Setting:** A dense futuristic city block at night.
+
+**Identity:** A compact urban arena woven through a transit plaza, storefronts, an arcade, and connected building interiors.
+
+**Gameplay character:** Fast, close-to-medium-range engagements with many short rotations. Navigation should feel intuitive despite the density. This is the roster's close-quarters urban map.
+
+**Layout direction:**
+- A recognisable central transit plaza.
+- Interconnected ground-floor interiors with multiple exits.
+- A raised pedestrian walkway that creates a useful but exposed rotation.
+- A service alley network for flanks.
+- Limited rooftop access, with no rooftop route overlooking every major area.
+
+**Size:** Compact to Medium.
+
+**Initial mode targets:** DUEL, DUOS, TEAM DEATHMATCH, HARDPOINT.
+
+**Signature landmark:** A bright transit hub and its large suspended route display.
+
+**Risks to watch:** Too many doorways creating unreadable fights, neon effects obscuring players, interiors becoming repetitive, and flank routes allowing instant access to spawn areas. Keep signage and lighting restrained enough for competitive clarity.
+
+---
+
+### Map 05 — FROSTLINE
+
+**Setting:** A remote alpine communications and climate-monitoring station.
+
+**Identity:** A cold-weather research outpost spread between a communications tower, snow-covered service buildings, and a partially enclosed maintenance hangar.
+
+**Gameplay character:** A more open, rotation-focused map with carefully managed long sightlines. It should contrast with NEON DISTRICT by offering breathing room and stronger medium-to-long-range engagements.
+
+**Layout direction:**
+- A central communications compound with several approach routes.
+- A hangar that provides a protected close-range combat space.
+- A winding exterior route with intermittent cover.
+- A raised observation structure that is exposed and has limited sightline coverage.
+- Snowbanks and facility structures used as clear, reliable cover.
+
+**Size:** Medium to Large.
+
+**Initial mode targets:** TEAM DEATHMATCH, FREE FOR ALL, CAPTURE THE FLAG, HARDPOINT.
+
+**Signature landmark:** A tall communications array visible across the snowfield.
+
+**Risks to watch:** White-on-white visibility problems, long-range positions controlling too much space, and snow terrain creating unclear collision. Snow effects must not obscure players or projectiles.
+
+---
+
+### Map 06 — OVERGROWTH
+
+**Setting:** A futuristic botanical research dome reclaimed by uncontrolled plant growth.
+
+**Identity:** A once-pristine scientific greenhouse where glass architecture, research infrastructure, and dense vegetation now form an unusual arena.
+
+**Gameplay character:** A route-reading and close-to-medium-range map. Its vegetation creates visual identity, but must never become unreliable camouflage or conceal opponents unfairly.
+
+**Layout direction:**
+- A central conservatory with a large, recognisable tree installation.
+- Several connected greenhouse wings with different shapes and sightline profiles.
+- A maintenance ring running around the outside of the main dome.
+- A lower irrigation and service route that offers a slower flank.
+- Carefully placed clearings that create readable engagement spaces.
+
+**Size:** Medium.
+
+**Initial mode targets:** DUOS, TEAM DEATHMATCH, HARDPOINT, AVENOR ORIGIN.
+
+**Signature landmark:** A monumental tree growing through the centre of the glass dome.
+
+**Risks to watch:** Dense foliage hiding opponents, transparent glass producing visual clutter, and similar-looking greenhouse wings causing navigation problems. Foliage must have predictable collision and visibility rules.
+
+---
+
+### Map 07 — BLACKSITE
+
+**Setting:** A remote underground containment and testing complex.
+
+**Identity:** A controlled-access facility built around a sealed central chamber, with heavy blast doors, observation rooms, and service tunnels.
+
+**Gameplay character:** A tight, structured arena built around room-to-room transitions and controlled chokepoints. It should be tense and readable, not a maze.
+
+**Layout direction:**
+- A central containment chamber with several distinct entrances.
+- An observation gallery overlooking only part of the central space.
+- A service loop that connects the outer rooms.
+- A limited number of short connector corridors, each with clear exits.
+- No dead-end room without a meaningful reason to enter it.
+
+**Size:** Compact to Medium.
+
+**Initial mode targets:** DUEL, DUOS, TEAM DEATHMATCH, HARDPOINT.
+
+**Signature landmark:** The sealed containment chamber, identifiable through its architecture and lighting.
+
+**Risks to watch:** Corridor-heavy gameplay, spawn trapping, repetitive room shapes, and doors interrupting combat flow. Doors should not randomly close during fights or create one-sided access advantages.
+
+---
+
+### Map 08 — SKYLINE
+
+**Setting:** A futuristic high-rise business and residential complex connected by skybridges.
+
+**Identity:** A multi-building rooftop arena where open terraces, interior floors, and elevated connections create a strong sense of height and movement.
+
+**Gameplay character:** The roster's most vertical map. Its challenge is to make elevation exciting without making opponents difficult to track or allowing rooftop control to decide every engagement.
+
+**Layout direction:**
+- Three distinct building sections connected by broad, readable skybridges.
+- Interior stair and lift-core spaces connecting different levels.
+- Rooftop terraces with limited, deliberate sightlines.
+- A lower connecting route through an enclosed service level.
+- Multiple safe ways to move between buildings, with exposed bridges offering faster rotations.
+
+**Size:** Medium.
+
+**Initial mode targets:** DUOS, TEAM DEATHMATCH, HARDPOINT, AVENOR ORIGIN.
+
+**Signature landmark:** A central skybridge linking the tallest building sections.
+
+**Risks to watch:** Falling becoming a constant frustration, rooftop positions dominating the map, bridge crossings becoming unavoidable kill zones, and vertical navigation confusing players. Falls should have clear boundaries and predictable consequences; essential routes must not depend on precision jumps.
+
+---
+
+## 17. Proposed Map Roster Overview
+
+| Map | Size | Distinct gameplay identity | Initial mode candidates |
+|---|---|---|---|
+| 01 — FOUNDRY | Medium | Central industrial landmark, versatile baseline | DUEL, DUOS, TDM, HARDPOINT, possible ORIGIN |
+| 02 — BREAKWATER | Medium–Large | Container-yard cover and exposed dock lanes | TDM, HARDPOINT, CTF, FFA |
+| 03 — SUNSPIRE | Medium | Courtyards, terraces, deliberate verticality | DUEL, DUOS, HARDPOINT, possible ORIGIN |
+| 04 — NEON DISTRICT | Compact–Medium | Dense urban close-range routes | DUEL, DUOS, TDM, HARDPOINT |
+| 05 — FROSTLINE | Medium–Large | Open rotations and controlled long sightlines | TDM, FFA, CTF, HARDPOINT |
+| 06 — OVERGROWTH | Medium | Greenhouse wings and readable close-to-mid fights | DUOS, TDM, HARDPOINT, possible ORIGIN |
+| 07 — BLACKSITE | Compact–Medium | Structured room-to-room combat | DUEL, DUOS, TDM, HARDPOINT |
+| 08 — SKYLINE | Medium | Multi-level buildings and skybridge rotations | DUOS, TDM, HARDPOINT, possible ORIGIN |
+
+**Roster rule:** These mode lists are test candidates, not automatic compatibility promises. A map should be excluded from a mode if its greybox fails that mode's fairness, pacing, or spawn requirements. The eight concepts should also be reviewed together to ensure the final map pool has meaningful variety in scale, sightlines, verticality, and match rhythm.
