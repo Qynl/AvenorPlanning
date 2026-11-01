@@ -11,7 +11,7 @@ The core loop should be:
 1. Read the arena and opponent.
 2. Move, position, and choose an engagement.
 3. Aim and use the weapon's normal firing behaviour.
-4. Use a weapon action, ability, equipment, or map feature when it creates a meaningful advantage.
+4. Use a weapon action, ability, or map feature when it creates a meaningful advantage.
 5. Win the engagement, reposition, and make the next decision.
 
 ### Core design targets
@@ -56,7 +56,7 @@ Movement should feel quick and controllable without making aiming or tracking op
 
 - Ground acceleration and stopping should feel predictable.
 - Jump timing and air control must be consistent.
-- Movement abilities supplied by weapons or equipment must obey their own clear limits.
+- Movement effects supplied by weapons must obey their own clear limits.
 - No movement action should make a player difficult to see or hit without a readable reason.
 - Movement speed should not vary invisibly based on cosmetic items.
 - Map geometry must support movement without requiring unintended exploits.
@@ -114,13 +114,12 @@ AVENOR may use both instant-hit and simulated projectile weapons, depending on t
 
 ## 6. Weapon Slots and Handling
 
-The loadout has five distinct slots:
+The loadout has four distinct slots:
 
 1. **Primary:** Main damage-dealing weapons.
 2. **Secondary:** Utility, movement, information, deception, arena-control tools, and secondary damage options.
 3. **Melee:** Dedicated close-combat weapon.
 4. **Player Ability:** Character-level ability, separate from weapons.
-5. **Equipment:** Tactical item, separate from weapons and abilities.
 
 The detailed weapon list and individual mechanics live in `AVENOR_Weapons.md`.
 
@@ -129,7 +128,7 @@ The detailed weapon list and individual mechanics live in `AVENOR_Weapons.md`.
 - Players spawn with a complete usable loadout.
 - Players can switch between Primary and Secondary.
 - Melee is selected as its own slot.
-- Player Ability and Equipment each have their own input and cooldown/charge rules.
+- Player Ability has its own input and cooldown rules.
 - Weapon Action is a separate universal input shared by weapons that have an action.
 - Switching weapons should be responsive but not cancel every possible commitment for free.
 - Reloading, switching, firing, and weapon actions must have explicit interruption rules.
@@ -143,21 +142,19 @@ The detailed weapon list and individual mechanics live in `AVENOR_Weapons.md`.
 | Right mouse | Aim / zoom, where supported |
 | R | Reload |
 | X | Weapon Action |
-| Q | Player Ability |
-| G | Equipment |
+| F | Player Ability |
 | Number keys / scroll | Switch weapon slots |
 
 All controls should be remappable. Controller and mobile layouts must expose the same essential actions, with adjustable mobile button size and placement.
 
 **TBD:** Whether melee has a dedicated key, exact switching inputs, whether aim is available on every weapon, reload interruption rules, and ammunition model.
 
-## 7. Weapon Actions, Abilities, and Equipment
+## 7. Weapon Actions and Player Abilities
 
 These are three separate systems and must not be merged:
 
 - **Weapon Action:** Belongs to an individual weapon and is documented in `AVENOR_Weapons.md`.
-- **Player Ability:** Belongs to the player's loadout and is documented in a future `AVENOR_Abilities.md`.
-- **Equipment:** A tactical item in the loadout and is also documented in `AVENOR_Abilities.md` or its own section.
+- **Player Ability:** Belongs to the player's loadout and is documented in `AVENOR_Abilities.md`.
 
 ### Shared rules
 
@@ -165,10 +162,10 @@ These are three separate systems and must not be merged:
 - Cooldowns, charges, durations, and limits must be visible to the user.
 - The server validates activation and availability.
 - Effects need counterplay where applicable.
-- Abilities and equipment must not make weapon skill irrelevant.
+- Abilities must not make weapon skill irrelevant.
 - Weapon actions should reinforce the identity of their weapon rather than function as generic upgrades.
 
-**TBD:** Ability and equipment inventories, loadout restrictions, cooldown model, replenishment, and whether equipment is consumed on use.
+**TBD:** Ability inventory, loadout restrictions, cooldown model, and availability rules.
 
 ## 8. Pickups and Map Interaction
 
@@ -178,7 +175,7 @@ These are three separate systems and must not be merged:
 - The player must be able to identify the pickup before taking it.
 - Pickups have consistent interaction rules and clear availability feedback.
 - Pickup respawn timing and weapon availability are controlled by the match rules.
-- A pickup must not silently replace the player's Melee, Ability, or Equipment slot.
+- A pickup must not silently replace the player's Melee or Ability slot.
 
 **TBD:** Whether pickups are fixed or randomized, whether players can drop weapons, pickup respawn timing, and whether a pickup can be rejected when both gun slots are occupied.
 
@@ -203,7 +200,7 @@ Respawn rules depend on the selected game mode.
 - The system should avoid repeatedly selecting the same unsafe spawn.
 - Spawn logic must be tested with real player counts and map layouts.
 
-**TBD:** Respawn delay, spawn selection algorithm, spectating permissions, spawn protection, and whether players retain ability/equipment charges after respawning.
+**TBD:** Respawn delay, spawn selection algorithm, spectating permissions, spawn protection, and whether players retain ability availability after respawning.
 
 ## 10. Match Flow
 
@@ -261,7 +258,7 @@ The in-match HUD should show only information that helps players make decisions.
 - Magazine and reserve ammunition, where applicable.
 - Weapon Action availability.
 - Player Ability availability.
-- Equipment availability or remaining charges.
+- Ability availability or cooldown.
 - Match timer and score/objective state.
 - Clear hit and elimination feedback.
 - Team information in team modes.
@@ -302,7 +299,6 @@ The first prototype should prove that the basic game is fun before the full rost
 8. A simple 1v1 match loop with countdown, score, round end, and rematch.
 9. Basic HUD and match feedback.
 10. Network tests with more than one player and different latency conditions.
-11. One equipment prototype with server-validated activation, charges, and cleanup.
 
 ### Prototype exit criteria
 
@@ -325,19 +321,17 @@ The following are intentionally proposed rather than locked:
 3. No crouch, slide, wall-run, or wall-climb in the initial movement baseline.
 4. Equal baseline health for all players.
 5. Server-authoritative combat and match outcomes.
-6. Separate Primary, Secondary, Melee, Ability, and Equipment slots.
+6. Separate Primary, Secondary, Melee, and Ability slots.
 7. Round-based modes and respawn modes use different elimination rules.
 8. First playable prototype focuses on 1v1.
 9. Build and test a small weapon selection before implementing the full 167.
 10. Exact numerical values remain open until playtesting.
-11. Equipment uses limited charges, with replenishment tied to respawn or round start, subject to item and mode rules.
 
 ## 16. Related Documents
 
 - `AVENOR_Main.md`: Overall game identity, social hub, progression, ranked, cosmetics, and high-level vision.
 - `AVENOR_Weapons.md`: Weapon design philosophy, controls, roster, actions, mastery, skins, and weapon balance principles.
 - `AVENOR_Abilities.md`: Player ability concepts and design rules.
-- `AVENOR_Equipment.md`: Equipment system rules, active roster, counterplay, and prototype priorities.
 - `AVENOR_GameModes.md`: Mode roster, match formats, draft scoring, timers, respawns, and overtime rules.
 - `AVENOR_Maps.md`: Map design standards, routes, sightlines, spawns, mode compatibility, interactions, and performance.
 - `AVENOR_Maps.md` (planned): Arena layouts, spawn design, pickups, and map mechanics.
