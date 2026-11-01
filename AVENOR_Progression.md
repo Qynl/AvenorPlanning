@@ -65,11 +65,15 @@ Exact XP values, caps, and level thresholds are **TBD / playtest**. Match length
 Account levels are a long-term progression display, not a measure of competitive skill.
 
 The level curve should:
+- Have **no maximum account level**. Players can continue leveling indefinitely.
 - Be quick during the first few levels so new players discover progression early.
-- Become gradually longer without turning into an extreme grind.
-- Have clearly displayed next-level progress and reward previews.
-- Avoid level resets between seasons.
-- Avoid granting damage, health, accuracy, cooldown, movement, or other combat-stat bonuses.
+- Require progressively more XP as the account level rises. Higher levels should take noticeably longer, while avoiding an unreasonable grind.
+- Have clearly displayed next-level progress and reward previews at every level.
+- Provide a reward at every level, with larger or more distinctive rewards at selected milestone levels.
+- Never reset account levels between seasons.
+- Never grant damage, health, accuracy, cooldown, movement, or other combat-stat bonuses.
+
+The exact XP curve, level reward cadence and milestone intervals remain **TBD / playtest**. The uncapped structure and progressively increasing XP requirement are approved design decisions.
 
 ### Level rewards
 
@@ -81,7 +85,7 @@ Possible account-level rewards:
 - Selected weapon or ability unlocks, if the final unlock policy retains progression-based access.
 - Milestone rewards at notable level intervals.
 
-The exact level count, XP curve, reward cadence and milestone levels are **TBD / playtest**. Avoid filler rewards that make levels feel meaningless.
+The account level count is uncapped. The exact XP curve, reward cadence and milestone levels are **TBD / playtest**. Avoid filler rewards that make levels feel meaningless.
 
 ## 4. Weapon Unlocks
 
@@ -352,7 +356,7 @@ Implementation requirements:
 
 1. Final weapon unlock policy, including whether any weapon access can ever be paid-exclusive.
 2. Final ability unlock schedule and ranked availability.
-3. Account level cap or uncapped level display.
+3. Exact account XP curve, reward cadence and milestone intervals for the uncapped level system.
 4. Account XP curve, match XP values and level reward cadence.
 5. Weapon mastery level count, XP curve and reward milestones.
 6. Rank rating thresholds, placement count, rating model, seasonal reset policy, ranked-population threshold for the AVENOR top-20 reward, and tie-break rules. (Rank names, tier divisions and the AVENOR apex structure are now defined.)
