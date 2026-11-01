@@ -127,10 +127,16 @@ Each loadout contains:
 
 ### Player abilities
 
-- Abilities are distinct from weapon actions.
+- Abilities are distinct from weapon actions and equipment.
+- Each player equips exactly one ability.
 - Abilities use cooldowns or another clearly defined availability system.
-- They should create tactical opportunities, movement options, information, protection, or other meaningful decisions.
-- They must have understandable effects and reasonable counterplay.
+- Abilities should create tactical opportunities, movement options, information, protection, deception, map interaction, or other meaningful decisions.
+- Every ability must have understandable effects and reasonable counterplay.
+- Abilities use the universal six-tier rarity system: Commonplace, Altered, Evolved, Ascendant, Extraordinary, and Singular.
+- Rarity communicates originality, uniqueness, complexity, presentation, or exclusivity. It does not automatically indicate combat strength.
+- Abilities have individual visual effects, animations, and sound cues that communicate their mechanics clearly.
+- Exact cooldowns, durations, ranges, charges, restrictions, and balance values remain **TBD** until detailed design and playtesting.
+- The approved ability concepts and their current rarity assignments are documented in **AVENOR_Abilities.md**.
 
 ### Equipment
 
@@ -190,6 +196,7 @@ The server is responsible for validating important competitive outcomes, includi
 - Cooldowns and ability use.
 - Projectile and relevant equipment outcomes.
 - Match rules, scoring, and results.
+- Ability-created objects and interactions that can affect player movement, map state, information, or match outcomes.
 
 The client may handle responsive presentation and input feedback, but it must not be trusted as the final authority for competitive outcomes.
 
@@ -276,7 +283,7 @@ Cosmetics must not provide gameplay advantages or obscure important visual infor
 
 ### Universal Rarity System
 
-Used for weapons, skins, effects, and other rarity-bearing content:
+Used for weapons, skins, effects, abilities, and other rarity-bearing content:
 
 1. Commonplace
 2. Altered
@@ -323,7 +330,6 @@ Controls must support the intended platforms. Keyboard and mouse, controller, an
 ## 18. Visual and Audio Direction
 
 ### Visuals
-
 - Clean, simple, low-to-mid-poly 3D models.
 - Strong, instantly readable weapon silhouettes.
 - Bright, readable materials and clear visual feedback.
@@ -354,7 +360,7 @@ The final sound identity and detailed audio rules are **TBD**.
 ## 20. Development Principles
 
 1. Distinct gameplay comes before quantity.
-2. Every weapon must have a clear identity and reason to exist.
+2. Every weapon and ability must have a clear identity and reason to exist.
 3. Movement should be expressive, responsive, and readable.
 4. Avoid filler mechanics and generic ability names.
 5. Keep the game readable and responsive.
@@ -368,8 +374,9 @@ The final sound identity and detailed audio rules are **TBD**.
 ## 21. Related Planning Documents
 
 - **AVENOR_Weapons.md** — weapon roster, slot classification, and individual weapon concepts.
+- **AVENOR_Abilities.md** — ability system rules, approved ability concepts, rarity assignments, and individual ability designs.
 - **AVENOR_Gameplay.md** — detailed proposed gameplay rules, movement, combat, match flow, HUD, and first playable prototype.
-- Future documents may define abilities, maps, technical architecture, progression, ranked systems, and the economy in greater detail.
+- Future documents may define maps, technical architecture, progression, ranked systems, and the economy in greater detail.
 
 ## 22. Remaining Open Decisions
 
@@ -377,7 +384,8 @@ The following areas still need detailed design or testing:
 - Exact movement values and the final advanced movement feature set.
 - Health value, damage model, regeneration, and elimination rules.
 - Weapon statistics, balance, and implementation priorities.
-- Ability and equipment rosters, cooldowns, and replenishment.
+- Ability cooldowns, durations, ranges, charges, restrictions, and implementation priorities.
+- Equipment roster, cooldowns, and replenishment.
 - Full mode list, player counts, scoring, and match rules.
 - Map roster, layouts, interactions, and pickup rules.
 - Respawn, spectating, overtime, and round-transition behavior.
