@@ -5,7 +5,7 @@
 ## 1. Ability System Rules
 
 - Each player equips exactly **one player ability**.
-- Player abilities are separate from weapon actions and equipment.
+- Player abilities are separate from weapon actions.
 - An ability must create a meaningful decision in a real match: movement, information, deception, defence, disruption, or team coordination.
 - Every ability needs a clear activation cue, readable outcome, counterplay, and a use case that works across multiple maps.
 - No ability exists solely for a visual gag, convenience, or interaction with a special map prop.
@@ -151,7 +151,7 @@
 
 #### 22. INVENTORY CHECK
 - **Role:** Tactical loadout intelligence.
-- **Concept:** Scan a small area and report which broad ability/equipment categories are represented among nearby opponents. It does not identify players or reveal their positions.
+- **Concept:** Scan a small area and report which broad ability categories are represented among nearby opponents. It does not identify players or reveal their positions.
 - **Why it earns a slot:** Helps a team make a tactical decision before committing, rather than acting as a wallhack.
 - **Counterplay:** Category-level information only, limited radius, no individual loadout reveal, and a clear scan cue.
 
@@ -354,7 +354,7 @@ These ideas were not retained as active abilities. Some could be revisited only 
 - **Weak cosmetic-only deception:** NICE TRY, GOOD QUESTION, LATE ARRIVAL, FRESH COAT, THAT'S NOT MINE, PUBLIC APOLOGY, STAND-IN, THIS IS A TEST, ONE MORE THING.
   - **Reason:** Visual novelty alone is not enough to justify the ability slot.
 - **Weak pickup and convenience effects:** PERSONAL ASSISTANT, FREE SAMPLE, OUT OF STOCK, WINDOW SHOPPING, ON THE HOUSE.
-  - **Reason:** Convenience or pickup manipulation lacks enough competitive depth and can interfere with the weapon/equipment economy.
+  - **Reason:** Convenience or pickup manipulation lacks enough competitive depth and can interfere with the weapon economy.
 - **Weak or frustrating control effects:** BAD TIMING, WRONG FLOOR, TERMS AND CONDITIONS, FLOOR IS LAVA, PLEASE HOLD, NO CUTTING, THE USHER, EVERYBODY OUT.
   - **Reason:** Too easy to become passive traps, forced movement, or arbitrary control that opponents cannot meaningfully answer.
 - **Redundant or too narrow information effects:** SMALL TALK, QUICK QUESTION, FLOOR PLAN, OPEN SECRET (old map-secret version), SAFETY INSPECTION, THE BUILDING INSPECTOR, WINDOW SHOPPING, STICKER PRICE.
@@ -364,7 +364,7 @@ These ideas were not retained as active abilities. Some could be revisited only 
 - **Redundant camera and room concepts:** SECOND SHIFT, BACK SEAT DRIVER duplicate camera variants, and static observation rooms.
   - **Reason:** Keep one strong remote reconnaissance concept rather than multiple variations.
 - **Other low-value concepts:** FINAL NOTICE, FLOOR SERVICE, UNDER THE TABLE, LOST IN TRANSIT, THE BUILDING INSPECTOR, THE FLOOR PLAN WAS WRONG, MIND THE GAP, GROUND FLOOR, FINAL NOTICE.
-  - **Reason:** Either better suited to equipment/map design, too situational, or not worth the complexity.
+  - **Reason:** Either better suited to map design, too situational, or not worth the complexity.
 
 ## 4. Similarity and balance watchlist
 
