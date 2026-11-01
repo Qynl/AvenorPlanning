@@ -220,42 +220,59 @@ Lock the barrel at maximum spin for a short period. During this window, the play
 - **Internal ID:** RETURN-TO-SENDER
 - **Category:** Returning Disc Launcher
 - **Rarity:** Altered (provisional)
-- **Role:** Mid-range area pressure and timing-based outplays.
-- **Core firing behaviour:** Fires a flat spinning disc that travels forward and then returns to its owner after reaching its travel limit. The returning path is part of the weapon's normal firing loop.
-- **Weapon Action: Early Return**
+- **Slot:** Primary
+- **Role:** Mid-range pressure, route prediction, and creative angle control.
+- **Core mechanic: Boomerang**
 
-Recall the active disc early, causing it to reverse direction immediately instead of completing its normal travel. This lets the player choose when to bring the disc back and can create a second angle of pressure.
+Fires a flat spinning disc that travels forward, reaches its maximum range, then curves back toward the player. Both the outbound and return paths can threaten opponents, but each opponent can be hit only once per throw.
+
+- **Weapon Action: Forwarding Address**
+
+While the disc is travelling outward, aim at a valid surface and press Weapon Action to designate a return point. The disc immediately turns toward that point, banks off it, and then returns to the player.
 
 **Rules and counterplay:**
-- The disc follows a readable, non-homing path.
-- It cannot pass through solid walls.
-- It can hit each opponent at most once per throw.
-- Opponents can avoid the outbound or returning path using movement and cover.
-- The player must consider the disc's travel and return timing rather than firing continuously without thought.
+- Only one return point can be designated per throw.
+- The point must be visible, within range, and on a valid surface.
+- The planned route is visibly indicated before the disc reaches the point.
+- The disc cannot travel through solid geometry.
+- Opponents can read the route and dodge, take cover, or move away from the return lane.
+- If no point is designated, the disc follows its normal return path.
 
-**Prototype values:** Damage, travel speed, maximum travel time, and action cooldown are TBD.
+**Visual identity:** A chunky industrial throwing disc with a distinctive spinning animation and a clear route indicator when its return path is changed.
 
-**Status:** Proposed concept. Not yet accepted.
+**Prototype values:** Damage, travel speed, maximum range, return-point range, and cooldown are TBD.
+
+**Status:** Accepted redesign concept. Prototype values are TBD.
 
 ### Weapon 009 — THE RENTAL
 - **Internal ID:** THE-RENTAL
-- **Category:** Special / Utility Firearm
+- **Category:** Utility Launcher
 - **Rarity:** Altered (provisional)
-- **Role:** Mid-range, geometry-focused combat.
-- **Core firing behaviour:** Fires projectiles that bounce from arena surfaces. Their paths are readable and predictable, rewarding players who anticipate movement and use the arena's geometry.
-- **Weapon Action: One More Time**
+- **Slot:** Primary
+- **Role:** Arena manipulation, creative movement, and team repositioning.
+- **Core mechanic: Temporary Lease**
 
-The next projectile gains one additional bounce before disappearing.
+Fires a compact puck that attaches to a valid surface and unfolds into a temporary spring panel. Players who touch the panel are launched in the direction it faces.
+
+The panel can be placed on floors, walls, and other suitable surfaces to create unexpected routes, quick escapes, or new ways to reach elevated areas.
+
+- **Weapon Action: Change of Address**
+
+While a panel is active, press Weapon Action to rotate its launch direction by 90 degrees. The new direction is shown clearly, allowing the player to alter an upcoming launch rather than simply placing another panel.
 
 **Rules and counterplay:**
-- Bounces are visually readable.
-- The projectiles do not home in on opponents.
-- The weapon is more effective in enclosed spaces and less reliable in open areas.
-- Opponents can reposition or use cover to avoid predicted paths.
+- Only one panel can be active at a time.
+- Panels expire after a short duration or after a limited number of launches.
+- Any player can use an active panel, including opponents.
+- The panel is visible and can be destroyed.
+- The direction change has a clear visual warning.
+- The launcher has modest direct-hit impact, but its main value comes from creating movement opportunities.
 
-**Prototype values:** Damage, projectile speed, magazine, bounce limits, and cooldown are TBD.
+**Visual identity:** A sturdy construction-style launcher with a bright folding panel, mechanical hinges, and a spring-loaded deployment animation.
 
-**Status:** Proposed concept. Not yet accepted.
+**Prototype values:** Direct-hit damage, panel lifetime, launch strength, launch count, placement range, and cooldown are TBD.
+
+**Status:** Accepted redesign concept. Prototype values are TBD.
 
 ### Weapon 010 — BAD HABIT
 - **Internal ID:** BAD-HABIT
