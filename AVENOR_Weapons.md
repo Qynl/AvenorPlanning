@@ -37,7 +37,6 @@ A loadout contains:
 - Two guns
 - One close-combat weapon
 - One player ability
-- One equipment item
 
 Weapon-specific actions share one universal **Weapon Action** input across the entire roster.
 
@@ -49,7 +48,6 @@ Default key: **X** (remappable).
 - R: Reload
 - X: Weapon Action
 - Q: Player ability
-- G: Equipment
 
 All controls should be remappable, including keyboard and mouse, controller, and mobile layouts. Mobile players should be able to adjust button position and size.
 
@@ -2203,7 +2201,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ## 5. New Weapons 111–167
 
-The roster now uses three distinct equipment slots: **Primary**, **Secondary**, and **Melee**. Melee weapons occupy the dedicated close-combat slot in the loadout; they are not classified as Primary or Secondary. Primary and Secondary continue to follow the existing damage-dealer versus utility rule.
+The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and **Melee**. Melee weapons occupy the dedicated close-combat slot in the loadout; they are not classified as Primary or Secondary. Primary and Secondary continue to follow the existing damage-dealer versus utility rule.
 The roster now uses three distinct equipment slots: **Primary**, **Secondary**, and **Melee**. Melee weapons occupy the dedicated close-combat slot in the loadout; they are not classified as Primary or Secondary. Primary and Secondary continue to follow the existing damage-dealer versus utility rule.
 
 ### Weapon 111 — DOORJAM
