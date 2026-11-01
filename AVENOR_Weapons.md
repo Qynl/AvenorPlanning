@@ -391,6 +391,168 @@ Fire a special anchor bolt that attaches to the first valid solid surface it hit
 
 **Status:** Accepted concept. Prototype values are TBD.
 
+### Weapon 015 — BAD NEIGHBOR
+- **Internal ID:** BAD-NEIGHBOR
+- **Category:** Nail Driver
+- **Rarity:** Altered (provisional)
+- **Slot:** Secondary
+- **Role:** Mid-range setup and information control.
+- **Core mechanic: Property Damage**
+
+Fires individual heavy bolts. When a bolt hits a suitable surface, it remains embedded briefly as a visible marker. Markers do not deal damage by themselves; they prepare the weapon's action.
+
+- **Weapon Action: Noise Complaint**
+
+Activate all existing markers. Each marker emits a short-range pulse that briefly reveals nearby opponents through a visual outline.
+
+**Rules and counterplay:**
+- Maximum of three active markers.
+- Markers expire after a short duration.
+- Each pulse has a limited radius.
+- Opponents can see and destroy markers.
+- The reveal is brief and does not provide permanent tracking.
+- Markers cannot be placed through solid geometry.
+
+**Visual identity:** A chunky construction-tool-inspired launcher with exposed mechanical parts, an oversized bolt magazine, and a warning light that flashes when markers are active.
+
+**Prototype values:** Direct-hit damage, marker lifetime, pulse radius, reveal duration, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 016 — TAXI
+- **Internal ID:** TAXI
+- **Category:** Impact Launcher
+- **Rarity:** Commonplace (provisional)
+- **Slot:** Primary
+- **Role:** Mid-range pressure and movement disruption.
+- **Core mechanic: Fare Meter**
+
+Fires compact impact projectiles that deal direct-hit damage. Consecutive hits on the same opponent increase a visible fare counter above them. Missing a shot or hitting another opponent resets the counter.
+
+- **Weapon Action: Final Stop**
+
+Activate to make the next projectile create a short-lived circular bounce field on impact. Players who enter the field are pushed outward. The field deals no damage.
+
+**Rules and counterplay:**
+- The fare counter is visible to the affected opponent.
+- The counter resets on a miss or when switching targets.
+- The bounce field is temporary and clearly visible.
+- Opponents can avoid the field or use its predictable push to reposition.
+- The weapon still requires accurate projectile placement.
+
+**Visual identity:** A compact launcher with a mechanical fare display that increments with consecutive hits, yellow details, dark metal, and a distinctive meter sound.
+
+**Prototype values:** Direct-hit damage, projectile speed, fare progression, counter reset timing, field radius, push strength, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 017 — FALSE ALARM
+- **Internal ID:** FALSE-ALARM
+- **Category:** Signal Launcher
+- **Rarity:** Altered (provisional)
+- **Slot:** Secondary
+- **Role:** Deception, distraction, and creating openings.
+- **Core mechanic: Wrong Place, Wrong Time**
+
+Fires a bright signal projectile that sticks to a surface and deploys a temporary holographic decoy of the player. The decoy performs a short firing animation and produces an imitation of the player's weapon audio, but deals no damage.
+
+- **Weapon Action: Panic Button**
+
+Activate the decoy early. It performs a fake attack animation and creates a brief, visible flash before disappearing.
+
+**Rules and counterplay:**
+- Decoys are visibly artificial at close range.
+- They cannot move or deal damage.
+- Only one decoy can exist at a time.
+- Opponents can destroy the decoy.
+- Deployment has a noticeable visual cue.
+
+**Visual identity:** A compact signal pistol with an oversized flare chamber, orange-red accents, and a blinking indicator.
+
+**Prototype values:** Projectile speed, decoy lifetime, imitation range, activation flash duration, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 018 — SECOND OPINION
+- **Internal ID:** SECOND-OPINION
+- **Category:** Twin-Barrel Rifle
+- **Rarity:** Altered (provisional)
+- **Slot:** Primary
+- **Role:** Mid-range duelling and deliberate shot timing.
+- **Core mechanic: Follow-Up**
+
+The weapon has two barrels that fire alternately. Each shot comes from a slightly different barrel position, creating a distinct left-right firing rhythm. The two shots have identical base damage, but the second shot has a slightly tighter spread. Continuous firing alternates between barrels.
+
+- **Weapon Action: Objection**
+
+Press and hold Weapon Action to hold the next shot instead of firing immediately. Releasing the action input fires it with perfect weapon accuracy, but does not improve projectile speed or remove the need to aim.
+
+**Rules and counterplay:**
+- The stored shot expires after a short window.
+- Switching weapons cancels the stored shot.
+- Holding a shot reduces immediate firing pressure.
+- The tighter second-shot spread is limited and does not guarantee a hit.
+
+**Visual identity:** An offset twin-barrel rifle with two distinct barrel housings and a mechanical indicator that switches sides after every shot.
+
+**Prototype values:** Damage, firing interval, spread profiles, stored-shot window, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 019 — PAPER TRAIL
+- **Internal ID:** PAPER-TRAIL
+- **Category:** Marker Rifle
+- **Rarity:** Altered (provisional)
+- **Slot:** Primary
+- **Role:** Route reading and punishing predictable movement.
+- **Core mechanic: Marked For Later**
+
+Fires precise, damaging single projectiles. A direct hit attaches a visible paper tag to the opponent for a short time. The tag does not reveal the opponent through walls; instead, it leaves a short-lived trail of visible markers on the ground as they move.
+
+- **Weapon Action: Return Address**
+
+Make the next shot attach a tag to a surface instead of an opponent. If an opponent passes near that tag, it briefly reveals their position with a visual ping.
+
+**Rules and counterplay:**
+- Player tags and their ground trails are temporary.
+- The trail does not reveal positions through walls.
+- Surface tags can be destroyed.
+- Opponents can change routes or wait out the effect.
+- The surface tag has a limited trigger radius and duration.
+
+**Visual identity:** A slim precision rifle with a paper-feed mechanism, visible tag cartridges, and a mechanical stamping sound.
+
+**Prototype values:** Damage, fire rate, tag duration, trail lifetime, surface-tag trigger radius, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
+### Weapon 020 — WET FLOOR
+- **Internal ID:** WET-FLOOR
+- **Category:** Pressure Sprayer
+- **Rarity:** Altered (provisional)
+- **Slot:** Secondary
+- **Role:** Area control, movement disruption, and route manipulation.
+- **Core mechanic: Slippery When Wet**
+
+Fires short-range bursts of liquid that leave temporary slick patches on the floor. Players crossing a patch retain more of their existing momentum and have less control when changing direction. The effect does not stun players or automatically knock them over.
+
+- **Weapon Action: Mopping Service**
+
+Pull all active patches together into one longer slick strip between their positions. This reshapes scattered patches into a deliberate movement lane.
+
+**Rules and counterplay:**
+- Patches are clearly visible.
+- The effect applies only while crossing a patch.
+- Opponents can jump over patches or take another route.
+- The number of active patches is limited.
+- Mopping Service removes the scattered coverage to create one strip.
+
+**Visual identity:** A chunky industrial pressure sprayer with a small liquid tank, yellow caution markings, and a distinctive spray sound.
+
+**Prototype values:** Patch lifetime, patch size, movement effect strength, maximum active patches, spray range, and cooldown are TBD.
+
+**Status:** Accepted concept. Prototype values are TBD.
+
 ## 5. Remaining Roster
 
 Weapons 015–167 are TBD.
