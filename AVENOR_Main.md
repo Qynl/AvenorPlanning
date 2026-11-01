@@ -8,7 +8,7 @@
 - **Genre:** Competitive Roblox first-person shooter.
 - **Goal:** A polished, full-scale FPS built around distinct weapons, mechanical skill, tactical outplays, expressive movement, and exciting matches.
 - **Presentation:** Clean, readable, low-to-mid-poly Roblox FPS visuals. RIVALS is a presentation reference, not something to copy.
-- **Core promise:** Players should win through aim, movement, decisions, weapon knowledge, teamwork, and smart use of the map. Equipment and abilities create opportunities, not automatic victories.
+- **Core promise:** Players should win through aim, movement, decisions, weapon knowledge, teamwork, and smart use of the map. Abilities create opportunities, not automatic victories.
 
 ## 2. Core Gameplay
 
@@ -16,7 +16,7 @@ AVENOR combines:
 - Fast-paced, skill-based gunfights.
 - Responsive movement with room for mechanical expression.
 - Distinct weapons with their own handling, strengths, weaknesses, and mastery.
-- Tactical outplays through abilities, equipment, pickups, positioning, and map control.
+- Tactical outplays through abilities, weapon actions, pickups, positioning, and map control.
 - Casual and competitive play.
 - Multiple match formats, from duels to larger team modes.
 - Clear combat feedback and fair, consistent rules.
@@ -75,7 +75,7 @@ Exact sprint speed, acceleration, slide duration, slide recovery, jump height, a
 
 - All players have the same baseline health.
 - No player receives more base health because of account level, rank, purchases, or cosmetic rarity.
-- Weapons, abilities, and equipment may interact with health and damage through their own defined mechanics, but must be balanced and clearly communicated.
+- Weapons and abilities may interact with health and damage through their own defined mechanics, but must be balanced and clearly communicated.
 
 The exact health value, regeneration rules, damage model, headshot rules, and protection mechanics are **TBD**.
 
@@ -83,13 +83,12 @@ Combat should be understandable and consistent. Players need clear feedback when
 
 ## 6. Loadouts and Weapon Slots
 
-Each player has five loadout slots:
+Each player has four loadout slots:
 
 1. **Primary** — a damage-dealing weapon.
 2. **Secondary** — a weapon or tool whose primary purpose is not dealing damage, such as utility, disruption, movement, information, or deception. Damage-dealing sidearms may still be classified as Primary.
 3. **Melee** — a dedicated close-combat weapon.
 4. **Ability** — the player's selected ability.
-5. **Equipment** — a selected tactical item or tool.
 
 These slot names and their basic roles are the current standard for AVENOR.
 
@@ -115,19 +114,18 @@ Every weapon should have:
 
 Weapon categories are for organization, not a substitute for unique gameplay. Avoid reskins, filler weapons, and tiny statistical variations presented as new weapons.
 
-Weapon-specific actions are separate from player abilities and equipment. They should create interesting decisions and memorable moments without becoming generic buffs.
+Weapon-specific actions are separate from player abilities. They should create interesting decisions and memorable moments without becoming generic buffs.
 
 The roster is a design target, not a requirement to implement all weapons before the game is playable. Weapons will be prototyped, tested, refined, and added in sensible development batches.
 
-## 8. Abilities and Equipment
+## 8. Player Abilities
 
 Each loadout contains:
 - One player ability.
-- One equipment item.
 
 ### Player abilities
 
-- Abilities are distinct from weapon actions and equipment.
+- Abilities are distinct from weapon actions.
 - Each player equips exactly one ability.
 - Abilities use cooldowns or another clearly defined availability system.
 - Abilities should create tactical opportunities, movement options, information, protection, deception, map interaction, or other meaningful decisions.
@@ -138,18 +136,7 @@ Each loadout contains:
 - Exact cooldowns, durations, ranges, charges, restrictions, and balance values remain **TBD** until detailed design and playtesting.
 - The approved ability concepts and their current rarity assignments are documented in **AVENOR_Abilities.md**.
 
-### Equipment
-
-Equipment can include:
-- Grenades and other throwables.
-- Traps.
-- Deployables.
-- Tactical tools.
-- Information or disruption tools.
-
-Equipment replenishment may come from pickups or designated map locations. Exact replenishment rules are **TBD** and may differ by item or mode.
-
-Abilities and equipment may be unlocked through progression, the shop, challenges, achievements, and events. Unlock methods must not create an unfair combat advantage.
+Abilities may be unlocked through progression, the shop, challenges, achievements, and events. Unlock methods must not create an unfair combat advantage.
 
 ## 9. Maps and Map Interaction
 
@@ -174,7 +161,7 @@ Map sizes, themes, interactive objects, pickup placement rules, and mode-specifi
 A match should have a clear, consistent flow:
 1. Players enter a match and receive the correct mode rules and loadout.
 2. The match begins with a clear start signal.
-3. Players fight, use movement, weapons, abilities, equipment, and map features.
+3. Players fight, use movement, weapons, abilities, and map features.
 4. The mode tracks its objective, score, time, rounds, or lives.
 5. The match ends when its win condition is met.
 6. Players see the result and relevant performance information.
@@ -194,7 +181,7 @@ The server is responsible for validating important competitive outcomes, includi
 - Damage and eliminations.
 - Weapon firing and ammunition state.
 - Cooldowns and ability use.
-- Projectile and relevant equipment outcomes.
+- Projectile outcomes.
 - Match rules, scoring, and results.
 - Ability-created objects and interactions that can affect player movement, map state, information, or match outcomes.
 
@@ -225,7 +212,7 @@ There are two separate progression tracks.
 
 Account XP and levels can unlock:
 - Weapons
-- Abilities and equipment
+- Abilities
 - Currencies and rewards
 - Cosmetics
 - Titles and badges
@@ -317,7 +304,7 @@ The interface should communicate important information without cluttering the sc
 Planned HUD information includes:
 - Health and relevant player status.
 - Current weapon and ammunition.
-- Ability and equipment availability.
+- Ability availability.
 - Crosshair and aiming feedback.
 - Hit, damage, and elimination feedback.
 - Objective, score, round, and timer information.
@@ -339,7 +326,7 @@ Controls must support the intended platforms. Keyboard and mouse, controller, an
 
 ### Audio
 
-Weapon sounds, movement sounds, ability cues, equipment cues, and elimination feedback should be distinctive and useful. Audio should help players understand what is happening without becoming confusing or excessively noisy.
+Weapon sounds, movement sounds, ability cues, and elimination feedback should be distinctive and useful. Audio should help players understand what is happening without becoming confusing or excessively noisy.
 
 The final sound identity and detailed audio rules are **TBD**.
 
@@ -375,7 +362,6 @@ The final sound identity and detailed audio rules are **TBD**.
 
 - **AVENOR_Weapons.md** — weapon roster, slot classification, and individual weapon concepts.
 - **AVENOR_Abilities.md** — ability system rules, approved ability concepts, rarity assignments, and individual ability designs.
-- **AVENOR_Equipment.md** — equipment system rules, selected equipment roster, counterplay, rejected concepts, and prototype priorities.
 - **AVENOR_Gameplay.md** — detailed proposed gameplay rules, movement, combat, match flow, HUD, and first playable prototype.
 - **AVENOR_GameModes.md** — classic and original modes, including AVENOR ORIGIN, with proposed match formats and rules.
 - **AVENOR_Maps.md** — map design standards, layout and spawn principles, mode compatibility, performance, and the individual map specification template.
@@ -388,7 +374,6 @@ The following areas still need detailed design or testing:
 - Health value, damage model, regeneration, and elimination rules.
 - Weapon statistics, balance, and implementation priorities.
 - Ability cooldowns, durations, ranges, charges, restrictions, and implementation priorities.
-- Final equipment balance, charges, replenishment, and launch selection (see **AVENOR_Equipment.md**).
 - Full mode list, player counts, scoring, and match rules.
 - Map roster, layouts, interactions, and pickup rules.
 - Respawn, spectating, overtime, and round-transition behavior.
