@@ -124,3 +124,11 @@ A map cannot be called ready until:
 - PvP and safe-area rules are clear.
 - Performance is tested on mobile and desktop.
 - The map remains enjoyable without a scheduled event running.
+
+
+## 11. Exploration-first map design and performance ownership
+Open World maps must support curiosity, social encounters and optional activities. A region should feel like a place to inhabit, not an oversized combat arena or a chain of mandatory missions. Players should be able to find interesting destinations through landmarks, environmental clues, NPC movement and exploration without every point being exposed as a map marker.
+
+Every Open World map must be designed and approved using `AVENOR_Map_Performance.md`. That document owns the detailed production pipeline, streaming strategy, geometry/asset guidance, NPC simulation tiers, benchmark scenes, profiling matrix and release gates. This file retains the high-level geography and gameplay design standards.
+
+Do not lock map dimensions, NPC counts, server capacity or final detail budgets until a representative greybox has been measured on target devices. Performance review is required at concept, greybox, population, art-pass and release stages.
