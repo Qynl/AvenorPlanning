@@ -27,6 +27,10 @@ The central planning repository for **AVENOR**, a competitive Roblox FPS built a
 - [AVENOR_Presentation.md](AVENOR_Presentation.md) — MVP selection and showcases, elimination announcements, banners, titles, and profile showcases.
 - [AVENOR_HUD_Audio.md](AVENOR_HUD_Audio.md) — HUD, controls, cross-platform input, audio direction, music, and accessibility.
 
+## Development setup and integrations
+
+- [AVENOR_Freebuff_Roblox_MCP.md](AVENOR_Freebuff_Roblox_MCP.md) — setup guide for connecting Freebuff Desktop to the official Roblox Studio MCP server on Windows, including configuration, verification, troubleshooting, and safe workflow.
+
 ## Project-wide rules
 
 - **Status matters:** locked decisions are confirmed; proposed values are not final until approved and tested.
