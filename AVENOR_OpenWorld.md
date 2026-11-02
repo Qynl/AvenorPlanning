@@ -1,204 +1,91 @@
-# AVENOR — Open World Experience & Living Sandbox
+# AVENOR — Open World Experience
 
-> **Current direction: exploration-first multiplayer sandbox.** The Open World is the main attraction. Combat, NPC reactions, factions, vehicles, activities and world events support exploration and player freedom; they must not turn the experience into a constant mission queue or a wanted-level simulator.
+> **Current direction: exploration-first multiplayer sandbox shooter.** The world is populated primarily by real players. A limited number of AI-controlled NPC faction squads may exist, behaving like players. There is no civilian society, police system, service-NPC layer or background population simulation.
 
 ## 1. Player promise
+Enter a large, recognisable world with other real players. Explore because interesting places, hidden discoveries, weapons, equipment and unpredictable encounters are scattered throughout it. Choose your own pace: roam, investigate, scavenge, meet other players, set up a temporary camp, encounter a faction or simply travel.
 
-Enter a large, recognisable world with other real players. Explore because interesting places, people, discoveries and situations are scattered throughout it. Choose your own pace: roam, investigate, meet people, collect, take part in activities, fight NPCs, fight other players where rules allow, or simply travel around.
-
-There is no single mandatory activity loop. The world should support several play styles at once and create memorable unscripted encounters.
+There is no mandatory mission chain. The world should create opportunities without constantly telling players what to do.
 
 ## 2. Priority order
-
 1. Exploration and discovery.
-2. A populated world shared with other players.
-3. Emergent situations and dynamic activities.
-4. NPC life, groups, factions and world reactions.
-5. Combat against NPCs and players.
-6. Collection, progression and personal expression.
-7. Optional GTA-inspired freedom systems such as vehicles, wanted-by-authorities reactions, shops and everyday world interactions.
+2. Real players meeting naturally in a shared world.
+3. Scavenging for weapons, equipment and useful supplies.
+4. Player-like NPC faction encounters at selected locations.
+5. Temporary camps and establishing a presence.
+6. Combat and emergent situations.
+7. Collection, progression and world events.
 
-Do not let combat or crime-response systems dominate the map, UI or marketing identity.
-
-## 3. Exploration systems
-
+## 3. Exploration
 Worlds should reward curiosity through:
+- Hundreds of distinct major and minor locations over the full world collection.
 - Recognisable landmarks and distant points of interest.
 - Hidden rooms, interiors, tunnels, rooftops, caves and unusual routes.
 - Environmental clues and connected discoveries.
-- NPC rumours, travelling expeditions and unexpected encounters.
 - Rare finds, collectibles, records, cosmetics and permanent weapon discoveries.
-- Locations that change state during world events.
-- Discoveries that players can share socially without every secret being immediately marked on the map.
+- Locations that change state during global events.
+- Discoveries players can share socially without every secret being marked on the map.
 
-Avoid filler collectibles and repetitive copy-paste buildings. Each major discovery needs a reason to remember its location.
+Avoid filler collectibles and repetitive copy-paste buildings. See `AVENOR_Locations.md`.
 
-## 4. Player freedom and social play
-
-Players may:
+## 4. Real players
+Real players are the main inhabitants and the main source of unpredictable situations. They may:
 - Explore alone or with friends.
-- Form temporary groups/parties.
+- Form temporary groups.
 - Meet strangers naturally.
-- Cooperate in activities or NPC encounters.
-- Compete or fight other players according to the eventual PvP rules.
-- Trade or use services only if a fair economy/trading system is later approved.
-- Use social hubs and public spaces without being forced into combat.
+- Cooperate, trade only if a fair system is later approved, ignore each other or compete.
+- Establish temporary camps at suitable places.
+- Occupy or contest locations through their actual presence.
+- Fight other players where the final PvP rules allow.
 
-Friendly fire is a desired design feature to evaluate, not permission for griefing. If enabled, it needs clear group rules, readable feedback, abuse prevention and consequences. Party friendly-fire behaviour and public-world rules must be explicitly configured.
+Exact PvP coverage, safe areas, friendly fire and death/respawn rules remain TBD.
 
-## 5. NPC world population
+## 5. NPC factions only
+The only planned NPCs are limited AI-controlled faction groups that act like player squads. They can travel, scavenge, carry weapons, use equipment, set up camps, occupy selected locations and defend rare discoveries.
 
-NPCs should make the world feel inhabited rather than acting as static quest dispensers. Initial categories:
-- Civilians and workers.
-- Police/security and guards.
-- Military/security organisations.
-- Traders and travelling merchants.
-- Adventurers and explorers.
-- Specialists and service providers.
-- Independent groups.
-- Hostile or rival factions.
+They are not civilians, police, guards-for-hire, traders, shopkeepers, medics, mechanics, quest-givers or a simulated public. There are no police reactions, wanted systems, arrests, witness reports or law-enforcement mechanics.
 
-NPCs can walk routes, visit locations, investigate events, interact with each other, retreat from danger, request help and participate in encounters. Use simple state machines and distance-based simulation. See `AVENOR_NPCs.md`.
+See `AVENOR_NPCs.md` for the strict scope and behaviour rules.
 
-## 6. Factions and relationships
+## 6. Factions and contested discoveries
+Factions have their own visual identity, equipment, group size, preferred locations and behaviour. Some may be neutral or avoidant; others may defend valuable sites. Their presence should be sparse enough that meeting one feels meaningful.
 
-Factions are groups with their own identity, locations, routines, interests and relationships. A faction may be friendly, neutral, suspicious or hostile toward a player depending on context and past actions.
+A guarded rare site is an optional encounter, not a compulsory mission. Players may observe, avoid, approach or fight the group. Not every rare discovery is guarded.
 
-Possible faction types (examples, not a final roster):
-- Local police / public security.
-- Regional military or facility security.
-- Independent adventurer organisations.
-- Traders and logistics groups.
-- Hostile gangs or organised groups.
-- Researchers, workers or settlement organisations.
+## 7. Camps and temporary presence
+Players may bring suitable equipment and establish temporary camps in approved locations or terrain. A camp can be a meeting point, shelter or place where a group spends time.
 
-Factions should not all be combat factions. Many should create exploration, social and service opportunities.
-
-## 7. Unscripted world reactions
-
-The world may react to player behaviour without exposing a visible numerical wanted level.
-
-Examples:
-- Security witnesses an incident and may investigate or respond.
-- A restricted facility challenges or refuses entry to an unauthorised player.
-- Repeated hostile behaviour toward a faction can change its attitude.
-- A trader or service NPC may refuse service when the player's reputation with their group is poor.
-- Friendly groups may provide information, access or assistance.
-- A nearby NPC group may react to a disturbance or another active event.
-
-### Design rules
-- **No visible GTA-style wanted stars or public wanted-level meter.** Reactions should be communicated through NPC behaviour, dialogue, access, radio chatter, search activity and world context.
-- Avoid omniscient NPCs. Reactions need plausible awareness: witnesses, alarms, local reports or faction knowledge.
-- Do not make every NPC instantly know what happened everywhere.
-- Separate local incident awareness from longer-term faction reputation.
-- Allow situations to cool down when the player leaves the area or enough in-world time passes, where appropriate.
-- Do not punish exploration or harmless experimentation with permanent account-wide hostility.
-- Keep responses fair, readable and performant. The system is fictional game logic, not a realistic law-enforcement simulator.
-
-## 8. Combat and PvP coexistence
-
-The Open World supports:
-- PvE encounters against hostile NPCs.
-- Player-versus-player encounters where the final PvP rules permit them.
-- Faction conflicts and contested activities.
-- Friendly-fire testing for parties and squads.
-
-The exact safe-area model, PvP coverage, death/respawn rules, friendly-fire defaults and consequences remain **TBD**. Do not assume full-loot PvP, permanent item loss or combat everywhere. Exploration must remain viable for players who are not seeking a fight.
-
-## 9. GTA-inspired systems, adapted for AVENOR
-
-The desired touch is freedom and a reactive, inhabited world, not copying another game's missions or interface. Candidate systems:
-- Drivable vehicles and traffic.
-- Shops, garages and service locations.
-- Security/police response to witnessed incidents.
-- Restricted areas and access permissions.
-- NPC routines and reactions.
-- Player-owned or temporarily used transport.
-- Everyday side activities and spontaneous encounters.
-
-Vehicles, ownership, theft rules, garages, economy and exact activity types are **proposals only** until explicitly approved. Do not build them as launch requirements without a prototype decision.
-
-## 10. Dynamic activities and events
-
-Activities should appear in the world and connect to locations, NPCs or current conditions. Examples:
-- A travelling expedition investigating a landmark.
-- A temporary location opening.
-- A trader convoy or visiting merchant.
-- A facility inspection or public event.
-- A community discovery that requires players to compare clues.
-- A faction dispute that players can observe, avoid or influence.
-- A temporary weather or infrastructure incident.
-
-Activities should be optional, varied and discoverable. Avoid turning the whole world into a list of map icons.
-
-## 11. Persistence and rewards
-
-Permanent player data may include owned weapons, cosmetics, discovery journal, mastery, achievements and account progression. Temporary local incidents and event states belong to world-cycle state. Never remove permanent ownership on death, disconnect or map rotation.
-
-Weapon unlocks remain Open World discovery only. Competitive playlists never grant weapon unlocks.
-
-## 12. Prototype acceptance test
-
-A first meaningful Open World prototype should let a player:
-1. Spawn in a small but coherent settlement.
-2. Walk or travel to at least three distinct points of interest.
-3. Encounter other players and several NPC roles.
-4. Discover one hidden location or clue.
-5. See an NPC group perform a simple activity without player prompting.
-6. Trigger or witness one understandable world reaction.
-7. Encounter one optional PvE situation.
-8. Save one permanent discovery.
-9. Return later and find the permanent record intact.
-
-The prototype succeeds only if exploring and encountering the world feels enjoyable without needing a major scripted mission.
-
-## 13. Unresolved decisions
-
-- Exact PvP coverage and safe-area rules.
-- Friendly-fire defaults for parties and public encounters.
-- Death, respawn and temporary inventory rules.
-- Final faction roster and reputation model.
-- Whether vehicles ship at launch.
-- Vehicle ownership, storage and access rules.
-- Player trading and economy.
-- Exact activity cadence and event density.
-- NPC population and per-server budgets.
-- How much world state is shared across separate Roblox server instances.
-
-
-## 14. Exploration, scavenging and establishing a presence
-
-The intended moment-to-moment experience is: **explore → discover → scavenge → encounter → decide what to do → move on or establish a presence**. This is a guiding loop, not a mandatory mission chain. Players may skip any step.
-
-### Location density
-- Each world should eventually contain hundreds of distinct points of interest at multiple scales.
-- Major named POIs, secondary places and micro-discoveries must each contribute something recognisable.
-- Different worlds need different location identities, architecture, interiors, activities and environmental stories.
-- See `AVENOR_Locations.md` for the 200-POI long-term catalogue and cross-world location families.
-- The catalogue is not a launch checklist. Prototype a compact, varied cluster and validate it before expanding.
-
-### Camps and temporary presence
-Players may bring suitable equipment and establish temporary camps in approved locations or terrain. A camp can act as a meeting point, shelter, supply stop or place where a group spends time.
-
-This is **not traditional base ownership**:
-- The player does not magically own the land or receive permanent territorial rights.
-- Other players and NPCs can discover the camp and react to the group currently present.
-- Groups may occupy, leave, abandon or contest existing locations through gameplay.
-- A player's presence is understood from the world state and behaviour, not a permanent ownership flag.
+This is not traditional base ownership:
+- Players do not magically own the land or receive permanent territorial rights.
+- Other players and NPC factions can discover the camp.
+- Groups may occupy, leave, abandon or contest locations through gameplay.
+- Presence is understood from the world state and behaviour, not a permanent ownership flag.
 - Camps must not require constant upkeep or punish players for taking breaks.
 - Persistence, storage, dismantling, access permissions and PvP rules remain TBD.
 
-### Existing locations and occupation
-The world contains public, abandoned, restricted and NPC-occupied locations. Players may visit, use, gather at or attempt to take control of suitable places. "Taking over" means establishing a practical presence and control in the current situation, not receiving permanent ownership of a map asset.
+## 8. Combat and PvP coexistence
+The Open World supports player encounters and occasional NPC faction combat. Combat should not dominate every location. Quiet exploration and empty places are essential parts of the world.
 
-A location should respond meaningfully when its situation changes: NPC visitors may arrive or leave, services may become available or unavailable, and nearby groups may recognise who is currently present. Keep these reactions local, legible and technically affordable.
+Do not assume full-loot PvP, permanent item loss or combat everywhere. Keep all damage, awareness, loot and rewards server-validated.
 
-### Core experience test
+## 9. What AVENOR deliberately does not simulate
+- Police, law enforcement, wanted levels or arrests.
+- Civilian crowds, pedestrian routines or simulated city populations.
+- Shopkeepers, traders, merchants or public services.
+- Security patrols, guards or military NPC ecosystems separate from player-like factions.
+- Traffic simulation, emergency services or everyday NPC schedules.
+- NPC quest hubs, service dialogue or mission boards.
+
+World locations may still visually contain stations, shops, hospitals, factories, airports and other buildings. These are places to explore, not promises of functioning NPC services.
+
+## 10. Core experience test
 A meaningful prototype should let a player:
 1. Leave a settlement and choose a direction without accepting a mission.
-2. Find several distinct POIs and at least one small unexpected discovery.
-3. Scavenge useful equipment without relying on a repetitive loot loop.
-4. Encounter an NPC group or another player.
-5. Decide whether to avoid, interact, cooperate or contest.
-6. Set up a small temporary camp at a suitable place, or use an existing location as a gathering point.
-7. Leave and continue exploring without being forced into maintenance chores.
+2. Find several distinct POIs and at least one unexpected discovery.
+3. Scavenge useful equipment.
+4. Encounter another player or one small NPC faction squad.
+5. Decide whether to avoid, interact, cooperate or fight.
+6. Set up a temporary camp at a suitable place.
+7. Leave and continue exploring without maintenance chores.
+
+The prototype succeeds if exploring and encountering the world is enjoyable without a scripted mission or simulated civilian population.
