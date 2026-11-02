@@ -140,42 +140,121 @@ Flag status must be visible to both teams. The map must support attacking, defen
 <badge>Flagship mode concept</badge>
 
 - **Players:** 4v4.
-- **Format:** Continuous match with an evolving central objective.
+- **Format:** Continuous match with a two-stage evolving objective.
 - **Target duration:** 8–10 minutes.
-- **Core idea:** Both teams fight over the ORIGIN, a central structure whose state changes as the match progresses.
-- **Status:** Concept direction approved; exact mechanics are not yet locked.
+- **Respawn delay:** Proposed 4 seconds.
+- **Proposed win condition:** First team to secure 3 ORIGIN claims, or the team with more claims when the match timer expires.
+- **Time limit:** Proposed 9 minutes.
+- **Status:** The direction is approved; the rules below are a complete prototype proposal, not locked balance.
 
-### Design goals
-- Make ORIGIN recognisably AVENOR rather than a renamed Hardpoint or TDM.
-- Give both teams meaningful decisions beyond standing inside a capture circle.
-- Create changing priorities and opportunities for comebacks.
-- Keep the objective understandable from the HUD and the arena itself.
-- Reward coordinated pushes, defensive decisions, timing, and map control.
-- Avoid excessive objective stages, unclear scoring, or long periods where players cannot meaningfully interact.
+### 5.1 Core identity
 
-### Starting concept to prototype
-The ORIGIN is a central structure that changes state during the match. The initial design exploration may combine:
-1. **Activation:** Teams contest the central structure to activate it.
-2. **Control:** The active ORIGIN creates or enables secondary control opportunities around the arena.
-3. **Charge:** Team actions and control contribute to a visible team charge.
-4. **Claim:** Reaching the required state creates a clear scoring opportunity.
+Both teams compete to awaken the central ORIGIN structure, then convert that control into a claim at one of two exposed claim sites.
 
-This is a design hypothesis, not a final ruleset. The number of stages, how control works, how charge is earned, how the opponent can interrupt it, and the exact victory condition must be designed and playtested before approval.
+The mode has two linked stages:
 
-### ORIGIN must not become
-- A standard capture point with a futuristic model.
-- A sequence of arbitrary buttons with no meaningful player choice.
-- A mode where one early advantage makes the rest of the match inevitable.
-- An objective that is so complicated that players need a tutorial to understand the basic goal.
+1. **AWAKEN:** Win control of the central ORIGIN to activate it.
+2. **CLAIM:** Choose one of two revealed claim sites and hold it long enough to secure a point.
 
-### Questions still open
-- Exact objective states and transitions.
-- Whether teams can contest or interrupt each stage.
-- How progress is earned, lost, paused, or stolen.
-- Whether the mode has one scoring opportunity or multiple scoring cycles.
-- Timer, overtime, and comeback rules.
-- Respawn delay and spawn locations.
-- Map layout and objective placement.
+The team must win the centre fight and then make a second decision about where to commit. Simply standing on one objective for the whole match is not enough.
+
+### 5.2 Arena layout
+
+An ORIGIN map is built around three objective spaces:
+
+- **The Core:** A central, highly visible structure where each cycle begins.
+- **Claim Site A:** One possible claim location on a different route from the Core.
+- **Claim Site B:** A second possible claim location, offering a distinct approach and defensive shape.
+
+The two claim sites should not be identical rooms mirrored beside the Core. They should create different route choices, sightlines, cover patterns, and rotation times while remaining equally viable.
+
+Only one claim site is active during a claim phase. The inactive site remains visible but cannot be captured.
+
+### 5.3 Stage One: AWAKEN
+
+- The Core begins each cycle neutral.
+- A team starts awakening it by establishing control in the Core zone.
+- Control is determined by team presence: a team must have more players inside the zone than the opponent.
+- Equal presence, or no players inside, contests or pauses progress.
+- The awakening meter fills over a proposed **10 seconds of uncontested control**. Progress is paused while contested.
+- If the opposing team gains control, the meter begins moving toward neutral after a proposed **3-second grace period**. This prevents a tiny interruption from erasing an earned advantage while still allowing a real retake.
+- The team that completes the awakening chooses which of the two claim sites becomes active.
+
+The HUD must show the awakening meter, which team currently controls the Core, and whether progress is filling, paused, or returning to neutral.
+
+### 5.4 Stage Two: CLAIM
+
+After the Core is awakened:
+
+- Both claim sites are revealed as possible destinations.
+- The team that awakened the Core chooses Site A or Site B. The choice is made through a clear, short interaction or automatic selection if no choice is made before the selection timer expires.
+- The selected site becomes the active Claim Site for both teams.
+- The activating team must rotate from the Core and establish control at the selected site.
+- A proposed **8 seconds of uncontested control** secures one claim for that team.
+- Opponents can stop the claim by entering the zone and matching or exceeding the attacking team's presence.
+- If the site is empty or contested, claim progress pauses. If the defending team takes control, claim progress returns toward zero after a proposed **3-second grace period**.
+- Once a claim is secured, the structure resets and a new cycle begins after a short, clearly signalled transition.
+
+The team that awakened the Core does not automatically receive the point. It must successfully convert its advantage at the chosen site.
+
+### 5.5 Scoring, match end, and overtime
+
+- Each successful Claim awards **1 point**.
+- First team to **3 points** wins immediately.
+- If the 9-minute timer expires, the team with more claims wins.
+- If tied when time expires, the match enters **sudden-death ORIGIN**:
+  - The Core immediately begins a final neutral cycle.
+  - The first team to awaken the Core and complete a Claim wins.
+  - The normal two-stage rules remain active; there is no instant point for simply touching the Core.
+- If neither team completes a Claim before the sudden-death limit, the match continues in short, clearly announced extensions until a valid Claim is completed. The exact extension length is a playtest value.
+
+### 5.6 Respawns and transitions
+
+- Proposed respawn delay: **4 seconds**.
+- Respawns remain enabled during both objective stages.
+- Spawn selection must consider the active stage and avoid placing a player directly inside an active enemy-controlled zone or in immediate unavoidable line of sight.
+- After a point, players receive a short transition signal before the next Core cycle begins.
+- The next cycle starts neutral. No awakening or claim progress carries over.
+- The previous scoring team does not receive a hidden advantage in the next cycle.
+- Loadout changes are not allowed during an active cycle; use the normal mode loadout-change window between cycles only if testing shows it is needed.
+
+### 5.7 Counterplay and fairness rules
+
+- Both teams can contest either stage. The mode must never lock the losing team out of interacting with the objective.
+- The chosen Claim Site is announced to both teams immediately. Site selection is a strategic commitment, not hidden information.
+- The two claim sites must be balanced for travel time from the Core and must not create a guaranteed win for one side.
+- Objective zones must be large and clearly marked enough to avoid confusing edge cases.
+- Players outside the zone cannot contribute to objective control.
+- Multiple players from one team increase control presence only up to the team's player count; there are no extra hidden multipliers.
+- Objective progress is server-authoritative.
+- Visual and audio cues must clearly communicate Core control, site selection, claim progress, interruption, and scoring.
+- Objective effects must not obscure players, crosshairs, or incoming threats.
+
+### 5.8 What makes ORIGIN distinct
+
+ORIGIN is not simply a moving Hardpoint:
+
+- **Two decisions per score:** First win the central fight, then choose where to convert it.
+- **Attacking choice:** The team that awakens the Core selects the next objective location.
+- **Defensive response:** The other team sees the selection and can rotate, intercept, or prepare a retake.
+- **Changing map pressure:** Each cycle shifts the fight between the centre and one of two different routes.
+- **No automatic score:** Winning the first fight creates an opportunity, not a guaranteed point.
+
+### 5.9 Prototype tuning checklist
+
+The first prototype should test:
+
+1. Whether 10 seconds to awaken and 8 seconds to claim create enough opportunity for both teams to respond.
+2. Whether the 3-second progress grace period feels fair or causes excessive progress loss.
+3. Whether choosing between two sites creates meaningful decisions.
+4. Whether either site is consistently safer, faster, or easier to defend.
+5. Whether 4-second respawns create constant action without making objective control meaningless.
+6. Whether a team that loses the Core fight still has a realistic chance to stop the Claim.
+7. Whether a full cycle takes an appropriate amount of time and the match reaches its target duration.
+8. Whether players understand the two stages without needing a long tutorial.
+
+Record cycle duration, successful and failed claims, site selection frequency, contest frequency, comeback rate, spawn fairness, and player understanding. Tune from playtest evidence rather than treating these numbers as final.
+
 
 ## 6. Casual and Competitive Rules
 
