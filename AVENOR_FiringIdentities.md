@@ -34,8 +34,8 @@ A weapon may share a broad category with another weapon, but it must not share t
 | 013 | **CALL WAITING** | Charge-and-release energy bolt |
 | 014 | **SHORT NOTICE** | Distance-splitting crossbow bolt |
 | 015 | **BAD NEIGHBOR** | Surface-embedded nail rounds |
-| 020 | **WET FLOOR** | Liquid fan and slick pools |
-| 021 | **CROSSWALK** | Paired marker bolts and tripline |
+| 055 | **BAD TIMING** | Three-shot rhythm burst |
+| 161 | **BAD SIGNAL** | Disruption pulse dart |
 | 022 | **LAST CALL** | Directional sonic cones |
 | 023 | **TWO CENTS** | Alternating fast and heavy rounds |
 | 025 | **HOLD MUSIC** | Five-note projectile sequence |
@@ -293,44 +293,6 @@ A weapon may share a broad category with another weapon, but it must not share t
 - The weapon's HUD, animation, sound and crosshair state must communicate the next shot type and current firing state.
 - Cosmetics may change presentation but may not hide the projectile, shorten warning cues, alter hitboxes, or change timing.
 
-### 020 — WET FLOOR
-
-**Projectile identity:** Liquid fan and slick pools.
-
-**How it fires:** The sprayer emits a short fan of liquid globules rather than bullets. Globules burst on floors into small temporary slick patches. Opponents crossing a patch retain more momentum and have less control when changing direction, but they are never stunned or forced to move.
-
-**Projectile, impact and feedback:**
-- The liquid arcs visibly, splashes on impact and leaves a glossy patch with a clear edge. Repeated sprays overlap only to extend coverage within a strict cap; they do not stack an unlimited movement penalty.
-
-**What makes it play differently:**
-- WET FLOOR attacks footwork and routes. It is strongest on a doorway or tight turn, not as a direct damage race at long range.
-
-**Required implementation checks:**
-- Projectile path and impact are validated by the server.
-- Every special projectile has a maximum lifetime, range, and active-object limit.
-- All trajectories, split points, ricochets, return paths, charge states, and delayed effects are readable to opponents.
-- The weapon's HUD, animation, sound and crosshair state must communicate the next shot type and current firing state.
-- Cosmetics may change presentation but may not hide the projectile, shorten warning cues, alter hitboxes, or change timing.
-
-### 021 — CROSSWALK
-
-**Projectile identity:** Paired marker bolts and tripline.
-
-**How it fires:** The weapon fires two marker bolts that stick to valid surfaces. When both are active, a bright line connects them. An opponent crossing the line triggers one quick pulse along the line and consumes the pair. The markers do not scan or reveal anyone before activation.
-
-**Projectile, impact and feedback:**
-- Each bolt has a visible landing spark; the line is bright enough for both teams to spot. The pulse travels along the line rather than tracking the opponent, so crossing after the line has fired is safe.
-
-**What makes it play differently:**
-- CROSSWALK is a trap-lane weapon. It turns a chosen doorway or gap into a temporary decision point and is countered by spotting, avoiding or destroying a marker.
-
-**Required implementation checks:**
-- Projectile path and impact are validated by the server.
-- Every special projectile has a maximum lifetime, range, and active-object limit.
-- All trajectories, split points, ricochets, return paths, charge states, and delayed effects are readable to opponents.
-- The weapon's HUD, animation, sound and crosshair state must communicate the next shot type and current firing state.
-- Cosmetics may change presentation but may not hide the projectile, shorten warning cues, alter hitboxes, or change timing.
-
 ### 022 — LAST CALL
 
 **Projectile identity:** Directional sonic cones.
@@ -558,6 +520,27 @@ A weapon may share a broad category with another weapon, but it must not share t
 - All trajectories, split points, ricochets, return paths, charge states, and delayed effects are readable to opponents.
 - The weapon's HUD, animation, sound and crosshair state must communicate the next shot type and current firing state.
 - Cosmetics may change presentation but may not hide the projectile, shorten warning cues, alter hitboxes, or change timing.
+
+### 055 — BAD TIMING
+
+**Projectile identity:** Three-beat rhythm burst.
+
+**How it fires:** Holding the trigger releases three compact pulse darts at a very fast, fixed interval, then forces a short, unmistakable pause before the next group. The darts travel straight and remain separate projectiles. The pause cannot be cancelled by clicking faster; the rhythm is part of the firing cycle.
+
+**Projectile, impact and feedback:**
+- The first two darts have thin trails; the third has a brighter pulse ring.
+- Each dart registers its own hit. There is no hidden fourth shot or random spread.
+- The weapon gives a triple audio beat followed by a quiet reset click.
+
+**What makes it play differently:**
+- BAD TIMING is a burst weapon with a deliberate dead beat between volleys. The player must use the pause to reposition or reacquire.
+- THREE'S COMPANY spreads its shots across a horizontal pattern; BAD TIMING keeps a tight line and changes cadence instead.
+
+**Required implementation checks:**
+- Burst timing and pause are server-validated.
+- The next burst cannot start early through input spam.
+- Each dart remains individually visible and dodgeable.
+- Cosmetic audio must not mask the rhythm cue.
 
 ### 059 — SHORT FUSE
 
@@ -843,7 +826,6 @@ The following 54 concepts remain in the planning archive for possible future red
 - Weapon ID 046
 - Weapon ID 047
 - Weapon ID 051
-- Weapon ID 055
 - Weapon ID 057
 - Weapon ID 060
 - Weapon ID 061
@@ -879,7 +861,6 @@ The following 54 concepts remain in the planning archive for possible future red
 - Weapon ID 152
 - Weapon ID 154
 - Weapon ID 159
-- Weapon ID 161
 - Weapon ID 162
 - Weapon ID 163
 - Weapon ID 164
