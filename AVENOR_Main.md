@@ -170,7 +170,7 @@ Map design goals:
 
 Map weapon pickups should encourage players to move around the arena and make situational choices. Pickups must be understandable, visible, and fair to contest.
 
-The current concept roster contains eight maps: **FOUNDRY, BREAKWATER, SUNSPIRE, NEON DISTRICT, FROSTLINE, OVERGROWTH, BLACKSITE,** and **SKYLINE**. Their identities and initial mode candidates are documented in **AVENOR_Maps.md**. Exact dimensions, greybox layouts, routes, sightlines, spawn locations, interactive-object behavior, pickup placements, and final mode compatibility remain to be built and tested.
+The current concept roster contains eight maps: **FOUNDRY, BREAKWATER, SUNSPIRE, NEON DISTRICT, FROSTLINE, OVERGROWTH, BLACKSITE,** and **SKYLINE**. Their identities and initial mode candidates are documented in **AVENOR_Maps.md**. Proposed dimensions, route structures, vertical layers, spawn regions, pickup rules, and mode overlays for all eight greyboxes are now documented in **AVENOR_MapLayouts.md**. These are starting blueprints; final geometry, balance, and mode compatibility still require in-game testing.
 
 ## 10. Match Flow and Player States
 
@@ -381,7 +381,8 @@ The proposed audio identity, gameplay-versus-cosmetic priority mix, weapon and m
 - **AVENOR_Abilities.md** — ability system rules, approved ability concepts, rarity assignments, and individual ability designs.
 - **AVENOR_Gameplay.md** — detailed proposed gameplay rules, movement, combat, match flow, HUD, and first playable prototype.
 - **AVENOR_GameModes.md** — classic and original modes, including AVENOR ORIGIN, with proposed match formats and rules.
-- **AVENOR_Maps.md** — map design standards, eight map concepts, layout and spawn principles, mode compatibility, performance, and the individual map specification template.
+- **AVENOR_Maps.md** — map design standards, eight map concepts, visual direction, mode candidates, performance, and the individual map specification template.
+- **AVENOR_MapLayouts.md** — proposed greybox footprints, route structures, vertical layers, spawn regions, pickup rules, and mode overlays for all eight maps.
 - **AVENOR_Progression.md** — account XP, levels, unlocks, weapon mastery, ranked progression, seasons, currencies, challenges, economy, and player profile progression.
 - **AVENOR_Technical.md** — proposed Roblox architecture, server/client responsibilities, networking, persistence, matchmaking, security, testing, and implementation order.
 - **AVENOR_Roadmap.md** — ordered milestones from project foundation through release candidate.
@@ -400,7 +401,7 @@ The following areas still need detailed design or testing:
 - Weapon balance validation and implementation priorities.
 - Ability prototype values and implementation priorities after playtesting.
 - Final approval and playtest tuning of the proposed mode roster, player counts, scoring, timers, respawns, and overtime.
-- Exact greybox dimensions, layouts, routes, sightlines, spawns, interactions, pickup placements, and tested mode compatibility for each map.
+- Greybox validation and iteration for the eight proposed map layouts, including dimensions, routes, sightlines, spawns, interactions, pickup placements, and tested mode compatibility.
 - Respawn, spectating, overtime, and round-transition behavior.
 - Ranked tiers, rating, placements, matchmaking, and resets.
 - Season pass structure.
