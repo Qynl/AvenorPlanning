@@ -546,7 +546,7 @@ Prices are starting anchors, not fixed values. Individual items may vary with pr
 7. AVENOR Credits earning rate and shop pricing.
 8. Whether cosmetic cases remain in the economy, and their odds/duplicate rules if so.
 
-## 15. Recommended Implementation Order
+## 19. Recommended Implementation Order
 
 Build progression in layers. Do not build the entire economy before the core match loop is reliable.
 
