@@ -392,6 +392,7 @@ The proposed audio identity, gameplay-versus-cosmetic priority mix, weapon and m
 - **AVENOR_Emotes.md** — character emote collection and presentation rules.
 - **AVENOR_Presentation.md** — MVP selection and showcases, elimination announcements, player banners, titles, and profile showcases.
 - **AVENOR_HUD_Audio.md** — HUD layout, control defaults, cross-platform input, combat feedback, audio direction, music, and accessibility.
+- **AVENOR_Freebuff_Roblox_MCP.md** — setup guide for connecting Freebuff Desktop to the official Roblox Studio MCP server on Windows.
 
 ## 22. Remaining Open Decisions
 
