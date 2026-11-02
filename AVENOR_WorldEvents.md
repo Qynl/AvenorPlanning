@@ -12,7 +12,72 @@ AVENOR has three distinct event layers:
 
 Calendar events can combine all three layers, but the global transformation is the defining feature of major seasonal events.
 
-## 2. Global transformation rules
+
+## 2. Admin-triggered and live operations events
+
+**Admin Events** are manually started by authorised developers or event staff. They can happen without a calendar date and may be announced, partially announced or a complete surprise. An admin event can run across every live Open World server, a selected world pool, or one clearly labelled showcase server.
+
+### Admin event examples
+
+- **WORLD SHIFT:** The active region transitions into a different approved world while a live announcement explains the change.
+- **METEOR WATCH:** A meteor shower crosses the sky. Players can visit impact sites to investigate strange materials and environmental clues. No unavoidable map-wide damage.
+- **ANOMALY BREACH:** Strange energy appears at selected landmarks, temporarily changing lighting, sounds, NPC behaviour and access to hidden rooms.
+- **TITAN SIGHTING:** A huge neutral creature or machine can be seen moving in the far distance. Players follow its route and discover traces; it is a spectacle and exploration event, not a forced boss fight.
+- **SUPPLY SURGE:** Several temporary supply stations appear across the region with balanced, capped event rewards. No exclusive permanent weapon unlocks.
+- **FACTION MOBILISATION:** NPC groups move in large numbers and establish temporary camps or checkpoints, changing routes and local encounters.
+- **SKYFALL:** The sky, clouds and lighting shift into a dramatic event state, with unusual objects or signals appearing at distant landmarks.
+- **WORLDWIDE HIDE & SEEK:** A harmless community-wide search begins, with clues placed across the map and a shared progress tracker.
+- **ADMIN SHOWCASE:** Developers demonstrate a new map area, NPC, vehicle, weapon cosmetic or upcoming feature in a controlled public event.
+- **CHAOS HOUR:** A short, playful ruleset changes selected world properties, such as low gravity in marked zones, unusual jump pads or altered vehicle handling. Keep it opt-in or clearly signposted and never alter core controls unexpectedly.
+
+### Admin event controls and safeguards
+
+- Only authenticated, permission-checked staff accounts can start, stop, schedule or modify events. Never trust a client-side admin button or user-submitted role flag.
+- Use a tiered permission model: moderators can start approved presets; senior event staff can schedule larger events; only trusted developers can publish new global world-state packages or override production rotation.
+- Every action is logged with actor, timestamp, event ID, target scope and before/after state. Logs are append-only for review.
+- Admins choose a predefined event preset and scope. Production commands should not allow arbitrary code execution or unrestricted edits to player data.
+- Include a preview/test-server option, confirmation for global actions, a maximum duration, cooldowns and an immediate safe-stop/rollback.
+- A global admin event must use the same server-authoritative schedule and transition rules as scheduled events. All targeted servers receive the same event version.
+- Admins cannot grant themselves or players unbounded currency, exclusive gameplay power or permanent weapon ownership through event controls. Rewards use the normal server-validated reward pipeline.
+- Never force-teleport players into danger, erase progress, change ownership, or interrupt a competitive match. Clearly communicate event scope and whether participation is optional.
+- If a command fails or the event package is unavailable, return to the last known safe world state and record the failure.
+
+## 3. Additional event families
+
+These broaden the live calendar beyond seasonal transformations and small local incidents.
+
+### Community-wide goals
+Players across all servers contribute to one shared target, such as documenting wildlife, restoring a research station, mapping unexplored sites or delivering supplies. Progress is aggregated server-side and rewards are granted only after validated contributions. The goal should remain achievable for players who join late.
+
+### World discovery campaigns
+A chain of clues appears over several days. Each stage reveals a new location, story fragment or hidden route. Different servers share the same campaign stage so the community can compare discoveries without requiring everyone online simultaneously.
+
+### World emergencies
+A region-wide situation changes NPC routines and available routes: a major communications outage, evacuation drill, infrastructure failure, flood warning or containment alert. These should create exploration and cooperation, not unavoidable damage or forced combat.
+
+### Developer live showcases
+A scheduled or surprise session where developers reveal a new region, feature, cosmetic collection or upcoming update. It can include a temporary exhibit, guided NPC tour, live Q&A area or playable preview. The showcase must not grant gameplay advantages unavailable elsewhere.
+
+### Creator and community takeovers
+A moderated community spotlight can feature approved map photography, player discoveries, fan-made banners or creator-hosted challenges. Submissions need moderation and privacy safeguards; never display unreviewed player text globally.
+
+### Milestone celebrations
+A game-wide visit, update, community exploration or anniversary milestone can trigger a shared visual celebration, archive exhibit or temporary activity. Milestones should not depend on artificial login pressure.
+
+### Weather and sky incidents
+Short-lived world states such as auroras, meteor showers, eclipses, unusual cloud formations, heavy rain or rare fog banks. They can be atmospheric-only or reveal optional discoveries, with visibility and accessibility kept fair.
+
+### Exploration races and scavenger hunts
+Optional timed routes, landmark photography challenges, clue hunts and multi-stop discovery trails. Leaderboards should reward completion and route variety, not exploit-prone endless repetition.
+
+### Social world gatherings
+Temporary concerts, vehicle meets, exhibitions, public games, travelling shows and community meetups. Provide multiple gathering points and activities so the entire server does not bottleneck into one tiny area.
+
+### Competitive pop-up events
+Short tournaments, weapon-restriction playlists, map-specific cups, team challenges and experimental objective rules. These remain in dedicated competitive servers and never alter Open World weapon ownership.
+
+## 4. Global transformation rules
+
 
 - A major Global World Event owns the active Open World state for its duration. It is not merely a set of decorations placed over the normal map.
 - A global event may select a different region from the normal rotation. The event's world selection takes priority over the regular rotation schedule.
@@ -28,7 +93,7 @@ Calendar events can combine all three layers, but the global transformation is t
 - Every transformation needs a mobile/server performance budget, moderation review, fallback state and tested transition path.
 - Use UTC timestamps on the server and localised dates in the UI.
 
-## 3. Year-round event catalogue
+## 5. Year-round event catalogue
 
 These events can run at any time of year, subject to cooldowns and schedule variety. Most are Local World Events or Competitive Events, not full global transformations.
 
@@ -122,7 +187,7 @@ A compact FFA playlist uses night-lit arenas with alternate routes and visibilit
 Small teams compete in short elimination rounds with limited or no respawns, depending on the tested ruleset. There is no Open World loot loss.
 **Changes:** squad queue, round structure, spectator flow and compact maps.
 
-## 4. Calendar-wide world transformations
+## 6. Calendar-wide world transformations
 
 These are the major seasonal experiences. Each one should make the active world feel genuinely different from the normal version. Windows and exact dates are proposals.
 
@@ -182,7 +247,7 @@ These are the major seasonal experiences. Each one should make the active world 
 **World selection:** Any region can host the anniversary state.
 **Changes:** region-wide anniversary dressing, landmark lighting, archive interiors, returning props/NPCs, community progress and commemorative cosmetics.
 
-## 5. Seasonal world compatibility
+## 7. Seasonal world compatibility
 
 | Event | Preferred world treatment | Rotation rule |
 |---|---|---|
@@ -195,7 +260,7 @@ These are the major seasonal experiences. Each one should make the active world 
 | HARVEST CIRCUIT | Full autumn foliage/weather state | Most regions eligible |
 | AVENOR REUNION | Anniversary state across the full region | Any region |
 
-## 6. Scheduling and transitions
+## 8. Scheduling and transitions
 
 - At most one major Global World Event controls the Open World at a time.
 - A Global World Event can take priority over the normal region rotation and define its own eligible world pool.
@@ -205,11 +270,11 @@ These are the major seasonal experiences. Each one should make the active world 
 - When the event ends, transition to the next scheduled normal region at a safe server boundary. Do not delete player discoveries or permanent ownership.
 - Keep quiet gaps between major events so the world can breathe. Avoid exact-hour participation requirements.
 
-## 7. Event data model
+## 9. Event data model
 
 Each event definition should contain:
 - stable eventId and version
-- category: GlobalWorld, LocalWorld, Competitive or Social
+- category: GlobalWorld, LocalWorld, Competitive, AdminTriggered or Social
 - startUtc and endUtc
 - eligibleWorldIds and excludedWorldIds
 - global world-state package/version and transformation profile
@@ -222,7 +287,7 @@ Each event definition should contain:
 
 Server schedule is authoritative. A match snapshots its rules at creation. An Open World server snapshots its global event and world-state package at startup or a safe transition point.
 
-## 8. Build and release priority
+## 10. Build and release priority
 
 Prototype in this order:
 1. **WINTERLIGHT world-state prototype:** prove that one complete region can become a convincing winter/Arctic version without rebuilding the whole map from scratch.
@@ -232,6 +297,6 @@ Prototype in this order:
 
 Do not build all seasonal variants before one region has passed performance and visual-quality tests.
 
-## 9. Open decisions
+## 11. Open decisions
 
 Exact dates, durations, event rewards, featured winter-world pool, world transition timing, number of seasonal variants per region, event rerun policy and final cadence remain proposals until tested.
