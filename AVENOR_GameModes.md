@@ -1,311 +1,105 @@
-# AVENOR — Game Modes & Match Rules
-
-> **Status: Proposed for approval.** This document establishes the first mode roster and draft rules. The player counts, score limits, round counts, and target durations below are starting values for playtesting, not locked balance decisions. AVENOR ORIGIN is the signature original mode and requires its own focused prototype.
-
-## 1. Mode Design Principles
-
-Every mode must have:
-- A clear objective that players can understand quickly.
-- A distinct reason to exist; avoid modes that differ only by a small score-limit change.
-- A match length that respects players' time while allowing comebacks.
-- Fair spawn, respawn, and overtime rules.
-- A HUD that makes the current objective and win condition obvious.
-- Maps designed or adapted specifically for its player count and objective.
-
-The initial playlist should offer both familiar FPS formats and original AVENOR identity. The classic modes provide immediate familiarity; AVENOR ORIGIN should become the signature experience.
-
-## 2. Initial Mode Roster
-
-All values in this table are **proposed**.
-
-| Mode | Players | Format | Win condition | Target duration |
-|---|---:|---|---|---:|
-| DUEL | 1v1 | Round-based | First to 5 round wins | 5–8 min |
-| DUOS | 2v2 | Round-based | First to 5 round wins | 6–9 min |
-| TEAM DEATHMATCH | 4v4 | Continuous respawn | First to 50 team eliminations | 6–8 min |
-| FREE FOR ALL | 8 players | Continuous respawn | First to 25 eliminations | 5–7 min |
-| HARDPOINT | 4v4 | Continuous respawn | First to 150 objective points | 7–9 min |
-| CAPTURE THE FLAG | 4v4 | Continuous respawn | First to 3 captures | 7–10 min |
-| AVENOR ORIGIN | 4v4 | Continuous objective | Complete the Origin objective's scoring condition | 8–10 min |
-
-Target durations are goals, not hard guarantees. Actual match lengths depend on map size, player skill, objective pace, and playtesting.
-
-## 3. Shared Match Rules
-
-### Match start
-1. Players are assigned to the match and mode.
-2. Teams and starting sides are assigned where applicable.
-3. Players receive their permitted loadouts.
-4. A short pre-match countdown gives players time to orient themselves.
-5. The server starts the match and enables the mode's scoring rules.
-
-### Match end
-- The server determines the winner from the mode's defined win condition.
-- If the timer expires, the mode's time-expiry rule decides the result.
-- A tie triggers the mode's overtime rule where one is defined.
-- Results and rewards are recorded once by the server.
-
-### Respawns and round resets
-- Round-based modes: eliminated players remain out until the round ends.
-- Continuous modes: eliminated players respawn after a mode-specific delay.
-- Respawn locations must avoid obvious immediate line-of-sight eliminations where practical.
-- Spawn protection, if used, must be brief and end when the player attacks.
-- Exact respawn delays and spawn logic must be tuned per map and mode.
-
-### Loadouts
-- Players use their selected loadout unless a mode-specific restriction is clearly stated.
-- Loadout changes are allowed between rounds in round-based modes, unless competitive testing identifies a reason to restrict them.
-- Mid-match weapon pickups follow the shared pickup rules and cannot silently replace the player's Ability slot.
+# AVENOR — Competitive Game Modes & Match Rules
 
-## 4. Classic Modes
+> **Scope:** This document covers the separate match-based competitive playlists selected from the AVENOR home screen. It does not define the rotating Open World. The Open World is the primary sandbox experience; its four-day map rotation is a world event, not a mode.
 
-### 4.1 DUEL
+## 1. Relationship to the Open World
 
-- **Players:** 1v1.
-- **Format:** Round-based.
-- **Proposed win condition:** First player to win 5 rounds.
-- **Round length:** 90 seconds maximum.
-- **Round objective:** Eliminate the opponent. If time expires, the player with more remaining health wins the round.
-- **Respawns:** None during a round.
-- **Overtime:** If both players have equal health when time expires, a short sudden-death extension begins. If still tied, use a clearly communicated neutral tiebreak rule rather than an arbitrary winner.
-- **Target match length:** 5–8 minutes.
+- Players can enter the active Open World or queue for a competitive playlist from the home screen.
+- Competitive modes use the player's permanently unlocked weapons and configured loadouts.
+- **Weapons are discovered/unlocked in the Open World only.** Competitive matches never grant weapon unlocks.
+- Competitive modes may award account XP, weapon mastery, competitive rank, achievements and cosmetics.
+- Weapon ownership is never lost through competitive match results.
+- Core movement, weapon identity, input and readability should remain consistent between Open World and competitive modes.
 
-DUEL is the cleanest test of aim, movement, weapon knowledge, and individual decision-making.
+## 2. Playlist principles
 
-### 4.2 DUOS
+Every mode needs:
+- A clear objective and win condition.
+- A reason to exist beyond a minor score-limit variation.
+- Fair spawns and understandable match flow.
+- Match lengths that respect players' time.
+- Readable HUD and audio cues.
+- Maps designed for its player count and format.
+- A plan for ranked eligibility, if applicable.
 
-- **Players:** 2v2.
-- **Format:** Round-based.
-- **Proposed win condition:** First team to win 5 rounds.
-- **Round length:** 100 seconds maximum.
-- **Round objective:** Eliminate the opposing team.
-- **Respawns:** None during a round.
-- **Overtime:** If the round timer expires with players alive on both teams, the team with more combined remaining health wins. If tied, use a short sudden-death extension.
-- **Target match length:** 6–9 minutes.
+The initial playlist remains a proposed set, not a locked release promise.
 
-DUOS should reward coordination without making either player feel like a passenger.
+## 3. Proposed initial roster
 
-### 4.3 TEAM DEATHMATCH
+| Mode | Players | Format | Win condition (prototype target) |
+|---|---:|---|---|
+| DUEL | 1v1 | Round-based | First to 5 round wins |
+| DUOS | 2v2 | Round-based | First to 5 round wins |
+| TEAM DEATHMATCH | 4v4 | Respawn | First to 50 team eliminations |
+| FREE FOR ALL | 8 | Respawn | First to 25 eliminations |
+| HARDPOINT | 4v4 | Objective | First to 150 objective points |
+| CAPTURE THE FLAG | 4v4 | Objective | First to 3 captures |
+| AVENOR ORIGIN | 4v4 | Two-stage objective | Complete the two-stage world-control objective |
 
-- **Players:** 4v4.
-- **Format:** Continuous respawn.
-- **Proposed win condition:** First team to 50 eliminations, or the team with the higher score when the timer expires.
-- **Time limit:** 8 minutes.
-- **Respawn delay:** Proposed 3 seconds.
-- **Overtime:** If tied at the time limit, the next team elimination wins.
-- **Target match length:** 6–8 minutes.
+Player counts, score limits and target durations are initial test values. The original AVENOR ORIGIN concept may be retained for testing, but it must earn its place through playtests rather than being assumed as a final signature mode.
 
-TDM is the straightforward team-combat mode. It should be the easiest mode to understand and a reliable warm-up playlist.
+## 4. Shared match rules
 
-### 4.4 FREE FOR ALL
+- Server owns match state, timer, score, eliminations, objective state and results.
+- Loadouts are selected before queueing and locked at match start unless the mode explicitly permits changes.
+- Only owned weapons may be equipped.
+- No weapon unlocks are granted by match completion.
+- Rewards are previewed and clearly separated into account XP, mastery, rank and cosmetics.
+- Players can leave a match, but progression and penalties must follow clear fair-play rules.
+- Reconnect behaviour and late-join rules are defined per mode.
+- All modes must support accessible controls and clear feedback.
 
-- **Players:** 8.
-- **Format:** Continuous respawn.
-- **Proposed win condition:** First to 25 eliminations, or the highest score when the timer expires.
-- **Time limit:** 7 minutes.
-- **Respawn delay:** Proposed 3 seconds.
-- **Overtime:** If tied, the next elimination by a tied player wins.
-- **Target match length:** 5–7 minutes.
+## 5. Mode-specific notes
 
-FFA maps need multiple routes and spawn protection against immediate repeat encounters. Spawn selection must avoid repeatedly placing players in the same fight.
+### DUEL
+Small, focused 1v1 combat. Prioritise clean sightlines, fair starts and short downtime between rounds.
 
-### 4.5 HARDPOINT
+### DUOS
+2v2 round-based combat. Team coordination matters, but individual movement and weapon skill remain important.
 
-- **Players:** 4v4.
-- **Format:** Continuous respawn.
-- **Proposed win condition:** First to 150 objective points, or the higher score when the time limit expires.
-- **Time limit:** 9 minutes.
-- **Objective:** One active zone awards points while controlled. The zone changes location on a predictable, clearly announced schedule.
-- **Respawn delay:** Proposed 4 seconds.
-- **Overtime:** If tied, the next team to score objective progress wins.
-- **Target match length:** 7–9 minutes.
+### TEAM DEATHMATCH
+Continuous respawn team combat. Spawn safety and anti-spawn-trap design are critical.
 
-The active zone rotation must be learnable and fair. Maps need multiple approaches and enough room to contest without creating unavoidable spawn traps.
+### FREE FOR ALL
+Every player competes individually. The map must avoid dominant camping positions and repeated spawn eliminations.
 
-### 4.6 CAPTURE THE FLAG
+### HARDPOINT
+Teams contest a rotating objective. Objective movement and score state must be visible and consistent.
 
-- **Players:** 4v4.
-- **Format:** Continuous respawn.
-- **Proposed win condition:** First to 3 captures, or the team with more captures when the timer expires.
-- **Time limit:** 10 minutes.
-- **Objective:** Take the enemy flag and return it to the team's own base while the home flag is secured.
-- **Respawn delay:** Proposed 4 seconds.
-- **Overtime:** If tied, play a short sudden-death period; the first valid capture wins.
-- **Target match length:** 7–10 minutes.
+### CAPTURE THE FLAG
+Teams retrieve and return the opposing flag. Flag carrier information, return rules and overtime must be explicit.
 
-Flag status must be visible to both teams. The map must support attacking, defending, and alternate routes without allowing one side to trap the flag carrier indefinitely.
+### AVENOR ORIGIN
+Retain as an experimental original mode concept: a two-stage objective involving activation of a central Core and a subsequent claim phase. It remains experimental until a focused prototype proves it is fun, readable and distinct.
 
-## 5. Signature Original Mode: AVENOR ORIGIN
+## 6. Ranked and casual
 
-<badge>Flagship mode concept</badge>
+- Casual playlists prioritise fast access and experimentation.
+- Ranked uses a clearly defined competitive rating system and stable rules.
+- Rank is separate from account level and weapon mastery.
+- No rank tier grants combat power or exclusive weapon statistics.
+- Seasonal ranked rewards are cosmetic or recognition-based.
+- Do not force Open World participation to queue for an already-unlocked weapon; players simply use their current collection.
 
-- **Players:** 4v4.
-- **Format:** Continuous match with a two-stage evolving objective.
-- **Target duration:** 8–10 minutes.
-- **Respawn delay:** Proposed 4 seconds.
-- **Proposed win condition:** First team to secure 3 ORIGIN claims, or the team with more claims when the match timer expires.
-- **Time limit:** Proposed 9 minutes.
-- **Status:** The direction is approved; the rules below are a complete prototype proposal, not locked balance.
+## 7. Competitive maps
 
-### 5.1 Core identity
+Competitive maps are purpose-built compact arenas. They are not the large Open World regions and do not follow the four-day world rotation.
 
-Both teams compete to awaken the central ORIGIN structure, then convert that control into a claim at one of two exposed claim sites.
+The world collection in `AVENOR_Worlds.md` and competitive arena map design in `AVENOR_Maps.md` must remain clearly distinguished. A world region may inspire a competitive arena, but it is not automatically reused as one.
 
-The mode has two linked stages:
+## 8. Prototype priorities
 
-1. **AWAKEN:** Win control of the central ORIGIN to activate it.
-2. **CLAIM:** Choose one of two revealed claim sites and hold it long enough to secure a point.
+1. DUEL using a small subset of Open World-discovered weapons.
+2. TDM to test respawn flow and team HUD.
+3. One objective mode.
+4. Test loadout parity and ammunition rules.
+5. Test ranked only after casual match quality is stable.
 
-The team must win the centre fight and then make a second decision about where to commit. Simply standing on one objective for the whole match is not enough.
+## 9. Open decisions
 
-### 5.2 Arena layout
-
-An ORIGIN map is built around three objective spaces:
-
-- **The Core:** A central, highly visible structure where each cycle begins.
-- **Claim Site A:** One possible claim location on a different route from the Core.
-- **Claim Site B:** A second possible claim location, offering a distinct approach and defensive shape.
-
-The two claim sites should not be identical rooms mirrored beside the Core. They should create different route choices, sightlines, cover patterns, and rotation times while remaining equally viable.
-
-Only one claim site is active during a claim phase. The inactive site remains visible but cannot be captured.
-
-### 5.3 Stage One: AWAKEN
-
-- The Core begins each cycle neutral.
-- A team starts awakening it by establishing control in the Core zone.
-- Control is determined by team presence: a team must have more players inside the zone than the opponent.
-- Equal presence, or no players inside, contests or pauses progress.
-- The awakening meter fills over a proposed **10 seconds of uncontested control**. Progress is paused while contested.
-- If the opposing team gains control, the meter begins moving toward neutral after a proposed **3-second grace period**. This prevents a tiny interruption from erasing an earned advantage while still allowing a real retake.
-- The team that completes the awakening chooses which of the two claim sites becomes active.
-
-The HUD must show the awakening meter, which team currently controls the Core, and whether progress is filling, paused, or returning to neutral.
-
-### 5.4 Stage Two: CLAIM
-
-After the Core is awakened:
-
-- Both claim sites are revealed as possible destinations.
-- The team that awakened the Core chooses Site A or Site B. The choice is made through a clear, short interaction or automatic selection if no choice is made before the selection timer expires.
-- The selected site becomes the active Claim Site for both teams.
-- The activating team must rotate from the Core and establish control at the selected site.
-- A proposed **8 seconds of uncontested control** secures one claim for that team.
-- Opponents can stop the claim by entering the zone and matching or exceeding the attacking team's presence.
-- If the site is empty or contested, claim progress pauses. If the defending team takes control, claim progress returns toward zero after a proposed **3-second grace period**.
-- Once a claim is secured, the structure resets and a new cycle begins after a short, clearly signalled transition.
-
-The team that awakened the Core does not automatically receive the point. It must successfully convert its advantage at the chosen site.
-
-### 5.5 Scoring, match end, and overtime
-
-- Each successful Claim awards **1 point**.
-- First team to **3 points** wins immediately.
-- If the 9-minute timer expires, the team with more claims wins.
-- If tied when time expires, the match enters **sudden-death ORIGIN**:
-  - The Core immediately begins a final neutral cycle.
-  - The first team to awaken the Core and complete a Claim wins.
-  - The normal two-stage rules remain active; there is no instant point for simply touching the Core.
-- If neither team completes a Claim before the sudden-death limit, the match continues in short, clearly announced extensions until a valid Claim is completed. The exact extension length is a playtest value.
-
-### 5.6 Respawns and transitions
-
-- Proposed respawn delay: **4 seconds**.
-- Respawns remain enabled during both objective stages.
-- Spawn selection must consider the active stage and avoid placing a player directly inside an active enemy-controlled zone or in immediate unavoidable line of sight.
-- After a point, players receive a short transition signal before the next Core cycle begins.
-- The next cycle starts neutral. No awakening or claim progress carries over.
-- The previous scoring team does not receive a hidden advantage in the next cycle.
-- Loadout changes are not allowed during an active cycle; use the normal mode loadout-change window between cycles only if testing shows it is needed.
-
-### 5.7 Counterplay and fairness rules
-
-- Both teams can contest either stage. The mode must never lock the losing team out of interacting with the objective.
-- The chosen Claim Site is announced to both teams immediately. Site selection is a strategic commitment, not hidden information.
-- The two claim sites must be balanced for travel time from the Core and must not create a guaranteed win for one side.
-- Objective zones must be large and clearly marked enough to avoid confusing edge cases.
-- Players outside the zone cannot contribute to objective control.
-- Multiple players from one team increase control presence only up to the team's player count; there are no extra hidden multipliers.
-- Objective progress is server-authoritative.
-- Visual and audio cues must clearly communicate Core control, site selection, claim progress, interruption, and scoring.
-- Objective effects must not obscure players, crosshairs, or incoming threats.
-
-### 5.8 What makes ORIGIN distinct
-
-ORIGIN is not simply a moving Hardpoint:
-
-- **Two decisions per score:** First win the central fight, then choose where to convert it.
-- **Attacking choice:** The team that awakens the Core selects the next objective location.
-- **Defensive response:** The other team sees the selection and can rotate, intercept, or prepare a retake.
-- **Changing map pressure:** Each cycle shifts the fight between the centre and one of two different routes.
-- **No automatic score:** Winning the first fight creates an opportunity, not a guaranteed point.
-
-### 5.9 Prototype tuning checklist
-
-The first prototype should test:
-
-1. Whether 10 seconds to awaken and 8 seconds to claim create enough opportunity for both teams to respond.
-2. Whether the 3-second progress grace period feels fair or causes excessive progress loss.
-3. Whether choosing between two sites creates meaningful decisions.
-4. Whether either site is consistently safer, faster, or easier to defend.
-5. Whether 4-second respawns create constant action without making objective control meaningless.
-6. Whether a team that loses the Core fight still has a realistic chance to stop the Claim.
-7. Whether a full cycle takes an appropriate amount of time and the match reaches its target duration.
-8. Whether players understand the two stages without needing a long tutorial.
-
-Record cycle duration, successful and failed claims, site selection frequency, contest frequency, comeback rate, spawn fairness, and player understanding. Tune from playtest evidence rather than treating these numbers as final.
-
-
-## 6. Casual and Competitive Rules
-
-**Recommended direction:** Keep the core mechanics and win conditions the same in Casual and Competitive. Competitive should differ through matchmaking, ranked scoring, stricter match integrity, and carefully selected settings rather than a completely different version of the mode.
-
-Possible competitive-specific settings:
-- More consistent team balancing and party restrictions.
-- Stricter disconnect and remake rules.
-- Reduced randomness where it could undermine competitive integrity.
-- A defined map pool and map-veto process, if the ranked playlist needs it.
-- Clearer penalties for leaving ranked matches.
-
-Do not lengthen every competitive match automatically. Match duration should be based on the mode's pacing and tested player experience.
-
-## 7. Mode and Map Compatibility
-
-Not every map needs to support every mode.
-
-- DUEL maps should be compact, symmetrical or demonstrably fair, and designed for 1v1 sightlines and movement.
-- DUOS maps should support coordinated two-player pushes and readable routes.
-- TDM and FFA maps need safe spawn logic and enough route variety for continuous respawns.
-- HARDPOINT maps need carefully tested objective rotations and multiple approaches.
-- CTF maps need legible bases, viable attack routes, and meaningful defensive options.
-- ORIGIN maps should be designed around the evolving central structure and its surrounding decision space.
-
-Each map should list its supported modes. A mode should not be forced onto a map simply to increase the playlist count.
-
-## 8. Initial Playtest Priorities
-
-Test a small number of modes before implementing the entire playlist.
-
-1. **DUEL:** Validate core combat, round flow, and match reset.
-2. **TEAM DEATHMATCH:** Validate respawns, spawn fairness, team scoring, and match pacing.
-3. **AVENOR ORIGIN prototype:** Test whether its central mechanic is genuinely distinctive and understandable.
-4. **DUOS and objective classics:** Add once the shared systems are stable.
-
-Record match duration, score distribution, comeback frequency, spawn fairness, objective participation, and player understanding. Adjust proposed values from actual playtests rather than treating this draft as final balance.
-
-## 9. Decisions and Status
-
-### Confirmed direction
-- AVENOR will include both familiar classic modes and original modes.
-- **AVENOR ORIGIN** is the name of the signature original mode.
-- AVENOR ORIGIN is team-based.
-- AVENOR ORIGIN uses 4v4.
-
-### Proposed, not yet locked
-- The initial mode roster in Section 2.
-- All player counts except AVENOR ORIGIN's 4v4.
-- All score limits, round counts, timers, respawn delays, and overtime rules.
-- The evolving central ORIGIN structure concept.
-- Shared Casual/Competitive core rules.
-
-Do not treat proposed numbers as final until approved and playtested.
+- Final mode roster and launch availability.
+- Exact player counts, score limits, round lengths and overtime.
+- Ranked mode selection.
+- Whether abilities are available in every competitive mode.
+- Final ammo behaviour for each mode.
+- Whether AVENOR ORIGIN survives prototype testing.

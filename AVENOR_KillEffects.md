@@ -1,3 +1,7 @@
+> **Current AVENOR integration rules (2026 direction):** Elimination effects remain cosmetic-only and persist permanently once owned. They may be earned through progression, discoveries, events, mastery or competitive rewards. They must remain readable in both Open World encounters and competitive modes, never hide nearby players or critical information, and must support reduced-effects settings. World rotation never removes them. The existing rarity hierarchy remains unchanged.
+
+---
+
 # AVENOR — Kill Effect Collection
 
 > 60 individual elimination effects, ranked across the same six rarity tiers as weapon skins. Kill effects trigger only after an elimination and are cosmetic presentation, never gameplay advantages.

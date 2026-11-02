@@ -1,3 +1,7 @@
+> **Current AVENOR integration rules (2026 direction):** This catalogue remains the source library for weapon identities and designs. It is not a claim that the entire roster ships at launch. **Every permanent weapon unlock is earned through discovery in the Open World only.** Competitive matches use weapons the player already owns and never grant new weapon unlocks. Discovered weapons remain permanently owned across death, disconnects, world rotations and seasons. The new ammunition concept uses a loaded magazine, quick-access spare magazine(s), and a slower backpack resupply reload; exact values remain TBD per weapon. All weapon designs must work with fast movement and must not require stamina. If any old section implies that competitive match completion unlocks weapons, this current rule supersedes it.
+
+---
+
 # AVENOR — Weapon Design
 
 > This document owns the weapon roster and individual weapon designs. Accepted concepts are marked **Accepted**. Proposed concepts are marked **Proposed**. Prototype values are not final balance values.

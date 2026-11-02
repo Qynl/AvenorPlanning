@@ -1,3 +1,7 @@
+> **Current AVENOR integration rules (2026 direction):** Emotes are permanent cosmetic ownership and remain available through every world rotation. They can be used in the home screen and suitable social/safe spaces. During Open World or competitive gameplay they must be interruptible and must never grant invulnerability, hide a character, alter collision or create a combat advantage. Seasonal events may add emotes, but event rewards need a fair return path. The existing six-tier rarity hierarchy remains unchanged.
+
+---
+
 # AVENOR — Emote Collection
 
 > 60 individual character emotes, ranked across the same six rarity tiers as weapon skins, kill effects and win effects. Emotes are expressive character animations for the lobby, social spaces and permitted match moments.

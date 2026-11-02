@@ -1,3 +1,7 @@
+> **Current AVENOR integration rules (2026 direction):** All owned weapon skins remain permanently owned through world rotation, seasonal changes, death and competitive results. Weapon skins are attached to their specific weapon and never grant concealment, hitbox, visibility, handling or statistical advantages. Cosmetics may be earned through Open World discoveries, exploration journal milestones, seasonal events, account progression, weapon mastery or competitive rewards. Competitive modes never unlock weapons, but may award cosmetics. The existing rarity hierarchy remains Commonplace, Altered, Evolved, Ascendant, Extraordinary and Singular. This catalogue is a content library; it is not a promise that every skin ships at launch.
+
+---
+
 # AVENOR — Individual Weapon Skin Collection
 
 > **Roster status:** Cosmetics for the 40 active firearms remain active launch candidates. Cosmetics attached to archived firearm concepts are retained below for reference but are **archive-only**, not launch unlocks. Utility and melee cosmetics remain active unless their weapon entry says otherwise.

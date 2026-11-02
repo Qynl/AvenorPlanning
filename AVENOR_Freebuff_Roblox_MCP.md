@@ -1,3 +1,7 @@
+> **Project direction note:** This file documents the optional development connection between Freebuff Desktop and Roblox Studio. It does not define gameplay. The current AVENOR design is a rotating Open World shooter sandbox with permanent weapon discoveries and separate competitive playlists. Use the current technical and roadmap documents when building features. Only work in the Roblox Studio project/place the user has explicitly opened and connected; do not infer permission to access unrelated files, accounts or devices.
+
+---
+
 # AVENOR — Freebuff + Official Roblox Studio MCP Setup
 
 This guide explains how to connect **Freebuff Desktop** to the **official MCP server built into Roblox Studio** on Windows.

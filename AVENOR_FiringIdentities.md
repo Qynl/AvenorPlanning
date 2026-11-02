@@ -1,3 +1,7 @@
+> **Current AVENOR integration rules (2026 direction):** These rebuilt firing identities remain the authoritative mechanical design library for the active firearm concepts. They must support both the Open World and separate competitive playlists. Weapon unlocks are granted only through Open World discovery; competitive modes use already-owned weapons and never unlock them. The new magazine/backpack reload concept must be applied per weapon without flattening its unique firing identity. Exact reload values are TBD and must be tested. Fast movement has no stamina dependency.
+
+---
+
 # AVENOR — Complete Firearm Rebuild
 
 > **Status: New design foundation.** This document replaces every previous firing identity for the 40 active firearms. The old concepts are superseded, not layered on top. Weapon names and catalogue IDs are retained for continuity; their mechanics, firing loops, weapon actions, and gameplay identities are rebuilt here.

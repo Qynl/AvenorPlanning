@@ -1,3 +1,7 @@
+> **Current AVENOR integration rules (2026 direction):** Victory effects remain cosmetic-only and persist permanently once owned. They apply to competitive match results and any suitable future world-event celebration, never to ordinary live combat. They must be skippable or reducible and must not delay players unnecessarily. World rotation never removes them. The existing rarity hierarchy remains unchanged.
+
+---
+
 # AVENOR — Win Effect Collection
 
 > 60 individual victory effects, ranked across the same six rarity tiers as weapon skins and kill effects. Win effects celebrate the winning player or team after the match is decided. They are cosmetic presentation only.

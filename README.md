@@ -1,50 +1,67 @@
 # AVENOR Planning
 
-The central planning repository for **AVENOR**, a competitive Roblox FPS built around distinctive weapons, expressive movement, tactical abilities, readable arenas, and a long-term mastery and ranked ecosystem.
+> **Current direction: persistent-progression, rotating-world multiplayer shooter sandbox.** This repository is the design source of truth for AVENOR. It is a planning repository, not a claim that any Roblox systems are already implemented.
 
 ## Start here
 
-1. **[AVENOR_Main.md](AVENOR_Main.md)** — the canonical high-level game design and current project overview.
-2. **[AVENOR_Roadmap.md](AVENOR_Roadmap.md)** — milestone order, dependencies, and definition of done.
-3. **[AVENOR_Technical.md](AVENOR_Technical.md)** — proposed Roblox architecture and implementation plan.
+1. **[AVENOR_Main.md](AVENOR_Main.md)** — canonical game identity and high-level rules.
+2. **[AVENOR_Worlds.md](AVENOR_Worlds.md)** — the proposed ten-world collection.
+3. **[AVENOR_WorldEvents.md](AVENOR_WorldEvents.md)** — four-day world rotation, seasonal transformations and event rules.
+4. **[AVENOR_NPCs.md](AVENOR_NPCs.md)** — world population and NPC behaviours.
+5. **[AVENOR_Roadmap.md](AVENOR_Roadmap.md)** — practical development milestones.
+6. **[AVENOR_Technical.md](AVENOR_Technical.md)** — Roblox architecture and implementation plan.
 
-## Core gameplay
+## Core game
 
-- [AVENOR_Gameplay.md](AVENOR_Gameplay.md) — movement, combat, health, weapon handling, pickups, match flow, HUD requirements, and first playable scope.
-- [AVENOR_Weapons.md](AVENOR_Weapons.md) — weapon catalogue, active/archive status, and proposed prototype combat stats.
-- [AVENOR_FiringIdentities.md](AVENOR_FiringIdentities.md) — the 40 active firearms' distinct projectile and firing behaviours.
-- [AVENOR_Abilities.md](AVENOR_Abilities.md) — 50 curated player ability concepts and proposed prototype specifications.
-- [AVENOR_GameModes.md](AVENOR_GameModes.md) — DUEL, DUOS, TEAM DEATHMATCH, FREE FOR ALL, HARDPOINT, CAPTURE THE FLAG, and AVENOR ORIGIN.
-- [AVENOR_Maps.md](AVENOR_Maps.md) — map design standards and the eight-map concept roster.
-- [AVENOR_MapLayouts.md](AVENOR_MapLayouts.md) — proposed greybox footprints, route structures, spawn regions, pickups, and mode overlays for all eight maps.
+- [AVENOR_Gameplay.md](AVENOR_Gameplay.md) — open-world loop, movement, combat, weapon handling, ammunition, interaction and first playable.
+- [AVENOR_GameModes.md](AVENOR_GameModes.md) — separate competitive playlists. Weapons are discovered/unlocked in the Open World, never by completing competitive matches.
+- [AVENOR_Maps.md](AVENOR_Maps.md) — world-building standards.
+- [AVENOR_MapLayouts.md](AVENOR_MapLayouts.md) — high-level region layouts and greybox planning.
+- [AVENOR_Loadout_UI.md](AVENOR_Loadout_UI.md) — home screen, loadouts, arsenal and navigation.
+- [AVENOR_HUD_Audio.md](AVENOR_HUD_Audio.md) — world HUD, combat HUD, controls, audio and accessibility.
+
+## Weapons and abilities
+
+- [AVENOR_Weapons.md](AVENOR_Weapons.md) — weapon catalogue and individual designs.
+- [AVENOR_FiringIdentities.md](AVENOR_FiringIdentities.md) — rebuilt active firearm identities.
+- [AVENOR_Abilities.md](AVENOR_Abilities.md) — player ability concepts and prototype specifications.
 
 ## Progression and presentation
 
-- [AVENOR_Progression.md](AVENOR_Progression.md) — account XP, unlocks, weapon mastery, ranked, seasons, currencies, challenges, and recommended economy values.
-- [AVENOR_Cosmetics.md](AVENOR_Cosmetics.md) — individual weapon skins. The 80 active firearm skins are aligned to the new launch firing identities; archived firearm skins are reference-only.
-- [AVENOR_KillEffects.md](AVENOR_KillEffects.md) — elimination effect collection.
-- [AVENOR_WinEffects.md](AVENOR_WinEffects.md) — victory effect collection.
-- [AVENOR_Emotes.md](AVENOR_Emotes.md) — character emote collection.
-- [AVENOR_Presentation.md](AVENOR_Presentation.md) — MVP selection and showcases, elimination announcements, banners, titles, and profile showcases.
-- [AVENOR_HUD_Audio.md](AVENOR_HUD_Audio.md) — HUD, controls, cross-platform input, audio direction, music, and accessibility.
+- [AVENOR_Progression.md](AVENOR_Progression.md) — permanent account progression, weapon discovery, mastery, rank and economy.
+- [AVENOR_Cosmetics.md](AVENOR_Cosmetics.md) — individual weapon skins.
+- [AVENOR_Emotes.md](AVENOR_Emotes.md) — emotes.
+- [AVENOR_KillEffects.md](AVENOR_KillEffects.md) — elimination effects.
+- [AVENOR_WinEffects.md](AVENOR_WinEffects.md) — victory effects.
+- [AVENOR_Presentation.md](AVENOR_Presentation.md) — player identity, banners, titles, MVP and profile presentation.
 
-## Development setup and integrations
+## Development and integrations
 
-- [AVENOR_Freebuff_Roblox_MCP.md](AVENOR_Freebuff_Roblox_MCP.md) — setup guide for connecting Freebuff Desktop to the official Roblox Studio MCP server on Windows, including configuration, verification, troubleshooting, and safe workflow.
+- [AVENOR_Technical.md](AVENOR_Technical.md) — runtime architecture, persistence, networking, streaming and security.
+- [AVENOR_Roadmap.md](AVENOR_Roadmap.md) — milestones and quality gates.
+- [AVENOR_Freebuff_Roblox_MCP.md](AVENOR_Freebuff_Roblox_MCP.md) — optional Freebuff + Roblox Studio MCP workflow.
+- `assets/branding/` — existing AVENOR logo, hero banner and menu artwork.
+- `assets/ranks/` — existing rank emblem artwork.
 
-## Project-wide rules
+## Canonical project rules
 
-- **Status matters:** locked decisions are confirmed; proposed values are not final until approved and tested.
-- **Rarity hierarchy:** Commonplace → Altered → Evolved → Ascendant → Extraordinary → Singular.
-- **Cosmetics are cosmetic:** no cosmetic or progression reward may improve combat performance.
-- **Server authority:** competitive outcomes, ownership, progression, and rewards are validated by the server.
-- **Prototype before scale:** prove the core match loop and reusable systems before producing the full content roster.
+- AVENOR is a **large, modern, realistic-but-stylized multiplayer open-world shooter sandbox** with fast, expressive FPS movement.
+- The Open World is the primary shared experience. Players explore, discover, fight, interact with NPCs, take part in activities and encounter other players naturally.
+- Competitive modes remain available as separate match-based playlists from the main menu. They are not the Open World and do not replace it.
+- **Weapons are permanently unlocked through discovery in the Open World only.** Competitive matches may award rank progress, account XP, mastery and cosmetic rewards, but never weapon unlocks.
+- A discovered weapon stays in the player's collection permanently. Death, map rotation and competitive match results never remove it.
+- The active Open World rotates to a different map on a proposed four-day cycle. This rotation is a world event, not a game mode. Player progression is never reset.
+- The current map roster contains ten proposed worlds. Names, exact sizes, final order and rotation duration remain subject to approval and testing.
+- Movement has no stamina system. Sprinting is unrestricted; sliding, slide-jumping and responsive air control are core movement goals.
+- Ammunition is designed around reload timing and carried magazines, not long-term scarcity. See `AVENOR_Gameplay.md`.
+- No survival meters, permanent weapon loss, forced base-building, crafting tree or faction-war system is assumed. Those remain unapproved ideas unless explicitly added later.
+- The universal rarity hierarchy is **Commonplace, Altered, Evolved, Ascendant, Extraordinary, Singular**. Rarity never grants gameplay power.
+- Brand direction remains geometric modern typography, deep blue with soft violet accents, icon plus wordmark.
+- First-person during gameplay; third-person character presentation in the home screen and suitable social spaces.
 
-## Current planning status
+## Status language
 
-The design repository contains the full high-level game overview, gameplay and weapon rosters, ability concepts, mode rules, eight map concepts with proposed greybox layouts, progression/economy proposals, cosmetic collections, presentation requirements, HUD/audio requirements, technical architecture, and a development roadmap.
-
-This repository contains plans and specifications. It does **not** mean the Roblox experience or its systems have already been implemented. Proposed values still require approval, simulation, Studio implementation, and playtesting.
-
-
-**Weapon design direction:** AVENOR's long-term ambition is 167 genuinely distinct weapon experiences. The current foundation includes 40 completely rebuilt firearms; every rarity tier, including Commonplace, must deliver a memorable mechanic. See [AVENOR_FiringIdentities.md](AVENOR_FiringIdentities.md).
+- **Confirmed direction:** explicitly selected by the user.
+- **Current proposal:** a coherent design recommendation awaiting approval or playtesting.
+- **TBD:** intentionally unresolved. Do not silently turn it into a locked decision.
+- **Legacy catalogue:** existing detailed content retained for continuity; it must follow the current canonical rules above.

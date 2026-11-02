@@ -1,3 +1,7 @@
+> **Current AVENOR integration rules (2026 direction):** Abilities are part of the shared player combat kit for the Open World and eligible competitive playlists. They remain separate from weapon unlocks. No ability unlock may grant a weapon; all weapon ownership comes from Open World discovery. Abilities must work with unrestricted sprinting, jumping, sliding and slide-jumping, and must not depend on stamina. Cooldowns, clear activation feedback, counterplay and platform parity remain mandatory. This existing ability catalogue is a content library, not a promise that every entry ships at launch. The main game identity and shared rules in `AVENOR_Main.md` take precedence if any older wording conflicts.
+
+---
+
 # AVENOR — Player Abilities
 
 > **Roster status: 50 curated concepts.** This roster was rebuilt from a 100-concept evaluation pool. The target was not to keep 50 names; it was to keep 50 abilities with distinct, repeatable match value. The rejected half is recorded in the review section. The proposed prototype specifications are documented in Section 6. Values remain subject to playtesting.
