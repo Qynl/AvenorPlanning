@@ -33,50 +33,50 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 
 | ID | Weapon | Rarity | Signature experience |
 |---|---|---|---|
-| 001 | TAXMAN | Commonplace | Collectible impact stamps that can be cashed into a deliberate follow-up |
-| 002 | POCKET ROCKET | Commonplace | Shots that accelerate only while travelling through the player's marked wake |
-| 003 | DOORBELL | Commonplace | A surface-bouncing bell projectile that releases a timed radial pulse |
-| 004 | LONG STORY | Extraordinary | A charged rail lance that pierces targets and leaves a brief, visible afterline |
-| 005 | LOOSE CHANGE | Commonplace | A fan of metal tokens that orbit a chosen point before snapping outward |
-| 006 | THREE'S COMPANY | Commonplace | Three orbiting shots released one at a time by separate trigger taps |
-| 007 | LAWNMOWER | Altered | A low travelling blade-wave that climbs over small arena geometry |
-| 008 | RETURN TO SENDER | Evolved | A thrown disc whose return route is chosen by the player's movement |
-| 011 | DEAD WEIGHT | Altered | A heavy falling payload that creates a temporary low-gravity pocket |
-| 013 | CALL WAITING | Altered | A bolt that can be parked in flight and released later |
-| 014 | SHORT NOTICE | Evolved | A bolt that divides according to the direction it is struck from |
-| 015 | BAD NEIGHBOR | Commonplace | Surface pins that create a visible temporary rebound line |
-| 022 | LAST CALL | Evolved | A travelling sound-ring that expands, contracts, then expands again |
-| 023 | TWO CENTS | Commonplace | Two alternating shots with different paths that combine when timed |
-| 025 | HOLD MUSIC | Altered | A three-note sequence whose next projectile changes with the previous hit |
-| 026 | SPLIT DECISION | Evolved | A projectile that can be split manually into two controllable branches |
-| 028 | SLOW BURN | Altered | A plasma globule that changes shape and speed as it cools |
-| 033 | BOUNCER | Commonplace | A compressed-air ring that carries objects and players a short distance |
-| 038 | TIN CAN | Altered | A rolling puck that changes direction when struck again |
-| 039 | HOME RUN | Commonplace | A kinetic ball that grows its impact zone the longer it travels |
-| 041 | DOUBLE PARKED | Commonplace | Twin shots that begin apart and cross at a chosen distance |
-| 045 | CLEAN BREAK | Altered | A break-shell that fractures into a controllable arc of pieces on command |
-| 049 | HIGH HORSE | Evolved | A projectile that climbs vertically before the player redirects its descent |
-| 053 | DOUBLE TAKE | Altered | A delayed copy that repeats the first projectile's path with a visible offset |
-| 055 | BAD TIMING | Commonplace | A shot that must be released on a moving timing window for its full pattern |
-| 059 | SHORT FUSE | Evolved | Two linked charges that share one countdown and can exchange positions |
-| 064 | BULLPEN | Altered | A braced multi-shot fan whose shape is set by the player's movement |
-| 069 | WIDE OPEN | Commonplace | A broad horizontal wave that folds inward at its maximum range |
-| 074 | OVERHEAD | Altered | A lobbed capsule that sticks to ceilings and drops a marked pulse |
-| 082 | TALLY HO | Evolved | A counted sequence that changes the next shot's geometry, not its damage |
-| 083 | STATIC SHOCK | Evolved | A pulse that travels between player-placed conductive markers |
-| 085 | BLIND DATE | Commonplace | A paired projectile: one visible lead shot and one delayed, clearly signalled partner |
-| 097 | BIG PICTURE | Extraordinary | A spiral of projectiles that converges on a point selected during flight |
-| 100 | OVERBOOKED | Altered | A rotating chamber that cycles through three visibly different shell behaviours |
-| 105 | DOUBLE SHIFT | Extraordinary | Two distinct projectile feeds that can be cross-combined mid-sequence |
-| 109 | SIDE DISH | Altered | A main projectile accompanied by a sidecar that takes the opposite route |
-| 148 | DETOUR | Extraordinary | A path-drawing bolt that follows a short route the player sketches in open space |
-| 153 | TRAFFIC JAM | Evolved | A canister that creates a moving, temporary row of slow rotating barriers |
-| 157 | NARROW ESCAPE | Ascendant | A capsule that records its outbound route and returns along a parallel lane |
-| 161 | BAD SIGNAL | Singular | A pulse that creates a temporary mirrored firing lane with a clearly marked origin |
+| 001 | Marking Assault Rifle | Commonplace | Collectible impact stamps that can be cashed into a deliberate follow-up |
+| 002 | Momentum SMG | Commonplace | Shots that accelerate only while travelling through the player's marked wake |
+| 003 | Resonance Shotgun | Commonplace | A surface-bouncing bell projectile that releases a timed radial pulse |
+| 004 | Charged Rail Rifle | Extraordinary | A charged rail lance that pierces targets and leaves a brief, visible afterline |
+| 005 | Orbit Sidearm | Commonplace | A fan of metal tokens that orbit a chosen point before snapping outward |
+| 006 | Tri-Volley Rifle | Commonplace | Three orbiting shots released one at a time by separate trigger taps |
+| 007 | Wave Launcher | Altered | A low travelling blade-wave that climbs over small arena geometry |
+| 008 | Return Disc Launcher | Evolved | A thrown disc whose return route is chosen by the player's movement |
+| 011 | Gravity Launcher | Altered | A heavy falling payload that creates a temporary low-gravity pocket |
+| 013 | Stasis Sidearm | Altered | A bolt that can be parked in flight and released later |
+| 014 | Split-Bolt Crossbow | Evolved | A bolt that divides according to the direction it is struck from |
+| 015 | Rebound Launcher | Commonplace | Surface pins that create a visible temporary rebound line |
+| 022 | Sonic Projector | Evolved | A travelling sound-ring that expands, contracts, then expands again |
+| 023 | Dual-Path Pistol | Commonplace | Two alternating shots with different paths that combine when timed |
+| 025 | Sequence Pulse Rifle | Altered | A three-note sequence whose next projectile changes with the previous hit |
+| 026 | Forking Launcher | Evolved | A projectile that can be split manually into two controllable branches |
+| 028 | Plasma Projector | Altered | A plasma globule that changes shape and speed as it cools |
+| 033 | Pressure Wave Launcher | Commonplace | A compressed-air ring that carries objects and players a short distance |
+| 038 | Kinetic Disc Launcher | Altered | A rolling puck that changes direction when struck again |
+| 039 | Impact Ball Launcher | Commonplace | A kinetic ball that grows its impact zone the longer it travels |
+| 041 | Twin-Shot Pistols | Commonplace | Twin shots that begin apart and cross at a chosen distance |
+| 045 | Fragment Launcher | Altered | A break-shell that fractures into a controllable arc of pieces on command |
+| 049 | Arc Launcher | Evolved | A projectile that climbs vertically before the player redirects its descent |
+| 053 | Echo Rifle | Altered | A delayed copy that repeats the first projectile's path with a visible offset |
+| 055 | Timing Rifle | Commonplace | A shot that must be released on a moving timing window for its full pattern |
+| 059 | Linked-Charge Launcher | Evolved | Two linked charges that share one countdown and can exchange positions |
+| 064 | Fan Launcher | Altered | A braced multi-shot fan whose shape is set by the player's movement |
+| 069 | Wave Shotgun | Commonplace | A broad horizontal wave that folds inward at its maximum range |
+| 074 | Ceiling Launcher | Altered | A lobbed capsule that sticks to ceilings and drops a marked pulse |
+| 082 | Sequence Rifle | Evolved | A counted sequence that changes the next shot's geometry, not its damage |
+| 083 | Arc-Link Rifle | Evolved | A pulse that travels between player-placed conductive markers |
+| 085 | Paired-Shot Rifle | Commonplace | A paired projectile: one visible lead shot and one delayed, clearly signalled partner |
+| 097 | Convergence Launcher | Extraordinary | A spiral of projectiles that converges on a point selected during flight |
+| 100 | Adaptive Shell Launcher | Altered | A rotating chamber that cycles through three visibly different shell behaviours |
+| 105 | Dual-Feed Launcher | Extraordinary | Two distinct projectile feeds that can be cross-combined mid-sequence |
+| 109 | Sidecar Rifle | Altered | A main projectile accompanied by a sidecar that takes the opposite route |
+| 148 | Pathing Bolt Launcher | Extraordinary | A path-drawing bolt that follows a short route the player sketches in open space |
+| 153 | Barrier Launcher | Evolved | A canister that creates a moving, temporary row of slow rotating barriers |
+| 157 | Return-Path Launcher | Ascendant | A capsule that records its outbound route and returns along a parallel lane |
+| 161 | Mirror Pulse Rifle | Singular | A pulse that creates a temporary mirrored firing lane with a clearly marked origin |
 
 ## 3. Individual weapon designs
 
-### 001 — TAXMAN
+### 001 — Marking Assault Rifle
 - **Rarity:** Commonplace
 - **Category / slot:** Precision auto-rifle / Primary
 - **Core identity:** Collectible impact stamps.
@@ -86,7 +86,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Stamps are visible; breaking line of sight clears them; the cash-out has a distinct wind-up and readable return path.
 - **Why it stays:** A straightforward rifle becomes a target-sequencing weapon from its very first match.
 
-### 002 — POCKET ROCKET
+### 002 — Momentum SMG
 - **Rarity:** Commonplace
 - **Category / slot:** Compact SMG / Primary
 - **Core identity:** Wake-accelerated shots.
@@ -96,7 +96,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The wake is visible, short-lived, and fixed in place; opponents can leave its lane or use cover.
 - **Why it stays:** Movement and firing are physically linked in a way that is easy to understand and rewarding to master.
 
-### 003 — DOORBELL
+### 003 — Resonance Shotgun
 - **Rarity:** Commonplace
 - **Category / slot:** Impact shotgun / Primary
 - **Core identity:** A bouncing bell-shell with a timed pulse.
@@ -106,7 +106,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The shell is visible, the ring gives a timing cue, and players can move away before the pulse.
 - **Why it stays:** It turns a shotgun into a timing-and-surface tool, not another pellet spread.
 
-### 004 — LONG STORY
+### 004 — Charged Rail Rifle
 - **Rarity:** Extraordinary
 - **Category / slot:** Precision rail rifle / Primary
 - **Core identity:** Charged piercing rail lance with a persistent afterline.
@@ -116,7 +116,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Charge stages are audible and visible; the rail is narrow; the mark is visible and temporary.
 - **Why it stays:** It offers an iconic precision experience with a second layer that rewards planning rather than granting wall shots.
 
-### 005 — LOOSE CHANGE
+### 005 — Orbit Sidearm
 - **Rarity:** Commonplace
 - **Category / slot:** Trick-shot sidearm / Secondary
 - **Core identity:** Orbiting metal tokens.
@@ -126,7 +126,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The orbit point and outward lanes are clearly marked; the tokens have limited range and cannot pass through solid geometry.
 - **Why it stays:** The sidearm asks players to aim at a point in space rather than directly at a target.
 
-### 006 — THREE'S COMPANY
+### 006 — Tri-Volley Rifle
 - **Rarity:** Commonplace
 - **Category / slot:** Sequencing rifle / Primary
 - **Core identity:** Three orbiting shots released separately.
@@ -136,7 +136,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The chamber visibly shows how many shots remain and their release order; the combined volley has a clear tell.
 - **Why it stays:** It makes every trigger tap part of a three-step decision rather than a conventional burst.
 
-### 007 — LAWNMOWER
+### 007 — Wave Launcher
 - **Rarity:** Altered
 - **Category / slot:** Heavy wave launcher / Primary
 - **Core identity:** Low travelling blade-wave.
@@ -146,7 +146,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Jumping, elevated routes, and solid cover avoid the wave; the crosscut's crossing point is marked.
 - **Why it stays:** It controls the floor plane rather than behaving like a conventional bullet stream.
 
-### 008 — RETURN TO SENDER
+### 008 — Return Disc Launcher
 - **Rarity:** Evolved
 - **Category / slot:** Returning disc launcher / Primary
 - **Core identity:** A disc whose return route is determined by the player's movement.
@@ -156,7 +156,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The disc and return lane are visible; the return route is bounded; the disc cannot bend through walls.
 - **Why it stays:** The player's own movement becomes part of the projectile's second half.
 
-### 011 — DEAD WEIGHT
+### 011 — Gravity Launcher
 - **Rarity:** Altered
 - **Category / slot:** Payload launcher / Primary
 - **Core identity:** A heavy falling payload that creates a temporary low-gravity pocket.
@@ -166,7 +166,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The capsule's landing point is marked; players can leave the field; the field has a short lifetime and fixed radius.
 - **Why it stays:** Its impact changes the movement feel of a small area instead of producing a generic explosion.
 
-### 013 — CALL WAITING
+### 013 — Stasis Sidearm
 - **Rarity:** Altered
 - **Category / slot:** Energy sidearm / Secondary
 - **Core identity:** A bolt that can be parked in flight.
@@ -176,7 +176,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The frozen bolt glows and emits a clear pulse; it has a short timeout and can be avoided or blocked.
 - **Why it stays:** It lets players manipulate projectile timing without turning the shot into a homing attack.
 
-### 014 — SHORT NOTICE
+### 014 — Split-Bolt Crossbow
 - **Rarity:** Evolved
 - **Category / slot:** Split-bolt crossbow / Primary
 - **Core identity:** A bolt that divides according to the direction it is struck from.
@@ -186,7 +186,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The bolt is visible; the split requires a second shot; both child paths are fixed and readable.
 - **Why it stays:** The user is effectively setting up and hitting their own projectile.
 
-### 015 — BAD NEIGHBOR
+### 015 — Rebound Launcher
 - **Rarity:** Commonplace
 - **Category / slot:** Pin launcher / Primary
 - **Core identity:** Surface pins that form a temporary rebound line.
@@ -196,7 +196,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Pins and line are visible and destructible; only one line can exist; opponents can use it too.
 - **Why it stays:** A firearm becomes a temporary movement-building tool with shared arena consequences.
 
-### 022 — LAST CALL
+### 022 — Sonic Projector
 - **Rarity:** Evolved
 - **Category / slot:** Sonic projector / Primary
 - **Core identity:** A travelling sound-ring that expands, contracts, then expands again.
@@ -206,7 +206,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The wave is highly visible; solid cover blocks it; the pause produces a distinct cue.
 - **Why it stays:** It is a travelling shape with a readable rhythm, not a conventional projectile.
 
-### 023 — TWO CENTS
+### 023 — Dual-Path Pistol
 - **Rarity:** Commonplace
 - **Category / slot:** Dual-path sidearm / Secondary
 - **Core identity:** Alternating high and low shots.
@@ -216,7 +216,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The chamber indicator is visible; the arc is slow and readable; cover blocks both paths.
 - **Why it stays:** A simple sidearm creates a genuine two-shot rhythm with different geometry.
 
-### 025 — HOLD MUSIC
+### 025 — Sequence Pulse Rifle
 - **Rarity:** Altered
 - **Category / slot:** Sequence pulse rifle / Primary
 - **Core identity:** A three-note sequence that changes according to the previous hit.
@@ -226,7 +226,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The weapon display shows the next pulse; all altered shapes have distinct trails and fixed limits.
 - **Why it stays:** It creates a learnable firing language rather than random modes.
 
-### 026 — SPLIT DECISION
+### 026 — Forking Launcher
 - **Rarity:** Evolved
 - **Category / slot:** Forking launcher / Primary
 - **Core identity:** A projectile manually split into two controllable branches.
@@ -236,7 +236,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The central orb and split cue are obvious; both branches are slower and smaller; cover blocks them.
 - **Why it stays:** It turns one projectile into a short, player-shaped decision tree.
 
-### 028 — SLOW BURN
+### 028 — Plasma Projector
 - **Rarity:** Altered
 - **Category / slot:** Plasma projector / Primary
 - **Core identity:** A globule that changes shape and speed as it cools.
@@ -246,7 +246,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The colour and size stages are obvious; the mature globule is slow and avoidable.
 - **Why it stays:** The projectile visibly evolves during flight, creating a timing choice without hidden power scaling.
 
-### 033 — BOUNCER
+### 033 — Pressure Wave Launcher
 - **Rarity:** Commonplace
 - **Category / slot:** Air-pressure launcher / Primary
 - **Core identity:** A compressed-air ring that carries objects and players a short distance.
@@ -256,7 +256,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The ring is wide and visible; its push is short; players can use cover or avoid the lane.
 - **Why it stays:** It is a weapon built around displacement and interaction, not damage output.
 
-### 038 — TIN CAN
+### 038 — Kinetic Disc Launcher
 - **Rarity:** Altered
 - **Category / slot:** Kinetic puck launcher / Primary
 - **Core identity:** A rolling puck whose direction changes when struck again.
@@ -266,7 +266,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The puck is large and audible; each redirection has a bright spark; it cannot climb walls or pass through cover.
 - **Why it stays:** Players manage a projectile after launch instead of simply firing and forgetting it.
 
-### 039 — HOME RUN
+### 039 — Impact Ball Launcher
 - **Rarity:** Commonplace
 - **Category / slot:** Kinetic ball launcher / Primary
 - **Core identity:** A ball whose impact zone grows with travel distance.
@@ -276,7 +276,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The ball's growth is visible; the final ring has a clear warning; the early fan is narrow.
 - **Why it stays:** Range changes the shape of the impact, not just damage falloff.
 
-### 041 — DOUBLE PARKED
+### 041 — Twin-Shot Pistols
 - **Rarity:** Commonplace
 - **Category / slot:** Twin-shot sidearm / Secondary
 - **Core identity:** Two shots that begin apart and cross at a chosen distance.
@@ -286,7 +286,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Both lanes are visible; the crossing point is telegraphed; moving before the crossing avoids the convergence.
 - **Why it stays:** It is a dual-lane geometry pistol with a controllable meeting point.
 
-### 045 — CLEAN BREAK
+### 045 — Fragment Launcher
 - **Rarity:** Altered
 - **Category / slot:** Break-shell launcher / Primary
 - **Core identity:** A shell that fractures into a controllable arc.
@@ -296,7 +296,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The intact shell is visible; fracture produces a bright flash and audible crack; fragments travel on fixed paths.
 - **Why it stays:** The player controls when a single projectile becomes a pattern.
 
-### 049 — HIGH HORSE
+### 049 — Arc Launcher
 - **Rarity:** Evolved
 - **Category / slot:** Vertical arc launcher / Primary
 - **Core identity:** A projectile that climbs vertically before the player redirects its descent.
@@ -306,7 +306,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The orb's ascent and apex are visible; the descent marker gives a warning; ceilings block the path.
 - **Why it stays:** It creates a vertical firing arc with a deliberate mid-flight decision.
 
-### 053 — DOUBLE TAKE
+### 053 — Echo Rifle
 - **Rarity:** Altered
 - **Category / slot:** Echo rifle / Primary
 - **Core identity:** A delayed copy that repeats the first projectile's path with a visible offset.
@@ -316,7 +316,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The echo is clearly signalled by a second reticle line and a distinct sound; its route is fixed.
 - **Why it stays:** Every shot has a second, predictable lane that creates interesting timing.
 
-### 055 — BAD TIMING
+### 055 — Timing Rifle
 - **Rarity:** Commonplace
 - **Category / slot:** Timing rifle / Primary
 - **Core identity:** A moving release window controls the shot pattern.
@@ -326,7 +326,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The charge meter is visible to the user and the weapon has a distinct audio wind-up; the shot still travels along a normal, avoidable path.
 - **Why it stays:** Accuracy is a deliberate timing skill rather than a passive stat.
 
-### 059 — SHORT FUSE
+### 059 — Linked-Charge Launcher
 - **Rarity:** Evolved
 - **Category / slot:** Linked-charge launcher / Primary
 - **Core identity:** Two charges sharing one countdown and able to exchange positions.
@@ -336,7 +336,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Both charges show the same visible timer; either can be destroyed; the pulse rings are telegraphed.
 - **Why it stays:** It is a paired placement puzzle with a shared clock.
 
-### 064 — BULLPEN
+### 064 — Fan Launcher
 - **Rarity:** Altered
 - **Category / slot:** Braced fan launcher / Primary
 - **Core identity:** A fan pattern shaped by the player's movement.
@@ -346,7 +346,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The weapon's orientation is visible; the fan is short-ranged; the lock has a clear activation cue.
 - **Why it stays:** The player's movement direction directly changes the projectile geometry.
 
-### 069 — WIDE OPEN
+### 069 — Wave Shotgun
 - **Rarity:** Commonplace
 - **Category / slot:** Wave shotgun / Primary
 - **Core identity:** A broad horizontal wave that folds inward at maximum range.
@@ -356,7 +356,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The wave is highly visible; jumping over or moving around its fixed height avoids it; solid cover blocks it.
 - **Why it stays:** It changes shape across distance and rewards spatial prediction.
 
-### 074 — OVERHEAD
+### 074 — Ceiling Launcher
 - **Rarity:** Altered
 - **Category / slot:** Ceiling capsule launcher / Primary
 - **Core identity:** A lobbed capsule that sticks to ceilings and drops a marked pulse.
@@ -366,7 +366,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The floor marker shows the affected area; the capsule is visible and destructible; the delay is consistent.
 - **Why it stays:** It uses vertical arena geometry and ceiling placement as its main skill.
 
-### 082 — TALLY HO
+### 082 — Sequence Rifle
 - **Rarity:** Evolved
 - **Category / slot:** Count-sequence rifle / Primary
 - **Core identity:** A counted sequence changes the next shot's geometry.
@@ -376,7 +376,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The counter is readable; the fifth-shot fork has a unique muzzle cue and visible paths.
 - **Why it stays:** The player manages a predictable sequence with a meaningful payoff in projectile geometry, not damage.
 
-### 083 — STATIC SHOCK
+### 083 — Arc-Link Rifle
 - **Rarity:** Evolved
 - **Category / slot:** Marker-linked pulse rifle / Primary
 - **Core identity:** A pulse travels between player-placed conductive markers.
@@ -386,7 +386,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Markers and the connecting line are visible and destructible; the pulse cannot bend through walls.
 - **Why it stays:** It lets players construct a temporary two-point firing route.
 
-### 085 — BLIND DATE
+### 085 — Paired-Shot Rifle
 - **Rarity:** Commonplace
 - **Category / slot:** Paired-shot rifle / Primary
 - **Core identity:** A visible lead shot and a delayed, clearly signalled partner.
@@ -396,7 +396,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The second shot has a distinct audio cue and visible ghost lane; both projectiles are avoidable.
 - **Why it stays:** The weapon rewards prediction across a fixed time gap.
 
-### 097 — BIG PICTURE
+### 097 — Convergence Launcher
 - **Rarity:** Extraordinary
 - **Category / slot:** Spiral convergence launcher / Primary
 - **Core identity:** A spiral of projectiles converges on a point selected during flight.
@@ -406,7 +406,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** All six paths and the convergence point are visible; the curve is limited; cover blocks the projectiles.
 - **Why it stays:** It is a spatial composition tool with a spectacular but readable projectile pattern.
 
-### 100 — OVERBOOKED
+### 100 — Adaptive Shell Launcher
 - **Rarity:** Altered
 - **Category / slot:** Cycling shell launcher / Primary
 - **Core identity:** A rotating chamber cycles through three shell behaviours.
@@ -416,7 +416,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The chamber display is visible; each shell has a distinct silhouette and travel speed.
 - **Why it stays:** It creates a weapon-management puzzle without random ammunition.
 
-### 105 — DOUBLE SHIFT
+### 105 — Dual-Feed Launcher
 - **Rarity:** Extraordinary
 - **Category / slot:** Dual-feed launcher / Primary
 - **Core identity:** Two distinct projectile feeds that can be cross-combined mid-sequence.
@@ -426,7 +426,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Both feeds have separate visible ammo counters; the midpoint is telegraphed; the barrier is short-lived and blocks both teams equally.
 - **Why it stays:** Its two ammunition systems interact with each other instead of simply offering two fire modes.
 
-### 109 — SIDE DISH
+### 109 — Sidecar Rifle
 - **Rarity:** Altered
 - **Category / slot:** Companion-shard rifle / Primary
 - **Core identity:** A main projectile accompanied by a sidecar taking the opposite route.
@@ -436,7 +436,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Both projectiles are visible; the sidecar's return point is predictable; cover blocks both.
 - **Why it stays:** It provides two deliberately different lanes from one trigger pull.
 
-### 148 — DETOUR
+### 148 — Pathing Bolt Launcher
 - **Rarity:** Extraordinary
 - **Category / slot:** Route-drawing bolt launcher / Primary
 - **Core identity:** A bolt follows a short route the player sketches in open space.
@@ -446,7 +446,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The route preview is visible to opponents; the projectile is slow; walls and cover block it.
 - **Why it stays:** It gives the player direct authorship over a projectile's path without allowing impossible wall-bending.
 
-### 153 — TRAFFIC JAM
+### 153 — Barrier Launcher
 - **Rarity:** Evolved
 - **Category / slot:** Cluster barrier launcher / Primary
 - **Core identity:** A canister creates a moving row of temporary rotating barriers.
@@ -456,7 +456,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** Panels are bright, destructible, short-lived, and block both teams equally.
 - **Why it stays:** It is a moving, temporary piece of arena geometry rather than an explosive weapon.
 
-### 157 — NARROW ESCAPE
+### 157 — Return-Path Launcher
 - **Rarity:** Ascendant
 - **Category / slot:** Route-recording capsule / Primary
 - **Core identity:** A capsule records its outbound route and returns along a parallel lane.
@@ -466,7 +466,7 @@ A Commonplace weapon must be just as polished, responsive, readable, and worth m
 - **Counterplay:** The capsule and its recorded route are visible; the return offset is announced; the route is bounded and cannot cross walls.
 - **Why it stays:** It makes the user's movement trace part of a two-way projectile pattern.
 
-### 161 — BAD SIGNAL
+### 161 — Mirror Pulse Rifle
 - **Rarity:** Singular
 - **Category / slot:** Mirrored-lane pulse weapon / Primary
 - **Core identity:** A pulse creates a temporary mirrored firing lane with a clearly marked origin.
