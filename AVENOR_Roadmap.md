@@ -181,7 +181,7 @@ Milestones may overlap when their dependencies are satisfied, but a later milest
 - One melee weapon.
 - One utility-focused item.
 
-The selected weapons should come from the 40 active firearms and be chosen to test different projectile and firing modules, not simply because they are the first entries.
+The selected weapons should come from the 40 completely rebuilt active firearms and be chosen to test different projectile and firing modules, not simply because they are the first entries.
 
 **Deliverables:**
 - Shared weapon framework.
