@@ -65,210 +65,98 @@ The catalogue retains 167 concepts for reference. The current active design foun
 ### Weapon 001 — TAXMAN
 - **Internal ID:** TAXMAN
 - **Roster status:** Active launch firearm
-- **Category:** Assault Rifle
+- **Category:** Precision auto-rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
-- **Role:** Versatile mid-range duelling built around sustained target pressure.
-- **Core mechanic: Compound Interest**
-
-Consecutive hits on the same opponent build a visible mark. Missing or switching targets resets the progress.
-
-- **Weapon Action: Collection Day**
-
-Activate to cash in the mark. The next shot that hits the marked opponent deals bonus damage based on the accumulated mark.
-
-**Rules and counterplay:**
-- The bonus is capped.
-- The mark is visible to the affected opponent.
-- Breaking line of sight for a short period clears the mark.
-- The action does not aim, track, or guarantee a hit.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: mark progression, mark duration, bonus cap, and cooldown are TBD remain TBD.
-
-**Status:** Accepted redesign concept. Prototype values are TBD.
+- **Rebuilt identity:** Collectible impact stamps
+- **Firing loop:** Each dart hit leaves a visible stamp; follow-up hits stack a small capped sequence. Weapon Action AUDIT sends a deliberate returning-chip follow-up through a lane the player must line up.
+- **Mastery:** Maintain a target sequence, then cash it out through a chosen return lane.
+- **Counterplay:** Stamps are visible and clear after breaking line of sight; the cash-out has a readable wind-up and path.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 002 — POCKET ROCKET
 - **Internal ID:** POCKET-ROCKET
 - **Roster status:** Active launch firearm
-- **Category:** Submachine Gun
+- **Category:** Compact SMG
 - **Rarity:** Commonplace
 - **Slot:** Primary
-- **Role:** Aggressive close-range movement combat.
-- **Core mechanic: Runaway**
-
-The longer the player continuously fires, the faster the weapon cycles, up to a defined limit. Releasing the trigger resets the acceleration.
-
-- **Weapon Action: Hot Pursuit**
-
-Perform a short forward movement burst while keeping the weapon ready.
-
-**Rules and counterplay:**
-- The movement burst has a fixed distance and brief recovery.
-- It can be activated during a jump.
-- It cannot be chained repeatedly.
-- The weapon's accelerating fire rate still requires ammunition management.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: acceleration time, movement distance, recovery, and cooldown are TBD remain TBD.
-
-**Status:** Accepted redesign concept. Prototype values are TBD.
+- **Rebuilt identity:** Wake-accelerated shots
+- **Firing loop:** Shots fired through the player's own short-lived movement wake accelerate briefly. Weapon Action AFTERBURN places a visible dash-wake that gives one capped boost.
+- **Mastery:** Move while firing to build a changing projectile lane.
+- **Counterplay:** The wake is visible, fixed, short-lived, and avoidable.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 003 — DOORBELL
 - **Internal ID:** DOORBELL
 - **Roster status:** Active launch firearm
-- **Category:** Shotgun
+- **Category:** Impact shotgun
 - **Rarity:** Commonplace
 - **Slot:** Primary
-- **Role:** Close-range combat and distance control.
-- **Core mechanic: Knock Knock**
-
-The shotgun has two firing modes:
-- **Normal shot:** Wider pellet spread.
-- **Focused shot:** Tighter pellet spread with a short firing delay.
-
-- **Weapon Action: House Call**
-
-Fire a special blast that launches the user backwards and pushes opponents caught in its impact area away.
-
-**Rules and counterplay:**
-- House Call consumes one shell.
-- Its push direction and area are clearly telegraphed.
-- It deals limited or no damage compared with a normal shot; its primary purpose is repositioning and spacing.
-- Opponents can avoid the blast area.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Pellet count, spread profiles, push strength, and cooldown are TBD remain TBD.
-
-**Status:** Accepted redesign concept. Prototype values are TBD.
+- **Rebuilt identity:** Bouncing bell-shell with timed pulse
+- **Firing loop:** A bell-shell bounces once from a valid surface, rings, then releases a radial pulse. Weapon Action SECOND RING adds a second, slower pulse.
+- **Mastery:** Place the bounce and time the pulse around a route.
+- **Counterplay:** The shell, ring cue, and pulse area are visible and avoidable.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 004 — LONG STORY
 - **Internal ID:** LONG-STORY
 - **Roster status:** Active launch firearm
-- **Category:** Sniper Rifle
+- **Category:** Precision rail rifle
 - **Rarity:** Extraordinary
 - **Slot:** Primary
-- **Role:** Long-range precision and planned angle manipulation.
-- **Core mechanic: Follow Through**
-
-A successful hit briefly stabilizes the next shot, reducing the time required to reach full accuracy.
-
-- **Weapon Action: Long Distance**
-
-Place a visible marker on a valid surface within range. The next scoped shot can travel through the marker and emerge from its position, creating an alternate firing angle.
-
-**Rules and counterplay:**
-- Only one marker can be active.
-- The marker is visible and can be removed by opponents.
-- The shot's exit direction is clearly indicated.
-- The shot still requires normal aim and can be dodged or blocked.
-- The marker cannot be placed through solid geometry.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Stabilization duration, marker range and lifetime, shot redirection rules, and cooldown are TBD remain TBD.
-
-**Status:** Accepted redesign concept, pending competitive testing.
+- **Rebuilt identity:** Charged piercing rail lance with afterline
+- **Firing loop:** A three-stage charged lance pierces a limited number of targets and leaves a fading visual afterline. Weapon Action FOOTNOTE marks one open point on that line for a constrained follow-up release.
+- **Mastery:** Charge, line up targets, and plan a second firing point.
+- **Counterplay:** Charge cues, mark, and narrow rail path are readable; no wall penetration.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 005 — LOOSE CHANGE
 - **Internal ID:** LOOSE-CHANGE
 - **Roster status:** Active launch firearm
-- **Category:** Pistol
+- **Category:** Trick-shot sidearm
 - **Rarity:** Commonplace
 - **Slot:** Secondary
-- **Role:** Precision sidearm built around creative trick shots.
-- **Core mechanic: Spare Change**
-
-The pistol fires projectiles that can ricochet once from suitable arena surfaces.
-
-- **Weapon Action: Make It Count**
-
-Toss a special metal token into the arena. Shooting the token redirects the next projectile along a clearly indicated ricochet toward the token's position.
-
-**Rules and counterplay:**
-- Only one token can exist at a time.
-- The token has a visible, readable trajectory and can be destroyed by opponents.
-- The redirected shot does not home in after the ricochet.
-- The player must still line up the initial shot.
-- Token placement and use have a limited duration.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: projectile speed, ricochet rules, token lifetime, and cooldown are TBD remain TBD.
-
-**Status:** Accepted redesign concept. Prototype values are TBD.
+- **Rebuilt identity:** Orbiting metal tokens
+- **Firing loop:** Three tokens orbit an aimed point once before snapping outward along fixed lanes. Weapon Action TIP JAR adds a second orbit.
+- **Mastery:** Aim at a point in space and predict the outward lanes.
+- **Counterplay:** Orbit point and lanes are visible; no homing or wall passage.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 006 — THREE'S COMPANY
 - **Internal ID:** THREES-COMPANY
 - **Roster status:** Active launch firearm
-- **Category:** Burst Rifle
+- **Category:** Sequencing rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
-- **Role:** Mid-range burst control and firing-rhythm mastery.
-- **Core mechanic: Third Shot**
-
-Each standard burst contains three shots. The third shot has a distinct, predictable trajectory, giving the weapon a recognizable rhythm and rewarding players who control the complete burst.
-
-- **Weapon Action: Plus One**
-
-The next burst fires a fourth projectile.
-
-**Rules and counterplay:**
-- The fourth projectile consumes additional ammunition.
-- Its trajectory is distinct and predictable, not random.
-- The extra shot adds a handling or recovery trade-off.
-- The action cannot be activated repeatedly without its cooldown.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Burst interval, third-shot trajectory, fourth-shot trajectory, ammunition cost, recovery, and cooldown are TBD remain TBD.
-
-**Status:** Accepted redesign concept. Prototype values are TBD.
+- **Rebuilt identity:** Three orbiting shots released separately
+- **Firing loop:** Three visible projectiles rotate in a chamber and release one per trigger tap with predictable offsets. Weapon Action ALL AT ONCE releases the remaining shots in a triangular formation.
+- **Mastery:** Control the sequence or commit to the full volley.
+- **Counterplay:** Chamber state and release order are visible; combined volley is telegraphed.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 007 — LAWNMOWER
 - **Internal ID:** LAWNMOWER
 - **Roster status:** Active launch firearm
-- **Category:** Light Machine Gun
-- **Rarity:** Commonplace
+- **Category:** Heavy wave launcher
+- **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Sustained fire and mobile area pressure.
-- **Core mechanic: Spool Up**
-
-The rotating barrel needs time to spin up before reaching full firing speed. Once running, it maintains a high firing rate.
-
-- **Weapon Action: Grass Cutter**
-
-Lock the barrel at maximum spin for a short period. During this window, the player can strafe faster than normal while firing.
-
-**Rules and counterplay:**
-- The weapon has a noticeable spin-up and spin-down period.
-- Grass Cutter has a limited duration and a clear audio/visual cue.
-- The action cannot be activated while the barrel is completely idle.
-- Sustained fire consumes ammunition quickly.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Spin-up time, fire-rate curve, movement speed during Grass Cutter, duration, and cooldown are TBD remain TBD.
-
-**Status:** Accepted redesign concept. Prototype values are TBD.
+- **Rebuilt identity:** Low travelling blade-wave
+- **Firing loop:** A flat wave travels along the floor and climbs only small geometry. Weapon Action CROSSCUT sends a perpendicular wave that cancels the first at a marked crossing point.
+- **Mastery:** Shape floor routes and create a temporary safe gap.
+- **Counterplay:** Elevated routes and cover avoid the wave; crossing point is marked.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 008 — RETURN TO SENDER
 - **Internal ID:** RETURN-TO-SENDER
 - **Roster status:** Active launch firearm
-- **Category:** Returning Disc Launcher
+- **Category:** Returning disc launcher
 - **Rarity:** Evolved
 - **Slot:** Primary
-- **Role:** Mid-range pressure, route prediction, and creative angle control.
-- **Core mechanic: Boomerang**
-
-Fires a flat spinning disc that travels forward, reaches its maximum range, then curves back toward the player. Both the outbound and return paths can threaten opponents, but each opponent can be hit only once per throw.
-
-- **Weapon Action: Forwarding Address**
-
-While the disc is travelling outward, aim at a valid surface and press Weapon Action to designate a return point. The disc immediately turns toward that point, banks off it, and then returns to the player.
-
-**Rules and counterplay:**
-- Only one return point can be designated per throw.
-- The point must be visible, within range, and on a valid surface.
-- The planned route is visibly indicated before the disc reaches the point.
-- The disc cannot travel through solid geometry.
-- Opponents can read the route and dodge, take cover, or move away from the return lane.
-- If no point is designated, the disc follows its normal return path.
-
-**Visual identity:** A chunky industrial throwing disc with a distinctive spinning animation and a clear route indicator when its return path is changed.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: travel speed, maximum range, return-point range, and cooldown are TBD remain TBD.
-
-**Status:** Accepted redesign concept. Prototype values are TBD.
+- **Rebuilt identity:** Movement-recording return disc
+- **Firing loop:** A disc travels outward while recording the player's movement, then returns along a parallel simplified copy of that route. Weapon Action CHANGE OF ADDRESS selects the return side.
+- **Mastery:** Throw, reposition, and shape the return lane.
+- **Counterplay:** Disc and return route are visible, bounded, and blocked by walls.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 009 — THE RENTAL
 - **Internal ID:** THE-RENTAL
@@ -327,25 +215,14 @@ Fire one loaded round downward to launch the player in the opposite direction. T
 ### Weapon 011 — DEAD WEIGHT
 - **Internal ID:** DEAD-WEIGHT
 - **Roster status:** Active launch firearm
-- **Category:** Heavy Launcher
+- **Category:** Payload launcher
 - **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Mid-range area pressure and timing-based combat.
-- **Core firing behaviour:** Fires a heavy, relatively slow projectile in a straight line. On impact, it creates a small area effect.
-- **Weapon Action: Cut the Line**
-
-The next projectile can be detonated remotely while it is travelling by pressing Weapon Action again. The player chooses the timing of the detonation to catch opponents moving through an area or pressure a route before they reach cover.
-
-**Rules and counterplay:**
-- Only one projectile can be remotely detonated at a time.
-- The projectile remains visible while travelling.
-- Opponents can react to its trajectory and reposition before detonation.
-- If not remotely detonated, it follows its normal impact behaviour.
-- The remote detonation must have clear visual and audio feedback.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: blast radius, projectile speed, and action cooldown are TBD remain TBD.
-
-**Status:** Proposed concept. Not yet accepted.
+- **Rebuilt identity:** Falling payload with low-gravity pocket
+- **Firing loop:** A lobbed capsule creates a small, temporary low-gravity field on landing. Weapon Action DROP ANCHOR detonates it early in flight for a smaller field.
+- **Mastery:** Place a movement-altering field around a route.
+- **Counterplay:** Landing point and field boundary are marked; opponents can leave the field.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 012 — BAD RECEPTION
 - **Internal ID:** BAD-RECEPTION
@@ -375,82 +252,38 @@ For a short duration, suppresses the weapon's distinctive firing audio and remov
 ### Weapon 013 — CALL WAITING
 - **Internal ID:** CALL-WAITING
 - **Roster status:** Active launch firearm
-- **Category:** Charge Rifle
+- **Category:** Energy sidearm
 - **Rarity:** Altered
-- **Slot:** Primary
-- **Role:** Precision mid-to-long-range combat with weapon-switch combos.
-- **Core mechanic: Charge and Release**
-
-Hold fire to charge a shot. Releasing fires it. Longer charge increases damage up to a defined maximum. Charging temporarily reduces mobility. Releasing early still fires a weaker shot.
-
-- **Weapon Action: Call Waiting**
-
-Store the current charge and temporarily switch to the secondary weapon. The stored charge remains for four seconds. Switching back to CALL WAITING during that window releases the stored shot immediately.
-
-**Rules and counterplay:**
-- If the timer expires, the stored charge is lost.
-- The charge state has clear visual and audio feedback.
-- Switching to the secondary does not preserve the charge indefinitely.
-- The shot still requires normal aim.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Charge time, damage curve, mobility penalty, storage duration, and cooldown are TBD remain TBD.
-
-**Status:** Accepted concept. Prototype values are TBD.
+- **Slot:** Secondary
+- **Rebuilt identity:** Parkable in-flight bolt
+- **Firing loop:** A medium-speed bolt can be frozen briefly in flight, then resumes its original path. Weapon Action HOLD THE LINE releases it early without redirecting it.
+- **Mastery:** Manipulate projectile timing to catch a route.
+- **Counterplay:** Frozen bolt glows, pulses, expires quickly, and can be avoided or blocked.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 014 — SHORT NOTICE
 - **Internal ID:** SHORT-NOTICE
 - **Roster status:** Active launch firearm
-- **Category:** Repeater Crossbow
-- **Rarity:** Altered
+- **Category:** Split-bolt crossbow
+- **Rarity:** Evolved
 - **Slot:** Primary
-- **Role:** Precision combat and creative movement.
-- **Core mechanic: Split Bolt**
-
-Fires a bolt that splits into three smaller projectiles after travelling a set distance. At close range it remains concentrated; at longer range the split creates a horizontal spread.
-
-- **Weapon Action: Express Delivery**
-
-Fire a special anchor bolt that attaches to the first valid solid surface it hits. Press Weapon Action again to pull yourself toward the anchor.
-
-**Rules and counterplay:**
-- Only one anchor can exist at a time.
-- The anchor and connection are visible to opponents.
-- The anchor expires after a short duration or after use.
-- The pull requires a valid surface and can be interrupted by the anchor being removed.
-- The bolt cannot attach through solid geometry.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Bolt speed, split distance, spread, anchor lifetime, pull strength, and cooldown are TBD remain TBD.
-
-**Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Player-triggered directional split
+- **Firing loop:** A heavy bolt can be struck once by the player's follow-up shot, splitting into two fixed-angle child bolts. Weapon Action EARLY WARNING highlights the split point and widens the timing window.
+- **Mastery:** Reposition and hit your own projectile from a chosen angle.
+- **Counterplay:** Bolt and child paths are visible; split requires a follow-up shot.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 015 — BAD NEIGHBOR
 - **Internal ID:** BAD-NEIGHBOR
 - **Roster status:** Active launch firearm
-- **Category:** Nail Driver
-- **Rarity:** Altered
-- **Slot:** Secondary
-- **Role:** Mid-range setup and information control.
-- **Core mechanic: Property Damage**
-
-Fires individual heavy bolts. When a bolt hits a suitable surface, it remains embedded briefly as a visible marker. Markers do not deal damage by themselves; they prepare the weapon's action.
-
-- **Weapon Action: Noise Complaint**
-
-Activate all existing markers. Each marker emits a short-range pulse that briefly reveals nearby opponents through a visual outline.
-
-**Rules and counterplay:**
-- Maximum of three active markers.
-- Markers expire after a short duration.
-- Each pulse has a limited radius.
-- Opponents can see and destroy markers.
-- The reveal is brief and does not provide permanent tracking.
-- Markers cannot be placed through solid geometry.
-
-**Visual identity:** A chunky construction-tool-inspired launcher with exposed mechanical parts, an oversized bolt magazine, and a warning light that flashes when markers are active.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: marker lifetime, pulse radius, reveal duration, and cooldown are TBD remain TBD.
-
-**Status:** Accepted concept. Prototype values are TBD.
+- **Category:** Pin launcher
+- **Rarity:** Commonplace
+- **Slot:** Primary
+- **Rebuilt identity:** Temporary rebound line
+- **Firing loop:** Two surface pins connect into a temporary line that gives players a small sideways rebound. Weapon Action PROPERTY LINE rotates the rebound direction once.
+- **Mastery:** Build a shared movement route or escape line.
+- **Counterplay:** Pins and line are visible and destructible; all players can use it.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 016 — TAXI
 - **Internal ID:** TAXI
@@ -623,57 +456,26 @@ Temporarily expands the connected line into a wider, clearly marked hazard zone.
 ### Weapon 022 — LAST CALL
 - **Internal ID:** LAST-CALL
 - **Roster status:** Active launch firearm
-- **Category:** Sonic Projector
-- **Rarity:** Altered
-- **Slot:** Secondary
-- **Role:** Close-range disruption and emergency spacing.
-- **Core mechanic: Bad Connection**
-
-Emits short-range sonic pulses that deal modest damage and briefly disrupt an opponent's movement momentum. Each pulse has a short recovery period.
-
-- **Weapon Action: Hang Up**
-
-Release a stronger forward pulse that pushes nearby opponents away and interrupts their current movement direction.
-
-**Rules and counterplay:**
-- Effective range is short.
-- Pulses have clear audio and visual telegraphs.
-- The weapon is not designed to compete with primary weapons at range.
-- Hang Up has a noticeable recovery window.
-- Opponents can stay outside its effective range or bait its stronger pulse.
-
-**Visual identity:** Chunky handheld speaker-projector with a telephone-receiver grip and oversized volume dial.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Pulse damage, range, disruption duration, push strength, recovery, and cooldown are TBD remain TBD.
-
-**Status:** Accepted concept. Prototype values are TBD.
+- **Category:** Sonic projector
+- **Rarity:** Evolved
+- **Slot:** Primary
+- **Rebuilt identity:** Expanding-contracting sound ring
+- **Firing loop:** A forward travelling ring expands, contracts, then expands once more, hitting each player at most once. Weapon Action ENCORE pauses its current phase briefly.
+- **Mastery:** Predict which phase crosses a route and alter its timing.
+- **Counterplay:** Wave is visible, blocked by cover, and has a distinct pause cue.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 023 — TWO CENTS
 - **Internal ID:** TWO-CENTS
 - **Roster status:** Active launch firearm
-- **Category:** Precision Rifle
+- **Category:** Dual-path sidearm
 - **Rarity:** Commonplace
-- **Slot:** Primary
-- **Role:** Precision duelling and controlled firing rhythm.
-- **Core mechanic: Exact Change**
-
-Fires accurate individual shots. Every second shot is a heavier round with a distinct sound and slightly different projectile speed. The alternating rhythm is consistent and learnable.
-
-- **Weapon Action: My Two Cents**
-
-Load one special round into the next available shot. A hit deals normal damage but briefly disrupts the opponent's aim position.
-
-**Rules and counterplay:**
-- The alternating shot pattern is predictable.
-- The special round requires a direct hit.
-- The aim disruption is brief and does not remove player control.
-- The weapon has a limited magazine and still rewards accurate aim.
-
-**Visual identity:** Long, slim precision weapon with a two-position chamber indicator and a crisp mechanical firing sound.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: projectile speeds, aim-disruption duration, and cooldown are TBD remain TBD.
-
-**Status:** Accepted concept. Prototype values are TBD.
+- **Slot:** Secondary
+- **Rebuilt identity:** Alternating straight and arcing shots
+- **Firing loop:** Every other trigger alternates between a straight shot and a shallow arcing shot. Weapon Action MAKE CHANGE swaps which path fires first.
+- **Mastery:** Use a predictable two-shot rhythm to cover different geometry.
+- **Counterplay:** Chamber shows the next path; the arcing shot is slower and readable.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 024 — OPEN HOUSE
 - **Internal ID:** OPEN-HOUSE
@@ -706,61 +508,26 @@ Fold the active panel down and redeploy it at a new valid surface within a limit
 ### Weapon 025 — HOLD MUSIC
 - **Internal ID:** HOLD-MUSIC
 - **Roster status:** Active launch firearm
-- **Category:** Repeater
-- **Rarity:** Extraordinary
+- **Category:** Sequence pulse rifle
+- **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Sustained pressure and target commitment.
-- **Core mechanic: On The Line**
-
-Fires a sequence of small damaging projectiles. Each hit adds a brief note marker to the target. Completing the sequence on one opponent triggers a final, stronger projectile.
-
-- **Weapon Action: Please Stay On The Line**
-
-Pause the sequence timer briefly, allowing the player to maintain progress while repositioning or briefly changing focus.
-
-**Rules and counterplay:**
-- Missing shots interrupts the sequence.
-- Switching targets normally resets the active sequence.
-- The final projectile must still connect to deal its damage.
-- Note markers are visible to the affected opponent.
-- The action only pauses the timer briefly; it does not preserve progress indefinitely.
-
-**Visual identity:** Clean repeater with a scrolling display and small musical indicator lights that add a note for each successful hit.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Projectile damage, sequence length, final-shot damage, marker lifetime, pause duration, and cooldown are TBD remain TBD.
-
-**Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Three-note projectile language
+- **Firing loop:** A fixed dot-ring-bar sequence changes the next pulse's shape after an opponent hit. Weapon Action SKIP TRACK advances the sequence by one.
+- **Mastery:** Track the firing language and choose which shape comes next.
+- **Counterplay:** HUD shows next pulse; each shape has a distinct trail and fixed limits.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 026 — SPLIT DECISION
 - **Internal ID:** SPLIT-DECISION
 - **Roster status:** Active launch firearm
-- **Category:** Split-Feed Rifle
-- **Rarity:** Altered
+- **Category:** Forking launcher
+- **Rarity:** Evolved
 - **Slot:** Primary
-- **Role:** Mid-range duelling with adaptable shot patterns.
-- **Core mechanic: Two Minds**
-
-The rifle alternates between two consistent shot types:
-- **Single:** One accurate, stronger projectile.
-- **Split:** Two weaker projectiles that separate after travelling a short distance.
-
-The sequence is fixed and learnable.
-
-- **Weapon Action: Make Your Choice**
-
-Skip the upcoming pattern and select which shot type fires next. The normal alternating sequence resumes afterward.
-
-**Rules and counterplay:**
-- The upcoming shot type is clearly indicated.
-- Split projectiles become easier to avoid at longer distances.
-- The action changes the next shot only; it does not provide automatic targeting.
-- The weapon's rhythm can be learned and anticipated.
-
-**Visual identity:** Compact rifle with two distinct feed chambers and a mechanical indicator showing the next shot type.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Damage per shot, split distance, projectile spread, and cooldown are TBD remain TBD.
-
-**Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Manually split and shape two branches
+- **Firing loop:** A slow orb can be split into two diverging bolts; aim slightly shapes their outward angle. Weapon Action COMMIT locks both paths immediately.
+- **Mastery:** Choose when to split and how much space to cover.
+- **Counterplay:** Orb and split cue are obvious; branches are slower and never home.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 027 — SHORTCUT
 - **Internal ID:** SHORTCUT
@@ -793,30 +560,14 @@ Temporarily increases travel speed along the active cable. The boost is visible 
 ### Weapon 028 — SLOW BURN
 - **Internal ID:** SLOW-BURN
 - **Roster status:** Active launch firearm
-- **Category:** Heat Rifle
+- **Category:** Plasma projector
 - **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Sustained mid-range pressure and heat management.
-- **Core mechanic: Getting Warmer**
-
-Every shot builds heat. As heat rises, projectile damage gradually increases up to a cap. Firing for too long causes the weapon to overheat and enter a forced cooling period.
-
-- **Weapon Action: Let It Breathe**
-
-Vent accumulated heat in a short-range burst that deals modest damage and pushes nearby opponents away. The vent reduces the weapon's heat level.
-
-**Rules and counterplay:**
-- Heat level is clearly displayed.
-- Overheating interrupts normal firing temporarily.
-- The vent has a limited radius and a clear warning.
-- Players can pressure the user during the cooling window.
-- The damage increase has a defined cap.
-
-**Visual identity:** Industrial rifle with visible heat vents, a temperature gauge, and increasingly bright internal components.
-
-**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Heat per shot, damage curve, overheat threshold, cooling time, vent damage and push strength, and cooldown are TBD remain TBD.
-
-**Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Cooling, growing plasma globule
+- **Firing loop:** A globule starts compact and fast, then grows wider and slows through three visible stages. Weapon Action VENT fires the next shot already in its wide, slow state.
+- **Mastery:** Trade early speed for later area coverage.
+- **Counterplay:** Size and colour stages are obvious; mature globule is slow.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 029 — WRONG NUMBER
 - **Internal ID:** WRONG-NUMBER
@@ -913,20 +664,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 033 — BOUNCER
 - **Internal ID:** BOUNCER
 - **Roster status:** Active launch firearm
-- **Category:** Impact Shotgun
-- **Rarity:** Altered
+- **Category:** Air-pressure launcher
+- **Rarity:** Commonplace
 - **Slot:** Primary
-- **Role:** Close-range damage with deliberate knockback positioning.
-- **Core mechanic: House Rules**
-  
-  A compact shotgun fires a tight, heavy spread. Hits build a small pressure meter that increases the push of the next ordinary shot, not its damage.
-- **Weapon Action: Out You Go**
-  
-  Fire a clearly telegraphed blast that launches the user backward while pushing nearby opponents away.
-- **Rules and counterplay:** Pressure has a low cap and decays; the action consumes ammunition; its area and direction are readable; opponents can maintain distance and bait the blast.
-- **Visual identity:** A short, sturdy shotgun with a spring-loaded stock and oversized pressure gauge.
-- **Prototype values:** Pellet damage, spread, pressure cap, push strength, ammunition, and cooldown are TBD.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Displacement pressure ring
+- **Firing loop:** A ring-shaped wave pushes players and nudges compatible loose objects along its travel direction. Weapon Action REVERSE sends a backward ring with a small self-push.
+- **Mastery:** Use direction and timing for movement and object interactions.
+- **Counterplay:** Ring is visible, push is short, and cover blocks its lane.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 034 — GOOD MEASURE
 - **Internal ID:** GOOD-MEASURE
@@ -1003,38 +748,26 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 038 — TIN CAN
 - **Internal ID:** TIN-CAN
 - **Roster status:** Active launch firearm
-- **Category:** Ricochet Launcher
+- **Category:** Kinetic puck launcher
 - **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Predictive area pressure using heavy, readable bouncing shots.
-- **Core mechanic: Empty Return**
-  
-  Launches a chunky projectile that bounces from suitable arena surfaces. Each bounce reduces its remaining damage and speed until it expires.
-- **Weapon Action: One More Time**
-  
-  The next projectile gains one additional bounce before its normal expiry.
-- **Rules and counterplay:** The projectile never homes; its path is visible and predictable; damage falls with every bounce; open areas and movement make it easier to avoid.
-- **Visual identity:** A dented canister launcher with a rattling projectile and clear bounce sparks.
-- **Prototype values:** Initial damage, bounce count, speed loss, damage loss, and cooldown are TBD.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Player-redirected rolling puck
+- **Firing loop:** A puck rolls and bounces along floors; shooting it again changes its direction and refreshes its lifetime once. Weapon Action KICKSTAND briefly stops it before it resumes.
+- **Mastery:** Route a projectile through the arena using follow-up shots.
+- **Counterplay:** Puck is large and audible; redirects are capped and visible.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 039 — HOME RUN
 - **Internal ID:** HOME-RUN
 - **Roster status:** Active launch firearm
-- **Category:** Heavy Ball Launcher
-- **Rarity:** Evolved
+- **Category:** Kinetic ball launcher
+- **Rarity:** Commonplace
 - **Slot:** Primary
-- **Role:** Long-lane pressure that rewards predicting where an opponent will be.
-- **Core mechanic: Long Drive**
-  
-  Fires a heavy ball that gains a modest damage increase over distance travelled, up to a strict cap. It does not gain damage from bouncing.
-- **Weapon Action: Curveball**
-  
-  The next ball makes one broad, clearly visible curve toward the direction selected at launch, then continues on a straight path.
-- **Rules and counterplay:** The projectile is slow and visible; the distance bonus is capped; the curve is telegraphed and cannot bend around solid cover.
-- **Visual identity:** A sporting launcher with a padded barrel and oversized rotating ball chamber.
-- **Prototype values:** Projectile speed, range, distance scaling, damage cap, curve angle, and cooldown are TBD.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Distance-growing impact ball
+- **Firing loop:** A ball's impact radius grows during travel; at maximum range it emits a marked outward push ring. Weapon Action SWING converts the next ball early into a narrow forward fan.
+- **Mastery:** Choose between an early lane fan and a distant area pulse.
+- **Counterplay:** Growth and final ring are visible; early fan is narrow.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 040 — GUEST LIST
 - **Internal ID:** GUEST-LIST
@@ -1057,20 +790,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 041 — DOUBLE PARKED
 - **Internal ID:** DOUBLE-PARKED
 - **Roster status:** Active launch firearm
-- **Category:** Dual Pistols
+- **Category:** Twin-shot sidearm
 - **Rarity:** Commonplace
-- **Slot:** Primary
-- **Role:** Close-to-mid-range pressure through alternating shots.
-- **Core mechanic: Alternating Ticket**
-  
-  The pistols fire one at a time, alternating hands. Each has its own small magazine, so the player manages two independent ammunition counts.
-- **Weapon Action: Both Lanes**
-  
-  Fire both loaded pistols together in a wide, short-range volley with a substantial recovery period.
-- **Rules and counterplay:** The volley consumes one round from each pistol; its spread is wide; the normal alternating rhythm is predictable; reloads expose a clear downtime.
-- **Visual identity:** A mismatched pair of compact pistols with separate ammunition counters.
-- **Prototype values:** Damage, spread, magazine sizes, alternating interval, reload, and cooldown are TBD.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Slot:** Secondary
+- **Rebuilt identity:** Two lanes that cross at a chosen distance
+- **Firing loop:** Twin projectiles start apart and curve toward a player-selected crossing point. Weapon Action PARKING BRAKE locks the next pair's crossing distance.
+- **Mastery:** Aim for the space where two lanes meet.
+- **Counterplay:** Both lanes and crossing point are telegraphed; no target homing.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 042 — STATIC CLING
 - **Internal ID:** STATIC-CLING
@@ -1129,20 +856,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 045 — CLEAN BREAK
 - **Internal ID:** CLEAN-BREAK
 - **Roster status:** Active launch firearm
-- **Category:** Break-Action Shotgun
-- **Rarity:** Commonplace
+- **Category:** Break-shell launcher
+- **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Close-range burst damage with a meaningful two-shell decision.
-- **Core mechanic: Two Different Stories**
-  
-  The two barrels have distinct fixed spread patterns: one compact and one wide. The player alternates between them with each shot.
-- **Weapon Action: Double Down**
-  
-  Fire both barrels together, combining their patterns and consuming both shells.
-- **Rules and counterplay:** The active barrel is clearly indicated; the combined shot has a long recovery; ammunition is limited; opponents can bait the double shot and punish the reload.
-- **Visual identity:** A sturdy side-by-side shotgun with two differently marked barrels and a large break-open hinge.
-- **Prototype values:** Damage, spread patterns, shell count, reload, recovery, and cooldown are TBD.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Player-fractured shell
+- **Firing loop:** A shell travels intact until the player triggers a fracture into five fixed fragments; later fracture widens the arc. Weapon Action BREAK POINT triggers the fracture at the current position.
+- **Mastery:** Control the distance at which one projectile becomes a pattern.
+- **Counterplay:** Shell, fracture flash, and fragment paths are visible.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 046 — SUNDAY DRIVER
 - **Internal ID:** SUNDAY-DRIVER
@@ -1201,20 +922,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 049 — HIGH HORSE
 - **Internal ID:** HIGH-HORSE
 - **Roster status:** Active launch firearm
-- **Category:** Charge Launcher
+- **Category:** Vertical arc launcher
 - **Rarity:** Evolved
 - **Slot:** Primary
-- **Role:** Aerial combat with a deliberate risk-reward for leaving cover.
-- **Core mechanic: Above Yourself**
-  
-  The launcher fires ordinary damaging projectiles. Shots made while the user is airborne receive a small, capped damage bonus.
-- **Weapon Action: Come Down to Earth**
-  
-  Fire a downward burst that deals modest area damage and gives the user a controlled upward boost.
-- **Rules and counterplay:** The aerial bonus is small and capped; the user is exposed while airborne; the action has a clear warning and cannot be chained; grounded opponents retain normal damage.
-- **Visual identity:** A tall launcher with a horse-head sight and a visible altitude gauge.
-- **Prototype values:** Base damage, aerial bonus, burst radius, boost strength, and cooldown are TBD.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Rising orb with redirected descent
+- **Firing loop:** An orb rises vertically, pauses at its apex, then drops in a direction selected once by the player. Weapon Action TOP FLOOR extends the pause slightly with a visible descent marker.
+- **Mastery:** Use vertical space and choose a descent lane.
+- **Counterplay:** Ascent, apex, and descent marker are visible; ceilings block it.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 050 — TAKE A NUMBER
 - **Internal ID:** TAKE-A-NUMBER
@@ -1273,20 +988,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 053 — DOUBLE TAKE
 - **Internal ID:** DOUBLE-TAKE
 - **Roster status:** Active launch firearm
-- **Category:** Burst Rifle
-- **Rarity:** Ascendant
+- **Category:** Echo rifle
+- **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Mid-range pressure through delayed, predictable follow-up shots.
-- **Core mechanic: Echo Shot**
-  
-  Each trigger fires one normal projectile and schedules a weaker second projectile along the same initial direction after a short, fixed delay.
-- **Weapon Action: Save It**
-  
-  Hold the scheduled second projectile instead of releasing it immediately. Press again to release it along the stored direction.
-- **Rules and counterplay:** The second shot is weaker and visibly telegraphed; it cannot adjust direction after being stored; switching weapons cancels it; opponents can move after the first shot.
-- **Visual identity:** A twin-chamber rifle with a split timing display and a distinctive double-click sound.
-- **Prototype values:** Damage split, delay, magazine cost, storage window, and cooldown are TBD.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Delayed offset path-copy
+- **Firing loop:** A smaller echo repeats the first projectile's path after a delay with a fixed lateral offset; it cannot hit the same opponent twice. Weapon Action REPLAY changes the delay and offset side.
+- **Mastery:** Lead with the first shot and predict the echo lane.
+- **Counterplay:** Echo lane and timing are clearly signalled.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 054 — LOST PROPERTY
 - **Internal ID:** LOST-PROPERTY
@@ -1309,20 +1018,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 055 — BAD TIMING
 - **Internal ID:** BAD-TIMING
 - **Roster status:** Active launch firearm
-- **Category:** Automatic Rifle
+- **Category:** Timing rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
-- **Role:** Rhythm-based sustained damage with a deliberate firing pattern.
-- **Core mechanic: Wrong Moment**
-  
-  The rifle fires a fixed repeating rhythm: a short fast sequence followed by a clearly signalled pause. The pattern never randomises.
-- **Weapon Action: Skip the Beat**
-  
-  Skip the next pause, then enter a longer recovery period before the normal rhythm resumes.
-- **Rules and counterplay:** The rhythm is shown on the weapon; the action trades immediate output for later downtime; no shot is automatically aimed; opponents can time pushes around the pause.
-- **Visual identity:** A boxy rifle with a metronome-like side indicator and a mechanical click before each pause.
-- **Prototype values:** Sequence length, fire intervals, pause length, recovery, and cooldown are TBD.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Moving release-window pattern
+- **Firing loop:** Holding fire starts a timing needle; releasing at its centre fires a tight three-projectile pattern, while early or late releases widen it. Weapon Action OFF BEAT reverses the needle for the next shot.
+- **Mastery:** Time the release while tracking a target.
+- **Counterplay:** Meter and wind-up are clear; shot remains avoidable.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 056 — HUSH MONEY
 - **Internal ID:** HUSH-MONEY
@@ -1381,20 +1084,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 059 — SHORT FUSE
 - **Internal ID:** SHORT-FUSE
 - **Roster status:** Active launch firearm
-- **Category:** Explosive Repeater
-- **Rarity:** Ascendant
+- **Category:** Linked-charge launcher
+- **Rarity:** Evolved
 - **Slot:** Primary
-- **Role:** Area pressure through multiple visible, short-lived impact charges.
-- **Core mechanic: Stick Around**
-  
-  Fires small charges that attach to valid surfaces and automatically burst after a short fixed delay. A direct hit causes a smaller impact burst.
-- **Weapon Action: All at Once**
-  
-  Detonate all active charges early.
-- **Rules and counterplay:** Charges are visible and can be removed; only a small number can exist; the timer is clearly indicated; the action cannot detonate charges through blocked geometry.
-- **Visual identity:** A compact launcher with bright fuse caps and a visible charge counter.
-- **Prototype values:** Damage, blast radius, fuse time, active-charge limit, and cooldown are TBD.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Two linked charges sharing a countdown
+- **Firing loop:** Two placed charges share one timer and emit simultaneous outward pulse rings. Weapon Action SWAP exchanges their positions once before detonation.
+- **Mastery:** Place a pair, then alter the geometry before the shared timer ends.
+- **Counterplay:** Both timers are visible; charges are destructible and pulses telegraphed.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 060 — THE USUAL
 - **Internal ID:** THE-USUAL
@@ -1471,20 +1168,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 064 — BULLPEN
 - **Internal ID:** BULLPEN
 - **Roster status:** Active launch firearm
-- **Category:** Heavy Shotgun
-- **Rarity:** Ascendant
+- **Category:** Braced fan launcher
+- **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Close-range damage with a commitment-based firing stance.
-- **Core mechanic: Hold the Line**
-  
-  A normal shot has a broad spread. Remaining still briefly before firing tightens the spread, but moving cancels the preparation.
-- **Weapon Action: Step Up**
-  
-  Take a short, controlled forward step while firing a wider, lower-damage blast.
-- **Rules and counterplay:** The tighter shot requires a visible preparation window; the action does not grant invulnerability; the weapon is weak at range and vulnerable while preparing.
-- **Visual identity:** A broad, squared shotgun with a flip-out foregrip and a stance indicator.
-- **Prototype values:** Damage, spread profiles, preparation time, step distance, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Movement-shaped fan pattern
+- **Firing loop:** Stationary, lateral, and airborne states produce three fixed projectile fan shapes. Weapon Action SET YOUR FEET locks the current orientation briefly.
+- **Mastery:** Use movement to choose projectile geometry, then lock it.
+- **Counterplay:** Weapon orientation and fan are visible; lock has a clear cue.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 065 — PAPER CUT
 - **Internal ID:** PAPER-CUT
@@ -1561,20 +1252,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 069 — WIDE OPEN
 - **Internal ID:** WIDE-OPEN
 - **Roster status:** Active launch firearm
-- **Category:** Fan Shotgun
+- **Category:** Wave shotgun
 - **Rarity:** Commonplace
 - **Slot:** Primary
-- **Role:** Close-range damage across a broad horizontal lane.
-- **Core mechanic: Open Invitation**
-  
-  Fires a flat horizontal fan of projectiles. The spread is wide but shallow, making it effective against lateral movement and less effective against distant targets.
-- **Weapon Action: Close the Gap**
-  
-  The next shot uses a narrow vertical fan, trading lane coverage for a taller target window.
-- **Rules and counterplay:** The two patterns are clearly indicated; damage per projectile is modest; range is limited; opponents can change elevation or keep distance.
-- **Visual identity:** A broad-barrel shotgun with a fan-shaped muzzle shroud and a two-pattern selector.
-- **Prototype values:** Pellet count, fan dimensions, damage, range, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Horizontal wave that folds inward
+- **Firing loop:** A broad horizontal sheet travels forward, then folds into a narrow vertical ribbon at maximum range. Weapon Action SHUTTER folds the next wave early at a marked point.
+- **Mastery:** Choose between broad close coverage and narrow distant coverage.
+- **Counterplay:** Wave is visible, fixed-height, and blocked by cover.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 070 — DEAD CERT
 - **Internal ID:** DEAD-CERT
@@ -1651,20 +1336,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 074 — OVERHEAD
 - **Internal ID:** OVERHEAD
 - **Roster status:** Active launch firearm
-- **Category:** Arc Launcher
-- **Rarity:** Evolved
+- **Category:** Ceiling capsule launcher
+- **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Damage and pressure against opponents using predictable cover positions.
-- **Core mechanic: Coming Through**
-  
-  Fires a slow projectile in a high, fixed arc that lands at the point indicated by a ground shadow. It deals modest area damage on impact.
-- **Weapon Action: Short Route**
-  
-  The next projectile uses a lower, faster arc with reduced area damage.
-- **Rules and counterplay:** The landing shadow is visible; the projectile is slow and can be avoided; ceilings and solid geometry block it; the lower arc trades area for speed.
-- **Visual identity:** A compact lobber with an elevated barrel and a clear trajectory sight.
-- **Prototype values:** Arc height, projectile speed, impact radius, damage, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Ceiling-stuck capsule with floor pulse
+- **Firing loop:** A lobbed capsule sticks to a ceiling and marks a floor circle before dropping a single pulse marker. Weapon Action DROP NOW releases it early.
+- **Mastery:** Use ceiling geometry to position a delayed pulse.
+- **Counterplay:** Floor area is marked; capsule is visible, destructible, and timed.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 075 — TIGHTROPE
 - **Internal ID:** TIGHTROPE
@@ -1795,38 +1474,26 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 082 — TALLY HO
 - **Internal ID:** TALLY-HO
 - **Roster status:** Active launch firearm
-- **Category:** Light Machine Gun
-- **Rarity:** Commonplace
+- **Category:** Count-sequence rifle
+- **Rarity:** Evolved
 - **Slot:** Primary
-- **Role:** Sustained damage with an ammunition-counting mechanic.
-- **Core mechanic: Keep Score**
-  
-  Every fifth shot is a heavier, slower projectile with the same total damage budget as a small portion of the preceding sequence. The pattern is fixed and shown on the ammo counter.
-- **Weapon Action: Make It Even**
-  
-  Skip the next marked shot to reload a small number of rounds into the belt, trading immediate pressure for ammunition.
-- **Rules and counterplay:** The heavy shot is predictable; the action cannot create ammunition beyond the weapon's reserve; the weapon has a long reload and high sustained spread.
-- **Visual identity:** A compact belt-fed LMG with a rotating tally counter and visible feed belt.
-- **Prototype values:** Damage, sequence interval, belt size, reload time, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Fifth-shot geometry change
+- **Firing loop:** Four identical darts are followed by a three-pronged fifth shot; reload resets the visible counter. Weapon Action CARRY OVER preserves the count through one weapon swap at a cadence cost.
+- **Mastery:** Prepare the fork shot for a chosen lane.
+- **Counterplay:** Counter and fifth-shot tell are visible; paths are fixed.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 083 — STATIC SHOCK
 - **Internal ID:** STATIC-SHOCK
 - **Roster status:** Active launch firearm
-- **Category:** Arc Rifle
-- **Rarity:** Ascendant
+- **Category:** Marker-linked pulse rifle
+- **Rarity:** Evolved
 - **Slot:** Primary
-- **Role:** Mid-range damage against grouped opponents without automatic chain targeting.
-- **Core mechanic: Charge Transfer**
-  
-  Direct hits leave a short-lived charge on the target. A later shot at a charged target creates a small, fixed-radius arc to one nearby opponent, dealing reduced secondary damage.
-- **Weapon Action: Ground Wire**
-  
-  The next hit consumes the charge without chaining and instead briefly interrupts the target's active weapon action.
-- **Rules and counterplay:** The arc only reaches one nearby opponent; the charge is visible and expires quickly; secondary damage is low; opponents can spread out or wait for the charge to fade.
-- **Visual identity:** An insulated rifle with a visible coil and a charge meter.
-- **Prototype values:** Direct damage, arc radius, secondary damage, charge duration, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Two-marker conductive route
+- **Firing loop:** Two surface markers create a straight pulse route; firing through one sends a pulse to the second and out in a selected direction. Weapon Action REWIRE rotates the exit direction once.
+- **Mastery:** Construct a temporary two-point firing route.
+- **Counterplay:** Markers and route are visible and destructible; no wall bending.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 084 — QUIET HOURS
 - **Internal ID:** QUIET-HOURS
@@ -1849,20 +1516,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 085 — BLIND DATE
 - **Internal ID:** BLIND-DATE
 - **Roster status:** Active launch firearm
-- **Category:** Close-Range Rifle
+- **Category:** Paired-shot rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
-- **Role:** Close-range damage through controlled hip-fire and a risky aiming trade-off.
-- **Core mechanic: No Introductions**
-  
-  Hip-fired shots have a tight, fixed pattern. Aiming down sights widens the pattern but increases projectile speed, creating a choice between spread control and faster shots.
-- **Weapon Action: Make It Official**
-  
-  Lock the weapon into its current firing mode for a short duration, preventing accidental mode changes while maintaining normal damage.
-- **Rules and counterplay:** Both modes are clearly shown; the action provides no damage bonus; the weapon has limited effective range; opponents can use distance and cover.
-- **Visual identity:** A compact rifle with a two-position sight and a bright mode indicator.
-- **Prototype values:** Spread profiles, projectile speed, range, lock duration, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Delayed partner projectile
+- **Firing loop:** A bright lead projectile is followed by a second shot after a fixed delay along the original aim direction. Weapon Action LATE ARRIVAL lengthens the delay and previews the partner lane.
+- **Mastery:** Lead a target and predict its position when the partner arrives.
+- **Counterplay:** Ghost lane and audio cue reveal the second shot.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 086 — HIGH BEAMS
 - **Internal ID:** HIGH-BEAMS
@@ -2065,20 +1726,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 097 — BIG PICTURE
 - **Internal ID:** BIG-PICTURE
 - **Roster status:** Active launch firearm
-- **Category:** Heavy Burst Rifle
-- **Rarity:** Evolved
+- **Category:** Spiral convergence launcher
+- **Rarity:** Extraordinary
 - **Slot:** Primary
-- **Role:** Mid-range damage with a deliberate wide-to-tight shot sequence.
-- **Core mechanic: Frame by Frame**
-  
-  Fires a three-shot sequence whose spread narrows with each shot. The first shot covers a broad area; the final shot is the most accurate.
-- **Weapon Action: Zoom Out**
-  
-  Reverse the next sequence, starting with the tightest shot and widening on subsequent shots.
-- **Rules and counterplay:** The pattern is fixed and visible; the action changes spread order, not damage; the sequence has a recovery window; opponents can reposition between shots.
-- **Visual identity:** A boxy rifle with a three-frame display and a sliding lens assembly.
-- **Prototype values:** Damage, spread stages, shot intervals, recovery, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Player-selected convergence spiral
+- **Firing loop:** Six projectiles travel in a visible spiral and curve toward a selected point in open space before dissipating. Weapon Action FRAME IT locks the point early and tightens the spiral.
+- **Mastery:** Place a convergence point in space and predict its arrival.
+- **Counterplay:** All paths and convergence point are visible; curves are bounded.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 098 — SMALL TALK
 - **Internal ID:** SMALL-TALK
@@ -2119,20 +1774,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 100 — OVERBOOKED
 - **Internal ID:** OVERBOOKED
 - **Roster status:** Active launch firearm
-- **Category:** Automatic Shotgun
-- **Rarity:** Evolved
+- **Category:** Cycling shell launcher
+- **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Close-range damage with a riskier, overfilled firing mode.
-- **Core mechanic: No Vacancies**
-  
-  The shotgun fires a controlled automatic sequence. The final shot in a continuous sequence has wider spread and increased recoil, making prolonged fire less reliable.
-- **Weapon Action: Squeeze In**
-  
-  Load one additional shell beyond the normal magazine capacity, but the next reload takes longer.
-- **Rules and counterplay:** The extra shell is not bonus damage; the action creates a clear reload penalty; spread increases predictably; the weapon is ineffective at long range.
-- **Visual identity:** A bulky shotgun with an over-capacity shell window and a red FULL sign.
-- **Prototype values:** Damage, fire rate, magazine, extra-shell cost, spread, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Deterministic three-shell chamber
+- **Firing loop:** A visible chamber cycles through a straight slug, arcing capsule, and slow disc. Weapon Action REORDER swaps the next two shells.
+- **Mastery:** Manage a predictable projectile sequence.
+- **Counterplay:** Chamber and shell silhouettes show exactly what comes next.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 101 — ROLL CALL
 - **Internal ID:** ROLL-CALL
@@ -2209,20 +1858,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 105 — DOUBLE SHIFT
 - **Internal ID:** DOUBLE-SHIFT
 - **Roster status:** Active launch firearm
-- **Category:** Dual-Feed Rifle
-- **Rarity:** Evolved
+- **Category:** Dual-feed launcher
+- **Rarity:** Extraordinary
 - **Slot:** Primary
-- **Role:** Mid-range damage with a deliberate choice between two ammunition feeds.
-- **Core mechanic: Two Jobs**
-  
-  The rifle alternates between two feeds: a steady, accurate round and a faster, lighter round with reduced damage. The order is fixed and visible.
-- **Weapon Action: Swap Shifts**
-  
-  Skip the next feed and choose which ammunition type fires next, then return to the standard sequence.
-- **Rules and counterplay:** Neither feed is strictly stronger; the pattern is visible; the action only changes order; the rifle requires the player to manage the firing rhythm.
-- **Visual identity:** A clean rifle with two visible feed tubes and a rotating shift selector.
-- **Prototype values:** Damage, projectile speed, feed interval, magazine, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Two feeds that cross-combine
+- **Firing loop:** The left feed fires straight pulses; the right feed fires returning crescents. When one of each is active, they can meet at a marked midpoint to form a brief shared barrier. Weapon Action SHIFT GEARS changes feed order and barrier side.
+- **Mastery:** Manage two projectile systems and create a temporary shared obstruction.
+- **Counterplay:** Separate ammo counters and midpoint are visible; barrier affects both teams.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 106 — OPEN TAB
 - **Internal ID:** OPEN-TAB
@@ -2281,20 +1924,14 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 ### Weapon 109 — SIDE DISH
 - **Internal ID:** SIDE-DISH
 - **Roster status:** Active launch firearm
-- **Category:** Compact Launcher
-- **Rarity:** Ascendant
+- **Category:** Companion-shard rifle
+- **Rarity:** Altered
 - **Slot:** Primary
-- **Role:** Mid-range damage with a secondary projectile that changes the main shot's path.
-- **Core mechanic: Comes With It**
-  
-  Fires a main projectile followed by a smaller companion projectile at a fixed offset. The two paths remain separate and can hit different opponents.
-- **Weapon Action: Swap Sides**
-  
-  Reverse the companion projectile's offset for the next shot, allowing the player to choose which side of cover to pressure.
-- **Rules and counterplay:** Both paths are visible; the companion deals reduced damage; the action changes direction only; the weapon does not bend shots around solid geometry.
-- **Visual identity:** A compact launcher with twin offset barrels and a rotating side selector.
-- **Prototype values:** Main and companion damage, offset, projectile speed, and cooldown are TBD.
-- **Status:** Proposed concept. Prototype values are TBD.
+- **Rebuilt identity:** Opposite-route sidecar projectile
+- **Firing loop:** A main bolt travels straight while a smaller shard starts laterally and curves back to the main lane at a fixed distance. Weapon Action SIDE ORDER selects its starting side.
+- **Mastery:** Cover a second lane while aiming the main bolt.
+- **Counterplay:** Both projectiles and the sidecar return point are visible.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 110 — CLEAN SLATE
 - **Internal ID:** CLEAN-SLATE
@@ -2840,16 +2477,14 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 ### Weapon 148 — DETOUR
 - **Internal ID:** DETOUR
 - **Roster status:** Active launch firearm
-- **Category:** Arc Launcher
+- **Category:** Route-drawing bolt launcher
 - **Rarity:** Extraordinary
 - **Slot:** Primary
-- **Role:** A route-prediction primary. The altered path is previewed, has a limited bend, and can be dodged or blocked.
-- **Core mechanic:** Fires a slow, visible projectile that follows a shallow curve. Direct hits deal damage; near misses do not create a blast.
-- **Weapon Action:** Set the next projectile to take a wider arc around one visible corner marker, but it still cannot pass through walls.
-- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
-- **Visual identity:** A compact launcher with a curved guide rail and a bright trajectory lens.
-- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Player-sketched open-air projectile route
+- **Firing loop:** The player sketches up to two open-air straight segments; a slow bolt follows that route exactly. Weapon Action SHORTCUT removes the final segment for a shorter, faster path.
+- **Mastery:** Draw a useful path through open space and predict its emergence.
+- **Counterplay:** Route preview is visible; walls block it; length and turns are capped.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 149 — WELL READ
 - **Internal ID:** WELL-READ
@@ -2910,16 +2545,14 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 ### Weapon 153 — TRAFFIC JAM
 - **Internal ID:** TRAFFIC-JAM
 - **Roster status:** Active launch firearm
-- **Category:** Scatter Launcher
-- **Rarity:** Extraordinary
+- **Category:** Cluster barrier launcher
+- **Rarity:** Evolved
 - **Slot:** Primary
-- **Role:** A lane-pressure primary that chooses coverage or concentration. Projectiles are visible, slow, and individually avoidable.
-- **Core mechanic:** Fires a cluster of slow foam-like impact rounds that spread slightly while travelling. Each projectile deals modest damage and has no lingering hazard.
-- **Weapon Action:** Compress the next cluster into a tighter grouping with reduced total projectile count and a faster reload afterward.
-- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
-- **Visual identity:** A wide-bodied launcher with a folding cluster muzzle.
-- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Moving row of rotating barriers
+- **Firing loop:** A canister creates three floating panels that drift forward and briefly block projectiles from both teams. Weapon Action CHANGE LANES rotates the row by 90 degrees.
+- **Mastery:** Place and rotate temporary moving arena geometry.
+- **Counterplay:** Panels are bright, destructible, short-lived, and shared.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 154 — BETTER LUCK
 - **Internal ID:** BETTER-LUCK
@@ -2966,16 +2599,14 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 ### Weapon 157 — NARROW ESCAPE
 - **Internal ID:** NARROW-ESCAPE
 - **Roster status:** Active launch firearm
-- **Category:** Compact Launcher
-- **Rarity:** Evolved
+- **Category:** Route-recording capsule
+- **Rarity:** Ascendant
 - **Slot:** Primary
-- **Role:** A timing-based primary for controlling a small patch of space. The projectile is slow and visible; the early burst is smaller and cannot pass through cover.
-- **Core mechanic:** Fires a low-damage projectile that bursts into a small, short-lived ring on impact. The ring is a readable area-denial cue, not a persistent hazard.
-- **Weapon Action:** Detonate the next projectile early while it is in open air, creating a smaller ring at its current position.
-- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
-- **Visual identity:** A compact launcher with a circular range gauge.
-- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Rebuilt identity:** Recorded outbound path with parallel return
+- **Firing loop:** A capsule records a short outbound route, then returns along a parallel lane chosen left or right. Weapon Action EXIT PLAN ends recording early and recalls it sooner.
+- **Mastery:** Use movement to shape a two-way projectile route.
+- **Counterplay:** Recorded route, offset, and recall are visible and bounded.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 158 — SAME PAGE
 - **Internal ID:** SAME-PAGE
@@ -3022,16 +2653,14 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 ### Weapon 161 — BAD SIGNAL
 - **Internal ID:** BAD-SIGNAL
 - **Roster status:** Active launch firearm
-- **Category:** Pulse Sidearm
-- **Rarity:** Altered
-- **Slot:** Secondary
-- **Role:** A disruption sidearm with limited combat impact. The effect is brief, non-disabling, and has strong visual feedback and cooldown.
-- **Core mechanic:** A low-damage pulse sidearm briefly disrupts the target's HUD edge indicators on direct hit, without obscuring the centre of the screen or disabling controls.
-- **Weapon Action:** Send a short pulse that removes the user's own HUD edge clutter for a moment, helping focus on a duel.
-- **Rules and counterplay:** All attack arcs, action ranges, timings, and active objects have readable cues. The weapon's central advantage is limited by its stated range, duration, recovery, or setup requirement; opponents can avoid, interrupt, or punish the commitment as described above.
-- **Visual identity:** A small pulse pistol with a segmented signal bar.
-- **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
-- **Status:** Accepted concept. Prototype values are TBD.
+- **Category:** Mirrored-lane pulse weapon
+- **Rarity:** Singular
+- **Slot:** Primary
+- **Rebuilt identity:** Temporary mirrored firing lane
+- **Firing loop:** A pulse dart anchors to a surface and projects a mirror line; the next shot can emerge from a mirrored point and travel parallel to the original lane. Weapon Action STATIC FLIP rotates the line slightly before the next shot.
+- **Mastery:** Construct a second firing lane through a clear spatial rule.
+- **Counterplay:** Origin, line, and exit lane are visible; cannot bypass walls or cover.
+- **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
 ### Weapon 162 — DEADLINE
 - **Internal ID:** DEADLINE
