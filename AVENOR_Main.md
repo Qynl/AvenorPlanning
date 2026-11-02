@@ -114,11 +114,11 @@ These slot names and their basic roles are the current standard for AVENOR.
 - Pickups create decisions around map control and adapting to opponents.
 - The exact restrictions for swapping, dropping, and carrying picked-up items are **TBD**.
 
-The full weapon roster and individual weapon designs are documented in **AVENOR_Weapons.md**.
+The full weapon catalogue and roster statuses are documented in **AVENOR_Weapons.md**. The 40 active firearms' distinct projectile behaviour, firing patterns, impact behaviour, handling rhythm, and counterplay are specified in **AVENOR_FiringIdentities.md**.
 
 ## 7. Weapons and Weapon Identity
 
-AVENOR is planned to launch with a broad weapon selection. The current planning roster contains **167 weapon concepts**.
+AVENOR is planned to launch with a broad weapon selection. The active launch roster contains **113 weapon concepts: 40 distinct damage-dealing firearms and launchers, 43 utility tools, and 30 melee weapons**. Another 54 firearm concepts are archived and are not launch content. The 40 active firearms each have a distinct projectile or firing pattern, detailed in **AVENOR_FiringIdentities.md**.
 
 Every weapon should have:
 - A distinct identity and readable silhouette.
@@ -377,7 +377,8 @@ The proposed audio identity, gameplay-versus-cosmetic priority mix, weapon and m
 
 ## 21. Related Planning Documents
 
-- **AVENOR_Weapons.md** — weapon roster, slot classification, and individual weapon concepts.
+- **AVENOR_Weapons.md** — weapon catalogue, active/archive roster status, slot classification, and prototype combat stats.
+- **AVENOR_FiringIdentities.md** — the 40 active firearms, with distinct projectile designs, firing patterns, impact behaviour, handling, counterplay, and acceptance criteria.
 - **AVENOR_Abilities.md** — ability system rules, approved ability concepts, rarity assignments, and individual ability designs.
 - **AVENOR_Gameplay.md** — detailed proposed gameplay rules, movement, combat, match flow, HUD, and first playable prototype.
 - **AVENOR_GameModes.md** — classic and original modes, including AVENOR ORIGIN, with proposed match formats and rules.
