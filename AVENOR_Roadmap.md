@@ -5,7 +5,7 @@
 ## 1. Roadmap Rules
 
 1. **Build playable slices, not isolated feature piles.** Each milestone should produce something that can be launched and tested.
-2. **Prove the foundation before scaling content.** Do not implement all 167 weapons, all 50 abilities, eight maps, or the full cosmetic catalogue before the core loop works.
+2. **Prove the foundation before scaling content.** Do not implement all 113 active weapons, all 50 abilities, eight maps, or the full cosmetic catalogue before the core loop works.
 3. **Use the existing design documents as the source of truth.** Do not silently redesign systems while implementing them. Record approved changes in the relevant document.
 4. **Keep proposed numbers tunable.** Health, movement, damage, cooldowns, match timers, and weapon statistics are starting values until playtests support them.
 5. **Server authority is mandatory for competitive outcomes.** Clients may present effects and send input requests; the server validates combat, damage, ammo, cooldowns, objectives, match results, ownership, and rewards.
@@ -21,7 +21,7 @@ The following design work already exists and should be treated as the current re
 |---|---|---|
 | Overall game direction | `AVENOR_Main.md` | Product-level decisions and identity |
 | Core gameplay | `AVENOR_Gameplay.md` | Movement, health, combat, match flow, prototype |
-| Weapons | `AVENOR_Weapons.md` | 167-weapon roster and prototype stat sheet |
+| Weapons | `AVENOR_Weapons.md` | 113 active weapons (40 firearms, 43 utility, 30 melee); archive-only concepts remain excluded |
 | Abilities | `AVENOR_Abilities.md` | 50 ability concepts and prototype specifications |
 | Modes | `AVENOR_GameModes.md` | DUEL through AVENOR ORIGIN |
 | Maps | `AVENOR_Maps.md` | Map standards and eight map concepts |
@@ -163,7 +163,7 @@ Milestones may overlap when their dependencies are satisfied, but a later milest
 
 ### M4 — Data-Driven Weapon Framework
 
-**Goal:** Turn the weapon roster into a scalable system instead of 167 separate implementations.
+**Goal:** Turn the active weapon roster into a scalable system instead of 113 separate implementations.
 
 **Work:**
 - Create a shared weapon definition schema.
@@ -181,7 +181,7 @@ Milestones may overlap when their dependencies are satisfied, but a later milest
 - One melee weapon.
 - One utility-focused item.
 
-The selected weapons should be chosen from the existing roster based on how well they test distinct framework requirements, not simply because they are the first entries.
+The selected weapons should come from the 40 active firearms and be chosen to test different projectile and firing modules, not simply because they are the first entries.
 
 **Deliverables:**
 - Shared weapon framework.
@@ -474,7 +474,7 @@ The first genuinely playable AVENOR build should contain only:
 
 The first playable version does **not** need:
 
-- All 167 weapons.
+- All 113 active launch weapons.
 - All 50 abilities.
 - Eight finished maps.
 - The full social hub.
@@ -493,7 +493,7 @@ Use staged content batches rather than importing the entire design roster at onc
 1. **Framework batch:** representative weapons that test each behavior family.
 2. **Core batch:** a compact, balanced selection suitable for the first public modes.
 3. **Expansion batches:** add weapons only when their role is distinct and the framework supports them.
-4. **Full roster target:** work toward all 167 designs only after balance, performance, and content production are sustainable.
+4. **Full roster target:** work toward all 113 active launch weapons only after balance, performance, and content production are sustainable. The 54 archived firearm concepts remain out of scope unless individually redesigned and approved.
 
 ### Abilities
 1. Test a small group covering different ability categories.
