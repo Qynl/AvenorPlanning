@@ -170,3 +170,10 @@ The first useful prototype should prove:
 - Is ammunition downtime interesting rather than frustrating?
 - Does the game remain readable on mobile?
 - Can the server validate all important state?
+
+
+## 13. Exploration-first sandbox clarification
+The Open World is primarily about exploration, player freedom and spontaneous encounters. The player is not expected to follow a single mission chain. Combat is one possible outcome of exploration, NPC activity or player interaction, not the default state of every location. Players can fight hostile NPCs and other players where PvP rules allow. Friendly fire is a desired feature to evaluate, but party/public defaults and anti-griefing protections are unresolved. No visible wanted-level number or star meter is planned; world reactions should be communicated through NPC behaviour and context. See `AVENOR_OpenWorld.md`.
+
+## 14. Open World interaction scope
+The GTA-inspired influence is limited to the feeling of freedom, inhabited settlements, services, possible vehicles and reactive NPCs. It is not a crime-first game and does not imply that vehicles, vehicle ownership, trading, economy or every suggested side activity are approved for launch. Treat each as a proposal requiring a prototype decision.
