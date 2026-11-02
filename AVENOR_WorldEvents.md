@@ -104,7 +104,7 @@ A travelling expedition sets up a temporary camp at a remote landmark. NPC explo
 
 ### 02 — BLACKOUT
 **Duration:** 90 minutes per occurrence, several occurrences across a 24-hour window. **Type:** Local World.
-A major district loses power. Street lighting, selected doors, signs, lifts and site systems change state. Backup generators can be found and activated. Emergency crews arrive and NPC faction activity adapt.
+A major district loses power. Street lighting, selected doors, signs, lifts and site systems change state. Backup generators can be found and activated. Nearby NPC faction squads may investigate the changed area or use it as an opportunity to move.
 **Changes:** district lighting, access routes, generator interactions, NPC faction activity and ambience.
 
 ### 03 — MOVING MARKET
