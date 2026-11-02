@@ -90,7 +90,7 @@ The account level count is uncapped. The exact XP curve, reward cadence and mile
 
 ## 4. Weapon Unlocks
 
-The current main design allows weapon unlocks through account progression and provides a usable default loadout immediately.
+The active launch collection contains 113 gameplay weapons: 40 firearms/launchers, 43 utility tools, and 30 melee weapons. Only these active entries participate in launch unlocks, ownership, loadouts, shop listings, and mastery. The 54 archived firearm concepts are not unlockable launch content. The current main design allows active weapon unlocks through account progression and provides a usable default loadout immediately.
 
 Proposed rules:
 - Every new account starts with a complete, usable default loadout.
@@ -119,7 +119,7 @@ The final ability unlock schedule and whether the full ability roster is availab
 
 ## 6. Weapon Mastery
 
-Every weapon has its own independent mastery track. Weapon XP is separate from account XP.
+Every active launch weapon has its own independent mastery track. Weapon XP is separate from account XP. Archived firearm concepts have no launch mastery track.
 
 ### How mastery progresses
 
@@ -141,7 +141,7 @@ Weapon mastery may unlock:
 - Weapon statistics and mastery profile displays.
 - A dedicated max-mastery completion collection.
 
-Every weapon follows the same overall mastery philosophy, but its challenges can reflect its unique identity.
+Every active weapon follows the same overall mastery philosophy, but its challenges must reflect its actual role and mechanics. Firearm challenges must use the approved firing identity in `AVENOR_FiringIdentities.md`, not obsolete legacy behaviour. Utility and melee challenges must use their own documented mechanics.
 
 ### Completion
 
@@ -150,7 +150,7 @@ Every weapon follows the same overall mastery philosophy, but its challenges can
 - No endless prestige loop after maximum mastery.
 - Mastery does not improve damage, recoil, accuracy, reload speed, ammo, range, or any other combat property.
 
-Exact mastery levels, XP thresholds and reward placement are **TBD / playtest** and are maintained alongside the weapon roster in `AVENOR_Weapons.md`.
+Exact mastery levels, XP thresholds and reward placement are **TBD / playtest** and are maintained alongside the active weapon roster in `AVENOR_Weapons.md`. Firearm-specific mastery challenges must be designed around the authoritative firing loops in `AVENOR_FiringIdentities.md`.
 
 ## 7. Competitive Rank
 
@@ -406,7 +406,7 @@ The curve has no maximum level and grows linearly. It is intentionally quick ear
 ### 16.3 Weapon unlock policy proposal
 
 - Every account starts with a complete, viable default loadout.
-- All 167 planned weapons are permanently earnable through account progression, AVENOR Credits, or clearly stated weapon challenges.
+- All 113 active launch weapons (40 firearms/launchers, 43 utility tools, and 30 melee weapons) are permanently earnable through account progression, AVENOR Credits, or clearly stated weapon challenges. The 54 archived firearm concepts are excluded from launch unlocks.
 - No gameplay weapon is Robux-exclusive.
 - No weapon is available only from a random case.
 - Unlock requirements are visible in the weapon collection before progress begins.
