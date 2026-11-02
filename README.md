@@ -7,7 +7,7 @@
 2. **[AVENOR_OpenWorld.md](AVENOR_OpenWorld.md)** — exploration, freedom, NPC factions and social sandbox.
 3. **[AVENOR_Map_Performance.md](AVENOR_Map_Performance.md)** — map production, streaming, budgets and profiling.
 4. **[AVENOR_Worlds.md](AVENOR_Worlds.md)** — ten proposed world concepts and global-event compatibility.
-5. **[AVENOR_WorldEvents.md](AVENOR_WorldEvents.md)** — global world transformations, local incidents, competitive events and seasonal scheduling.
+5. **[AVENOR_WorldEvents.md](AVENOR_WorldEvents.md)** — global transformations, admin-triggered live events, community events, local incidents, competitive playlists and seasonal scheduling.
 6. **[AVENOR_GameModes.md](AVENOR_GameModes.md)** — permanent competitive playlists and temporary mode events.
 7. **[AVENOR_NPCs.md](AVENOR_NPCs.md)** — NPC categories and behaviour.
 8. **[AVENOR_Gameplay.md](AVENOR_Gameplay.md)** — movement, combat, ammunition and core loop.
@@ -29,7 +29,7 @@
 - Performance is a design constraint from the first greybox.
 
 ## Events
-AVENOR separates **Global World Events** (whole-region seasonal transformations), **Local World Events** (temporary incidents, NPC activities and discoveries) and **Competitive Events** (limited playlists and match rules). Major seasonal events can replace the normal active world with a compatible region and a complete event-specific world state. See AVENOR_WorldEvents.md.
+AVENOR separates **Global World Events** (whole-region transformations), **Admin Events** (authorised live operations and surprise events), **Community Events** (shared goals and celebrations), **Local World Events** (temporary incidents and discoveries) and **Competitive Events** (limited playlists and match rules). Major seasonal events can replace the normal active world with a compatible region and a complete event-specific world state. See AVENOR_WorldEvents.md.
 
 ## Status rules
 - **Confirmed direction:** explicitly selected by the user.
