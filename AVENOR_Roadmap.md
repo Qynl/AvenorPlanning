@@ -407,6 +407,8 @@ The selected weapons should be chosen from the existing roster based on how well
 - Add the universal rarity presentation system.
 - Add weapon skin application through the shared weapon framework.
 - Add elimination effects, victory effects, and emotes in their appropriate contexts.
+- Add MVP selection and presentation, elimination announcements, banners, titles, and profile showcases.
+- Implement the HUD, cross-platform controls, accessibility options, and gameplay audio priorities.
 - Add shop and currency transactions with server-side validation.
 - Ensure paid purchases are cosmetic and never create combat-stat advantages.
 - Add options to reduce or disable intense cosmetic presentation where practical.
@@ -414,11 +416,16 @@ The selected weapons should be chosen from the existing roster based on how well
 **Deliverables:**
 - Inventory and equip UI.
 - Cosmetic rendering pipeline.
+- MVP, announcement, banner, title, and profile showcase systems.
+- HUD, control, accessibility, and audio foundations.
 - First implemented cosmetic batches.
 - Secure currency and purchase handling.
 
 **Exit criteria:**
 - Owned cosmetics equip consistently across servers.
+- MVP selection is server-authoritative and cosmetic presentation can be skipped or reduced.
+- Cosmetic announcements cannot imitate gameplay-critical audio.
+- HUD and control layouts communicate the same critical state across supported platforms.
 - Cosmetic effects do not alter hitboxes, movement, damage, or visibility in a competitive advantage.
 - Inventory and currency are server-authoritative.
 - Failed or repeated transactions cannot duplicate purchases or currency.
