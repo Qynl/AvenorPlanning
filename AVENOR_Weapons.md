@@ -78,7 +78,7 @@ Activate to cash in the mark. The next shot that hits the marked opponent deals 
 - Breaking line of sight for a short period clears the mark.
 - The action does not aim, track, or guarantee a hit.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: mark progression, mark duration, bonus cap, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: mark progression, mark duration, bonus cap, and cooldown are TBD remain TBD.
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -102,7 +102,7 @@ Perform a short forward movement burst while keeping the weapon ready.
 - It cannot be chained repeatedly.
 - The weapon's accelerating fire rate still requires ammunition management.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: acceleration time, movement distance, recovery, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: acceleration time, movement distance, recovery, and cooldown are TBD remain TBD.
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -128,7 +128,7 @@ Fire a special blast that launches the user backwards and pushes opponents caugh
 - It deals limited or no damage compared with a normal shot; its primary purpose is repositioning and spacing.
 - Opponents can avoid the blast area.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Pellet count, spread profiles, push strength, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Pellet count, spread profiles, push strength, and cooldown are TBD remain TBD.
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -153,7 +153,7 @@ Place a visible marker on a valid surface within range. The next scoped shot can
 - The shot still requires normal aim and can be dodged or blocked.
 - The marker cannot be placed through solid geometry.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Stabilization duration, marker range and lifetime, shot redirection rules, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Stabilization duration, marker range and lifetime, shot redirection rules, and cooldown are TBD remain TBD.
 
 **Status:** Accepted redesign concept, pending competitive testing.
 
@@ -178,7 +178,7 @@ Toss a special metal token into the arena. Shooting the token redirects the next
 - The player must still line up the initial shot.
 - Token placement and use have a limited duration.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: projectile speed, ricochet rules, token lifetime, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: projectile speed, ricochet rules, token lifetime, and cooldown are TBD remain TBD.
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -202,7 +202,7 @@ The next burst fires a fourth projectile.
 - The extra shot adds a handling or recovery trade-off.
 - The action cannot be activated repeatedly without its cooldown.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Burst interval, third-shot trajectory, fourth-shot trajectory, ammunition cost, recovery, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Burst interval, third-shot trajectory, fourth-shot trajectory, ammunition cost, recovery, and cooldown are TBD remain TBD.
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -226,7 +226,7 @@ Lock the barrel at maximum spin for a short period. During this window, the play
 - The action cannot be activated while the barrel is completely idle.
 - Sustained fire consumes ammunition quickly.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Spin-up time, fire-rate curve, movement speed during Grass Cutter, duration, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Spin-up time, fire-rate curve, movement speed during Grass Cutter, duration, and cooldown are TBD remain TBD.
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -254,7 +254,7 @@ While the disc is travelling outward, aim at a valid surface and press Weapon Ac
 
 **Visual identity:** A chunky industrial throwing disc with a distinctive spinning animation and a clear route indicator when its return path is changed.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: travel speed, maximum range, return-point range, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: travel speed, maximum range, return-point range, and cooldown are TBD remain TBD.
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -284,7 +284,7 @@ While a panel is active, press Weapon Action to rotate its launch direction by 9
 
 **Visual identity:** A sturdy construction-style launcher with a bright folding panel, mechanical hinges, and a spring-loaded deployment animation.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: panel lifetime, launch strength, launch count, placement range, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: panel lifetime, launch strength, launch count, placement range, and cooldown are TBD remain TBD.
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -306,7 +306,7 @@ Fire one loaded round downward to launch the player in the opposite direction. T
 - The ability itself does not deal damage.
 - Using it reduces the ammunition available for the next fight, so players must choose between mobility and keeping the round.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: firing interval, magazine/reload values, movement impulse, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: movement impulse, and cooldown are TBD remain TBD.
 
 **Status:** Proposed concept. Not yet accepted.
 
@@ -328,7 +328,7 @@ The next projectile can be detonated remotely while it is travelling by pressing
 - If not remotely detonated, it follows its normal impact behaviour.
 - The remote detonation must have clear visual and audio feedback.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: blast radius, projectile speed, and action cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: blast radius, projectile speed, and action cooldown are TBD remain TBD.
 
 **Status:** Proposed concept. Not yet accepted.
 
@@ -352,7 +352,7 @@ For a short duration, suppresses the weapon's distinctive firing audio and remov
 - The duration is short and has clear activation feedback.
 - The weapon still requires accurate burst placement.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: burst spacing, effect duration, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: burst spacing, effect duration, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -376,7 +376,7 @@ Store the current charge and temporarily switch to the secondary weapon. The sto
 - Switching to the secondary does not preserve the charge indefinitely.
 - The shot still requires normal aim.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Charge time, damage curve, mobility penalty, storage duration, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Charge time, damage curve, mobility penalty, storage duration, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -401,7 +401,7 @@ Fire a special anchor bolt that attaches to the first valid solid surface it hit
 - The pull requires a valid surface and can be interrupted by the anchor being removed.
 - The bolt cannot attach through solid geometry.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Bolt speed, split distance, spread, anchor lifetime, pull strength, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Bolt speed, split distance, spread, anchor lifetime, pull strength, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -429,7 +429,7 @@ Activate all existing markers. Each marker emits a short-range pulse that briefl
 
 **Visual identity:** A chunky construction-tool-inspired launcher with exposed mechanical parts, an oversized bolt magazine, and a warning light that flashes when markers are active.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: marker lifetime, pulse radius, reveal duration, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: marker lifetime, pulse radius, reveal duration, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -456,7 +456,7 @@ Activate to make the next projectile create a short-lived circular bounce field 
 
 **Visual identity:** A compact launcher with a mechanical fare display that increments with consecutive hits, yellow details, dark metal, and a distinctive meter sound.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: projectile speed, fare progression, counter reset timing, field radius, push strength, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: projectile speed, fare progression, counter reset timing, field radius, push strength, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -483,7 +483,7 @@ Activate the decoy early. It performs a fake attack animation and creates a brie
 
 **Visual identity:** A compact signal pistol with an oversized flare chamber, orange-red accents, and a blinking indicator.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Projectile speed, decoy lifetime, imitation range, activation flash duration, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Projectile speed, decoy lifetime, imitation range, activation flash duration, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -509,7 +509,7 @@ Press and hold Weapon Action to hold the next shot instead of firing immediately
 
 **Visual identity:** An offset twin-barrel rifle with two distinct barrel housings and a mechanical indicator that switches sides after every shot.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: firing interval, spread profiles, stored-shot window, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: spread profiles, stored-shot window, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -536,7 +536,7 @@ Make the next shot attach a tag to a surface instead of an opponent. If an oppon
 
 **Visual identity:** A slim precision rifle with a paper-feed mechanism, visible tag cartridges, and a mechanical stamping sound.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: tag duration, trail lifetime, surface-tag trigger radius, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: tag duration, trail lifetime, surface-tag trigger radius, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -563,7 +563,7 @@ Pull all active patches together into one longer slick strip between their posit
 
 **Visual identity:** A chunky industrial pressure sprayer with a small liquid tank, yellow caution markings, and a distinctive spray sound.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Patch lifetime, patch size, movement effect strength, maximum active patches, spray range, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Patch lifetime, patch size, movement effect strength, maximum active patches, spray range, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -591,7 +591,7 @@ Temporarily expands the connected line into a wider, clearly marked hazard zone.
 
 **Visual identity:** Compact tactical marker rifle with construction-yellow details, glowing marker rounds, and a small crossing-signal display.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Marker lifetime, line width, trigger damage, expanded-zone size and duration, placement range, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Marker lifetime, line width, trigger damage, expanded-zone size and duration, placement range, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -618,7 +618,7 @@ Release a stronger forward pulse that pushes nearby opponents away and interrupt
 
 **Visual identity:** Chunky handheld speaker-projector with a telephone-receiver grip and oversized volume dial.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Pulse damage, range, disruption duration, push strength, recovery, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Pulse damage, range, disruption duration, push strength, recovery, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -644,7 +644,7 @@ Load one special round into the next available shot. A hit deals normal damage b
 
 **Visual identity:** Long, slim precision weapon with a two-position chamber indicator and a crisp mechanical firing sound.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: projectile speeds, firing interval, aim-disruption duration, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: projectile speeds, aim-disruption duration, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -671,7 +671,7 @@ Fold the active panel down and redeploy it at a new valid surface within a limit
 
 **Visual identity:** Construction-style launcher with a folding rectangular panel, warning stripes, and visible hinges.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Panel health, lifetime, placement range, redeployment time, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Panel health, lifetime, placement range, redeployment time, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -698,7 +698,7 @@ Pause the sequence timer briefly, allowing the player to maintain progress while
 
 **Visual identity:** Clean repeater with a scrolling display and small musical indicator lights that add a note for each successful hit.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Projectile damage, sequence length, final-shot damage, marker lifetime, pause duration, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Projectile damage, sequence length, final-shot damage, marker lifetime, pause duration, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -728,7 +728,7 @@ Skip the upcoming pattern and select which shot type fires next. The normal alte
 
 **Visual identity:** Compact rifle with two distinct feed chambers and a mechanical indicator showing the next shot type.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Damage per shot, split distance, projectile spread, firing interval, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Damage per shot, split distance, projectile spread, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -755,7 +755,7 @@ Temporarily increases travel speed along the active cable. The boost is visible 
 
 **Visual identity:** Compact industrial launcher with anchor cartridges, a retractable cable, and a bright deployment indicator.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Anchor range, cable lifetime, travel speed, boost duration, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Anchor range, cable lifetime, travel speed, boost duration, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -782,7 +782,7 @@ Vent accumulated heat in a short-range burst that deals modest damage and pushes
 
 **Visual identity:** Industrial rifle with visible heat vents, a temperature gauge, and increasingly bright internal components.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Heat per shot, damage curve, overheat threshold, cooling time, vent damage and push strength, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Heat per shot, damage curve, overheat threshold, cooling time, vent damage and push strength, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -809,7 +809,7 @@ Trigger the signal early to produce a second, different sound cue before it disa
 
 **Visual identity:** Compact signal pistol with a small screen, antenna, and rotating channel selector.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Signal lifetime, audio range, available sound cues, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: Signal lifetime, audio range, available sound cues, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -836,7 +836,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 **Visual identity:** Heavy, slightly oversized revolver with a visible cylinder and a small red SALE indicator.
 
-**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: cylinder capacity, recovery penalty, reload time, lockout duration, and cooldown are TBD..
+**Prototype values:** Core damage, cadence, ammunition, reload, range, and falloff are defined in Section 7. Remaining mechanic-specific values: cylinder capacity, recovery penalty, reload time, lockout duration, and cooldown are TBD remain TBD.
 
 **Status:** Accepted concept. Prototype values are TBD.
 
