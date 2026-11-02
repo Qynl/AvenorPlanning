@@ -826,73 +826,69 @@ A weapon may share a broad category with another weapon, but it must not share t
 - Cosmetics may change presentation but may not hide the projectile, shorten warning cues, alter hitboxes, or change timing.
 
 
-## 4. Removed from the active firearm roster
+## 4. Archived firearm concepts
 
-The following concepts remain in the planning archive for possible future redesign, but are **not launch firearms**. Their current combat stats and skins must not be treated as active launch content:
+The following 54 concepts remain in the planning archive for possible future redesign, but are **not launch firearms**. Their current combat stats and skins must not be treated as active launch content:
 
-- Weapon ID 009
 - Weapon ID 010
 - Weapon ID 012
 - Weapon ID 016
-- Weapon ID 017
 - Weapon ID 018
 - Weapon ID 019
-- Weapon ID 024
-- Weapon ID 027
-- Weapon ID 029
 - Weapon ID 030
 - Weapon ID 031
-- Weapon ID 032
 - Weapon ID 034
-- Weapon ID 035
 - Weapon ID 036
-- Weapon ID 037
-- Weapon ID 040
-- Weapon ID 042
-- Weapon ID 043
 - Weapon ID 044
 - Weapon ID 046
 - Weapon ID 047
-- Weapon ID 048
-- Weapon ID 050
 - Weapon ID 051
-- Weapon ID 052
-- Weapon ID 054
 - Weapon ID 055
-- Weapon ID 056
 - Weapon ID 057
-- Weapon ID 058
 - Weapon ID 060
 - Weapon ID 061
-- Weapon ID 062
 - Weapon ID 063
 - Weapon ID 065
-- Weapon ID 066
 - Weapon ID 067
-- Weapon ID 068
 - Weapon ID 070
-- Weapon ID 071
-- Weapon ID 072
 - Weapon ID 073
-- Weapon ID 075
 - Weapon ID 076
 - Weapon ID 077
-- Weapon ID 078
 - Weapon ID 079
 - Weapon ID 080
 - Weapon ID 081
-- Weapon ID 084
-- Weapon ID 086
 - Weapon ID 087
 - Weapon ID 088
-- Weapon ID 089
-- Weapon ID 090
 - Weapon ID 091
 - Weapon ID 092
-- Weapon ID 093
 - Weapon ID 094
+- Weapon ID 098
+- Weapon ID 102
+- Weapon ID 103
+- Weapon ID 106
+- Weapon ID 141
+- Weapon ID 142
+- Weapon ID 143
+- Weapon ID 144
+- Weapon ID 145
+- Weapon ID 146
+- Weapon ID 147
+- Weapon ID 149
+- Weapon ID 150
+- Weapon ID 151
+- Weapon ID 152
+- Weapon ID 154
+- Weapon ID 159
+- Weapon ID 161
+- Weapon ID 162
+- Weapon ID 163
+- Weapon ID 164
+- Weapon ID 165
+- Weapon ID 166
+- Weapon ID 167
 
 > The archive is not a promise that these weapons will return. Any future return must pass the same firing-identity test and must not duplicate an active weapon.
+
 
 ## 5. Prototype and acceptance checklist
 
