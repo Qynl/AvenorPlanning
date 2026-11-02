@@ -44,19 +44,31 @@ Camera details such as field of view, viewmodel positioning, camera effects, and
 
 ## 4. Movement
 
-<badge>Movement direction locked</badge>
+<badge>Core movement package defined for prototyping</badge>
 
 Movement is a major part of AVENOR's skill ceiling. It should feel responsive, deliberate, and satisfying, with enough options for players to outmaneuver opponents without making combat unreadable.
 
-### Confirmed movement features
+### Initial movement package
 
-- Sprint
-- Slide
-- Jump
-- Responsive ground movement
-- Air control
+- Walk: 16 studs/s.
+- Sprint: 22 studs/s, activated by holding the sprint input. No stamina system in the initial baseline.
+- Jump: consistent jump arc targeting approximately 7.5 studs of vertical rise.
+- Air control: 35% of equivalent ground steering strength, preserving takeoff momentum.
+- Slide: initiated from sprint at a minimum of 20 studs/s; up to 26 studs/s at entry, 0.70s maximum duration, 0.25s recovery, and 1.25s cooldown.
 
-The movement system may include further advanced options where they improve the game. Potential additions and their exact behavior are **TBD** and must be tested rather than added just for spectacle.
+These are proposed Roblox-stud prototype values, not locked final balance. Full rules, transition restrictions, network validation, and playtest criteria are documented in **AVENOR_Gameplay.md**, Section 3.
+
+### Movement rules
+
+- Sprint is unlimited and does not use stamina.
+- Sprint is cancelled by firing, aiming down sights, reloading, or a weapon action that requires a stable stance.
+- A sprint jump carries existing horizontal momentum but does not gain extra jump height or air-control strength.
+- Slide requires a sprint run-up. It cannot be chained or refreshed by jumping.
+- Hip-fire is allowed during a slide; aiming down sights is not.
+- Sliding grants no invulnerability, damage reduction, invisibility, or smaller combat hitbox.
+- No crouch, double jump, wall-run, wall-climb, automatic bunny-hop chain, or universal air dash in the initial baseline.
+- Weapon actions and player abilities may create separately defined movement effects with their own limits and counterplay.
+- All players use the same universal movement values. Cosmetics and progression never change movement performance.
 
 ### Movement design principles
 
@@ -67,11 +79,11 @@ The movement system may include further advanced options where they improve the 
 - Maps should support movement routes, verticality, escapes, and alternate approaches.
 - Movement abilities and weapon actions must have clear counterplay where appropriate.
 
-Exact sprint speed, acceleration, slide duration, slide recovery, jump height, air control, and other movement values are **TBD** until prototyping and playtesting.
+**Status:** Initial movement package defined for prototype testing. Values and feel remain subject to playtesting.
 
 ## 5. Health, Damage, and Combat Fairness
 
-<badge>Locked</badge>
+<badge>Proposed for playtesting</badge>
 
 - All players have the same baseline health.
 - No player receives more base health because of account level, rank, purchases, or cosmetic rarity.
@@ -260,7 +272,6 @@ Cosmetic categories include:
 - Emotes and dances
 - Victory and win animations
 - Elimination and kill effects
-- Match intros
 - MVP and end-of-round celebrations
 - Custom kill announcements and sounds
 - Player banners
@@ -370,9 +381,9 @@ The final sound identity and detailed audio rules are **TBD**.
 ## 22. Remaining Open Decisions
 
 The following areas still need detailed design or testing:
-- Exact movement values and the final advanced movement feature set.
-- Health value, damage model, regeneration, and elimination rules.
-- Weapon statistics, balance, and implementation priorities.
+- Final movement tuning and any advanced movement additions after prototype testing.
+- Final health value, damage model, regeneration, and elimination rules after prototype testing.
+- Weapon balance validation and implementation priorities.
 - Ability cooldowns, durations, ranges, charges, restrictions, and implementation priorities.
 - Full mode list, player counts, scoring, and match rules.
 - Map roster, layouts, interactions, and pickup rules.
