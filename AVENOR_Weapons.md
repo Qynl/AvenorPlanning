@@ -78,7 +78,7 @@ Activate to cash in the mark. The next shot that hits the marked opponent deals 
 - Breaking line of sight for a short period clears the mark.
 - The action does not aim, track, or guarantee a hit.
 
-**Prototype values:** Damage, mark progression, mark duration, bonus cap, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: mark progression, mark duration, bonus cap, and cooldown are TBD..
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -102,7 +102,7 @@ Perform a short forward movement burst while keeping the weapon ready.
 - It cannot be chained repeatedly.
 - The weapon's accelerating fire rate still requires ammunition management.
 
-**Prototype values:** Base and maximum fire rate, acceleration time, magazine, movement distance, recovery, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: acceleration time, movement distance, recovery, and cooldown are TBD..
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -128,7 +128,7 @@ Fire a special blast that launches the user backwards and pushes opponents caugh
 - It deals limited or no damage compared with a normal shot; its primary purpose is repositioning and spacing.
 - Opponents can avoid the blast area.
 
-**Prototype values:** Pellet count, damage, spread profiles, magazine, reload, push strength, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Pellet count, spread profiles, push strength, and cooldown are TBD..
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -153,7 +153,7 @@ Place a visible marker on a valid surface within range. The next scoped shot can
 - The shot still requires normal aim and can be dodged or blocked.
 - The marker cannot be placed through solid geometry.
 
-**Prototype values:** Stabilization duration, marker range and lifetime, shot redirection rules, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Stabilization duration, marker range and lifetime, shot redirection rules, and cooldown are TBD..
 
 **Status:** Accepted redesign concept, pending competitive testing.
 
@@ -178,7 +178,7 @@ Toss a special metal token into the arena. Shooting the token redirects the next
 - The player must still line up the initial shot.
 - Token placement and use have a limited duration.
 
-**Prototype values:** Damage, magazine, projectile speed, ricochet rules, token lifetime, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: projectile speed, ricochet rules, token lifetime, and cooldown are TBD..
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -202,7 +202,7 @@ The next burst fires a fourth projectile.
 - The extra shot adds a handling or recovery trade-off.
 - The action cannot be activated repeatedly without its cooldown.
 
-**Prototype values:** Burst interval, third-shot trajectory, fourth-shot trajectory, ammunition cost, recovery, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Burst interval, third-shot trajectory, fourth-shot trajectory, ammunition cost, recovery, and cooldown are TBD..
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -226,7 +226,7 @@ Lock the barrel at maximum spin for a short period. During this window, the play
 - The action cannot be activated while the barrel is completely idle.
 - Sustained fire consumes ammunition quickly.
 
-**Prototype values:** Spin-up time, fire-rate curve, magazine, movement speed during Grass Cutter, duration, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Spin-up time, fire-rate curve, movement speed during Grass Cutter, duration, and cooldown are TBD..
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -254,7 +254,7 @@ While the disc is travelling outward, aim at a valid surface and press Weapon Ac
 
 **Visual identity:** A chunky industrial throwing disc with a distinctive spinning animation and a clear route indicator when its return path is changed.
 
-**Prototype values:** Damage, travel speed, maximum range, return-point range, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: travel speed, maximum range, return-point range, and cooldown are TBD..
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -284,7 +284,7 @@ While a panel is active, press Weapon Action to rotate its launch direction by 9
 
 **Visual identity:** A sturdy construction-style launcher with a bright folding panel, mechanical hinges, and a spring-loaded deployment animation.
 
-**Prototype values:** Direct-hit damage, panel lifetime, launch strength, launch count, placement range, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: panel lifetime, launch strength, launch count, placement range, and cooldown are TBD..
 
 **Status:** Accepted redesign concept. Prototype values are TBD.
 
@@ -306,7 +306,7 @@ Fire one loaded round downward to launch the player in the opposite direction. T
 - The ability itself does not deal damage.
 - Using it reduces the ammunition available for the next fight, so players must choose between mobility and keeping the round.
 
-**Prototype values:** Damage, firing interval, magazine/reload values, movement impulse, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: firing interval, magazine/reload values, movement impulse, and cooldown are TBD..
 
 **Status:** Proposed concept. Not yet accepted.
 
@@ -328,7 +328,7 @@ The next projectile can be detonated remotely while it is travelling by pressing
 - If not remotely detonated, it follows its normal impact behaviour.
 - The remote detonation must have clear visual and audio feedback.
 
-**Prototype values:** Damage, blast radius, projectile speed, magazine, reload, and action cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: blast radius, projectile speed, and action cooldown are TBD..
 
 **Status:** Proposed concept. Not yet accepted.
 
@@ -352,7 +352,7 @@ For a short duration, suppresses the weapon's distinctive firing audio and remov
 - The duration is short and has clear activation feedback.
 - The weapon still requires accurate burst placement.
 
-**Prototype values:** Damage, burst spacing, effect duration, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: burst spacing, effect duration, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -376,7 +376,7 @@ Store the current charge and temporarily switch to the secondary weapon. The sto
 - Switching to the secondary does not preserve the charge indefinitely.
 - The shot still requires normal aim.
 
-**Prototype values:** Charge time, damage curve, mobility penalty, storage duration, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Charge time, damage curve, mobility penalty, storage duration, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -401,7 +401,7 @@ Fire a special anchor bolt that attaches to the first valid solid surface it hit
 - The pull requires a valid surface and can be interrupted by the anchor being removed.
 - The bolt cannot attach through solid geometry.
 
-**Prototype values:** Bolt speed, split distance, spread, anchor lifetime, pull strength, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Bolt speed, split distance, spread, anchor lifetime, pull strength, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -429,7 +429,7 @@ Activate all existing markers. Each marker emits a short-range pulse that briefl
 
 **Visual identity:** A chunky construction-tool-inspired launcher with exposed mechanical parts, an oversized bolt magazine, and a warning light that flashes when markers are active.
 
-**Prototype values:** Direct-hit damage, marker lifetime, pulse radius, reveal duration, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: marker lifetime, pulse radius, reveal duration, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -456,7 +456,7 @@ Activate to make the next projectile create a short-lived circular bounce field 
 
 **Visual identity:** A compact launcher with a mechanical fare display that increments with consecutive hits, yellow details, dark metal, and a distinctive meter sound.
 
-**Prototype values:** Direct-hit damage, projectile speed, fare progression, counter reset timing, field radius, push strength, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: projectile speed, fare progression, counter reset timing, field radius, push strength, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -483,7 +483,7 @@ Activate the decoy early. It performs a fake attack animation and creates a brie
 
 **Visual identity:** A compact signal pistol with an oversized flare chamber, orange-red accents, and a blinking indicator.
 
-**Prototype values:** Projectile speed, decoy lifetime, imitation range, activation flash duration, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Projectile speed, decoy lifetime, imitation range, activation flash duration, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -509,7 +509,7 @@ Press and hold Weapon Action to hold the next shot instead of firing immediately
 
 **Visual identity:** An offset twin-barrel rifle with two distinct barrel housings and a mechanical indicator that switches sides after every shot.
 
-**Prototype values:** Damage, firing interval, spread profiles, stored-shot window, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: firing interval, spread profiles, stored-shot window, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -536,7 +536,7 @@ Make the next shot attach a tag to a surface instead of an opponent. If an oppon
 
 **Visual identity:** A slim precision rifle with a paper-feed mechanism, visible tag cartridges, and a mechanical stamping sound.
 
-**Prototype values:** Damage, fire rate, tag duration, trail lifetime, surface-tag trigger radius, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: tag duration, trail lifetime, surface-tag trigger radius, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -563,7 +563,7 @@ Pull all active patches together into one longer slick strip between their posit
 
 **Visual identity:** A chunky industrial pressure sprayer with a small liquid tank, yellow caution markings, and a distinctive spray sound.
 
-**Prototype values:** Patch lifetime, patch size, movement effect strength, maximum active patches, spray range, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Patch lifetime, patch size, movement effect strength, maximum active patches, spray range, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -591,7 +591,7 @@ Temporarily expands the connected line into a wider, clearly marked hazard zone.
 
 **Visual identity:** Compact tactical marker rifle with construction-yellow details, glowing marker rounds, and a small crossing-signal display.
 
-**Prototype values:** Marker lifetime, line width, trigger damage, expanded-zone size and duration, placement range, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Marker lifetime, line width, trigger damage, expanded-zone size and duration, placement range, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -618,7 +618,7 @@ Release a stronger forward pulse that pushes nearby opponents away and interrupt
 
 **Visual identity:** Chunky handheld speaker-projector with a telephone-receiver grip and oversized volume dial.
 
-**Prototype values:** Pulse damage, range, disruption duration, push strength, recovery, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Pulse damage, range, disruption duration, push strength, recovery, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -644,7 +644,7 @@ Load one special round into the next available shot. A hit deals normal damage b
 
 **Visual identity:** Long, slim precision weapon with a two-position chamber indicator and a crisp mechanical firing sound.
 
-**Prototype values:** Damage, projectile speeds, magazine, firing interval, aim-disruption duration, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: projectile speeds, firing interval, aim-disruption duration, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -671,7 +671,7 @@ Fold the active panel down and redeploy it at a new valid surface within a limit
 
 **Visual identity:** Construction-style launcher with a folding rectangular panel, warning stripes, and visible hinges.
 
-**Prototype values:** Panel health, lifetime, placement range, redeployment time, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Panel health, lifetime, placement range, redeployment time, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -698,7 +698,7 @@ Pause the sequence timer briefly, allowing the player to maintain progress while
 
 **Visual identity:** Clean repeater with a scrolling display and small musical indicator lights that add a note for each successful hit.
 
-**Prototype values:** Projectile damage, sequence length, final-shot damage, marker lifetime, pause duration, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Projectile damage, sequence length, final-shot damage, marker lifetime, pause duration, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -728,7 +728,7 @@ Skip the upcoming pattern and select which shot type fires next. The normal alte
 
 **Visual identity:** Compact rifle with two distinct feed chambers and a mechanical indicator showing the next shot type.
 
-**Prototype values:** Damage per shot, split distance, projectile spread, firing interval, magazine, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Damage per shot, split distance, projectile spread, firing interval, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -755,7 +755,7 @@ Temporarily increases travel speed along the active cable. The boost is visible 
 
 **Visual identity:** Compact industrial launcher with anchor cartridges, a retractable cable, and a bright deployment indicator.
 
-**Prototype values:** Anchor range, cable lifetime, travel speed, boost duration, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Anchor range, cable lifetime, travel speed, boost duration, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -782,7 +782,7 @@ Vent accumulated heat in a short-range burst that deals modest damage and pushes
 
 **Visual identity:** Industrial rifle with visible heat vents, a temperature gauge, and increasingly bright internal components.
 
-**Prototype values:** Heat per shot, damage curve, overheat threshold, cooling time, vent damage and push strength, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Heat per shot, damage curve, overheat threshold, cooling time, vent damage and push strength, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -809,7 +809,7 @@ Trigger the signal early to produce a second, different sound cue before it disa
 
 **Visual identity:** Compact signal pistol with a small screen, antenna, and rotating channel selector.
 
-**Prototype values:** Signal lifetime, audio range, available sound cues, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: Signal lifetime, audio range, available sound cues, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -836,7 +836,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 **Visual identity:** Heavy, slightly oversized revolver with a visible cylinder and a small red SALE indicator.
 
-**Prototype values:** Damage, cylinder capacity, recovery penalty, reload time, lockout duration, and cooldown are TBD.
+**Prototype values:** Core combat stats are defined in Section 7. Remaining mechanic-specific values: cylinder capacity, recovery penalty, reload time, lockout duration, and cooldown are TBD..
 
 **Status:** Accepted concept. Prototype values are TBD.
 
@@ -3861,3 +3861,212 @@ Every entry below has an explicit rarity decision and a default presentation dir
 - **Default finish:** layered premium materials, machined details and a recognizable secondary finish. Its physical identity is built around a refined sidearm with a single bright chamber indicator and a folding sight.. The finish is built into the base model, not locked behind a skin.
 - **Default effects:** a subtle animated mechanism and a contained action trail or pulse. The visual signature must communicate **Weapon identity** directly; **Weapon Action** receives its own matching activation cue. Effects remain cosmetic and readable, with no damage, accuracy, tracking or visibility advantage.
 
+
+
+## 7. Prototype Combat Stat Sheet
+
+> **Status: Proposed for prototype testing, not locked balance.** These are deliberate starting values built around each weapon's stated role, firing pattern, special mechanic, and the 100 HP baseline in `AVENOR_Gameplay.md`. They are not random rolls and rarity does not increase damage. Playtests may adjust values, but changes should preserve each weapon's identity.
+
+### How to read these values
+
+- Damage is shown per hit/projectile unless a pellet, burst, splash, or sequence total is explicitly written.
+- Headshot multipliers apply only to weapons whose design supports headshots. "No headshots" means all valid hit regions use the listed damage.
+- Fire cadence is in rounds or trigger cycles per minute unless a burst/charge rhythm is written out.
+- Magazine / reserve counts are rounds. Reload is a full reload unless the weapon uses a special reload cycle.
+- Effective range is in Roblox studs. Falloff describes the distance band over which damage reduces. Splash damage reaches zero at the listed edge unless stated otherwise.
+- Shotgun damage assumes every pellet connects. Real hits will usually deal less because of spread.
+- Utility tools are not given fake gun damage. Their important balancing values are charges, cooldowns, placement range, and duration.
+- Melee has its own reach, wind-up, recovery, and action timing. Melee attacks do not headshot.
+
+### A. Damage-dealing firearms, launchers, and hybrids
+
+| ID | Weapon | Damage model (HP) | Headshot | Fire cadence | Mag / reserve | Reload | Effective range | Falloff |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 001 | TAXMAN | 24; Collection Day cash-out: +12 max | ×1.5 | 650 RPM | 30 / 120 | 2.0s | 90 studs | 65–105 studs: 100% → 80% |
+| 002 | POCKET ROCKET | 14 base, ramps to 18 at full spin | ×1.35 | 780 → 960 RPM while held | 28 / 112 | 1.8s | 48 studs | 30–58 studs: 100% → 72% |
+| 003 | DOORBELL | 8 × 8 pellets = 64 max; focused: 8 × 7 = 56 | ×1.15 | 70 RPM; focused shot has 0.18s aim-in | 6 / 30 | 2.35s | 22 studs | 12–28 studs: 100% → 45% |
+| 004 | LONG STORY | 82 | ×1.25 | 42 RPM | 5 / 20 | 2.45s | 155 studs | 115–180 studs: 100% → 88% |
+| 005 | LOOSE CHANGE | 30 | ×1.5 | 300 RPM | 8 / 40 | 1.55s | 68 studs | 45–82 studs: 100% → 78% |
+| 006 | THREE'S COMPANY | 20 × 3 per burst; Plus One adds a fourth 14-damage shot | ×1.35 | 3-round burst; 0.09s spacing, 0.62s burst cycle | 27 / 108 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
+| 007 | LAWNMOWER | 16; spin-up reaches full rate after 0.8s | ×1.3 | 540 → 720 RPM | 60 / 180 | 3.25s | 78 studs | 50–100 studs: 100% → 78% |
+| 008 | RETURN TO SENDER | 42 per opponent per disc; each opponent can be hit once per throw | No headshots | 75 throws/min | 3 / 18 | 2.15s | 70 studs | 50–90 studs: 100% → 80% |
+| 010 | BAD HABIT | 46 per round; two-round pair | ×1.5 | Two-shot pair; 0.12s between rounds | 2 / 16 | 2.4s | 58 studs | 35–70 studs: 100% → 75% |
+| 011 | DEAD WEIGHT | 52 direct + up to 24 splash | No headshots | 48 RPM | 4 / 16 | 2.65s | 100 studs | 70–120 studs: splash falls to 0 at edge |
+| 012 | BAD RECEPTION | 17 × 3 per burst | ×1.35 | 3-round burst; 0.08s spacing, 0.58s burst cycle | 24 / 96 | 2.0s | 86 studs | 58–102 studs: 100% → 82% |
+| 013 | CALL WAITING | 34 uncharged; scales to 78 at full charge | ×1.4 | Charge: 0.35–1.15s; 52 shots/min after full charge | 5 / 25 | 2.25s | 125 studs | 85–150 studs: 100% → 82% |
+| 014 | SHORT NOTICE | 52 concentrated bolt; split bolts deal 18 each | ×1.4 | 90 bolts/min | 5 / 25 | 2.0s | 100 studs | 70–120 studs: 100% → 80% |
+| 015 | BAD NEIGHBOR | 22 per direct bolt; markers deal no damage | ×1.25 | 150 RPM | 6 / 36 | 1.75s | 72 studs | 45–88 studs: 100% → 80% |
+| 016 | TAXI | 32 direct impact | No headshots | 100 RPM | 8 / 40 | 2.0s | 76 studs | 50–92 studs: 100% → 80% |
+| 018 | SECOND OPINION | 25 per shot | ×1.4 | 360 RPM, alternating barrels | 16 / 64 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
+| 019 | PAPER TRAIL | 36 | ×1.5 | 240 RPM | 10 / 50 | 1.9s | 108 studs | 75–130 studs: 100% → 82% |
+| 022 | LAST CALL | 12 per sonic pulse | No headshots | One pulse every 0.7s | 5 pulses / 15s reserve | 1.4s recharge per pulse | 20 studs | No falloff inside pulse radius |
+| 023 | TWO CENTS | 32 standard; 40 alternating heavy round | ×1.5 | 300 RPM alternating pattern | 12 / 60 | 1.85s | 100 studs | 70–120 studs: 100% → 84% |
+| 025 | HOLD MUSIC | 16 per sequence hit; final sequence shot 26 | ×1.3 | 600 RPM | 30 / 120 | 2.1s | 68 studs | 42–88 studs: 100% → 80% |
+| 026 | SPLIT DECISION | 34 single; split mode fires 2 × 16 | ×1.4 | 360 RPM; fixed alternating modes | 24 / 96 | 2.0s | 82 studs | 55–100 studs: 100% → 82% |
+| 028 | SLOW BURN | 18 base, rises to 23 at heat cap | ×1.3 | 480 RPM | 30 / 120 | 2.1s | 82 studs | 55–102 studs: 100% → 80% |
+| 030 | NO REFUNDS | 56 | ×1.5 | 72 RPM | 5 / 25 | 2.45s | 92 studs | 62–112 studs: 100% → 84% |
+| 031 | OVERDUE | 28; consecutive hits shorten cycle, not damage | ×1.45 | 300 RPM base; up to 330 RPM on maintained hits | 15 / 75 | 1.9s | 92 studs | 65–112 studs: 100% → 83% |
+| 033 | BOUNCER | 9 × 7 pellets = 63 max | ×1.15 | 65 RPM | 5 / 25 | 2.3s | 23 studs | 14–30 studs: 100% → 52% |
+| 034 | GOOD MEASURE | 40 inside preferred band; 28 outside | ×1.5 | 180 RPM | 12 / 48 | 2.0s | 105 studs | Preferred band 45–78 studs; outside band 70% damage |
+| 036 | BACKFILL | 28 standard; separate chamber round also deals 28 | ×1.4 | 300 RPM | 11 + 1 chamber / 55 reserve | 1.9s | 92 studs | 65–112 studs: 100% → 82% |
+| 038 | TIN CAN | 46 direct; each bounce reduces damage by 20% | No headshots | 65 RPM | 5 / 20 | 2.35s | 82 studs | 50–105 studs; bounce loss applies separately |
+| 039 | HOME RUN | 38 base, rises to 50 at maximum travel distance | No headshots | 55 RPM | 4 / 16 | 2.55s | 115 studs | Damage ramps over 25–100 studs; capped at 50 |
+| 041 | DOUBLE PARKED | 16 per pistol shot | ×1.35 | 480 RPM alternating hands | 2 × 12 / 2 × 48 | 2.2s per dual reload | 58 studs | 38–78 studs: 100% → 75% |
+| 044 | GOOD GRIEF | 18; knockback meter changes push, not damage | ×1.3 | 650 RPM | 40 / 160 | 2.4s | 68 studs | 45–88 studs: 100% → 80% |
+| 045 | CLEAN BREAK | Compact barrel: 9 × 7 = 63; wide barrel: 7 × 7 = 49 | ×1.15 | 75 RPM alternating barrels | 2 / 18 | 2.4s | 22 studs | 13–28 studs: 100% → 50% |
+| 046 | SUNDAY DRIVER | 22 | ×1.4 | 660 RPM | 28 / 112 | 1.95s | 92 studs | 62–108 studs: 100% → 82% |
+| 047 | FINE PRINT | 30; completed three-angle stamp sequence grants one +10 shot | ×1.5 | 240 RPM | 12 / 60 | 2.0s | 98 studs | 68–118 studs: 100% → 82% |
+| 049 | HIGH HORSE | 36 grounded; 41 while airborne | No headshots | 60 RPM | 5 / 20 | 2.4s | 92 studs | 62–112 studs: 100% → 80% |
+| 051 | COLD SHOULDER | 26; consecutive hits tighten spread, not damage | ×1.45 | 360 RPM | 14 / 70 | 1.9s | 92 studs | 65–112 studs: 100% → 83% |
+| 053 | DOUBLE TAKE | 26 first shot + 14 delayed follow-up | ×1.35 | 300 trigger cycles/min; follow-up after 0.16s | 18 / 72 | 2.0s | 86 studs | 60–104 studs: 100% → 82% |
+| 055 | BAD TIMING | 19 | ×1.35 | Fixed rhythm: 3 shots at 720 RPM, then 0.28s pause | 30 / 120 | 2.1s | 88 studs | 60–105 studs: 100% → 82% |
+| 057 | LAST RESORT | 48; final cylinder round deals 56 | ×1.5 | 120 RPM | 6 / 30 | 2.15s | 78 studs | 52–95 studs: 100% → 80% |
+| 059 | SHORT FUSE | 34 direct + up to 22 splash; delayed charge burst | No headshots | 60 charges/min | 4 / 16 | 2.5s | 72 studs | 45–92 studs: splash falls to 0 at edge |
+| 060 | THE USUAL | 21 | ×1.4 | 600 RPM; mode switch changes cadence only | 24 / 120 | 2.0s | 92 studs | 65–108 studs: 100% → 82% |
+| 061 | BAD PENNY | 14 × 3 per burst | ×1.35 | 3-round burst; 0.08s spacing, 0.68s cycle | 18 / 72 | 1.9s | 58 studs | 38–78 studs: 100% → 76% |
+| 063 | SQUARE DEAL | 36; centre-hit timing bonus shortens next recovery only | ×1.5 | 240 RPM | 12 / 60 | 1.9s | 102 studs | 70–122 studs: 100% → 84% |
+| 064 | BULLPEN | 8 × 8 pellets = 64 max; stationary preparation tightens spread | ×1.15 | 55 RPM | 6 / 24 | 2.65s | 21 studs | 12–27 studs: 100% → 50% |
+| 065 | PAPER CUT | 23; opposite-side follow-up adds +8 once per sequence | ×1.45 | 420 RPM | 18 / 72 | 1.9s | 82 studs | 56–98 studs: 100% → 82% |
+| 067 | SLOW CLAP | 31 | ×1.5 | 240 RPM; steady rhythm keeps recoil predictable | 16 / 64 | 1.9s | 94 studs | 65–110 studs: 100% → 84% |
+| 069 | WIDE OPEN | 7 × 8 pellets = 56 max | ×1.1 | 80 RPM | 5 / 25 | 2.15s | 20 studs | 11–29 studs: 100% → 42% |
+| 070 | DEAD CERT | 76 | ×1.5 | 42 RPM; manual bolt cycle | 5 / 20 | 2.5s | 155 studs | 115–180 studs: 100% → 88% |
+| 073 | FIRST CLASS | 19 first portion; 17 final 10 rounds | ×1.4 | 660 RPM; final 10 rounds at 750 RPM with wider spread | 30 / 120 | 2.0s | 82 studs | 55–98 studs: 100% → 80% |
+| 074 | OVERHEAD | 40 direct + up to 20 splash | No headshots | 42 RPM | 4 / 16 | 2.55s | 102 studs | 70–122 studs: splash falls to 0 at edge |
+| 076 | TIME CARD | 28; matched rhythm improves handling only | ×1.45 | 300 RPM | 14 / 56 | 1.85s | 92 studs | 65–108 studs: 100% → 83% |
+| 077 | SPOT CHECK | 16 × 4 per burst | ×1.35 | 4-round burst; 0.075s spacing, 0.72s cycle | 24 / 96 | 2.1s | 86 studs | 60–104 studs: 100% → 82% |
+| 079 | FENDER BENDER | 46; moving-toward-user hit adds push only | No headshots | 90 RPM | 5 / 25 | 2.3s | 34 studs | 20–48 studs: 100% → 68% |
+| 080 | GOOD SPORT | 28; one predictable rebound, no bonus damage | No headshots | 100 RPM | 6 / 30 | 1.85s | 72 studs | 45–92 studs: 100% → 80% |
+| 081 | NIGHTCAP | 8 × 7 pellets = 56 max; final shell uses tighter spread | ×1.15 | 72 RPM | 5 / 25 | 2.15s | 22 studs | 14–29 studs: 100% → 54% |
+| 082 | TALLY HO | 15 per normal round; every fifth round deals 20 (five-shot total remains 80) | ×1.25 | 600 RPM | 55 / 165 | 3.0s | 78 studs | 50–100 studs: 100% → 78% |
+| 083 | STATIC SHOCK | 20 direct; secondary arc deals 10 | ×1.3 | 420 RPM | 24 / 96 | 2.1s | 82 studs | 55–98 studs: 100% → 80% |
+| 085 | BLIND DATE | 22 | ×1.35 | 600 RPM | 24 / 96 | 2.0s | 58 studs | 38–78 studs: 100% → 75% |
+| 087 | HARD COPY | 54; repeated recoil offset does not change damage | ×1.5 | 120 RPM | 8 / 32 | 2.4s | 138 studs | 98–158 studs: 100% → 86% |
+| 088 | BOTTOM LINE | 22; recoil becomes more predictable as magazine empties | ×1.4 | 540 RPM | 36 / 144 | 2.55s | 98 studs | 68–118 studs: 100% → 84% |
+| 091 | HEADCOUNT | 25; target-switch sequence improves handling only | ×1.45 | 360 RPM | 18 / 72 | 1.9s | 88 studs | 60–105 studs: 100% → 82% |
+| 092 | LATE FEE | 9 × 7 pellets = 63 max; settled pump shot tightens spread | ×1.2 | 60 RPM | 6 / 30 | 2.45s | 22 studs | 14–29 studs: 100% → 54% |
+| 094 | SAFE BET | 40 normal; every third shot deals 26 at higher speed | ×1.5 | 180 RPM | 9 / 45 | 2.1s | 78 studs | 52–95 studs: 100% → 80% |
+| 097 | BIG PICTURE | 24 / 20 / 16 across the narrowing three-shot sequence | ×1.35 | 3-shot burst; 0.09s spacing, 0.68s cycle | 21 / 84 | 2.1s | 92 studs | 62–108 studs: 100% → 82% |
+| 098 | SMALL TALK | 15; spread grows during sustained fire and resets after release | ×1.35 | 900 RPM | 26 / 104 | 1.8s | 48 studs | 30–62 studs: 100% → 72% |
+| 100 | OVERBOOKED | 7 × 7 pellets = 49 max; final continuous-fire shell has wider spread, not extra damage | ×1.1 | 180 RPM automatic sequence | 8 / 32 | 2.8s | 18 studs | 10–25 studs: 100% → 45% |
+| 102 | HOUSE RULES | 24; stance zone changes recoil only | ×1.45 | 480 RPM | 24 / 96 | 2.0s | 98 studs | 68–118 studs: 100% → 84% |
+| 103 | NO SHOW | 64 after aim preparation; unprepared shot is not available | ×1.5 | 55 RPM; preparation 0.75s | 5 / 20 | 2.4s | 145 studs | 105–165 studs: 100% → 87% |
+| 105 | DOUBLE SHIFT | 23 steady round; 17 fast round | ×1.35 | 540 RPM alternating feeds | 28 / 112 | 2.1s | 92 studs | 62–108 studs: 100% → 82% |
+| 106 | OPEN TAB | 24 first shot + 14 delayed follow-up | ×1.35 | 300 trigger cycles/min; follow-up after 0.18s | 12 / 60 | 1.9s | 58 studs | 38–78 studs: 100% → 76% |
+| 109 | SIDE DISH | 32 main projectile + 16 companion projectile | No headshots | 80 RPM | 5 / 25 | 2.2s | 78 studs | 52–98 studs: 100% → 78% |
+| 141 | GOOD ENOUGH | 23 × 2 per burst; second shot has wider spread | ×1.4 | 2-round burst; 0.11s spacing, 0.55s cycle | 28 / 112 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
+| 142 | OUT OF OFFICE | 15; opening burst is tighter, sustained fire widens | ×1.35 | 900 RPM | 30 / 120 | 1.8s | 48 studs | 30–62 studs: 100% → 72% |
+| 143 | SQUARE ONE | 33 | ×1.5 | 240 RPM; beat timing affects recoil only | 14 / 56 | 1.9s | 98 studs | 68–118 studs: 100% → 84% |
+| 144 | TWO-WAY STREET | 21 per shot; alternating barrels keeps recoil controlled | ×1.4 | 420 RPM | 16 / 64 | 2.0s | 68 studs | 45–88 studs: 100% → 80% |
+| 145 | MIDDLE MANAGEMENT | 22; teammate tick is information only | ×1.4 | 600 RPM | 28 / 112 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
+| 146 | SLOW NEWS | 46; quick fallback shot deals 30 with reduced accuracy | ×1.5 | 100 RPM standard; 150 RPM fallback | 8 / 32 | 2.25s | 118 studs | 82–138 studs: 100% → 85% |
+| 147 | PUNCHLINE | 40; short-range push is fixed and modest | ×1.25 | 150 RPM | 6 / 30 | 2.1s | 38 studs | 22–52 studs: 100% → 65% |
+| 148 | DETOUR | 36 direct; near misses deal 0 | No headshots | 70 RPM | 5 / 20 | 2.3s | 88 studs | 58–108 studs: 100% → 78% |
+| 149 | WELL READ | 24 × 3 per sequence; on-beat cadence tightens sequence only | ×1.5 | 3-shot sequence; 0.16s spacing, 0.9s cycle | 9 / 45 | 2.2s | 112 studs | 78–132 studs: 100% → 85% |
+| 150 | CASH ONLY | 60 | ×1.5 | 50 RPM | 1 / 12 | 2.6s | 78 studs | 52–96 studs: 100% → 80% |
+| 151 | WINDOW SEAT | 7 × 8 pellets = 56 max; horizontal fan widens during turn | ×1.1 | 85 RPM | 6 / 30 | 2.0s | 19 studs | 11–26 studs: 100% → 48% |
+| 152 | NO COMMENT | 29; quiet tracer does not change hit feedback | ×1.5 | 240 RPM | 12 / 60 | 1.9s | 94 studs | 65–110 studs: 100% → 83% |
+| 153 | TRAFFIC JAM | 8 × 6 projectiles = 48 max if all connect | No headshots | 45 clusters/min | 4 / 16 | 2.6s | 68 studs | 45–88 studs: 100% → 75% |
+| 154 | BETTER LUCK | 36 direct; 22 after one ricochet | ×1.45 | 180 RPM | 8 / 40 | 1.9s | 82 studs | 55–100 studs: 100% → 80% |
+| 157 | NARROW ESCAPE | 26 direct + up to 18 ring damage | No headshots | 60 RPM | 4 / 16 | 2.5s | 68 studs | 45–88 studs: ring damage fixed inside small radius |
+| 159 | FINE TUNING | 34; recoil state changes trajectory only | ×1.5 | 210 RPM | 12 / 60 | 2.0s | 98 studs | 68–118 studs: 100% → 84% |
+| 161 | BAD SIGNAL | 12 direct; HUD edge disruption adds no damage | ×1.25 | 360 RPM | 12 / 60 | 1.8s | 48 studs | 30–65 studs: 100% → 72% |
+| 162 | DEADLINE | 42; skipped lever cycle adds recoil, not damage | ×1.5 | 150 RPM | 8 / 40 | 2.1s | 98 studs | 68–118 studs: 100% → 84% |
+| 163 | PARKING FINE | 27; deployed rest changes recoil only | ×1.4 | 360 RPM | 18 / 72 | 2.0s | 102 studs | 72–122 studs: 100% → 85% |
+| 164 | BETWEEN FRIENDS | 18; relay interaction refreshes utility, not ammo | ×1.35 | 300 RPM | 12 / 60 | 1.8s | 52 studs | 35–72 studs: 100% → 75% |
+| 165 | LATE CHECKOUT | 23 | ×1.4 | 720 RPM | 20 / 80 | 1.65s | 82 studs | 55–100 studs: 100% → 80% |
+| 166 | OPEN CIRCUIT | 15 × 3 per burst; continuation never adds damage | ×1.3 | 3-round burst; 0.08s spacing, 0.62s cycle | 27 / 108 | 2.0s | 92 studs | 62–108 studs: 100% → 82% |
+| 167 | THE LAST WORD | 50; first shot after swap has no damage bonus | ×1.5 | 90 RPM | 6 / 30 | 2.0s | 78 studs | 52–96 studs: 100% → 80% |
+
+### B. Utility weapons and tools
+
+| ID | Weapon | Direct damage (HP) | Availability | Use / placement range | Duration / limit |
+| --- | --- | --- | --- | --- | --- |
+| 009 | THE RENTAL | 0 | 1 panel; 14s cooldown | 65 studs placement | 8s or 3 launches |
+| 017 | FALSE ALARM | 0 | 1 decoy; 16s cooldown | 60 studs placement | 5s |
+| 020 | WET FLOOR | 0 | 3 spray charges; 14s recharge per charge | 22 studs spray reach | Slick patch 5s |
+| 021 | CROSSWALK | 16 trigger pulse | 2 markers; 16s cooldown | 60 studs per marker | 8s; one trigger per opponent per crossing |
+| 024 | OPEN HOUSE | 0 | 1 cover panel; 16s cooldown | 60 studs placement | 8s or destroyed |
+| 027 | SHORTCUT | 0 | 2 anchors; 18s cooldown | 80 studs per anchor | Cable 10s |
+| 029 | WRONG NUMBER | 0 | 1 signal; 14s cooldown | 70 studs placement | False audio cue 5s |
+| 032 | SPARE KEY | 0 | 2 doorway frames; 18s cooldown | 70 studs per frame | 10s |
+| 035 | OFF THE CLOCK | 0 | 1 recorder; 18s cooldown | 55 studs placement | Replay 4s |
+| 037 | SIDE EYE | 0 | 1 scan; 12s cooldown | 65-stud unobstructed cone | Detection tick 0.8s |
+| 040 | GUEST LIST | 0 | 1 sensor; 15s cooldown | 50 studs placement | 12s or first trigger |
+| 042 | STATIC CLING | 0 | 2 magnetic pads; 18s cooldown | 60 studs per pad | Cling 5s |
+| 043 | PAYPHONE | 0 | 1 relay; 15s cooldown | 65 studs placement | 12s |
+| 048 | BREADCRUMBS | 0 | 3 route markers; 12s cooldown | 75 studs per marker | 12s |
+| 050 | TAKE A NUMBER | 0 | 1 queue beacon; 18s cooldown | 60 studs placement | 8s |
+| 052 | DO NOT DISTURB | 0 | 1 bubble; 18s cooldown | 55 studs placement | 5s |
+| 054 | LOST PROPERTY | 0 | 1 pickup mark; 12s cooldown | 90 studs line of sight | Until pickup is taken or 15s |
+| 056 | HUSH MONEY | 0 | 1 quiet zone; 18s cooldown | 55 studs placement | 6s |
+| 058 | OPEN SECRET | 0 | 1 team beacon; 16s cooldown | 70 studs placement | 12s |
+| 062 | MILE MARKER | 0 | 1 rally marker; 16s cooldown | 90 studs placement | 14s |
+| 066 | PARKING METER | 0 | 1 zone meter; 18s cooldown | 60 studs placement | 8s |
+| 068 | BACKUP PLAN | 0 | 1 return beacon; 22s cooldown | 55 studs placement | 8s; recall channel 0.7s |
+| 071 | RED TAPE | 0 | 1 tripwire pair; 16s cooldown | 60 studs between anchors | 10s |
+| 072 | HARD RESET | 0 | 1 self-pulse; 12s cooldown | 12-stud self-radius | 0.6s momentum brake |
+| 075 | TIGHTROPE | 0 | 2 cable anchors; 18s cooldown | 75 studs per anchor | Cable 10s |
+| 078 | LATCHKEY | 0 | 1 door interaction; 20s cooldown | 12 studs interaction range | Door stays open 5s |
+| 084 | QUIET HOURS | 0 | 1 lamp; 18s cooldown | 55 studs placement | 8s |
+| 086 | HIGH BEAMS | 0 | 1 light puck; 14s cooldown | 60 studs launch range | 8s |
+| 089 | UNDERSTUDY | 0 | 1 decoy; 16s cooldown | 55 studs placement | 6s |
+| 090 | QUICK FIX | 0 | 1 ammo transfer; 20s cooldown | Self only | Transfers 5 reserve rounds; cannot exceed magazine capacity |
+| 093 | PIN DROP | 0 | 1 team pin; 12s cooldown | 100 studs line of sight | 12s |
+| 095 | BACK CHAT | 0 | 1 relay; 15s cooldown | 50 studs placement | 12s |
+| 096 | ALL CLEAR | 0 | 1 clearing pulse; 18s cooldown | 18-stud cone | Immediate; disables eligible temporary utility only |
+| 099 | ON THE HOUSE | 0 | 1 launch pad; 16s cooldown | 65 studs placement | 8s or first friendly launch |
+| 101 | ROLL CALL | 0 | 1 team signal; 18s cooldown | 40-stud radius | 5s |
+| 104 | NIGHT OWL | 0 | 1 visor activation; 20s cooldown | Self only | 6s |
+| 107 | DEAD END | 0 | 1 barrier; 18s cooldown | 45 studs placement | 8s or destroyed |
+| 108 | BAIL OUT | 0 | 1 tether; 20s cooldown | 35 studs anchor range | 0.5s warning, then short recall |
+| 110 | CLEAN SLATE | 0 | 1 self-cleanse; 16s cooldown | Self only | Immediate; removes one eligible temporary status |
+| 155 | ON RECORD | 0 | 1 directional replay; 16s cooldown | 45-stud listening radius | Reading lasts 2s |
+| 156 | FRESH COAT | 0 | 6 paint rounds; 8 / 32 ammo | 60 studs | Mark lasts 8s; harmless to players |
+| 158 | SAME PAGE | 0 | 1 relay; 16s cooldown | 50 studs placement | 12s |
+| 160 | SPARE ROOM | 0 | 1 platform; 18s cooldown | 60 studs placement | 7s or destroyed |
+
+### C. Melee weapons
+
+| ID | Weapon | Damage (HP) | Reach | Attack interval | Wind-up / recovery | Weapon Action |
+| --- | --- | --- | --- | --- | --- | --- |
+| 111 | DOORJAM | 48 | 7.5 studs | 0.85s | 0.18s / 0.30s | Brace: 8s cooldown; stationary short guard |
+| 112 | BELLHOP | 58 | 8 studs | 1.15s | 0.38s / 0.48s | Area shove: 10s cooldown; 4-stud radius, no extra damage |
+| 113 | PAPER TIGER | 38 | 7 studs | 0.65s | 0.12s / 0.24s | Deflect: 9s cooldown; 0.22s frontal window |
+| 114 | LAST WORD | 52 | 8 studs | 0.90s | 0.20s / 0.34s | Parry: 10s cooldown; 0.20s frontal window |
+| 115 | SHOPPING CART | 34 | 7 studs | 0.80s | 0.20s / 0.30s | Push: 8s cooldown; fixed short knockback |
+| 116 | NIGHT SHIFT | 40 | 7 studs | 0.95s | 0.20s / 0.34s | Flash: 12s cooldown; 12-stud radius, no damage |
+| 117 | THE BUTLER | 42 | 7 studs | 0.90s | 0.18s / 0.34s | Directional guard: 8s cooldown; does not stop bullets |
+| 118 | BAD FORM | 46 | 9 studs | 0.95s | 0.30s / 0.34s | Marked thrust: 9s cooldown; fixed straight-line lunge |
+| 119 | PICKUP STICKS | 26 per hit | 6.5 studs | 0.45s | 0.10s / 0.20s | Two-hit rhythm; recovery cancel once, 7s cooldown |
+| 120 | THE BIG KNIT | 54 | 8 studs | 1.05s | 0.28s / 0.40s | Ground ripple: 11s cooldown; narrow 8-stud lane, 14 damage |
+| 121 | CLOSE CALL | 42 | 8 studs | 0.90s | 0.20s / 0.34s | Hook pull: 10s cooldown; 18-stud valid anchor range |
+| 122 | CLEAN SWEEP | 34 | 8 studs | 0.80s | 0.18s / 0.30s | Clear strip: 9s cooldown; removes eligible small utility only |
+| 123 | OFF LIMITS | 50 | 7.5 studs | 0.95s | 0.25s / 0.38s | Map-feature pry: 12s cooldown; designated objects only |
+| 124 | BOUNCED CHECK | 48 | 7 studs | 0.95s | 0.20s / 0.36s | Self-launch: 10s cooldown; one launch, no midair chaining |
+| 125 | SILENT PARTNER | 34 | 6 studs | 0.60s | 0.12s / 0.24s | Feint sidestep: 8s cooldown; no attack during sidestep |
+| 126 | TOLL BOOTH | 42 | 10 studs | 1.00s | 0.25s / 0.36s | Lane zone: 12s cooldown; 3s duration, no bullet blocking |
+| 127 | SECOND HAND | 60 | 6.5 studs | 1.20s | 0.40s / 0.45s | Charged strike: 10s cooldown; wind-up can be interrupted |
+| 128 | FLOOR MODEL | 50 | 10.5 studs | 1.00s | 0.25s / 0.36s | Vault: 9s cooldown; fixed visible anchor |
+| 129 | NO RETURNS | 44 melee / 32 thrown | 8.5 studs melee; 55 studs throw | 1.10s | 0.25s / 0.40s | Throw return: 8s cooldown; no melee strike while disc is away |
+| 130 | SOFT CLOSE | 36 | 7 studs | 0.70s | 0.15s / 0.25s | Front guard: 8s cooldown; slows user while active |
+| 131 | PAPER SHIELD | 38 | 6.5 studs | 0.85s | 0.20s / 0.30s | Single block: 9s cooldown; directional, one impact per activation |
+| 132 | GARDEN VARIETY | 32 | 6.5 studs | 0.55s | 0.10s / 0.22s | Hop: 8s cooldown; fixed distance and landing recovery |
+| 133 | MILESTONE | 46 | 8 studs | 0.85s | 0.18s / 0.30s | Marker pull: 10s cooldown; 12-stud self-pull, never moves target |
+| 134 | GOOD GRIP | 30 per punch | 5.5 studs | 0.50s | 0.10s / 0.20s | Wall grip: 10s cooldown; tagged surfaces only, 2.5s max |
+| 135 | THE PEACEMAKER | 40 | 7 studs | 0.80s | 0.18s / 0.30s | Spacing buffer: 10s cooldown; 3-stud push zone, no damage |
+| 136 | BACKSTAGE PASS | 42 | 8.5 studs | 0.80s | 0.18s / 0.30s | Vault: 9s cooldown; fixed anchor and landing recovery |
+| 137 | HOLD THE DOOR | 58 | 8 studs | 1.10s | 0.32s / 0.45s | Front brace: 12s cooldown; no invulnerability or bullet blocking |
+| 138 | SPARE PARTS | 34 per strike | 6.5 studs | 0.65s | 0.12s / 0.25s | Repair: 12s cooldown; brief stationary interaction |
+| 139 | CROWN JEWEL | 40 | 8 studs | 0.80s | 0.18s / 0.30s | Team tempo pulse: 14s cooldown; one non-stacking burst |
+| 140 | FINAL NOTICE | 62 | 7.5 studs | 1.15s | 0.38s / 0.45s | Warning ring: 12s cooldown; no bonus damage or execution |
+
+### Balance guardrails
+
+1. The baseline opponent has 100 HP. A normal primary should not accidentally become a universal one-shot weapon through its base damage alone.
+2. High-impact precision weapons may threaten a one-shot headshot only when their weapon entry explicitly supports it; their body damage, fire cadence, magazine, and reload must compensate.
+3. Shotgun totals are theoretical maximums, not guaranteed damage. Pellet spread and range falloff are part of their identity.
+4. Area damage is split into direct and splash damage. Splash must have a clear radius and falloff, and must not silently behave like a second direct hit.
+5. Utility tools that deal no damage must remain useful through route control, information, coordination, or movement, not through hidden combat bonuses.
+6. Special mechanics that alter damage are called out in the individual damage model. Mechanics that alter recoil, handling, movement, information, or positioning do not secretly increase damage.
+7. Any change to a weapon's damage, cadence, magazine, reserve, reload, range, or falloff must be checked against its time-to-eliminate and the rest of the roster.
+8. These numbers are a coherent first tuning pass. They must be validated in a 1v1 test arena and then rechecked in team modes and on mobile/controller.
