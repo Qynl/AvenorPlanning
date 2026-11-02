@@ -34,8 +34,6 @@ A weapon may share a broad category with another weapon, but it must not share t
 | 013 | **CALL WAITING** | Charge-and-release energy bolt |
 | 014 | **SHORT NOTICE** | Distance-splitting crossbow bolt |
 | 015 | **BAD NEIGHBOR** | Surface-embedded nail rounds |
-| 055 | **BAD TIMING** | Three-shot rhythm burst |
-| 161 | **BAD SIGNAL** | Disruption pulse dart |
 | 022 | **LAST CALL** | Directional sonic cones |
 | 023 | **TWO CENTS** | Alternating fast and heavy rounds |
 | 025 | **HOLD MUSIC** | Five-note projectile sequence |
@@ -48,6 +46,7 @@ A weapon may share a broad category with another weapon, but it must not share t
 | 045 | **CLEAN BREAK** | Break-action paired shells |
 | 049 | **HIGH HORSE** | Upward-arc gravity charge |
 | 053 | **DOUBLE TAKE** | Delayed echo projectile |
+| 055 | **BAD TIMING** | Three-shot rhythm burst |
 | 059 | **SHORT FUSE** | Sticky timed burst charges |
 | 064 | **BULLPEN** | Braced fan-burst shotgun |
 | 069 | **WIDE OPEN** | Horizontal wall of pellets |
@@ -62,6 +61,7 @@ A weapon may share a broad category with another weapon, but it must not share t
 | 148 | **DETOUR** | Limited-bend guided arc bolt |
 | 153 | **TRAFFIC JAM** | Cluster canister with timed fragment fan |
 | 157 | **NARROW ESCAPE** | Delayed rebound capsule |
+| 161 | **BAD SIGNAL** | Disruption pulse dart |
 
 ## 3. Individual firing specifications
 
