@@ -38,30 +38,101 @@ The core loop should be:
 
 ## 3. Movement
 
-Movement should feel quick and controllable without making aiming or tracking opponents unnecessarily difficult.
+Movement is a major part of AVENOR's skill ceiling. The baseline should feel quick, responsive, and expressive while preserving readable fights and reliable hit registration.
 
-### Proposed movement actions
+### 3.1 Movement model
 
-| Action | Proposed behaviour | Status |
-|---|---|---|
-| Walk | Responsive ground movement | Proposed |
-| Jump | Predictable jump with consistent height | Proposed |
-| Air control | Limited steering while airborne | Proposed |
-| Sprint | Optional faster movement with a clear trade-off | Proposed |
-| Crouch | Not included in the initial core unless testing shows a clear need | Proposed |
-| Slide | Not included by default; evaluate only if it adds a distinct skill expression | Proposed |
-| Wall movement | No wall-run or wall-climb in the initial baseline | Proposed |
+The first prototype uses a custom, server-validated movement model built around four core actions:
 
-### Movement principles
+- Walk / ground movement
+- Sprint
+- Jump with limited air control
+- Slide
 
-- Ground acceleration and stopping should feel predictable.
-- Jump timing and air control must be consistent.
-- Movement effects supplied by weapons must obey their own clear limits.
-- No movement action should make a player difficult to see or hit without a readable reason.
-- Movement speed should not vary invisibly based on cosmetic items.
-- Map geometry must support movement without requiring unintended exploits.
+No stamina bar is used in the initial baseline. Sprint is available whenever the player is in a valid movement state. The goal is to make movement decisions depend on timing, routes, and positioning rather than waiting for an energy meter.
 
-**TBD:** Base speed, sprint speed, acceleration, deceleration, jump height, gravity, air control, and whether sprint is always available or has a resource/cooldown.
+### 3.2 Initial prototype values
+
+All distances are Roblox studs. Speeds are studs per second. These are starting values for a test arena, not final locked balance.
+
+| Property | Initial value | Notes |
+|---|---:|---|
+| Walk speed | 16 studs/s | Normal ground movement |
+| Sprint speed | 22 studs/s | 37.5% faster than walking |
+| Ground acceleration | 0.18s to reach 90% of target speed | Responsive, but not instant |
+| Ground stopping | 0.16s to reach near-zero from walk speed | No excessive ice-like drift |
+| Jump vertical launch | Tuned for about 7.5 studs of rise | Validate with the actual character controller |
+| Gravity | Start from Roblox default gravity, then tune only if needed | Avoid changing gravity before the jump arc is tested |
+| Air-control strength | 35% of equivalent ground steering | Allows correction without full mid-air direction changes |
+| Air speed cap | 22 studs/s horizontal baseline | Preserve takeoff momentum; do not add a second sprint boost in air |
+| Slide entry speed | At least 20 studs/s | Requires a meaningful run-up |
+| Slide target speed | 26 studs/s at entry | Speed decays during the slide; no instant repeated boost |
+| Slide duration | 0.70s maximum | Ends early if blocked or speed falls below its minimum |
+| Slide recovery | 0.25s | Brief commitment before another slide can begin |
+| Slide cooldown | 1.25s from slide start | Prevents chaining; cooldown remains even if the slide is interrupted |
+
+### 3.3 Walking and sprinting
+
+- Walking is the default ground state.
+- Sprint is activated by a held input and ends when the input is released, the player is eliminated, or a state that disallows sprint begins.
+- Sprinting does not consume stamina and has no arbitrary duration limit.
+- Sprinting is cancelled by firing, aiming down sights, reloading, or starting a weapon action that requires a stable stance. The player can sprint again as soon as the blocking action ends.
+- Sprint does not increase jump height or air-control strength. A sprinting jump carries the horizontal momentum present at takeoff, subject to the air-speed cap.
+- Movement speed is identical for all players. Weapons, abilities, and temporary map effects may change movement only through explicit, documented mechanics.
+- No speed bonuses are granted by account level, rank, purchases, mastery, or cosmetics.
+
+### 3.4 Jumping and air control
+
+- Jump input is edge-triggered: holding the button does not automatically produce repeated jumps on landing.
+- A player must be grounded and out of a landing / action lock to jump.
+- Jump height and gravity must produce a consistent, readable arc. The 7.5-stud rise is a measurement target, not a promise that the default Humanoid jump settings will be used unchanged.
+- Air control is limited to 35% of the equivalent ground steering response.
+- Air control can redirect some horizontal momentum but cannot instantly reverse a full-speed jump.
+- Landing restores normal ground acceleration. Landing does not grant a hidden speed boost.
+- No double jump, air dash, wall-run, wall-climb, or automatic bunny-hop chain is included in the initial baseline.
+
+### 3.5 Sliding
+
+- Slide is initiated from a sprint while grounded, with at least 20 studs/s horizontal speed.
+- A slide begins at up to 26 studs/s and decelerates throughout its maximum 0.70-second duration.
+- The slide ends when its duration expires, the player's speed falls below the minimum useful slide speed, or valid collision / movement state prevents continuation.
+- The player returns to normal standing movement after the slide. There is no separate crouch state in the initial baseline.
+- Slide cannot be started from a standstill, chained into another slide, or refreshed by jumping.
+- Slide has a 1.25-second cooldown from its start, plus a 0.25-second recovery commitment. The cooldown is not reset by interruption.
+- Jumping out of a slide is not included in the first tuning pass. Test the base slide first; consider a deliberate slide-jump variant only if the baseline lacks enough movement expression.
+- The player may fire from the hip during a slide, but cannot aim down sights or sprint-fire. Any weapon-specific exception must be explicit and tested across the roster.
+- Sliding does not grant invulnerability, damage reduction, invisibility, or a smaller hitbox. The character's combat hitbox remains consistent and readable.
+
+### 3.6 Advanced movement scope
+
+The initial movement package is intentionally limited to sprint, jump, air control, and slide. Do not add wall-running, wall-climbing, double-jumping, grappling as a universal movement action, or bunny-hop speed stacking to the baseline.
+
+Weapons and abilities may create their own movement options, but those are separate mechanics with individual limits, cooldowns, and counterplay. They must not silently rewrite the universal movement rules.
+
+### 3.7 Network and fairness requirements
+
+- The client may predict immediate movement presentation, but the server validates movement state and rejects impossible speed, acceleration, jump, and slide transitions.
+- Server correction should be smooth enough to avoid visible snapping during normal play.
+- Movement validation must account for explicitly approved weapon actions, abilities, knockback, launch pads, and other server-authorized impulses.
+- The server must not mistake a valid designed impulse for a speed exploit, nor allow a client to invent one.
+- Character collision dimensions remain consistent across players and cosmetics.
+- Test keyboard/mouse, controller, and mobile with the same movement rules. Input layouts may differ; movement capabilities may not.
+- Test at varied latency and frame rates before locking values.
+
+### 3.8 Movement playtest checklist
+
+Record these during the first 1v1 movement test:
+
+1. Time to cross a standard arena lane while walking and sprinting.
+2. Whether sprint-to-fire transitions feel responsive without allowing sprint-fire.
+3. Slide distance on flat ground and on a shallow slope.
+4. Whether slide entry and recovery are readable to both players.
+5. Whether a sliding player remains consistently hittable.
+6. Whether air control permits corrections without allowing instant reversals.
+7. Whether movement remains consistent at low frame rates and moderate latency.
+8. Whether mobile players can activate sprint and slide without awkward button combinations.
+
+**Status:** The movement package and values above are proposed prototype defaults. They require hands-on testing before being marked locked.
 
 ## 4. Health, Damage, and Elimination
 
@@ -338,8 +409,8 @@ The prototype is ready to expand when:
 The following are intentionally proposed rather than locked:
 
 1. First-person-only matches.
-2. Baseline movement includes walk, jump, air control, and optional sprint.
-3. No crouch, slide, wall-run, or wall-climb in the initial movement baseline.
+2. Initial movement package: walk, sprint, jump, limited air control, and slide, using the prototype values in Section 3.
+3. No stamina, crouch, double jump, wall-run, wall-climb, or universal air dash in the initial movement baseline.
 4. Equal baseline health for all players, with a proposed 100 HP starting value and no passive regeneration.
 5. Server-authoritative combat and match outcomes.
 6. Separate Primary, Secondary, Melee, and Ability slots.
