@@ -170,3 +170,20 @@ The prototype should prove that NPCs can spawn, move, interact and clean up with
 - How NPC groups interact with player parties.
 - Whether players can trade with or recruit NPCs.
 - Final hostile-NPC density and difficulty.
+
+
+## 11. Witnessing, faction awareness and world reaction
+NPCs and factions may react to player behaviour, but they must have plausible awareness. A guard can react to something witnessed locally; a facility can react to an alarm; a faction may learn about an incident through a defined local report or shared event. Do not make every NPC instantly know every player action across the whole map.
+
+Separate three concepts:
+- **Local awareness:** what nearby NPCs directly see or hear and may investigate.
+- **Incident awareness:** what a location or organisation learns through witnesses, alarms or communication.
+- **Faction relationship:** a slower-changing attitude based on relevant player actions and prior interactions.
+
+There is no visible wanted-level meter, stars or numerical criminal status planned. Communicate reactions through behaviour, dialogue, access permissions, service availability, local searches and environmental context. Do not turn this into the main game loop; exploration remains primary. Include cooldowns, decay or ways for local situations to settle where appropriate. Keep reaction logic event-driven and budgeted rather than polling every NPC continuously.
+
+## 12. Faction role examples
+Police/public security, facility guards, military/security groups, independent adventurers, traders/logistics groups, researchers/workers and hostile groups are possible categories. Not all factions should be enemies. Factions can provide services, rumours, discoveries, access or optional encounters. Final roster and relationships remain TBD.
+
+## 13. NPC performance rule
+The world must feel inhabited through purposeful routes and activity clusters, not maximum NPC count. Use simulation tiers and the budgets in `AVENOR_Map_Performance.md`. A prototype must prove that NPCs can move, react, interact and clean up without harming server performance.
