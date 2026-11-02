@@ -114,11 +114,11 @@ These slot names and their basic roles are the current standard for AVENOR.
 - Pickups create decisions around map control and adapting to opponents.
 - The exact restrictions for swapping, dropping, and carrying picked-up items are **TBD**.
 
-The full weapon catalogue and roster statuses are documented in **AVENOR_Weapons.md**. The 40 active firearms' distinct projectile behaviour, firing patterns, impact behaviour, handling rhythm, and counterplay are specified in **AVENOR_FiringIdentities.md**.
+The full weapon catalogue and roster statuses are documented in **AVENOR_Weapons.md**. The 40 completely rebuilt active firearms' projectile behaviour, firing loops, Weapon Actions, mastery, and counterplay are specified in **AVENOR_FiringIdentities.md**. That file supersedes older firearm descriptions wherever they conflict.
 
 ## 7. Weapons and Weapon Identity
 
-AVENOR is planned to launch with a broad weapon selection. The active launch roster contains **113 weapon concepts: 40 distinct damage-dealing firearms and launchers, 43 utility tools, and 30 melee weapons**. Another 54 firearm concepts are archived and are not launch content. The 40 active firearms each have a distinct projectile or firing pattern, detailed in **AVENOR_FiringIdentities.md**.
+AVENOR is planned to launch with a broad weapon selection. The current active design foundation contains **113 weapon concepts: 40 completely rebuilt damage-dealing firearms and launchers, 43 utility tools, and 30 melee weapons**. Another 54 firearm concepts remain archived for future redesign. The 40 rebuilt firearms are the first foundation of AVENOR's long-term **167 distinct-weapon ambition**, not a permanent ceiling. The authoritative designs are in **AVENOR_FiringIdentities.md**. Even Commonplace weapons must feel exceptional; rarity increases creative ambition, never basic quality or combat power.
 
 Every weapon should have:
 - A distinct identity and readable silhouette.
@@ -363,7 +363,7 @@ The proposed audio identity, gameplay-versus-cosmetic priority mix, weapon and m
 
 ## 20. Development Principles
 
-1. Distinct gameplay comes before quantity.
+1. Every weapon must deliver a distinct gameplay experience. AVENOR's long-term ambition is 167 genuinely different weapons, never 167 stat variations.
 2. Every weapon and ability must have a clear identity and reason to exist.
 3. Movement should be expressive, responsive, and readable.
 4. Avoid filler mechanics and generic ability names.
