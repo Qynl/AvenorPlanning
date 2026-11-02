@@ -3,7 +3,7 @@
 > **Scope lock:** AVENOR does not simulate a civilian population or everyday NPC society. The only planned NPCs are a limited number of AI-controlled faction groups that behave as much like player squads as practical. Real players remain the heart of the world.
 
 ## 1. Purpose
-NPC factions give selected remote, valuable or interesting locations a sense of risk and activity when real players are not there. They are not quest-givers, shopkeepers, public workers or background crowds.
+NPC factions give selected remote, valuable or interesting locations a sense of risk and activity when real players are not there. They are effectively AI players, not an attempt to simulate a functioning city. They are not quest-givers, shopkeepers, public workers or background crowds.
 
 A faction should feel like a group of players occupying the world:
 - Members travel together or split into small sensible subgroups.
@@ -54,7 +54,7 @@ Use a compact set of understandable behaviours:
 - Push, hold, flank or retreat according to simple squad rules.
 - Recover, regroup and move on after an encounter.
 
-The goal is not to imitate every human decision. The goal is to make factions readable, believable opponents and occasional unexpected neighbours.
+The goal is not to imitate every human decision or simulate a society. The goal is to make factions readable, believable opponents and occasional unexpected neighbours.
 
 ## 5. Rare-site defence
 Some rare discoveries may be guarded by an NPC faction:
