@@ -4,9 +4,9 @@
 
 > Two individually designed skins per weapon. Every skin is exclusive to its named weapon. No universal patterns or cross-weapon compatibility. Rarity controls cosmetic complexity only; no gameplay advantages.
 
-**Active launch skin set:** exactly 80 firearm skins across the 40 active firearms. Their visual effects now reference each weapon's actual projectile and firing loop in `AVENOR_FiringIdentities.md`. Archived firearm skins remain in this file for historical reference only. They are not launch unlocks, shop stock, mastery rewards, or showroom choices.
+**Active launch skin set:** exactly 80 firearm skins across the 40 active firearms. The 40 firearms have since received a complete mechanical rebuild in `AVENOR_FiringIdentities.md`; the active skin design descriptions below are retained as concepts but are pending a full visual resynchronisation to the new projectile and firing loops. Do not treat any conflicting legacy skin description as an authoritative gameplay reference. Archived firearm skins remain historical reference only, not launch unlocks, shop stock, mastery rewards, or showroom choices.
 
-**Firing-identity preservation:** a skin may change materials, silhouette detailing, animation, sound texture, muzzle presentation, projectile trail styling, and cosmetic impact presentation. It must never change projectile count, hitbox, speed, spread, path, bounce count, split distance, fuse, damage, charge timing, cadence, or counterplay. Every cosmetic trail must preserve the actual shot path and remain readable to both teams.
+**Firing-identity preservation:** after the active skin descriptions are resynchronised to the rebuilt roster, a skin may change materials, silhouette detailing, animation, sound texture, muzzle presentation, projectile trail styling, and cosmetic impact presentation. It must never change projectile count, hitbox, speed, spread, path, bounce count, split distance, fuse, damage, charge timing, cadence, or counterplay. Every cosmetic trail must preserve the actual shot path and remain readable to both teams.
 
 ## Rarity presentation standards
 
