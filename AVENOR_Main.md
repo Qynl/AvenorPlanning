@@ -281,7 +281,7 @@ Cosmetic categories include:
 - Player banners
 - Profile showcases
 
-Dedicated collections currently exist for individual weapon skins (**AVENOR_Cosmetics.md**), elimination effects (**AVENOR_KillEffects.md**), victory effects (**AVENOR_WinEffects.md**), and emotes (**AVENOR_Emotes.md**). The remaining presentation categories, including MVP presentation, custom elimination announcements and sounds, player banners, and profile showcases, still need their own detailed specifications.
+Dedicated collections and specifications exist for individual weapon skins (**AVENOR_Cosmetics.md**), elimination effects (**AVENOR_KillEffects.md**), victory effects (**AVENOR_WinEffects.md**), emotes (**AVENOR_Emotes.md**), MVP selection and presentation, elimination announcements, player banners, titles, and profile showcases (**AVENOR_Presentation.md**).
 
 Cosmetics must not provide gameplay advantages or obscure important visual information.
 
@@ -301,14 +301,14 @@ Higher rarity indicates greater exclusivity, uniqueness, or complexity. It does 
 ## 16. Economy and Unlocks
 
 Planned unlock routes:
-- Shop purchases
-- Account progression
-- Challenges and achievements
-- Events
-- Cosmetic cases
-- Direct unlocks
-- Earnable currencies
-- Robux as one possible purchase route
+- Account progression and level milestones
+- AVENOR Credits earned through play
+- Clearly stated weapon and ability challenges
+- Achievements and limited-time events
+- Direct cosmetic purchases with Credits
+- Optional Robux purchases for premium cosmetics and the premium cosmetic season pass
+
+Paid random cosmetic cases are not part of the recommended initial economy. Earnable cases may be reconsidered later only with transparent odds and duplicate rules.
 
 The default loadout is available immediately. The current intended direction is that gameplay weapons and abilities are earned through progression and clearly stated challenges, with a usable default loadout available immediately. The progression document recommends that every gameplay weapon remain earnable by everyone and never Robux-exclusive; this policy still requires final approval. Robux is reserved for optional cosmetic purchases and the premium cosmetic pass. Spending must never buy combat stats, competitive rating, or exclusive gameplay abilities.
 
