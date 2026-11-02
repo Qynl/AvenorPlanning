@@ -45,3 +45,6 @@ The central planning repository for **AVENOR**, a competitive Roblox FPS built a
 The design repository contains the full high-level game overview, gameplay and weapon rosters, ability concepts, mode rules, eight map concepts with proposed greybox layouts, progression/economy proposals, cosmetic collections, presentation requirements, HUD/audio requirements, technical architecture, and a development roadmap.
 
 This repository contains plans and specifications. It does **not** mean the Roblox experience or its systems have already been implemented. Proposed values still require approval, simulation, Studio implementation, and playtesting.
+
+
+**Weapon design direction:** AVENOR's long-term ambition is 167 genuinely distinct weapon experiences. The current foundation includes 40 completely rebuilt firearms; every rarity tier, including Commonplace, must deliver a memorable mechanic. See [AVENOR_FiringIdentities.md](AVENOR_FiringIdentities.md).
