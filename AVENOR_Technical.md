@@ -13,7 +13,7 @@ AVENOR's architecture must support:
 - Separation between gameplay logic, presentation, content definitions, and platform services.
 - Maintainable systems that can be tested independently and expanded safely.
 
-**Architecture principle:** Build a small, complete vertical slice first. Do not attempt to implement all 167 weapons, 50 abilities, eight maps, and every progression feature before the first reliable match works.
+**Architecture principle:** Build a small, complete vertical slice first. Do not attempt to implement all 113 active weapons, 50 abilities, eight maps, and every progression feature before the first reliable match works.
 
 ## 2. Roblox Experience Structure
 
@@ -104,7 +104,7 @@ Never put secrets, authoritative reward logic, trusted ownership decisions, or p
 
 ### Weapons
 
-The 167-weapon roster must use a shared weapon framework rather than 167 unrelated scripts.
+The active launch roster contains 113 weapons (40 firearms/launchers, 43 utility tools, and 30 melee weapons). Use a shared, data-driven weapon framework rather than one-off scripts. The 54 archived firearm concepts are not launch content.
 
 Each weapon definition should provide structured fields appropriate to its class:
 - Stable weapon ID, display name, category, and slot classification.
@@ -112,7 +112,9 @@ Each weapon definition should provide structured fields appropriate to its class
 - Damage profile and eligible hit regions.
 - Fire cadence and ammunition rules.
 - Reload behavior, range, and falloff.
-- Projectile or hitscan type.
+- Projectile or hitscan type, with explicit projectile shape, count, speed, path, gravity, bounce, split, return, fuse, and impact rules where applicable.
+- Firing loop state, such as charge stage, burst index, heat state, spin-up, alternating sequence, or manually selected ammunition feed.
+- Cosmetic presentation hooks that are guaranteed not to alter authoritative projectile or hit behaviour.
 - Weapon-specific action definition.
 - Animation, sound, viewmodel, and effect asset references.
 - Pickup and replacement rules.
@@ -122,7 +124,13 @@ Not every field applies to every weapon. Use validated class-specific schemas ra
 
 Suggested behavior families:
 - Hitscan.
-- Server-simulated projectile.
+- Server-simulated projectile with deterministic travel and impact state.
+- Multi-projectile patterns and fixed-sequence bursts.
+- Ricochet, single-rebound, multi-bounce, and returning-projectile behaviours.
+- Fixed-path split, fork, companion, delayed-echo, and converging projectile behaviours.
+- Timed or remotely detonated payloads.
+- Charge-stage, heat-state, spin-up, and manually selected dual-feed firing loops.
+- Directional wave/cone attacks and limited preselected curved paths.
 - Melee trace.
 - Charge/release.
 - Burst.
@@ -159,7 +167,7 @@ Cosmetics are presentation-only definitions:
 - Visibility and performance settings.
 - Ownership and equip rules.
 
-Weapon skins remain individual to their specific weapon. Cosmetic effects must not change hitboxes, damage, visibility advantages, movement, or competitive state.
+Weapon skins remain individual to their specific weapon. Only the 80 firearm skins belonging to the 40 active firearms are launch firearm cosmetics; archived firearm skins remain readable in legacy inventories but cannot be newly unlocked or equipped as active launch content. Cosmetic effects must not change projectile count, path, speed, spread, hitboxes, damage, visibility advantages, movement, timing, or competitive state.
 
 ### Content IDs and versioning
 
