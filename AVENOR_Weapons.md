@@ -6,7 +6,7 @@
 
 AVENOR's active launch target is **113 weapon concepts: 40 damage-dealing firearms and launchers, 43 utility weapons and tools, and 30 melee weapons**. The other 54 firearm concepts are archived and are not launch content.
 
-The goal is not to fill a spreadsheet with generic versions of familiar guns. Every weapon should feel recognizably different in the player's hands.
+The 40 active firearms have now been rebuilt around distinct interaction loops. Even Commonplace must feel exceptional; rarity raises creative ambition, never basic quality or combat power. A weapon is not distinct because its stats differ. It must change what the player does and what the opponent must read.
 
 ### Core Rules
 - **Slot rule:** Primary is for the main damage-dealing weapons. A weapon whose main purpose is utility, movement, information, deception, or arena control belongs in Secondary, even if it has incidental damage. Secondary can also contain damaging sidearms.
@@ -22,7 +22,7 @@ The goal is not to fill a spreadsheet with generic versions of familiar guns. Ev
 
 ### Active firearm standard
 
-The active launch firearm roster is limited to 40 weapons. Each active firearm must have a distinct projectile, firing pattern, travel behaviour, impact behaviour, and handling rhythm. See `AVENOR_FiringIdentities.md` for full specifications.
+The active launch firearm roster currently contains 40 rebuilt designs. Their complete, authoritative firing loops, projectile behaviours, weapon actions, mastery loops, and counterplay are in `AVENOR_FiringIdentities.md`. That document supersedes every older active-firearm mechanic description in this catalogue.
 
 ## 2. Rarity Hierarchy
 
@@ -60,7 +60,7 @@ Weapon abilities use cooldowns. The cooldown begins after activation or after th
 
 ## 4. Weapon Roster
 
-The catalogue retains 167 concepts for reference, but only 113 are currently active for launch: 40 firearms/launchers, 43 utility tools, and 30 melee weapons. The remaining 54 firearms are archived. Each entry is explicitly labelled with its roster status. The authoritative firing behaviour for the 40 active firearms is in `AVENOR_FiringIdentities.md`.
+The catalogue retains 167 concepts for reference. The current active design foundation is 113 concepts: 40 completely rebuilt firearms/launchers, 43 utility tools, and 30 melee weapons. The remaining 54 firearm concepts are archived for future redesign. The authoritative new designs for all 40 active firearms are in `AVENOR_FiringIdentities.md`; older descriptions in this file are superseded wherever they conflict.
 
 ### Weapon 001 — TAXMAN
 - **Internal ID:** TAXMAN
