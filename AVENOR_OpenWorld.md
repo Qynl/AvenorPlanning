@@ -5,7 +5,7 @@
 ## 1. Player promise
 Enter a large, recognisable world with other real players. Explore because interesting places, hidden discoveries, weapons, equipment and unpredictable encounters are scattered throughout it. Choose your own pace: roam, investigate, scavenge, meet other players, set up a temporary camp, encounter a faction or simply travel.
 
-There is no mandatory mission chain. The world should create opportunities without constantly telling players what to do.
+There is no mandatory mission chain. The world should create opportunities without constantly telling players what to do. Its identity is a free-roaming exploration/action sandbox: believable places, strong traversal, weapon discovery and occasional encounters, without recreating the routines and systems of a real city.
 
 ## 2. Priority order
 1. Exploration and discovery.
@@ -69,12 +69,16 @@ The Open World supports player encounters and occasional NPC faction combat. Com
 Do not assume full-loot PvP, permanent item loss or combat everywhere. Keep all damage, awareness, loot and rewards server-validated.
 
 ## 9. What AVENOR deliberately does not simulate
-- Police, law enforcement, wanted levels or arrests.
-- Civilian crowds, pedestrian routines or simulated city populations.
-- Shopkeepers, traders, merchants or public services.
+AVENOR is not a GTA-style crime or everyday-life simulator. It does not need to reproduce every system a real city has. Deliberately out of scope:
+- Police, law enforcement, wanted levels, arrests, fines or criminal career systems.
+- Civilian crowds, pedestrian routines, traffic-life simulation or simulated city populations.
+- Shopkeepers, traders, merchants, public services or service economies.
 - Security patrols, guards or military NPC ecosystems separate from player-like factions.
-- Traffic simulation, emergency services or everyday NPC schedules.
+- Emergency-service dispatch, routine city schedules or background life simulation.
 - NPC quest hubs, service dialogue or mission boards.
+- Realistic legal, economic or bureaucratic systems that distract from exploration and action.
+
+Cities may still contain roads, vehicles, stations, shops, hospitals, industrial sites and recognisable infrastructure as scenery and explorable spaces. Their existence does not require traffic AI, working services or NPC populations. Vehicles, if included, should serve traversal or gameplay rather than turn the project into a driving/life simulator.
 
 World locations may still visually contain stations, shops, hospitals, factories, airports and other buildings. These are places to explore, not promises of functioning NPC services.
 
