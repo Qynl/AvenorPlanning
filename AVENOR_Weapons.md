@@ -62,7 +62,7 @@ Weapon abilities use cooldowns. The cooldown begins after activation or after th
 
 The catalogue retains 167 concepts for reference. The current active design foundation is 113 concepts: 40 completely rebuilt firearms/launchers, 43 utility tools, and 30 melee weapons. The remaining 54 firearm concepts are archived for future redesign. The authoritative new designs for all 40 active firearms are in `AVENOR_FiringIdentities.md`; older descriptions in this file are superseded wherever they conflict.
 
-### Weapon 001 — Marking Assault Rifle
+### Weapon 001 — Assault Rifle
 - **Internal ID:** TAXMAN
 - **Roster status:** Active launch firearm
 - **Category:** Precision auto-rifle
@@ -98,7 +98,7 @@ The catalogue retains 167 concepts for reference. The current active design foun
 - **Counterplay:** The shell, ring cue, and pulse area are visible and avoidable.
 - **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
-### Weapon 004 — Charged Rail Rifle
+### Weapon 004 — Rail Rifle
 - **Internal ID:** LONG-STORY
 - **Roster status:** Active launch firearm
 - **Category:** Precision rail rifle
@@ -110,7 +110,7 @@ The catalogue retains 167 concepts for reference. The current active design foun
 - **Counterplay:** Charge cues, mark, and narrow rail path are readable; no wall penetration.
 - **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
-### Weapon 005 — Orbit Sidearm
+### Weapon 005 — Orbit Pistol
 - **Internal ID:** LOOSE-CHANGE
 - **Roster status:** Active launch firearm
 - **Category:** Trick-shot sidearm
@@ -122,7 +122,7 @@ The catalogue retains 167 concepts for reference. The current active design foun
 - **Counterplay:** Orbit point and lanes are visible; no homing or wall passage.
 - **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
-### Weapon 006 — Tri-Volley Rifle
+### Weapon 006 — Tri-Burst Rifle
 - **Internal ID:** THREES-COMPANY
 - **Roster status:** Active launch firearm
 - **Category:** Sequencing rifle
@@ -146,7 +146,7 @@ The catalogue retains 167 concepts for reference. The current active design foun
 - **Counterplay:** Elevated routes and cover avoid the wave; crossing point is marked.
 - **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
-### Weapon 008 — Return Disc Launcher
+### Weapon 008 — Disc Launcher
 - **Internal ID:** RETURN-TO-SENDER
 - **Roster status:** Active launch firearm
 - **Category:** Returning disc launcher
@@ -249,7 +249,7 @@ For a short duration, suppresses the weapon's distinctive firing audio and remov
 
 **Status:** Accepted concept. Prototype values are TBD.
 
-### Weapon 013 — Stasis Sidearm
+### Weapon 013 — Stasis Pistol
 - **Internal ID:** CALL-WAITING
 - **Roster status:** Active launch firearm
 - **Category:** Energy sidearm
@@ -505,7 +505,7 @@ Fold the active panel down and redeploy it at a new valid surface within a limit
 
 **Status:** Accepted concept. Prototype values are TBD.
 
-### Weapon 025 — Sequence Pulse Rifle
+### Weapon 025 — Pulse Rifle
 - **Internal ID:** HOLD-MUSIC
 - **Roster status:** Active launch firearm
 - **Category:** Sequence pulse rifle
@@ -661,7 +661,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Prototype values:** Placement range, pair lifetime, frame health, traversal delay, and cooldown are TBD.
 - **Status:** Accepted concept. Prototype values are TBD.
 
-### Weapon 033 — Pressure Wave Launcher
+### Weapon 033 — Shockwave Launcher
 - **Internal ID:** BOUNCER
 - **Roster status:** Active launch firearm
 - **Category:** Air-pressure launcher
@@ -757,7 +757,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Counterplay:** Puck is large and audible; redirects are capped and visible.
 - **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
-### Weapon 039 — Impact Ball Launcher
+### Weapon 039 — Impact Launcher
 - **Internal ID:** HOME-RUN
 - **Roster status:** Active launch firearm
 - **Category:** Kinetic ball launcher
@@ -787,7 +787,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Prototype values:** Trigger radius, sensor lifetime, indicator duration, and cooldown are TBD.
 - **Status:** Accepted concept. Prototype values are TBD.
 
-### Weapon 041 — Twin-Shot Pistols
+### Weapon 041 — Twin Pistols
 - **Internal ID:** DOUBLE-PARKED
 - **Roster status:** Active launch firearm
 - **Category:** Twin-shot sidearm
@@ -1015,7 +1015,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Prototype values:** Mark duration, locator refresh duration, and cooldown are TBD.
 - **Status:** Accepted concept. Prototype values are TBD.
 
-### Weapon 055 — Timing Rifle
+### Weapon 055 — Tempo Rifle
 - **Internal ID:** BAD-TIMING
 - **Roster status:** Active launch firearm
 - **Category:** Timing rifle
@@ -1165,7 +1165,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Prototype values:** Damage, centre-zone size, recovery reduction, guide length, and cooldown are TBD.
 - **Status:** Proposed concept. Prototype values are TBD.
 
-### Weapon 064 — Fan Launcher
+### Weapon 064 — Scatter Launcher
 - **Internal ID:** BULLPEN
 - **Roster status:** Active launch firearm
 - **Category:** Braced fan launcher
@@ -1333,7 +1333,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Prototype values:** Magazine size, fire rates, spread, phase length, and cooldown are TBD.
 - **Status:** Proposed concept. Prototype values are TBD.
 
-### Weapon 074 — Ceiling Launcher
+### Weapon 074 — Overhead Launcher
 - **Internal ID:** OVERHEAD
 - **Roster status:** Active launch firearm
 - **Category:** Ceiling capsule launcher
@@ -1483,7 +1483,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Counterplay:** Counter and fifth-shot tell are visible; paths are fixed.
 - **Full specification:** See the matching entry in `AVENOR_FiringIdentities.md`, which is authoritative for projectile behaviour, Weapon Action, timing, feedback, and implementation constraints.
 
-### Weapon 083 — Arc-Link Rifle
+### Weapon 083 — Arc Rifle
 - **Internal ID:** STATIC-SHOCK
 - **Roster status:** Active launch firearm
 - **Category:** Marker-linked pulse rifle
@@ -1513,7 +1513,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Prototype values:** Radius, lifetime, entry cue duration, and cooldown are TBD.
 - **Status:** Proposed concept. Prototype values are TBD.
 
-### Weapon 085 — Paired-Shot Rifle
+### Weapon 085 — Double-Tap Rifle
 - **Internal ID:** BLIND-DATE
 - **Roster status:** Active launch firearm
 - **Category:** Paired-shot rifle
@@ -1771,7 +1771,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 - **Prototype values:** Pad lifetime, boost strength, launch angle, and cooldown are TBD.
 - **Status:** Proposed concept. Prototype values are TBD.
 
-### Weapon 100 — Adaptive Shell Launcher
+### Weapon 100 — Adaptive Launcher
 - **Internal ID:** OVERBOOKED
 - **Roster status:** Active launch firearm
 - **Category:** Cycling shell launcher
@@ -2474,7 +2474,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 - **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
 - **Status:** Accepted concept. Prototype values are TBD.
 
-### Weapon 148 — Pathing Bolt Launcher
+### Weapon 148 — Pathing Launcher
 - **Internal ID:** DETOUR
 - **Roster status:** Active launch firearm
 - **Category:** Route-drawing bolt launcher
@@ -2542,7 +2542,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 - **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
 - **Status:** Accepted concept. Prototype values are TBD.
 
-### Weapon 153 — Barrier Launcher
+### Weapon 153 — Barrier Projector
 - **Internal ID:** TRAFFIC-JAM
 - **Roster status:** Active launch firearm
 - **Category:** Cluster barrier launcher
@@ -2650,7 +2650,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 - **Prototype values:** Damage, range, timing, charges, recovery, object lifetime, and cooldown are TBD as applicable.
 - **Status:** Accepted concept. Prototype values are TBD.
 
-### Weapon 161 — Mirror Pulse Rifle
+### Weapon 161 — Mirror Rifle
 - **Internal ID:** BAD-SIGNAL
 - **Roster status:** Active launch firearm
 - **Category:** Mirrored-lane pulse weapon
