@@ -67,29 +67,40 @@ Movement should feel quick and controllable without making aiming or tracking op
 
 ### Proposed baseline
 
-- Every player starts an ordinary life at the same maximum health.
+<badge>Proposed for playtesting</badge>
+
+- **Maximum health: 100 HP** for every player and every ordinary life.
+- Health is not increased by account level, rank, purchases, weapon mastery, or cosmetic rarity.
 - Damage is applied by the server-authoritative combat system.
-- Health and incoming damage feedback must be clear and consistent.
 - A player is eliminated when health reaches zero.
-- Cosmetic rarity and purchases never change health, damage, or survivability.
+- **No passive health regeneration** in the initial baseline. Damage should matter, and players should need to reposition, use a deliberate healing tool/ability, or wait for the next life/round rather than automatically recovering during a duel.
+- **No universal shields or overheal** in the initial baseline. A specific mode or approved ability may introduce temporary protection only with clear limits and counterplay.
+- Healing effects cannot exceed the ordinary 100 HP maximum unless a future mode explicitly approves a different rule.
 
-**TBD:** Maximum health, whether passive health regeneration exists, regeneration delay/rate if used, and whether shields or temporary health exist in any mode.
+### Proposed damage rules
 
-### Damage rules to define
+- Each weapon defines its own body damage and any special damage behaviour in AVENOR_Weapons.md.
+- **Headshots are weapon-specific, not universal.** A weapon only receives a headshot bonus when its design explicitly supports one. Weapons without that rule deal their normal damage to all valid hit regions.
+- Headshot multipliers and damage values must be individually documented and playtested. Avoid one global multiplier that accidentally makes every weapon behave the same.
+- Damage falloff is also weapon-specific. A weapon with no falloff must say so; ranges and falloff curves must be explicit for weapons that use them.
+- Damage-over-time, area damage, knockback, and status effects must state their duration, limits, stacking rules, and counterplay.
+- Friendly fire is **off** in the initial standard modes. A future mode may define otherwise.
+- Environmental damage must be clearly attributed and must follow the same server-authoritative validation standards.
+- Simultaneous eliminations are allowed when both attacks were valid before either elimination was processed. The server resolves the events from their validated timestamps rather than granting an arbitrary first-player advantage.
 
-- Whether headshots are supported by all eligible weapons or only selected weapons.
-- Whether distance changes damage.
-- Whether damage can pass through any map materials.
-- How damage-over-time, area effects, knockback, and status effects are handled.
-- Whether friendly fire exists in any mode.
-- How simultaneous eliminations are resolved.
+### Elimination, credit, and feedback
 
-### Fairness requirements
+- The server records the elimination, attacker, assists, weapon/ability source, and relevant match event exactly once.
+- An assist is awarded when a player made a meaningful recent contribution to the eliminated opponent. The exact contribution threshold and time window remain **TBD** and must be consistent across modes.
+- Damage indicators communicate a useful direction cue without revealing an opponent's exact position.
+- Hit, critical-hit (where applicable), elimination, and assist feedback must be visually and audibly distinct.
+- No weapon or ability may silently bypass the normal health and damage rules.
 
-- Damage indicators should communicate direction without revealing more information than intended.
-- Elimination credit, assists, and environmental eliminations must follow consistent rules.
-- Spawn protection, if used, must be brief, visible, and unable to be exploited for attacking.
-- No weapon or ability should silently bypass the normal damage rules.
+### Why this is the starting point
+
+100 HP is an easy-to-understand reference for weapon tuning. No passive regeneration makes damage and disengagement meaningful, while weapon-specific headshots preserve individual weapon identity. These are testable starting rules, not final balance guarantees.
+
+**Still TBD after prototype testing:** Individual weapon damage, headshot multipliers, damage falloff, assist threshold/window, and any mode-specific exceptions.
 
 ## 5. Combat and Hit Registration
 
@@ -185,22 +196,32 @@ Doors, switches, launch panels, and other map features should use a consistent i
 
 ## 9. Death, Respawn, and Spectating
 
-Respawn rules depend on the selected game mode.
+Respawn rules depend on the selected game mode. The following is the proposed initial ruleset.
 
 ### Proposed mode distinction
 
-- **Round-based modes:** Players remain eliminated until the round ends, unless a specific mode rule says otherwise.
-- **Respawn modes:** Players return after a short delay at a valid spawn location.
-- **Spectating:** Eliminated players may spectate eligible teammates or use a limited overview, depending on the mode.
+- **Round-based modes:** Once eliminated, a player stays out until the round ends. No mid-round respawn in the initial baseline.
+- **Respawn modes:** Respawn after **3 seconds** at a server-selected valid spawn. The delay begins after the elimination is confirmed.
+- **1v1 prototype:** Use round-based elimination. Each player gets one life per round; the round ends when one player is eliminated. This makes damage, positioning, and weapon balance easier to evaluate.
+- **Spectating:** In team modes, eliminated players may spectate living teammates. In solo modes, they may spectate the remaining opponent only if the mode rules permit it. Spectating must not reveal hidden information or provide live callouts through the game UI.
 
 ### Spawn fairness
 
-- Spawn selection should avoid placing players directly in an opponent's immediate line of fire where practical.
-- Spawn protection, if implemented, must end when the player attacks or after a short fixed duration.
+- Spawn selection should consider opponent distance, line of sight, recent spawn use, and nearby hazards.
+- Never intentionally spawn a player in an opponent's immediate line of fire when a safer valid spawn exists.
+- **No spawn protection in the initial 1v1 prototype**, because players do not respawn during a round.
+- If a respawn mode later requires protection, it should be brief, clearly visible, and immediately end when the player attacks or uses an offensive ability.
 - The system should avoid repeatedly selecting the same unsafe spawn.
 - Spawn logic must be tested with real player counts and map layouts.
 
-**TBD:** Respawn delay, spawn selection algorithm, spectating permissions, spawn protection, and whether players retain ability availability after respawning.
+### State reset on a new life
+
+- Health returns to 100 HP.
+- Weapon ammunition and ability availability follow the mode's explicit reset policy.
+- Temporary damage, healing, and status effects from the previous life are cleared.
+- Match score and already-recorded eliminations remain unchanged.
+
+**Still TBD:** Final respawn delay after testing, spawn scoring/selection implementation, spectating permissions per mode, and whether each mode restores ability charges on respawn.
 
 ## 10. Match Flow
 
@@ -319,10 +340,10 @@ The following are intentionally proposed rather than locked:
 1. First-person-only matches.
 2. Baseline movement includes walk, jump, air control, and optional sprint.
 3. No crouch, slide, wall-run, or wall-climb in the initial movement baseline.
-4. Equal baseline health for all players.
+4. Equal baseline health for all players, with a proposed 100 HP starting value and no passive regeneration.
 5. Server-authoritative combat and match outcomes.
 6. Separate Primary, Secondary, Melee, and Ability slots.
-7. Round-based modes and respawn modes use different elimination rules.
+7. Round-based modes and respawn modes use different elimination rules; the proposed respawn-mode delay is 3 seconds.
 8. First playable prototype focuses on 1v1.
 9. Build and test a small weapon selection before implementing the full 167.
 10. Exact numerical values remain open until playtesting.
