@@ -353,7 +353,7 @@ Implementation requirements:
 - Handle failed saves safely without silently losing or duplicating rewards.
 - Apply rate limits and server-side checks to challenge completion and reward claims.
 
-## 16. Recommended Complete Progression Baseline
+## 14. Recommended Complete Progression Baseline
 
 > **Recommendation only.** This section closes the numerical design gaps with a coherent first-pass model. It is not locked. Values should be adjusted from playtest and economy simulations before implementation. All gameplay unlocks remain earnable without Robux.
 
@@ -523,7 +523,7 @@ Prices are starting anchors, not fixed values. Individual items may vary with pr
 - Challenge progress should be account-wide where possible, with weapon-specific requirements used only when they meaningfully celebrate that weapon.
 - Provide rerolls only if they do not become a paid requirement.
 
-## 17. Decisions Still Requiring Approval
+## 15. Decisions Still Requiring Approval
 
 1. Approve or adjust the proposed account XP curve and match XP components.
 2. Approve the recommended policy that all gameplay weapons are earnable and never Robux-exclusive.
@@ -535,18 +535,7 @@ Prices are starting anchors, not fixed values. Individual items may vary with pr
 8. Confirm that paid random cosmetic cases are excluded from the initial release.
 9. Validate all reward rates, unlock pacing, and rank thresholds through simulation and closed playtests.
 
-## 18. Decisions Still Requiring Approval
-
-1. Final weapon unlock policy, including whether any weapon access can ever be paid-exclusive.
-2. Final ability unlock schedule and ranked availability.
-3. Account XP curve, match XP values, reward cadence and milestone intervals for the uncapped level system.
-4. Weapon mastery level count, XP curve and reward milestones.
-5. Rank rating thresholds, placement count, rating model, seasonal reset policy, ranked-population threshold for the AVENOR top-20 reward, and tie-break rules. (Rank names, tier divisions and the AVENOR apex structure are now defined.)
-6. Season pass duration, tier count, pricing and rewards.
-7. AVENOR Credits earning rate and shop pricing.
-8. Whether cosmetic cases remain in the economy, and their odds/duplicate rules if so.
-
-## 19. Recommended Implementation Order
+## 16. Recommended Implementation Order
 
 Build progression in layers. Do not build the entire economy before the core match loop is reliable.
 
