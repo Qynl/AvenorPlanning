@@ -21,15 +21,19 @@ AVENOR combines:
 - Multiple match formats, from duels to larger team modes.
 - Clear combat feedback and fair, consistent rules.
 
-### Planned game modes
+### Initial planned game modes
 
-- Duels / 1v1
-- Team modes
-- Free-for-all
-- Objective-based modes
-- Additional modes as development progresses.
+The current proposed roster in **AVENOR_GameModes.md** contains:
 
-Match rules vary by mode. Duels may use rounds or limited lives; team and FFA modes may use respawns. Exact rules, player counts, round lengths, and scoring are **TBD** per mode.
+- **DUEL** — 1v1, round-based.
+- **DUOS** — 2v2, round-based.
+- **TEAM DEATHMATCH** — 4v4, continuous respawns.
+- **FREE FOR ALL** — 8 players, continuous respawns.
+- **HARDPOINT** — 4v4, rotating objective.
+- **CAPTURE THE FLAG** — 4v4, team objective.
+- **AVENOR ORIGIN** — 4v4, the signature original objective mode.
+
+The roster and detailed draft rules exist. Player counts, score limits, round counts, timers, respawn delays, and overtime rules remain proposed until approved and playtested.
 
 ## 3. Player Perspective and Camera
 
@@ -166,7 +170,7 @@ Map design goals:
 
 Map weapon pickups should encourage players to move around the arena and make situational choices. Pickups must be understandable, visible, and fair to contest.
 
-Map sizes, themes, interactive objects, pickup placement rules, and mode-specific map pools are **TBD**.
+The current concept roster contains eight maps: **FOUNDRY, BREAKWATER, SUNSPIRE, NEON DISTRICT, FROSTLINE, OVERGROWTH, BLACKSITE,** and **SKYLINE**. Their identities and initial mode candidates are documented in **AVENOR_Maps.md**. Exact dimensions, greybox layouts, routes, sightlines, spawn locations, interactive-object behavior, pickup placements, and final mode compatibility remain to be built and tested.
 
 ## 10. Match Flow and Player States
 
@@ -181,7 +185,7 @@ A match should have a clear, consistent flow:
 
 The exact flow differs by mode. Round-based modes and respawn modes must have rules suited to their format.
 
-The current proposed baseline is round-based elimination with no mid-round respawns, and a 3-second respawn delay in respawn modes. Spectating, round transitions, overtime, ties, and rematch behavior remain **TBD** per mode.
+The current proposed baseline is no mid-round respawns in round-based modes and a 3-second respawn delay as the initial target for respawn modes. **AVENOR_GameModes.md** defines draft rules for the full mode roster, including round lengths, scoring, time limits, respawns, and overtime. These are proposals, not locked balance. Spectating, round transitions, ties, rematches, and mode-specific edge cases still require implementation testing and final approval.
 
 ## 11. Competitive Integrity and Networking
 
@@ -199,7 +203,7 @@ The server is responsible for validating important competitive outcomes, includi
 
 The client may handle responsive presentation and input feedback, but it must not be trusted as the final authority for competitive outcomes.
 
-The implementation should aim for responsive combat while protecting consistency and fairness. Latency handling, hit validation details, replication strategy, and exploit prevention are part of the technical design and are **TBD** at the implementation level.
+The implementation should aim for responsive combat while protecting consistency and fairness. The proposed service boundaries, RemoteEvent contracts, hit validation approach, replication strategy, persistence, matchmaking, and exploit-resistance architecture are documented in **AVENOR_Technical.md**. Exact latency tolerances, tuning, profiling results, and implementation-specific validation remain to be proven in a working Roblox build.
 
 ## 12. Social Hub
 
@@ -218,12 +222,12 @@ The lobby should make it easy to group up, personalize a profile, explore the ga
 
 ## 13. Progression
 
-There are three separate progression tracks: account progression, weapon mastery, and competitive rank. Their full rules are defined in **AVENOR_Progression.md**.
+There are three separate progression tracks: account progression, weapon mastery, and competitive rank. Their proposed rules, XP sources, level rewards, weapon and ability unlocks, rank ladder, seasons, currencies, challenges, and profile progression are defined in **AVENOR_Progression.md**.
 
 ### Account Progression
 
 Account XP and levels can unlock:
-- Eligible gameplay unlocks, subject to the final unlock policy
+- Gameplay unlocks through the approved earnable progression routes
 - Currencies and rewards
 - Cosmetics
 - Titles and badges
@@ -277,6 +281,8 @@ Cosmetic categories include:
 - Player banners
 - Profile showcases
 
+Dedicated collections currently exist for individual weapon skins (**AVENOR_Cosmetics.md**), elimination effects (**AVENOR_KillEffects.md**), victory effects (**AVENOR_WinEffects.md**), and emotes (**AVENOR_Emotes.md**). The remaining presentation categories, including MVP presentation, custom elimination announcements and sounds, player banners, and profile showcases, still need their own detailed specifications.
+
 Cosmetics must not provide gameplay advantages or obscure important visual information.
 
 ### Universal Rarity System
@@ -304,7 +310,7 @@ Planned unlock routes:
 - Earnable currencies
 - Robux as one possible purchase route
 
-The default loadout is available immediately. The final weapon unlock policy, including whether any weapon access can be paid-exclusive, remains **TBD**. The recommended direction is that every gameplay weapon is earnable by everyone and never Robux-exclusive. Paid options must not create a gameplay-stat advantage.
+The default loadout is available immediately. The current intended direction is that gameplay weapons and abilities are earned through progression and clearly stated challenges, with a usable default loadout available immediately. The progression document recommends that every gameplay weapon remain earnable by everyone and never Robux-exclusive; this policy still requires final approval. Robux is reserved for optional cosmetic purchases and the premium cosmetic pass. Spending must never buy combat stats, competitive rating, or exclusive gameplay abilities.
 
 The economy should make unlock paths clear and avoid making competitive viability depend on spending.
 
@@ -375,8 +381,14 @@ The final sound identity and detailed audio rules are **TBD**.
 - **AVENOR_Abilities.md** — ability system rules, approved ability concepts, rarity assignments, and individual ability designs.
 - **AVENOR_Gameplay.md** — detailed proposed gameplay rules, movement, combat, match flow, HUD, and first playable prototype.
 - **AVENOR_GameModes.md** — classic and original modes, including AVENOR ORIGIN, with proposed match formats and rules.
-- **AVENOR_Maps.md** — map design standards, layout and spawn principles, mode compatibility, performance, and the individual map specification template.
-- Future documents may define maps, technical architecture, progression, ranked systems, and the economy in greater detail.
+- **AVENOR_Maps.md** — map design standards, eight map concepts, layout and spawn principles, mode compatibility, performance, and the individual map specification template.
+- **AVENOR_Progression.md** — account XP, levels, unlocks, weapon mastery, ranked progression, seasons, currencies, challenges, economy, and player profile progression.
+- **AVENOR_Technical.md** — proposed Roblox architecture, server/client responsibilities, networking, persistence, matchmaking, security, testing, and implementation order.
+- **AVENOR_Roadmap.md** — ordered milestones from project foundation through release candidate.
+- **AVENOR_Cosmetics.md** — individual weapon skins for the weapon roster.
+- **AVENOR_KillEffects.md** — elimination effect collection and presentation rules.
+- **AVENOR_WinEffects.md** — victory effect collection and presentation rules.
+- **AVENOR_Emotes.md** — character emote collection and presentation rules.
 
 ## 22. Remaining Open Decisions
 
@@ -385,12 +397,14 @@ The following areas still need detailed design or testing:
 - Final health value, damage model, regeneration, and elimination rules after prototype testing.
 - Weapon balance validation and implementation priorities.
 - Ability prototype values and implementation priorities after playtesting.
-- Full mode list, player counts, scoring, and match rules.
-- Map roster, layouts, interactions, and pickup rules.
+- Final approval and playtest tuning of the proposed mode roster, player counts, scoring, timers, respawns, and overtime.
+- Exact greybox dimensions, layouts, routes, sightlines, spawns, interactions, pickup placements, and tested mode compatibility for each map.
 - Respawn, spectating, overtime, and round-transition behavior.
 - Ranked tiers, rating, placements, matchmaking, and resets.
 - Season pass structure.
 - Economy and paid unlock boundaries.
 - HUD, controls, accessibility, and platform-specific implementation.
-- Detailed networking, latency handling, and technical architecture.
-- Development roadmap and release scope.
+- Implementation and profiling of the proposed technical architecture, including latency tolerances and exploit monitoring.
+- Detailed MVP presentation, kill announcements and sound sets, player banners, and profile showcase specifications.
+- Final audio identity, music direction, sound mix priorities, and accessibility controls.
+- Final development scope adjustments based on prototype results and available production capacity.
