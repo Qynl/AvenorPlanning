@@ -164,3 +164,41 @@ The prototype succeeds only if exploring and encountering the world feels enjoya
 - Exact activity cadence and event density.
 - NPC population and per-server budgets.
 - How much world state is shared across separate Roblox server instances.
+
+
+## 14. Exploration, scavenging and establishing a presence
+
+The intended moment-to-moment experience is: **explore → discover → scavenge → encounter → decide what to do → move on or establish a presence**. This is a guiding loop, not a mandatory mission chain. Players may skip any step.
+
+### Location density
+- Each world should eventually contain hundreds of distinct points of interest at multiple scales.
+- Major named POIs, secondary places and micro-discoveries must each contribute something recognisable.
+- Different worlds need different location identities, architecture, interiors, activities and environmental stories.
+- See `AVENOR_Locations.md` for the 200-POI long-term catalogue and cross-world location families.
+- The catalogue is not a launch checklist. Prototype a compact, varied cluster and validate it before expanding.
+
+### Camps and temporary presence
+Players may bring suitable equipment and establish temporary camps in approved locations or terrain. A camp can act as a meeting point, shelter, supply stop or place where a group spends time.
+
+This is **not traditional base ownership**:
+- The player does not magically own the land or receive permanent territorial rights.
+- Other players and NPCs can discover the camp and react to the group currently present.
+- Groups may occupy, leave, abandon or contest existing locations through gameplay.
+- A player's presence is understood from the world state and behaviour, not a permanent ownership flag.
+- Camps must not require constant upkeep or punish players for taking breaks.
+- Persistence, storage, dismantling, access permissions and PvP rules remain TBD.
+
+### Existing locations and occupation
+The world contains public, abandoned, restricted and NPC-occupied locations. Players may visit, use, gather at or attempt to take control of suitable places. "Taking over" means establishing a practical presence and control in the current situation, not receiving permanent ownership of a map asset.
+
+A location should respond meaningfully when its situation changes: NPC visitors may arrive or leave, services may become available or unavailable, and nearby groups may recognise who is currently present. Keep these reactions local, legible and technically affordable.
+
+### Core experience test
+A meaningful prototype should let a player:
+1. Leave a settlement and choose a direction without accepting a mission.
+2. Find several distinct POIs and at least one small unexpected discovery.
+3. Scavenge useful equipment without relying on a repetitive loot loop.
+4. Encounter an NPC group or another player.
+5. Decide whether to avoid, interact, cooperate or contest.
+6. Set up a small temporary camp at a suitable place, or use an existing location as a gathering point.
+7. Leave and continue exploring without being forced into maintenance chores.
