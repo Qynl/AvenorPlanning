@@ -247,7 +247,7 @@ These are three separate systems and must not be merged:
 - Abilities must not make weapon skill irrelevant.
 - Weapon actions should reinforce the identity of their weapon rather than function as generic upgrades.
 
-**TBD:** Ability inventory, loadout restrictions, cooldown model, and availability rules.
+**Proposed prototype rules:** The complete 50-ability roster, individual activation conditions, cooldowns, durations, ranges, counterplay, and technical constraints are documented in `AVENOR_Abilities.md`, Section 6. Values remain subject to playtesting. The one-ability loadout restriction remains in force.
 
 ## 8. Pickups and Map Interaction
 
