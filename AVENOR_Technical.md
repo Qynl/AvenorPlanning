@@ -1,254 +1,42 @@
-# AVENOR — Technical Architecture & Roblox Implementation Plan
+# AVENOR — Roblox Technical Architecture
 
-> **Status: proposed architecture.** This document describes an implementation approach for Roblox. It is not proof that any service or gameplay feature has already been built. Server authority is required for ownership, combat, progression, world rotation and rewards.
+> Proposed architecture, not implemented features. Build a small vertical slice before committing to large infrastructure.
 
-## 1. Technical goals
+## Priorities
+Stable multiplayer/data; exploration traversal and streaming; server-authoritative combat/rewards; NPC simulation within budgets; cross-server schedule consistency; mobile performance; separate competitive lifecycle.
 
-Architecture must support:
-- First-person movement and combat across PC, controller and mobile.
-- A large streamed Open World region.
-- Multiple Roblox server instances hosting the same active world identity.
-- Persistent weapon collection and player progression.
-- World rotation on a shared schedule.
-- NPCs and activities with controlled server cost.
-- Separate competitive match servers.
-- Data-driven weapons, abilities and cosmetics.
-- Safe updates without corrupting player data.
+## Experience structure
+Proposed places: main/menu for profile/loadout/Arsenal; Open World for active region; competitive places for match instances. Validate with join, teleport and memory tests. Large shared worlds are multiple Roblox server instances of the same cycle, not one limitless server.
 
-## 2. Experience and place structure
+## World identity
+Authoritative schedule fields: activeWorldId, cycleId, start/end timestamps, nextWorldId, eventOverlayId and contentVersion. All servers agree. Rotation saves relevant state, routes joins and preserves permanent data.
 
-Proposed Roblox experience structure:
-- **Main place / menu:** home screen, profile, loadouts, Arsenal and navigation.
-- **Open World place:** joins the current active world package. Multiple server instances can host the same active world.
-- **Competitive match place:** dedicated match instances with mode-specific maps and lifecycle.
-- Additional places may be added only when a clear technical need exists.
+## Server services
+PlayerDataService, WeaponOwnershipService, DiscoveryService, LoadoutService, CombatService, AmmunitionService, MovementValidationService, NPCService, FactionRelationshipService, IncidentAwarenessService, WorldActivityService, WorldRotationService, EventService, PartyService, ProgressionService, EconomyService, MatchService and TelemetryService. Keep modules focused and data-driven.
 
-The exact place structure should be validated against Roblox teleportation, memory and streaming behaviour before production.
+## Client controllers
+Camera, input, movement presentation/prediction, weapon presentation, HUD, map, interaction, dialogue, journal, menu, loadout, audio and accessibility. Client handles responsiveness, not rewards, inventory, final damage or discovery validation.
 
-## 3. Shared world identity and rotation
+## Persistence
+Use DataStoreService with schema versions, safe UpdateAsync patterns, retries/backoff and session locking. Permanent profile includes progression, owned weapon IDs, mastery, cosmetics, loadouts, journal, achievements, currency and settings. Keep cycle-local state separate. Plan migrations and partial-failure recovery.
 
-Use a server-authoritative world schedule:
-- Stable world cycle ID.
-- Active world ID.
-- Start and end timestamps.
-- Next world ID.
-- Event overlay ID where applicable.
-- Content version.
-- Transition state.
+## Networking and authority
+Server-authoritative weapon ownership, discovery, damage, ammo, currency and match results. Validate/rate-limit RemoteEvents. Do not trust client positions for rewards. Keep messages small and event-driven. Use MemoryStoreService for temporary coordination only where expiry/consistency fits; persistent profile data belongs in DataStoreService. Use MessagingService purposefully and respect limits.
 
-All Open World servers read the same authoritative schedule. Never let an individual server decide which map is active based on its own local clock.
+## NPC/faction systems
+Reusable state machines; local incident awareness through witnesses/alarms/reports; faction reputation separate from immediate attention; no omniscient pursuit; distance update tiers, spawn budgets, pooling and simplified off-screen state.
 
-Multiple servers are acceptable and expected for capacity. They are instances of the same active world, not separate world choices. Cross-server shared activity state should use appropriate Roblox services and be designed around consistency and rate limits.
+## Streaming and world packages
+Test Workspace streaming. Build modular region/subregion packages. Prioritise nearby geometry and navigation. Keep distant scenery lightweight. Preload interiors where possible. Use simplified collision and LOD. Never assume a giant unstreamed model will work. Profile actual clients and servers.
 
-At rotation:
-1. New joins are directed to the next active world when it becomes active.
-2. Existing servers save relevant transient state and stop accepting new activity that cannot finish.
-3. Players receive a clear transition message.
-4. Server transitions are graceful and do not discard permanent player data.
-5. The next world package loads with the same cycle ID across servers.
+## Security
+Server validates ownership, discoveries, damage, ammo, movement plausibility, currency, activity completion and match results. Make grants idempotent. Validate every client request.
 
-## 4. Server-side services
+## Tests and telemetry
+Track joins/leaves, save failures, discovery grants, NPC counts, incident starts, world transitions, server frame time, memory and network traffic. Test recovery, rejoin, latency, crowded areas, mobile and shutdown.
 
-Proposed service boundaries:
-- PlayerDataService.
-- WeaponOwnershipService.
-- LoadoutService.
-- WeaponService.
-- AmmunitionService.
-- CombatService.
-- AbilityService.
-- MovementValidationService.
-- WorldStateService.
-- WorldRotationService.
-- DiscoveryService.
-- NPCService.
-- ActivityService.
-- EventService.
-- ProgressionService.
-- EconomyService.
-- PartyService.
-- MatchmakingService.
-- MatchService.
-- Analytics / telemetry service.
+## Implementation order
+Movement prototype → small district → persistence → one discovery → one NPC route → one reactive incident → multiplayer stress test → expansion.
 
-Keep modules focused. Avoid one giant server script.
-
-## 5. Client-side controllers
-
-- CameraController.
-- InputController.
-- MovementController (prediction/presentation with server validation).
-- WeaponController.
-- ReloadController.
-- HUDController.
-- WorldMapController.
-- InteractionController.
-- DialogueController.
-- DiscoveryJournalController.
-- MenuController.
-- LoadoutController.
-- AudioController.
-- AccessibilityController.
-
-The client can predict visual responsiveness but cannot authoritatively grant weapons, currency, discoveries, match results or damage.
-
-## 6. Data-driven content
-
-Use stable IDs and versioned definitions for:
-- Weapons.
-- Firing identities.
-- Abilities.
-- Cosmetics.
-- NPC archetypes.
-- NPC routes.
-- World packages.
-- Discoveries.
-- Activities.
-- Events.
-- Competitive modes.
-
-Content definitions should be separate from runtime state. Do not duplicate weapon stats in the menu, combat script and reward script.
-
-## 7. Persistent player data
-
-Suggested profile groups:
-- SchemaVersion.
-- AccountLevel / AccountXP.
-- OwnedWeaponIds.
-- LoadoutPresets.
-- WeaponMastery.
-- OwnedCosmeticIds.
-- EquippedCosmetics.
-- DiscoveryJournal.
-- AchievementIds.
-- CurrencyBalances.
-- CompetitiveRating.
-- SeasonState.
-- Settings.
-
-Use DataStoreService with safe update patterns, versioned migrations, retry/backoff and session-locking strategy where appropriate. Never overwrite a newer profile with stale data. Handle partial failure explicitly.
-
-World-cycle temporary state belongs in a separate store and must not be mixed with permanent player inventory.
-
-## 8. Weapon ownership and discovery
-
-- Server validates discovery conditions.
-- WeaponOwnershipService grants a stable weapon ID once.
-- Duplicate discovery is idempotent.
-- The permanent record is saved before the client receives a final success state.
-- Competitive mode servers read owned weapon IDs but cannot grant new weapon IDs.
-- Death and world rotation do not remove ownership.
-- All unlock grants are logged with source and timestamp for support and anti-exploit review.
-
-## 9. Ammunition and combat authority
-
-- Server validates fire rate, weapon state, loaded magazine count, reload state and damage.
-- Client may play predicted animations and immediate feedback.
-- Quick-access magazine count and backpack reserve state are server-owned.
-- Reload transitions must be explicit states, not arbitrary client timers.
-- A backpack resupply reload can be longer than a quick magazine swap.
-- The intended feel is effectively renewable ammunition with reload downtime, not long-term bullet scarcity.
-- Exact reserve model and reload timings are content-configurable.
-- Projectiles and hit validation must use bounded, validated requests.
-- RemoteEvents need rate limits and input validation.
-
-## 10. Movement architecture
-
-- Client prediction is used for responsive movement where appropriate.
-- Server validates movement states and implausible speed/position changes.
-- Sprint has no stamina depletion.
-- Slide and slide-jump are explicit movement states.
-- Do not trust client-supplied final positions for rewards or combat outcomes.
-- Tune physics and replication with real network latency.
-- Test keyboard/mouse, controller and mobile.
-
-## 11. NPC architecture
-
-- Use archetype definitions and small state machines.
-- Keep important interaction and reward state on the server.
-- Use distance-based update tiers and simplified off-screen simulation.
-- Avoid simulating every NPC at full fidelity on every server frame.
-- NPC routes and activity state should be deterministic enough to feel consistent.
-- Use spawn budgets per region and per server.
-- Clean up NPCs and connections when regions unload or server state changes.
-
-## 12. Open World streaming and performance
-
-- Use Roblox instance streaming and modular region packages.
-- Divide large worlds into manageable subregions.
-- Prioritise critical roads, landmarks and navigation.
-- Stream interiors before player entry where possible.
-- Use LOD and simplified collision for distant geometry.
-- Pool repeated effects and transient objects.
-- Limit active NPCs and dynamic lights.
-- Profile memory, server frame time, client frame rate and network traffic on mobile.
-- Avoid assuming that a huge map can be loaded as one unstreamed model.
-
-## 13. Competitive mode architecture
-
-Competitive match servers use:
-- A standard match lifecycle.
-- Mode-specific adapters.
-- Server-authoritative scoring and objectives.
-- Owned weapon validation from player data.
-- No weapon-unlock grant path.
-- Match result records for rank, XP and mastery.
-- Separate match map packages from Open World regions.
-
-## 14. Security and exploit resistance
-
-- Never trust the client for weapon ownership, discovery completion, currency, XP, damage, ammo or match result.
-- Validate every remote payload and rate-limit sensitive requests.
-- Keep reward grants idempotent.
-- Avoid client-side proximity checks as the only discovery condition.
-- Validate teleport destination and active world identity.
-- Log suspicious reward patterns.
-- Do not expose DataStore keys or privileged server state to clients.
-
-## 15. Testing and observability
-
-Required test layers:
-- Unit tests for data definitions and reward calculations.
-- Integration tests for weapon unlock and persistence.
-- Movement tests under latency.
-- NPC route and spawn-budget tests.
-- World rotation transition tests.
-- Competitive match lifecycle tests.
-- Cross-platform UI tests.
-- Mobile performance and memory tests.
-- Data migration and failure-recovery tests.
-
-Track:
-- World join/leave.
-- Discovery attempts and grants.
-- Weapon ownership changes.
-- Rotation transition status.
-- NPC spawn counts and update cost.
-- Activity starts/completions.
-- Match results.
-- Save failures and retries.
-
-## 16. Open technical decisions
-
-- Final place architecture.
-- Exact per-world server capacity.
-- Streaming radius and region chunk sizes.
-- Shared cross-server event implementation.
-- Session locking and profile library choice.
-- Final schedule storage strategy.
-- NPC simulation budget.
-- Whether vehicles are included at launch.
-
-
-## 17. Exploration-first world simulation additions
-The Open World is the primary experience. Add focused server-side modules only when a prototype needs them:
-- FactionService for faction definitions and player relationship state.
-- IncidentService for witnessed local incidents and evidence/awareness flags.
-- WorldReactionService for deciding which nearby organisations/NPC groups may respond.
-- ActivityDirector for optional world activities and NPC expeditions.
-- VehicleService only if vehicles are approved for a milestone.
-
-Do not build one global wanted-level variable or display a wanted meter. Local awareness, incident records and longer-term faction reputation are separate data. NPCs must not receive omniscient knowledge. Use event-driven updates, bounded records and distance relevance. Consequential state is server-authoritative; clients receive only the presentation and nearby gameplay state they need.
-
-## 18. Performance-first implementation rule
-Before adding a new NPC archetype, faction reaction, vehicle, event effect or map region, profile its representative test case. Use the dedicated `AVENOR_Map_Performance.md` as the production and approval standard. Streaming, NPC simulation tiers, asset reuse, low-cost collision, replication limits and mobile profiling are required from the first district. Exact player/NPC budgets are measured, not guessed.
+## TBD
+Place architecture, server capacity, streaming radius, profile/session-lock library, shared incident scope, vehicle networking, NPC budgets and rotation schedule.

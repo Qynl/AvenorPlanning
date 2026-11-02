@@ -1,179 +1,53 @@
 # AVENOR — Core Gameplay Specification
 
-> **Current direction:** fast FPS combat inside a large rotating multiplayer Open World, with separate competitive playlists. This document defines the shared player feel and the Open World loop. Exact numeric tuning remains TBD until Roblox prototypes are tested.
+> Exploration-first multiplayer sandbox. Combat, NPC reactions and progression support the world; they do not replace exploration as the primary attraction.
 
-## 1. Core player loop
+## 1. Player freedom loop
+There is no single mandatory mission loop. Join the active world, choose a direction or destination, travel through a living region, notice NPCs/players/clues/incidents, then investigate, interact, collect, socialise, cooperate, fight or ignore the situation. Record meaningful discoveries and continue freely. Support solo explorers, friend groups and busy public servers. The game must remain interesting without a major event running.
 
-1. Open AVENOR and configure a loadout.
-2. Enter the currently active world.
-3. Choose a destination, activity or direction. The game should not force every player into one mission.
-4. Explore, encounter NPCs and players, investigate locations and participate in activities.
-5. Fight when appropriate, cooperate when useful, and discover permanent weapons or other rewards.
-6. Add discoveries to the permanent collection and journal.
-7. Continue exploring, return to a hub, or leave for a competitive playlist.
-8. Return later to find a different world, new activities or seasonal changes.
+## 2. Exploration
+Use recognisable landmarks, enterable buildings, layered interiors, hidden rooms, environmental clues, remote destinations, NPC expeditions, unmarked secrets and locations with different moods. Some places are peaceful, some social, some dangerous or strange. Avoid map-marker overload, identical loot containers, repetitive fetch quests and combat gates on every discovery.
 
-The loop must work for a solo player, a small friend group and a busy server. It must offer meaningful things to do even when no major event is running.
+## 3. Player-created experiences
+Players can meet and travel together, form temporary squads, investigate clues, help during NPC incidents, compete or fight where PvP permits, encounter rival groups and socialise. Party systems should help without making solo play second-class.
 
-## 2. First-person character and camera
+## 4. Combat layers
+- PvE: hostile NPCs, guarded sites and faction incidents.
+- PvP: player encounters under world rules.
+- Cooperative: players and friendly NPCs responding to shared situations.
+Combat is not mandatory across the map. Calm spaces and routes coexist with dangerous sites.
 
-- First-person during Open World gameplay and competitive matches.
-- Third-person character presentation in the home screen and suitable social spaces.
-- Camera movement must be responsive and comfortable.
-- Weapon viewmodels must preserve target visibility and avoid excessive screen coverage.
-- Camera shake, blur and visual effects must be configurable or reducible.
-- Third-person views must not create unfair peeking advantages in first-person competitive modes.
+### Friendly fire
+Friendly fire is a desired feature to prototype, not a fully locked rule. Test clear teammate identification, immediate feedback, accidental-damage handling, anti-griefing protections, safe-space enforcement and server-authoritative damage. Do not finalise penalties or multipliers before playtesting.
 
-## 3. Movement package
+## 5. Reactive world without visible wanted UI
+A hidden internal incident/attention model may exist, but there is no required visible wanted meter. Reactions are communicated through the world:
+- A guard notices restricted-area entry and warns the player.
+- A civilian or NPC witness reacts to a public incident.
+- Security communicates locally and changes patrol behaviour.
+- Facility access may be restricted.
+- A faction may become wary or hostile after repeated conflicts.
+- A response arrives only if the incident was observed, reported or otherwise detected.
 
-### Design goals
-Movement should feel fast, direct, expressive and fun even when the player is simply travelling across the map. No stamina system.
+NPCs must not magically know everything. Awareness is local and contextual. Witnesses have limited memory/communication. Leaving an area may reduce immediate attention, while recognised identity or faction consequences may persist. Faction reputation is separate from immediate incident attention.
 
-### Core movement
-- Walk.
-- **Unrestricted sprint:** no stamina bar and no forced sprint cooldown.
-- Jump.
-- Responsive air control.
-- Slide.
-- Slide-jump.
-- Fast direction changes and responsive acceleration.
-- Smooth transitions between movement states.
-- Optional advanced movement such as bunny hopping can be tested after the core package is stable.
+## 6. Light GTA-like freedom
+Possible activities include shops, services, travel, vehicles, public incidents, restricted locations and civilian routines. Vehicles are proposed and require a separate network/performance prototype. Take inspiration from freedom and reactive worlds, not copied missions, characters, maps or UI.
 
-### Rules
-- Do not gate movement speed or movement options behind levels, paid content or weapon unlocks.
-- No stamina drain, hunger, hydration or survival meter affects movement.
-- Sliding and jumping must remain readable and controllable on keyboard/mouse, controller and mobile.
-- Movement must be consistent across Open World and competitive playlists.
-- Avoid exploit-prone client authority. Client prediction can make movement feel immediate, but the server validates plausible movement state.
-- Exact acceleration, top speed, slide duration, jump impulse and air-control values are **TBD/playtest**, not guessed final values.
+## 7. Organic encounters
+An adventurer group investigates a landmark; a trader arrives; a guard challenges entry; a research team opens a temporary site; a power outage changes a district; a clue points to a remote interior; rival NPC groups meet; a local incident attracts curious players. Prefer reusable systems interacting over a separate cutscene for every event.
 
-## 4. Combat foundations
+## 8. Movement
+First-person; no stamina; unrestricted sprint; jump and responsive air control; slide and slide-jump; fast weapon switching; keyboard/mouse, controller and mobile parity. Tune values in a playable prototype.
 
-- Weapon handling should feel responsive and distinct.
-- Combat should reward aim, movement, timing, awareness and decisions.
-- Weapons must have clear strengths and limitations.
-- Damage, ammunition state, weapon ownership, ability cooldowns and competitive results are server-authoritative.
-- Visual feedback must communicate hits and threats without filling the screen.
-- Combat in the Open World should coexist with exploration and NPC encounters. Do not make every location a forced combat arena.
-- Open World death must never permanently remove a discovered weapon or cosmetic.
+## 9. Weapon discovery
+All permanent weapon unlocks originate in the Open World. Discovery is server-validated and idempotent. Sources include hidden locations, clues, expeditions, activities and incidents. Duplicate discoveries use a defined alternative reward. Death, disconnect, rotation and seasons never remove weapons. Competitive playlists never unlock weapons.
 
-Exact health, damage, respawn and PvP rules need separate playtesting. The design must decide safe areas and player interaction rules before implementation.
+## 10. Ammunition
+Intended model: loaded magazine, quick-access spare magazines, then a slower backpack resupply reload. This creates reload timing decisions without making players scavenge basic ammunition all session. Capacities, reserve limits and timings remain TBD.
 
-## 5. Weapon ownership and discovery
+## 11. Death and persistence
+Death never removes permanent weapons, cosmetics, levels or discoveries. Respawn rules, temporary penalties and PvP consequences remain TBD. Save permanent rewards through server-validated systems.
 
-**All weapon unlocks come from the Open World.**
-
-- A first-time discovery permanently adds that weapon ID to the player's collection.
-- Weapon discovery can happen through a location, hidden room, NPC encounter, expedition, activity or world event.
-- Do not make every weapon a random drop from an identical container.
-- A player may encounter a weapon in the world before owning it, but the permanent unlock is recorded only after a server-validated discovery condition.
-- Weapons already owned remain owned forever.
-- Death, map rotation, competitive loss, disconnect and season changes never remove owned weapons.
-- Competitive modes use the player's unlocked collection and never award new weapon unlocks.
-- Cosmetics and mastery may be earned in either experience if the reward source is clearly stated.
-
-## 6. Magazine and backpack ammunition model
-
-### Core idea
-AVENOR does not use long-term ammunition scarcity as its main survival pressure. Players should not spend most of a session searching for basic bullets. The interesting decision is **how quickly they can reload**, not whether they can play at all.
-
-### Proposed weapon ammunition states
-1. **Loaded magazine:** rounds currently available to fire.
-2. **Quick-access spare magazine(s):** preloaded magazines carried in an immediately accessible pocket/rig. Replacing one is the normal, relatively quick reload.
-3. **Backpack reserve:** ammunition carried deeper in the backpack. Once quick-access magazines are used, the player performs a longer resupply reload to retrieve ammunition and prepare another magazine.
-
-### Example (illustrative only)
-A weapon might have a 10-round loaded magazine and one 50-round quick-access spare magazine. After the spare magazine is used, the next reload takes longer because the player retrieves reserve ammunition from the backpack and prepares the next magazine.
-
-### Rules to prototype
-- No need to scavenge ordinary ammunition boxes as a mandatory loop.
-- Long-term bullet supply should be effectively renewable, matching the user's intended "infinite bullets" feel.
-- The reload states, not an arbitrary total ammo cap, create downtime and decision-making.
-- The longer backpack reload must be clearly communicated and interruptible where appropriate.
-- Each weapon may have its own magazine capacity, quick-access capacity and reload timing.
-- Special projectiles or utility charges may use separate rules if their gameplay identity requires it.
-- Competitive mode ammo rules must be consistent and fair; no player should gain an advantage from spending more time in the Open World.
-- Exact magazine counts, timings, animation design and interruption rules remain TBD.
-
-## 7. Loadout structure
-
-Existing proposed slots:
-- Primary weapon.
-- Secondary weapon.
-- Melee.
-- Utility.
-- One player ability.
-
-Players own a persistent collection and choose a limited loadout. Loadouts can be saved as presets. The main menu is the primary place to edit them. In the Open World, changes should happen only at approved safe hubs or other clearly defined loadout stations. Competitive mode loadouts lock at match start unless a mode explicitly supports between-round changes.
-
-## 8. World interaction
-
-Interaction categories:
-- Inspect and discover locations.
-- Open permitted doors, containers and access points.
-- Talk to NPCs.
-- Accept or complete activities.
-- Use traders and specialists.
-- Read clues, records and environmental storytelling.
-- Activate world-event interactions.
-- Use vehicles only if/when a vehicle system is approved.
-
-Interactions need clear prompts, short animations and reliable mobile/controller support. Avoid making ordinary exploration depend on a long sequence of menu clicks.
-
-## 9. Open World player interaction
-
-The world should support spontaneous player encounters. The exact rules need a deliberate design decision:
-- Whether PvP is enabled everywhere, only in designated areas, or varies by region.
-- Whether safe hubs protect players from combat.
-- Whether groups/parties share activity progress.
-- Whether friendly fire exists.
-- What happens on elimination and how quickly players can return.
-
-Do not assume permanent loot loss, full-loot PvP or survival penalties. Those are not approved.
-
-## 10. Competitive mode relationship
-
-Competitive modes are separate playlists. They share:
-- Movement feel.
-- Weapon catalogue and firing identities.
-- Weapon ownership unlocks from Open World.
-- Loadout and cosmetic systems.
-- Core input and combat readability.
-
-Competitive modes may have mode-specific respawn, round and ammo rules. They never become the source of permanent weapon unlocks.
-
-## 11. First playable gameplay slice
-
-The first useful prototype should prove:
-- One small but coherent Open World district.
-- First-person movement with sprint, jump, slide and slide-jump.
-- A small set of distinct weapons.
-- Magazine / quick-access / backpack reload flow.
-- One weapon permanently unlocked by discovery and saved across sessions.
-- A few NPC types with simple but visible behaviour.
-- One meaningful location discovery.
-- One repeatable world activity.
-- One player encounter.
-- A basic home screen and loadout selection.
-- A separate small competitive test mode using the same unlocked weapons.
-
-## 12. Quality checklist
-
-- Is movement fun without a stamina bar?
-- Is simply travelling through the world enjoyable?
-- Can players understand where to go without every secret being marked?
-- Does every weapon discovery feel meaningful?
-- Is a discovered weapon permanently safe?
-- Do NPCs appear to have their own purpose?
-- Can a player enjoy the world without being forced into PvP?
-- Is ammunition downtime interesting rather than frustrating?
-- Does the game remain readable on mobile?
-- Can the server validate all important state?
-
-
-## 13. Exploration-first sandbox clarification
-The Open World is primarily about exploration, player freedom and spontaneous encounters. The player is not expected to follow a single mission chain. Combat is one possible outcome of exploration, NPC activity or player interaction, not the default state of every location. Players can fight hostile NPCs and other players where PvP rules allow. Friendly fire is a desired feature to evaluate, but party/public defaults and anti-griefing protections are unresolved. No visible wanted-level number or star meter is planned; world reactions should be communicated through NPC behaviour and context. See `AVENOR_OpenWorld.md`.
-
-## 14. Open World interaction scope
-The GTA-inspired influence is limited to the feeling of freedom, inhabited settlements, services, possible vehicles and reactive NPCs. It is not a crime-first game and does not imply that vehicles, vehicle ownership, trading, economy or every suggested side activity are approved for launch. Treat each as a proposal requiring a prototype decision.
+## 12. First playable
+One compact district; first-person movement; a few weapons; several players; small NPC population and one travelling group; one discovery and permanent weapon unlock; one reactive security interaction; one ambient incident; basic PvE and controlled PvP test; saving/rejoin; mobile performance measurement. Do not build ten worlds or full faction warfare before this slice is fun.
