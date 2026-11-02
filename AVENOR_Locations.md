@@ -9,7 +9,7 @@
 AVENOR's worlds should feel dense with destinations and incidental discoveries, not like empty terrain with a few landmarks. A location earns its place through at least one meaningful purpose:
 - **Explore:** distinctive architecture, layout, verticality, routes or hidden spaces.
 - **Scavenge:** plausible supplies, equipment or permanent weapon discoveries, with balanced rarity.
-- **Encounter:** NPC routines, faction presence, visitors, patrols or player activity.
+- **Encounter:** player activity or a player-like NPC faction.
 - **Establish a presence:** a suitable place to stop, gather, shelter or set up a temporary camp.
 - **Contest:** a location that groups may occupy, defend, visit or challenge through ordinary gameplay.
 - **Discover:** clues, records, environmental stories, unusual sights or secrets.
@@ -18,13 +18,13 @@ Not every location needs combat, loot or a reward. Quiet places, scenic overlook
 
 ## 2. What "taking over" means
 
-AVENOR does **not** use magical permanent ownership of ordinary world locations. A group can establish a presence, stay there, use the facilities, leave supplies, set up a temporary camp where appropriate and be recognised by nearby NPCs or visitors as the group currently occupying the place.
+AVENOR does **not** use magical permanent ownership of ordinary world locations. A group can establish a presence, stay there, use the facilities, leave supplies, set up a temporary camp where appropriate and be recognised by nearby other players or NPC faction members as the group currently present.
 
 - Control is contextual and can change through play; it is not a permanent account entitlement.
 - Existing places remain part of the world whether or not a player is present.
 - A campsite or outpost does not become an invulnerable personal base.
 - Player-established camps use carried/earned camp equipment and suitable terrain; no universal build-anywhere system is assumed.
-- NPC groups may occupy, abandon, revisit or contest selected locations according to simple world-state rules.
+- Player-like NPC factions may occupy, abandon, revisit or contest selected locations. They are sparse groups, not a background population.
 - Avoid offline-raid pressure, mandatory upkeep, forced territory taxes or losing permanent weapon unlocks.
 - Exact persistence, storage, PvP permissions and camp placement restrictions remain **TBD** and require separate prototypes.
 
@@ -42,9 +42,9 @@ The 200 major POIs are a long-term content target, not a launch requirement. A m
 
 - **Explore:** traversal, architecture, secrets or scenery.
 - **Scavenge:** supplies or equipment opportunities.
-- **Encounter:** NPC, faction or social activity.
+- **Encounter:** player activity or player-like faction activity.
 - **Presence:** suitable for a temporary player gathering/camp, subject to placement rules.
-- **Contest:** plausible NPC/player group occupation or challenge.
+- **Contest:** player or player-like NPC faction occupation or challenge.
 - **Discovery:** clue, environmental story or rare find.
 
 Tags describe intended opportunities, not guaranteed loot or permanent rewards. Weapon discoveries remain subject to the separate permanent-unlock rules.
@@ -339,7 +339,7 @@ Major POIs should contain smaller discoveries. Examples to distribute selectivel
 13. A radio room receiving an unusual transmission.
 14. A public noticeboard with changing local information.
 15. A safe social interior with seating and useful services.
-16. A lookout where NPCs gather during certain weather.
+16. A lookout that offers a quiet scenic discovery during certain weather.
 17. A cave entrance hidden by terrain.
 18. A drainage route that emerges outside a restricted site.
 19. A forgotten footbridge or trail connection.
@@ -350,7 +350,7 @@ Major POIs should contain smaller discoveries. Examples to distribute selectivel
 24. A temporary shelter used during storms.
 25. A hidden route between two otherwise separate map districts.
 26. A small campfire site with traces of a recent group.
-27. A workshop bench used by an NPC specialist.
+27. An abandoned workshop bench with environmental storytelling.
 28. A service passage that opens only during a world-state change.
 29. A scenic location with no loot and no combat.
 30. A clue that points toward a larger, distant discovery.
@@ -363,10 +363,10 @@ Location tags such as **Presence** and **Contest** identify possible uses, not a
 
 ### Existing locations
 - Some are public and naturally shared.
-- Some are occupied by NPC groups.
+- Some are occupied by player-like NPC faction squads.
 - Some are restricted, abandoned or temporarily empty.
-- Some may become gathering places for players.
-- Some may be contested through emergent encounters.
+- Some may become gathering places for real players.
+- Some may be contested by real players or player-like NPC factions.
 
 ### Player-established camps
 - Players may bring suitable camp equipment to approved terrain or designated camp areas.
@@ -393,7 +393,7 @@ A location can feel different across visits without needing a separate map copy.
 - Open / closed.
 - Clear weather / storm response.
 - Normal season / transformed seasonal state.
-- NPC group present / group travelling / no current group.
+- NPC faction present / faction travelling / no current faction.
 - Recently visited / signs of activity / no obvious recent activity.
 
 State changes must be authored per location and should be readable. Do not randomise important access or loot in ways that make the location feel broken.
@@ -405,7 +405,7 @@ State changes must be authored per location and should be readable. Do not rando
 - A discovery journal can record known places and optional details.
 - Hidden locations should not all become automatic map pins.
 - Players should be able to share directions socially.
-- Repeat visits should remain useful through changing NPC presence, world events, social encounters or alternate routes, not endlessly respawning valuable loot.
+- Repeat visits should remain useful through changing faction presence, world events, player encounters or alternate routes, not endlessly respawning valuable loot.
 
 # 20. Production and performance rules
 
@@ -430,7 +430,7 @@ Every production-ready POI should eventually have:
 - Exterior footprint and vertical profile.
 - Interior count and access rules.
 - Traversal routes and alternate entrances.
-- NPC/faction use and schedule.
+- NPC faction use and squad schedule.
 - Exploration/discovery purpose.
 - Scavenge opportunities, if any.
 - Presence/camp suitability, if any.
@@ -448,7 +448,7 @@ Do not silently lock these:
 - Which locations permit PvP or temporary occupation.
 - Whether camps persist through disconnects or world rotation.
 - Whether player-placed objects can be stored or recovered.
-- How NPC groups change occupation of a location.
+- How NPC faction squads change occupation of a location.
 - Whether contested sites provide services, information or access.
 - How many of the 200 major POIs ship in the first world.
 - Which discoveries can permanently unlock weapons.
