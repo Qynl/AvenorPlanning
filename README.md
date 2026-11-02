@@ -20,7 +20,7 @@
 - Players choose their own pace: discover hundreds of distinct locations over time, investigate secrets, scavenge, meet other players, encounter occasional player-like NPC factions, establish temporary camps and contest occupied places.
 - Players can establish a temporary presence at suitable locations. This is not permanent land ownership or a mandatory base-building system; control emerges from who is actually there and what they have established.
 - A limited number of NPC faction squads behave like players: they travel, scavenge, camp, occupy locations and may defend rare discoveries. There are no civilians, police, public-service NPCs or wanted systems.
-- The world is not a GTA-style city simulation. Buildings and infrastructure are exploration locations, not a civilian/service simulation.
+- AVENOR is an exploration-action sandbox, not a GTA-style crime or everyday-life simulator. Buildings, roads and infrastructure create believable places to explore; they do not imply civilian crowds, traffic AI, police systems, working services or a simulated city economy.
 - Combat includes player encounters and occasional encounters with player-like NPC faction squads. PvP coverage and friendly-fire rules remain TBD.
 - Separate competitive FPS playlists remain available from the home screen.
 - Weapons are discovered/unlocked in the Open World only and remain permanently owned. Competitive matches never grant weapon unlocks.
@@ -37,7 +37,7 @@ AVENOR separates **Global World Events** (whole-region transformations), **Admin
 - **Confirmed direction:** explicitly selected by the user.
 - **Current proposal:** recommended design awaiting approval/testing.
 - **TBD:** unresolved; never silently treat as locked.
-- No survival meters, forced base-building, civilian simulation, police system, public-service NPCs, crafting tree, full-loot PvP or permanent weapon loss is assumed.
+- No survival meters, forced base-building, civilian simulation, police/crime systems, traffic-life simulation, public-service NPCs, city economy, crafting tree, full-loot PvP or permanent weapon loss is assumed.
 - Safe areas, PvP coverage, friendly-fire defaults, vehicle launch scope, economy/trading and exact event calendar remain unresolved.
 - Rarity: **Commonplace, Altered, Evolved, Ascendant, Extraordinary, Singular**. Rarity never grants gameplay power.
 - Existing weapons, skins, abilities and effects are content libraries, not a requirement to ship every item.
