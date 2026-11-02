@@ -207,3 +207,26 @@ A milestone is not complete because code exists. It must be demonstrated in a pl
 4. Validate permanent weapon unlock saving.
 5. Prototype one travelling NPC group.
 6. Only then commit to exact world scale and expanded content.
+
+
+## 7. Revised priority: prove exploration before scale
+The first vertical slice must prove the actual AVENOR identity, not merely movement and shooting. Prioritise one compact but convincing district with several discoverable places, other players, a small purposeful NPC population, one optional activity, one hidden discovery and one observable world reaction. A player should have fun exploring even when no major event or combat encounter is active.
+
+### New performance gates
+- Build the benchmark scenes in `AVENOR_Map_Performance.md` before committing to world dimensions.
+- Establish measured client/server frame-time and memory baselines on target mobile and desktop devices.
+- Test streaming while sprinting and during dense NPC/player gatherings.
+- Profile NPC simulation tiers before increasing population.
+- Do not begin full production of the second world until the first district passes repeatable performance tests.
+
+### Revised milestone order
+1. Movement and camera feel prototype.
+2. One compact Greyhaven greybox with streaming enabled.
+3. Multiplayer join/leave and player interaction.
+4. Exploration route, hidden discovery and journal persistence.
+5. Small NPC population with routines and one optional encounter.
+6. One witnessed incident and faction reaction, with no visible wanted meter.
+7. Combat/PvP and friendly-fire rules prototype.
+8. Performance profiling and art pass.
+9. Expand district only after the benchmark passes.
+10. Add vehicles, wider economy or more complex simulation only after separate approval and prototype evidence.
