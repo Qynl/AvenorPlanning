@@ -1308,7 +1308,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 055 — BAD TIMING
 - **Internal ID:** BAD-TIMING
-- **Roster status:** Archived firearm concept, not launch content
+- **Roster status:** Active launch firearm
 - **Category:** Automatic Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -3021,7 +3021,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 161 — BAD SIGNAL
 - **Internal ID:** BAD-SIGNAL
-- **Roster status:** Archived firearm concept, not launch content
+- **Roster status:** Active launch firearm
 - **Category:** Pulse Sidearm
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -4052,101 +4052,101 @@ Every entry below has an explicit rarity decision and a default presentation dir
 ### A. Damage-dealing firearms, launchers, and hybrids
 
 | ID | Weapon | Roster status | Damage model (HP) | Headshot | Fire cadence | Mag / reserve | Reload | Effective range | Falloff |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| | 001 | TAXMAN | |001
-| | 002 | POCKET ROCKET | |002
-| | 003 | DOORBELL | |003
-| | 004 | LONG STORY | |004
-| | 005 | LOOSE CHANGE | |005
-| | 006 | THREE'S COMPANY | |006
-| | 007 | LAWNMOWER | |007
-| | 008 | RETURN TO SENDER | |008
-| | 010 | BAD HABIT | |010
-| | 011 | DEAD WEIGHT | |011
-| | 012 | BAD RECEPTION | |012
-| | 013 | CALL WAITING | |013
-| | 014 | SHORT NOTICE | |014
-| | 015 | BAD NEIGHBOR | |015
-| | 016 | TAXI | |016
-| | 018 | SECOND OPINION | |018
-| | 019 | PAPER TRAIL | |019
-| | 022 | LAST CALL | |022
-| | 023 | TWO CENTS | |023
-| | 025 | HOLD MUSIC | |025
-| | 026 | SPLIT DECISION | |026
-| | 028 | SLOW BURN | |028
-| | 030 | NO REFUNDS | |030
-| | 031 | OVERDUE | |031
-| | 033 | BOUNCER | |033
-| | 034 | GOOD MEASURE | |034
-| | 036 | BACKFILL | |036
-| | 038 | TIN CAN | |038
-| | 039 | HOME RUN | |039
-| | 041 | DOUBLE PARKED | |041
-| | 044 | GOOD GRIEF | |044
-| | 045 | CLEAN BREAK | |045
-| | 046 | SUNDAY DRIVER | |046
-| | 047 | FINE PRINT | |047
-| | 049 | HIGH HORSE | |049
-| | 051 | COLD SHOULDER | |051
-| | 053 | DOUBLE TAKE | |053
-| | 055 | BAD TIMING | |055
-| | 057 | LAST RESORT | |057
-| | 059 | SHORT FUSE | |059
-| | 060 | THE USUAL | |060
-| | 061 | BAD PENNY | |061
-| | 063 | SQUARE DEAL | |063
-| | 064 | BULLPEN | |064
-| | 065 | PAPER CUT | |065
-| | 067 | SLOW CLAP | |067
-| | 069 | WIDE OPEN | |069
-| | 070 | DEAD CERT | |070
-| | 073 | FIRST CLASS | |073
-| | 074 | OVERHEAD | |074
-| | 076 | TIME CARD | |076
-| | 077 | SPOT CHECK | |077
-| | 079 | FENDER BENDER | |079
-| | 080 | GOOD SPORT | |080
-| | 081 | NIGHTCAP | |081
-| | 082 | TALLY HO | |082
-| | 083 | STATIC SHOCK | |083
-| | 085 | BLIND DATE | |085
-| | 087 | HARD COPY | |087
-| | 088 | BOTTOM LINE | |088
-| | 091 | HEADCOUNT | |091
-| | 092 | LATE FEE | |092
-| | 094 | SAFE BET | |094
-| | 097 | BIG PICTURE | |097
-| | 098 | SMALL TALK | |098
-| | 100 | OVERBOOKED | |100
-| | 102 | HOUSE RULES | |102
-| | 103 | NO SHOW | |103
-| | 105 | DOUBLE SHIFT | |105
-| | 106 | OPEN TAB | |106
-| | 109 | SIDE DISH | |109
-| | 141 | GOOD ENOUGH | |141
-| | 142 | OUT OF OFFICE | |142
-| | 143 | SQUARE ONE | |143
-| | 144 | TWO-WAY STREET | |144
-| | 145 | MIDDLE MANAGEMENT | |145
-| | 146 | SLOW NEWS | |146
-| | 147 | PUNCHLINE | |147
-| | 148 | DETOUR | |148
-| | 149 | WELL READ | |149
-| | 150 | CASH ONLY | |150
-| | 151 | WINDOW SEAT | |151
-| | 152 | NO COMMENT | |152
-| | 153 | TRAFFIC JAM | |153
-| | 154 | BETTER LUCK | |154
-| | 157 | NARROW ESCAPE | |157
-| | 159 | FINE TUNING | |159
-| | 161 | BAD SIGNAL | |161
-| | 162 | DEADLINE | |162
-| | 163 | PARKING FINE | |163
-| | 164 | BETWEEN FRIENDS | |164
-| | 165 | LATE CHECKOUT | |165
-| | 166 | OPEN CIRCUIT | |166
-| | 167 | THE LAST WORD | |167
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 001 | TAXMAN | Active | 24; Collection Day cash-out: +12 max | ×1.5 | 650 RPM | 30 / 120 | 2.0s | 90 studs | 65–105 studs: 100% → 80% |
+| 002 | POCKET ROCKET | Active | 14 base, ramps to 18 at full spin | ×1.35 | 780 → 960 RPM while held | 28 / 112 | 1.8s | 48 studs | 30–58 studs: 100% → 72% |
+| 003 | DOORBELL | Active | 8 × 8 pellets = 64 max; focused: 8 × 7 = 56 | ×1.15 | 70 RPM; focused shot has 0.18s aim-in | 6 / 30 | 2.35s | 22 studs | 12–28 studs: 100% → 45% |
+| 004 | LONG STORY | Active | 82 | ×1.25 | 42 RPM | 5 / 20 | 2.45s | 155 studs | 115–180 studs: 100% → 88% |
+| 005 | LOOSE CHANGE | Active | 30 | ×1.5 | 300 RPM | 8 / 40 | 1.55s | 68 studs | 45–82 studs: 100% → 78% |
+| 006 | THREE'S COMPANY | Active | 20 × 3 per burst; Plus One adds a fourth 14-damage shot | ×1.35 | 3-round burst; 0.09s spacing, 0.62s burst cycle | 27 / 108 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
+| 007 | LAWNMOWER | Active | 16; spin-up reaches full rate after 0.8s | ×1.3 | 540 → 720 RPM | 60 / 180 | 3.25s | 78 studs | 50–100 studs: 100% → 78% |
+| 008 | RETURN TO SENDER | Active | 42 per opponent per disc; each opponent can be hit once per throw | No headshots | 75 throws/min | 3 / 18 | 2.15s | 70 studs | 50–90 studs: 100% → 80% |
+| 010 | BAD HABIT | Archived | 46 per round; two-round pair | ×1.5 | Two-shot pair; 0.12s between rounds | 2 / 16 | 2.4s | 58 studs | 35–70 studs: 100% → 75% |
+| 011 | DEAD WEIGHT | Active | 52 direct + up to 24 splash | No headshots | 48 RPM | 4 / 16 | 2.65s | 100 studs | 70–120 studs: splash falls to 0 at edge |
+| 012 | BAD RECEPTION | Archived | 17 × 3 per burst | ×1.35 | 3-round burst; 0.08s spacing, 0.58s burst cycle | 24 / 96 | 2.0s | 86 studs | 58–102 studs: 100% → 82% |
+| 013 | CALL WAITING | Active | 34 uncharged; scales to 78 at full charge | ×1.4 | Charge: 0.35–1.15s; 52 shots/min after full charge | 5 / 25 | 2.25s | 125 studs | 85–150 studs: 100% → 82% |
+| 014 | SHORT NOTICE | Active | 52 concentrated bolt; split bolts deal 18 each | ×1.4 | 90 bolts/min | 5 / 25 | 2.0s | 100 studs | 70–120 studs: 100% → 80% |
+| 015 | BAD NEIGHBOR | Active | 22 per direct bolt; markers deal no damage | ×1.25 | 150 RPM | 6 / 36 | 1.75s | 72 studs | 45–88 studs: 100% → 80% |
+| 016 | TAXI | Archived | 32 direct impact | No headshots | 100 RPM | 8 / 40 | 2.0s | 76 studs | 50–92 studs: 100% → 80% |
+| 018 | SECOND OPINION | Archived | 25 per shot | ×1.4 | 360 RPM, alternating barrels | 16 / 64 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
+| 019 | PAPER TRAIL | Archived | 36 | ×1.5 | 240 RPM | 10 / 50 | 1.9s | 108 studs | 75–130 studs: 100% → 82% |
+| 022 | LAST CALL | Active | 12 per sonic pulse | No headshots | One pulse every 0.7s | 5 pulses / 15s reserve | 1.4s recharge per pulse | 20 studs | No falloff inside pulse radius |
+| 023 | TWO CENTS | Active | 32 standard; 40 alternating heavy round | ×1.5 | 300 RPM alternating pattern | 12 / 60 | 1.85s | 100 studs | 70–120 studs: 100% → 84% |
+| 025 | HOLD MUSIC | Active | 16 per sequence hit; final sequence shot 26 | ×1.3 | 600 RPM | 30 / 120 | 2.1s | 68 studs | 42–88 studs: 100% → 80% |
+| 026 | SPLIT DECISION | Active | 34 single; split mode fires 2 × 16 | ×1.4 | 360 RPM; fixed alternating modes | 24 / 96 | 2.0s | 82 studs | 55–100 studs: 100% → 82% |
+| 028 | SLOW BURN | Active | 18 base, rises to 23 at heat cap | ×1.3 | 480 RPM | 30 / 120 | 2.1s | 82 studs | 55–102 studs: 100% → 80% |
+| 030 | NO REFUNDS | Archived | 56 | ×1.5 | 72 RPM | 5 / 25 | 2.45s | 92 studs | 62–112 studs: 100% → 84% |
+| 031 | OVERDUE | Archived | 28; consecutive hits shorten cycle, not damage | ×1.45 | 300 RPM base; up to 330 RPM on maintained hits | 15 / 75 | 1.9s | 92 studs | 65–112 studs: 100% → 83% |
+| 033 | BOUNCER | Active | 9 × 7 pellets = 63 max | ×1.15 | 65 RPM | 5 / 25 | 2.3s | 23 studs | 14–30 studs: 100% → 52% |
+| 034 | GOOD MEASURE | Archived | 40 inside preferred band; 28 outside | ×1.5 | 180 RPM | 12 / 48 | 2.0s | 105 studs | Preferred band 45–78 studs; outside band 70% damage |
+| 036 | BACKFILL | Archived | 28 standard; separate chamber round also deals 28 | ×1.4 | 300 RPM | 11 + 1 chamber / 55 reserve | 1.9s | 92 studs | 65–112 studs: 100% → 82% |
+| 038 | TIN CAN | Active | 46 direct; each bounce reduces damage by 20% | No headshots | 65 RPM | 5 / 20 | 2.35s | 82 studs | 50–105 studs; bounce loss applies separately |
+| 039 | HOME RUN | Active | 38 base, rises to 50 at maximum travel distance | No headshots | 55 RPM | 4 / 16 | 2.55s | 115 studs | Damage ramps over 25–100 studs; capped at 50 |
+| 041 | DOUBLE PARKED | Active | 16 per pistol shot | ×1.35 | 480 RPM alternating hands | 2 × 12 / 2 × 48 | 2.2s per dual reload | 58 studs | 38–78 studs: 100% → 75% |
+| 044 | GOOD GRIEF | Archived | 18; knockback meter changes push, not damage | ×1.3 | 650 RPM | 40 / 160 | 2.4s | 68 studs | 45–88 studs: 100% → 80% |
+| 045 | CLEAN BREAK | Active | Compact barrel: 9 × 7 = 63; wide barrel: 7 × 7 = 49 | ×1.15 | 75 RPM alternating barrels | 2 / 18 | 2.4s | 22 studs | 13–28 studs: 100% → 50% |
+| 046 | SUNDAY DRIVER | Archived | 22 | ×1.4 | 660 RPM | 28 / 112 | 1.95s | 92 studs | 62–108 studs: 100% → 82% |
+| 047 | FINE PRINT | Archived | 30; completed three-angle stamp sequence grants one +10 shot | ×1.5 | 240 RPM | 12 / 60 | 2.0s | 98 studs | 68–118 studs: 100% → 82% |
+| 049 | HIGH HORSE | Active | 36 grounded; 41 while airborne | No headshots | 60 RPM | 5 / 20 | 2.4s | 92 studs | 62–112 studs: 100% → 80% |
+| 051 | COLD SHOULDER | Archived | 26; consecutive hits tighten spread, not damage | ×1.45 | 360 RPM | 14 / 70 | 1.9s | 92 studs | 65–112 studs: 100% → 83% |
+| 053 | DOUBLE TAKE | Active | 26 first shot + 14 delayed follow-up | ×1.35 | 300 trigger cycles/min; follow-up after 0.16s | 18 / 72 | 2.0s | 86 studs | 60–104 studs: 100% → 82% |
+| 055 | BAD TIMING | Active | 19 | ×1.35 | Fixed rhythm: 3 shots at 720 RPM, then 0.28s pause | 30 / 120 | 2.1s | 88 studs | 60–105 studs: 100% → 82% |
+| 057 | LAST RESORT | Archived | 48; final cylinder round deals 56 | ×1.5 | 120 RPM | 6 / 30 | 2.15s | 78 studs | 52–95 studs: 100% → 80% |
+| 059 | SHORT FUSE | Active | 34 direct + up to 22 splash; delayed charge burst | No headshots | 60 charges/min | 4 / 16 | 2.5s | 72 studs | 45–92 studs: splash falls to 0 at edge |
+| 060 | THE USUAL | Archived | 21 | ×1.4 | 600 RPM; mode switch changes cadence only | 24 / 120 | 2.0s | 92 studs | 65–108 studs: 100% → 82% |
+| 061 | BAD PENNY | Archived | 14 × 3 per burst | ×1.35 | 3-round burst; 0.08s spacing, 0.68s cycle | 18 / 72 | 1.9s | 58 studs | 38–78 studs: 100% → 76% |
+| 063 | SQUARE DEAL | Archived | 36; centre-hit timing bonus shortens next recovery only | ×1.5 | 240 RPM | 12 / 60 | 1.9s | 102 studs | 70–122 studs: 100% → 84% |
+| 064 | BULLPEN | Active | 8 × 8 pellets = 64 max; stationary preparation tightens spread | ×1.15 | 55 RPM | 6 / 24 | 2.65s | 21 studs | 12–27 studs: 100% → 50% |
+| 065 | PAPER CUT | Archived | 23; opposite-side follow-up adds +8 once per sequence | ×1.45 | 420 RPM | 18 / 72 | 1.9s | 82 studs | 56–98 studs: 100% → 82% |
+| 067 | SLOW CLAP | Archived | 31 | ×1.5 | 240 RPM; steady rhythm keeps recoil predictable | 16 / 64 | 1.9s | 94 studs | 65–110 studs: 100% → 84% |
+| 069 | WIDE OPEN | Active | 7 × 8 pellets = 56 max | ×1.1 | 80 RPM | 5 / 25 | 2.15s | 20 studs | 11–29 studs: 100% → 42% |
+| 070 | DEAD CERT | Archived | 76 | ×1.5 | 42 RPM; manual bolt cycle | 5 / 20 | 2.5s | 155 studs | 115–180 studs: 100% → 88% |
+| 073 | FIRST CLASS | Archived | 19 first portion; 17 final 10 rounds | ×1.4 | 660 RPM; final 10 rounds at 750 RPM with wider spread | 30 / 120 | 2.0s | 82 studs | 55–98 studs: 100% → 80% |
+| 074 | OVERHEAD | Active | 40 direct + up to 20 splash | No headshots | 42 RPM | 4 / 16 | 2.55s | 102 studs | 70–122 studs: splash falls to 0 at edge |
+| 076 | TIME CARD | Archived | 28; matched rhythm improves handling only | ×1.45 | 300 RPM | 14 / 56 | 1.85s | 92 studs | 65–108 studs: 100% → 83% |
+| 077 | SPOT CHECK | Archived | 16 × 4 per burst | ×1.35 | 4-round burst; 0.075s spacing, 0.72s cycle | 24 / 96 | 2.1s | 86 studs | 60–104 studs: 100% → 82% |
+| 079 | FENDER BENDER | Archived | 46; moving-toward-user hit adds push only | No headshots | 90 RPM | 5 / 25 | 2.3s | 34 studs | 20–48 studs: 100% → 68% |
+| 080 | GOOD SPORT | Archived | 28; one predictable rebound, no bonus damage | No headshots | 100 RPM | 6 / 30 | 1.85s | 72 studs | 45–92 studs: 100% → 80% |
+| 081 | NIGHTCAP | Archived | 8 × 7 pellets = 56 max; final shell uses tighter spread | ×1.15 | 72 RPM | 5 / 25 | 2.15s | 22 studs | 14–29 studs: 100% → 54% |
+| 082 | TALLY HO | Active | 15 per normal round; every fifth round deals 20 (five-shot total remains 80) | ×1.25 | 600 RPM | 55 / 165 | 3.0s | 78 studs | 50–100 studs: 100% → 78% |
+| 083 | STATIC SHOCK | Active | 20 direct; secondary arc deals 10 | ×1.3 | 420 RPM | 24 / 96 | 2.1s | 82 studs | 55–98 studs: 100% → 80% |
+| 085 | BLIND DATE | Active | 22 | ×1.35 | 600 RPM | 24 / 96 | 2.0s | 58 studs | 38–78 studs: 100% → 75% |
+| 087 | HARD COPY | Archived | 54; repeated recoil offset does not change damage | ×1.5 | 120 RPM | 8 / 32 | 2.4s | 138 studs | 98–158 studs: 100% → 86% |
+| 088 | BOTTOM LINE | Archived | 22; recoil becomes more predictable as magazine empties | ×1.4 | 540 RPM | 36 / 144 | 2.55s | 98 studs | 68–118 studs: 100% → 84% |
+| 091 | HEADCOUNT | Archived | 25; target-switch sequence improves handling only | ×1.45 | 360 RPM | 18 / 72 | 1.9s | 88 studs | 60–105 studs: 100% → 82% |
+| 092 | LATE FEE | Archived | 9 × 7 pellets = 63 max; settled pump shot tightens spread | ×1.2 | 60 RPM | 6 / 30 | 2.45s | 22 studs | 14–29 studs: 100% → 54% |
+| 094 | SAFE BET | Archived | 40 normal; every third shot deals 26 at higher speed | ×1.5 | 180 RPM | 9 / 45 | 2.1s | 78 studs | 52–95 studs: 100% → 80% |
+| 097 | BIG PICTURE | Active | 24 / 20 / 16 across the narrowing three-shot sequence | ×1.35 | 3-shot burst; 0.09s spacing, 0.68s cycle | 21 / 84 | 2.1s | 92 studs | 62–108 studs: 100% → 82% |
+| 098 | SMALL TALK | Archived | 15; spread grows during sustained fire and resets after release | ×1.35 | 900 RPM | 26 / 104 | 1.8s | 48 studs | 30–62 studs: 100% → 72% |
+| 100 | OVERBOOKED | Active | 7 × 7 pellets = 49 max; final continuous-fire shell has wider spread, not extra damage | ×1.1 | 180 RPM automatic sequence | 8 / 32 | 2.8s | 18 studs | 10–25 studs: 100% → 45% |
+| 102 | HOUSE RULES | Archived | 24; stance zone changes recoil only | ×1.45 | 480 RPM | 24 / 96 | 2.0s | 98 studs | 68–118 studs: 100% → 84% |
+| 103 | NO SHOW | Archived | 64 after aim preparation; unprepared shot is not available | ×1.5 | 55 RPM; preparation 0.75s | 5 / 20 | 2.4s | 145 studs | 105–165 studs: 100% → 87% |
+| 105 | DOUBLE SHIFT | Active | 23 steady round; 17 fast round | ×1.35 | 540 RPM alternating feeds | 28 / 112 | 2.1s | 92 studs | 62–108 studs: 100% → 82% |
+| 106 | OPEN TAB | Archived | 24 first shot + 14 delayed follow-up | ×1.35 | 300 trigger cycles/min; follow-up after 0.18s | 12 / 60 | 1.9s | 58 studs | 38–78 studs: 100% → 76% |
+| 109 | SIDE DISH | Active | 32 main projectile + 16 companion projectile | No headshots | 80 RPM | 5 / 25 | 2.2s | 78 studs | 52–98 studs: 100% → 78% |
+| 141 | GOOD ENOUGH | Archived | 23 × 2 per burst; second shot has wider spread | ×1.4 | 2-round burst; 0.11s spacing, 0.55s cycle | 28 / 112 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
+| 142 | OUT OF OFFICE | Archived | 15; opening burst is tighter, sustained fire widens | ×1.35 | 900 RPM | 30 / 120 | 1.8s | 48 studs | 30–62 studs: 100% → 72% |
+| 143 | SQUARE ONE | Archived | 33 | ×1.5 | 240 RPM; beat timing affects recoil only | 14 / 56 | 1.9s | 98 studs | 68–118 studs: 100% → 84% |
+| 144 | TWO-WAY STREET | Archived | 21 per shot; alternating barrels keeps recoil controlled | ×1.4 | 420 RPM | 16 / 64 | 2.0s | 68 studs | 45–88 studs: 100% → 80% |
+| 145 | MIDDLE MANAGEMENT | Archived | 22; teammate tick is information only | ×1.4 | 600 RPM | 28 / 112 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
+| 146 | SLOW NEWS | Archived | 46; quick fallback shot deals 30 with reduced accuracy | ×1.5 | 100 RPM standard; 150 RPM fallback | 8 / 32 | 2.25s | 118 studs | 82–138 studs: 100% → 85% |
+| 147 | PUNCHLINE | Archived | 40; short-range push is fixed and modest | ×1.25 | 150 RPM | 6 / 30 | 2.1s | 38 studs | 22–52 studs: 100% → 65% |
+| 148 | DETOUR | Active | 36 direct; near misses deal 0 | No headshots | 70 RPM | 5 / 20 | 2.3s | 88 studs | 58–108 studs: 100% → 78% |
+| 149 | WELL READ | Archived | 24 × 3 per sequence; on-beat cadence tightens sequence only | ×1.5 | 3-shot sequence; 0.16s spacing, 0.9s cycle | 9 / 45 | 2.2s | 112 studs | 78–132 studs: 100% → 85% |
+| 150 | CASH ONLY | Archived | 60 | ×1.5 | 50 RPM | 1 / 12 | 2.6s | 78 studs | 52–96 studs: 100% → 80% |
+| 151 | WINDOW SEAT | Archived | 7 × 8 pellets = 56 max; horizontal fan widens during turn | ×1.1 | 85 RPM | 6 / 30 | 2.0s | 19 studs | 11–26 studs: 100% → 48% |
+| 152 | NO COMMENT | Archived | 29; quiet tracer does not change hit feedback | ×1.5 | 240 RPM | 12 / 60 | 1.9s | 94 studs | 65–110 studs: 100% → 83% |
+| 153 | TRAFFIC JAM | Active | 8 × 6 projectiles = 48 max if all connect | No headshots | 45 clusters/min | 4 / 16 | 2.6s | 68 studs | 45–88 studs: 100% → 75% |
+| 154 | BETTER LUCK | Archived | 36 direct; 22 after one ricochet | ×1.45 | 180 RPM | 8 / 40 | 1.9s | 82 studs | 55–100 studs: 100% → 80% |
+| 157 | NARROW ESCAPE | Active | 26 direct + up to 18 ring damage | No headshots | 60 RPM | 4 / 16 | 2.5s | 68 studs | 45–88 studs: ring damage fixed inside small radius |
+| 159 | FINE TUNING | Archived | 34; recoil state changes trajectory only | ×1.5 | 210 RPM | 12 / 60 | 2.0s | 98 studs | 68–118 studs: 100% → 84% |
+| 161 | BAD SIGNAL | Active | 12 direct; HUD edge disruption adds no damage | ×1.25 | 360 RPM | 12 / 60 | 1.8s | 48 studs | 30–65 studs: 100% → 72% |
+| 162 | DEADLINE | Archived | 42; skipped lever cycle adds recoil, not damage | ×1.5 | 150 RPM | 8 / 40 | 2.1s | 98 studs | 68–118 studs: 100% → 84% |
+| 163 | PARKING FINE | Archived | 27; deployed rest changes recoil only | ×1.4 | 360 RPM | 18 / 72 | 2.0s | 102 studs | 72–122 studs: 100% → 85% |
+| 164 | BETWEEN FRIENDS | Archived | 18; relay interaction refreshes utility, not ammo | ×1.35 | 300 RPM | 12 / 60 | 1.8s | 52 studs | 35–72 studs: 100% → 75% |
+| 165 | LATE CHECKOUT | Archived | 23 | ×1.4 | 720 RPM | 20 / 80 | 1.65s | 82 studs | 55–100 studs: 100% → 80% |
+| 166 | OPEN CIRCUIT | Archived | 15 × 3 per burst; continuation never adds damage | ×1.3 | 3-round burst; 0.08s spacing, 0.62s cycle | 27 / 108 | 2.0s | 92 studs | 62–108 studs: 100% → 82% |
+| 167 | THE LAST WORD | Archived | 50; first shot after swap has no damage bonus | ×1.5 | 90 RPM | 6 / 30 | 2.0s | 78 studs | 52–96 studs: 100% → 80% |
 
 ### B. Utility weapons and tools
 
