@@ -6,8 +6,8 @@
 1. **[AVENOR_Main.md](AVENOR_Main.md)** — canonical identity and priorities.
 2. **[AVENOR_OpenWorld.md](AVENOR_OpenWorld.md)** — exploration, freedom, NPC factions and social sandbox.
 3. **[AVENOR_Map_Performance.md](AVENOR_Map_Performance.md)** — map production, streaming, budgets and profiling.
-4. **[AVENOR_Worlds.md](AVENOR_Worlds.md)** — ten proposed world concepts.
-5. **[AVENOR_WorldEvents.md](AVENOR_WorldEvents.md)** — 27 limited-time event concepts, seasonal windows and schedule rules.
+4. **[AVENOR_Worlds.md](AVENOR_Worlds.md)** — ten proposed world concepts and global-event compatibility.
+5. **[AVENOR_WorldEvents.md](AVENOR_WorldEvents.md)** — global world transformations, local incidents, competitive events and seasonal scheduling.
 6. **[AVENOR_GameModes.md](AVENOR_GameModes.md)** — permanent competitive playlists and temporary mode events.
 7. **[AVENOR_NPCs.md](AVENOR_NPCs.md)** — NPC categories and behaviour.
 8. **[AVENOR_Gameplay.md](AVENOR_Gameplay.md)** — movement, combat, ammunition and core loop.
@@ -22,14 +22,14 @@
 - Combat includes PvE and player encounters under rules still being designed. Friendly fire is being evaluated with anti-griefing safeguards.
 - Separate competitive FPS playlists remain available from the home screen.
 - Weapons are discovered/unlocked in the Open World only and remain permanently owned. Competitive matches never grant weapon unlocks.
-- One active Open World region rotates on a proposed four-day cycle. Rotation is a world event, not a separate game mode.
+- One active Open World region normally rotates on a proposed four-day cycle. Major Global World Events can override that rotation and select a compatible region.
 - Ten worlds are proposed long-term, not promised at launch.
 - Progression persists through death, disconnects, world rotation and seasons.
 - Fast movement: unrestricted sprint, jump, slide and slide-jump; no stamina.
 - Performance is a design constraint from the first greybox.
 
 ## Events
-AVENOR has temporary Open World events that alter places, NPCs, access, weather, discoveries or routes, and limited-time competitive playlists that alter match formats and rules. Calendar events include Halloween, Christmas, New Year, spring, summer, April Fools, Valentine's, autumn and the game anniversary. See AVENOR_WorldEvents.md.
+AVENOR separates **Global World Events** (whole-region seasonal transformations), **Local World Events** (temporary incidents, NPC activities and discoveries) and **Competitive Events** (limited playlists and match rules). Major seasonal events can replace the normal active world with a compatible region and a complete event-specific world state. See AVENOR_WorldEvents.md.
 
 ## Status rules
 - **Confirmed direction:** explicitly selected by the user.
