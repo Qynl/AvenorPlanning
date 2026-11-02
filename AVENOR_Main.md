@@ -77,7 +77,7 @@ Exact sprint speed, acceleration, slide duration, slide recovery, jump height, a
 - No player receives more base health because of account level, rank, purchases, or cosmetic rarity.
 - Weapons and abilities may interact with health and damage through their own defined mechanics, but must be balanced and clearly communicated.
 
-The exact health value, regeneration rules, damage model, headshot rules, and protection mechanics are **TBD**.
+The current proposed baseline is 100 HP, no passive regeneration, no universal shields/overheal, and weapon-specific headshot/damage-falloff rules. These values and rules remain subject to prototype testing.
 
 Combat should be understandable and consistent. Players need clear feedback when they hit, damage, eliminate, or are affected by another player.
 
@@ -169,7 +169,7 @@ A match should have a clear, consistent flow:
 
 The exact flow differs by mode. Round-based modes and respawn modes must have rules suited to their format.
 
-Death, respawn timing, spectating, round transitions, overtime, ties, and rematch behavior are **TBD** per mode.
+The current proposed baseline is round-based elimination with no mid-round respawns, and a 3-second respawn delay in respawn modes. Spectating, round transitions, overtime, ties, and rematch behavior remain **TBD** per mode.
 
 ## 11. Competitive Integrity and Networking
 
