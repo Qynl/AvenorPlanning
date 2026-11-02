@@ -4,24 +4,24 @@
 
 ## Start here
 1. **[AVENOR_Main.md](AVENOR_Main.md)** — canonical identity and priorities.
-2. **[AVENOR_OpenWorld.md](AVENOR_OpenWorld.md)** — exploration, freedom, NPC factions and social sandbox.
+2. **[AVENOR_OpenWorld.md](AVENOR_OpenWorld.md)** — exploration, freedom, player encounters and limited player-like NPC factions.
 3. **[AVENOR_Locations.md](AVENOR_Locations.md)** — 200 named POIs across ten worlds, location families, micro-discoveries and temporary presence.
 4. **[AVENOR_Map_Performance.md](AVENOR_Map_Performance.md)** — map production, streaming, budgets and profiling.
 5. **[AVENOR_Worlds.md](AVENOR_Worlds.md)** — ten proposed world concepts and global-event compatibility.
 6. **[AVENOR_WorldEvents.md](AVENOR_WorldEvents.md)** — global transformations, admin-triggered live events, community events, local incidents, competitive playlists and seasonal scheduling.
 7. **[AVENOR_GameModes.md](AVENOR_GameModes.md)** — permanent competitive playlists and temporary mode events.
-8. **[AVENOR_NPCs.md](AVENOR_NPCs.md)** — NPC categories and behaviour.
+8. **[AVENOR_NPCs.md](AVENOR_NPCs.md)** — player-like NPC faction squads only.
 9. **[AVENOR_Gameplay.md](AVENOR_Gameplay.md)** — movement, combat, ammunition and core loop.
 10. **[AVENOR_Roadmap.md](AVENOR_Roadmap.md)** — staged development and quality gates.
 11. **[AVENOR_Technical.md](AVENOR_Technical.md)** — Roblox architecture and implementation plan.
 
 ## Core experience
 - The Open World is the main attraction: explore a large, populated, changing world with other players.
-- Players choose their own pace: discover hundreds of distinct locations over time, investigate secrets, scavenge, meet people, encounter NPC groups, establish temporary camps, contest occupied places, take part in events and fight when they want or when situations develop.
+- Players choose their own pace: discover hundreds of distinct locations over time, investigate secrets, scavenge, meet other players, encounter occasional player-like NPC factions, establish temporary camps and contest occupied places.
 - Players can establish a temporary presence at suitable locations. This is not permanent land ownership or a mandatory base-building system; control emerges from who is actually there and what they have established.
-- NPCs and factions have routines, relationships and believable awareness. The world can react without a visible GTA-style wanted-level meter.
-- A light GTA-inspired influence means freedom, inhabited cities, possible vehicles, public services and reactive NPCs. It does not mean copying GTA missions or making crime the central loop.
-- Combat includes PvE and player encounters under rules still being designed. Friendly fire is being evaluated with anti-griefing safeguards.
+- A limited number of NPC faction squads behave like players: they travel, scavenge, camp, occupy locations and may defend rare discoveries. There are no civilians, police, public-service NPCs or wanted systems.
+- The world is not a GTA-style city simulation. Buildings and infrastructure are exploration locations, not a civilian/service simulation.
+- Combat includes player encounters and occasional encounters with player-like NPC faction squads. PvP coverage and friendly-fire rules remain TBD.
 - Separate competitive FPS playlists remain available from the home screen.
 - Weapons are discovered/unlocked in the Open World only and remain permanently owned. Competitive matches never grant weapon unlocks.
 - One active Open World region normally rotates on a proposed four-day cycle. Major Global World Events can override that rotation and select a compatible region.
@@ -37,7 +37,7 @@ AVENOR separates **Global World Events** (whole-region transformations), **Admin
 - **Confirmed direction:** explicitly selected by the user.
 - **Current proposal:** recommended design awaiting approval/testing.
 - **TBD:** unresolved; never silently treat as locked.
-- No survival meters, forced base-building, crafting tree, full-loot PvP or permanent weapon loss is assumed.
+- No survival meters, forced base-building, civilian simulation, police system, public-service NPCs, crafting tree, full-loot PvP or permanent weapon loss is assumed.
 - Safe areas, PvP coverage, friendly-fire defaults, vehicle launch scope, economy/trading and exact event calendar remain unresolved.
 - Rarity: **Commonplace, Altered, Evolved, Ascendant, Extraordinary, Singular**. Rarity never grants gameplay power.
 - Existing weapons, skins, abilities and effects are content libraries, not a requirement to ship every item.
