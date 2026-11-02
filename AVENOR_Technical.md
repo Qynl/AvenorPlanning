@@ -238,3 +238,17 @@ Track:
 - Final schedule storage strategy.
 - NPC simulation budget.
 - Whether vehicles are included at launch.
+
+
+## 17. Exploration-first world simulation additions
+The Open World is the primary experience. Add focused server-side modules only when a prototype needs them:
+- FactionService for faction definitions and player relationship state.
+- IncidentService for witnessed local incidents and evidence/awareness flags.
+- WorldReactionService for deciding which nearby organisations/NPC groups may respond.
+- ActivityDirector for optional world activities and NPC expeditions.
+- VehicleService only if vehicles are approved for a milestone.
+
+Do not build one global wanted-level variable or display a wanted meter. Local awareness, incident records and longer-term faction reputation are separate data. NPCs must not receive omniscient knowledge. Use event-driven updates, bounded records and distance relevance. Consequential state is server-authoritative; clients receive only the presentation and nearby gameplay state they need.
+
+## 18. Performance-first implementation rule
+Before adding a new NPC archetype, faction reaction, vehicle, event effect or map region, profile its representative test case. Use the dedicated `AVENOR_Map_Performance.md` as the production and approval standard. Streaming, NPC simulation tiers, asset reuse, low-cost collision, replication limits and mobile profiling are required from the first district. Exact player/NPC budgets are measured, not guessed.
