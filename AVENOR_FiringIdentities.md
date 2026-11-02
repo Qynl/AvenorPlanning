@@ -809,6 +809,14 @@ A weapon may share a broad category with another weapon, but it must not share t
 - Cosmetics may change presentation but may not hide the projectile, shorten warning cues, alter hitboxes, or change timing.
 
 
+
+### 161 — BAD SIGNAL
+
+**Firing identity:** A single slow electronic pulse. The shot has a broad, luminous ring rather than a conventional projectile trail. On impact, it creates a brief static border effect on the target's HUD. The centre of the screen remains clear, controls and movement are unaffected, and the effect is purely presentational. The pulse is easy to see and has a fixed, short lifetime.
+
+**Why it is different:** BAD SIGNAL is built around a visible electronic impact cue and a slow, deliberate shot. It is not an automatic stream, a burst, or a chain effect.
+
+**Counterplay and accessibility:** The pulse is visible in flight, can be avoided with movement or cover, and the screen effect can be reduced or disabled. It never hides opponents or changes input.
 ## 4. Archived firearm concepts
 
 The following 54 concepts remain in the planning archive for possible future redesign, but are **not launch firearms**. Their current combat stats and skins must not be treated as active launch content:
