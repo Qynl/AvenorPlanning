@@ -145,7 +145,7 @@ Each loadout contains:
 - Abilities use the universal six-tier rarity system: Commonplace, Altered, Evolved, Ascendant, Extraordinary, and Singular.
 - Rarity communicates originality, uniqueness, complexity, presentation, or exclusivity. It does not automatically indicate combat strength.
 - Abilities have individual visual effects, animations, and sound cues that communicate their mechanics clearly.
-- Exact cooldowns, durations, ranges, charges, restrictions, and balance values remain **TBD** until detailed design and playtesting.
+- All 50 active ability concepts now have proposed activation rules, cooldowns, durations, ranges, counterplay, and technical constraints in **AVENOR_Abilities.md**, Section 6. Values remain proposals until playtesting.
 - The approved ability concepts and their current rarity assignments are documented in **AVENOR_Abilities.md**.
 
 Abilities may be unlocked through progression, the shop, challenges, achievements, and events. Unlock methods must not create an unfair combat advantage.
@@ -384,7 +384,7 @@ The following areas still need detailed design or testing:
 - Final movement tuning and any advanced movement additions after prototype testing.
 - Final health value, damage model, regeneration, and elimination rules after prototype testing.
 - Weapon balance validation and implementation priorities.
-- Ability cooldowns, durations, ranges, charges, restrictions, and implementation priorities.
+- Ability prototype values and implementation priorities after playtesting.
 - Full mode list, player counts, scoring, and match rules.
 - Map roster, layouts, interactions, and pickup rules.
 - Respawn, spectating, overtime, and round-transition behavior.
