@@ -22,7 +22,7 @@ The goal is not to fill a spreadsheet with generic versions of familiar guns. Ev
 
 ### Active firearm standard
 
-The active launch firearm roster is limited to 40 weapons. A firearm is active only if it has a genuinely distinct projectile, firing pattern, travel behaviour, impact behaviour, and handling rhythm. The detailed specifications and acceptance checklist are in `AVENOR_FiringIdentities.md`. Archived firearm concepts are not part of the launch roster and must not be used as active unlocks or shop content.
+The active launch firearm roster is limited to 40 weapons. Each active firearm must have a distinct projectile, firing pattern, travel behaviour, impact behaviour, and handling rhythm. See `AVENOR_FiringIdentities.md` for full specifications.
 
 ## 2. Rarity Hierarchy
 
