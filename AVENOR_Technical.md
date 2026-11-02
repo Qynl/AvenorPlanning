@@ -718,3 +718,7 @@ Do not add the full lobby economy or entire weapon roster to this prototype.
 - AVENOR_Maps.md — map standards, roster concepts, spawns and mode compatibility.
 - AVENOR_Progression.md — account progression, mastery, ranked, seasons and economy.
 - AVENOR_Cosmetics.md, AVENOR_KillEffects.md, AVENOR_WinEffects.md, and AVENOR_Emotes.md — cosmetic content definitions.
+
+- `AVENOR_MapLayouts.md`: Proposed greybox footprints, routes, spawns, and objective overlays for all eight maps.
+- `AVENOR_HUD_Audio.md`: HUD, controls, audio, and accessibility requirements.
+- `AVENOR_Presentation.md`: MVP presentation, announcements, banners, and profile showcases.
