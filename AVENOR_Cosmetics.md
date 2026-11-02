@@ -4,6 +4,10 @@
 
 > Two individually designed skins per weapon. Every skin is exclusive to its named weapon. No universal patterns or cross-weapon compatibility. Rarity controls cosmetic complexity only; no gameplay advantages.
 
+**Active launch skin set:** exactly 80 firearm skins across the 40 active firearms. Their visual effects now reference each weapon's actual projectile and firing loop in `AVENOR_FiringIdentities.md`. Archived firearm skins remain in this file for historical reference only. They are not launch unlocks, shop stock, mastery rewards, or showroom choices.
+
+**Firing-identity preservation:** a skin may change materials, silhouette detailing, animation, sound texture, muzzle presentation, projectile trail styling, and cosmetic impact presentation. It must never change projectile count, hitbox, speed, spread, path, bounce count, split distance, fuse, damage, charge timing, cadence, or counterplay. Every cosmetic trail must preserve the actual shot path and remain readable to both teams.
+
 ## Rarity presentation standards
 
 - **Commonplace:** clean recolours, restrained patterns, subtle material changes; no major animated effects.
@@ -22,88 +26,88 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: PAPERWORK**
 - **Rarity:** Commonplace
-- **Design:** Ivory enamel, graphite grip panels, tiny stamped serials. No animated effects; crisp metallic reload clicks.
+- **Design:** Ivory enamel over a graphite frame, with tiny docket numbers stamped along the receiver. Each adhesive dart leaves a small paper-tab glint on impact; the tab remains legible without revealing the marked player through cover.
 
 **Skin 2: TAX AUDIT**
 - **Rarity:** Extraordinary
-- **Design:** Black chrome body, glowing icy-blue ledger lines that tally across the receiver, floating receipt-like particles on elimination, and a brief holographic seal when Collection Day activates.
+- **Design:** Black chrome with icy-blue ledger lines that fill one segment per recorded hit. The cash-out dart briefly unfolds a holographic receipt at impact, then the stored tally collapses into a sharp seal. No extra mark duration or damage.
 
 ### Weapon 002 — POCKET ROCKET
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: PIT STOP**
 - **Rarity:** Altered
-- **Design:** Racing red panels, worn rubber grip, small hazard stripes and polished steel barrel. A tiny exhaust puff on the weapon action.
+- **Design:** Racing-red panels, worn rubber grip and polished steel barrel. A small turbine indicator visibly gains speed with the firing cadence, then spins down when the trigger is released.
 
 **Skin 2: AFTERBURN**
 - **Rarity:** Ascendant
-- **Design:** Pearlescent white shell with violet heat vents, animated turbine rings and a short blue-violet contrail during Hot Pursuit. The barrel glows progressively while firing, then cools.
+- **Design:** Pearlescent white shell with violet turbine vanes and animated intake rings. As the stream accelerates, the rings tighten into a fast halo; releasing fire makes them unwind. No heat meter or extra acceleration is added.
 
 ### Weapon 003 — DOORBELL
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: WELCOME MAT**
 - **Rarity:** Evolved
-- **Design:** Cream-and-brass finish, dark walnut furniture and a tiny doorplate on the receiver. A soft dust puff on firing.
+- **Design:** Cream-and-brass finish, dark walnut furniture and a small enamel doorplate. Eight tiny ports light in the same broad, shallow fan used by hip-fire, making the pellet pattern readable.
 
 **Skin 2: OPEN HOUSE**
 - **Rarity:** Extraordinary
-- **Design:** Midnight lacquer, luminous stained-glass pellet ports and a miniature revolving door motif. Each shot briefly blooms into a geometric glass pattern; House Call creates a readable circular shockwave.
+- **Design:** Midnight lacquer with stained-glass pellet ports and a revolving-door motif. Aiming compresses the eight port lights into a narrow vertical column; hip-fire opens them into the shallow fan. No extra pellets or altered spread.
 
 ### Weapon 004 — LONG STORY
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: LAST LIGHT**
 - **Rarity:** Altered
-- **Design:** Deep navy finish with brushed silver scope and subtle ice-blue range marks. A restrained lens glint when fully aimed.
+- **Design:** Deep navy body, brushed-silver scope and restrained ice-blue charge marks. The marks illuminate through three charge steps before a thin rail flash fires straight down the sightline.
 
 **Skin 2: EVENT HORIZON**
 - **Rarity:** Evolved
-- **Design:** Obsidian body with a contained violet starfield inside the scope housing, orbiting calibration rings and a clean spatial ripple when Long Distance redirects a shot. Scope effects stay outside the sight picture.
+- **Design:** Obsidian casing with a contained violet starfield beneath the receiver and orbiting calibration rings. Full charge releases a clean, narrow stellar lance; its trail visibly continues through the first target before fading. Scope glass stays clear.
 
 ### Weapon 005 — LOOSE CHANGE
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: PARKING METER**
 - **Rarity:** Commonplace
-- **Design:** Brushed nickel, dark green enamel and tiny coin-slot details. A small metallic glint on ricochet.
+- **Design:** Brushed nickel, dark-green enamel and coin-slot detailing. The dense slug leaves a brief silver streak, followed by one small angle marker at its single permitted surface ricochet.
 
 **Skin 2: FORTUNE'S FAVOR**
 - **Rarity:** Singular
-- **Design:** Polished gold-and-onyx casing with a rotating coin emblem, luminous ricochet arcs and a brief constellation of coin-like sparks when the token redirects a shot.
+- **Design:** Polished gold-and-onyx casing with a rotating coin emblem. The slug's one rebound draws a precise golden bank line that ends immediately after the ricochet; it never suggests additional bounces.
 
 ### Weapon 006 — THREE'S COMPANY
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: THREE PIECE**
 - **Rarity:** Altered
-- **Design:** Matte charcoal body with three distinct coloured chamber markers and clean white numbering. Each burst has three subtle indicator flashes.
+- **Design:** Matte charcoal body with three coloured chamber markers labelled centre, left and right. Each marker flashes in sequence as the three separate projectiles leave the weapon.
 
 **Skin 2: FOURTH WALL**
 - **Rarity:** Extraordinary
-- **Design:** Translucent ice-blue receiver with four orbiting shot markers, animated chamber geometry and a precise violet pulse for the bonus fourth projectile. The fourth shot leaves a short crystalline trail.
+- **Design:** Translucent ice-blue receiver with three orbiting lane markers. The centre shot creates a short straight glint, then the left and right shots receive separate crystalline trails. Exactly three shots, never a bonus fourth.
 
 ### Weapon 007 — LAWNMOWER
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: YARD WORK**
 - **Rarity:** Evolved
-- **Design:** Industrial olive paint, black steel barrel housing and worn caution labels. Subtle rotating barrel indicator.
+- **Design:** Industrial olive paint, black steel barrel housing and worn caution labels. A small exposed rotor visibly spins up before the stream reaches full cadence and slows after firing stops.
 
 **Skin 2: GREEN THUMB**
 - **Rarity:** Ascendant
-- **Design:** Dark emerald alloy with animated radial blade etching, warm gold status lights and a controlled ring of leaf-shaped particles around the barrel during Grass Cutter. No particles cross the sightline.
+- **Design:** Dark emerald alloy with radial blade etching and warm gold status lights. The rotating barrel ring gains definition as the projectile stream thickens, then visibly coasts down. Leaf particles remain cosmetic and stay outside the sightline.
 
 ### Weapon 008 — RETURN TO SENDER
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: RETURN ADDRESS**
 - **Rarity:** Altered
-- **Design:** Slate-blue metal, cream disc markings and a small postal-stamp emblem. A faint trail follows the returning disc.
+- **Design:** Slate-blue metal, cream disc markings and a small postal-stamp emblem. A fine white line follows the disc outward, then changes to a dotted return trail when it curves back.
 
 **Skin 2: INFINITE POSTAGE**
 - **Rarity:** Extraordinary
-- **Design:** Iridescent silver disc housing with a luminous route-map core, animated orbital rings and a segmented blue-violet trail that clearly shows the disc's path. Forwarding Address briefly draws a holographic route stamp.
+- **Design:** Iridescent silver housing with a luminous route-map core and orbital rings. The disc's outbound and return legs use two distinct trail patterns, clearly showing its real path without changing its curve or speed.
 
 ### Weapon 009 — THE RENTAL
 > **Roster status:** Active utility/melee skins
@@ -132,11 +136,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: ANCHOR POINT**
 - **Rarity:** Evolved
-- **Design:** Heavy graphite casing with hazard-orange impact rings and visible mechanical fasteners. A small dust burst on impact.
+- **Design:** Heavy graphite casing, hazard-orange impact rings and visible mechanical fasteners. The payload's fuse is shown by a small amber countdown strip; its surface attachment point gets a clear, compact marker.
 
 **Skin 2: DEAD WEIGHTLESS**
 - **Rarity:** Extraordinary
-- **Design:** Dark titanium body with floating blue calibration plates, animated gravity-wave grooves and a dramatic but contained impact ripple. Cut the Line uses a crisp violet detonation pulse.
+- **Design:** Dark titanium with floating blue calibration plates and gravity-wave grooves. Remote detonation creates a contained violet pressure ripple around the payload, with no added radius, damage or extra active payload.
 
 ### Weapon 012 — BAD RECEPTION
 > **Roster status:** Archived firearm skins, not launch content
@@ -154,33 +158,33 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: HOLD PLEASE**
 - **Rarity:** Commonplace
-- **Design:** Satin steel with amber charge indicators and a clean black grip. Charge level shown by a simple segmented light.
+- **Design:** Satin steel, amber charge indicators and a clean black grip. Three segmented lights fill in order as the energy bolt charges, then reset immediately after release.
 
 **Skin 2: ON THE LINE**
 - **Rarity:** Extraordinary
-- **Design:** Pearlescent graphite body with a suspended luminous core, animated charge filaments and a bright but compact release flare. Call Waiting creates a floating four-second charge glyph beside the weapon.
+- **Design:** Pearlescent graphite body with a suspended luminous core and fine charge filaments. Each of the three charge stages forms a distinct ring around the core; release sends a compact flare down the bolt's straight path.
 
 ### Weapon 014 — SHORT NOTICE
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: EXPRESS LANE**
 - **Rarity:** Altered
-- **Design:** Dark steel limbs, white bolt channel and orange anchor markings. A short clean streak follows the bolt.
+- **Design:** Dark steel limbs, white bolt channel and orange distance marks. The single bolt carries a thin trail; at its fixed split point, three small indicators separate to mirror the three-bolt fan.
 
 **Skin 2: ZIP CODE ZERO**
 - **Rarity:** Evolved
-- **Design:** Iridescent ice-blue limbs with violet energy cables, animated split-bolt geometry and a crystalline anchor tether. Express Delivery creates a brief geometric zip-line frame around the pull path.
+- **Design:** Iridescent ice-blue limbs with violet energy cables and a crystalline bolt rail. The bolt's split is represented by three clean branching trails at the exact existing distance; the trails do not change fragment count or spread.
 
 ### Weapon 015 — BAD NEIGHBOR
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: NEIGHBORHOOD WATCH**
 - **Rarity:** Evolved
-- **Design:** Worksite green and steel finish with three small marker lights. Marker placement gives a subtle confirmation blink.
+- **Design:** Worksite-green finish, steel fittings and three small marker lights. Each nail embeds with a short amber pin-flash, leaving a visible anchor point on the surface.
 
 **Skin 2: COMPLAINT DEPARTMENT**
 - **Rarity:** Singular
-- **Design:** Midnight blue body with luminous amber marker sockets, animated pulse rings and a clean radar-like ripple when Noise Complaint activates. Markers remain clearly visible to both teams.
+- **Design:** Midnight-blue body with luminous amber nail sockets and animated pulse channels. When a later shot connects to an embedded nail, a brief straight light bridge traces the existing muzzle-to-anchor pulse. Anchors remain visible to both teams.
 
 ### Weapon 016 — TAXI
 > **Roster status:** Archived firearm skins, not launch content
@@ -253,22 +257,22 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: DEAD AIR**
 - **Rarity:** Commonplace
-- **Design:** Warm ivory casing, brushed steel speaker grille and dark telephone-cord detailing around the grip. Sonic pulses produce a small, clean circular ripple with no extra screen distortion.
+- **Design:** Warm ivory casing, brushed-steel speaker grille and dark telephone-cord grip. Each shot produces a short forward-facing waveform cone, with fine lines that fade at its actual edge.
 
 **Skin 2: THE FINAL RING**
 - **Rarity:** Ascendant
-- **Design:** Black glass shell with a suspended violet waveform core and polished silver receiver details. The waveform visibly compresses before each pulse, then expands into thin concentric rings. Hang Up creates a larger layered soundwave disc that dissolves into tiny light fragments. Custom bass-heavy activation and pulse sounds.
+- **Design:** Black-glass shell with a suspended violet waveform core and polished silver receiver details. The core compresses before each directional sonic cone expands into layered arcs. No full-screen distortion or misleading radial blast.
 
 ### Weapon 023 — TWO CENTS
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: POCKET MONEY**
 - **Rarity:** Altered
-- **Design:** Satin copper receiver, dark walnut grip panels and small coin-edge engravings. The alternating shot rhythm is shown by two distinct chamber lights, copper then silver.
+- **Design:** Satin-copper receiver, dark walnut grip panels and coin-edge engravings. Copper and silver chamber lights alternate to identify the fast round and the heavier, slower round.
 
 **Skin 2: GOLD STANDARD**
 - **Rarity:** Singular
-- **Design:** Sculpted champagne-gold frame with a deep navy inset and a suspended, rotating twin-coin mechanism. Each alternating shot briefly illuminates a different coin. My Two Cents loads a luminous coin-shaped chamber seal, and a successful hit releases a precise golden ripple with a few orbiting flecks. The effect stays around the weapon and impact, never obscuring the target.
+- **Design:** Sculpted champagne-gold frame with a rotating twin-coin mechanism. Each shot illuminates the matching coin, while the two projectile trails remain visibly different in thickness and travel pace. No extra impact or coin bonus.
 
 ### Weapon 024 — OPEN HOUSE
 > **Roster status:** Active utility/melee skins
@@ -286,22 +290,22 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: WAITING ROOM**
 - **Rarity:** Evolved
-- **Design:** Soft graphite body, muted teal display and tiny illuminated equalizer bars. Each successful hit adds one clean bar and a quiet musical tick, building a visible rhythm without clutter.
+- **Design:** Soft graphite body, muted teal display and five tiny equalizer bars. Four small bars illuminate on the first four note bolts; the fifth bar widens for the final note.
 
 **Skin 2: CONCERT HALL**
 - **Rarity:** Singular
-- **Design:** Gloss-black instrument-grade finish with a luminous violet sound chamber and fine silver waveform engraving. Each hit adds a floating musical glyph that circles the chamber; completing the sequence triggers a brief, elegant crescendo of concentric sound rings. Please Stay On The Line suspends the glyphs in a slow orbit, then resumes their movement. Bespoke musical firing and completion cues.
+- **Design:** Gloss-black instrument finish with a luminous violet sound chamber and fine silver waveform engraving. The four opening notes leave delicate glyphs around the chamber; the fifth creates one larger concentric ring when the sequence completes on the same opponent.
 
 ### Weapon 026 — SPLIT DECISION
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: FORK IN THE ROAD**
 - **Rarity:** Altered
-- **Design:** Two-tone graphite and brushed steel body, with separate blue and orange feed channels for the Single and Split shots. The selector physically shifts between the two channels.
+- **Design:** Two-tone graphite and brushed steel body with separate blue slug and orange fork channels. The selector light alternates automatically, making the next projectile type unmistakable.
 
 **Skin 2: PARALLEL LINES**
 - **Rarity:** Ascendant
-- **Design:** Translucent smoked casing with two animated energy rails running side by side. Single shots use a concentrated blue flash; Split shots separate into two violet-edged trails after the normal split distance. Make Your Choice rotates a crisp dual-path selector around the receiver. No extra projectile width or altered timing.
+- **Design:** Translucent smoked casing with twin animated energy rails. The dense slug leaves one concentrated blue trail; the alternating fork shot splits into two violet-edged trails at its fixed distance. No extra fragments or wider hit area.
 
 ### Weapon 027 — SHORTCUT
 > **Roster status:** Active utility/melee skins
@@ -319,11 +323,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: KILN**
 - **Rarity:** Altered
-- **Design:** Dark ceramic plating, copper heat vents and a small analogue temperature dial. The vents shift from cool steel to warm amber as heat rises, then return to dark when cooled.
+- **Design:** Dark ceramic plating, copper heat vents and an analogue temperature dial. The dial moves through cool, warm and hot states, matching the three visible plasma-bolt behaviours before the weapon's brief cooling lock.
 
 **Skin 2: SOLAR FLARE**
 - **Rarity:** Singular
-- **Design:** White-hot ceramic shell with molten-gold channels and a contained miniature solar core visible beneath the receiver. Heat builds as layered rings orbit the core, intensifying in colour without increasing brightness enough to obscure the weapon. Let It Breathe releases a broad, elegant corona that collapses into sparks. Custom thermal hum, vent and cooldown audio.
+- **Design:** White-hot ceramic shell with molten-gold channels and a contained solar core. Cool bolts appear compact, warm bolts carry a broader halo, and the hot impact receives a brief contained corona. Brightness never hides the target or hit cue.
 
 ### Weapon 029 — WRONG NUMBER
 > **Roster status:** Active utility/melee skins
@@ -374,11 +378,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: CLUB SECURITY**
 - **Rarity:** Altered
-- **Design:** Matte black steel, padded dark-red grip and white SECURITY lettering. The pressure gauge uses a bold red needle that climbs with stored knockback.
+- **Design:** Matte black steel, padded dark-red grip and a clear pressure gauge. The gauge rises as pressure is stored; firing releases a visible compressed-air ring around the pellet cluster.
 
 **Skin 2: VIP ONLY**
 - **Rarity:** Extraordinary
-- **Design:** Gloss-black and champagne-gold construction, velvet-textured grip and rotating gold pressure chamber. Stored pressure illuminates marquee bulbs. Out You Go releases a broad gold-edged shockwave that dissolves into tiny ticket particles. Custom heavy mechanical report.
+- **Design:** Gloss-black and champagne-gold construction with a rotating pressure chamber. A heavy gold-edged pressure wave expands only on impact, then breaks into small ticket-shaped motes. The visual never exaggerates the actual push distance.
 
 ### Weapon 034 — GOOD MEASURE
 > **Roster status:** Archived firearm skins, not launch content
@@ -429,22 +433,22 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: SCRAPYARD**
 - **Rarity:** Altered
-- **Design:** Recycled steel panels, dented olive paint, copper wire and hand-painted warning symbols. The canister rattles in its chamber and throws tiny orange sparks on each bounce.
+- **Design:** Recycled steel panels, dented olive paint and hand-painted warning symbols. The puck gives a tiny orange spark and a numbered bounce pip at each valid surface ricochet.
 
 **Skin 2: ORBITAL TRASH**
 - **Rarity:** Extraordinary
-- **Design:** A spherical canister inside a dark titanium cage, with luminous planetary bands and tiny debris fragments orbiting its centre. Each bounce creates an orbital ripple; One More Time adds a temporary extra ring. Custom hollow metallic bounce audio.
+- **Design:** Spherical canister in a dark titanium cage, with luminous planetary bands. Each of the puck's permitted bounces creates a distinct orbital ripple; the rings stop after the final allowed bounce.
 
 ### Weapon 039 — HOME RUN
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: BIG LEAGUE**
 - **Rarity:** Evolved
-- **Design:** Midnight-blue sporting finish, cream pinstripes and polished aluminium fittings. A rotating scoreboard sits in the ball chamber; Curveball leaves a short curved chalk-line trail.
+- **Design:** Midnight-blue sporting finish, cream pinstripes and polished aluminium fittings. A small scale beside the chamber grows as the kinetic ball travels through open space, then freezes when it hits a surface.
 
 **Skin 2: GRAND SLAM**
 - **Rarity:** Singular
-- **Design:** Gloss-black carbon body, stadium-gold trim and a luminous ball suspended in a transparent chamber. Animated constellation stitching circles the ball. Curveball draws a sweeping golden stadium arc, followed by a brief scoreboard flourish. Bespoke sporting instrumental sting.
+- **Design:** Gloss-black carbon body, stadium-gold trim and a luminous ball suspended in a transparent chamber. Constellation stitching expands gradually around the ball as it travels, reaching a clear cap before impact. No curve, bounce or extra growth.
 
 ### Weapon 040 — GUEST LIST
 > **Roster status:** Active utility/melee skins
@@ -462,11 +466,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: MATCHING SET**
 - **Rarity:** Commonplace
-- **Design:** Coordinated brushed-steel pistols with graphite grips and left/right markings. Separate white ammunition counters preserve the dual-magazine identity.
+- **Design:** Coordinated brushed-steel pistols with graphite grips and left/right markings. Separate white ammunition counters sit above each pistol, and the active side flashes before its round fires.
 
 **Skin 2: DOUBLE TROUBLE**
 - **Rarity:** Extraordinary
-- **Design:** One pistol in polished cobalt, the other vivid violet, both with mirrored chrome frames and rotating chamber rings. Alternating shots illuminate the weapons in sequence; Both Lanes synchronizes the chambers and releases twin crescent flourishes. Paired firing and reload audio.
+- **Design:** One pistol in polished cobalt, the other vivid violet, with mirrored chrome frames. Alternating shots illuminate the matching weapon; their needle and pulse trails remain visibly different. Paired reload animation keeps both ammo feeds readable.
 
 ### Weapon 042 — STATIC CLING
 > **Roster status:** Active utility/melee skins
@@ -506,11 +510,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: DOUBLE BARREL**
 - **Rarity:** Altered
-- **Design:** Dark walnut furniture, satin steel barrels and two distinct engraved labels. Compact and wide spread barrels have separate amber and white indicators.
+- **Design:** Dark walnut furniture, satin-steel barrels and two distinct engraved barrel labels. The first shell's vertical pellet column is marked by a narrow amber line; the second's horizontal fan by a wider white line.
 
 **Skin 2: SHATTERPOINT**
 - **Rarity:** Ascendant
-- **Design:** Frosted-glass receiver with ice-blue internal rails and crystalline barrel cores. The two spread patterns have distinct restrained trails. Double Down aligns both cores and creates a symmetrical crystalline muzzle bloom.
+- **Design:** Frosted-glass receiver with ice-blue internal rails and crystalline barrel cores. The two independent barrels produce different geometric muzzle patterns, one tall and narrow, the other broad and flat. No extra pellets or shared firing.
 
 ### Weapon 046 — SUNDAY DRIVER
 > **Roster status:** Archived firearm skins, not launch content
@@ -550,11 +554,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: CLOUD NINE**
 - **Rarity:** Evolved
-- **Design:** Pearl-white launcher with pale sky-blue fins, silver fasteners and a cloud motif around the chamber. Airborne shots receive a subtle feathered trail without changing projectile size or damage.
+- **Design:** Pearl-white launcher with pale sky-blue fins and silver fasteners. The gravity orb leaves a straight vertical trail, pauses at its capped height, then receives a clear downward marker before its floor pulse.
 
 **Skin 2: PEGASUS**
 - **Rarity:** Singular
-- **Design:** Sculpted white ceramic and iridescent silver with wing-like side plates that unfold slightly while airborne. A luminous celestial core sits beneath the barrel. Come Down to Earth gathers the panels inward and releases a brilliant feather-ring followed by a clean landing ripple. Bespoke airy activation audio.
+- **Design:** Sculpted white ceramic and iridescent silver with wing-like side plates that fold inward during the orb's descent. The floor ring appears at the actual drop column; a feathered halo fades after impact without changing the pulse area.
 
 ### Weapon 050 — TAKE A NUMBER
 > **Roster status:** Active utility/melee skins
@@ -594,11 +598,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: AFTERIMAGE**
 - **Rarity:** Evolved
-- **Design:** Matte graphite rifle with mirrored twin chambers and pale-blue timing lights. The delayed second projectile is represented by a brief translucent echo of the first muzzle flash.
+- **Design:** Matte graphite body with mirrored twin chambers and pale-blue timing lights. The primary dart flashes the left chamber; the delayed echo lights the right chamber as it retraces the same line.
 
 **Skin 2: DEJA VU**
 - **Rarity:** Singular
-- **Design:** Polished black-violet body with two offset transparent receiver layers moving a fraction of a second apart. The scheduled projectile appears as a luminous duplicate chamber image. Save It freezes the image in a glass-like time frame; releasing it shatters the frame into a violet trail. Custom delayed-echo audio.
+- **Design:** Polished black-violet body with two transparent receiver layers offset by a fraction of a second. The echo appears as a precise afterimage on the original path, then dissolves. No retargeting, bending or extra delay.
 
 ### Weapon 054 — LOST PROPERTY
 > **Roster status:** Active utility/melee skins
@@ -616,11 +620,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: OFF BEAT**
 - **Rarity:** Altered
-- **Design:** Matte charcoal body with orange and cyan timing bars, a metronome window and textured grip. The pause is shown by a pendulum that stops at the same predictable point every cycle.
+- **Design:** Matte charcoal body with orange and cyan timing bars, a metronome window and textured grip. Three bars flash for the three darts, then the pendulum visibly pauses for the forced reset beat.
 
 **Skin 2: BROKEN RHYTHM**
 - **Rarity:** Extraordinary
-- **Design:** Black-glass receiver with a floating violet metronome core and rotating silver timing rings. The fast sequence sends light pulses down the barrel; the pause freezes every ring. Skip the Beat cracks the pattern into a radial animation before the longer recovery. Custom rhythmic mechanical audio.
+- **Design:** Black-glass receiver with a floating violet metronome core and rotating silver timing rings. The three shots send pulses down the barrel; all rings freeze during the pause, then restart together. The skin does not shorten the pause.
 
 ### Weapon 056 — HUSH MONEY
 > **Roster status:** Active utility/melee skins
@@ -660,11 +664,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: SPARK PLUG**
 - **Rarity:** Evolved
-- **Design:** Industrial copper launcher with black ceramic panels, exposed fuse tubes and orange charge caps. Active charges show a small spark travelling toward the fuse end as the timer runs down.
+- **Design:** Industrial copper launcher with black ceramic panels, exposed fuse tubes and orange charge caps. Each sticky charge shows a small fuse spark and a clear countdown ring while attached to a surface.
 
 **Skin 2: SUPERNOVA**
 - **Rarity:** Singular
-- **Design:** Cosmic alloy with a contained miniature star in the chamber, surrounded by rotating golden fragments. Each placed charge resembles a tiny celestial body with a visible countdown ring. All at Once sends a synchronized wave of starbursts through the charges, each resolving into a contained flare. Custom celestial audio.
+- **Design:** Cosmic alloy with a contained miniature star in the chamber and rotating golden fragments. Each placed charge becomes a tiny celestial node with a visible timer; simultaneous detonations receive separate, readable starbursts without changing their timing.
 
 ### Weapon 060 — THE USUAL
 > **Roster status:** Archived firearm skins, not launch content
@@ -717,11 +721,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: HOME PLATE**
 - **Rarity:** Evolved
-- **Design:** Deep navy shotgun body, cream ceramic panels and red stitching on the grip. The stance indicator resembles a small home-plate marker; preparation illuminates its corners one by one.
+- **Design:** Deep navy shotgun body, cream ceramic panels and red stitching on the grip. Three stance lights illuminate low, centre and high as the braced pellet fans are prepared.
 
 **Skin 2: IRON CURTAIN**
 - **Rarity:** Singular
-- **Design:** Blackened steel shell with heavy silver ribs and a contained molten-orange core beneath the foregrip. During Hold the Line, the ribs lock into a precise braced formation; Step Up releases a wide, layered orange-white muzzle fan with a brief metallic banner unfurl. Bespoke brace-lock and blast audio; no added protection or invulnerability.
+- **Design:** Blackened steel shell with heavy silver ribs and a contained molten-orange core. During the braced sequence, the ribs lock in three visible stages; the low, centre and high fans each receive a separate short muzzle pattern. No armour or protection is implied.
 
 ### Weapon 065 — PAPER CUT
 > **Roster status:** Archived firearm skins, not launch content
@@ -772,11 +776,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: FAN CLUB**
 - **Rarity:** Altered
-- **Design:** Matte cream shotgun body with bright coral fan ribs and a dark rubber grip. The horizontal and vertical patterns are represented by two clearly different fan-shaped indicators; Close the Gap rotates the selector through a quarter turn.
+- **Design:** Matte cream shotgun body with bright coral horizontal ribs and a dark rubber grip. The muzzle display forms one flat horizontal line, matching the weapon's broad lane of pellets.
 
 **Skin 2: WINGS OF THE STORM**
 - **Rarity:** Extraordinary
-- **Design:** Iridescent pearl receiver with layered metallic feather panels and a deep-violet core. The horizontal shot opens a wide, flat fan of luminous feather-like streaks; the vertical pattern forms a narrow rising plume. Close the Gap folds the panels upright in a dramatic but fast transformation. Custom mechanical wing-fold and firing audio; projectile patterns remain unchanged.
+- **Design:** Iridescent pearl receiver with layered metallic feather panels and a deep-violet core. The panels snap open into a wide, perfectly flat horizontal fan; feather-like trails stay aligned to the real pellet row. No vertical firing mode.
 
 ### Weapon 070 — DEAD CERT
 > **Roster status:** Archived firearm skins, not launch content
@@ -830,11 +834,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: FACTORY FLOOR: OVERHEAD**
 - **Rarity:** Singular
-- **Design:** weathered gunmetal under translucent enamel, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Short Route receives a clean geometric pulse around the weapon's mechanism; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Weathered gunmetal beneath translucent enamel, with amber arc-calibration lamps. A thin tracer follows the shell's high parabolic path and a landing ring appears at the actual impact point.
 
 **Skin 2: BLACK LABEL: OVERHEAD**
 - **Rarity:** Evolved
-- **Design:** A full signature treatment built around signature mechanic: satin graphite with ceramic edge plates, layered translucent panels and amber status lamps and tiny engraved calibration marks. Short Route triggers a layered light sweep that follows the weapon's normal action timing, with a second animation beat that resolves back into the weapon's core motif. Animated internal details and a short, readable action effect, with a bespoke mechanical cue. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Satin graphite with ceramic edge plates and layered translucent panels. The shell's arc is traced by a segmented amber ribbon; its inner impact zone and weaker outer ring appear as two clean nested circles on landing.
 
 ### Weapon 075 — TIGHTROPE
 > **Roster status:** Active utility/melee skins
@@ -918,22 +922,22 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: FINAL FORM: TALLY HO**
 - **Rarity:** Extraordinary
-- **Design:** frosted alloy with suspended metallic flakes, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Make It Even receives a controlled ripple with clearly visible edges; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Frosted alloy with suspended metallic flakes and a five-position counter on the receiver. The first four darts light one marker each; the fifth marker glows before the seed splits into three.
 
 **Skin 2: WORLD'S END: TALLY HO**
 - **Rarity:** Ascendant
-- **Design:** A full signature treatment built around signature mechanic: frosted alloy with suspended metallic flakes, layered translucent panels and copper fasteners with a crisp white indicator line. Make It Even triggers a compact holographic emblem that resolves into the weapon's icon, with a second animation beat that resolves back into the weapon's core motif. Layered animation, emissive components and a signature action effect with custom audio. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Pearlescent copper-white shell with a rotating five-tooth chamber and crisp violet indicator line. The fifth shot creates three separate crystalline trails at the fixed split point; the counter visibly resets afterward.
 
 ### Weapon 083 — STATIC SHOCK
 > **Roster status:** Active launch firearm skins
 
 **Skin 1: FIELD TEST: STATIC SHOCK**
 - **Rarity:** Altered
-- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Ground Wire receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Polished nickel with a restrained petrol sheen and mint-green fibre lines beneath the receiver. The electrical orb has a clean central glow; its single permitted secondary arc uses a thinner green line.
 
 **Skin 2: GILDED AGE: STATIC SHOCK**
 - **Rarity:** Extraordinary
-- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. Ground Wire triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Pearl alloy with fine copper filigree, translucent panels and ice-blue seams. On impact, one bright arc reaches one nearby target and ends. No branching chain beyond that single secondary connection.
 
 ### Weapon 084 — QUIET HOURS
 > **Roster status:** Active utility/melee skins
@@ -951,11 +955,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: NIGHT RUN: BLIND DATE**
 - **Rarity:** Evolved
-- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Make It Official receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Deep-cobalt finish with smoke-grey grips and two distinct muzzle indicators. Hip-fire lights the wide pellet cluster; aiming illuminates a narrow focus line for the single slug.
 
 **Skin 2: STARFALL: BLIND DATE**
 - **Rarity:** Singular
-- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. Make It Official triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Midnight-black body with a contained starfield under the receiver and a rotating focus ring. Hip-fire sends a loose constellation of small trails; the aimed shot compresses into one clean silver streak after its focus delay. Scope stays clear.
 
 ### Weapon 086 — HIGH BEAMS
 > **Roster status:** Active utility/melee skins
@@ -1083,11 +1087,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: NIGHT RUN: BIG PICTURE**
 - **Rarity:** Evolved
-- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Zoom Out receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Matte graphite receiver with three silver launch ports arranged in a shallow spiral. Each port flashes in order as the left, right and centre projectiles begin converging toward their fixed meeting distance.
 
 **Skin 2: STARFALL: BIG PICTURE**
 - **Rarity:** Singular
-- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. Zoom Out triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Obsidian casing with orbiting violet rings and a luminous central lens. The three trails curve inward in a precise spiral and meet at the same set distance; the trails never bend toward opponents.
 
 ### Weapon 098 — SMALL TALK
 > **Roster status:** Archived firearm skins, not launch content
@@ -1116,11 +1120,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: AFTER HOURS: OVERBOOKED**
 - **Rarity:** Extraordinary
-- **Design:** satin graphite with ceramic edge plates, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Squeeze In receives a tight ring of luminous particles that collapses immediately; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Gunmetal auto-shotgun with amber shell windows and a split-cycle indicator. The first pellet cluster flashes white; the delayed weaker micro-cluster follows with a short amber pulse.
 
 **Skin 2: ROYAL FLUSH: OVERBOOKED**
 - **Rarity:** Altered
-- **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. Squeeze In triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Gloss-black receiver with a royal-violet chamber and layered gold shell rings. Each firing cycle creates two separate impact blooms in sequence, the second deliberately smaller and later. The cosmetic effect does not change heat or cadence.
 
 ### Weapon 101 — ROLL CALL
 > **Roster status:** Active utility/melee skins
@@ -1171,11 +1175,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: OFF GRID: DOUBLE SHIFT**
 - **Rarity:** Altered
-- **Design:** deep cobalt lacquer over a warm brass frame, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Swap Shifts receives a compact holographic emblem that resolves into the weapon's icon; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Graphite dual-feed body with a blue dart channel and an amber disc channel. Weapon Action visibly changes the selector, and both ammo counts remain printed on separate side windows.
 
 **Skin 2: CROWN VECTOR: DOUBLE SHIFT**
 - **Rarity:** Singular
-- **Design:** A full signature treatment built around signature mechanic: blackened steel with iridescent hard-coat panels, layered translucent panels and silver micro-engraving around the action housing. Swap Shifts triggers a controlled ripple with clearly visible edges, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Polished titanium with a crown-shaped selector and two translucent ammunition chambers. The selected feed glows while the inactive feed dims; fast darts and heavy discs keep their original silhouettes and travel behaviour.
 
 ### Weapon 106 — OPEN TAB
 > **Roster status:** Archived firearm skins, not launch content
@@ -1215,11 +1219,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: NIGHT RUN: SIDE DISH**
 - **Rarity:** Evolved
-- **Design:** blackened steel with iridescent hard-coat panels, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. Swap Sides receives a few metallic fragments that orbit once before dissolving; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Dark steel body with two offset muzzle ports and a pale-blue companion-shard guide. The main bolt leaves a straight trail while the smaller shard follows its fixed curved route toward the merge point.
 
 **Skin 2: STARFALL: SIDE DISH**
 - **Rarity:** Singular
-- **Design:** A full signature treatment built around signature mechanic: deep cobalt lacquer over a warm brass frame, layered translucent panels and mint-green fibre lines beneath the receiver panels. Swap Sides triggers a thin animated line that travels across the casing and fades, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Black-violet alloy with a suspended twin-core assembly. A bright central line and a thinner curved side line remain distinct until they converge at the preset distance; neither trail tracks a moving target.
 
 ### Weapon 110 — CLEAN SLATE
 > **Roster status:** Active utility/melee skins
@@ -1644,11 +1648,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: AFTER HOURS: DETOUR**
 - **Rarity:** Extraordinary
-- **Design:** matte obsidian with precision-machined silver ribs, finished with amber status lamps and tiny engraved calibration marks. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a thin animated line that travels across the casing and fades; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Matte graphite launcher with a left/right bend selector and cyan route marks. The chosen side lights before firing; the bolt follows one clean, fixed curve and never adjusts mid-flight.
 
 **Skin 2: ROYAL FLUSH: DETOUR**
 - **Rarity:** Altered
-- **Design:** A full signature treatment built around signature mechanic: ivory composite with dark walnut accents, layered translucent panels and gold leaf inlays and a compact rotating insignia. signature action triggers a few metallic fragments that orbit once before dissolving, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Pearlescent dark-blue shell with a luminous vector ring around the chamber. The selected route draws a short violet arc in the chosen direction, then fades as the bolt completes its predetermined bend. No homing or cover-turning.
 
 ### Weapon 149 — WELL READ
 > **Roster status:** Archived firearm skins, not launch content
@@ -1699,11 +1703,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: OFF GRID: TRAFFIC JAM**
 - **Rarity:** Altered
-- **Design:** polished nickel with a restrained petrol sheen, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a layered light sweep that follows the weapon's normal action timing; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Industrial olive canister with five numbered fragment windows and a yellow timer strip. The canister bursts into five visible fragments in a fixed fan, each with a short clean trail.
 
 **Skin 2: CROWN VECTOR: TRAFFIC JAM**
 - **Rarity:** Singular
-- **Design:** A full signature treatment built around signature mechanic: pearl alloy with fine copper filigree, layered translucent panels and ice-blue seams and a small animated index dial. signature action triggers a clean geometric pulse around the weapon's mechanism, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Obsidian cluster launcher with a rotating five-point constellation inside the chamber. At burst, five luminous fragments spread in the same fixed fan and fade independently; no extra fragments, bounce or seeking.
 
 ### Weapon 154 — BETTER LUCK
 > **Roster status:** Archived firearm skins, not launch content
@@ -1743,11 +1747,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: NIGHT RUN: NARROW ESCAPE**
 - **Rarity:** Evolved
-- **Design:** brushed titanium with smoked-glass insets, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a short segmented trail that traces the action without crossing the sightline; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Brushed titanium capsule housing with a clear rebound indicator and orange impact collar. The first surface strike flashes once; the single rebound receives a short angled trail before the capsule bursts.
 
 **Skin 2: STARFALL: NARROW ESCAPE**
 - **Rarity:** Singular
-- **Design:** A full signature treatment built around signature mechanic: brushed titanium with smoked-glass insets, layered translucent panels and cyan instrument marks with a softly pulsing core. signature action triggers a tight ring of luminous particles that collapses immediately, with a second animation beat that resolves back into the weapon's core motif. A complete signature identity with elaborate but readable animation, a distinctive action sequence and bespoke audio. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Smoked-glass launcher with a contained violet capsule and orbiting calibration marks. The capsule's first impact creates a crisp ring, then one visible rebound arc and a final contained burst. No extra bounce or tracking.
 
 ### Weapon 158 — SAME PAGE
 > **Roster status:** Active utility/melee skins
@@ -1787,11 +1791,11 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 
 **Skin 1: FIRST EDITION: BAD SIGNAL**
 - **Rarity:** Commonplace
-- **Design:** pearl alloy with fine copper filigree, finished with mint-green fibre lines beneath the receiver panels. The detailing follows the distinctive weapon silhouette and reinforces its combat identity. signature action receives a brief constellation of sparks at the action's endpoint; the effect is brief and never hides the weapon's normal feedback.
+- **Design:** Pearl alloy with mint-green fibre lines and a small signal-window display. The slow pulse has a soft concentric muzzle ring; on impact, a tiny static fringe appears only at the edge of the target's HUD.
 
 **Skin 2: INFINITE LOOP: BAD SIGNAL**
 - **Rarity:** Extraordinary
-- **Design:** A full signature treatment built around signature mechanic: polished nickel with a restrained petrol sheen, layered translucent panels and violet glass windows around the internal mechanism. signature action triggers a crisp flash contained to the muzzle and receiver, with a second animation beat that resolves back into the weapon's core motif. A major visual transformation, multi-stage action animation and bespoke sound presentation. The effect communicates the existing action clearly and does not alter its timing or function.
+- **Design:** Polished nickel with petrol sheen, violet glass windows and a suspended waveform core. The pulse leaves a broad, unmistakable ring and the hit creates a brief violet screen-edge shimmer. The centre stays clear and the effect grants no gameplay advantage.
 
 ### Weapon 162 — DEADLINE
 > **Roster status:** Archived firearm skins, not launch content
