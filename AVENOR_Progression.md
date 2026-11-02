@@ -353,7 +353,189 @@ Implementation requirements:
 - Handle failed saves safely without silently losing or duplicating rewards.
 - Apply rate limits and server-side checks to challenge completion and reward claims.
 
-## 14. Decisions Still Requiring Approval
+## 16. Recommended Complete Progression Baseline
+
+> **Recommendation only.** This section closes the numerical design gaps with a coherent first-pass model. It is not locked. Values should be adjusted from playtest and economy simulations before implementation. All gameplay unlocks remain earnable without Robux.
+
+### 16.1 Account XP proposal
+
+**Match reward target: 140–220 account XP**, with a hard cap of 240 XP from one match before challenge rewards.
+
+| Component | Proposed XP | Rule |
+|---|---:|---|
+| Match completion | 100 | Awarded for a valid completed match |
+| Win bonus | 30 | Modest bonus; losing still earns meaningful XP |
+| Performance contribution | 0–50 | Mode-aware, capped, and server-calculated |
+| Objective contribution | 0–40 | Rewards meaningful objective participation |
+| Daily challenge | 100–200 | Separate from match cap |
+| Weekly challenge | 400–700 | Separate from match cap |
+
+Anti-farming:
+- Completion XP requires a minimum valid participation threshold.
+- Performance and objective XP share a per-match cap.
+- Repeated low-value actions do not generate uncapped XP.
+- A disconnected player can receive a partial completion reward only if the server confirms meaningful participation and the mode's disconnect rules permit it.
+- Reconnecting never awards the same match twice.
+
+### 16.2 Uncapped account-level curve
+
+Proposed XP required for the next level:
+
+`XP(next level) = 250 + 25 × (current level − 1)`
+
+Examples:
+
+| Current level | XP to next level |
+|---:|---:|
+| 1 | 250 |
+| 5 | 350 |
+| 10 | 475 |
+| 20 | 725 |
+| 50 | 1,475 |
+| 100 | 2,725 |
+
+The curve has no maximum level and grows linearly. It is intentionally quick early and slower over time without using an exponential wall.
+
+**Reward cadence proposal:**
+- Every level: visible level progress and a small account milestone marker.
+- Every 5 levels: a meaningful reward such as Credits, title, banner, or cosmetic.
+- Every 10 levels: a larger cosmetic reward.
+- Levels 25, 50, 75, 100, and each 100 levels after that: special milestone reward.
+- Never award combat statistics or paid-only gameplay access.
+
+### 16.3 Weapon unlock policy proposal
+
+- Every account starts with a complete, viable default loadout.
+- All 167 planned weapons are permanently earnable through account progression, AVENOR Credits, or clearly stated weapon challenges.
+- No gameplay weapon is Robux-exclusive.
+- No weapon is available only from a random case.
+- Unlock requirements are visible in the weapon collection before progress begins.
+- A reasonable starter selection should be unlocked early so players can try distinct playstyles without a long grind.
+- Weapon unlock order must not imply a power ladder. Early and late weapons should be sidegrades with distinct roles.
+
+### 16.4 Ability unlock proposal
+
+- No ability is Robux-exclusive.
+- Abilities are unlocked through account progression, Credits, or explicit challenges.
+- Early progression should unlock a varied starter selection from different ability categories.
+- The remaining ability roster should be steadily accessible, with no ability permanently limited to a short event.
+- Every ability must be available in the player's collection with its full mechanics and counterplay visible before unlock.
+- Ranked eligibility must not be tied to owning premium content. The final ranked unlock policy should be tested to ensure new competitive players are not forced into an excessive grind.
+
+### 16.5 Weapon mastery proposal
+
+- Each weapon has **25 mastery levels**.
+- Proposed XP required for each next mastery level:
+
+`Weapon XP(next level) = 120 + 40 × (current mastery level − 1)`
+
+- Weapon XP is earned only when the weapon is equipped and meaningfully used in a valid match.
+- Match completion provides the base weapon XP; valid weapon contribution can add a small capped bonus.
+- Weapon-specific challenges provide larger bursts but cannot be farmed repeatedly.
+- Level 5, 10, 15, and 20 provide intermediate cosmetic rewards.
+- Level 25 grants the weapon's dedicated mastery completion reward, title or badge, and profile showcase option.
+- No mastery level changes damage, accuracy, recoil, reload speed, movement, ammunition, range, or ability cooldowns.
+
+### 16.6 Competitive rating proposal
+
+Keep the existing eight-tier ladder and three divisions per tier. Use a visible rating score with **600 points per tier** and **200 points per division**.
+
+| Tier | Proposed rating |
+|---|---:|
+| FRESH SPAWN | 0–599 |
+| WARM-UP | 600–1,199 |
+| SCRAPPER | 1,200–1,799 |
+| MENACE | 1,800–2,399 |
+| PUBLIC PROBLEM | 2,400–2,999 |
+| FINAL BOSS | 3,000–3,599 |
+| UNTOUCHABLE | 3,600–4,199 |
+| AVENOR | 4,200+ |
+
+Division III is the bottom 200 points of each tier, Division II the middle 200, and Division I the top 200. AVENOR has no divisions.
+
+**Rating behavior proposal:**
+- 5 placement matches before a visible starting rank.
+- Use a proven team-rating model with uncertainty, rather than a hand-built formula based on eliminations.
+- Match outcome is the primary rating signal; opponent and team rating context adjust the amount gained or lost.
+- Individual performance may be used only for placement calibration or uncertainty reduction, never as a reason to ignore objective play.
+- Expected rating movement after a normal match should usually sit around 15–30 points, with larger changes possible during placements or high-uncertainty calibration.
+- Matchmaking uses hidden rating and queue constraints, not account level, cosmetic rarity, or weapon mastery.
+- Party rating gaps and repeated boosting patterns require safeguards.
+
+### 16.7 Ranked season proposal
+
+- Keep the planned monthly season cadence.
+- Account level and weapon mastery never reset.
+- Visible seasonal rank is re-earned through a short placement sequence each season.
+- Hidden matchmaking rating receives a modest soft reset toward the population average, not a complete wipe.
+- Season-end rewards use the highest eligible rank reached during that season, provided the player completed the minimum ranked participation requirement.
+- The AVENOR top 20 is calculated from eligible season-end leaderboard rating. Ties are resolved by more ranked wins, then fewer abandons, then earlier achievement of the rating.
+- Seasonal rewards are cosmetic only.
+
+### 16.8 Season pass proposal
+
+- **40 tiers** per monthly season.
+- Free and optional premium tracks.
+- **500 pass XP per tier**, for 20,000 total pass XP.
+- Pass XP comes from match completion, wins, objective contribution, and weekly challenges.
+- Weekly challenges provide flexible catch-up progress.
+- No daily streak requirement and no reward that disappears because a player misses one day.
+- The free track contains meaningful cosmetics and Credits.
+- The premium track adds cosmetic variety, not gameplay access or stronger effects.
+- Premium rewards must be previewable before purchase.
+
+### 16.9 AVENOR Credits and cosmetic shop proposal
+
+- Award **40 Credits** for a valid completed match.
+- Add **20 Credits** for a win.
+- Daily and weekly challenges add modest additional Credits.
+- Do not award Credits for repeated invalid matches or AFK participation.
+- Credits cannot be purchased with Robux in the initial economy proposal.
+- Direct purchase is the default shop model.
+
+Suggested initial direct-purchase bands:
+
+| Rarity | Proposed Credit price |
+|---|---:|
+| Commonplace | 150–300 |
+| Altered | 400–700 |
+| Evolved | 800–1,200 |
+| Ascendant | 1,400–2,000 |
+| Extraordinary | 2,400–3,400 |
+| Singular | 4,000–5,500 |
+
+Prices are starting anchors, not fixed values. Individual items may vary with production scope, but rarity must not imply gameplay advantage.
+
+### 16.10 Cosmetic cases proposal
+
+- Do not sell paid random cases in the initial release.
+- Prefer direct purchase and earnable challenge rewards.
+- If earnable cases are later retained, publish exact odds, show possible contents, prevent paid-only power, and define duplicate compensation before launch.
+- A case must never be the only route to a gameplay weapon or ability.
+- Never use fake scarcity or misleading countdowns.
+
+### 16.11 Challenge cadence proposal
+
+- **Daily:** 3 challenges, each completable in normal play; refresh every 24 hours.
+- **Weekly:** 6 challenges with multiple mode/playstyle paths; refresh weekly.
+- **Seasonal:** a small set of long-form goals that can be completed across the month.
+- **Achievements:** permanent, one-time milestones.
+- Challenge progress should be account-wide where possible, with weapon-specific requirements used only when they meaningfully celebrate that weapon.
+- Provide rerolls only if they do not become a paid requirement.
+
+## 17. Decisions Still Requiring Approval
+
+1. Approve or adjust the proposed account XP curve and match XP components.
+2. Approve the recommended policy that all gameplay weapons are earnable and never Robux-exclusive.
+3. Approve the proposed ability unlock approach and ranked access policy.
+4. Approve 25 weapon mastery levels and the proposed XP curve.
+5. Approve the visible rating bands, five placement matches, and monthly soft-reset direction.
+6. Approve the 40-tier season pass and 20,000 pass XP target.
+7. Approve AVENOR Credits match rewards and the proposed shop price bands.
+8. Confirm that paid random cosmetic cases are excluded from the initial release.
+9. Validate all reward rates, unlock pacing, and rank thresholds through simulation and closed playtests.
+
+## 18. Decisions Still Requiring Approval
 
 1. Final weapon unlock policy, including whether any weapon access can ever be paid-exclusive.
 2. Final ability unlock schedule and ranked availability.
