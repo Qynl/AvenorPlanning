@@ -573,6 +573,9 @@ Map 01 is not ready for final approval until:
 
 ---
 
+
+**Greybox layouts:** Proposed first-pass footprints, routes, elevation layers, spawn regions, pickup placement rules, and mode overlays for all eight concepts are documented in `AVENOR_MapLayouts.md`. These blueprints are starting geometry only and must be validated in Roblox Studio.
+
 ## 17. Proposed Map Roster Overview
 
 | Map | Size | Distinct gameplay identity | Initial mode candidates |
