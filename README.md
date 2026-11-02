@@ -11,7 +11,8 @@ The central planning repository for **AVENOR**, a competitive Roblox FPS built a
 ## Core gameplay
 
 - [AVENOR_Gameplay.md](AVENOR_Gameplay.md) — movement, combat, health, weapon handling, pickups, match flow, HUD requirements, and first playable scope.
-- [AVENOR_Weapons.md](AVENOR_Weapons.md) — 167 weapon concepts, individual mechanics, and proposed prototype combat stat sheet.
+- [AVENOR_Weapons.md](AVENOR_Weapons.md) — weapon catalogue, active/archive status, and proposed prototype combat stats.
+- [AVENOR_FiringIdentities.md](AVENOR_FiringIdentities.md) — the 40 active firearms' distinct projectile and firing behaviours.
 - [AVENOR_Abilities.md](AVENOR_Abilities.md) — 50 curated player ability concepts and proposed prototype specifications.
 - [AVENOR_GameModes.md](AVENOR_GameModes.md) — DUEL, DUOS, TEAM DEATHMATCH, FREE FOR ALL, HARDPOINT, CAPTURE THE FLAG, and AVENOR ORIGIN.
 - [AVENOR_Maps.md](AVENOR_Maps.md) — map design standards and the eight-map concept roster.
@@ -20,7 +21,7 @@ The central planning repository for **AVENOR**, a competitive Roblox FPS built a
 ## Progression and presentation
 
 - [AVENOR_Progression.md](AVENOR_Progression.md) — account XP, unlocks, weapon mastery, ranked, seasons, currencies, challenges, and recommended economy values.
-- [AVENOR_Cosmetics.md](AVENOR_Cosmetics.md) — individual weapon skins. Each skin belongs to one specific weapon.
+- [AVENOR_Cosmetics.md](AVENOR_Cosmetics.md) — individual weapon skins. The 80 active firearm skins are aligned to the new launch firing identities; archived firearm skins are reference-only.
 - [AVENOR_KillEffects.md](AVENOR_KillEffects.md) — elimination effect collection.
 - [AVENOR_WinEffects.md](AVENOR_WinEffects.md) — victory effect collection.
 - [AVENOR_Emotes.md](AVENOR_Emotes.md) — character emote collection.
