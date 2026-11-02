@@ -612,7 +612,7 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 - **Design:** Antique bronze scanner with emerald glass, engraved compass roses and a rotating treasure-map core. Refreshing a marked pickup sends a luminous compass pulse across the display and briefly unfurls a tiny map parchment. Only the already-marked pickup is shown.
 
 ### Weapon 055 — BAD TIMING
-> **Roster status:** Archived firearm skins, not launch content
+> **Roster status:** Active launch firearm skins
 
 **Skin 1: OFF BEAT**
 - **Rarity:** Altered
@@ -1783,7 +1783,7 @@ All effects must preserve weapon silhouette, aim clarity, projectile readability
 - **Design:** A full signature treatment built around signature mechanic: weathered gunmetal under translucent enamel, layered translucent panels and scarlet enamel tabs and finely etched serial marks. signature action triggers a short segmented trail that traces the action without crossing the sightline, with a second animation beat that resolves back into the weapon's core motif. A small action-linked indicator and a distinctive material finish; effects remain restrained. The effect communicates the existing action clearly and does not alter its timing or function.
 
 ### Weapon 161 — BAD SIGNAL
-> **Roster status:** Archived firearm skins, not launch content
+> **Roster status:** Active launch firearm skins
 
 **Skin 1: FIRST EDITION: BAD SIGNAL**
 - **Rarity:** Commonplace
