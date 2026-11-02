@@ -7,7 +7,7 @@
 - **Platform:** Roblox
 - **Genre:** Multiplayer open-world exploration sandbox shooter with separate competitive playlists.
 - **World style:** Modern, recognisable, stylised realism; detailed but readable and designed around Roblox performance.
-- **Core promise:** Explore a large world with other players. Discover places, find weapons and equipment, encounter rival groups, establish a presence and choose your own adventures.
+- **Core promise:** Explore a large, authored world with other players. Discover places, find weapons and equipment, encounter rival squads, establish a temporary presence and create your own adventures. AVENOR is an exploration-action sandbox, not a realistic city-life or crime simulator.
 - **Primary experience:** The rotating Open World.
 - **Secondary experience:** Dedicated competitive shooter playlists.
 - **Movement reference:** Fast, responsive movement inspired by the feel of RIVALS, without copying its content.
@@ -15,7 +15,7 @@
 ## 2. What the game is really about
 The main reason to join is **exploration, scavenging and unpredictable encounters**. Players travel through large regions, search hundreds of distinct locations, discover weapons and equipment, meet other players and occasionally encounter NPC groups that behave like player squads.
 
-There is no mandatory mission chain, civilian city simulation, police response loop or service-NPC economy. The world is primarily a place for players to explore and interact with one another.
+There is no mandatory mission chain or attempt to simulate everyday life. AVENOR is not GTA: no civilian crowds, traffic-life simulation, police response loop, wanted system, criminal career, functioning service economy or city-management layer. Buildings and infrastructure provide places, routes, atmosphere and discoveries, not a simulated society.
 
 ## 3. Open World pillars
 1. **Exploration:** coherent regions, memorable landmarks, hidden interiors, caves, tunnels, rooftops, clues and unusual locations.
