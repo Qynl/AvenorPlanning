@@ -487,13 +487,13 @@ A weapon may share a broad category with another weapon, but it must not share t
 
 **Projectile identity:** Upward-arc gravity charge.
 
-**How it fires:** The launcher fires a slow gravity orb that rises slightly after leaving the muzzle, then curves downward toward the ground. It bursts into a brief circular pressure field on impact. The orb's path is fixed by launch angle and gravity; it does not track opponents.
+**How it fires:** The launcher sends a bright gravity orb straight upward to a capped height. The orb hangs briefly at that height, then drops vertically and creates a circular pressure pulse when it reaches the floor. Weapon Action can shorten the hang time, but cannot change the drop point after launch. The orb does not travel along a normal ballistic arc or track opponents.
 
 **Projectile, impact and feedback:**
-- The orb has a visible arc ribbon and a landing ring appears shortly before impact. A direct hit deals more than the edge of the pressure field. Opponents can move out of the ring before it activates.
+- The orb leaves a vertical light column that makes its eventual drop point clear. A floor ring appears before the pulse activates. The central impact is stronger than the edge, and opponents can leave the marked circle before it triggers.
 
 **What makes it play differently:**
-- HIGH HORSE is an aerial arc launcher. It pressures elevated positions and predictable cover without behaving like a straight rocket.
+- HIGH HORSE creates a delayed vertical drop zone above the arena. Unlike OVERHEAD, which sends a shell along a high arc to a chosen landing point, HIGH HORSE sends an orb straight up and then straight down at its launch column.
 
 **Required implementation checks:**
 - Projectile path and impact are validated by the server.
@@ -717,13 +717,13 @@ A weapon may share a broad category with another weapon, but it must not share t
 
 **Projectile identity:** Selectable dual-feed projectile modes.
 
-**How it fires:** The weapon contains two ammunition feeds. The primary trigger alternates between a fast, light dart and a slow, heavy disc. Weapon Action locks the next three shots to one feed, after which the alternation resumes. The light dart is for quick tracking; the heavy disc is for leading a predictable route.
+**How it fires:** The weapon contains two separate ammunition feeds. The trigger fires only from the currently selected feed: a fast, light dart or a slow, heavy disc. Weapon Action manually switches feeds with a short, visible selector animation. It never auto-alternates, so the player chooses the projectile before each engagement and must manage both ammo pools.
 
 **Projectile, impact and feedback:**
-- A side selector visibly moves between feeds. The light dart has a thin trail and quick report; the heavy disc has a broad silhouette and lower travel speed. The selected feed is always shown on the HUD.
+- A side selector visibly moves between feeds. The light dart has a thin trail and quick report; the heavy disc has a broad silhouette and lower travel speed. The selected feed and both remaining ammo counts are always shown on the HUD.
 
 **What makes it play differently:**
-- DOUBLE SHIFT is a two-ammunition rifle. It gives deliberate control over projectile type without becoming a generic fire-mode toggle.
+- DOUBLE SHIFT is a manually selected dual-feed rifle. TWO CENTS automatically alternates its two round types on every shot; DOUBLE SHIFT lets the player deliberately commit to one feed until they choose to switch.
 
 **Required implementation checks:**
 - Projectile path and impact are validated by the server.
