@@ -6,7 +6,7 @@
 
 AVENOR has three distinct event layers:
 
-1. **Global World Events:** large, world-wide transformations. They can replace the active region, change its biome or season, alter weather, lighting, vegetation, water, wildlife, NPC routines, landmarks, routes and available activities. The whole server shares the same world state.
+1. **Global World Events:** large, world-wide transformations. They can replace the active region, change its biome or season, alter weather, lighting, vegetation, water, landmarks, routes and available activities. The whole server shares the same world state.
 2. **Local World Events:** temporary situations inside the active world, such as a convoy, expedition, blackout or travelling market. These add activity without replacing the world's overall identity.
 3. **Competitive Events:** limited-time playlists and rulesets such as 1v1, 2v2, FFA and objective variants. These run in dedicated match servers and do not alter the Open World.
 
@@ -24,7 +24,7 @@ Calendar events can combine all three layers, but the global transformation is t
 - **ANOMALY BREACH:** Strange energy appears at selected landmarks, temporarily changing lighting, sounds, NPC behaviour and access to hidden rooms.
 - **TITAN SIGHTING:** A huge neutral creature or machine can be seen moving in the far distance. Players follow its route and discover traces; it is a spectacle and exploration event, not a forced boss fight.
 - **SUPPLY SURGE:** Several temporary supply stations appear across the region with balanced, capped event rewards. No exclusive permanent weapon unlocks.
-- **FACTION MOBILISATION:** NPC groups move in large numbers and establish temporary camps or checkpoints, changing routes and local encounters.
+- **FACTION MOBILISATION:** NPC faction squads move in large numbers and establish temporary camps or checkpoints, changing routes and local encounters.
 - **SKYFALL:** The sky, clouds and lighting shift into a dramatic event state, with unusual objects or signals appearing at distant landmarks.
 - **WORLDWIDE HIDE & SEEK:** A harmless community-wide search begins, with clues placed across the map and a shared progress tracker.
 - **ADMIN SHOWCASE:** Developers demonstrate a new map area, NPC, vehicle, weapon cosmetic or upcoming feature in a controlled public event.
@@ -53,7 +53,7 @@ Players across all servers contribute to one shared target, such as documenting 
 A chain of clues appears over several days. Each stage reveals a new location, story fragment or hidden route. Different servers share the same campaign stage so the community can compare discoveries without requiring everyone online simultaneously.
 
 ### World emergencies
-A region-wide situation changes NPC routines and available routes: a major communications outage, evacuation drill, infrastructure failure, flood warning or containment alert. These should create exploration and cooperation, not unavoidable damage or forced combat.
+A region-wide situation changes NPC faction activity and available routes: a major communications outage, evacuation drill, infrastructure failure, flood warning or containment alert. These should create exploration and cooperation, not unavoidable damage or forced combat.
 
 ### Developer live showcases
 A scheduled or surprise session where developers reveal a new region, feature, cosmetic collection or upcoming update. It can include a temporary exhibit, guided NPC tour, live Q&A area or playable preview. The showcase must not grant gameplay advantages unavailable elsewhere.
@@ -83,7 +83,7 @@ Short tournaments, weapon-restriction playlists, map-specific cups, team challen
 - A global event may select a different region from the normal rotation. The event's world selection takes priority over the regular rotation schedule.
 - Some regions may be excluded when their geography or climate conflicts with the event. For example, WINTERLIGHT should not load REDSTONE as a normal desert world. The event can instead select a cold region such as NORTHPASS, PINEFALL or BLACKRIDGE.
 - If the event calls for a fully transformed world, the entire playable region must follow that theme. Avoid obvious untreated pockets where the normal biome clashes with the event.
-- Global transformations should change several systems together: terrain/material appearance, vegetation, weather, sky and lighting, water/ice, ambience, wildlife, NPC clothing and schedules, points of interest, routes and activities.
+- Global transformations should change several systems together: terrain/material appearance, vegetation, weather, sky and lighting, water/ice, ambience, wildlife, NPC faction appearance and schedules, points of interest, routes and activities.
 - Transformations must preserve navigation, readable landmarks, accessibility and gameplay fairness. Snow must not hide important paths or make combat unreadable.
 - Do not build ten duplicate maps for every season. Use modular world-state variants, shared environmental assets and carefully selected event-specific changes.
 - A world transition happens at a controlled server boundary. Never swap terrain or major collision during an active player encounter.
@@ -104,12 +104,12 @@ A travelling expedition sets up a temporary camp at a remote landmark. NPC explo
 
 ### 02 — BLACKOUT
 **Duration:** 90 minutes per occurrence, several occurrences across a 24-hour window. **Type:** Local World.
-A major district loses power. Street lighting, selected doors, signs, lifts and security systems change state. Backup generators can be found and activated. Emergency crews arrive and NPC routines adapt.
-**Changes:** district lighting, access routes, generator interactions, NPC routines and ambience.
+A major district loses power. Street lighting, selected doors, signs, lifts and site systems change state. Backup generators can be found and activated. Emergency crews arrive and NPC faction activity adapt.
+**Changes:** district lighting, access routes, generator interactions, NPC faction activity and ambience.
 
 ### 03 — MOVING MARKET
 **Duration:** 48 hours. **Type:** Local World.
-A convoy of traders travels between settlements, setting up temporary stalls at different stops. Stock is curated and cosmetic/utility focused; it does not bypass permanent weapon discovery rules.
+A convoy of NPC faction groups travels between settlements, setting up temporary stalls at different stops. Stock is curated and cosmetic/utility focused; it does not bypass permanent weapon discovery rules.
 **Changes:** moving NPC convoy, temporary market locations, rotating services and social gathering points.
 
 ### 04 — LOST SIGNAL
@@ -119,18 +119,18 @@ Unusual radio transmissions appear across the region. Players triangulate signal
 
 ### 05 — RIVAL TERRITORIES
 **Duration:** 72 hours. **Type:** Local World.
-Two NPC groups contest temporary outposts. Players may help either side, ignore the conflict or explore the changing routes. Control shifts through NPC activity, not a permanent player-owned territory system.
+Two NPC faction squads contest temporary outposts. Players may help either side, ignore the conflict or explore the changing routes. Control shifts through NPC activity, not a permanent player-owned territory system.
 **Changes:** faction patrols, outpost access, local dialogue, supply routes and optional encounters.
 
 ### 06 — CONVOY RUN
 **Duration:** 24 hours. **Type:** Local World.
-A civilian convoy crosses the region on a scheduled route. Players can escort it, scout ahead, help with roadblocks or simply watch it pass. NPCs react to threats and route obstructions.
-**Changes:** moving convoy, road traffic, escort NPCs, route incidents and temporary rewards.
+A NPC faction convoy crosses the region on a scheduled route. Players can escort it, scout ahead, help with roadblocks or simply watch it pass. NPC faction members react to threats and route obstructions.
+**Changes:** moving convoy, road traffic, escort NPC faction members, route incidents and temporary rewards.
 
 ### 07 — THE DEEP SURVEY
 **Duration:** 4 days. **Type:** Local World.
 A research crew opens a temporary survey operation at a cave, tunnel, mine or underwater-adjacent site. Players locate survey equipment, map chambers and uncover a permanent journal discovery. The location differs by world.
-**Changes:** temporary site access, research NPCs, exploration props and a layered discovery route.
+**Changes:** temporary site access, NPC faction squads, exploration props and a layered discovery route.
 
 ### 08 — STORMFRONT
 **Duration:** 6 hours of active weather within a 24-hour window. **Type:** Local World.
@@ -144,7 +144,7 @@ Normally closed public buildings open for a temporary community weekend: museum,
 
 ### 10 — BOUNTY BOARD
 **Duration:** 72 hours. **Type:** Local World.
-A temporary board posts optional tracking tasks involving NPC targets, missing cargo or unusual sightings. Objectives are investigation and location-based, not simply repeated eliminations.
+A temporary board posts optional tracking tasks involving faction members, missing cargo or unusual sightings. Objectives are investigation and location-based, not simply repeated eliminations.
 **Changes:** temporary clues, NPC movement schedules, tracking interactions and a limited event journal. Rewards are cosmetic/XP, never exclusive weapons.
 
 ### 11 — DUEL CIRCUIT
@@ -194,7 +194,7 @@ These are the major seasonal experiences. Each one should make the active world 
 ### 19 — HALLOWEEN: VEILFALL
 **Window:** approximately 10 days around October 31. **Type:** Global World + Local World + optional Competitive.
 **Global transformation:** The entire active region shifts into a late-autumn night state. Trees lose leaves, vegetation darkens, skies become overcast, fog and wind move across open areas, water and ground materials take on a colder look, and every settlement receives a consistent Halloween atmosphere. Landmarks gain eerie alternate states, but routes and silhouettes remain readable.
-**World activity:** Masked visitors and unusual NPC groups appear throughout the region. Abandoned interiors open, strange signals lead to hidden places, and lantern trails connect discoveries. A themed night playlist can run separately.
+**World activity:** Masked visitors and unusual NPC faction squads appear throughout the region. Abandoned interiors open, strange signals lead to hidden places, and lantern trails connect discoveries. A themed night playlist can run separately.
 **World selection:** Prefer worlds with forests, towns, old structures and varied interiors. Avoid loading a bright summer/island version unchanged.
 **Changes:** region-wide autumn-night art state, weather, vegetation, lighting, NPC variants, interior access, ambient audio and discovery trails.
 
@@ -202,8 +202,8 @@ These are the major seasonal experiences. Each one should make the active world 
 **Window:** approximately 14 days around December 25. **Type:** Global World + Local World + optional Competitive.
 **Global transformation:** Christmas takes over the entire Open World. The active region becomes a coherent winter environment: snow-covered ground and rooftops, frozen or partially frozen water where appropriate, snow-laden trees, cold skies, winter lighting, snowstorms and winter ambience. Cities, roads, forests, mountains and interiors all receive matching seasonal treatment. It must not look like a normal map with a few snowy props.
 **World selection:** Winterlight may override the regular four-day rotation and select a cold-compatible region, such as NORTHPASS, PINEFALL or BLACKRIDGE. REDSTONE and other strongly hot/desert worlds are excluded for this event rather than awkwardly forcing snow onto them. The event can use one featured winter world or rotate between a small approved winter pool.
-**World activity:** Settlements become decorated winter towns. A travelling gift train or delivery convoy crosses the map, markets and social areas open, and players can help deliver parcels or uncover winter discoveries. Wildlife, civilian clothing, NPC schedules and services adapt to winter conditions.
-**Changes:** whole-region winter biome state, snow coverage, ice/water variants, winter vegetation, sky/weather, settlement dressing, NPC clothing/routines, wildlife, routes and seasonal activities.
+**World activity:** Settlements become decorated winter towns. A travelling gift train or delivery convoy crosses the map, temporary exploration areas open, and players can help deliver parcels or uncover winter discoveries. Wildlife, faction clothing, NPC schedules and services adapt to winter conditions.
+**Changes:** whole-region winter biome state, snow coverage, ice/water variants, winter vegetation, sky/weather, settlement dressing, NPC faction appearance/routines, wildlife, routes and seasonal activities.
 
 ### 21 — NEW YEAR: FIRST LIGHT
 **Window:** December 30 to January 2. **Type:** Global World + Local World + social.
@@ -215,7 +215,7 @@ These are the major seasonal experiences. Each one should make the active world 
 ### 22 — SPRING: WILDBLOOM
 **Window:** approximately 10 days around the spring equinox. **Type:** Global World + Local World.
 **Global transformation:** The entire region moves into spring. Snow recedes in cold areas, trees and vegetation regain leaves, flowers and ground cover appear across suitable terrain, rivers and lakes reflect seasonal thaw, and skies and lighting become brighter. Each biome gets a spring version rather than receiving identical flowers everywhere.
-**World activity:** Wildlife becomes more active, migratory species appear, botanical research stations open and temporary paths or clearings reveal new discoveries. NPC routines and outdoor gathering spaces change with the season.
+**World activity:** Wildlife becomes more active, migratory species appear, botanical research stations open and temporary paths or clearings reveal new discoveries. NPC faction activity and outdoor gathering spaces change with the season.
 **World selection:** Broadly compatible with most worlds, but each needs its own authored spring state.
 **Changes:** region-wide vegetation and terrain materials, snowmelt, water state, wildlife, weather, NPC schedules, temporary research sites and discovery records.
 
@@ -224,28 +224,28 @@ These are the major seasonal experiences. Each one should make the active world 
 **Global transformation:** The whole active region enters summer. Longer/brighter daylight, warmer skies, lush vegetation where appropriate, dry paths, changed water appearance and summer ambience affect the full map. Coastal regions gain bright beaches and clear water; forests gain dense green canopies; cities gain rooftop and street-life changes. This is a full seasonal art/weather state, not just a beach party.
 **World activity:** Shoreline races, parkour routes, public games, evening concerts and temporary social spaces appear where geography supports them. Non-coastal worlds receive alternatives such as hilltop festivals, outdoor cinemas or town fairs.
 **World selection:** Most worlds can qualify, with activities adapted to geography.
-**Changes:** region-wide summer lighting/weather/vegetation state, water and shoreline variants, NPC clothing/routines, public spaces and seasonal activities.
+**Changes:** region-wide summer lighting/weather/vegetation state, water and shoreline variants, NPC faction appearance/routines, public spaces and seasonal activities.
 
 ### 24 — APRIL FOOLS: WORLD GLITCH
 **Window:** April 1, 24 hours. **Type:** Global World + Local World.
-**Global transformation:** The whole region receives a harmless reality-glitch treatment. Selected materials, signs, environmental props, public displays and NPC routines become subtly inconsistent. Some familiar landmarks have playful alternate versions, and unusual visual rules connect into a region-wide puzzle. It should feel like the world itself is behaving strangely, not like random props were scattered around.
-**World activity:** NPC dialogue, signage, public announcements and hidden interactions contain clues. Players can compare discoveries. Do not invert core controls, obstruct accessibility or make the world unreadable.
+**Global transformation:** The whole region receives a harmless reality-glitch treatment. Selected materials, signs, environmental props, public displays and NPC faction activity become subtly inconsistent. Some familiar landmarks have playful alternate versions, and unusual visual rules connect into a region-wide puzzle. It should feel like the world itself is behaving strangely, not like random props were scattered around.
+**World activity:** faction signals and environmental clues, signage, world signals and hidden interactions contain clues. Players can compare discoveries. Do not invert core controls, obstruct accessibility or make the world unreadable.
 **World selection:** Any region, with a tailored set of environmental swaps.
-**Changes:** region-wide visual/audio variants, landmark swaps, NPC dialogue/routines, public displays and connected puzzles.
+**Changes:** region-wide visual/audio variants, landmark swaps, faction signals and environmental clues/routines, public displays and connected puzzles.
 
 ### 25 — AUTUMN: HARVEST CIRCUIT
 **Window:** approximately 10 days around the autumn equinox. **Type:** Global World + Local World + social.
 **Global transformation:** The entire region shifts into autumn. Forests and street trees change colour, leaves collect along paths, fields and vegetation mature or fade, skies become cooler, rain and wind become more common, and water/lighting take on an autumn tone. Every biome receives an appropriate autumn palette.
-**World activity:** Harvest markets, a travelling fair, deliveries, outdoor displays and vendor stories appear across the region. NPC clothing, routines and settlement activity adapt to the season.
+**World activity:** Harvest markets, a travelling fair, deliveries, outdoor displays and faction activity appear across the region. NPC faction appearance, routines and settlement activity adapt to the season.
 **World selection:** Most worlds qualify, with event spaces adapted to local geography.
-**Changes:** region-wide foliage/material/weather state, market and fair spaces, vendor NPCs, delivery routes and discovery trails.
+**Changes:** region-wide foliage/material/weather state, market and fair spaces, NPC faction squads, delivery routes and discovery trails.
 
 ### 26 — ANNIVERSARY: AVENOR REUNION
 **Window:** 7 days around the game's launch anniversary. **Type:** Global World + Local World + community.
 **Global transformation:** The active region becomes a celebration of AVENOR's history. Landmarks display anniversary lighting, public spaces gain a coherent event identity, and selected locations become archive spaces showing past world states, community milestones and previous event objects. The transformation should feel present across the whole map, not confined to one lobby.
-**World activity:** Archived event spaces and selected NPC visitors return in curated form. A community-wide exploration record can be tracked. Returning content must be labelled as an archive, not presented as a live version of an old event.
+**World activity:** Archived event spaces and selected NPC faction visitors return in curated form. A community-wide exploration record can be tracked. Returning content must be labelled as an archive, not presented as a live version of an old event.
 **World selection:** Any region can host the anniversary state.
-**Changes:** region-wide anniversary dressing, landmark lighting, archive interiors, returning props/NPCs, community progress and commemorative cosmetics.
+**Changes:** region-wide anniversary dressing, landmark lighting, archive interiors, returning props/NPC faction members, community progress and commemorative cosmetics.
 
 ## 7. Seasonal world compatibility
 
