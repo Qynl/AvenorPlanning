@@ -1,167 +1,105 @@
 # AVENOR — Main Game Design
 
-> **Canonical design brief.** This document supersedes the old description of AVENOR as primarily a conventional arena FPS. Existing weapons, abilities and cosmetic catalogues are retained where compatible, but the overall game identity is now an open-world multiplayer shooter sandbox with separate competitive playlists.
+> **Canonical design brief.** AVENOR is an exploration-first multiplayer open-world sandbox shooter, with separate competitive FPS playlists. The Open World is the main attraction. Combat, NPC reactions, factions, events and progression enrich the world rather than replacing exploration as its central purpose.
 
-## 1. Game identity
-
+## 1. Identity
 - **Name:** AVENOR
 - **Platform:** Roblox
-- **Genre:** Large-scale multiplayer open-world shooter sandbox, with separate competitive FPS modes.
-- **World style:** Modern and recognisable, with stylised realism suited to Roblox performance and readability. Not low-poly, not full sci-fi.
-- **Core promise:** Enter a large living world, explore places worth discovering, meet players and NPCs, find permanent weapons, take part in unpredictable activities and events, and use the same growing arsenal in competitive matches.
+- **Genre:** Multiplayer open-world exploration sandbox with FPS combat and separate competitive playlists.
+- **World style:** Modern, recognisable, stylised realism; detailed but readable and designed around Roblox performance.
+- **Core promise:** Explore a large living world with other players. Discover places, meet people, encounter unexpected situations, find permanent equipment and choose your own adventures.
 - **Primary experience:** The rotating Open World.
 - **Secondary experience:** Dedicated competitive shooter playlists.
-- **Movement reference:** Fast, responsive RIVALS-like movement, used as a feel reference rather than copied content.
-- **Player progression:** Persistent across every world rotation and match.
+- **Movement reference:** Fast, responsive movement inspired by the feel of RIVALS, without copying its content.
 
-AVENOR is not simply an arena shooter with a large lobby map. The Open World must be a real game with its own exploration loop, population, discoveries, activities and evolving event calendar.
+## 2. What the game is really about
+The main reason to join is **exploration and freedom in a populated multiplayer world**. Players should be curious about what is over the next hill, inside the next building or happening in the next settlement. They can explore alone, with friends or alongside strangers. They can investigate, collect, socialize, participate in activities, encounter NPCs, fight AI or other players where permitted, or simply travel.
 
-## 2. The two connected experiences
+AVENOR is not a mission queue disguised as an open world. It should not constantly force players into combat or display every secret as a map icon. Systems should create opportunities and let players choose whether to engage.
 
-### 2.1 Open World — the primary game
+See `AVENOR_OpenWorld.md` for the detailed world experience specification.
 
-Players enter the currently active large region. They can:
-- Explore cities, towns, roads, industrial facilities, wilderness, ports and unusual locations.
-- Discover weapons. A newly discovered weapon is permanently added to the player's account collection.
-- Encounter friendly, neutral and hostile NPCs, including adventurer groups that travel through the world.
-- Encounter other players naturally, cooperate, compete or fight.
-- Find secrets, collectibles, hidden interiors and activities.
-- Participate in world activities and limited-time events.
-- Progress account level, weapon mastery, discovery records and cosmetic collections.
-- Use their equipped loadout without losing permanently owned weapons on death.
+## 3. Open World pillars
+1. **Exploration:** coherent regions, memorable landmarks, hidden interiors, caves, tunnels, rooftops, clues and unusual locations.
+2. **Multiplayer:** real players naturally meeting, forming groups, cooperating, competing and creating stories.
+3. **Living world:** civilians, traders, adventurers, guards, security, military groups, specialists and hostile factions with routines and reactions.
+4. **Dynamic situations:** optional activities, NPC expeditions, temporary incidents, changing locations and community discoveries.
+5. **Combat freedom:** PvE against NPCs and PvP encounters under clearly designed rules. Friendly fire is under consideration and must include safeguards against griefing.
+6. **Collection and progression:** permanent weapon discoveries, cosmetics, mastery, journal entries and achievements.
+7. **World evolution:** rotating regions and seasonal transformations without wiping permanent progress.
 
-The world should contain both obvious destinations and discoveries that players have to notice, investigate or share with friends. Exploration must lead to actual gameplay, not only scenery or a checklist of hundreds of identical objects.
+## 4. Player freedom and world reactions
+The world can react to what players do. Police/security or faction NPCs may respond to witnessed incidents, trespassing or hostility. Factions can remember relevant actions and adjust access, services or attitude. These reactions should feel like part of the world, not a visible wanted-level minigame.
 
-### 2.2 Competitive modes — separate playlists
+**There is no visible numerical wanted level or GTA-style star meter.** NPCs must not be omniscient: they need plausible awareness through witnesses, alarms, local reports or faction communication. Local incident awareness and longer-term faction reputation are separate concepts. Details are proposals in `AVENOR_OpenWorld.md`.
 
-The home screen also offers match-based FPS modes such as DUEL, DUOS, TDM, FFA, HARDPOINT and CTF, plus future original modes.
+A light GTA-inspired touch means freedom, inhabited cities, possible vehicles, shops/services and reactive NPCs. It does not make crime the main game loop. Vehicles, ownership, economy and exact services are not yet approved launch features.
 
-Rules:
+## 5. NPCs and factions
+NPC categories include civilians/workers, police and security, military/facility guards, traders, adventurers, specialists, independent groups and optional hostile factions. Not every faction is a combat faction. Groups can offer services, rumours, discoveries, access, activities or conflict.
+
+NPCs should have reasons to be where they are and use efficient behaviour tiers. See `AVENOR_NPCs.md` and `AVENOR_Map_Performance.md`.
+
+## 6. Combat, PvP and friendly fire
+- Players can encounter hostile NPCs and fight them.
+- Player-versus-player encounters are part of the intended sandbox direction, but exact coverage and safe-area rules are TBD.
+- Friendly fire is desired for consideration, but defaults for parties, public groups and accidental damage must be decided.
+- Do not assume combat is allowed everywhere.
+- Do not assume full-loot PvP, permanent inventory loss or survival penalties.
+- Combat must coexist with exploration and must not dominate every region.
+
+## 7. Competitive playlists
+Separate match-based FPS modes may include DUEL, DUOS, TDM, FFA, HARDPOINT, CTF and future original modes.
 - Competitive modes use the player's permanently unlocked weapon collection.
-- Competitive matches **never unlock weapons**. Weapon discovery belongs exclusively to the Open World.
-- Competitive modes may award competitive rank, account XP, weapon mastery and cosmetic rewards.
-- Competitive playlists use their own match maps and rules. They are not the rotating Open World.
-- The same movement feel, weapon identities, abilities, HUD language and core combat rules should carry across both experiences where appropriate.
+- Competitive matches never unlock weapons.
+- They may award rank progress, account XP, mastery and cosmetic rewards.
+- They are not the Open World and do not replace it.
 
-## 3. The defining progression connection
-
+## 8. Weapon discovery and permanence
 **Discover in the Open World. Keep it permanently. Use it everywhere.**
+- First-time weapon discovery adds a stable weapon ID to the player's permanent collection.
+- Discovery can be tied to a place, secret, NPC, expedition, activity or world event.
+- Avoid making every weapon a random container reward.
+- Death, disconnect, rotation and match results never remove owned weapons.
+- Competitive modes cannot grant permanent weapon unlocks.
 
-- A weapon discovered in the Open World becomes a permanent collection unlock.
-- The weapon is not lost on death, disconnect, world rotation or match result.
-- Players configure loadouts from the home screen and eligible safe locations.
-- Competitive modes provide a place to master the arsenal, climb rank and earn non-weapon rewards.
-- No competitive playlist may become the only route to a weapon.
-- The exact discovery method for each weapon (direct find, NPC reward, exploration challenge, location secret or world activity) is specified per content item later. Avoid turning every unlock into a random chest.
+## 9. Movement and combat feel
+- First-person during gameplay; third-person presentation in the home screen and suitable social spaces.
+- No stamina system.
+- Unrestricted sprint, jump, responsive air control, slide and slide-jump.
+- Fast switching and readable weapon identities.
+- Server-authoritative damage, ammunition, ownership and rewards.
+- Exact movement and weapon tuning is TBD until tested.
 
-## 4. World rotation
+## 10. Ammunition concept
+The intended model uses a loaded magazine, quick-access spare magazine(s), then a slower backpack resupply reload. The purpose is reload decisions and downtime, not long-term ammunition scarcity. Exact magazine sizes, reserve rules, timing and interruption behaviour remain TBD. See `AVENOR_Gameplay.md`.
 
-- One world is active for the whole Open World experience at a time.
-- Proposed active duration: **four days**.
-- At rotation, the active region changes to another world in the ten-world collection.
-- Rotation is a limited-time world event and calendar change, **not a game mode or queue**.
-- Multiple Roblox server instances may host the same active world; they must share the same world identity, rotation schedule and persistent player data.
-- Player account level, weapons, cosmetics, mastery, achievements, currency and permanent discovery records do not reset.
-- Map-local temporary activity state may reset when the world leaves rotation.
-- Missed world-specific rewards should have a fair return path when that world rotates back or through a future archive/event. Do not punish players for being offline.
-- The exact rotation time, order, special exceptions and whether a world can stay longer for a major event are TBD.
+## 11. World rotation
+- One active Open World region at a time.
+- Proposed duration: four days.
+- Rotation is a world event/calendar change, not a separate game mode.
+- Multiple Roblox server instances can host the same active world identity.
+- Ten proposed worlds are documented in `AVENOR_Worlds.md`; this is a long-term collection, not launch scope.
+- Account level, weapons, cosmetics, mastery, currency and permanent discoveries persist.
+- Exact schedule, map order and exceptions remain TBD.
 
-## 5. World identity and setting
+## 12. Home screen and progression
+The home screen includes a 3D character/weapon showcase and navigation for Enter World, Game Modes, Loadout, Arsenal, Character, Progression, Discoveries, Events, Social and Settings. Permanent progression includes account XP, weapon ownership, mastery, cosmetics, achievements, discovery records and competitive rank.
 
-AVENOR uses fictional modern regions inspired by believable geography:
-- Dense cities and suburbs.
-- Small towns, villages and rural roads.
-- Forests, mountains, lakes and coastlines.
-- Ports, airports, factories, rail yards and power facilities.
-- Abandoned or restricted facilities with discoverable interiors.
-- Seasonal weather and environmental changes.
+## 13. Performance is a core requirement
+AVENOR's scale and NPC ambition create significant performance risks. Every map must be modular, streamable, profiled and tested on mobile. NPC simulation, physics, effects, lights, geometry and network traffic require explicit budgets. No map size, player cap or NPC count is final until measured.
 
-Each map must feel like a coherent place, not a disconnected collection of arenas. The ten proposed worlds are documented in `AVENOR_Worlds.md`.
+The dedicated specification is `AVENOR_Map_Performance.md`. Do not start by building ten complete maps.
 
-## 6. NPC population
-
-The world contains more than players:
-- Adventurers and explorers who travel in groups and investigate places.
-- Civilians who populate towns and public areas.
-- Traders and service NPCs.
-- Guards and security NPCs.
-- Hostile NPC groups in selected locations.
-- Specialists such as mechanics, medics, guides and quest characters.
-
-NPCs should have readable identities, routines, routes, reactions and reasons to be where they are. They should not all stand still waiting for interaction. The NPC system is defined in `AVENOR_NPCs.md`.
-
-## 7. Movement and combat
-
-- First-person gameplay camera.
-- No stamina meter or sprint-energy limitation.
-- Unrestricted sprinting.
-- Responsive jumping, air control, sliding and slide-jumping.
-- Bunny hopping may be tested, but its exact behaviour and balance are TBD.
-- Fast weapon switching and responsive inputs.
-- Distinct weapon firing identities and readable combat feedback.
-- Fair server-authoritative damage and hit validation.
-- No movement feature should be gated behind paid content or progression.
-
-Detailed rules and prototype targets are in `AVENOR_Gameplay.md`.
-
-## 8. Weapons, abilities and equipment
-
-- Retain the existing weapon catalogue and rebuilt firearm identities as the starting content library.
-- Existing loadout structure: Primary, Secondary, Melee, Utility and one Ability, subject to final tuning.
-- Weapon unlocks come only from Open World discovery.
-- Players may own a large permanent collection but equip a limited loadout.
-- Abilities remain cooldown-based, with clear counterplay and no automatic win buttons.
-- Weapon actions must not conflict with the player's ability to aim or use normal weapon controls. Rebinding is supported.
-- Ammunition should create reload decisions, not long-term scavenging pressure. See the magazine/backpack model in Gameplay.
-
-## 9. Home screen and player interface
-
-The home screen is a proper shooter hub with a 3D character/weapon showcase and clear navigation:
-- PLAY / ENTER WORLD
-- GAME MODES
-- LOADOUT
-- ARSENAL
-- CHARACTER
-- PROGRESSION
-- DISCOVERIES
-- EVENTS
-- SOCIAL
-- SETTINGS
-
-The interface is specified in `AVENOR_Loadout_UI.md` and `AVENOR_HUD_Audio.md`.
-
-## 10. Progression and rewards
-
-Permanent progression includes:
-- Account level and XP.
-- Permanent weapon collection.
-- Weapon mastery and statistics.
-- Cosmetics, skins, emotes, effects, titles and banners.
-- Discovery journal and permanent records.
-- Competitive rank and seasonal competitive rewards.
-- Event history and eligible permanent event rewards.
-
-No direct combat-stat upgrades. Rarity is cosmetic ambition, not power.
-
-## 11. Seasonal and world events
-
-- World rotation is the recurring four-day event framework.
-- Seasonal transformations can change the active world visually and add temporary activities, NPCs, discoveries and cosmetics.
-- Halloween, winter/Christmas, summer and original AVENOR world incidents are possible event themes.
-- Events must add experiences, not merely decorations.
-- Event rules live in `AVENOR_WorldEvents.md`.
-
-## 12. Visual and audio direction
-
-- Modern, realistic-inspired environments with stylised readability.
-- Deep blue and soft violet brand accents in UI, not forced onto every map.
+## 14. Visual identity
+- Modern, believable geography with stylised readability.
+- Deep blue and soft violet brand accents in UI, not forced onto every biome.
 - Geometric modern typography.
-- Strong environmental audio, distinct region ambience, readable weapon sounds and configurable effects.
-- Performance and mobile readability are non-negotiable.
+- Strong environmental ambience and distinct regional soundscapes.
+- Clean first-person gameplay presentation.
+- High detail only where it is visible and valuable; performance always wins over unnecessary decoration.
 
-## 13. Universal rarity
-
-All rarity-bearing items use the same hierarchy:
+## 15. Universal rarity
 1. Commonplace
 2. Altered
 3. Evolved
@@ -169,30 +107,18 @@ All rarity-bearing items use the same hierarchy:
 5. Extraordinary
 6. Singular
 
-Rarity never changes weapon statistics, unlock power, hitboxes, movement, matchmaking or competitive advantage.
+Rarity is presentation and collection value only. It never changes weapon statistics, hitboxes, movement, matchmaking or competitive advantage.
 
-## 14. Decisions deliberately left open
+## 16. Unresolved decisions
+Do not silently lock: PvP coverage, safe areas, friendly-fire defaults, death/respawn rules, exact faction roster, vehicle launch scope and ownership, player trading/economy, NPC density, world dimensions, player cap, map rotation schedule, weapon discovery conditions and first-release scope.
 
-Do not silently lock these:
-- Exact size and stud footprint of each world.
-- Exact player cap per world server and shard architecture.
-- Whether vehicles are a launch feature and which types.
-- Player base-building, crafting, factions and territory ownership.
-- Whether there is a player trading system.
-- Exact hostile-NPC density and difficulty.
-- Exact four-day rotation schedule and map order.
-- Exact weapon discovery conditions and spawn logic.
-- Final active launch roster and first-release scope.
-- Final competitive playlist count and tuning.
-
-## 15. Canonical document ownership
-
-- Overall identity: this file.
-- World roster and geography: `AVENOR_Worlds.md`.
-- Rotation and events: `AVENOR_WorldEvents.md`.
+## 17. Document ownership
+- Identity: this file.
+- Open World sandbox: `AVENOR_OpenWorld.md`.
+- Maps and performance: `AVENOR_Map_Performance.md`.
+- World roster: `AVENOR_Worlds.md`.
+- Rotation/events: `AVENOR_WorldEvents.md`.
 - NPCs: `AVENOR_NPCs.md`.
-- Movement, combat and ammunition: `AVENOR_Gameplay.md`.
-- Competitive match rules: `AVENOR_GameModes.md`.
-- Home screen/loadouts: `AVENOR_Loadout_UI.md`.
-- Progression: `AVENOR_Progression.md`.
-- Roblox implementation: `AVENOR_Technical.md`.
+- Movement/combat/ammunition: `AVENOR_Gameplay.md`.
+- Roblox architecture: `AVENOR_Technical.md`.
+- Development sequence: `AVENOR_Roadmap.md`.
