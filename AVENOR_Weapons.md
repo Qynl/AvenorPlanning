@@ -4,7 +4,7 @@
 
 ## 1. Weapon Design Philosophy
 
-AVENOR is planned to launch with **167 weapons**.
+AVENOR's active launch target is **113 weapon concepts: 40 damage-dealing firearms and launchers, 43 utility weapons and tools, and 30 melee weapons**. The other 54 firearm concepts are archived and are not launch content.
 
 The goal is not to fill a spreadsheet with generic versions of familiar guns. Every weapon should feel recognizably different in the player's hands.
 
@@ -19,6 +19,10 @@ The goal is not to fill a spreadsheet with generic versions of familiar guns. Ev
 - Rarity reflects exclusivity, uniqueness, and design complexity. It does not automatically mean better combat stats.
 - No weapon should be a simple reskin or a tiny stat variation of another.
 - Weapons should be fun to learn, recognize, counter, and master.
+
+### Active firearm standard
+
+The active launch firearm roster is limited to 40 weapons. A firearm is active only if it has a genuinely distinct projectile, firing pattern, travel behaviour, impact behaviour, and handling rhythm. The detailed specifications and acceptance checklist are in `AVENOR_FiringIdentities.md`. Archived firearm concepts are not part of the launch roster and must not be used as active unlocks or shop content.
 
 ## 2. Rarity Hierarchy
 
@@ -56,10 +60,11 @@ Weapon abilities use cooldowns. The cooldown begins after activation or after th
 
 ## 4. Weapon Roster
 
-There are 167 planned weapons. The entries below record the accepted and proposed designs established so far. Weapon IDs are name-based internal references and match each weapon's unique name.
+The catalogue retains 167 concepts for reference, but only 113 are currently active for launch: 40 firearms/launchers, 43 utility tools, and 30 melee weapons. The remaining 54 firearms are archived. Each entry is explicitly labelled with its roster status. The authoritative firing behaviour for the 40 active firearms is in `AVENOR_FiringIdentities.md`.
 
 ### Weapon 001 — TAXMAN
 - **Internal ID:** TAXMAN
+- **Roster status:** Active launch firearm
 - **Category:** Assault Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -84,6 +89,7 @@ Activate to cash in the mark. The next shot that hits the marked opponent deals 
 
 ### Weapon 002 — POCKET ROCKET
 - **Internal ID:** POCKET-ROCKET
+- **Roster status:** Active launch firearm
 - **Category:** Submachine Gun
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -108,6 +114,7 @@ Perform a short forward movement burst while keeping the weapon ready.
 
 ### Weapon 003 — DOORBELL
 - **Internal ID:** DOORBELL
+- **Roster status:** Active launch firearm
 - **Category:** Shotgun
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -134,6 +141,7 @@ Fire a special blast that launches the user backwards and pushes opponents caugh
 
 ### Weapon 004 — LONG STORY
 - **Internal ID:** LONG-STORY
+- **Roster status:** Active launch firearm
 - **Category:** Sniper Rifle
 - **Rarity:** Extraordinary
 - **Slot:** Primary
@@ -159,6 +167,7 @@ Place a visible marker on a valid surface within range. The next scoped shot can
 
 ### Weapon 005 — LOOSE CHANGE
 - **Internal ID:** LOOSE-CHANGE
+- **Roster status:** Active launch firearm
 - **Category:** Pistol
 - **Rarity:** Commonplace
 - **Slot:** Secondary
@@ -184,6 +193,7 @@ Toss a special metal token into the arena. Shooting the token redirects the next
 
 ### Weapon 006 — THREE'S COMPANY
 - **Internal ID:** THREES-COMPANY
+- **Roster status:** Active launch firearm
 - **Category:** Burst Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -208,6 +218,7 @@ The next burst fires a fourth projectile.
 
 ### Weapon 007 — LAWNMOWER
 - **Internal ID:** LAWNMOWER
+- **Roster status:** Active launch firearm
 - **Category:** Light Machine Gun
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -232,6 +243,7 @@ Lock the barrel at maximum spin for a short period. During this window, the play
 
 ### Weapon 008 — RETURN TO SENDER
 - **Internal ID:** RETURN-TO-SENDER
+- **Roster status:** Active launch firearm
 - **Category:** Returning Disc Launcher
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -260,6 +272,7 @@ While the disc is travelling outward, aim at a valid surface and press Weapon Ac
 
 ### Weapon 009 — THE RENTAL
 - **Internal ID:** THE-RENTAL
+- **Roster status:** Active utility/melee concept
 - **Category:** Utility Launcher
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -290,6 +303,7 @@ While a panel is active, press Weapon Action to rotate its launch direction by 9
 
 ### Weapon 010 — BAD HABIT
 - **Internal ID:** BAD-HABIT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Hand Cannon
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -312,6 +326,7 @@ Fire one loaded round downward to launch the player in the opposite direction. T
 
 ### Weapon 011 — DEAD WEIGHT
 - **Internal ID:** DEAD-WEIGHT
+- **Roster status:** Active launch firearm
 - **Category:** Heavy Launcher
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -334,6 +349,7 @@ The next projectile can be detonated remotely while it is travelling by pressing
 
 ### Weapon 012 — BAD RECEPTION
 - **Internal ID:** BAD-RECEPTION
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Pulse Rifle
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -358,6 +374,7 @@ For a short duration, suppresses the weapon's distinctive firing audio and remov
 
 ### Weapon 013 — CALL WAITING
 - **Internal ID:** CALL-WAITING
+- **Roster status:** Active launch firearm
 - **Category:** Charge Rifle
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -382,6 +399,7 @@ Store the current charge and temporarily switch to the secondary weapon. The sto
 
 ### Weapon 014 — SHORT NOTICE
 - **Internal ID:** SHORT-NOTICE
+- **Roster status:** Active launch firearm
 - **Category:** Repeater Crossbow
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -407,6 +425,7 @@ Fire a special anchor bolt that attaches to the first valid solid surface it hit
 
 ### Weapon 015 — BAD NEIGHBOR
 - **Internal ID:** BAD-NEIGHBOR
+- **Roster status:** Active launch firearm
 - **Category:** Nail Driver
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -435,6 +454,7 @@ Activate all existing markers. Each marker emits a short-range pulse that briefl
 
 ### Weapon 016 — TAXI
 - **Internal ID:** TAXI
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Impact Launcher
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -462,6 +482,7 @@ Activate to make the next projectile create a short-lived circular bounce field 
 
 ### Weapon 017 — FALSE ALARM
 - **Internal ID:** FALSE-ALARM
+- **Roster status:** Active utility/melee concept
 - **Category:** Signal Launcher
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -489,6 +510,7 @@ Activate the decoy early. It performs a fake attack animation and creates a brie
 
 ### Weapon 018 — SECOND OPINION
 - **Internal ID:** SECOND-OPINION
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Twin-Barrel Rifle
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -515,6 +537,7 @@ Press and hold Weapon Action to hold the next shot instead of firing immediately
 
 ### Weapon 019 — PAPER TRAIL
 - **Internal ID:** PAPER-TRAIL
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Marker Rifle
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -542,6 +565,7 @@ Make the next shot attach a tag to a surface instead of an opponent. If an oppon
 
 ### Weapon 020 — WET FLOOR
 - **Internal ID:** WET-FLOOR
+- **Roster status:** Active utility/melee concept
 - **Category:** Pressure Sprayer
 - **Rarity:** Evolved
 - **Slot:** Secondary
@@ -570,6 +594,7 @@ Pull all active patches together into one longer slick strip between their posit
 
 ### Weapon 021 — CROSSWALK
 - **Internal ID:** CROSSWALK
+- **Roster status:** Active utility/melee concept
 - **Category:** Tactical Rifle
 - **Rarity:** Evolved
 - **Slot:** Secondary
@@ -597,6 +622,7 @@ Temporarily expands the connected line into a wider, clearly marked hazard zone.
 
 ### Weapon 022 — LAST CALL
 - **Internal ID:** LAST-CALL
+- **Roster status:** Active launch firearm
 - **Category:** Sonic Projector
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -624,6 +650,7 @@ Release a stronger forward pulse that pushes nearby opponents away and interrupt
 
 ### Weapon 023 — TWO CENTS
 - **Internal ID:** TWO-CENTS
+- **Roster status:** Active launch firearm
 - **Category:** Precision Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -650,6 +677,7 @@ Load one special round into the next available shot. A hit deals normal damage b
 
 ### Weapon 024 — OPEN HOUSE
 - **Internal ID:** OPEN-HOUSE
+- **Roster status:** Active utility/melee concept
 - **Category:** Deployable Launcher
 - **Rarity:** Evolved
 - **Slot:** Secondary
@@ -677,6 +705,7 @@ Fold the active panel down and redeploy it at a new valid surface within a limit
 
 ### Weapon 025 — HOLD MUSIC
 - **Internal ID:** HOLD-MUSIC
+- **Roster status:** Active launch firearm
 - **Category:** Repeater
 - **Rarity:** Extraordinary
 - **Slot:** Primary
@@ -704,6 +733,7 @@ Pause the sequence timer briefly, allowing the player to maintain progress while
 
 ### Weapon 026 — SPLIT DECISION
 - **Internal ID:** SPLIT-DECISION
+- **Roster status:** Active launch firearm
 - **Category:** Split-Feed Rifle
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -734,6 +764,7 @@ Skip the upcoming pattern and select which shot type fires next. The normal alte
 
 ### Weapon 027 — SHORTCUT
 - **Internal ID:** SHORTCUT
+- **Roster status:** Active utility/melee concept
 - **Category:** Traversal Launcher
 - **Rarity:** Extraordinary
 - **Slot:** Secondary
@@ -761,6 +792,7 @@ Temporarily increases travel speed along the active cable. The boost is visible 
 
 ### Weapon 028 — SLOW BURN
 - **Internal ID:** SLOW-BURN
+- **Roster status:** Active launch firearm
 - **Category:** Heat Rifle
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -788,6 +820,7 @@ Vent accumulated heat in a short-range burst that deals modest damage and pushes
 
 ### Weapon 029 — WRONG NUMBER
 - **Internal ID:** WRONG-NUMBER
+- **Roster status:** Active utility/melee concept
 - **Category:** Signal Pistol
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -815,6 +848,7 @@ Trigger the signal early to produce a second, different sound cue before it disa
 
 ### Weapon 030 — NO REFUNDS
 - **Internal ID:** NO-REFUNDS
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Heavy Revolver
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -842,6 +876,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 031 — OVERDUE
 - **Internal ID:** OVERDUE
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Marksman Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -859,6 +894,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 032 — SPARE KEY
 - **Internal ID:** SPARE-KEY
+- **Roster status:** Active utility/melee concept
 - **Category:** Traversal Tool
 - **Rarity:** Singular
 - **Slot:** Secondary
@@ -876,6 +912,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 033 — BOUNCER
 - **Internal ID:** BOUNCER
+- **Roster status:** Active launch firearm
 - **Category:** Impact Shotgun
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -893,6 +930,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 034 — GOOD MEASURE
 - **Internal ID:** GOOD-MEASURE
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -910,6 +948,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 035 — OFF THE CLOCK
 - **Internal ID:** OFF-THE-CLOCK
+- **Roster status:** Active utility/melee concept
 - **Category:** Decoy Projector
 - **Rarity:** Singular
 - **Slot:** Secondary
@@ -927,6 +966,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 036 — BACKFILL
 - **Internal ID:** BACKFILL
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Magazine Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -944,6 +984,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 037 — SIDE EYE
 - **Internal ID:** SIDE-EYE
+- **Roster status:** Active utility/melee concept
 - **Category:** Recon Tool
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -961,6 +1002,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 038 — TIN CAN
 - **Internal ID:** TIN-CAN
+- **Roster status:** Active launch firearm
 - **Category:** Ricochet Launcher
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -978,6 +1020,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 039 — HOME RUN
 - **Internal ID:** HOME-RUN
+- **Roster status:** Active launch firearm
 - **Category:** Heavy Ball Launcher
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -995,6 +1038,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 040 — GUEST LIST
 - **Internal ID:** GUEST-LIST
+- **Roster status:** Active utility/melee concept
 - **Category:** Entry Sensor
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1012,6 +1056,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 041 — DOUBLE PARKED
 - **Internal ID:** DOUBLE-PARKED
+- **Roster status:** Active launch firearm
 - **Category:** Dual Pistols
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1029,6 +1074,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 042 — STATIC CLING
 - **Internal ID:** STATIC-CLING
+- **Roster status:** Active utility/melee concept
 - **Category:** Magnetic Traversal Tool
 - **Rarity:** Singular
 - **Slot:** Secondary
@@ -1046,6 +1092,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 043 — PAYPHONE
 - **Internal ID:** PAYPHONE
+- **Roster status:** Active utility/melee concept
 - **Category:** Team Relay Tool
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1063,6 +1110,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 044 — GOOD GRIEF
 - **Internal ID:** GOOD-GRIEF
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Heavy Repeater
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1080,6 +1128,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 045 — CLEAN BREAK
 - **Internal ID:** CLEAN-BREAK
+- **Roster status:** Active launch firearm
 - **Category:** Break-Action Shotgun
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1097,6 +1146,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 046 — SUNDAY DRIVER
 - **Internal ID:** SUNDAY-DRIVER
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Automatic Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1114,6 +1164,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 047 — FINE PRINT
 - **Internal ID:** FINE-PRINT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1131,6 +1182,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 048 — BREADCRUMBS
 - **Internal ID:** BREADCRUMBS
+- **Roster status:** Active utility/melee concept
 - **Category:** Navigation Tool
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1148,6 +1200,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 049 — HIGH HORSE
 - **Internal ID:** HIGH-HORSE
+- **Roster status:** Active launch firearm
 - **Category:** Charge Launcher
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -1165,6 +1218,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 050 — TAKE A NUMBER
 - **Internal ID:** TAKE-A-NUMBER
+- **Roster status:** Active utility/melee concept
 - **Category:** Team Queue Tool
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -1182,6 +1236,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 051 — COLD SHOULDER
 - **Internal ID:** COLD-SHOULDER
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Repeater
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1199,6 +1254,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 052 — DO NOT DISTURB
 - **Internal ID:** DO-NOT-DISTURB
+- **Roster status:** Active utility/melee concept
 - **Category:** Defensive Projector
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -1216,6 +1272,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 053 — DOUBLE TAKE
 - **Internal ID:** DOUBLE-TAKE
+- **Roster status:** Active launch firearm
 - **Category:** Burst Rifle
 - **Rarity:** Ascendant
 - **Slot:** Primary
@@ -1233,6 +1290,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 054 — LOST PROPERTY
 - **Internal ID:** LOST-PROPERTY
+- **Roster status:** Active utility/melee concept
 - **Category:** Retrieval Tool
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1250,6 +1308,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 055 — BAD TIMING
 - **Internal ID:** BAD-TIMING
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Automatic Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1267,6 +1326,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 056 — HUSH MONEY
 - **Internal ID:** HUSH-MONEY
+- **Roster status:** Active utility/melee concept
 - **Category:** Sound Field Projector
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -1284,6 +1344,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 057 — LAST RESORT
 - **Internal ID:** LAST-RESORT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Heavy Pistol
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1301,6 +1362,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 058 — OPEN SECRET
 - **Internal ID:** OPEN-SECRET
+- **Roster status:** Active utility/melee concept
 - **Category:** Team Beacon
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1318,6 +1380,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 059 — SHORT FUSE
 - **Internal ID:** SHORT-FUSE
+- **Roster status:** Active launch firearm
 - **Category:** Explosive Repeater
 - **Rarity:** Ascendant
 - **Slot:** Primary
@@ -1335,6 +1398,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 060 — THE USUAL
 - **Internal ID:** THE-USUAL
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Adaptive Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1352,6 +1416,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 061 — BAD PENNY
 - **Internal ID:** BAD-PENNY
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Burst Pistol
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1369,6 +1434,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 062 — MILE MARKER
 - **Internal ID:** MILE-MARKER
+- **Roster status:** Active utility/melee concept
 - **Category:** Route Beacon
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1386,6 +1452,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 063 — SQUARE DEAL
 - **Internal ID:** SQUARE-DEAL
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1403,6 +1470,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 064 — BULLPEN
 - **Internal ID:** BULLPEN
+- **Roster status:** Active launch firearm
 - **Category:** Heavy Shotgun
 - **Rarity:** Ascendant
 - **Slot:** Primary
@@ -1420,6 +1488,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 065 — PAPER CUT
 - **Internal ID:** PAPER-CUT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Light Marksman Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1437,6 +1506,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 066 — PARKING METER
 - **Internal ID:** PARKING-METER
+- **Roster status:** Active utility/melee concept
 - **Category:** Zone Utility
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1454,6 +1524,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 067 — SLOW CLAP
 - **Internal ID:** SLOW-CLAP
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Semi-Automatic Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1471,6 +1542,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 068 — BACKUP PLAN
 - **Internal ID:** BACKUP-PLAN
+- **Roster status:** Active utility/melee concept
 - **Category:** Return Beacon
 - **Rarity:** Singular
 - **Slot:** Secondary
@@ -1488,6 +1560,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 069 — WIDE OPEN
 - **Internal ID:** WIDE-OPEN
+- **Roster status:** Active launch firearm
 - **Category:** Fan Shotgun
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1505,6 +1578,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 070 — DEAD CERT
 - **Internal ID:** DEAD-CERT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Bolt-Action Rifle
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -1522,6 +1596,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 071 — RED TAPE
 - **Internal ID:** RED-TAPE
+- **Roster status:** Active utility/melee concept
 - **Category:** Tripwire Sensor
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1539,6 +1614,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 072 — HARD RESET
 - **Internal ID:** HARD-RESET
+- **Roster status:** Active utility/melee concept
 - **Category:** Momentum Brake
 - **Rarity:** Extraordinary
 - **Slot:** Secondary
@@ -1556,6 +1632,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 073 — FIRST CLASS
 - **Internal ID:** FIRST-CLASS
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Compact Automatic Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1573,6 +1650,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 074 — OVERHEAD
 - **Internal ID:** OVERHEAD
+- **Roster status:** Active launch firearm
 - **Category:** Arc Launcher
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -1590,6 +1668,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 075 — TIGHTROPE
 - **Internal ID:** TIGHTROPE
+- **Roster status:** Active utility/melee concept
 - **Category:** Traversal Cable Tool
 - **Rarity:** Singular
 - **Slot:** Secondary
@@ -1607,6 +1686,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 076 — TIME CARD
 - **Internal ID:** TIME-CARD
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Repeater
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1624,6 +1704,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 077 — SPOT CHECK
 - **Internal ID:** SPOT-CHECK
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Burst Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1641,6 +1722,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 078 — LATCHKEY
 - **Internal ID:** LATCHKEY
+- **Roster status:** Active utility/melee concept
 - **Category:** Door Utility
 - **Rarity:** Extraordinary
 - **Slot:** Secondary
@@ -1658,6 +1740,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 079 — FENDER BENDER
 - **Internal ID:** FENDER-BENDER
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Impact Launcher
 - **Rarity:** Ascendant
 - **Slot:** Primary
@@ -1675,6 +1758,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 080 — GOOD SPORT
 - **Internal ID:** GOOD-SPORT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Sports Launcher
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -1692,6 +1776,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 081 — NIGHTCAP
 - **Internal ID:** NIGHTCAP
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Compact Shotgun
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1709,6 +1794,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 082 — TALLY HO
 - **Internal ID:** TALLY-HO
+- **Roster status:** Active launch firearm
 - **Category:** Light Machine Gun
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1726,6 +1812,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 083 — STATIC SHOCK
 - **Internal ID:** STATIC-SHOCK
+- **Roster status:** Active launch firearm
 - **Category:** Arc Rifle
 - **Rarity:** Ascendant
 - **Slot:** Primary
@@ -1743,6 +1830,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 084 — QUIET HOURS
 - **Internal ID:** QUIET-HOURS
+- **Roster status:** Active utility/melee concept
 - **Category:** Team Utility Projector
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1760,6 +1848,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 085 — BLIND DATE
 - **Internal ID:** BLIND-DATE
+- **Roster status:** Active launch firearm
 - **Category:** Close-Range Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1777,6 +1866,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 086 — HIGH BEAMS
 - **Internal ID:** HIGH-BEAMS
+- **Roster status:** Active utility/melee concept
 - **Category:** Illumination Tool
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1794,6 +1884,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 087 — HARD COPY
 - **Internal ID:** HARD-COPY
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Heavy Precision Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1811,6 +1902,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 088 — BOTTOM LINE
 - **Internal ID:** BOTTOM-LINE
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Heavy Automatic Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1828,6 +1920,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 089 — UNDERSTUDY
 - **Internal ID:** UNDERSTUDY
+- **Roster status:** Active utility/melee concept
 - **Category:** Decoy Tool
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -1845,6 +1938,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 090 — QUICK FIX
 - **Internal ID:** QUICK-FIX
+- **Roster status:** Active utility/melee concept
 - **Category:** Service Tool
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1862,6 +1956,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 091 — HEADCOUNT
 - **Internal ID:** HEADCOUNT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Repeater
 - **Rarity:** Ascendant
 - **Slot:** Primary
@@ -1879,6 +1974,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 092 — LATE FEE
 - **Internal ID:** LATE-FEE
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Pump Shotgun
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1896,6 +1992,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 093 — PIN DROP
 - **Internal ID:** PIN-DROP
+- **Roster status:** Active utility/melee concept
 - **Category:** Position Marker
 - **Rarity:** Evolved
 - **Slot:** Secondary
@@ -1913,6 +2010,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 094 — SAFE BET
 - **Internal ID:** SAFE-BET
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Semi-Automatic Hand Cannon
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1930,6 +2028,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 095 — BACK CHAT
 - **Internal ID:** BACK-CHAT
+- **Roster status:** Active utility/melee concept
 - **Category:** Defensive Relay
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -1947,6 +2046,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 096 — ALL CLEAR
 - **Internal ID:** ALL-CLEAR
+- **Roster status:** Active utility/melee concept
 - **Category:** Utility Cleaner
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -1964,6 +2064,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 097 — BIG PICTURE
 - **Internal ID:** BIG-PICTURE
+- **Roster status:** Active launch firearm
 - **Category:** Heavy Burst Rifle
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -1981,6 +2082,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 098 — SMALL TALK
 - **Internal ID:** SMALL-TALK
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Compact SMG
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -1998,6 +2100,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 099 — ON THE HOUSE
 - **Internal ID:** ON-THE-HOUSE
+- **Roster status:** Active utility/melee concept
 - **Category:** Team Mobility Utility
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -2015,6 +2118,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 100 — OVERBOOKED
 - **Internal ID:** OVERBOOKED
+- **Roster status:** Active launch firearm
 - **Category:** Automatic Shotgun
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -2032,6 +2136,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 101 — ROLL CALL
 - **Internal ID:** ROLL-CALL
+- **Roster status:** Active utility/melee concept
 - **Category:** Team Rally Tool
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -2049,6 +2154,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 102 — HOUSE RULES
 - **Internal ID:** HOUSE-RULES
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Carbine
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -2066,6 +2172,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 103 — NO SHOW
 - **Internal ID:** NO-SHOW
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Heavy Marksman Rifle
 - **Rarity:** Extraordinary
 - **Slot:** Primary
@@ -2083,6 +2190,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 104 — NIGHT OWL
 - **Internal ID:** NIGHT-OWL
+- **Roster status:** Active utility/melee concept
 - **Category:** Night Vision Utility
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -2100,6 +2208,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 105 — DOUBLE SHIFT
 - **Internal ID:** DOUBLE-SHIFT
+- **Roster status:** Active launch firearm
 - **Category:** Dual-Feed Rifle
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -2117,6 +2226,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 106 — OPEN TAB
 - **Internal ID:** OPEN-TAB
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Burst Sidearm
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -2134,6 +2244,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 107 — DEAD END
 - **Internal ID:** DEAD-END
+- **Roster status:** Active utility/melee concept
 - **Category:** Route Blocker
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -2151,6 +2262,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 108 — BAIL OUT
 - **Internal ID:** BAIL-OUT
+- **Roster status:** Active utility/melee concept
 - **Category:** Emergency Mobility Tool
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -2168,6 +2280,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 109 — SIDE DISH
 - **Internal ID:** SIDE-DISH
+- **Roster status:** Active launch firearm
 - **Category:** Compact Launcher
 - **Rarity:** Ascendant
 - **Slot:** Primary
@@ -2185,6 +2298,7 @@ Load one special round. If it hits an opponent, it briefly prevents them from us
 
 ### Weapon 110 — CLEAN SLATE
 - **Internal ID:** CLEAN-SLATE
+- **Roster status:** Active utility/melee concept
 - **Category:** Status Utility
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -2207,6 +2321,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 111 — DOORJAM
 - **Internal ID:** DOORJAM
+- **Roster status:** Active utility/melee concept
 - **Category:** Battering Baton
 - **Rarity:** Altered
 - **Slot:** Melee
@@ -2220,6 +2335,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 112 — BELLHOP
 - **Internal ID:** BELLHOP
+- **Roster status:** Active utility/melee concept
 - **Category:** Suitcase Maul
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2233,6 +2349,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 113 — PAPER TIGER
 - **Internal ID:** PAPER-TIGER
+- **Roster status:** Active utility/melee concept
 - **Category:** Folding Fan Blade
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2246,6 +2363,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 114 — LAST WORD
 - **Internal ID:** LAST-WORD
+- **Roster status:** Active utility/melee concept
 - **Category:** Dueling Saber
 - **Rarity:** Extraordinary
 - **Slot:** Melee
@@ -2259,6 +2377,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 115 — SHOPPING CART
 - **Internal ID:** SHOPPING-CART
+- **Roster status:** Active utility/melee concept
 - **Category:** Twin Push Bars
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2272,6 +2391,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 116 — NIGHT SHIFT
 - **Internal ID:** NIGHT-SHIFT
+- **Roster status:** Active utility/melee concept
 - **Category:** Weighted Flashlight
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2285,6 +2405,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 117 — THE BUTLER
 - **Internal ID:** THE-BUTLER
+- **Roster status:** Active utility/melee concept
 - **Category:** Serving Tray
 - **Rarity:** Altered
 - **Slot:** Melee
@@ -2298,6 +2419,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 118 — BAD FORM
 - **Internal ID:** BAD-FORM
+- **Roster status:** Active utility/melee concept
 - **Category:** Fencing Foil
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2311,6 +2433,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 119 — PICKUP STICKS
 - **Internal ID:** PICKUP-STICKS
+- **Roster status:** Active utility/melee concept
 - **Category:** Twin Batons
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2324,6 +2447,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 120 — THE BIG KNIT
 - **Internal ID:** THE-BIG-KNIT
+- **Roster status:** Active utility/melee concept
 - **Category:** Oversized Yarn Mallet
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2337,6 +2461,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 121 — CLOSE CALL
 - **Internal ID:** CLOSE-CALL
+- **Roster status:** Active utility/melee concept
 - **Category:** Hooked Rescue Tool
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2350,6 +2475,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 122 — CLEAN SWEEP
 - **Internal ID:** CLEAN-SWEEP
+- **Roster status:** Active utility/melee concept
 - **Category:** Push Broom
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2363,6 +2489,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 123 — OFF LIMITS
 - **Internal ID:** OFF-LIMITS
+- **Roster status:** Active utility/melee concept
 - **Category:** Crowbar
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2376,6 +2503,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 124 — BOUNCED CHECK
 - **Internal ID:** BOUNCED-CHECK
+- **Roster status:** Active utility/melee concept
 - **Category:** Spring Hammer
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2389,6 +2517,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 125 — SILENT PARTNER
 - **Internal ID:** SILENT-PARTNER
+- **Roster status:** Active utility/melee concept
 - **Category:** Rubber Practice Knife
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2402,6 +2531,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 126 — TOLL BOOTH
 - **Internal ID:** TOLL-BOOTH
+- **Roster status:** Active utility/melee concept
 - **Category:** Gatekeeper Staff
 - **Rarity:** Altered
 - **Slot:** Melee
@@ -2415,6 +2545,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 127 — SECOND HAND
 - **Internal ID:** SECOND-HAND
+- **Roster status:** Active utility/melee concept
 - **Category:** Clockwork Gauntlet
 - **Rarity:** Extraordinary
 - **Slot:** Melee
@@ -2428,6 +2559,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 128 — FLOOR MODEL
 - **Internal ID:** FLOOR-MODEL
+- **Roster status:** Active utility/melee concept
 - **Category:** Display Stand Spear
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2441,6 +2573,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 129 — NO RETURNS
 - **Internal ID:** NO-RETURNS
+- **Roster status:** Active utility/melee concept
 - **Category:** Boomerang Club
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2454,6 +2587,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 130 — SOFT CLOSE
 - **Internal ID:** SOFT-CLOSE
+- **Roster status:** Active utility/melee concept
 - **Category:** Padded Tonfa
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2467,6 +2601,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 131 — PAPER SHIELD
 - **Internal ID:** PAPER-SHIELD
+- **Roster status:** Active utility/melee concept
 - **Category:** Clipboard Shield
 - **Rarity:** Altered
 - **Slot:** Melee
@@ -2480,6 +2615,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 132 — GARDEN VARIETY
 - **Internal ID:** GARDEN-VARIETY
+- **Roster status:** Active utility/melee concept
 - **Category:** Pruning Shears
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2493,6 +2629,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 133 — MILESTONE
 - **Internal ID:** MILESTONE
+- **Roster status:** Active utility/melee concept
 - **Category:** Surveyor's Pick
 - **Rarity:** Altered
 - **Slot:** Melee
@@ -2506,6 +2643,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 134 — GOOD GRIP
 - **Internal ID:** GOOD-GRIP
+- **Roster status:** Active utility/melee concept
 - **Category:** Climbing Gloves
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2519,6 +2657,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 135 — THE PEACEMAKER
 - **Internal ID:** THE-PEACEMAKER
+- **Roster status:** Active utility/melee concept
 - **Category:** Foam Mallet
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2532,6 +2671,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 136 — BACKSTAGE PASS
 - **Internal ID:** BACKSTAGE-PASS
+- **Roster status:** Active utility/melee concept
 - **Category:** Stage Cane
 - **Rarity:** Altered
 - **Slot:** Melee
@@ -2545,6 +2685,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 137 — HOLD THE DOOR
 - **Internal ID:** HOLD-THE-DOOR
+- **Roster status:** Active utility/melee concept
 - **Category:** Door Ram
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2558,6 +2699,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 138 — SPARE PARTS
 - **Internal ID:** SPARE-PARTS
+- **Roster status:** Active utility/melee concept
 - **Category:** Wrench Pair
 - **Rarity:** Commonplace
 - **Slot:** Melee
@@ -2571,6 +2713,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 139 — CROWN JEWEL
 - **Internal ID:** CROWN-JEWEL
+- **Roster status:** Active utility/melee concept
 - **Category:** Ceremonial Scepter
 - **Rarity:** Ascendant
 - **Slot:** Melee
@@ -2584,6 +2727,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 140 — FINAL NOTICE
 - **Internal ID:** FINAL-NOTICE
+- **Roster status:** Active utility/melee concept
 - **Category:** Judgment Gavel
 - **Rarity:** Evolved
 - **Slot:** Melee
@@ -2597,6 +2741,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 141 — GOOD ENOUGH
 - **Internal ID:** GOOD-ENOUGH
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Burst Carbine
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -2610,6 +2755,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 142 — OUT OF OFFICE
 - **Internal ID:** OUT-OF-OFFICE
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Compact SMG
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -2623,6 +2769,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 143 — SQUARE ONE
 - **Internal ID:** SQUARE-ONE
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Semi-Auto Rifle
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -2636,6 +2783,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 144 — TWO-WAY STREET
 - **Internal ID:** TWO-WAY-STREET
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Twin-Barrel Sidearm
 - **Rarity:** Extraordinary
 - **Slot:** Primary
@@ -2649,6 +2797,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 145 — MIDDLE MANAGEMENT
 - **Internal ID:** MIDDLE-MANAGEMENT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Support Carbine
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -2662,6 +2811,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 146 — SLOW NEWS
 - **Internal ID:** SLOW-NEWS
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Repeater
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -2675,6 +2825,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 147 — PUNCHLINE
 - **Internal ID:** PUNCHLINE
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Impact Pistol
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -2688,6 +2839,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 148 — DETOUR
 - **Internal ID:** DETOUR
+- **Roster status:** Active launch firearm
 - **Category:** Arc Launcher
 - **Rarity:** Extraordinary
 - **Slot:** Primary
@@ -2701,6 +2853,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 149 — WELL READ
 - **Internal ID:** WELL-READ
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Burst Marksman
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -2714,6 +2867,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 150 — CASH ONLY
 - **Internal ID:** CASH-ONLY
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Heavy Sidearm
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -2727,6 +2881,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 151 — WINDOW SEAT
 - **Internal ID:** WINDOW-SEAT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Compact Shotgun
 - **Rarity:** Commonplace
 - **Slot:** Primary
@@ -2740,6 +2895,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 152 — NO COMMENT
 - **Internal ID:** NO-COMMENT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Silenced Marksman
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -2753,6 +2909,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 153 — TRAFFIC JAM
 - **Internal ID:** TRAFFIC-JAM
+- **Roster status:** Active launch firearm
 - **Category:** Scatter Launcher
 - **Rarity:** Extraordinary
 - **Slot:** Primary
@@ -2766,6 +2923,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 154 — BETTER LUCK
 - **Internal ID:** BETTER-LUCK
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Ricochet Sidearm
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -2779,6 +2937,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 155 — ON RECORD
 - **Internal ID:** ON-RECORD
+- **Roster status:** Active utility/melee concept
 - **Category:** Combat Scanner
 - **Rarity:** Ascendant
 - **Slot:** Secondary
@@ -2792,6 +2951,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 156 — FRESH COAT
 - **Internal ID:** FRESH-COAT
+- **Roster status:** Active utility/melee concept
 - **Category:** Paint Marker
 - **Rarity:** Commonplace
 - **Slot:** Secondary
@@ -2805,6 +2965,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 157 — NARROW ESCAPE
 - **Internal ID:** NARROW-ESCAPE
+- **Roster status:** Active launch firearm
 - **Category:** Compact Launcher
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -2818,6 +2979,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 158 — SAME PAGE
 - **Internal ID:** SAME-PAGE
+- **Roster status:** Active utility/melee concept
 - **Category:** Team Relay
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -2831,6 +2993,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 159 — FINE TUNING
 - **Internal ID:** FINE-TUNING
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Rifle
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -2844,6 +3007,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 160 — SPARE ROOM
 - **Internal ID:** SPARE-ROOM
+- **Roster status:** Active utility/melee concept
 - **Category:** Deployable Launcher
 - **Rarity:** Evolved
 - **Slot:** Secondary
@@ -2857,6 +3021,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 161 — BAD SIGNAL
 - **Internal ID:** BAD-SIGNAL
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Pulse Sidearm
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -2870,6 +3035,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 162 — DEADLINE
 - **Internal ID:** DEADLINE
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Lever Rifle
 - **Rarity:** Altered
 - **Slot:** Primary
@@ -2883,6 +3049,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 163 — PARKING FINE
 - **Internal ID:** PARKING-FINE
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Tripod Carbine
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -2896,6 +3063,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 164 — BETWEEN FRIENDS
 - **Internal ID:** BETWEEN-FRIENDS
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Link Pistol
 - **Rarity:** Altered
 - **Slot:** Secondary
@@ -2909,6 +3077,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 165 — LATE CHECKOUT
 - **Internal ID:** LATE-CHECKOUT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Automatic Rifle
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -2922,6 +3091,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 166 — OPEN CIRCUIT
 - **Internal ID:** OPEN-CIRCUIT
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Chain Pulse Rifle
 - **Rarity:** Extraordinary
 - **Slot:** Primary
@@ -2935,6 +3105,7 @@ The roster now uses three distinct weapon slots: **Primary**, **Secondary**, and
 
 ### Weapon 167 — THE LAST WORD
 - **Internal ID:** THE-LAST-WORD
+- **Roster status:** Archived firearm concept, not launch content
 - **Category:** Precision Sidearm
 - **Rarity:** Evolved
 - **Slot:** Primary
@@ -3880,102 +4051,102 @@ Every entry below has an explicit rarity decision and a default presentation dir
 
 ### A. Damage-dealing firearms, launchers, and hybrids
 
-| ID | Weapon | Damage model (HP) | Headshot | Fire cadence | Mag / reserve | Reload | Effective range | Falloff |
+| ID | Weapon | Roster status | Damage model (HP) | Headshot | Fire cadence | Mag / reserve | Reload | Effective range | Falloff |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 001 | TAXMAN | 24; Collection Day cash-out: +12 max | ×1.5 | 650 RPM | 30 / 120 | 2.0s | 90 studs | 65–105 studs: 100% → 80% |
-| 002 | POCKET ROCKET | 14 base, ramps to 18 at full spin | ×1.35 | 780 → 960 RPM while held | 28 / 112 | 1.8s | 48 studs | 30–58 studs: 100% → 72% |
-| 003 | DOORBELL | 8 × 8 pellets = 64 max; focused: 8 × 7 = 56 | ×1.15 | 70 RPM; focused shot has 0.18s aim-in | 6 / 30 | 2.35s | 22 studs | 12–28 studs: 100% → 45% |
-| 004 | LONG STORY | 82 | ×1.25 | 42 RPM | 5 / 20 | 2.45s | 155 studs | 115–180 studs: 100% → 88% |
-| 005 | LOOSE CHANGE | 30 | ×1.5 | 300 RPM | 8 / 40 | 1.55s | 68 studs | 45–82 studs: 100% → 78% |
-| 006 | THREE'S COMPANY | 20 × 3 per burst; Plus One adds a fourth 14-damage shot | ×1.35 | 3-round burst; 0.09s spacing, 0.62s burst cycle | 27 / 108 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
-| 007 | LAWNMOWER | 16; spin-up reaches full rate after 0.8s | ×1.3 | 540 → 720 RPM | 60 / 180 | 3.25s | 78 studs | 50–100 studs: 100% → 78% |
-| 008 | RETURN TO SENDER | 42 per opponent per disc; each opponent can be hit once per throw | No headshots | 75 throws/min | 3 / 18 | 2.15s | 70 studs | 50–90 studs: 100% → 80% |
-| 010 | BAD HABIT | 46 per round; two-round pair | ×1.5 | Two-shot pair; 0.12s between rounds | 2 / 16 | 2.4s | 58 studs | 35–70 studs: 100% → 75% |
-| 011 | DEAD WEIGHT | 52 direct + up to 24 splash | No headshots | 48 RPM | 4 / 16 | 2.65s | 100 studs | 70–120 studs: splash falls to 0 at edge |
-| 012 | BAD RECEPTION | 17 × 3 per burst | ×1.35 | 3-round burst; 0.08s spacing, 0.58s burst cycle | 24 / 96 | 2.0s | 86 studs | 58–102 studs: 100% → 82% |
-| 013 | CALL WAITING | 34 uncharged; scales to 78 at full charge | ×1.4 | Charge: 0.35–1.15s; 52 shots/min after full charge | 5 / 25 | 2.25s | 125 studs | 85–150 studs: 100% → 82% |
-| 014 | SHORT NOTICE | 52 concentrated bolt; split bolts deal 18 each | ×1.4 | 90 bolts/min | 5 / 25 | 2.0s | 100 studs | 70–120 studs: 100% → 80% |
-| 015 | BAD NEIGHBOR | 22 per direct bolt; markers deal no damage | ×1.25 | 150 RPM | 6 / 36 | 1.75s | 72 studs | 45–88 studs: 100% → 80% |
-| 016 | TAXI | 32 direct impact | No headshots | 100 RPM | 8 / 40 | 2.0s | 76 studs | 50–92 studs: 100% → 80% |
-| 018 | SECOND OPINION | 25 per shot | ×1.4 | 360 RPM, alternating barrels | 16 / 64 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
-| 019 | PAPER TRAIL | 36 | ×1.5 | 240 RPM | 10 / 50 | 1.9s | 108 studs | 75–130 studs: 100% → 82% |
-| 022 | LAST CALL | 12 per sonic pulse | No headshots | One pulse every 0.7s | 5 pulses / 15s reserve | 1.4s recharge per pulse | 20 studs | No falloff inside pulse radius |
-| 023 | TWO CENTS | 32 standard; 40 alternating heavy round | ×1.5 | 300 RPM alternating pattern | 12 / 60 | 1.85s | 100 studs | 70–120 studs: 100% → 84% |
-| 025 | HOLD MUSIC | 16 per sequence hit; final sequence shot 26 | ×1.3 | 600 RPM | 30 / 120 | 2.1s | 68 studs | 42–88 studs: 100% → 80% |
-| 026 | SPLIT DECISION | 34 single; split mode fires 2 × 16 | ×1.4 | 360 RPM; fixed alternating modes | 24 / 96 | 2.0s | 82 studs | 55–100 studs: 100% → 82% |
-| 028 | SLOW BURN | 18 base, rises to 23 at heat cap | ×1.3 | 480 RPM | 30 / 120 | 2.1s | 82 studs | 55–102 studs: 100% → 80% |
-| 030 | NO REFUNDS | 56 | ×1.5 | 72 RPM | 5 / 25 | 2.45s | 92 studs | 62–112 studs: 100% → 84% |
-| 031 | OVERDUE | 28; consecutive hits shorten cycle, not damage | ×1.45 | 300 RPM base; up to 330 RPM on maintained hits | 15 / 75 | 1.9s | 92 studs | 65–112 studs: 100% → 83% |
-| 033 | BOUNCER | 9 × 7 pellets = 63 max | ×1.15 | 65 RPM | 5 / 25 | 2.3s | 23 studs | 14–30 studs: 100% → 52% |
-| 034 | GOOD MEASURE | 40 inside preferred band; 28 outside | ×1.5 | 180 RPM | 12 / 48 | 2.0s | 105 studs | Preferred band 45–78 studs; outside band 70% damage |
-| 036 | BACKFILL | 28 standard; separate chamber round also deals 28 | ×1.4 | 300 RPM | 11 + 1 chamber / 55 reserve | 1.9s | 92 studs | 65–112 studs: 100% → 82% |
-| 038 | TIN CAN | 46 direct; each bounce reduces damage by 20% | No headshots | 65 RPM | 5 / 20 | 2.35s | 82 studs | 50–105 studs; bounce loss applies separately |
-| 039 | HOME RUN | 38 base, rises to 50 at maximum travel distance | No headshots | 55 RPM | 4 / 16 | 2.55s | 115 studs | Damage ramps over 25–100 studs; capped at 50 |
-| 041 | DOUBLE PARKED | 16 per pistol shot | ×1.35 | 480 RPM alternating hands | 2 × 12 / 2 × 48 | 2.2s per dual reload | 58 studs | 38–78 studs: 100% → 75% |
-| 044 | GOOD GRIEF | 18; knockback meter changes push, not damage | ×1.3 | 650 RPM | 40 / 160 | 2.4s | 68 studs | 45–88 studs: 100% → 80% |
-| 045 | CLEAN BREAK | Compact barrel: 9 × 7 = 63; wide barrel: 7 × 7 = 49 | ×1.15 | 75 RPM alternating barrels | 2 / 18 | 2.4s | 22 studs | 13–28 studs: 100% → 50% |
-| 046 | SUNDAY DRIVER | 22 | ×1.4 | 660 RPM | 28 / 112 | 1.95s | 92 studs | 62–108 studs: 100% → 82% |
-| 047 | FINE PRINT | 30; completed three-angle stamp sequence grants one +10 shot | ×1.5 | 240 RPM | 12 / 60 | 2.0s | 98 studs | 68–118 studs: 100% → 82% |
-| 049 | HIGH HORSE | 36 grounded; 41 while airborne | No headshots | 60 RPM | 5 / 20 | 2.4s | 92 studs | 62–112 studs: 100% → 80% |
-| 051 | COLD SHOULDER | 26; consecutive hits tighten spread, not damage | ×1.45 | 360 RPM | 14 / 70 | 1.9s | 92 studs | 65–112 studs: 100% → 83% |
-| 053 | DOUBLE TAKE | 26 first shot + 14 delayed follow-up | ×1.35 | 300 trigger cycles/min; follow-up after 0.16s | 18 / 72 | 2.0s | 86 studs | 60–104 studs: 100% → 82% |
-| 055 | BAD TIMING | 19 | ×1.35 | Fixed rhythm: 3 shots at 720 RPM, then 0.28s pause | 30 / 120 | 2.1s | 88 studs | 60–105 studs: 100% → 82% |
-| 057 | LAST RESORT | 48; final cylinder round deals 56 | ×1.5 | 120 RPM | 6 / 30 | 2.15s | 78 studs | 52–95 studs: 100% → 80% |
-| 059 | SHORT FUSE | 34 direct + up to 22 splash; delayed charge burst | No headshots | 60 charges/min | 4 / 16 | 2.5s | 72 studs | 45–92 studs: splash falls to 0 at edge |
-| 060 | THE USUAL | 21 | ×1.4 | 600 RPM; mode switch changes cadence only | 24 / 120 | 2.0s | 92 studs | 65–108 studs: 100% → 82% |
-| 061 | BAD PENNY | 14 × 3 per burst | ×1.35 | 3-round burst; 0.08s spacing, 0.68s cycle | 18 / 72 | 1.9s | 58 studs | 38–78 studs: 100% → 76% |
-| 063 | SQUARE DEAL | 36; centre-hit timing bonus shortens next recovery only | ×1.5 | 240 RPM | 12 / 60 | 1.9s | 102 studs | 70–122 studs: 100% → 84% |
-| 064 | BULLPEN | 8 × 8 pellets = 64 max; stationary preparation tightens spread | ×1.15 | 55 RPM | 6 / 24 | 2.65s | 21 studs | 12–27 studs: 100% → 50% |
-| 065 | PAPER CUT | 23; opposite-side follow-up adds +8 once per sequence | ×1.45 | 420 RPM | 18 / 72 | 1.9s | 82 studs | 56–98 studs: 100% → 82% |
-| 067 | SLOW CLAP | 31 | ×1.5 | 240 RPM; steady rhythm keeps recoil predictable | 16 / 64 | 1.9s | 94 studs | 65–110 studs: 100% → 84% |
-| 069 | WIDE OPEN | 7 × 8 pellets = 56 max | ×1.1 | 80 RPM | 5 / 25 | 2.15s | 20 studs | 11–29 studs: 100% → 42% |
-| 070 | DEAD CERT | 76 | ×1.5 | 42 RPM; manual bolt cycle | 5 / 20 | 2.5s | 155 studs | 115–180 studs: 100% → 88% |
-| 073 | FIRST CLASS | 19 first portion; 17 final 10 rounds | ×1.4 | 660 RPM; final 10 rounds at 750 RPM with wider spread | 30 / 120 | 2.0s | 82 studs | 55–98 studs: 100% → 80% |
-| 074 | OVERHEAD | 40 direct + up to 20 splash | No headshots | 42 RPM | 4 / 16 | 2.55s | 102 studs | 70–122 studs: splash falls to 0 at edge |
-| 076 | TIME CARD | 28; matched rhythm improves handling only | ×1.45 | 300 RPM | 14 / 56 | 1.85s | 92 studs | 65–108 studs: 100% → 83% |
-| 077 | SPOT CHECK | 16 × 4 per burst | ×1.35 | 4-round burst; 0.075s spacing, 0.72s cycle | 24 / 96 | 2.1s | 86 studs | 60–104 studs: 100% → 82% |
-| 079 | FENDER BENDER | 46; moving-toward-user hit adds push only | No headshots | 90 RPM | 5 / 25 | 2.3s | 34 studs | 20–48 studs: 100% → 68% |
-| 080 | GOOD SPORT | 28; one predictable rebound, no bonus damage | No headshots | 100 RPM | 6 / 30 | 1.85s | 72 studs | 45–92 studs: 100% → 80% |
-| 081 | NIGHTCAP | 8 × 7 pellets = 56 max; final shell uses tighter spread | ×1.15 | 72 RPM | 5 / 25 | 2.15s | 22 studs | 14–29 studs: 100% → 54% |
-| 082 | TALLY HO | 15 per normal round; every fifth round deals 20 (five-shot total remains 80) | ×1.25 | 600 RPM | 55 / 165 | 3.0s | 78 studs | 50–100 studs: 100% → 78% |
-| 083 | STATIC SHOCK | 20 direct; secondary arc deals 10 | ×1.3 | 420 RPM | 24 / 96 | 2.1s | 82 studs | 55–98 studs: 100% → 80% |
-| 085 | BLIND DATE | 22 | ×1.35 | 600 RPM | 24 / 96 | 2.0s | 58 studs | 38–78 studs: 100% → 75% |
-| 087 | HARD COPY | 54; repeated recoil offset does not change damage | ×1.5 | 120 RPM | 8 / 32 | 2.4s | 138 studs | 98–158 studs: 100% → 86% |
-| 088 | BOTTOM LINE | 22; recoil becomes more predictable as magazine empties | ×1.4 | 540 RPM | 36 / 144 | 2.55s | 98 studs | 68–118 studs: 100% → 84% |
-| 091 | HEADCOUNT | 25; target-switch sequence improves handling only | ×1.45 | 360 RPM | 18 / 72 | 1.9s | 88 studs | 60–105 studs: 100% → 82% |
-| 092 | LATE FEE | 9 × 7 pellets = 63 max; settled pump shot tightens spread | ×1.2 | 60 RPM | 6 / 30 | 2.45s | 22 studs | 14–29 studs: 100% → 54% |
-| 094 | SAFE BET | 40 normal; every third shot deals 26 at higher speed | ×1.5 | 180 RPM | 9 / 45 | 2.1s | 78 studs | 52–95 studs: 100% → 80% |
-| 097 | BIG PICTURE | 24 / 20 / 16 across the narrowing three-shot sequence | ×1.35 | 3-shot burst; 0.09s spacing, 0.68s cycle | 21 / 84 | 2.1s | 92 studs | 62–108 studs: 100% → 82% |
-| 098 | SMALL TALK | 15; spread grows during sustained fire and resets after release | ×1.35 | 900 RPM | 26 / 104 | 1.8s | 48 studs | 30–62 studs: 100% → 72% |
-| 100 | OVERBOOKED | 7 × 7 pellets = 49 max; final continuous-fire shell has wider spread, not extra damage | ×1.1 | 180 RPM automatic sequence | 8 / 32 | 2.8s | 18 studs | 10–25 studs: 100% → 45% |
-| 102 | HOUSE RULES | 24; stance zone changes recoil only | ×1.45 | 480 RPM | 24 / 96 | 2.0s | 98 studs | 68–118 studs: 100% → 84% |
-| 103 | NO SHOW | 64 after aim preparation; unprepared shot is not available | ×1.5 | 55 RPM; preparation 0.75s | 5 / 20 | 2.4s | 145 studs | 105–165 studs: 100% → 87% |
-| 105 | DOUBLE SHIFT | 23 steady round; 17 fast round | ×1.35 | 540 RPM alternating feeds | 28 / 112 | 2.1s | 92 studs | 62–108 studs: 100% → 82% |
-| 106 | OPEN TAB | 24 first shot + 14 delayed follow-up | ×1.35 | 300 trigger cycles/min; follow-up after 0.18s | 12 / 60 | 1.9s | 58 studs | 38–78 studs: 100% → 76% |
-| 109 | SIDE DISH | 32 main projectile + 16 companion projectile | No headshots | 80 RPM | 5 / 25 | 2.2s | 78 studs | 52–98 studs: 100% → 78% |
-| 141 | GOOD ENOUGH | 23 × 2 per burst; second shot has wider spread | ×1.4 | 2-round burst; 0.11s spacing, 0.55s cycle | 28 / 112 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
-| 142 | OUT OF OFFICE | 15; opening burst is tighter, sustained fire widens | ×1.35 | 900 RPM | 30 / 120 | 1.8s | 48 studs | 30–62 studs: 100% → 72% |
-| 143 | SQUARE ONE | 33 | ×1.5 | 240 RPM; beat timing affects recoil only | 14 / 56 | 1.9s | 98 studs | 68–118 studs: 100% → 84% |
-| 144 | TWO-WAY STREET | 21 per shot; alternating barrels keeps recoil controlled | ×1.4 | 420 RPM | 16 / 64 | 2.0s | 68 studs | 45–88 studs: 100% → 80% |
-| 145 | MIDDLE MANAGEMENT | 22; teammate tick is information only | ×1.4 | 600 RPM | 28 / 112 | 2.0s | 88 studs | 60–105 studs: 100% → 82% |
-| 146 | SLOW NEWS | 46; quick fallback shot deals 30 with reduced accuracy | ×1.5 | 100 RPM standard; 150 RPM fallback | 8 / 32 | 2.25s | 118 studs | 82–138 studs: 100% → 85% |
-| 147 | PUNCHLINE | 40; short-range push is fixed and modest | ×1.25 | 150 RPM | 6 / 30 | 2.1s | 38 studs | 22–52 studs: 100% → 65% |
-| 148 | DETOUR | 36 direct; near misses deal 0 | No headshots | 70 RPM | 5 / 20 | 2.3s | 88 studs | 58–108 studs: 100% → 78% |
-| 149 | WELL READ | 24 × 3 per sequence; on-beat cadence tightens sequence only | ×1.5 | 3-shot sequence; 0.16s spacing, 0.9s cycle | 9 / 45 | 2.2s | 112 studs | 78–132 studs: 100% → 85% |
-| 150 | CASH ONLY | 60 | ×1.5 | 50 RPM | 1 / 12 | 2.6s | 78 studs | 52–96 studs: 100% → 80% |
-| 151 | WINDOW SEAT | 7 × 8 pellets = 56 max; horizontal fan widens during turn | ×1.1 | 85 RPM | 6 / 30 | 2.0s | 19 studs | 11–26 studs: 100% → 48% |
-| 152 | NO COMMENT | 29; quiet tracer does not change hit feedback | ×1.5 | 240 RPM | 12 / 60 | 1.9s | 94 studs | 65–110 studs: 100% → 83% |
-| 153 | TRAFFIC JAM | 8 × 6 projectiles = 48 max if all connect | No headshots | 45 clusters/min | 4 / 16 | 2.6s | 68 studs | 45–88 studs: 100% → 75% |
-| 154 | BETTER LUCK | 36 direct; 22 after one ricochet | ×1.45 | 180 RPM | 8 / 40 | 1.9s | 82 studs | 55–100 studs: 100% → 80% |
-| 157 | NARROW ESCAPE | 26 direct + up to 18 ring damage | No headshots | 60 RPM | 4 / 16 | 2.5s | 68 studs | 45–88 studs: ring damage fixed inside small radius |
-| 159 | FINE TUNING | 34; recoil state changes trajectory only | ×1.5 | 210 RPM | 12 / 60 | 2.0s | 98 studs | 68–118 studs: 100% → 84% |
-| 161 | BAD SIGNAL | 12 direct; HUD edge disruption adds no damage | ×1.25 | 360 RPM | 12 / 60 | 1.8s | 48 studs | 30–65 studs: 100% → 72% |
-| 162 | DEADLINE | 42; skipped lever cycle adds recoil, not damage | ×1.5 | 150 RPM | 8 / 40 | 2.1s | 98 studs | 68–118 studs: 100% → 84% |
-| 163 | PARKING FINE | 27; deployed rest changes recoil only | ×1.4 | 360 RPM | 18 / 72 | 2.0s | 102 studs | 72–122 studs: 100% → 85% |
-| 164 | BETWEEN FRIENDS | 18; relay interaction refreshes utility, not ammo | ×1.35 | 300 RPM | 12 / 60 | 1.8s | 52 studs | 35–72 studs: 100% → 75% |
-| 165 | LATE CHECKOUT | 23 | ×1.4 | 720 RPM | 20 / 80 | 1.65s | 82 studs | 55–100 studs: 100% → 80% |
-| 166 | OPEN CIRCUIT | 15 × 3 per burst; continuation never adds damage | ×1.3 | 3-round burst; 0.08s spacing, 0.62s cycle | 27 / 108 | 2.0s | 92 studs | 62–108 studs: 100% → 82% |
-| 167 | THE LAST WORD | 50; first shot after swap has no damage bonus | ×1.5 | 90 RPM | 6 / 30 | 2.0s | 78 studs | 52–96 studs: 100% → 80% |
+| | 001 | TAXMAN | |001
+| | 002 | POCKET ROCKET | |002
+| | 003 | DOORBELL | |003
+| | 004 | LONG STORY | |004
+| | 005 | LOOSE CHANGE | |005
+| | 006 | THREE'S COMPANY | |006
+| | 007 | LAWNMOWER | |007
+| | 008 | RETURN TO SENDER | |008
+| | 010 | BAD HABIT | |010
+| | 011 | DEAD WEIGHT | |011
+| | 012 | BAD RECEPTION | |012
+| | 013 | CALL WAITING | |013
+| | 014 | SHORT NOTICE | |014
+| | 015 | BAD NEIGHBOR | |015
+| | 016 | TAXI | |016
+| | 018 | SECOND OPINION | |018
+| | 019 | PAPER TRAIL | |019
+| | 022 | LAST CALL | |022
+| | 023 | TWO CENTS | |023
+| | 025 | HOLD MUSIC | |025
+| | 026 | SPLIT DECISION | |026
+| | 028 | SLOW BURN | |028
+| | 030 | NO REFUNDS | |030
+| | 031 | OVERDUE | |031
+| | 033 | BOUNCER | |033
+| | 034 | GOOD MEASURE | |034
+| | 036 | BACKFILL | |036
+| | 038 | TIN CAN | |038
+| | 039 | HOME RUN | |039
+| | 041 | DOUBLE PARKED | |041
+| | 044 | GOOD GRIEF | |044
+| | 045 | CLEAN BREAK | |045
+| | 046 | SUNDAY DRIVER | |046
+| | 047 | FINE PRINT | |047
+| | 049 | HIGH HORSE | |049
+| | 051 | COLD SHOULDER | |051
+| | 053 | DOUBLE TAKE | |053
+| | 055 | BAD TIMING | |055
+| | 057 | LAST RESORT | |057
+| | 059 | SHORT FUSE | |059
+| | 060 | THE USUAL | |060
+| | 061 | BAD PENNY | |061
+| | 063 | SQUARE DEAL | |063
+| | 064 | BULLPEN | |064
+| | 065 | PAPER CUT | |065
+| | 067 | SLOW CLAP | |067
+| | 069 | WIDE OPEN | |069
+| | 070 | DEAD CERT | |070
+| | 073 | FIRST CLASS | |073
+| | 074 | OVERHEAD | |074
+| | 076 | TIME CARD | |076
+| | 077 | SPOT CHECK | |077
+| | 079 | FENDER BENDER | |079
+| | 080 | GOOD SPORT | |080
+| | 081 | NIGHTCAP | |081
+| | 082 | TALLY HO | |082
+| | 083 | STATIC SHOCK | |083
+| | 085 | BLIND DATE | |085
+| | 087 | HARD COPY | |087
+| | 088 | BOTTOM LINE | |088
+| | 091 | HEADCOUNT | |091
+| | 092 | LATE FEE | |092
+| | 094 | SAFE BET | |094
+| | 097 | BIG PICTURE | |097
+| | 098 | SMALL TALK | |098
+| | 100 | OVERBOOKED | |100
+| | 102 | HOUSE RULES | |102
+| | 103 | NO SHOW | |103
+| | 105 | DOUBLE SHIFT | |105
+| | 106 | OPEN TAB | |106
+| | 109 | SIDE DISH | |109
+| | 141 | GOOD ENOUGH | |141
+| | 142 | OUT OF OFFICE | |142
+| | 143 | SQUARE ONE | |143
+| | 144 | TWO-WAY STREET | |144
+| | 145 | MIDDLE MANAGEMENT | |145
+| | 146 | SLOW NEWS | |146
+| | 147 | PUNCHLINE | |147
+| | 148 | DETOUR | |148
+| | 149 | WELL READ | |149
+| | 150 | CASH ONLY | |150
+| | 151 | WINDOW SEAT | |151
+| | 152 | NO COMMENT | |152
+| | 153 | TRAFFIC JAM | |153
+| | 154 | BETTER LUCK | |154
+| | 157 | NARROW ESCAPE | |157
+| | 159 | FINE TUNING | |159
+| | 161 | BAD SIGNAL | |161
+| | 162 | DEADLINE | |162
+| | 163 | PARKING FINE | |163
+| | 164 | BETWEEN FRIENDS | |164
+| | 165 | LATE CHECKOUT | |165
+| | 166 | OPEN CIRCUIT | |166
+| | 167 | THE LAST WORD | |167
 
 ### B. Utility weapons and tools
 
