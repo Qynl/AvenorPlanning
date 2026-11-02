@@ -329,7 +329,7 @@ Planned HUD information includes:
 
 Combat feedback should be readable and consistent. Audio and visual effects should communicate useful information without overwhelming the player.
 
-Controls must support the intended platforms. Keyboard and mouse, controller, and mobile layouts are planned. Mobile button size and position should be adjustable where practical. Exact layouts, remapping options, accessibility settings, and HUD customization are **TBD**.
+Controls must support keyboard and mouse, controller, and mobile. Proposed HUD regions, default keyboard/mouse bindings, input abstraction, mobile customization, audio priorities, and accessibility requirements are documented in `AVENOR_HUD_Audio.md`. Exact layouts, remapping options, and platform tuning remain subject to implementation and playtesting.
 
 ## 18. Visual and Audio Direction
 
@@ -345,7 +345,7 @@ Controls must support the intended platforms. Keyboard and mouse, controller, an
 
 Weapon sounds, movement sounds, ability cues, and elimination feedback should be distinctive and useful. Audio should help players understand what is happening without becoming confusing or excessively noisy.
 
-The final sound identity and detailed audio rules are **TBD**.
+The proposed audio identity, gameplay-versus-cosmetic priority mix, weapon and movement sound requirements, music direction, and accessibility controls are documented in `AVENOR_HUD_Audio.md`. Final sound assets, mix values, and platform-specific tuning remain TBD.
 
 ## 19. Brand Identity
 
@@ -389,6 +389,8 @@ The final sound identity and detailed audio rules are **TBD**.
 - **AVENOR_KillEffects.md** — elimination effect collection and presentation rules.
 - **AVENOR_WinEffects.md** — victory effect collection and presentation rules.
 - **AVENOR_Emotes.md** — character emote collection and presentation rules.
+- **AVENOR_Presentation.md** — MVP selection and showcases, elimination announcements, player banners, titles, and profile showcases.
+- **AVENOR_HUD_Audio.md** — HUD layout, control defaults, cross-platform input, combat feedback, audio direction, music, and accessibility.
 
 ## 22. Remaining Open Decisions
 
@@ -405,6 +407,6 @@ The following areas still need detailed design or testing:
 - Economy and paid unlock boundaries.
 - HUD, controls, accessibility, and platform-specific implementation.
 - Implementation and profiling of the proposed technical architecture, including latency tolerances and exploit monitoring.
-- Detailed MVP presentation, kill announcements and sound sets, player banners, and profile showcase specifications.
-- Final audio identity, music direction, sound mix priorities, and accessibility controls.
+- Final MVP contribution weights, presentation unlock distribution, profile privacy defaults, and announcement audio defaults.
+- Final HUD coordinates, control layouts, audio assets, mix values, and platform-specific accessibility tuning.
 - Final development scope adjustments based on prototype results and available production capacity.
