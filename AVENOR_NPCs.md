@@ -1,51 +1,101 @@
-# AVENOR — NPC Population & Behaviour Design
+# AVENOR — Player-Like NPC Factions
 
-> NPCs make the world feel inhabited and responsive. They are not all enemies and should not all run full simulation at all times.
+> **Scope lock:** AVENOR does not simulate a civilian population or everyday NPC society. The only planned NPCs are a limited number of AI-controlled faction groups that behave as much like player squads as practical. Real players remain the heart of the world.
 
-## 1. Goals
-Give each NPC a reason to be present. Support exploration, services, social encounters, clues and optional combat. Let groups react to local incidents and relationships. Make reactions believable: NPCs only know what they could observe or receive. Keep quiet exploration as well as danger.
+## 1. Purpose
+NPC factions give selected remote, valuable or interesting locations a sense of risk and activity when real players are not there. They are not quest-givers, shopkeepers, public workers or background crowds.
 
-## 2. Population types
-- **Civilians:** settlement/street population; simple routines, shops, social idles and reactions to nearby danger.
-- **Police/public security:** respond to incidents in their jurisdiction based on witnesses, reports and local awareness.
-- **Private security/facility guards:** protect sites, warn about trespass and escalate under defined conditions.
-- **Military/organised security:** operate selected bases, checkpoints or facilities, not every region.
-- **Traders/services:** shops, garages and specialist services; do not bypass Open World weapon discovery.
-- **Adventurers/explorers:** travel in groups, investigate points of interest, rest at camps and share rumours.
-- **Researchers/mechanics/medics/guides:** local services, context and optional activities.
-- **Independent/hostile groups:** occupy or travel through selected locations; not every independent group is hostile.
+A faction should feel like a group of players occupying the world:
+- Members travel together or split into small sensible subgroups.
+- They carry weapons, ammunition and equipment.
+- They scavenge and move between locations.
+- They establish temporary camps or use existing structures as a base of operations.
+- They may guard rare weapons, equipment caches or unusual discoveries.
+- They react to nearby players and other factions.
+- They can engage, reposition, retreat, regroup or abandon a location.
 
-## 3. Faction relationships
-Suggested states: Friendly, Neutral, Wary, Hostile, or temporarily Allied through an event/activity. Reputation is faction-specific and may change through witnessed actions, assistance and faction activities. It is distinct from immediate incident attention.
+## 2. What does not exist
+Explicitly out of scope:
+- Police or law enforcement.
+- Civilian crowds and pedestrian routines.
+- Public security, patrol guards or facility security as a separate service system.
+- Military/security NPC ecosystems separate from player-like factions.
+- Traders, merchants, shopkeepers, medics, mechanics or service NPCs.
+- Quest-givers, dialogue hubs or NPC mission boards.
+- Traffic or public-service simulations.
+- Wanted levels, witness reports, arrests, fines or police pursuit.
+- NPC reputation used to unlock everyday services.
 
-## 4. Reactive awareness without a visible wanted meter
-A reaction chain:
-1. An NPC observes an incident or an alarm is triggered.
-2. The observer warns, retreats or reports.
-3. Nearby security receives a local report if communication is possible.
-4. A response is selected based on incident, location, faction and available NPC budget.
-5. Response is communicated through behaviour, dialogue, radio, access changes and visible presence.
-6. Awareness can fade if there is no identification/report; recognised identity or faction consequences may persist.
+A building may still be a hospital, station, shop, checkpoint or public facility as an explorable location. Its existence does not imply a functioning NPC service or civilian simulation.
 
-No omniscient tracking and no default GTA-style star display. NPCs must have a plausible information path.
+## 3. Faction identity
+Each faction needs a distinct visual and gameplay identity, not merely a different name:
+- Clothing/colour language and silhouettes.
+- Preferred weapons and equipment.
+- Group size and formation habits.
+- Preferred terrain and locations.
+- Aggression and willingness to disengage.
+- Scavenging priorities.
+- Camp style and defensive habits.
+- A recognisable reason for protecting or seeking certain discoveries.
 
-## 5. Behaviour model
-Start with reusable state machines: Idle, FollowRoute, Travel, Inspect, Interact, Talk, NoticeIncident, Warn, Report, MoveToSafety, Investigate, Guard, Challenge, Encounter, ReturnToRoutine and Despawn. Combat states exist only for appropriate archetypes.
+Faction themes and names are proposals until separately approved. Avoid making every group an enemy. Some may ignore players unless approached, while others may be territorial around valuable finds.
 
-## 6. Local interactions
-Police may respond to a witnessed public incident. Guards challenge restricted entry. Traders may refuse service if a relevant faction relationship is hostile. Adventurers may share clues after assistance. Rival groups may avoid or confront one another. Friendly NPCs may assist during an event. These are examples, not all launch requirements.
+## 4. Player-like behaviour model
+Use a compact set of understandable behaviours:
+- Roam between authored points of interest.
+- Search selected containers or supply areas.
+- Carry and switch weapons.
+- Reload and manage limited ammunition.
+- Stay near squad members.
+- Watch approaches to a camp or valuable location.
+- Investigate nearby sounds or visible activity.
+- Take cover and reposition during encounters.
+- Push, hold, flank or retreat according to simple squad rules.
+- Recover, regroup and move on after an encounter.
 
-## 7. Regional authoring
-Each map documents population locations, archetypes, route nodes, services, faction boundaries, incident coverage, discoveries and spawn/update budgets. Use authored schedules and seeded variation rather than continuous complex simulation.
+The goal is not to imitate every human decision. The goal is to make factions readable, believable opponents and occasional unexpected neighbours.
 
-## 8. Player interaction
-Dialogue is short and skippable. Prompts support PC, controller and mobile. Services disclose cost/effect before confirmation. No forced dialogue to traverse ordinary spaces. Party credit and rewards are server-validated.
+## 5. Rare-site defence
+Some rare discoveries may be guarded by an NPC faction:
+- The group is physically present at or near the location.
+- Its equipment and behaviour communicate that the site is defended.
+- Players can observe, avoid, approach, or fight.
+- Defeat or displacement of the group can open access to the discovery.
+- The faction should not instantly respawn in front of the player.
+- Rare rewards must remain balanced and must not require fighting every time.
 
-## 9. Fair response
-Clear warnings; no unavoidable surprise damage; no endless world-wide pursuit; response units have bounded search areas and time budgets; safe/social areas obey their rules.
+Not every rare item should be guarded. Some discoveries should be hidden, abandoned, environmental or simply difficult to reach.
 
-## 10. Performance
-Ambient civilians use low-cost behaviour and limited update rates. Full awareness/combat logic is reserved for nearby relevant NPCs. Distant groups use lightweight scheduled state. Use per-server/per-region spawn budgets, pooling, cleanup and distance tiers. See AVENOR_Map_Performance.md.
+## 6. Camps and location presence
+Factions can establish temporary camps at suitable places, using a small set of reusable props. A camp is a current presence, not permanent ownership of the land. A faction may move, leave or be displaced.
 
-## 11. First NPC slice
-One civilian, one trader/specialist, one adventurer group with a multi-stop route, one guard with warning state, one optional hostile encounter, one witnessed incident with local security response and one NPC-led discovery. Avoid large faction warfare until this works.
+Player camps follow the separate player-camp design. NPC camps must obey similar spatial and visual rules so they feel like part of the same world.
+
+## 7. Awareness and fairness
+- NPCs only react to what they can plausibly see or hear within a bounded area.
+- No omniscient tracking across the map.
+- No world-wide pursuit or police-style escalation.
+- Give players readable cues before a faction becomes hostile where appropriate.
+- Factions should not spawn directly on top of players or immediately respawn after being cleared.
+- Avoid unavoidable damage and unfair accuracy.
+- Faction difficulty comes from positioning, teamwork and equipment, not cheating or perfect aim.
+
+## 8. Spawn and persistence rules
+- Keep the number of active NPC squads low and intentional.
+- Spawn factions at authored sites or through controlled world-state events.
+- Use server-side limits, distance-based updates, pooling and cleanup.
+- A squad's state may persist locally while its location remains relevant, but do not simulate every squad in every world continuously.
+- Exact cross-server persistence, respawn timing, squad counts and loot rules remain TBD.
+
+## 9. First prototype
+Build one small faction squad at one remote POI:
+1. It occupies a location containing a rare discovery.
+2. Members patrol a small local area and remain near the group.
+3. They notice a nearby player within fair awareness limits.
+4. They use cover, weapons, reloads and basic teamwork.
+5. They can be avoided, fought or outmanoeuvred.
+6. Once displaced, the location becomes accessible.
+7. The squad does not instantly respawn.
+
+Only expand the faction roster after this prototype is fun, readable and performant.
