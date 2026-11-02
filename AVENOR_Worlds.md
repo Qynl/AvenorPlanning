@@ -3,7 +3,7 @@
 > Ten proposed large regions for the long-term collection, not a launch commitment. Names, order, dimensions and rotation cadence remain provisional.
 
 ## Shared principles
-Every region is a coherent place with distinct geography, architecture and ambience. Include landmarks, quiet exploration, social locations, remote destinations, secrets, interiors, player activity and sparse NPC faction activity and optional combat. Do not design an oversized arena or pad the map with empty distance. First production target is one compact district in GREYHAVEN. Measure traversal, memory, server cost and mobile frame rate before deciding full-world dimensions.
+Every region is a coherent, authored playground with distinct geography, architecture and ambience. Include landmarks, quiet exploration, memorable traversal routes, remote destinations, secrets, interiors, player activity and sparse NPC faction activity. Real-world details make places convincing and explorable; they do not require ordinary city-life simulation or GTA systems. Do not design an oversized arena or pad the map with empty distance. First production target is one compact district in GREYHAVEN. Measure traversal, memory, server cost and mobile frame rate before deciding full-world dimensions.
 
 Worlds should be authored with reusable seasonal/global-state variants in mind. A region is not a separate copy for every event: use shared modular assets and controlled world-state profiles for weather, materials, vegetation, lighting, water, ambience and NPC faction presentation. A transformation must still be designed and tested per region; do not assume one universal snow/foliage overlay will work everywhere.
 
