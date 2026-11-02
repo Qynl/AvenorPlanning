@@ -155,17 +155,12 @@ Coastal and lake settlements host temporary public activities: boat-free shoreli
 A playful one-day anomaly changes harmless world details: swapped signage, unusual NPC dialogue, oversized props, reversed announcement wording and a few hidden visual puzzles. Do not invert core controls or break accessibility.
 **Changes:** temporary environmental variants, NPC dialogue, secret interactions and a commemorative journal record.
 
-### 25 — VALENTINE'S: SIGNALS & STORIES
-**Window:** approximately February 12–16. **Type:** Seasonal social Open World.
-Players discover paired story fragments around the region and can leave optional public messages at designated boards. NPC pairs and friendships have small environmental stories. No romantic pressure, forced pairing or gameplay advantage.
-**Changes:** social message boards with moderation, paired environmental clues, NPC vignettes and cosmetic keepsakes.
-
-### 26 — AUTUMN: HARVEST CIRCUIT
+### 25 — AUTUMN: HARVEST CIRCUIT
 **Window:** approximately 10 days around the autumn equinox. **Type:** Seasonal Open World.
 Rural and urban districts host harvest markets, timed delivery routes, local cooking displays and a travelling fair. Players help vendors prepare stalls and uncover a fairground backstory.
 **Changes:** market/fair locations, vendor NPCs, temporary delivery activity, props and discovery trail.
 
-### 27 — ANNIVERSARY: AVENOR REUNION
+### 26 — ANNIVERSARY: AVENOR REUNION
 **Window:** 7 days around the game's launch anniversary. **Type:** Seasonal/community.
 The active world displays a gallery of community milestones, archived event objects return in a curated exhibition, and players can revisit selected past event spaces. A community-wide exploration record is tracked.
 **Changes:** anniversary exhibition, archive access, returning NPCs/props, community progress and commemorative cosmetics.
