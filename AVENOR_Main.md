@@ -395,7 +395,7 @@ The proposed audio identity, gameplay-versus-cosmetic priority mix, weapon and m
 
 ## 22. Remaining Open Decisions
 
-The following areas still need detailed design or testing:
+The following areas are designed at proposal level and still need approval, implementation, or playtesting:
 - Final movement tuning and any advanced movement additions after prototype testing.
 - Final health value, damage model, regeneration, and elimination rules after prototype testing.
 - Weapon balance validation and implementation priorities.
@@ -403,10 +403,11 @@ The following areas still need detailed design or testing:
 - Final approval and playtest tuning of the proposed mode roster, player counts, scoring, timers, respawns, and overtime.
 - Greybox validation and iteration for the eight proposed map layouts, including dimensions, routes, sightlines, spawns, interactions, pickup placements, and tested mode compatibility.
 - Respawn, spectating, overtime, and round-transition behavior.
-- Ranked tiers, rating, placements, matchmaking, and resets.
-- Season pass structure.
-- Economy and paid unlock boundaries.
-- HUD, controls, accessibility, and platform-specific implementation.
+- Approval and simulation of the proposed rating bands, placement matches, hidden rating model, and seasonal reset.
+- Approval and economy testing of the proposed 40-tier season pass.
+- Approval and simulation of account XP, mastery XP, AVENOR Credits, shop prices, and unlock pacing.
+- Final approval of the recommended all-gameplay-weapons-earnable policy and ranked ability access.
+- HUD, controls, accessibility, and platform-specific implementation after testing the proposed `AVENOR_HUD_Audio.md` specification.
 - Implementation and profiling of the proposed technical architecture, including latency tolerances and exploit monitoring.
 - Final MVP contribution weights, presentation unlock distribution, profile privacy defaults, and announcement audio defaults.
 - Final HUD coordinates, control layouts, audio assets, mix values, and platform-specific accessibility tuning.
