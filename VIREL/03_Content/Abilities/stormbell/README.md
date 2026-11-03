@@ -1,6 +1,6 @@
 # Stormbell — Ability Set
 
-**Parent plant:** [Stormbell](../../02_Content/Plants/stormbell/README.md)  
+**Parent plant:** [Stormbell](../../../02_Content/Plants/stormbell/README.md)  
 **Set:** Tempest Choir  
 **Rarity:** Forgotten
 
