@@ -2,7 +2,7 @@
 
 **Ability ID:** MISTBELL_03  
 **Status:** PROPOSAL  
-**Parent plant:** [Mistbell](../../02_Content/Plants/mistbell/README.md)  
+**Parent plant:** [Mistbell](../../../02_Content/Plants/mistbell/README.md)  
 **Ability set:** Veilmist  
 **Plant rarity:** Unusual  
 **Set position:** 3 of 3
@@ -35,7 +35,7 @@ Send a concentrated spray of water droplets in a short-range burst.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/mistbell/README.md)
+- [Parent plant](../../../02_Content/Plants/mistbell/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
