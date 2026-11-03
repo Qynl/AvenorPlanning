@@ -1,6 +1,6 @@
 # Springvine — Ability Set
 
-**Parent plant:** [Springvine](../../../../02_Content/Plants/springvine/README.md)  
+**Parent plant:** [Springvine](../../../../../02_Content/Plants/springvine/README.md)  
 **Set:** Wildcoil  
 **Rarity:** Unusual
 
