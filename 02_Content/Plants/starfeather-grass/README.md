@@ -12,16 +12,23 @@ A wide patch of silver grass whose seed heads resemble tiny stars. At night, the
 
 **Ecological role:** Aerial route marking and high-altitude seed dispersal.
 
-## Discovery and research
-Follow the seed plumes across the plateau and identify the patch that continues to point toward a hidden updraft after the wind changes.
+## Discovery and acquisition
+**Discovery clue:** Follow the seed plumes across the plateau and identify the patch that continues to point toward a hidden updraft after the wind changes.
 
-1. Observe seed movement at different wind strengths.
-2. Scan the plume pattern.
-3. Follow the natural route it reveals.
-4. Record the discovery.
-5. Research its complete ability set.
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Observe seed movement at different wind strengths.
+- Scan the plume pattern.
+- Follow the natural route it reveals.
+- Research its complete ability set.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Starfall Tuft](../../../03_Content/Abilities/starfeather-grass/starfall-tuft.md) | PLANT_050_A01 | Movement | A soft burst of star-shaped seeds marks a temporary route through open air. |
@@ -35,8 +42,8 @@ Follow the seed plumes across the plateau and identify the patch that continues 
 - Theme: Star-like seeds, silver grass and aerial paths.
 - Rarity: Relic. The set should feel exceptional but remain readable and controllable.
 
-## Mastery
-Three research milestones unlock the abilities in sequence. Mastery reward: archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/zephyr-crown/README.md)
