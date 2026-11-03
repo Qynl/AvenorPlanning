@@ -1,4 +1,4 @@
-# VIREL World Catalogue
+# FLORA World Catalogue
 
 Worlds now have individual specifications.
 
