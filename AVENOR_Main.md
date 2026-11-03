@@ -91,7 +91,7 @@ The intended model uses a loaded magazine, quick-access spare magazine(s), then 
 - Exact schedule, map order and exceptions remain TBD.
 
 ## 11. Home screen and progression
-The home screen includes a 3D character/weapon showcase and navigation for Enter World, Game Modes, Loadout, Arsenal, Character, Progression, Discoveries, Events, Social and Settings. Permanent progression includes account XP, weapon ownership, mastery, cosmetics, achievements, discovery records and competitive rank.
+The home screen includes a 3D character/weapon showcase and navigation for Enter World, Game Modes, Loadout, Arsenal, Character, Progression, Discoveries, Events, Social and Settings. Permanent progression includes account XP and levels, weapon ownership and mastery, cosmetics, achievements, discovery records, meaningful collectibles, purely cosmetic trophies and competitive rank. Rewards can come from challenges, exploration, levels, events and weapon mastery. Progression must never grant unfair combat advantages.
 
 ## 12. Performance is a core requirement
 Large maps, player counts, weapon combat, physics, effects, geometry, streaming and a limited number of NPC squads create performance risks. NPC simulation must be budgeted like a small number of nearby player agents, not a city-wide crowd simulation. No map size, player cap or NPC count is final until measured.
@@ -117,7 +117,7 @@ The dedicated specification is `AVENOR_Map_Performance.md`. Do not start by buil
 Rarity is presentation and collection value only. It never changes weapon statistics, hitboxes, movement, matchmaking or competitive advantage.
 
 ## 15. Unresolved decisions
-Do not silently lock: PvP coverage, safe areas, friendly-fire defaults, death/respawn rules, exact NPC faction roster and squad count, vehicle launch scope and ownership, player trading/economy, world dimensions, player cap, map rotation schedule, exact base persistence, storage access/raid rules, storable item categories, storage capacity, offline-raid protection and first-release scope.
+Do not silently lock: safe-area functionality (if any, without disabling PvP), friendly-fire defaults, spawn protection, death/respawn rules, exact NPC faction roster and squad count, vehicle launch scope and ownership, player trading/economy, world dimensions, player cap, map rotation schedule, exact base persistence, storage access/raid rules, storable item categories, storage capacity, offline-raid protection and first-release scope.
 
 ## 16. Document ownership
 - Identity: this file.
