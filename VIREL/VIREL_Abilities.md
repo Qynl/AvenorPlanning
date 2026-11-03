@@ -5,29 +5,47 @@ Abilities are learned through botanical discovery and research. The world teache
 
 Abilities should expand possibilities, not invalidate earlier regions or make other players feel forced to grind for basic access.
 
-## Proposed ability families
+## Ability reward types
 
-| Family | Examples | Exploration use |
+Not every plant grants a movement power. Plant research can provide several kinds of reward:
+
+| Reward type | Purpose | Example |
 |---|---|---|
-| Mobility | Enhanced jump, air-dash, short glide | Cross gaps and reach ledges |
-| Perception | Low-light vision, biological trace sense | Notice hidden clues |
-| Environmental | Heat tolerance, cold tolerance, underwater breathing | Explore extreme habitats |
-| Botanical interaction | Encourage vines, awaken dormant roots | Open natural routes or interact with organisms |
-| Spatial | Brief gravity shift, short-range blink | Solve traversal challenges |
-| Support | Temporary safe landing, gentle healing field | Expedition utility |
+| Active ability | A player-triggered action | Softfall, Vinepull |
+| Passive adaptation | A persistent or conditional benefit | Improved cold tolerance |
+| Scanner function | Better environmental information | Storm Forecast |
+| Research knowledge | Unlocks clues, records or investigation methods | Deep-Time Survey |
+| World interaction | Enables a specific environmental mechanism | Rootway gates |
+| Archive reward | Collection, lore or cosmetic recognition | A rare species record |
 
-These are concept examples, not a finalized ability list.
+## Initial ability catalogue
+
+The first 20 plant concepts and their proposed rewards are documented in [VIREL_Plants.md](VIREL_Plants.md). Key active abilities include:
+
+- **Softfall:** controlled descent with limited steering.
+- **Rootsense:** briefly highlights connected root networks and plant signals.
+- **Echo Trace:** visualises recent environmental traces nearby.
+- **Heatstep:** temporary protection on designated hot surfaces.
+- **Deep Current:** improves underwater movement for a limited period.
+- **Coldbound:** temporary cold-condition protection and nearby warm-refuge hints.
+- **Nocturne Sight:** reveals nocturnal organisms and recent traces.
+- **Veil Sight:** reveals concealed natural passages and markings.
+- **Living Light:** creates a small controllable biological light source.
+- **Stonegrip:** briefly clings to designated natural climbing surfaces.
+- **Vinepull:** pulls the player toward suitable natural anchor points.
+- **Airstep:** creates one brief midair foothold for a carefully timed extra jump.
+- **Rootway:** activates specific ancient root gates between established hidden locations.
+
+Research-only rewards include Solar Reading, Deep-Time Survey, Current Reading, Storm Forecast, Moisture Sense, Moisture Mapping and Genesis Record.
 
 ## Unlock flow
 
 1. Discover a species.
 2. Scan and document it.
-3. Complete the species-specific research.
-4. Reveal the ability application, if that species has one.
-5. Unlock the ability through a clear final research milestone.
-6. Equip or activate it according to the eventual ability system.
-
-Not every plant needs to grant an ability. Some should provide scanner knowledge, crafting ingredients if crafting is approved, archive rewards, access clues or purely collectible value.
+3. Complete species-specific research.
+4. Reveal its ability or other research application.
+5. Complete a clear final research milestone.
+6. Unlock the reward and learn how to use it.
 
 ## Loadout questions
 
@@ -46,5 +64,5 @@ Exact slot count, cooldowns, duration, progression and reset rules are TBD.
 - Avoid abilities that permanently trivialise entire biomes.
 - Prefer situational strengths and interesting combinations.
 - Provide alternate routes where a rare ability would otherwise be mandatory.
-- Test abilities against Roblox mobile controls and replication constraints.
+- Test abilities against keyboard/mouse, controller and mobile controls.
 - No paid rarity or ability advantage is assumed.
