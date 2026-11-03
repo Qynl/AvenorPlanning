@@ -9,7 +9,7 @@ AVENOR should reward exploration, skill, collection, mastery and participation w
 - Permanent progress belongs to the player, not the active map.
 - Weapon discovery is a core Open World reward.
 - Competitive modes reward competitive skill and mastery, not weapon access.
-- Cosmetics never grant gameplay power.
+- Cosmetics never grant gameplay power. No account level, mastery tier, collectible, trophy, event reward or paid item may create an unfair combat advantage.
 - Missed event rewards should have a fair return path.
 - No paid random reward should be the only route to an important item.
 
@@ -22,7 +22,8 @@ AVENOR should reward exploration, skill, collection, mastery and participation w
 | Weapon mastery | Use of an owned weapon | Weapon-specific skins, stats, titles and mastery rewards |
 | Exploration journal | Locations, secrets, NPCs and world history | Journal completion, badges, cosmetics and records |
 | Competitive rank | Match performance | Rank emblems, seasonal cosmetics and recognition |
-| Event records | Participation and achievements in events | Event cosmetics, titles and archive entries |
+| Event records | Participation and achievements in events | Event cosmetics, titles, archive entries and event collectibles |
+| Collectibles & trophies | Meaningful world objects and purely cosmetic display trophies | Journal entries, collection completion, display pieces and recognition |
 
 ## 3. Weapon discovery and ownership
 
@@ -94,14 +95,15 @@ Journal entries should reveal information progressively. Do not reveal undiscove
 ## 9. Economy
 
 Potential earnable currency sources:
-- Account milestones.
-- Exploration achievements.
-- Event participation.
+- Account levels and milestones.
+- Exploration achievements and discoveries.
+- Challenges.
+- Event participation and event achievements.
 - Competitive milestones.
 - Weapon mastery.
 
 Potential spending:
-- Cosmetics.
+- Cosmetics, emotes, presentation items, meaningful collectibles and purely cosmetic trophies.
 - Emotes and presentation.
 - Character customisation.
 - Other non-power expression items.
@@ -129,6 +131,6 @@ World-local temporary state is stored separately from permanent player data.
 - Currency count and names.
 - Discovery source for each weapon.
 - Duplicate discovery rewards.
-- Exact event reward schedule.
+- Exact event reward schedule and collectible/trophy catalogue.
 - Competitive rating formula.
 - Mastery challenge list and values.
