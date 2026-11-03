@@ -2,7 +2,7 @@
 
 **Ability ID:** EMBERLACE_03  
 **Status:** PROPOSAL  
-**Parent plant:** [Emberlace](../../02_Content/Plants/emberlace/README.md)  
+**Parent plant:** [Emberlace](../../../02_Content/Plants/emberlace/README.md)  
 **Ability set:** Cinderbloom  
 **Plant rarity:** Distinct  
 **Set position:** 3 of 3
@@ -38,7 +38,7 @@ Open a temporary field of heated petals that pulses outward.
 Unlock milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related systems
-- [Parent plant](../../02_Content/Plants/emberlace/README.md)
+- [Parent plant](../../../02_Content/Plants/emberlace/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat and encounters](../../../04_Systems/Combat/README.md)
 
