@@ -62,10 +62,6 @@ This world currently has five proposed signature species. Each species has its o
 - Keep gameplay-relevant plant clues visible at low graphics quality.
 
 ## Concept art
-- [Auralis concept art hub](Concept_Art/README.md)
-- [World overview](Concept_Art/01_World_Overview/README.md)
-- [Glasswater Basin](Concept_Art/02_Glasswater_Basin/README.md)
-- [Whispering Hollows](Concept_Art/03_Whispering_Hollows/README.md)
-- [The Buried Meadow](Concept_Art/04_Buried_Meadow/README.md)
-- [Sky Ruins](Concept_Art/05_Sky_Ruins/README.md)
-- [Sunthread Fields](Concept_Art/06_Sunthread_Fields/README.md)
+All concept art lives in the central library: [Auralis concept art library](../../05_Presentation/Concept_Art/Worlds/auralis/README.md)
+
+The six original Auralis images and their source IDs are indexed in [Auralis image assignments](../../05_Presentation/Concept_Art/Auralis/README.md).
