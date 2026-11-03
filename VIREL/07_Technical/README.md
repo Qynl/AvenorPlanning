@@ -7,6 +7,17 @@
 - Treat server authority, persistence and exploit resistance as foundational.
 - Design for Roblox streaming and mobile performance.
 
+## Detailed guides
+- [Roblox Studio project structure](Roblox_Studio_Project_Structure.md)
+- [World and map building pipeline](World_Building_Pipeline.md)
+- [Map performance optimisation](Map_Performance_Optimization.md)
+- [Instance streaming strategy](Instance_Streaming.md)
+- [Asset pipeline](Asset_Pipeline.md)
+- [Server/client architecture](Server_Client_Architecture.md)
+- [Plant and ability implementation](Plant_Ability_Implementation.md)
+- [Profiling and performance testing](Profiling_Testing.md)
+- [World data and place architecture](World_Data_Architecture.md)
+
 ## Suggested logical modules
 - World/region streaming and world-state service.
 - Plant catalogue and spawn/ecology service.
