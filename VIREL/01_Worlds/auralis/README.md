@@ -60,3 +60,12 @@ This world currently has five proposed signature species. Each species has its o
 - Place the five native species in distinct habitat anchors rather than scattering them randomly.
 - Define local streaming regions and test fast traversal across each boundary.
 - Keep gameplay-relevant plant clues visible at low graphics quality.
+
+## Concept art
+- [Auralis concept art hub](Concept_Art/README.md)
+- [World overview](Concept_Art/01_World_Overview/README.md)
+- [Glasswater Basin](Concept_Art/02_Glasswater_Basin/README.md)
+- [Whispering Hollows](Concept_Art/03_Whispering_Hollows/README.md)
+- [The Buried Meadow](Concept_Art/04_Buried_Meadow/README.md)
+- [Sky Ruins](Concept_Art/05_Sky_Ruins/README.md)
+- [Sunthread Fields](Concept_Art/06_Sunthread_Fields/README.md)
