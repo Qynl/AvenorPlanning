@@ -28,6 +28,8 @@ Follow the seed plumes across the plateau and identify the patch that continues 
 | 2 | [Astral Step](../../../03_Content/Abilities/starfeather-grass/astral-step.md) | PLANT_050_A02 | Movement | Creates a short sequence of glowing footholds that appear along a safe aerial arc. |
 | 3 | [Nightwing Canopy](../../../03_Content/Abilities/starfeather-grass/nightwing-canopy.md) | PLANT_050_A03 | Movement | Unfurls a broad temporary canopy that catches an updraft and supports a controlled glide. |
 
+| 4 | [Celestial Passage](../../../03_Content/Abilities/starfeather-grass/celestial-passage.md) | PLANT_050_A04 | Movement | Creates a long temporary aerial route with several readable lift points between distant highland landmarks. |
+
 ## Set presentation
 - Primary role: Movement and exploration.
 - Theme: Star-like seeds, silver grass and aerial paths.
