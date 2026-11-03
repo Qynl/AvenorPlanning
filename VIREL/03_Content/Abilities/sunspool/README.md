@@ -1,6 +1,6 @@
 # Sunspool — Ability Set
 
-**Parent plant:** [Sunspool](../../../../../../02_Content/Plants/sunspool/README.md)  
+**Parent plant:** [Sunspool](../../../02_Content/Plants/sunspool/README.md)  
 **Set:** Sunthread  
 **Rarity:** Natural
 
