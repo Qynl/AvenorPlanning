@@ -1,6 +1,6 @@
 # Echofern — Ability Set
 
-**Parent plant:** [Echofern](../../02_Content/Plants/echofern/README.md)  
+**Parent plant:** [Echofern](../../../02_Content/Plants/echofern/README.md)  
 **Set:** Resonance  
 **Rarity:** Distinct
 
