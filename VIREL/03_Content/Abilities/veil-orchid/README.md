@@ -1,6 +1,6 @@
 # Veil Orchid — Ability Set
 
-**Parent plant:** [Veil Orchid](../../02_Content/Plants/veil-orchid/README.md)  
+**Parent plant:** [Veil Orchid](../../../02_Content/Plants/veil-orchid/README.md)  
 **Set:** Mirage Bloom  
 **Rarity:** Ancient
 
