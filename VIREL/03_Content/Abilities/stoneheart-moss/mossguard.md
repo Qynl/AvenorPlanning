@@ -2,7 +2,7 @@
 
 **Ability ID:** STONEHEART_MOSS_02  
 **Status:** PROPOSAL  
-**Parent plant:** [Stoneheart Moss](../../02_Content/Plants/stoneheart-moss/README.md)  
+**Parent plant:** [Stoneheart Moss](../../../02_Content/Plants/stoneheart-moss/README.md)  
 **Ability set:** Bedrock  
 **Plant rarity:** Ancient  
 **Set position:** 2 of 3
@@ -35,7 +35,7 @@ Grow a layered stone-and-moss protective shell.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/stoneheart-moss/README.md)
+- [Parent plant](../../../02_Content/Plants/stoneheart-moss/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
