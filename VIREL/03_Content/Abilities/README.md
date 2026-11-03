@@ -1,6 +1,6 @@
 # Ability Directory
 
-VIREL currently proposes **50 plant ability sets and 162 individual abilities**. Every ability belongs to exactly one plant.
+FLORA currently proposes **50 plant ability sets and 162 individual abilities**. Every ability belongs to exactly one plant.
 
 ## Browse by plant
 - [Driftleaf ability set](./driftleaf/README.md) — 3 abilities, Natural, Windweave
