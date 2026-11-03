@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Rootsense](../../../03_Content/Abilities/threadroot/rootsense.md) | THREADROOT_01 | TBD | Highlight nearby root networks and plant signals. |
 | 2 | [Root Snare](../../../03_Content/Abilities/threadroot/root-snare.md) | THREADROOT_02 | TBD | Send roots across the ground to briefly bind a target in an encounter. |
