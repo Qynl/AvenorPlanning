@@ -2,7 +2,7 @@
 
 **Ability ID:** ASHEN_CROWN_02  
 **Status:** PROPOSAL  
-**Parent plant:** [Ashen Crown](../../02_Content/Plants/ashen-crown/README.md)  
+**Parent plant:** [Ashen Crown](../../../02_Content/Plants/ashen-crown/README.md)  
 **Ability set:** Magma Crown  
 **Plant rarity:** Relic  
 **Set position:** 2 of 4
@@ -35,7 +35,7 @@ Call up a ring of heavy mineral growth around a selected area.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/ashen-crown/README.md)
+- [Parent plant](../../../02_Content/Plants/ashen-crown/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
