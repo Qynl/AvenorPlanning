@@ -43,3 +43,20 @@
 - Additional native species beyond the initial signature plants.
 
 World and biome concepts are proposals until explicitly confirmed.
+
+## Expanded native plant roster
+
+This world currently has five proposed signature species. Each species has its own research profile and linked multi-ability set.
+
+- [Glowcap](../../02_Content/Plants/glowcap/README.md)
+- [Stoneheart Moss](../../02_Content/Plants/stoneheart-moss/README.md)
+- [Gloomcap](../../02_Content/Plants/gloomcap/README.md)
+- [Crystalroot](../../02_Content/Plants/crystalroot/README.md)
+- [Deepwarden Fungus](../../02_Content/Plants/deepwarden-fungus/README.md)
+
+## Map production requirements
+- Build a readable greybox for each major biome before final art.
+- Give each biome a landmark, a main route, an optional route and a hidden discovery route.
+- Place the five native species in distinct habitat anchors rather than scattering them randomly.
+- Define local streaming regions and test fast traversal across each boundary.
+- Keep gameplay-relevant plant clues visible at low graphics quality.
