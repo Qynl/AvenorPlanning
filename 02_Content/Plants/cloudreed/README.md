@@ -12,15 +12,23 @@ Tall hollow reeds with pale blue plume tips that sing when air passes through th
 
 **Ecological role:** Wind currents and sound navigation. The reeds indicate safe gust lanes and changing airflow.
 
-## Discovery and field research
-Find the reed whose tone changes when the player stands upwind.
-1. Notice the tone shift.
-2. Observe its plume movement.
-3. Scan it from different wind directions.
-4. Follow the gust lane it reveals.
-5. Record the discovery and research its complete ability set.
+## Discovery and acquisition
+**Discovery clue:** Find the reed whose tone changes when the player stands upwind.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Notice the tone shift.
+- Observe its plume movement.
+- Scan it from different wind directions.
+- Follow the gust lane it reveals.
 
 ## Complete ability set: Skyharp
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Gameplay role | Concept |
 |---:|---|---|---|---|
 | 1 | [Windchime](../../../03_Content/Abilities/cloudreed/windchime.md) | PLANT_021_A01 | Exploration | A short pulse sends a readable ripple through nearby air currents, revealing safe gust lanes. |
@@ -33,8 +41,8 @@ Find the reed whose tone changes when the player stands upwind.
 - **Visual identity:** Hollow reeds, pale blue plumes and concentric air ripples.
 - **Rarity:** Unusual; the set adds more options and complexity than Natural plants.
 
-## Research and mastery
-Three milestones unlock the abilities in order. Mastery reward: a plant-specific archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/auralis/README.md)
