@@ -16,6 +16,7 @@
 - [Server/client architecture](Server_Client_Architecture.md)
 - [Plant and ability implementation](Plant_Ability_Implementation.md)
 - [Profiling and performance testing](Profiling_Testing.md)
+- [Per-biome performance budget template](Map_Performance_Budget_Template.md)
 - [World data and place architecture](World_Data_Architecture.md)
 
 ## Suggested logical modules
@@ -29,4 +30,4 @@
 - Persistence and player profile service.
 
 ## TBD
-Exact folder layout, frameworks, networking conventions, data schema, server sizes and persistence implementation must be decided during technical prototyping.
+Exact framework choices, networking conventions, data schema, server sizes and persistence implementation must be decided during technical prototyping. The project folder structure and world-building workflow are documented as proposals.
