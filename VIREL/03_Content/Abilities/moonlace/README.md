@@ -1,6 +1,6 @@
 # Moonlace — Ability Set
 
-**Parent plant:** [Moonlace](../../02_Content/Plants/moonlace/README.md)  
+**Parent plant:** [Moonlace](../../../02_Content/Plants/moonlace/README.md)  
 **Set:** Moonveil  
 **Rarity:** Forgotten
 
