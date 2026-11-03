@@ -10,3 +10,4 @@
 3. [Genesis Garden](./genesis-garden.md) — `PLANT_49_A03`
 
 All abilities in this folder belong to this plant. This set has high-impact environmental identity. The parent plant page owns its research sequence and unlock conditions.
+4. [Worldroot Awakening](./worldroot-awakening.md) — `PLANT_49_A04`
