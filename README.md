@@ -5,7 +5,7 @@
 ## Projects
 
 - **[AVENOR](AVENOR_Main.md)** — competitive open-world shooter planning.
-- **[FLORA: BEYOND THE ORIGINS](FLORA/README.md)** — large-scale botanical exploration adventure, plant-powered abilities, discovery and encounters.
+- **[FLORA: BEYOND THE ORIGINS](VIREL/README.md)** — large-scale botanical exploration adventure, plant-powered abilities, discovery and encounters.
 
 AVENOR and FLORA are independent projects. Keep their design documents, assets, identifiers and production plans separate.
 
