@@ -2,7 +2,7 @@
 
 **Ability ID:** FROSTWAKER_02  
 **Status:** PROPOSAL  
-**Parent plant:** [Frostwaker](../../02_Content/Plants/frostwaker/README.md)  
+**Parent plant:** [Frostwaker](../../../02_Content/Plants/frostwaker/README.md)  
 **Ability set:** Pale Winter  
 **Plant rarity:** Ancient  
 **Set position:** 2 of 3
@@ -35,7 +35,7 @@ Create a short-lived frost platform or bridge on suitable surfaces.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/frostwaker/README.md)
+- [Parent plant](../../../02_Content/Plants/frostwaker/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
