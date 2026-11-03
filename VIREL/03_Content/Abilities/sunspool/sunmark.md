@@ -2,7 +2,7 @@
 
 **Ability ID:** SUNSPOOL_02  
 **Status:** PROPOSAL  
-**Parent plant:** [Sunspool](../../../02_Content/Plants/sunspool/README.md)  
+**Parent plant:** [Sunspool](../../../../02_Content/Plants/sunspool/README.md)  
 **Ability set:** Sunthread  
 **Plant rarity:** Natural  
 **Set position:** 2 of 3
@@ -38,7 +38,7 @@ Mark a point of interest and reveal nearby light-sensitive clues.
 Unlock milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related systems
-- [Parent plant](../../../02_Content/Plants/sunspool/README.md)
+- [Parent plant](../../../../02_Content/Plants/sunspool/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat and encounters](../../../04_Systems/Combat/README.md)
 
