@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Nocturne Sight](../../../03_Content/Abilities/moonlace/nocturne-sight.md) | MOONLACE_01 | TBD | Reveal nocturnal organisms and recent traces. |
 | 2 | [Moonstep](../../../03_Content/Abilities/moonlace/moonstep.md) | MOONLACE_02 | TBD | Make a short, graceful dash that leaves a fading lunar afterimage. |
