@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Deep-Time Survey](../../../03_Content/Abilities/ashen-crown/deep-time-survey.md) | ASHEN_CROWN_01 | TBD | Reveal old geothermal routes and geological records. |
 | 2 | [Crownfall](../../../03_Content/Abilities/ashen-crown/crownfall.md) | ASHEN_CROWN_02 | TBD | Call up a ring of heavy mineral growth around a selected area. |
