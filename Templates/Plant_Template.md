@@ -12,17 +12,23 @@
 **Behaviour:**  
 **Ecological role:**  
 
-## Discovery and research
-**First clue:**  
-**Scan observations:**  
-**Field investigation:**  
-**Research milestones:**  
+## Discovery and acquisition
+**Where it is found:**  
+**Discovery clues:**  
+**What the first scan confirms:**  
 
-## Complete ability set
-| # | Ability | Stable ID | Unlock milestone | Role |
-|---:|---|---|---|---|
+A successful first scan acquires this plant and grants ownership of its complete ability set.
+
+## Further research
+Describe plant-specific observations, clues and field interactions that advance research after acquisition.
+
+## Complete ability set and unlock order
+List every ability that belongs to this plant, in the order the player unlocks them through further research. These are all part of the set from the moment the plant is acquired.
+
+| # | Ability | Stable ID | Research unlock requirement |
+|---:|---|---|---|
 
 ## Visual/audio signature
-## Mastery
+## Optional mastery
 ## Related links
 ## Open questions
