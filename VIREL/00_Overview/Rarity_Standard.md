@@ -1,4 +1,4 @@
-# VIREL — Rarity Standard
+# FLORA — Rarity Standard
 
 | Tier | Rarity | Typical set size | Design expectation |
 |---:|---|---:|---|
