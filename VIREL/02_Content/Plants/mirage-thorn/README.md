@@ -27,6 +27,8 @@ Approach its apparent location from three different landmarks and compare the sh
 | 2 | [Mirage Step](../../../03_Content/Abilities/mirage-thorn/mirage-step.md) | PLANT_41_A02 | Exploration | Creates a brief decoy silhouette while the player makes a short lateral reposition. |
 | 3 | [False Horizon](../../../03_Content/Abilities/mirage-thorn/false-horizon.md) | PLANT_41_A03 | Exploration | Reveals a temporary hidden route through a series of aligned mirage markers. |
 
+| 4 | [Horizon Fold](../../../03_Content/Abilities/mirage-thorn/horizon-fold.md) | PLANT_41_A04 | Exploration | Connects several revealed mirage markers into a temporary alternate route across the false horizon. |
+
 ## Set presentation
 - Primary role: Exploration
 - Theme: Mirage paths and spatial misdirection
