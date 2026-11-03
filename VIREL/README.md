@@ -34,8 +34,15 @@
 
 ## Initial content inventory
 - 10 world concepts.
-- 20 plant concepts.
-- 0 individual ability concepts.
+- 50 plant concepts (20 initial + 30 added).
+- 150 individual ability specifications (3 per plant).
+
+## Current content expansion
+- 30 new plant profiles added with dedicated ability-set folders.
+- 90 new ability pages added for those 30 plants.
+- All 10 world pages now link to five native plants each.
+- Dedicated system guides cover ecology, encounters, loadouts, archive, weather and cooperative play.
+- Technical guides cover Roblox Studio structure, map creation, streaming, asset reuse, performance, server/client architecture and profiling.
 
 ## Start here
 - [Game vision](00_Overview/README.md)
