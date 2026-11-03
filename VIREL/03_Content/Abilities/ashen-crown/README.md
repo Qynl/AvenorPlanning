@@ -1,6 +1,6 @@
 # Ashen Crown — Ability Set
 
-**Parent plant:** [Ashen Crown](../../02_Content/Plants/ashen-crown/README.md)  
+**Parent plant:** [Ashen Crown](../../../02_Content/Plants/ashen-crown/README.md)  
 **Set:** Magma Crown  
 **Rarity:** Relic
 
