@@ -43,3 +43,20 @@
 - Additional native species beyond the initial signature plants.
 
 World and biome concepts are proposals until explicitly confirmed.
+
+## Expanded native plant roster
+
+This world currently has five proposed signature species. Each species has its own research profile and linked multi-ability set.
+
+- [Brineglass](../../02_Content/Plants/brineglass/README.md)
+- [Tideglass](../../02_Content/Plants/tideglass/README.md)
+- [Coralweave](../../02_Content/Plants/coralweave/README.md)
+- [Abyssal Bloom](../../02_Content/Plants/abyssal-bloom/README.md)
+- [Pearlcurrent](../../02_Content/Plants/pearlcurrent/README.md)
+
+## Map production requirements
+- Build a readable greybox for each major biome before final art.
+- Give each biome a landmark, a main route, an optional route and a hidden discovery route.
+- Place the five native species in distinct habitat anchors rather than scattering them randomly.
+- Define local streaming regions and test fast traversal across each boundary.
+- Keep gameplay-relevant plant clues visible at low graphics quality.
