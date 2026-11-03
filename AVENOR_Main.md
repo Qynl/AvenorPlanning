@@ -7,7 +7,7 @@
 - **Platform:** Roblox
 - **Genre:** Multiplayer open-world exploration sandbox shooter with separate competitive playlists.
 - **World style:** Modern, recognisable, stylised realism; detailed but readable and designed around Roblox performance.
-- **Core promise:** Explore a large, authored world with other players. Discover places, find weapons and equipment, encounter rival squads, establish a temporary presence and create your own adventures. AVENOR is an exploration-action sandbox, not a realistic city-life or crime simulator.
+- **Core promise:** Explore a large, authored world with other players. Discover places, find weapons and equipment, encounter rival squads, establish temporary camps, protect or steal stored supplies and create your own adventures. AVENOR is an exploration-action sandbox, not a realistic city-life or crime simulator.
 - **Primary experience:** The rotating Open World.
 - **Secondary experience:** Dedicated competitive shooter playlists.
 - **Movement reference:** Fast, responsive movement inspired by the feel of RIVALS, without copying its content.
@@ -17,13 +17,13 @@ The main reason to join is **exploration, scavenging and unpredictable encounter
 
 There is no mandatory mission chain or attempt to simulate everyday life. AVENOR is not GTA: no civilian crowds, traffic-life simulation, police response loop, wanted system, criminal career, functioning service economy or city-management layer. Buildings and infrastructure provide places, routes, atmosphere and discoveries, not a simulated society.
 
-## 3. Open World pillars
-1. **Exploration:** coherent regions, memorable landmarks, hidden interiors, caves, tunnels, rooftops, clues and unusual locations.
-2. **Multiplayer:** real players naturally meeting, forming groups, cooperating, competing and creating stories.
-3. **Player-like NPC factions:** a limited number of AI-controlled groups that travel, scavenge, use weapons, establish camps, occupy locations and defend valuable discoveries much like players.
-4. **Scavenging and discovery:** find weapons, ammunition, equipment, useful supplies and secrets throughout the world.
-5. **Emergent encounters:** players may meet, avoid, cooperate with or fight other players and NPC factions.
-6. **World evolution:** rotating regions, global transformations and temporary events without wiping permanent progress.
+## 3. Core gameplay identity
+AVENOR combines three connected pillars rather than treating them as separate modes:
+1. **Explore:** travel through large, distinctive regions, discover hundreds of locations, hidden routes, secrets and unusual places.
+2. **Progress:** discover weapons and build a permanent account collection; find equipment, supplies and other physical items in the world.
+3. **Interact:** meet other players, form groups, contest discoveries, establish temporary camps and create player-driven situations.
+
+World events, player-like NPC factions and dynamic location states connect these pillars. The world creates opportunities; players decide what to do with them. The intended mood ranges from quiet exploration to sudden high-energy encounters. Not every location is dangerous, occupied or full of loot.
 
 ## 4. The world and its inhabitants
 The Open World contains:
@@ -49,13 +49,24 @@ Separate match-based FPS modes may include DUEL, DUOS, TDM, FFA, HARDPOINT, CTF 
 - They may award rank progress, account XP, mastery and cosmetic rewards.
 - They are not the Open World and do not replace it.
 
-## 7. Weapon discovery and permanence
-**Discover in the Open World. Keep it permanently. Use it everywhere.**
-- First-time weapon discovery adds a stable weapon ID to the player's permanent collection.
-- Discoveries may be placed in locations, hidden areas, rare caches or guarded faction sites.
-- Avoid making every weapon a random container reward.
-- Death, disconnect, rotation and match results never remove owned weapons.
-- Competitive modes cannot grant permanent weapon unlocks.
+## 7. Permanent collection and physical world storage
+AVENOR has two distinct ownership layers. They must never be confused.
+
+### Main Hub collection — permanent
+- Permanently discovered/unlocked weapons are account entitlements held in the Main Hub Arsenal.
+- Weapon skins, weapon mastery, cosmetics, levels and permanent discoveries also belong to the account.
+- Players can equip their owned weapons from the hub and use them in supported experiences.
+- These permanent unlocks cannot be stolen, dropped as loot, raided from a base or removed by death, disconnect, rotation or season changes.
+- Competitive modes use the permanent collection and never grant weapon unlocks.
+
+### Physical world storage — vulnerable
+- Players may bring eligible physical items and supplies back from the Open World and deliberately deposit them in storage at their base.
+- These deposited items are world possessions, not permanent account unlocks.
+- If another player gains access to that storage and steals an item, it is removed from the owner's stored inventory and becomes the thief's possession, subject to final transfer/anti-exploit rules.
+- A stolen physical item never transfers or removes the owner's permanent weapon unlock. For example, stealing a stored weapon-shaped item or supply does not steal the corresponding weapon ID from the owner's Arsenal.
+- The exact list of storable items, stack limits, access permissions, raid rules, persistence and recovery remain TBD.
+
+**Design rule:** Permanent weapons live in the Main Hub collection. Risk-bearing possessions live physically in the world.
 
 ## 8. Movement and combat feel
 - First-person during gameplay; third-person presentation in the home screen and suitable social spaces.
@@ -104,7 +115,7 @@ The dedicated specification is `AVENOR_Map_Performance.md`. Do not start by buil
 Rarity is presentation and collection value only. It never changes weapon statistics, hitboxes, movement, matchmaking or competitive advantage.
 
 ## 15. Unresolved decisions
-Do not silently lock: PvP coverage, safe areas, friendly-fire defaults, death/respawn rules, exact NPC faction roster and squad count, vehicle launch scope and ownership, player trading/economy, world dimensions, player cap, map rotation schedule, weapon discovery conditions and first-release scope.
+Do not silently lock: PvP coverage, safe areas, friendly-fire defaults, death/respawn rules, exact NPC faction roster and squad count, vehicle launch scope and ownership, player trading/economy, world dimensions, player cap, map rotation schedule, exact base persistence, storage access/raid rules, storable item categories, storage capacity, offline-raid protection and first-release scope.
 
 ## 16. Document ownership
 - Identity: this file.
