@@ -1,4 +1,4 @@
-# VIREL — Presentation
+# FLORA — Presentation
 
 - [Cinematics](Cinematics.md)
 - [Visual direction](Visual_Direction.md)
