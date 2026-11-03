@@ -12,15 +12,22 @@ A seed pod that appears to contain a tiny moving landscape, with roots that resp
 
 **Ecological role:** Discovery memory and living pathways; this is an exceptional species connected to the oldest ecological systems in VIREL.
 
-## Discovery and research
-Find the pod whose internal light changes after the player records a new species.
-1. Identify the unusual environmental signal.
-2. Observe the specimen across more than one world-state condition.
-3. Complete a multi-stage field investigation.
-4. Record the discovery as a major archive milestone.
-5. Research the full ability set.
+## Discovery and acquisition
+**Discovery clue:** Find the pod whose internal light changes after the player records a new species.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Identify the unusual environmental signal.
+- Observe the specimen across more than one world-state condition.
+- Complete a multi-stage field investigation.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Seedmemory](../../../03_Content/Abilities/everseed/seedmemory.md) | PLANT_47_A01 | Exploration | Stores a temporary echo of a discovered landmark and marks it on the local survey. |
@@ -33,8 +40,8 @@ Find the pod whose internal light changes after the player records a new species
 - Visual identity: primordial botanical forms, large readable silhouettes and controlled environmental transformation.
 - Rarity: Forgotten is among the highest rarity tiers; the set should feel exceptional while remaining understandable and counterable.
 
-## Mastery
-Three major research milestones unlock the set. Mastery reward: a unique archive presentation, title or cosmetic (proposal).
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/the-first-garden/README.md)
