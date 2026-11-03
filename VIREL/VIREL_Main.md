@@ -1,4 +1,4 @@
-# VIREL Main Design
+# FLORA Main Design
 
 This legacy flat document has been superseded by the structured documentation.
 
