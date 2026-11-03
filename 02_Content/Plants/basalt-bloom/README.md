@@ -12,15 +12,23 @@ Heavy black flowers grow from hexagonal stone columns.
 
 **Ecological role:** Stone shaping and protective cover; this plant should visibly interact with the terrain and local climate.
 
-## Discovery and research
-Map the repeating column pattern to find the bloom at its centre.
-1. Locate the environmental clue.
-2. Observe the plant's behaviour.
-3. Complete a habitat-specific field investigation.
-4. Record the verified discovery.
-5. Research its full ability set.
+## Discovery and acquisition
+**Discovery clue:** Map the repeating column pattern to find the bloom at its centre.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Locate the environmental clue.
+- Observe the plant's behaviour.
+- Complete a habitat-specific field investigation.
+- Research its full ability set.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Basalt Rise](../../../03_Content/Abilities/basalt-bloom/basalt-rise.md) | PLANT_28_A01 | Defense | Raises a short stone platform from marked ground. |
@@ -33,8 +41,8 @@ Map the repeating column pattern to find the bloom at its centre.
 - Shared visual language: volcanic stone, heat haze and glowing botanical details.
 - Rarity: Ancient signals a more powerful and complex set.
 
-## Mastery
-Three research milestones unlock the set in sequence. Final mastery reward: species archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/caldera-reach/README.md)
