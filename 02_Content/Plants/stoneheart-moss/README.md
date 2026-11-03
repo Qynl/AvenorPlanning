@@ -18,7 +18,7 @@
 Scanning begins an investigation. Players study the species' attachment patterns and how it responds to different stone surfaces. Exact field tasks and research milestones remain TBD.
 
 ## Complete ability set
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Stonegrip](../../../03_Content/Abilities/stoneheart-moss/stonegrip.md) | STONEHEART_MOSS_01 | TBD | Cling briefly to designated natural climbing surfaces. |
 | 2 | [Mossguard](../../../03_Content/Abilities/stoneheart-moss/mossguard.md) | STONEHEART_MOSS_02 | TBD | Grow a layered stone-and-moss protective shell. |
