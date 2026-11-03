@@ -1,6 +1,6 @@
 # Mistbell — Ability Set
 
-**Parent plant:** [Mistbell](../../02_Content/Plants/mistbell/README.md)  
+**Parent plant:** [Mistbell](../../../02_Content/Plants/mistbell/README.md)  
 **Set:** Veilmist  
 **Rarity:** Unusual
 
