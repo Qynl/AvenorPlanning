@@ -2,7 +2,7 @@
 
 **Ability ID:** ECHOFERN_01  
 **Status:** PROPOSAL  
-**Parent plant:** [Echofern](../../02_Content/Plants/echofern/README.md)  
+**Parent plant:** [Echofern](../../../02_Content/Plants/echofern/README.md)  
 **Ability set:** Resonance  
 **Plant rarity:** Distinct  
 **Set position:** 1 of 3
@@ -38,7 +38,7 @@ Reveal recent environmental traces nearby.
 Unlock milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related systems
-- [Parent plant](../../02_Content/Plants/echofern/README.md)
+- [Parent plant](../../../02_Content/Plants/echofern/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat and encounters](../../../04_Systems/Combat/README.md)
 
