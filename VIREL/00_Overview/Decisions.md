@@ -1,20 +1,28 @@
-# VIREL — Decision Register
+# FLORA: BEYOND THE ORIGINS — Design Decisions
 
-| Topic | Current decision | Status |
-|---|---|---|
-| Project name | VIREL | CONFIRMED |
-| Visual style | Stylized realism | CONFIRMED |
-| Main pillars | Exploration, attacking, plant powers | CONFIRMED |
-| Camera | Third-person with cinematic moments | CONFIRMED |
-| World structure | Multiple enormous worlds that rotate over time | CONFIRMED direction |
-| Plant progression | Research unlocks multi-ability sets | CONFIRMED |
-| Rarity ladder | Natural, Unusual, Distinct, Ancient, Forgotten, Relic, Origin | CONFIRMED |
-| Higher rarity | Generally stronger, more complex sets and more abilities | CONFIRMED direction |
-| PvE enemy roster | Not decided | TBD |
-| PvP | Not decided | TBD |
-| Ability loadout slots | Not decided | TBD |
-| World rotation schedule | Not decided | TBD |
-| Economy and trading | Not decided | TBD |
-| Cultivation/farming | Not decided | TBD |
+This file records the current project-level decisions for FLORA. AVENOR is a separate project.
 
-Update this register when a decision changes. Do not silently promote a proposal to confirmed.
+## Confirmed
+
+- Main title: **FLORA**
+- Full title: **FLORA: BEYOND THE ORIGINS**
+- Roblox adventure built around exploration, botanical discovery, plant-powered abilities and encounters.
+- Stylized realism visual direction.
+- Third-person gameplay with cinematic discovery moments.
+- Ten enormous worlds are planned, each with three major biomes and three hidden sub-biomes.
+- Plants grant complete multi-ability sets.
+- Attacking and encounters are core gameplay pillars.
+- Rarity ladder: Natural, Unusual, Distinct, Ancient, Forgotten, Relic, Origin.
+
+## Still open
+
+- Exact world rotation schedule and return/archive rules.
+- PvE encounter roster and boss structure.
+- Whether PvP exists.
+- Co-op rules and synchronized cinematic behavior.
+- Exact ability loadout size and progression pacing.
+- Economy and long-term collection systems.
+
+## Naming rule
+
+Use **FLORA** as the short title and **FLORA: BEYOND THE ORIGINS** as the full title. New project assets and identifiers should use the FLORA prefix. Legacy VIREL references should be migrated when their owning file or asset is updated.
