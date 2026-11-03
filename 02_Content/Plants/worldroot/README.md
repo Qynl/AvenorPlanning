@@ -18,7 +18,7 @@
 Scanning begins an investigation. Players observe the species and understand its habitat or behaviour. Exact field tasks and research milestones remain TBD.
 
 ## Complete ability set
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Rootway](../../../03_Content/Abilities/worldroot/rootway.md) | WORLDROOT_01 | TBD | Activate specific ancient root gates between established hidden locations. |
 | 2 | [Worldbind](../../../03_Content/Abilities/worldroot/worldbind.md) | WORLDROOT_02 | TBD | Raise enormous roots that reshape a local encounter space. |
