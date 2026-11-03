@@ -1,4 +1,4 @@
-# VIREL — Production Roadmap
+# FLORA — Production Roadmap
 
 ## Phase 0 — Design foundations
 - [x] Establish game identity and core pillars.
