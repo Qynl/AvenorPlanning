@@ -1,39 +1,33 @@
-# VIREL — Ability Directory
+# Ability Directory
 
-Every ability belongs to exactly one plant ability set. Ability documents are grouped by their parent plant so the relationship is visible in the folder structure.
+Every ability belongs to one plant set. Browse by parent plant:
 
-## Plant ability sets
+- [Driftleaf ability set](./driftleaf/README.md) — 3 abilities, Natural, Windweave
+- [Sunspool ability set](./sunspool/README.md) — 3 abilities, Natural, Sunthread
+- [Threadroot ability set](./threadroot/README.md) — 3 abilities, Natural, Rootcall
+- [Echofern ability set](./echofern/README.md) — 3 abilities, Distinct, Resonance
+- [Emberlace ability set](./emberlace/README.md) — 3 abilities, Distinct, Cinderbloom
+- [Ashen Crown ability set](./ashen-crown/README.md) — 4 abilities, Relic, Magma Crown
+- [Brineglass ability set](./brineglass/README.md) — 3 abilities, Unusual, Brinecraft
+- [Tideglass ability set](./tideglass/README.md) — 3 abilities, Distinct, Tidal Form
+- [Frostwaker ability set](./frostwaker/README.md) — 3 abilities, Ancient, Pale Winter
+- [Stormbell ability set](./stormbell/README.md) — 4 abilities, Forgotten, Tempest Choir
+- [Mistbell ability set](./mistbell/README.md) — 3 abilities, Unusual, Veilmist
+- [Moonlace ability set](./moonlace/README.md) — 4 abilities, Forgotten, Moonveil
+- [Pebblecup ability set](./pebblecup/README.md) — 3 abilities, Natural, Stonewell
+- [Veil Orchid ability set](./veil-orchid/README.md) — 3 abilities, Ancient, Mirage Bloom
+- [Glowcap ability set](./glowcap/README.md) — 3 abilities, Unusual, Lumen Spores
+- [Stoneheart Moss ability set](./stoneheart-moss/README.md) — 3 abilities, Ancient, Bedrock
+- [Springvine ability set](./springvine/README.md) — 3 abilities, Unusual, Wildcoil
+- [Skydrift ability set](./skydrift/README.md) — 4 abilities, Relic, Aetherwing
+- [Worldroot ability set](./worldroot/README.md) — 4 abilities, Origin, Worldweave
+- [Firstlight ability set](./firstlight/README.md) — 4 abilities, Origin, Genesis
 
-- **[Driftleaf](./driftleaf/README.md)** (Natural, Windweave) — 0 abilities
-- **[Sunspool](./sunspool/README.md)** (Natural, Sunthread) — 0 abilities
-- **[Threadroot](./threadroot/README.md)** (Natural, Rootcall) — 0 abilities
-- **[Echofern](./echofern/README.md)** (Distinct, Resonance) — 0 abilities
-- **[Emberlace](./emberlace/README.md)** (Distinct, Cinderbloom) — 0 abilities
-- **[Ashen Crown](./ashen-crown/README.md)** (Relic, Magma Crown) — 0 abilities
-- **[Brineglass](./brineglass/README.md)** (Unusual, Brinecraft) — 0 abilities
-- **[Tideglass](./tideglass/README.md)** (Distinct, Tidal Form) — 0 abilities
-- **[Frostwaker](./frostwaker/README.md)** (Ancient, Pale Winter) — 0 abilities
-- **[Stormbell](./stormbell/README.md)** (Forgotten, Tempest Choir) — 0 abilities
-- **[Mistbell](./mistbell/README.md)** (Unusual, Veilmist) — 0 abilities
-- **[Moonlace](./moonlace/README.md)** (Forgotten, Moonveil) — 0 abilities
-- **[Pebblecup](./pebblecup/README.md)** (Natural, Stonewell) — 0 abilities
-- **[Veil Orchid](./veil-orchid/README.md)** (Ancient, Mirage Bloom) — 0 abilities
-- **[Glowcap](./glowcap/README.md)** (Unusual, Lumen Spores) — 0 abilities
-- **[Stoneheart Moss](./stoneheart-moss/README.md)** (Ancient, Bedrock) — 0 abilities
-- **[Springvine](./springvine/README.md)** (Unusual, Wildcoil) — 0 abilities
-- **[Skydrift](./skydrift/README.md)** (Relic, Aetherwing) — 0 abilities
-- **[Worldroot](./worldroot/README.md)** (Origin, Worldweave) — 0 abilities
-- **[Firstlight](./firstlight/README.md)** (Origin, Genesis) — 0 abilities
+## Relationship rules
+- Parent plant page owns set identity, rarity, theme and unlock sequence.
+- Individual ability page owns its detailed mechanic, limitations, balance placeholders and presentation.
+- Ability folders group files by their parent plant.
+- Every ability links back to its plant. Every plant links to all abilities in its set.
+- Orphan abilities are not allowed.
 
-## Rules
-1. A plant file defines the set identity, theme, rarity and unlock sequence.
-2. An ability file defines one ability's detailed behaviour, role, visuals, audio, cooldown placeholder and counterplay.
-3. Every ability file links to its parent plant file.
-4. Every plant file links to every ability in its set.
-5. Do not create orphan abilities. An ability without a parent plant is invalid.
-6. Ability IDs are stable identifiers. Renaming the display name does not require changing the ID without an explicit migration.
-
-## Shared standards
-- [Ability design standard](../../04_Systems/Abilities/README.md)
-- [Combat system](../../04_Systems/Combat/README.md)
-- [Ability template](../../Templates/Ability_Template.md)
+Use [Ability Template](../../Templates/Ability_Template.md) for new abilities. See [shared ability rules](../../04_Systems/Abilities/README.md).
