@@ -2,7 +2,7 @@
 
 **Ability ID:** ECHOFERN_02  
 **Status:** PROPOSAL  
-**Parent plant:** [Echofern](../../02_Content/Plants/echofern/README.md)  
+**Parent plant:** [Echofern](../../../02_Content/Plants/echofern/README.md)  
 **Ability set:** Resonance  
 **Plant rarity:** Distinct  
 **Set position:** 2 of 3
@@ -38,7 +38,7 @@ Send out a broad pulse that reveals nearby points of interest and disrupts encou
 Unlock milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related systems
-- [Parent plant](../../02_Content/Plants/echofern/README.md)
+- [Parent plant](../../../02_Content/Plants/echofern/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat and encounters](../../../04_Systems/Combat/README.md)
 
