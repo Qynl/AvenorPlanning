@@ -2,7 +2,7 @@
 
 **Ability ID:** WORLDROOT_03  
 **Status:** PROPOSAL  
-**Parent plant:** [Worldroot](../../02_Content/Plants/worldroot/README.md)  
+**Parent plant:** [Worldroot](../../../02_Content/Plants/worldroot/README.md)  
 **Ability set:** Worldweave  
 **Plant rarity:** Origin  
 **Set position:** 3 of 4
@@ -35,7 +35,7 @@ Send a branching wave through the ground that reveals connected life and hidden 
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/worldroot/README.md)
+- [Parent plant](../../../02_Content/Plants/worldroot/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
