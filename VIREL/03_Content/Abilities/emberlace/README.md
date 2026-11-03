@@ -1,6 +1,6 @@
 # Emberlace — Ability Set
 
-**Parent plant:** [Emberlace](../../02_Content/Plants/emberlace/README.md)  
+**Parent plant:** [Emberlace](../../../02_Content/Plants/emberlace/README.md)  
 **Set:** Cinderbloom  
 **Rarity:** Distinct
 
