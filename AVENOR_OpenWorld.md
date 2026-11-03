@@ -3,7 +3,7 @@
 > **Current direction: exploration-first multiplayer sandbox shooter.** The world is populated primarily by real players. A limited number of AI-controlled NPC faction squads may exist, behaving like players. There is no civilian society, police system, service-NPC layer or background population simulation.
 
 ## 1. Player promise
-Enter a large, recognisable world with other real players. Explore because interesting places, hidden discoveries, weapons, equipment and unpredictable encounters are scattered throughout it. Choose your own pace: roam, investigate, scavenge, meet other players, set up a temporary camp, encounter a faction or simply travel.
+Enter a large, recognisable world with other real players. Explore because interesting places, hidden discoveries, weapons, equipment and unpredictable encounters are scattered throughout it. Choose your own pace: roam, investigate, scavenge, meet other players, set up a temporary camp, encounter a faction, bring physical supplies back to storage or simply travel. AVENOR's identity is the combination of exploration, permanent collection progression and player-driven interaction.
 
 There is no mandatory mission chain. The world should create opportunities without constantly telling players what to do. Its identity is a free-roaming exploration/action sandbox: believable places, strong traversal, weapon discovery and occasional encounters, without recreating the routines and systems of a real city.
 
@@ -63,12 +63,31 @@ This is not traditional base ownership:
 - Camps must not require constant upkeep or punish players for taking breaks.
 - Persistence, storage, dismantling, access permissions and PvP rules remain TBD.
 
-## 8. Combat and PvP coexistence
+## 8. Permanent collection versus physical storage
+AVENOR deliberately separates account unlocks from possessions physically stored in the Open World.
+
+### Main Hub and Arsenal
+- Permanently discovered weapons are stored as account unlocks in the Main Hub Arsenal.
+- Players can equip their owned weapons from the hub.
+- Weapon ownership, skins, mastery, cosmetics and permanent discoveries cannot be stolen or removed through Open World gameplay.
+- Death, disconnects, base raids, world rotation and seasons do not remove permanent weapon unlocks.
+
+### Player bases and storage
+- Players may establish a base or temporary camp and deposit eligible physical items into its storage.
+- Deposited supplies and other eligible world items are vulnerable to theft if another player gains access to the storage.
+- A successful theft removes the physical item from the owner's stored stock. The permanent Arsenal collection remains untouched.
+- A physical copy/item associated with a weapon does not equal ownership of that weapon's permanent unlock.
+- A base is a place players establish and use, not ownership of the surrounding land. Other players can discover, visit and potentially raid it.
+- Exact base persistence, storage capacity, eligible item types, access permissions, offline protection, raid rules and world-rotation behaviour remain TBD.
+
+This creates a deliberate risk boundary: account progression is safe; accumulated physical supplies can be contested.
+
+## 9. Combat and PvP coexistence
 The Open World supports player encounters and occasional NPC faction combat. Combat should not dominate every location. Quiet exploration and empty places are essential parts of the world.
 
 Do not assume full-loot PvP, permanent item loss or combat everywhere. Keep all damage, awareness, loot and rewards server-validated.
 
-## 9. What AVENOR deliberately does not simulate
+## 10. What AVENOR deliberately does not simulate
 AVENOR is not a GTA-style crime or everyday-life simulator. It does not need to reproduce every system a real city has. Deliberately out of scope:
 - Police, law enforcement, wanted levels, arrests, fines or criminal career systems.
 - Civilian crowds, pedestrian routines, traffic-life simulation or simulated city populations.
@@ -82,7 +101,7 @@ Cities may still contain roads, vehicles, stations, shops, hospitals, industrial
 
 World locations may still visually contain stations, shops, hospitals, factories, airports and other buildings. These are places to explore, not promises of functioning NPC services.
 
-## 10. Core experience test
+## 11. Core experience test
 A meaningful prototype should let a player:
 1. Leave a settlement and choose a direction without accepting a mission.
 2. Find several distinct POIs and at least one unexpected discovery.
