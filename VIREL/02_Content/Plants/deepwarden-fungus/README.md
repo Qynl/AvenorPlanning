@@ -27,6 +27,8 @@ Follow the slow pulse of light through several connected shelves to find the cen
 | 2 | [Shelter Spore](../../../03_Content/Abilities/deepwarden-fungus/shelter-spore.md) | PLANT_44_A02 | Support | Creates a temporary sheltered patch that reduces environmental pressure. |
 | 3 | [Titan Network](../../../03_Content/Abilities/deepwarden-fungus/titan-network.md) | PLANT_44_A03 | Support | Activates a large local mycelium network, revealing connected chambers and stabilising nearby growths. |
 
+| 4 | [Colony Crown](../../../03_Content/Abilities/deepwarden-fungus/colony-crown.md) | PLANT_44_A04 | Support | Awakens a large mycelium crown that creates a shared shelter and reveals a temporary vertical route through the cavern. |
+
 ## Set presentation
 - Primary role: Support
 - Theme: Mycelium networks and shared safe zones
