@@ -43,3 +43,20 @@
 - Additional native species beyond the initial signature plants.
 
 World and biome concepts are proposals until explicitly confirmed.
+
+## Expanded native plant roster
+
+This world currently has five proposed signature species. Each species has its own research profile and linked multi-ability set.
+
+- [Frostwaker](../../02_Content/Plants/frostwaker/README.md)
+- [Stormbell](../../02_Content/Plants/stormbell/README.md)
+- [Snowbell](../../02_Content/Plants/snowbell/README.md)
+- [Rimepine](../../02_Content/Plants/rimepine/README.md)
+- [Thunderroot](../../02_Content/Plants/thunderroot/README.md)
+
+## Map production requirements
+- Build a readable greybox for each major biome before final art.
+- Give each biome a landmark, a main route, an optional route and a hidden discovery route.
+- Place the five native species in distinct habitat anchors rather than scattering them randomly.
+- Define local streaming regions and test fast traversal across each boundary.
+- Keep gameplay-relevant plant clues visible at low graphics quality.
