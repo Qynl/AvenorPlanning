@@ -12,15 +12,24 @@ Enormous pale fungal shelves connect through a living network that spans the cav
 
 **Ecological role:** Mycelium networks and shared safe zones; it links separated regions into a living environmental network.
 
-## Discovery and research
-Follow the slow pulse of light through several connected shelves to find the central colony.
-1. Notice its repeating environmental signal.
-2. Observe how separate growths respond to one another.
-3. Trace the signal through the native habitat.
-4. Record the connected colony in the archive.
-5. Research its complete ability set.
+## Discovery and acquisition
+**Discovery clue:** Follow the slow pulse of light through several connected shelves to find the central colony.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Notice its repeating environmental signal.
+- Observe how separate growths respond to one another.
+- Trace the signal through the native habitat.
+- Record the connected colony in the archive.
+- Research its complete ability set.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Mycelium Link](../../../03_Content/Abilities/deepwarden-fungus/mycelium-link.md) | PLANT_44_A01 | Support | Connects two discovered fungal nodes so nearby players can see a shared route. |
@@ -35,8 +44,8 @@ Follow the slow pulse of light through several connected shelves to find the cen
 - Visual identity: broad fungal forms, flowing vine lines and clear aerial silhouettes.
 - Rarity: Relic reflects higher capability and complexity.
 
-## Mastery
-Three proposed research milestones unlock the set. Mastery reward: archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/umbra-deep/README.md)
