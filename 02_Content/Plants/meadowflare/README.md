@@ -12,15 +12,24 @@ Broad golden petals with reflective centres that turn toward the strongest light
 
 **Ecological role:** Light bursts and area control. The species creates visible light patterns that mark environmental changes.
 
-## Discovery and field research
-Compare its petal orientation at dawn and under cloud cover.
-1. Observe its orientation in different light.
-2. Scan the reflective centre.
-3. Follow the light pattern it creates.
-4. Record the specimen.
-5. Research the complete ability set.
+## Discovery and acquisition
+**Discovery clue:** Compare its petal orientation at dawn and under cloud cover.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Observe its orientation in different light.
+- Scan the reflective centre.
+- Follow the light pattern it creates.
+- Record the specimen.
+- Research the complete ability set.
 
 ## Complete ability set: Daybreak
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Gameplay role | Concept |
 |---:|---|---|---|---|
 | 1 | [Solar Pulse](../../../03_Content/Abilities/meadowflare/solar-pulse.md) | PLANT_022_A01 | Combat | Releases a focused flash that briefly disrupts nearby hostile growths and marks them clearly. |
@@ -33,8 +42,8 @@ Compare its petal orientation at dawn and under cloud cover.
 - **Visual identity:** Golden petals, focused beams and warm circular light patterns.
 - **Rarity:** Distinct; the set offers greater capability and complexity than Unusual plants.
 
-## Research and mastery
-Three milestones unlock the abilities in sequence. Mastery reward: a plant-specific archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/auralis/README.md)
