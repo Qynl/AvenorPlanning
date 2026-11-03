@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Echo Trace](../../../03_Content/Abilities/echofern/echo-trace.md) | ECHOFERN_01 | TBD | Reveal recent environmental traces nearby. |
 | 2 | [Resonant Wave](../../../03_Content/Abilities/echofern/resonant-wave.md) | ECHOFERN_02 | TBD | Send out a broad pulse that reveals nearby points of interest and disrupts encounter targets. |
