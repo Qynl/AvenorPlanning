@@ -40,7 +40,7 @@
 - Player-facing title: **FLORA: BEYOND THE ORIGINS**
 - Short title: **FLORA**
 - Use `FLORA` for new project-level asset IDs, documentation labels and generated asset filenames.
-- Existing `VIREL` identifiers are legacy references and should be migrated when their specific asset or document is next touched. Do not silently change unrelated AVENOR identifiers.
+- The repository folder remains `VIREL/` for path continuity only; the player-facing game name is FLORA. New asset IDs and documentation labels use `FLORA`. Do not change unrelated AVENOR identifiers.
 
 ## Project status
 
