@@ -1,6 +1,6 @@
 # Frostwaker — Ability Set
 
-**Parent plant:** [Frostwaker](../../02_Content/Plants/frostwaker/README.md)  
+**Parent plant:** [Frostwaker](../../../02_Content/Plants/frostwaker/README.md)  
 **Set:** Pale Winter  
 **Rarity:** Ancient
 
