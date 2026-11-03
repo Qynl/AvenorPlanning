@@ -12,16 +12,24 @@ Glasslike bell flowers that collect droplets inside suspended leaf cups.
 
 **Ecological role:** Rain shaping and recovery zones. The species influences its habitat and should be integrated into local environmental storytelling.
 
-## Discovery and field research
-Follow the sound of droplets to a specimen that only opens after rainfall.
+## Discovery and acquisition
+**Discovery clue:** Follow the sound of droplets to a specimen that only opens after rainfall.
 
-1. Notice a distinctive environmental clue.
-2. Observe the plant's appearance and behaviour.
-3. Investigate it through a habitat-specific field interaction.
-4. Record verified observations in the permanent archive.
-5. Research the complete ability set through milestones.
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Notice a distinctive environmental clue.
+- Observe the plant's appearance and behaviour.
+- Investigate it through a habitat-specific field interaction.
+- Record verified observations in the permanent archive.
+- Research the complete ability set through milestones.
 
 ## Complete ability set: Raincall
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Drizzle Veil](../../../03_Content/Abilities/rainbell/drizzle-veil.md) | PLANT_023_A01 | Support | Summons a small moving rain cloud that cools overheated terrain. |
@@ -34,11 +42,8 @@ Follow the sound of droplets to a specimen that only opens after rainfall.
 - **Visual identity:** All three abilities share a consistent colour, shape and motion language.
 - **Rarity:** Ancient affects strength, complexity and spectacle, not just appearance.
 
-## Research and mastery
-- Milestone 1: introductory ability.
-- Milestone 2: defining utility or encounter ability.
-- Milestone 3: signature ability.
-- Mastery reward: plant-specific archive detail, title or cosmetic presentation (proposal).
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/auralis/README.md)
