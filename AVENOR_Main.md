@@ -36,10 +36,10 @@ NPC factions should resemble player squads: recognisable members, weapons, equip
 
 ## 5. Combat and encounters
 - Players can encounter and fight NPC faction groups.
-- Player-versus-player encounters are part of the intended sandbox direction; exact coverage and safe-area rules remain TBD.
+- Player-versus-player combat is enabled throughout the Open World. There are no PvP-free regions in the current confirmed direction. Exact spawn protection, exploit prevention and combat-disengagement rules still need design and testing.
 - NPC groups should use the same readable combat language as players: movement, cover, weapons, reloads, teamwork, retreat and repositioning.
 - Do not turn every location into a combat zone. Quiet exploration and empty places are important.
-- Friendly fire, safe areas, death/respawn and consequences remain TBD.
+- Friendly fire, spawn protection, death/respawn details and physical item-loss rules remain TBD. PvP itself is enabled throughout the Open World.
 - Do not assume full-loot PvP, permanent inventory loss or survival penalties.
 
 ## 6. Competitive playlists
@@ -84,6 +84,8 @@ The intended model uses a loaded magazine, quick-access spare magazine(s), then 
 - Proposed duration: four days.
 - Rotation is a world event/calendar change, not a separate game mode.
 - Multiple Roblox server instances can host the same active world identity.
+- Travel is designed around both on-foot movement and optional vehicles; exact vehicle roster, ownership and launch scope remain TBD.
+- Locations combine handcrafted landmarks, hidden areas and dynamically changing states. World revisits should be driven by discoveries, events, player activity and changing world conditions.
 - Ten proposed worlds are documented in `AVENOR_Worlds.md`; this is a long-term collection, not launch scope.
 - Account level, weapons, cosmetics, mastery, currency and permanent discoveries persist.
 - Exact schedule, map order and exceptions remain TBD.
