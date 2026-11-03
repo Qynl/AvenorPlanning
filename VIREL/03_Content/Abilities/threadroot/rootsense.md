@@ -2,7 +2,7 @@
 
 **Ability ID:** THREADROOT_01  
 **Status:** PROPOSAL  
-**Parent plant:** [Threadroot](../../02_Content/Plants/threadroot/README.md)  
+**Parent plant:** [Threadroot](../../../02_Content/Plants/threadroot/README.md)  
 **Ability set:** Rootcall  
 **Plant rarity:** Natural  
 **Set position:** 1 of 3
@@ -38,7 +38,7 @@ Highlight nearby root networks and plant signals.
 Unlock milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related systems
-- [Parent plant](../../02_Content/Plants/threadroot/README.md)
+- [Parent plant](../../../02_Content/Plants/threadroot/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat and encounters](../../../04_Systems/Combat/README.md)
 
