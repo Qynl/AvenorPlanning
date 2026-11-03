@@ -2,7 +2,7 @@
 
 **Ability ID:** FIRSTLIGHT_02  
 **Status:** PROPOSAL  
-**Parent plant:** [Firstlight](../../02_Content/Plants/firstlight/README.md)  
+**Parent plant:** [Firstlight](../../../02_Content/Plants/firstlight/README.md)  
 **Ability set:** Genesis  
 **Plant rarity:** Origin  
 **Set position:** 2 of 4
@@ -35,7 +35,7 @@ Release a brilliant expanding wave of light that reveals the surrounding area.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/firstlight/README.md)
+- [Parent plant](../../../02_Content/Plants/firstlight/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
