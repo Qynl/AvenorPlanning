@@ -12,15 +12,24 @@ A wide violet cap with tiny star-like spores drifting just above its surface.
 
 **Ecological role:** Spore trails and underground sensing; it forms part of the cave's living navigation network.
 
-## Discovery and research
-Follow the spores that drift against the cave's natural airflow.
-1. Observe spore or resonance patterns.
-2. Locate the plant's environmental signal.
-3. Investigate a connected chamber or mineral structure.
-4. Record the specimen and verified clues.
-5. Research its complete ability set.
+## Discovery and acquisition
+**Discovery clue:** Follow the spores that drift against the cave's natural airflow.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Observe spore or resonance patterns.
+- Locate the plant's environmental signal.
+- Investigate a connected chamber or mineral structure.
+- Record the specimen and verified clues.
+- Research its complete ability set.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Spore Compass](../../../03_Content/Abilities/gloomcap/spore-compass.md) | PLANT_42_A01 | Exploration | Reveals the direction of nearby hidden fungal networks. |
@@ -33,8 +42,8 @@ Follow the spores that drift against the cave's natural airflow.
 - Visual identity: violet spores, mineral highlights and clear sound-wave cues.
 - Rarity: Distinct affects set power and complexity.
 
-## Mastery
-Three research milestones unlock the set. Mastery reward: archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/umbra-deep/README.md)
