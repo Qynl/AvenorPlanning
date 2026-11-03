@@ -43,3 +43,20 @@
 - Additional native species beyond the initial signature plants.
 
 World and biome concepts are proposals until explicitly confirmed.
+
+## Expanded native plant roster
+
+This world currently has five proposed signature species. Each species has its own research profile and linked multi-ability set.
+
+- [Driftleaf](../../02_Content/Plants/driftleaf/README.md)
+- [Sunspool](../../02_Content/Plants/sunspool/README.md)
+- [Cloudreed](../../02_Content/Plants/cloudreed/README.md)
+- [Meadowflare](../../02_Content/Plants/meadowflare/README.md)
+- [Rainbell](../../02_Content/Plants/rainbell/README.md)
+
+## Map production requirements
+- Build a readable greybox for each major biome before final art.
+- Give each biome a landmark, a main route, an optional route and a hidden discovery route.
+- Place the five native species in distinct habitat anchors rather than scattering them randomly.
+- Define local streaming regions and test fast traversal across each boundary.
+- Keep gameplay-relevant plant clues visible at low graphics quality.
