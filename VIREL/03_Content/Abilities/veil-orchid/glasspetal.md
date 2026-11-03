@@ -2,7 +2,7 @@
 
 **Ability ID:** VEIL_ORCHID_03  
 **Status:** PROPOSAL  
-**Parent plant:** [Veil Orchid](../../02_Content/Plants/veil-orchid/README.md)  
+**Parent plant:** [Veil Orchid](../../../02_Content/Plants/veil-orchid/README.md)  
 **Ability set:** Mirage Bloom  
 **Plant rarity:** Ancient  
 **Set position:** 3 of 3
@@ -35,7 +35,7 @@ Send a curved wave of refracted light that briefly confuses encounter targets.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/veil-orchid/README.md)
+- [Parent plant](../../../02_Content/Plants/veil-orchid/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
