@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Current Reading](../../../03_Content/Abilities/brineglass/current-reading.md) | BRINEGLASS_01 | TBD | Display local underwater current direction and strength. |
 | 2 | [Flowdash](../../../03_Content/Abilities/brineglass/flowdash.md) | BRINEGLASS_02 | TBD | Propel the player along a short water-current burst. |
