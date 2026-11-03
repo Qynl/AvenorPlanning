@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Coldbound](../../../03_Content/Abilities/frostwaker/coldbound.md) | FROSTWAKER_01 | TBD | Resist designated cold conditions and reveal nearby warm refuges. |
 | 2 | [Froststep](../../../03_Content/Abilities/frostwaker/froststep.md) | FROSTWAKER_02 | TBD | Create a short-lived frost platform or bridge on suitable surfaces. |
