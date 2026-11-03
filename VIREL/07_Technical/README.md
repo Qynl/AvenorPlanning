@@ -1,4 +1,4 @@
-# VIREL — Technical Architecture
+# FLORA — Technical Architecture
 
 ## Architecture principles
 - Separate content definitions from runtime systems.
