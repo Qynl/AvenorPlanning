@@ -10,3 +10,4 @@
 3. [False Horizon](./false-horizon.md) — `PLANT_41_A03`
 
 All abilities in this folder belong to this plant. The parent page owns set identity and unlock order.
+4. [Horizon Fold](./horizon-fold.md) — `PLANT_41_A04`
