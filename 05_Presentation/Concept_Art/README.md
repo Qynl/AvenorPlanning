@@ -37,4 +37,4 @@ Every major and hidden region has its own folder and eight subfolders: hero view
 ## Image handling
 Store generated images directly in their matching folders. Use `World_Region_Subject_View_V01.png`. Keep original generations unchanged and save edits as new versions. Mark selected/approved images in notes. Concept art is reference, not automatic canonical design.
 
-The earlier [Auralis image assignment index](../Auralis/README.md) records the six images supplied in chat. Their binary files still need a separate upload; this library creates the permanent destinations.
+The [Auralis image assignment index](Auralis/README.md) records the six images supplied in chat; those binaries are now stored in their assigned folders. Further supplied originals are filed under `Worlds/<world>/…/` by region and category, and under `03_Creatures_and_Encounters/<creature>/` using the `CRE-###_Name` prefix from each creature spec.

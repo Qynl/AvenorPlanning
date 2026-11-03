@@ -29,4 +29,13 @@ This folder is the visual reference hub for Auralis. The six supplied images use
 - Auralis-wide: morning/noon/sunset lighting sheet, weather variants, terrain/rock/foliage material sheet, scale reference and native plant habitat sheets.
 
 ## Upload status
-The correct names and image-to-folder mapping are now recorded. The six JPG binaries are not yet present in GitHub; do not mark them as uploaded until the actual image files have been committed.
+The six originals are now stored under `05_Presentation/Concept_Art/Auralis/`, which is the permanent concept-art destination:
+
+| Image | Stored at |
+|---|---|
+| 50028.jpg | `05_Presentation/Concept_Art/Auralis/World_Overview/Auralis_World_Overview.jpg` |
+| 50025.jpg | `05_Presentation/Concept_Art/Auralis/Hidden_Sub_Biomes/Cloudfall_Sanctuary/Cloudfall_Sanctuary.jpg` |
+| 50023.jpg | `05_Presentation/Concept_Art/Auralis/Hidden_Sub_Biomes/Rootbound_Cavern/Rootbound_Cavern.jpg` |
+| 50020.jpg | `05_Presentation/Concept_Art/Auralis/Windspire_Highlands/Windspire_Highlands.jpg` |
+| 50018.jpg | `05_Presentation/Concept_Art/Auralis/Mirrorwater_Lakes/Mirrorwater_Lakes.jpg` |
+| 50015.jpg | `05_Presentation/Concept_Art/Auralis/Golden_Expanse/Golden_Expanse.jpg` |

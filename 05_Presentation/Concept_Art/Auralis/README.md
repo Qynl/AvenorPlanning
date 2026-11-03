@@ -13,5 +13,12 @@ Visual reference collection for the Auralis world.
 | `Mirrorwater_Lakes.jpg` | Reflective lake landscape and underwater view | `50018.jpg` |
 | `Golden_Expanse.jpg` | Golden grassland, wildflowers and distant mountain range | `50015.jpg` |
 
-## Important
-The six original images are currently attached to the ChatGPT conversation. This folder records their intended names and locations, but the image binaries have **not** been committed to GitHub yet.
+## Status
+All six original images are now stored in this folder tree under the filenames above:
+
+- `World_Overview/Auralis_World_Overview.jpg`
+- `Hidden_Sub_Biomes/Cloudfall_Sanctuary/Cloudfall_Sanctuary.jpg`
+- `Hidden_Sub_Biomes/Rootbound_Cavern/Rootbound_Cavern.jpg`
+- `Windspire_Highlands/Windspire_Highlands.jpg`
+- `Mirrorwater_Lakes/Mirrorwater_Lakes.jpg`
+- `Golden_Expanse/Golden_Expanse.jpg`
