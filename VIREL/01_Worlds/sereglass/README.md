@@ -43,3 +43,20 @@
 - Additional native species beyond the initial signature plants.
 
 World and biome concepts are proposals until explicitly confirmed.
+
+## Expanded native plant roster
+
+This world currently has five proposed signature species. Each species has its own research profile and linked multi-ability set.
+
+- [Pebblecup](../../02_Content/Plants/pebblecup/README.md)
+- [Veil Orchid](../../02_Content/Plants/veil-orchid/README.md)
+- [Dune Lotus](../../02_Content/Plants/dune-lotus/README.md)
+- [Sunshard Cactus](../../02_Content/Plants/sunshard-cactus/README.md)
+- [Mirage Thorn](../../02_Content/Plants/mirage-thorn/README.md)
+
+## Map production requirements
+- Build a readable greybox for each major biome before final art.
+- Give each biome a landmark, a main route, an optional route and a hidden discovery route.
+- Place the five native species in distinct habitat anchors rather than scattering them randomly.
+- Define local streaming regions and test fast traversal across each boundary.
+- Keep gameplay-relevant plant clues visible at low graphics quality.
