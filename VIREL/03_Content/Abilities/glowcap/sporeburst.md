@@ -2,7 +2,7 @@
 
 **Ability ID:** GLOWCAP_02  
 **Status:** PROPOSAL  
-**Parent plant:** [Glowcap](../../02_Content/Plants/glowcap/README.md)  
+**Parent plant:** [Glowcap](../../../02_Content/Plants/glowcap/README.md)  
 **Ability set:** Lumen Spores  
 **Plant rarity:** Unusual  
 **Set position:** 2 of 3
@@ -35,7 +35,7 @@ Release a cloud of luminous spores that reveals nearby surfaces and clues.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/glowcap/README.md)
+- [Parent plant](../../../02_Content/Plants/glowcap/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
