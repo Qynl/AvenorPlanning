@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Living Light](../../../03_Content/Abilities/glowcap/living-light.md) | GLOWCAP_01 | TBD | Create a controllable biological light source. |
 | 2 | [Sporeburst](../../../03_Content/Abilities/glowcap/sporeburst.md) | GLOWCAP_02 | TBD | Release a cloud of luminous spores that reveals nearby surfaces and clues. |
