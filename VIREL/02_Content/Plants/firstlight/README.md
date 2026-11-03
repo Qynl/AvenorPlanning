@@ -20,7 +20,7 @@ Scanning begins an investigation. Players observe the species and understand its
 ## Complete ability set
 | # | Ability | Stable ID | Unlock milestone | Initial concept |
 |---:|---|---|---|---|
-| 1 | [Genesis Record](../../../03_Content/Abilities/firstlight/genesis-record.md) | FIRSTLIGHT_01 | TBD | Reveal deep biological memories and major pieces of VIREL's history. |
+| 1 | [Genesis Record](../../../03_Content/Abilities/firstlight/genesis-record.md) | FIRSTLIGHT_01 | TBD | Reveal deep biological memories and major pieces of FLORA's history. |
 | 2 | [First Dawn](../../../03_Content/Abilities/firstlight/first-dawn.md) | FIRSTLIGHT_02 | TBD | Release a brilliant expanding wave of light that reveals the surrounding area. |
 | 3 | [Lifeweave](../../../03_Content/Abilities/firstlight/lifeweave.md) | FIRSTLIGHT_03 | TBD | Create a temporary field of living energy that supports exploration and affects encounter targets. |
 | 4 | [Origin Bloom](../../../03_Content/Abilities/firstlight/origin-bloom.md) | FIRSTLIGHT_04 | TBD | Unfold a spectacular multi-stage bloom that releases a powerful area pulse and transforms the nearby environment briefly. |
