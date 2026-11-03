@@ -18,7 +18,7 @@
 Scanning begins an investigation. Players observe the species and understand its habitat or behaviour. Exact field tasks and research milestones remain TBD.
 
 ## Complete ability set
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Vinepull](../../../03_Content/Abilities/springvine/vinepull.md) | SPRINGVINE_01 | TBD | Pull toward suitable natural anchor points. |
 | 2 | [Vinebind](../../../03_Content/Abilities/springvine/vinebind.md) | SPRINGVINE_02 | TBD | Send a fast-growing vine to briefly hold an encounter target. |
