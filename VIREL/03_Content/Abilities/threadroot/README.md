@@ -1,6 +1,6 @@
 # Threadroot — Ability Set
 
-**Parent plant:** [Threadroot](../../../../02_Content/Plants/threadroot/README.md)  
+**Parent plant:** [Threadroot](../../../02_Content/Plants/threadroot/README.md)  
 **Set:** Rootcall  
 **Rarity:** Natural
 
