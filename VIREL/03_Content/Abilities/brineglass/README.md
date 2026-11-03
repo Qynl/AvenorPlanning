@@ -1,6 +1,6 @@
 # Brineglass — Ability Set
 
-**Parent plant:** [Brineglass](../../02_Content/Plants/brineglass/README.md)  
+**Parent plant:** [Brineglass](../../../02_Content/Plants/brineglass/README.md)  
 **Set:** Brinecraft  
 **Rarity:** Unusual
 
