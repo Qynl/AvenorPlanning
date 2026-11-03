@@ -1,6 +1,13 @@
 # Plant Directory
 
-The roster now contains **50 proposed species across 10 worlds**. Every plant has one canonical page with its ecology, discovery path and complete ability set.
+The roster contains **50 proposed species across 10 worlds**. Every plant has one canonical page with its ecology, discovery path, further research journey and complete ability set.
+
+## How plant collection works
+- Find a plant in the world and successfully scan it to acquire it.
+- The first successful scan grants ownership of the plant and its complete ability set.
+- Further research of that plant progressively unlocks the individual abilities in its set.
+- The plant page defines the research journey and unlock order.
+- Individual ability files are descriptions/specifications only. They do not have separate progression systems.
 
 | Plant | Rarity | Home world | Ability set |
 |---|---|---|---|
@@ -57,9 +64,8 @@ The roster now contains **50 proposed species across 10 worlds**. Every plant ha
 
 ## Roster rules
 - Each plant belongs to one home world and one primary habitat.
-- Each plant grants a complete three-ability set in the current content pass.
+- Each plant's ability count and unlock order are defined by its own design.
 - Higher rarities should generally offer greater capability, complexity and spectacle.
-- Ability unlock order is researched from the parent plant page.
-- Plant pages are the source of truth for species-specific information.
+- The plant page is the source of truth for species-specific information and ability unlock progression.
 
-Use [Plant Template](../../Templates/Plant_Template.md) for new species. Browse [Ability Directory](../../03_Content/Abilities/README.md) for all 150 ability specifications.
+Use [Plant Template](../../Templates/Plant_Template.md) for new species. Browse [Ability Directory](../../03_Content/Abilities/README.md) for all ability descriptions.
