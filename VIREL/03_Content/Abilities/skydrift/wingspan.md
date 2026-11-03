@@ -2,7 +2,7 @@
 
 **Ability ID:** SKYDRIFT_04  
 **Status:** PROPOSAL  
-**Parent plant:** [Skydrift](../../02_Content/Plants/skydrift/README.md)  
+**Parent plant:** [Skydrift](../../../02_Content/Plants/skydrift/README.md)  
 **Ability set:** Aetherwing  
 **Plant rarity:** Relic  
 **Set position:** 4 of 4
@@ -35,7 +35,7 @@ Unfurl a temporary gliding form with strong directional control.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/skydrift/README.md)
+- [Parent plant](../../../02_Content/Plants/skydrift/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
