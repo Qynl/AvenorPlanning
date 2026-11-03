@@ -19,7 +19,7 @@ Use recognisable landmarks, enterable buildings, layered interiors, hidden rooms
 
 ## 3. Player-created experiences
 Players can meet and travel together, form temporary squads, investigate clues, compete, cooperate, contest locations, establish temporary camps and socialise. Party systems should help without making solo play second-class.
-- A camp is a place players establish and use, not permanent ownership of surrounding land.
+- A camp is a place players establish and use, not permanent ownership of surrounding land. Camps support storage, regrouping and temporary presence.
 - Groups may arrive, stay, leave, abandon a site or contest another group's presence.
 - Do not require constant upkeep or punish players for taking breaks.
 - Camp persistence and exact placement rules remain TBD.
@@ -59,7 +59,7 @@ The only planned NPCs are limited AI-controlled faction squads that behave like 
 - PvP: player encounters within the eventual world rules.
 - Cooperative: players may work together or encounter each other during shared discoveries and events.
 - Combat is not mandatory across the map. Calm spaces and routes coexist with dangerous sites.
-- Exact PvP coverage, safe areas, friendly fire, death/respawn consequences and item-drop rules remain TBD.
+- PvP is enabled everywhere in the Open World. Friendly fire, spawn protection, death/respawn consequences and exact physical item-drop rules remain TBD.
 - All damage, awareness, inventory changes, theft and rewards must be server-authoritative.
 
 ## 8. World events and dynamic locations
