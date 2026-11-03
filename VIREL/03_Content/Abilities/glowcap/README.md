@@ -1,6 +1,6 @@
 # Glowcap — Ability Set
 
-**Parent plant:** [Glowcap](../../02_Content/Plants/glowcap/README.md)  
+**Parent plant:** [Glowcap](../../../02_Content/Plants/glowcap/README.md)  
 **Set:** Lumen Spores  
 **Rarity:** Unusual
 
