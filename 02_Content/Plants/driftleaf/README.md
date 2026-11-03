@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Softfall](../../../03_Content/Abilities/driftleaf/softfall.md) | DRIFTLEAF_01 | TBD | Slow and steer a descent. |
 | 2 | [Guststep](../../../03_Content/Abilities/driftleaf/guststep.md) | DRIFTLEAF_02 | TBD | Dash forward on a short burst of wind. |
