@@ -4,7 +4,7 @@
 
 VIREL is built around **multiple enormous worlds that rotate and change over time**. The available world roster is not permanently fixed: new worlds can arrive after a number of days, and existing worlds may rotate out.
 
-Each world should feel like a distinct place with its own ecology, visual identity, landmarks, traversal challenges and species catalogue. Players should be excited to see what has arrived, while still having reasons to revisit worlds they have explored before.
+The current first-universe proposal contains **10 distinct worlds**, each with multiple major biomes and hidden sub-biomes. The full catalogue, signatures and sub-region concepts are in [VIREL_World_Catalogue.md](VIREL_World_Catalogue.md).
 
 ## Confirmed world structure
 
@@ -29,19 +29,14 @@ Each world should feel like a distinct place with its own ecology, visual identi
 
 Visual effects should preserve contrast and rarity. If every plant glows dramatically, special discoveries stop feeling special.
 
-## Proposed biome families
+## Shared biome design rules
 
-1. **Verdant Plains:** open grasslands, wetlands, streams and beginner discoveries.
-2. **Ancient Forest:** dense canopy, giant roots, shaded micro-habitats and nocturnal species.
-3. **Crystal Caverns:** underground ecosystems, mineral formations and organisms adapted to low light.
-4. **Frostpeak Mountains:** alpine meadows, snowfields, cliffs and cold-adapted species.
-5. **Emberlands:** volcanic terrain, geothermal vents and heat-adapted plants.
-6. **Sunken Depths:** underwater regions, reefs, submerged ruins and aquatic botanical life.
-7. **Sky Gardens:** elevated plateaus, floating-looking formations and wind-dependent organisms.
-8. **Forgotten Wilds:** overgrown structures, rare ecological relationships and long-form discoveries.
-9. **The Void Garden:** a late-game or mysterious region with unusual biological rules.
-
-These are proposals. Region count, names, boundaries and launch availability are not locked.
+- Every biome needs a distinct visual identity and ecological behaviour.
+- Sub-biomes must introduce a meaningful change in habitat, traversal, atmosphere or discovery rules.
+- Use landmarks to help players form a mental map.
+- Hidden areas should reward observation and investigation, not random wall-hugging.
+- Environmental conditions should be readable enough that players can learn why a species appears.
+- Design vertical, underground, underwater and surface routes as appropriate to each world.
 
 ## Environmental systems
 
@@ -73,3 +68,10 @@ Each world should feel enormous, but exact dimensions are TBD. Establish perform
 ## Live world states
 
 Weather, environmental events and special world states can temporarily alter habitats and reveal new discoveries. These systems should complement the larger world rotation, not make core species permanently missable.
+
+## Rotation safeguards
+
+- Permanent discoveries and research progress must persist when a world rotates out.
+- Essential progression must not depend on a single short availability window.
+- Returning worlds can gain new sub-biomes, variants or changed environmental states.
+- Exact active-world count, rotation schedule and archive access are still TBD.
