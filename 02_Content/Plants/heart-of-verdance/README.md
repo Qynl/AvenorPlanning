@@ -12,15 +12,22 @@ A colossal flower-tree with a glowing heart and roots that disappear beyond the 
 
 **Ecological role:** Large-scale ecosystem connection; this is an exceptional species connected to the oldest ecological systems in VIREL.
 
-## Discovery and research
-Follow the pulse travelling through the oldest roots and locate the place where every world-song converges.
-1. Identify the unusual environmental signal.
-2. Observe the specimen across more than one world-state condition.
-3. Complete a multi-stage field investigation.
-4. Record the discovery as a major archive milestone.
-5. Research the full ability set.
+## Discovery and acquisition
+**Discovery clue:** Follow the pulse travelling through the oldest roots and locate the place where every world-song converges.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Identify the unusual environmental signal.
+- Observe the specimen across more than one world-state condition.
+- Complete a multi-stage field investigation.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Worldpulse](../../../03_Content/Abilities/heart-of-verdance/worldpulse.md) | PLANT_49_A01 | World shaping | Sends a broad living pulse through the local region, revealing active plant networks and hidden ecological links. |
@@ -35,8 +42,8 @@ Follow the pulse travelling through the oldest roots and locate the place where 
 - Visual identity: primordial botanical forms, large readable silhouettes and controlled environmental transformation.
 - Rarity: Origin is among the highest rarity tiers; the set should feel exceptional while remaining understandable and counterable.
 
-## Mastery
-Three major research milestones unlock the set. Mastery reward: a unique archive presentation, title or cosmetic (proposal).
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/the-first-garden/README.md)
