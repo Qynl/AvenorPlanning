@@ -2,7 +2,7 @@
 
 **Ability ID:** TIDEGLASS_02  
 **Status:** PROPOSAL  
-**Parent plant:** [Tideglass](../../02_Content/Plants/tideglass/README.md)  
+**Parent plant:** [Tideglass](../../../02_Content/Plants/tideglass/README.md)  
 **Ability set:** Tidal Form  
 **Plant rarity:** Distinct  
 **Set position:** 2 of 3
@@ -35,7 +35,7 @@ Release a circular underwater pressure wave.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/tideglass/README.md)
+- [Parent plant](../../../02_Content/Plants/tideglass/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
