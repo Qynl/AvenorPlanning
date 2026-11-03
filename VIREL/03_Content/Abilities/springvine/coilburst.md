@@ -2,7 +2,7 @@
 
 **Ability ID:** SPRINGVINE_03  
 **Status:** PROPOSAL  
-**Parent plant:** [Springvine](../../../02_Content/Plants/springvine/README.md)  
+**Parent plant:** [Springvine](../../../../02_Content/Plants/springvine/README.md)  
 **Ability set:** Wildcoil  
 **Plant rarity:** Unusual  
 **Set position:** 3 of 3
@@ -35,7 +35,7 @@ Release stored tension in a forward-moving vine burst.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../../02_Content/Plants/springvine/README.md)
+- [Parent plant](../../../../02_Content/Plants/springvine/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
