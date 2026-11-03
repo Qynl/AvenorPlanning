@@ -25,4 +25,4 @@ This file records the current project-level decisions for FLORA. AVENOR is a sep
 
 ## Naming rule
 
-Use **FLORA** as the short title and **FLORA: BEYOND THE ORIGINS** as the full title. New project assets and identifiers should use the FLORA prefix. Legacy VIREL references should be migrated when their owning file or asset is updated.
+Use **FLORA** as the short title and **FLORA: BEYOND THE ORIGINS** as the full title. New project assets and identifiers should use the FLORA prefix. The repository folder remains `VIREL/` for path continuity only; it is not the player-facing game name.
