@@ -1,32 +1,32 @@
 # Auralis Concept Art
 
-This folder is the visual reference hub for Auralis. Keep original generated images at full resolution and preserve a clean separation between world-scale views, biome environments, hidden sub-biomes, landmarks, flora, and gameplay moments.
+This folder is the visual reference hub for Auralis. The six supplied images use the previously agreed concept names below. Do not substitute descriptive guesses such as "Golden Meadows" or "Waterfall Grotto".
 
 ## Image conventions
-- Preferred format: JPG or PNG; use PNG for transparency.
-- Keep source images un-cropped. Make crops/paintovers separate files.
-- Use descriptive lowercase filenames.
-- Every image should have a short note describing what it establishes and what is still flexible.
-- These are concept references, not final Roblox assets or a promise of exact in-game scale.
+- Preserve the original 1536 × 864 landscape images.
+- Keep source images uncropped; store crops and paintovers separately.
+- Use the agreed concept name in each filename.
+- These are environment concept references, not final Roblox assets or exact gameplay-scale maps.
 
-## Current image set
-| Folder | Intended reference |
-|---|---|
-| [01_World_Overview](01_World_Overview/README.md) | Full Auralis landscape, geography and visual identity |
-| [02_Glasswater_Basin](02_Glasswater_Basin/README.md) | Lake, river channels, waterfalls and underwater view |
-| [03_Whispering_Hollows](03_Whispering_Hollows/README.md) | Sheltered rock-and-water grotto environment |
-| [04_Buried_Meadow](04_Buried_Meadow/README.md) | Ancient root cavern and luminous heart-like plant focal point |
-| [05_Sky_Ruins](05_Sky_Ruins/README.md) | Elevated stone formations, isolated pillars and high routes |
-| [06_Sunthread_Fields](06_Sunthread_Fields/README.md) | Golden grassland, rolling hills and warm meadow atmosphere |
+## Supplied image mapping
 
-## Still needed
-- Windstep Prairie biome hero view and ground-level traversal view.
-- Sunthread Fields close-up environment and plant habitat references.
-- Glasswater Basin shoreline, river source, waterfall approach and underwater sub-region.
-- Whispering Hollows entrance, interior route and wind-shaped rock details.
-- Buried Meadow entrance/transition and wider underground ecosystem.
-- Auralis annotated top-down region map, landmark sheet, lighting/time-of-day sheet, weather variants, foliage/rock/terrain material sheet, and scale reference.
-- Individual plant concept sheets for all Auralis-native species.
+| Source image | Correct concept name | Intended folder | Visual reference |
+|---|---|---|---|
+| 50028.jpg | World Overview | 01_World_Overview | Full Auralis panorama: layered cliffs, turquoise waterways, waterfalls, bridges and green plateaus |
+| 50015.jpg | Golden Expanse | 02_Golden_Expanse | Wide golden grasslands, rolling hills, distant mountains and scattered ruins |
+| 50018.jpg | Mirrorwater Lakes | 03_Mirrorwater_Lakes | Calm reflective lake system with visible underwater vegetation and rocky shores |
+| 50020.jpg | Windspire Highlands | 04_Windspire_Highlands | Elevated stone pillars, floating-looking plateaus, open sky and wind-swept routes |
+| 50025.jpg | Cloudfall Sanctuary | 05_Cloudfall_Sanctuary | Sheltered waterfall terraces, mist, hanging vegetation and luminous blue flowers |
+| 50023.jpg | Rootbound Cavern | 06_Rootbound_Cavern | Vast underground root network, stone paths, water channels and a glowing botanical focal point |
+
+## Additional concept art still needed
+- Golden Expanse: ground-level traversal view, distinctive grass/flower clusters, ancient stone arch and distant landmark.
+- Mirrorwater Lakes: shoreline close-up, underwater depth view, lake inlet/outlet and hidden aquatic pocket.
+- Windspire Highlands: ground-level route, high-altitude overlook, wind-carved rock formations and suspended bridges.
+- Cloudfall Sanctuary: entrance approach, interior waterfall chamber, terrace layout and plant-scale close-ups.
+- Rootbound Cavern: entrance transition, wide cavern layout, root bridges, glowing ecosystem and deeper chamber.
+- World Overview: annotated top-down region map, landmark placement sheet and biome boundary overview.
+- Auralis-wide: morning/noon/sunset lighting sheet, weather variants, terrain/rock/foliage material sheet, scale reference and native plant habitat sheets.
 
 ## Upload status
-The six source images supplied for Auralis are identified in the project conversation. The current GitHub connector can create text files and Git blobs, but does not expose a binary-file upload operation for these local image bytes. The folders and catalog are prepared; the six JPG files themselves still need to be pushed as binary assets.
+The correct names and image-to-folder mapping are now recorded. The six JPG binaries are not yet present in GitHub; do not mark them as uploaded until the actual image files have been committed.
