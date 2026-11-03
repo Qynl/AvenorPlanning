@@ -1,6 +1,6 @@
 # Worldroot — Ability Set
 
-**Parent plant:** [Worldroot](../../../02_Content/Plants/worldroot/README.md)  
+**Parent plant:** [Worldroot](../../../../02_Content/Plants/worldroot/README.md)  
 **Set:** Worldweave  
 **Rarity:** Origin
 
