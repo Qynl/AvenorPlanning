@@ -10,3 +10,4 @@
 3. [Titan Network](./titan-network.md) — `PLANT_44_A03`
 
 Every ability in this folder belongs to this plant. The parent page owns set identity and unlock order.
+4. [Colony Crown](./colony-crown.md) — `PLANT_44_A04`
