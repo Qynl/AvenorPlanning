@@ -27,6 +27,8 @@ Follow the pulse travelling through the oldest roots and locate the place where 
 | 2 | [Verdant Colossus](../../../03_Content/Abilities/heart-of-verdance/verdant-colossus.md) | PLANT_49_A02 | World shaping | Calls a towering temporary plant form that creates safe cover and a new traversal landmark. |
 | 3 | [Genesis Garden](../../../03_Content/Abilities/heart-of-verdance/genesis-garden.md) | PLANT_49_A03 | World shaping | Transforms a marked clearing into a temporary living garden with new paths, light and environmental interactions. |
 
+| 4 | [Worldroot Awakening](../../../03_Content/Abilities/heart-of-verdance/worldroot-awakening.md) | PLANT_49_A04 | World shaping | Awakens a temporary network of colossal roots across a marked region, creating new traversal landmarks and revealing sealed ecological links. |
+
 ## Set presentation
 - Primary role: World shaping
 - Theme: Large-scale ecosystem connection
