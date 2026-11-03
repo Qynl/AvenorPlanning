@@ -2,7 +2,7 @@
 
 **Ability ID:** STORMBELL_02  
 **Status:** PROPOSAL  
-**Parent plant:** [Stormbell](../../02_Content/Plants/stormbell/README.md)  
+**Parent plant:** [Stormbell](../../../02_Content/Plants/stormbell/README.md)  
 **Ability set:** Tempest Choir  
 **Plant rarity:** Forgotten  
 **Set position:** 2 of 4
@@ -35,7 +35,7 @@ Send a focused electrical pulse.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/stormbell/README.md)
+- [Parent plant](../../../02_Content/Plants/stormbell/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
