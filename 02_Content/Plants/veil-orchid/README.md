@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Veil Sight](../../../03_Content/Abilities/veil-orchid/veil-sight.md) | VEIL_ORCHID_01 | TBD | Reveal concealed natural passages and hidden markings. |
 | 2 | [Mirage Step](../../../03_Content/Abilities/veil-orchid/mirage-step.md) | VEIL_ORCHID_02 | TBD | Create a short displacement with a shimmering afterimage. |
