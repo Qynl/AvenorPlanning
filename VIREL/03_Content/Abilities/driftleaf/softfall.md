@@ -2,7 +2,7 @@
 
 **Ability ID:** DRIFTLEAF_01  
 **Status:** PROPOSAL  
-**Parent plant:** [Driftleaf](../../../02_Content/Plants/driftleaf/README.md)  
+**Parent plant:** [Driftleaf](../../../../02_Content/Plants/driftleaf/README.md)  
 **Ability set:** Windweave  
 **Plant rarity:** Natural  
 **Set position:** 1 of 3
@@ -38,7 +38,7 @@ Slow and steer a descent.
 Unlock milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related systems
-- [Parent plant](../../../02_Content/Plants/driftleaf/README.md)
+- [Parent plant](../../../../02_Content/Plants/driftleaf/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat and encounters](../../../04_Systems/Combat/README.md)
 
