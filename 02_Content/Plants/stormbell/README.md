@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Storm Forecast](../../../03_Content/Abilities/stormbell/storm-forecast.md) | STORMBELL_01 | TBD | Predict nearby storms and weather-sensitive discoveries. |
 | 2 | [Bellstrike](../../../03_Content/Abilities/stormbell/bellstrike.md) | STORMBELL_02 | TBD | Send a focused electrical pulse. |
