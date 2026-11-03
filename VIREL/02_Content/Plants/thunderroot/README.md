@@ -27,6 +27,8 @@ Map the timing between its pulses and the storm rolling over the ridge.
 | 2 | [Grounding Root](../../../03_Content/Abilities/thunderroot/grounding-root.md) | PLANT_35_A02 | Control | Creates a temporary safe zone that redirects ambient storm energy into the soil. |
 | 3 | [Stormanchor](../../../03_Content/Abilities/thunderroot/stormanchor.md) | PLANT_35_A03 | Control | Links several marked grounding points into a large temporary field that stabilises a storm route. |
 
+| 4 | [Stormheart Convergence](../../../03_Content/Abilities/thunderroot/stormheart-convergence.md) | PLANT_35_A04 | Control | A large temporary storm field links every active grounding point in the region and opens a stable crossing through the ridge. |
+
 ## Set presentation
 - Primary role: Control
 - Theme: Storm timing and safe electrical paths
