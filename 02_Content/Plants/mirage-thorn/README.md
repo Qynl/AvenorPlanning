@@ -12,15 +12,24 @@ A rare branching thorn plant whose silhouette appears at different distances dep
 
 **Ecological role:** Mirage paths and spatial misdirection; the species changes how players interpret light, distance and terrain.
 
-## Discovery and research
-Approach its apparent location from three different landmarks and compare the shadows.
-1. Identify the light or shadow clue.
-2. Observe the plant from multiple positions.
-3. Compare its behaviour with nearby landmarks.
-4. Record the confirmed specimen in the archive.
-5. Research its full ability set.
+## Discovery and acquisition
+**Discovery clue:** Approach its apparent location from three different landmarks and compare the shadows.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Identify the light or shadow clue.
+- Observe the plant from multiple positions.
+- Compare its behaviour with nearby landmarks.
+- Record the confirmed specimen in the archive.
+- Research its full ability set.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Horizon Read](../../../03_Content/Abilities/mirage-thorn/horizon-read.md) | PLANT_41_A01 | Exploration | Reveals which distant landmarks are genuine and which are heat mirages. |
@@ -35,8 +44,8 @@ Approach its apparent location from three different landmarks and compare the sh
 - Visual identity: refracted sunlight, pale glass and readable horizon cues.
 - Rarity: Relic reflects greater capability and complexity.
 
-## Mastery
-Three research milestones unlock the set. Mastery reward: archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/sereglass/README.md)
