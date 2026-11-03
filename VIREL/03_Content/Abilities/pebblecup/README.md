@@ -1,6 +1,6 @@
 # Pebblecup — Ability Set
 
-**Parent plant:** [Pebblecup](../../02_Content/Plants/pebblecup/README.md)  
+**Parent plant:** [Pebblecup](../../../02_Content/Plants/pebblecup/README.md)  
 **Set:** Stonewell  
 **Rarity:** Natural
 
