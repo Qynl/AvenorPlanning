@@ -12,15 +12,23 @@ Translucent petals with ember-like veins and dark glass stems.
 
 **Ecological role:** Heat refraction and visibility; the species should visibly affect its biome and nearby environmental clues.
 
-## Discovery and research
-Find the flower that refracts heat shimmer into a stable rainbow.
-1. Notice its unique environmental signal.
-2. Observe it in its native habitat.
-3. Complete a field investigation related to its behaviour.
-4. Record the discovery in the permanent archive.
-5. Research its abilities through three milestones.
+## Discovery and acquisition
+**Discovery clue:** Find the flower that refracts heat shimmer into a stable rainbow.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Notice its unique environmental signal.
+- Observe it in its native habitat.
+- Complete a field investigation related to its behaviour.
+- Research its abilities through three milestones.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Prism Flicker](../../../03_Content/Abilities/glassfire-lily/prism-flicker.md) | PLANT_27_A01 | Utility | Bends nearby heat shimmer to reveal outlines hidden by distortion. |
@@ -33,8 +41,8 @@ Find the flower that refracts heat shimmer into a stable rainbow.
 - Visual identity: a coherent family of shapes, colours and animations.
 - Rarity: Unusual indicates a stronger and more complex set, not merely a visual tier.
 
-## Mastery
-Three proposed research milestones unlock the complete set. Mastery reward: plant-specific archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/caldera-reach/README.md)
