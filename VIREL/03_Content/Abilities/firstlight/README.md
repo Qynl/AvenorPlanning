@@ -1,6 +1,6 @@
 # Firstlight — Ability Set
 
-**Parent plant:** [Firstlight](../../../02_Content/Plants/firstlight/README.md)  
+**Parent plant:** [Firstlight](../../../../02_Content/Plants/firstlight/README.md)  
 **Set:** Genesis  
 **Rarity:** Origin
 
