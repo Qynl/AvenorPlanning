@@ -2,7 +2,7 @@
 
 **Ability ID:** DRIFTLEAF_03  
 **Status:** PROPOSAL  
-**Parent plant:** [Driftleaf](../../02_Content/Plants/driftleaf/README.md)  
+**Parent plant:** [Driftleaf](../../../02_Content/Plants/driftleaf/README.md)  
 **Ability set:** Windweave  
 **Plant rarity:** Natural  
 **Set position:** 3 of 3
@@ -38,7 +38,7 @@ Release a fan of sharp, spinning leaves in a short-range attack.
 Unlock milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related systems
-- [Parent plant](../../02_Content/Plants/driftleaf/README.md)
+- [Parent plant](../../../02_Content/Plants/driftleaf/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat and encounters](../../../04_Systems/Combat/README.md)
 
