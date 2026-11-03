@@ -1,6 +1,6 @@
 # Driftleaf — Ability Set
 
-**Parent plant:** [Driftleaf](../../../../../02_Content/Plants/driftleaf/README.md)  
+**Parent plant:** [Driftleaf](../../../../../../02_Content/Plants/driftleaf/README.md)  
 **Set:** Windweave  
 **Rarity:** Natural
 
