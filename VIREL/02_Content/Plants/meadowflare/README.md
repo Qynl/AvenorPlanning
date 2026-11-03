@@ -10,46 +10,34 @@
 ## Species identity
 Broad golden petals with reflective centres that turn toward the strongest light source.
 
-**Ecological role:** Light bursts and area control. This species is part of the local ecosystem, not a decorative collectible only.
+**Ecological role:** Light bursts and area control. The species creates visible light patterns that mark environmental changes.
 
 ## Discovery and field research
 Compare its petal orientation at dawn and under cloud cover.
-
-1. **Notice:** Identify the environmental clue that distinguishes this species.
-2. **Observe:** Scan its appearance and behaviour from more than one useful angle.
-3. **Investigate:** Complete a field interaction connected to its habitat.
-4. **Record:** Add the verified discovery to the permanent archive.
-5. **Research:** Unlock its abilities through the set's milestones.
-
-Exact scan timing, field task and research costs remain TBD.
+1. Observe its orientation in different light.
+2. Scan the reflective centre.
+3. Follow the light pattern it creates.
+4. Record the specimen.
+5. Research the complete ability set.
 
 ## Complete ability set: Daybreak
-All three abilities below belong to this plant. Their unlock sequence is a proposal and can be tuned after playtesting.
-
 | # | Ability | Stable ID | Gameplay role | Concept |
 |---:|---|---|---|---|
-| 1 | [S](../../../03_Content/Abilities/meadowflare/s.md) | PLANT_022_A01 | Combat | o |
-| 2 | [R](../../../03_Content/Abilities/meadowflare/r.md) | PLANT_022_A02 | Combat | e |
-| 3 | [R](../../../03_Content/Abilities/meadowflare/r.md) | PLANT_022_A03 | Combat | a |
-| 4 | [C](../../../03_Content/Abilities/meadowflare/c.md) | PLANT_022_A04 | Combat | r |
-| 5 | [S](../../../03_Content/Abilities/meadowflare/s.md) | PLANT_022_A05 | Combat | u |
-| 6 | [C](../../../03_Content/Abilities/meadowflare/c.md) | PLANT_022_A06 | Combat | a |
+| 1 | [Solar Pulse](../../../03_Content/Abilities/meadowflare/solar-pulse.md) | PLANT_022_A01 | Combat | Releases a focused flash that briefly disrupts nearby hostile growths and marks them clearly. |
+| 2 | [Radiant Ring](../../../03_Content/Abilities/meadowflare/radiant-ring.md) | PLANT_022_A02 | Combat | Creates a circular field of warm light that weakens incoming environmental hazards and reveals hidden traces. |
+| 3 | [Sunfall](../../../03_Content/Abilities/meadowflare/sunfall.md) | PLANT_022_A03 | Combat | Calls down a concentrated column of light at a marked point after a visible warning. |
 
 ## Set identity and presentation
-- **Primary gameplay role:** Combat
-- **Theme:** Light bursts and area control
-- **Visual language:** A shared colour, shape and motion language should connect all three abilities.
-- **Rarity presentation:** Distinct affects power, complexity and spectacle, while effects must remain readable.
+- **Primary role:** Combat.
+- **Theme:** Light bursts and area control.
+- **Visual identity:** Golden petals, focused beams and warm circular light patterns.
+- **Rarity:** Distinct; the set offers greater capability and complexity than Unusual plants.
 
 ## Research and mastery
-- First milestone: unlock the set's introductory ability.
-- Second milestone: unlock the set's defining traversal, support or encounter tool.
-- Final milestone: unlock the set's signature ability.
-- Mastery reward: a plant-specific title, archive detail or cosmetic presentation reward (proposal).
+Three milestones unlock the abilities in sequence. Mastery reward: a plant-specific archive detail, title or cosmetic.
 
 ## Related links
 - [Home world](../../../01_Worlds/auralis/README.md)
-- [Ability set index](../../../03_Content/Abilities/meadowflare/README.md)
-- [Shared ability rules](../../../04_Systems/Abilities/README.md)
+- [Ability set](../../../03_Content/Abilities/meadowflare/README.md)
+- [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Scanning and research](../../../04_Systems/Scanning_Research/README.md)
-- [Plant ecology](../../../04_Systems/Plant_Ecology/README.md)
