@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Solar Flare](../../../03_Content/Abilities/sunspool/solar-flare.md) | SUNSPOOL_01 | TBD | Release a bright, focused pulse. |
 | 2 | [Sunmark](../../../03_Content/Abilities/sunspool/sunmark.md) | SUNSPOOL_02 | TBD | Mark a point of interest and reveal nearby light-sensitive clues. |
