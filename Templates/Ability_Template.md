@@ -20,5 +20,6 @@
 ## VFX
 ## Audio
 ## Feedback/readability
-## Research unlock milestone
 ## Related links
+
+This file describes the ability itself. Its unlock order and research requirements are defined only on the parent plant's canonical page.
