@@ -10,8 +10,8 @@
 5. [VIREL_Abilities.md](VIREL_Abilities.md) — plant-derived abilities and equipment rules.
 6. [VIREL_World.md](VIREL_World.md) — world structure, biomes and environmental ecology.
 7. [VIREL_Progression.md](VIREL_Progression.md) — collection, player progression and rewards.
-8. [VIREL_Roadmap.md](VIREL_Roadmap.md) — production milestones and gates.
-9. [VIREL_Technical.md](VIREL_Technical.md) — Roblox implementation considerations.
+8. [VIREL_Cinematics.md](VIREL_Cinematics.md) — camera language, discovery reveals and cutscene rules.\n9. [VIREL_Roadmap.md](VIREL_Roadmap.md) — production milestones and gates.
+10. [VIREL_Technical.md](VIREL_Technical.md) — Roblox implementation considerations.
 
 ## Status convention
 - **Confirmed:** directly chosen by the user.
