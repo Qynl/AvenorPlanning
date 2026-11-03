@@ -12,15 +12,22 @@ A dark flower with a small luminous centre surrounded by pressure-folded petals.
 
 **Ecological role:** Pressure fields and spatial control; its growth changes the flow and navigability of the surrounding reef.
 
-## Discovery and research
-Locate its glow without disturbing the surrounding deep-water organisms.
-1. Locate the species' unique environmental clue.
-2. Observe its response to changing water movement.
-3. Complete a field investigation in the native biome.
-4. Record the verified discovery.
-5. Research the full ability set.
+## Discovery and acquisition
+**Discovery clue:** Locate its glow without disturbing the surrounding deep-water organisms.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Locate the species' unique environmental clue.
+- Observe its response to changing water movement.
+- Complete a field investigation in the native biome.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Pressure Tap](../../../03_Content/Abilities/abyssal-bloom/pressure-tap.md) | PLANT_31_A01 | Control | A compact pulse creates space around the player and gently displaces nearby hazards. |
@@ -33,8 +40,8 @@ Locate its glow without disturbing the surrounding deep-water organisms.
 - Visual language: translucent coral, curved water trails and luminous reef details.
 - Rarity: Forgotten affects complexity and capability.
 
-## Mastery
-Three proposed research milestones unlock the set. Mastery reward: archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/pelagora/README.md)
