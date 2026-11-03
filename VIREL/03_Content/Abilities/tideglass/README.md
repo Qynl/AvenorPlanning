@@ -1,6 +1,6 @@
 # Tideglass — Ability Set
 
-**Parent plant:** [Tideglass](../../02_Content/Plants/tideglass/README.md)  
+**Parent plant:** [Tideglass](../../../02_Content/Plants/tideglass/README.md)  
 **Set:** Tidal Form  
 **Rarity:** Distinct
 
