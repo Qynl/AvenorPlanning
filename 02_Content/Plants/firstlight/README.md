@@ -18,7 +18,7 @@
 Scanning begins an investigation. Players observe the species and understand its habitat or behaviour. Exact field tasks and research milestones remain TBD.
 
 ## Complete ability set
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Genesis Record](../../../03_Content/Abilities/firstlight/genesis-record.md) | FIRSTLIGHT_01 | TBD | Reveal deep biological memories and major pieces of FLORA's history. |
 | 2 | [First Dawn](../../../03_Content/Abilities/firstlight/first-dawn.md) | FIRSTLIGHT_02 | TBD | Release a brilliant expanding wave of light that reveals the surrounding area. |
