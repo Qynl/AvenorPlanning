@@ -32,7 +32,7 @@
 - **IN DEVELOPMENT:** implementation has started.
 - **IMPLEMENTED:** built and verified in Roblox Studio.
 
-## Initial content inventory
+## Current content inventory
 - 10 world concepts.
 - 50 plant concepts (20 initial + 30 added).
 - 150 individual ability specifications (3 per plant).
