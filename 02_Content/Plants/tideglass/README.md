@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Deep Current](../../../03_Content/Abilities/tideglass/deep-current.md) | TIDEGLASS_01 | TBD | Improve underwater movement and control for a limited time. |
 | 2 | [Pressure Bloom](../../../03_Content/Abilities/tideglass/pressure-bloom.md) | TIDEGLASS_02 | TBD | Release a circular underwater pressure wave. |
