@@ -12,15 +12,22 @@ A cluster of long silver reeds that produce layered tones when fog rolls through
 
 **Ecological role:** Sound patterns and calming fields; the plant helps players understand the hidden water cycle of its biome.
 
-## Discovery and research
-Match the reed's repeating rhythm to a distant echo across the mire.
-1. Read the local terrain and temperature clues.
-2. Observe the plant's response to water conditions.
-3. Investigate the hidden basin or watercourse.
-4. Record the discovery in the archive.
-5. Research the full ability set.
+## Discovery and acquisition
+**Discovery clue:** Match the reed's repeating rhythm to a distant echo across the mire.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Read the local terrain and temperature clues.
+- Observe the plant's response to water conditions.
+- Investigate the hidden basin or watercourse.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Softnote](../../../03_Content/Abilities/lullaby-reed/softnote.md) | PLANT_38_A01 | Support | Sends a gentle tone that reveals nearby echo-markers. |
@@ -33,8 +40,8 @@ Match the reed's repeating rhythm to a distant echo across the mire.
 - Visual identity: pale petals, cool highlights and flowing water lines.
 - Rarity: Forgotten sets expected power and complexity.
 
-## Mastery
-Three research milestones unlock the set. Mastery reward: archive entry, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/nacre-hollow/README.md)
