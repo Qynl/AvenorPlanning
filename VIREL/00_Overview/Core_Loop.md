@@ -1,4 +1,4 @@
-# VIREL — Core Gameplay Loop
+# FLORA: BEYOND THE ORIGINS — Core Gameplay Loop
 
 ## Expedition loop
 1. Prepare a field loadout from researched plant ability sets.
