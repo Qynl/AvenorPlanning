@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Heatstep](../../../03_Content/Abilities/emberlace/heatstep.md) | EMBERLACE_01 | TBD | Temporarily cross designated hot surfaces safely. |
 | 2 | [Cinder Lash](../../../03_Content/Abilities/emberlace/cinder-lash.md) | EMBERLACE_02 | TBD | Send a sweeping arc of glowing ember filaments. |
