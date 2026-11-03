@@ -2,7 +2,7 @@
 
 > **Purpose:** A large, map-by-map catalogue of distinct places players can discover, explore, revisit, use as meeting points, scavenge, investigate, occupy temporarily or contest. This is a content blueprint, not a claim that these locations are implemented.
 >
-> **Scope target:** 200 named major locations across the ten proposed regions, plus smaller unnamed micro-locations, interiors and environmental discoveries. Each world receives its own identity. Reuse modular building kits and gameplay systems, not identical points of interest.
+> **Scope target:** 400 named major locations across the ten proposed regions, plus smaller unnamed micro-locations, interiors and environmental discoveries. Each world receives its own identity. Reuse modular building kits and gameplay systems, not identical points of interest.
 
 ## 1. Location philosophy
 
@@ -32,11 +32,11 @@ AVENOR does **not** use magical permanent ownership of ordinary world locations.
 
 Use three layers:
 
-1. **Major POIs:** named destinations with a distinct silhouette, layout and reason to visit. This catalogue targets 20 per world.
+1. **Major POIs:** named destinations with a distinct silhouette, layout and reason to visit. This catalogue initially contained 20 per world; it now targets 40 per world.
 2. **Secondary POIs:** smaller named or recognisable places within a district, such as a workshop, footbridge, ranger cabin, loading yard or lookout.
 3. **Micro-discoveries:** hidden rooms, roof access, crawlspaces, caches, notes, unusual objects, shortcuts, scenic details and small environmental stories.
 
-The 200 major POIs are a long-term content target, not a launch requirement. A major POI may contain multiple interiors and micro-discoveries. Do not build 200 large bespoke structures before testing performance. Greybox a small cluster, validate the exploration loop, then expand with modular kits and authored variations.
+The 400 major POIs are a long-term content target, not a launch requirement. A major POI may contain multiple interiors and micro-discoveries. Do not build 200 large bespoke structures before testing performance. Greybox a small cluster, validate the exploration loop, then expand with modular kits and authored variations.
 
 ## 4. Catalogue legend
 
@@ -303,7 +303,243 @@ Identity: exposed uplands, quarry operations, mountain roads, dam valley, old to
 
 ---
 
-# 15. Cross-world location families
+# 15. Additional 200 named locations
+
+The following 200 POIs expand the original catalogue from 200 to **400 named major locations**, adding 20 more destinations to each of the ten regions. These are additional authored concepts, not duplicates or claims of implementation. Each should retain its region's architecture, terrain, climate and traversal identity.
+
+## GREYHAVEN — Additional locations 201–220
+
+201. **Harbourglass Aquarium Ruins** — Closed marine attraction with drained tanks, roof walkways and a submerged service level. Explore, Discovery.
+202. **Kingsway Underpass** — Layered road underpass with maintenance alcoves and paths into the old shopping quarter. Explore, Discovery.
+203. **Larkspur Estate** — Quiet hillside homes, shared gardens and a narrow stair network. Explore, Discovery.
+204. **Greyhaven Tram Depot** — Retired tram sheds, inspection pits and a compact control building. Explore, Discovery.
+205. **Seabreak Cliffs** — Wind-cut coastal paths, sea caves and a collapsed lookout. Explore, Discovery.
+206. **Pioneer Freight House** — Old rail cargo building with loading platforms and hidden upper rooms. Explore, Discovery.
+207. **Rainmarket Arcade** — Covered pedestrian arcade with connected rooftops and shuttered units. Explore, Discovery.
+208. **Westmoor Reservoir** — City-edge reservoir, pump house and a long wooded perimeter trail. Explore, Discovery.
+209. **Glassworks Quarter** — Former glass factory, furnace hall and worker courtyards. Explore, Discovery.
+210. **Ashdown Understation** — Subterranean electrical service complex beneath a quiet district. Explore, Discovery.
+211. **Tern Island Causeway** — Tidal road to a small island with a ruined signal hut. Explore, Discovery.
+212. **Cobalt Cinema** — Abandoned multi-screen cinema with projection rooms and roof access. Explore, Discovery.
+213. **South Greyhaven Allotments** — Patchwork gardens, tool sheds and winding footpaths. Explore, Discovery.
+214. **Old Coast Railway Museum** — Retired carriages, turntable and a long maintenance shed. Explore, Discovery.
+215. **Morrow Street Baths** — Historic public bathhouse with tiled halls and service corridors. Explore, Discovery.
+216. **Breakwater Fort** — Small sea fort linked to the harbour by a narrow causeway. Explore, Discovery.
+217. **Northwind Sports Ground** — Open sports fields, changing pavilion and a wooded boundary. Explore, Discovery.
+218. **The Blue Crane** — A disused harbour crane with elevated platforms and views over the docks. Explore, Discovery.
+219. **Greyhaven Flood Gates** — River control gates, operator rooms and a network of raised walkways. Explore, Discovery.
+220. **Orchard Lane Depot** — Compact suburban storage yard with garages and an overgrown rail spur. Explore, Discovery.
+
+## SOLARA — Additional locations 221–240
+
+221. **Cala Bruna** — A sheltered fishing cove with sea caves and terraces above the water. Explore, Discovery.
+222. **Vespara Citadel** — Hilltop fort with layered courtyards, cisterns and old defensive passages. Explore, Discovery.
+223. **Sunstone Amphitheatre** — Open-air stone venue built into a slope, with tunnels beneath the seating. Explore, Discovery.
+224. **Marble Steps District** — Dense hillside lanes, staircases, balconies and connected rooftops. Explore, Discovery.
+225. **Blue Lantern Marina** — Small secondary marina with boat sheds and a breakwater path. Explore, Discovery.
+226. **Pomegranate Terraces** — Abandoned orchard terraces, irrigation channels and a stone farmhouse. Explore, Discovery.
+227. **Cape Sirocco Radar Site** — Wind-exposed radar installation with service buildings and a ridge route. Explore, Discovery.
+228. **The Glass Hotel** — Half-finished coastal hotel with open floors and a dramatic atrium. Explore, Discovery.
+229. **San Aurelio Rail Viaduct** — Old elevated railway crossing ravines and ending at a forgotten platform. Explore, Discovery.
+230. **Limestone Sinkholes** — A cluster of deep natural openings with connected caverns. Explore, Discovery.
+231. **Porto Vecchio Dry Dock** — Historic dry dock, workshops and a narrow water channel. Explore, Discovery.
+232. **The Blue Chapel** — Tiny cliffside chapel with a hidden lower chamber and sea path. Explore, Discovery.
+233. **Cypress Switchback** — Mountain road hairpins, roadside shelters and a collapsed bridge. Explore, Discovery.
+234. **Solara Film Studios** — Abandoned outdoor film sets, sound stages and prop warehouses. Explore, Discovery.
+235. **Lagoon Glasshouse** — Coastal botanical greenhouse with humid interior paths. Explore, Discovery.
+236. **Westwind Sailing School** — Small waterfront campus with boat racks and a training pier. Explore, Discovery.
+237. **The Salt Cathedral** — Vast salt-storage hall with white mineral formations and roof apertures. Explore, Discovery.
+238. **Aurelia Cable Station** — Old cable lift terminal connecting the coast to a ridge village. Explore, Discovery.
+239. **Red Tile Baths** — Terraced thermal bath ruins fed by a hillside spring. Explore, Discovery.
+240. **Pelican's Reach** — Remote headland with a weathered coast path and a wreck lookout. Explore, Discovery.
+
+## NORTHPASS — Additional locations 241–260
+
+241. **Frostfall Alpine Village** — Scattered chalets around a frozen creek and a steep footbridge. Explore, Discovery.
+242. **Northpass Ice Arena** — Mountain ice rink, equipment rooms and a service tunnel. Explore, Discovery.
+243. **The Blue Glacier** — Glacier tongue, crevasse-safe viewing paths and a buried research shelter. Explore, Discovery.
+244. **Kestrel Ridge Huts** — A chain of small huts linked by exposed mountain trails. Explore, Discovery.
+245. **Granite Crown Mine** — High-altitude mine adits, ore yard and a disused cable tram. Explore, Discovery.
+246. **Pineglass Reservoir** — Forest reservoir with an intake tower and shoreline paths. Explore, Discovery.
+247. **Snowline Railway Loop** — Curving mountain rail line, snow sheds and a remote signal cabin. Explore, Discovery.
+248. **White Elk Lodge** — Abandoned ski lodge with dormitory wings and a rooftop deck. Explore, Discovery.
+249. **Northpass Bobsled Track** — Retired alpine track with timing huts and maintenance access. Explore, Discovery.
+250. **The Shattered Viaduct** — Broken stone rail bridge spanning a deep wooded ravine. Explore, Discovery.
+251. **Coldwater Pump Station** — Hydroelectric pumping complex beneath a steep dam road. Explore, Discovery.
+252. **Mistral Peak Observatory** — Small summit observatory with a rotating dome and cable access. Explore, Discovery.
+253. **Old Powder Magazine** — Remote stone storage buildings hidden in a pine valley. Explore, Discovery.
+254. **Rimewood Sawmill** — Compact timber mill beside a fast mountain stream. Explore, Discovery.
+255. **The Lantern Pass** — A high trail junction marked by abandoned shelters and signal posts. Explore, Discovery.
+256. **Blue Ice Caverns** — Glacial cave chambers with frozen pools and narrow exits. Explore, Discovery.
+257. **Northpass Ski Jump** — Disused ski jump tower, landing slope and judges' building. Explore, Discovery.
+258. **Cairnfield Plateau** — Open alpine plateau with stone shelters and scattered ruins. Explore, Discovery.
+259. **Silver Bell Monastery** — Remote monastery complex overlooking a deep valley. Explore, Discovery.
+260. **Avalanche Gallery Road** — A long covered mountain road with maintenance rooms and lookout slots. Explore, Discovery.
+
+## IRONVALE — Additional locations 261–280
+
+261. **The Red Conveyor** — An elevated ore conveyor crossing the industrial basin. Explore, Discovery.
+262. **West Ironvale Foundry** — Smaller foundry campus with moulding halls and furnace galleries. Explore, Discovery.
+263. **Switchyard 12** — Dense freight switching yard with signal cabins and service paths. Explore, Discovery.
+264. **The Boiler Quarter** — Rows of old boiler houses connected by overhead pipe bridges. Explore, Discovery.
+265. **Rivet Street Works** — Abandoned metalworking block with workshops and loading courts. Explore, Discovery.
+266. **Blackwater Canal Basin** — Canal turning basin, lock keeper building and warehouse edges. Explore, Discovery.
+267. **Ironvale Glassworks** — Large glass production hall with cooling tunnels and offices. Explore, Discovery.
+268. **The Copper Stacks** — Tall industrial chimneys surrounded by service buildings. Explore, Discovery.
+269. **Old Tram Powerhouse** — Historic traction power station with turbine room and roof gantries. Explore, Discovery.
+270. **South Slag Fields** — Terraced industrial spoil hills with footpaths and buried structures. Explore, Discovery.
+271. **The Railcar Graveyard** — Retired freight wagons on overgrown sidings. Explore, Discovery.
+272. **Mason Bridge Works** — River bridge construction yard with steel sections and cranes. Explore, Discovery.
+273. **Cinder Court** — Abandoned worker courtyard with connected stairwells and rooftops. Explore, Discovery.
+274. **Ironvale Foundry School** — Technical training workshops and a machine hall. Explore, Discovery.
+275. **The Flooded Mill** — Partly submerged mill complex with upper walkways. Explore, Discovery.
+276. **North Basin Pumpworks** — Water-control campus with large pipe chambers and service corridors. Explore, Discovery.
+277. **Ashline Tunnel Mouth** — Rail tunnel portal with a disused inspection platform. Explore, Discovery.
+278. **The Furnace Hotel** — Former worker lodging block overlooking the steelworks. Explore, Discovery.
+279. **Grey Rivet Dry Dock** — Inland ship repair basin with a gantry and empty workshops. Explore, Discovery.
+280. **Old Ironvale Exhibition Hall** — Industrial expo building with vast halls and loading tunnels. Explore, Discovery.
+
+## REDSTONE — Additional locations 281–300
+
+281. **Sunspire Mesa** — Isolated flat-topped mesa with a ruined lookout and narrow ascent. Explore, Discovery.
+282. **Dry River Casino Ruins** — Abandoned desert entertainment complex with service wings and parking decks. Explore, Discovery.
+283. **Cindercone Mine** — Volcanic-rock mine with a deep pit and processing shed. Explore, Discovery.
+284. **Route 17 Weigh Station** — Desert highway inspection buildings and a long vehicle apron. Explore, Discovery.
+285. **Redstone Water Park** — Empty outdoor pools, slides and maintenance buildings. Explore, Discovery.
+286. **The Lost Rail Hotel** — Remote railway hotel beside a disused platform. Explore, Discovery.
+287. **Copper Sky Air Museum** — Aircraft display yard, hangars and a weathered control tower. Explore, Discovery.
+288. **Dust Devil Wash** — Broad dry wash with natural bridges and hidden side caves. Explore, Discovery.
+289. **Raven Rock Relay** — Communications relay on a tall sandstone ridge. Explore, Discovery.
+290. **Mirage Springs** — Small spring-fed oasis with ruined stone walls and palms. Explore, Discovery.
+291. **South Mesa Storage Farm** — Rows of remote storage sheds and a central workshop. Explore, Discovery.
+292. **The Sunken Highway** — A buried stretch of old road exposed through a desert collapse. Explore, Discovery.
+293. **Blacktop Speedway** — Abandoned oval race circuit, garages and spectator berms. Explore, Discovery.
+294. **Redstone Canyon Dam** — Smaller canyon dam with spillway stairs and a service gallery. Explore, Discovery.
+295. **Pale Horizon Monastery** — Desert monastery ruins built around a shaded courtyard. Explore, Discovery.
+296. **Jackal's Crossing** — Remote road junction with a derelict service station. Explore, Discovery.
+297. **The Glass Dunes** — Bright mineral dunes surrounding a narrow ravine. Explore, Discovery.
+298. **Old Survey Camp** — A forgotten mapping camp with instrument platforms and cabins. Explore, Discovery.
+299. **Redstone Solar Field** — Vast solar array, inverter buildings and perimeter tracks. Explore, Discovery.
+300. **Last Light Mine Village** — Near-empty mining settlement with a schoolhouse and ore tram. Explore, Discovery.
+
+## WESTBRIDGE — Additional locations 301–320
+
+301. **Westbridge Financial Spire** — Cluster of unfinished office towers linked by skybridges. Explore, Discovery.
+302. **Metro Line K Terminal** — End-of-line station with platforms, service rooms and a depot throat. Explore, Discovery.
+303. **The Atrium Exchange** — Indoor business arcade with glass roof and upper walkways. Explore, Discovery.
+304. **Old Westbridge Docks** — Riverside cargo district with cranes, warehouses and underpasses. Explore, Discovery.
+305. **Crownline Broadcast Plaza** — Media campus with studio blocks and an antenna rooftop. Explore, Discovery.
+306. **Highcourt Towers** — Dense residential towers with courtyards and connected parking. Explore, Discovery.
+307. **Westbridge Art Museum** — Large gallery complex with sculpture court and archive basement. Explore, Discovery.
+308. **The Elevated Gardens** — Multi-level planted terraces above an abandoned transit structure. Explore, Discovery.
+309. **South Loop Bus Terminal** — Large transport interchange with maintenance bays and roof access. Explore, Discovery.
+310. **Founders' Library** — Historic library building with reading halls and hidden stacks. Explore, Discovery.
+311. **Neon Mile** — Commercial street of illuminated signs, narrow alleys and rooftop routes. Explore, Discovery.
+312. **Westbridge Aqueduct Walk** — Raised urban water channel with maintenance bridges. Explore, Discovery.
+313. **The Old Stock Exchange** — Historic trading hall, vault corridors and upper offices. Explore, Discovery.
+314. **Crescent Pier** — Urban river pier with event hall and lower service deck. Explore, Discovery.
+315. **East Ward Housing Maze** — Interconnected apartment blocks, courtyards and passageways. Explore, Discovery.
+316. **Westbridge Iceworks** — Former refrigeration plant with cold rooms and loading ramps. Explore, Discovery.
+317. **The Skyrail Depot** — Elevated transit maintenance yard and control tower. Explore, Discovery.
+318. **Civic Archive Annex** — Compact records building with underground storage. Explore, Discovery.
+319. **Grand Meridian Garage** — Sprawling multi-level parking structure with roof connections. Explore, Discovery.
+320. **The Floodline Promenade** — Riverfront flood barrier, pump chambers and raised public paths. Explore, Discovery.
+
+## PINEFALL — Additional locations 321–340
+
+321. **Mosswater Peninsula** — Forest peninsula with a small dock and looping woodland trail. Explore, Discovery.
+322. **The Fallen Crown** — Giant fallen tree spanning a ravine, with paths beneath its roots. Explore, Discovery.
+323. **Pinefall Glassworks** — Remote forest glass factory reclaimed by vegetation. Explore, Discovery.
+324. **Otter Creek Weir** — Small river weir, fish ladder and overgrown control hut. Explore, Discovery.
+325. **Whitetail Lodge Ruins** — Abandoned hunting lodge with cabins and a lakeside boathouse. Explore, Discovery.
+326. **North Fern Boardwalk** — Raised wetland trail with bird hides and a flooded observation hut. Explore, Discovery.
+327. **Timberline Rail Camp** — Old logging rail camp with sidings and worker shelters. Explore, Discovery.
+328. **The Hollow Pines** — Dense old-growth forest with a network of natural hollows. Explore, Discovery.
+329. **Mirrorwater Island** — Small lake island reached by a fallen log bridge and old footpath. Explore, Discovery.
+330. **Pinefall Canoe Works** — Abandoned canoe workshop, drying sheds and river launch. Explore, Discovery.
+331. **Mossbell Chapel** — Woodland chapel and graveyard hidden among tall pines. Explore, Discovery.
+332. **The Cedar Maze** — Overgrown arboretum with narrow paths and a forgotten greenhouse. Explore, Discovery.
+333. **Black Spruce Lookout** — Tall fire lookout tower with a steep access trail. Explore, Discovery.
+334. **Stillwater Spillway** — Dam spillway, viewing platform and lower river tunnels. Explore, Discovery.
+335. **Foxglove Farmstead** — Remote farm buildings with orchards and a collapsed barn. Explore, Discovery.
+336. **The Root Cellars** — Cluster of old underground storage rooms on a wooded slope. Explore, Discovery.
+337. **Pinefall Hydro Trail** — A chain of small hydro structures along a fast stream. Explore, Discovery.
+338. **Raincrow Research Cabins** — Abandoned ecology field station scattered through the forest. Explore, Discovery.
+339. **The Old Quarry Lake** — Flooded quarry with cliffs, ledges and a submerged access road. Explore, Discovery.
+340. **Whispering Bridge** — Long timber bridge crossing a forest gorge. Explore, Discovery.
+
+## EASTPORT — Additional locations 341–360
+
+341. **Eastport Dry Basin** — Enclosed ship repair basin with workshops and a high gantry. Explore, Discovery.
+342. **North Channel Lighthouse** — Offshore lighthouse reached by a narrow service causeway. Explore, Discovery.
+343. **The Ropewalk** — Long maritime rope-making hall with lofts and courtyard. Explore, Discovery.
+344. **Harbour Control Tower** — Port traffic control building with panoramic upper levels. Explore, Discovery.
+345. **Eastport Ferry Graveyard** — Retired ferries moored beside a disused terminal. Explore, Discovery.
+346. **Pelican Container Annex** — Smaller container depot with elevated walkways and offices. Explore, Discovery.
+347. **Saltglass Refinery** — Coastal processing plant with pipe racks and storage halls. Explore, Discovery.
+348. **The Breaker's Hotel** — Old sailors' lodging house overlooking the outer harbour. Explore, Discovery.
+349. **Tidewatch Battery** — Abandoned coastal defence battery with underground rooms. Explore, Discovery.
+350. **Eastport Fish Auction Hall** — Large empty auction hall with cold rooms and loading lanes. Explore, Discovery.
+351. **The Blue Gantry** — Huge ship-loading gantry with maintenance platforms. Explore, Discovery.
+352. **Marshline Causeway** — Raised road crossing tidal marsh and small islands. Explore, Discovery.
+353. **Old Navigation School** — Maritime training building with chart rooms and simulator hall. Explore, Discovery.
+354. **South Harbour Rail Sheds** — Freight sheds beside a curved rail spur. Explore, Discovery.
+355. **The Windlass Works** — Former anchor and winch factory with heavy assembly floor. Explore, Discovery.
+356. **Eastport Storm Observatory** — Coastal weather station with wave-measurement structures. Explore, Discovery.
+357. **Anchorpoint Ship Chandlery** — Abandoned marine supply warehouse and boatyard. Explore, Discovery.
+358. **The Outer Mole** — Long breakwater with service huts and a signal beacon. Explore, Discovery.
+359. **Seaglass Tidal Flats** — Wide tidal flats with wreck fragments and hidden pools. Explore, Discovery.
+360. **Eastport Cable Landing** — Coastal communications landing station with underground access. Explore, Discovery.
+
+## DUSTFORD — Additional locations 361–380
+
+361. **Dustford West Fields** — Open farmland divided by hedgerows, barns and narrow lanes. Explore, Discovery.
+362. **Old Quarry Farm** — Farmstead built around a disused stone quarry. Explore, Discovery.
+363. **Miller's Rail Bridge** — Low rural rail bridge with river path and signal shelter. Explore, Discovery.
+364. **The Haystack Maze** — Seasonal field maze beside a large agricultural barn. Explore, Discovery.
+365. **Dustford Water Tower** — Tall rural landmark with a pump house and footpath. Explore, Discovery.
+366. **South Orchard Packing House** — Fruit packing complex, cold rooms and orchard tracks. Explore, Discovery.
+367. **Foxbridge Railway Works** — Small rail maintenance shed and abandoned siding. Explore, Discovery.
+368. **The Red Clay Pits** — Series of clay extraction pits with kilns and drying sheds. Explore, Discovery.
+369. **Longmeadow Wind Farm** — Scattered turbines, access roads and a control cabin. Explore, Discovery.
+370. **Willowmere Boathouse** — Quiet lakeside boathouse and reed-lined paths. Explore, Discovery.
+371. **The Old Dairy** — Disused dairy plant with loading yard and pipe rooms. Explore, Discovery.
+372. **Dustford Seed Vault** — Agricultural archive building with greenhouse annex. Explore, Discovery.
+373. **Holloway Farm Village** — Cluster of farmhouses and barns around a green. Explore, Discovery.
+374. **The County Show Ring** — Outdoor show arena, grandstand and storage sheds. Explore, Discovery.
+375. **Westhill Radio Mast** — Remote broadcast mast and small equipment building. Explore, Discovery.
+376. **The Sunken Lane** — Overgrown old road running below surrounding fields. Explore, Discovery.
+377. **Marlstone Windmill Farm** — Windmill, grain store and narrow ridge paths. Explore, Discovery.
+378. **The Long Barns** — A line of enormous agricultural barns with internal passages. Explore, Discovery.
+379. **Eastmere Pumping Fields** — Drainage channels, pump houses and raised walkways. Explore, Discovery.
+380. **The Forgotten Orchard House** — Isolated manor house surrounded by neglected fruit trees. Explore, Discovery.
+
+## BLACKRIDGE — Additional locations 381–400
+
+381. **Blackridge Upper Tarn** — Remote mountain lake with a stone shelter and cliff path. Explore, Discovery.
+382. **The Crow's Stair** — Steep historic stair route connecting two highland shelves. Explore, Discovery.
+383. **Slatefall Cable Terminal** — Abandoned cable terminal with machinery hall and ridge access. Explore, Discovery.
+384. **Blackridge Wind Gap** — Exposed mountain pass with ruined signal huts. Explore, Discovery.
+385. **The Deep Cut** — Narrow ravine crossed by an old industrial bridge. Explore, Discovery.
+386. **Marlstone Observatory Annex** — Secondary astronomy station with buried instrument rooms. Explore, Discovery.
+387. **Highmoor Stone Circle** — Ancient stone ring on an open plateau. Explore, Discovery.
+388. **The Grey Peaks Hostel** — Remote mountain hostel with dormitories and a gear shed. Explore, Discovery.
+389. **Raven's Shelf Quarry** — High cliff quarry with terraces and a suspended loading platform. Explore, Discovery.
+390. **Blackridge Ice House** — Old hillside ice-storage complex with deep chambers. Explore, Discovery.
+391. **The Lost Border Road** — Abandoned road through a high mountain saddle. Explore, Discovery.
+392. **Three Cairns Ridge** — Exposed ridge route connecting three stone shelters. Explore, Discovery.
+393. **North Crag Research Dome** — Small geophysical research dome and instrument field. Explore, Discovery.
+394. **Upper Slate Railhead** — Remote rail loading point with a short tunnel and bunkhouse. Explore, Discovery.
+395. **The Wind-Carved Chapel** — Tiny stone chapel tucked into a rock formation. Explore, Discovery.
+396. **Greywater Gorge Bridge** — High bridge crossing a river gorge with maintenance access. Explore, Discovery.
+397. **Old Summit Mine** — Mountain mine with ore tram remains and worker cabins. Explore, Discovery.
+398. **Blackridge Snow Fence Fields** — Long engineered snow barriers across an open slope. Explore, Discovery.
+399. **The Silent Ski Lift** — Abandoned lift line with lower and upper stations. Explore, Discovery.
+400. **Marl Hollow Settlement** — Remote former quarry settlement with stone homes and workshops. Explore, Discovery.
+
+---
+
+# 16. Cross-world location families
 
 These are **design families**, not extra copies of the 200 named locations. They provide reusable systems and occasional smaller POIs while retaining regional identity.
 
@@ -320,7 +556,7 @@ These are **design families**, not extra copies of the 200 named locations. They
 
 Each instance should be adapted to the world's climate, architecture, economy and history. Avoid placing the same generic building unchanged in every region.
 
-# 16. Interior and micro-discovery catalogue
+# 17. Interior and micro-discovery catalogue
 
 Major POIs should contain smaller discoveries. Examples to distribute selectively:
 
@@ -357,7 +593,7 @@ Major POIs should contain smaller discoveries. Examples to distribute selectivel
 
 Do not place all micro-discoveries in every POI. Select a small number that suit the location and make them memorable.
 
-# 17. Occupation, camps and presence
+# 18. Occupation, camps and presence
 
 Location tags such as **Presence** and **Contest** identify possible uses, not automatic ownership rules.
 
@@ -382,7 +618,7 @@ Location tags such as **Presence** and **Contest** identify possible uses, not a
 - Groups should not instantly respawn just because a player leaves.
 - Use bounded simulation so distant groups do not consume unnecessary server resources.
 
-# 18. Location state and variation
+# 19. Location state and variation
 
 A location can feel different across visits without needing a separate map copy. Possible states:
 - Quiet / active.
@@ -398,7 +634,7 @@ A location can feel different across visits without needing a separate map copy.
 
 State changes must be authored per location and should be readable. Do not randomise important access or loot in ways that make the location feel broken.
 
-# 19. Discovery and map knowledge
+# 20. Discovery and map knowledge
 
 - The map may reveal major roads, settlements and known landmarks without exposing every secret.
 - Players can discover POIs by travelling, observing silhouettes, following trails, hearing rumours, reading signs or finding clues.
@@ -407,9 +643,9 @@ State changes must be authored per location and should be readable. Do not rando
 - Players should be able to share directions socially.
 - Repeat visits should remain useful through changing faction presence, world events, player encounters or alternate routes, not endlessly respawning valuable loot.
 
-# 20. Production and performance rules
+# 21. Production and performance rules
 
-Two hundred named locations are a long-term world-content target. They must not be treated as a requirement to build two hundred bespoke buildings before testing.
+Four hundred named locations are a long-term world-content target. They must not be treated as a requirement to build two hundred bespoke buildings before testing.
 
 Recommended production order:
 1. Greybox one compact GREYHAVEN district with 8–12 varied POIs.
@@ -440,7 +676,7 @@ Every production-ready POI should eventually have:
 - Streaming and performance budget.
 - Greybox status, art status and QA status.
 
-# 21. Important unresolved decisions
+# 22. Important unresolved decisions
 
 Do not silently lock these:
 - Exact world dimensions and final map count at launch.
@@ -450,7 +686,7 @@ Do not silently lock these:
 - Whether player-placed objects can be stored or recovered.
 - How NPC faction squads change occupation of a location.
 - Whether contested sites provide services, information or access.
-- How many of the 200 major POIs ship in the first world.
+- How many of the 400 major POIs ship in the first world.
 - Which discoveries can permanently unlock weapons.
 - Whether any locations are instanced or entirely in the shared world.
 
