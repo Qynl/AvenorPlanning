@@ -12,15 +12,22 @@ Pearl-like bulbs connect through translucent ribbons that follow water movement.
 
 **Ecological role:** Water barriers and team movement; the plant signals and subtly alters local weather conditions.
 
-## Discovery and research
-Track a pearl's changing position through the maze as the tide turns.
-1. Notice the weather clue.
-2. Observe the plant during a changing condition.
-3. Complete a field investigation on the slope.
-4. Record the discovery in the archive.
-5. Research the full ability set.
+## Discovery and acquisition
+**Discovery clue:** Track a pearl's changing position through the maze as the tide turns.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Notice the weather clue.
+- Observe the plant during a changing condition.
+- Complete a field investigation on the slope.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Pearl Ward](../../../03_Content/Abilities/pearlcurrent/pearl-ward.md) | PLANT_32_A01 | Support | Places a floating pearl that softens one incoming environmental impact. |
@@ -33,8 +40,8 @@ Track a pearl's changing position through the maze as the tide turns.
 - Visual identity: soft snow forms, crisp ice edges and readable pale-blue cues.
 - Rarity: Ancient sets expected power and complexity.
 
-## Mastery
-Three proposed research milestones unlock the set. Mastery reward: archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/pelagora/README.md)
