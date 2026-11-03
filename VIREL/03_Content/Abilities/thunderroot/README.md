@@ -10,3 +10,4 @@
 3. [Stormanchor](./stormanchor.md) — `PLANT_35_A03`
 
 All abilities in this folder belong to this plant. The parent page owns the set identity and unlock order.
+4. [Stormheart Convergence](./stormheart-convergence.md) — `PLANT_35_A04`
