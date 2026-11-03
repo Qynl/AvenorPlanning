@@ -20,7 +20,7 @@ Scanning begins an investigation. Players should observe the species and underst
 ## Complete ability set
 This plant owns the following abilities. Each has an individual specification.
 
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Moisture Sense](../../../03_Content/Abilities/mistbell/moisture-sense.md) | MISTBELL_01 | TBD | Highlight nearby moisture trails and hidden pools. |
 | 2 | [Mistveil](../../../03_Content/Abilities/mistbell/mistveil.md) | MISTBELL_02 | TBD | Release a moving cloud of mist that obscures an area. |
