@@ -1,7 +1,7 @@
 # Roblox Studio Project Structure
 
 **Status:** PROPOSED ARCHITECTURE  
-**Goal:** Keep VIREL maintainable as worlds, plants, abilities and systems grow.
+**Goal:** Keep FLORA maintainable as worlds, plants, abilities and systems grow.
 
 ## Recommended experience layout
 Use one Roblox experience with:
