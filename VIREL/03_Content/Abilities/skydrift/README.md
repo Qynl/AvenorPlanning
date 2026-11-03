@@ -1,6 +1,6 @@
 # Skydrift — Ability Set
 
-**Parent plant:** [Skydrift](../../../02_Content/Plants/skydrift/README.md)  
+**Parent plant:** [Skydrift](../../../../02_Content/Plants/skydrift/README.md)  
 **Set:** Aetherwing  
 **Rarity:** Relic
 
