@@ -6,6 +6,7 @@ Shared systems define rules used by multiple worlds, plants and abilities. Conte
 - [Combat](Combat/README.md)
 - [Scanning and research](Scanning_Research/README.md)
 - [Ability rules](Abilities/README.md)
+- [Ability synergy and combos](Ability_Synergy/README.md)
 - [World rotation and ecology](Worlds/README.md)
 - [Progression](Progression/README.md)
 - [Plant ecology](Plant_Ecology/README.md)
