@@ -1,10 +1,10 @@
-# VIREL — Creature Directory
+# FLORA — Creature Directory
 
 > Status: **PROPOSAL**. These are the first ten creature concepts and visual identities. Their final gameplay roles, encounter tuning and abilities remain subject to implementation and testing.
 
 ## Purpose
 
-This directory is the canonical reference for VIREL's initial creature concept-art collection. Each creature has one individual specification. Use these pages to identify, classify and organize generated images.
+This directory is the canonical reference for FLORA's initial creature concept-art collection. Each creature has one individual specification. Use these pages to identify, classify and organize generated images.
 
 ## Creature index
 
@@ -38,7 +38,7 @@ When inspecting an image repository or an unorganized concept-art folder:
 ## Recommended asset structure
 
 ```text
-VIREL/
+FLORA/
   Assets/
     Creatures/
       CRE-001_Mossback/
@@ -61,13 +61,13 @@ VIREL/
 
 Use:
 
-`VIREL_CRE-###_CreatureName_AssetType_Variant.ext`
+`FLORA_CRE-###_CreatureName_AssetType_Variant.ext`
 
 Examples:
 
-- `VIREL_CRE-001_Mossback_Concept_Hero.png`
-- `VIREL_CRE-001_Mossback_Ability_BloomingPollen.png`
-- `VIREL_CRE-003_CanopyGlider_Concept_GlidePose.png`
+- `FLORA_CRE-001_Mossback_Concept_Hero.png`
+- `FLORA_CRE-001_Mossback_Ability_BloomingPollen.png`
+- `FLORA_CRE-003_CanopyGlider_Concept_GlidePose.png`
 
 Allowed asset types: `Concept`, `Ability`, `Detail`, `Turnaround`, `Expression`, `InGame`.
 
@@ -86,4 +86,4 @@ Only use High confidence when multiple distinctive features agree. Keep uncertai
 
 ## Global art direction
 
-All creature images should match VIREL's established visual direction: polished contemporary 3D game concept art, stylized realism, slightly exaggerated but appealing silhouettes, vibrant controlled colors, readable ability VFX, strong natural lighting and cinematic composition. Avoid photorealistic wildlife imagery, old-fashioned fantasy illustration and childish cartoon styling.
+All creature images should match FLORA's established visual direction: polished contemporary 3D game concept art, stylized realism, slightly exaggerated but appealing silhouettes, vibrant controlled colors, readable ability VFX, strong natural lighting and cinematic composition. Avoid photorealistic wildlife imagery, old-fashioned fantasy illustration and childish cartoon styling.
