@@ -1,6 +1,6 @@
 # Stoneheart Moss — Ability Set
 
-**Parent plant:** [Stoneheart Moss](../../../../02_Content/Plants/stoneheart-moss/README.md)  
+**Parent plant:** [Stoneheart Moss](../../../../../02_Content/Plants/stoneheart-moss/README.md)  
 **Set:** Bedrock  
 **Rarity:** Ancient
 
