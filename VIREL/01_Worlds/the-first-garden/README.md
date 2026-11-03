@@ -3,7 +3,7 @@
 **World ID:** WORLD_010  
 **Status:** PROPOSAL
 
-**Identity:** A mysterious, ancient world that feels like the source of many biological patterns found throughout VIREL.
+**Identity:** A mysterious, ancient world that feels like the source of many biological patterns found throughout FLORA.
 
 **Visual palette:** Natural greens and stone tones with restrained luminous accents. It should feel unfamiliar without becoming a generic neon fantasy world.
 
