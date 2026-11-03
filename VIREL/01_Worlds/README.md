@@ -1,8 +1,6 @@
-# VIREL — World Directory
+# World Directory
 
-The first proposed universe contains 10 enormous worlds. Each world has a dedicated specification with its own identity, biomes, hidden regions, environmental conditions, landmarks and native plants.
-
-## Worlds
+The initial proposal contains 10 enormous worlds. Each has a dedicated specification with its own identity, biomes, hidden regions, ecology and native plants.
 
 - [Auralis](./auralis/README.md)
 - [Myrrwood](./myrrwood/README.md)
@@ -15,13 +13,4 @@ The first proposed universe contains 10 enormous worlds. Each world has a dedica
 - [Zephyr Crown](./zephyr-crown/README.md)
 - [The First Garden](./the-first-garden/README.md)
 
-## Shared rules
-- Every world needs a distinct silhouette, palette, atmosphere, traversal identity and ecology.
-- Each major biome must feel like a different ecosystem, not a colour swap.
-- Hidden sub-biomes should reward observation, research, abilities or environmental understanding.
-- Permanent discovery and research progress persist through world rotation.
-- Rotation must not make core progression permanently missable.
-- Build worlds from streaming-friendly regions with performance budgets.
-- World scale, active-world count, rotation cadence and archive access remain TBD.
-
-See [World Systems](../04_Systems/Worlds/README.md) for shared rules.
+Shared rules: [World rotation and ecology](../04_Systems/Worlds/README.md). Worlds need distinct identities, meaningful hidden sub-biomes and persistent discovery progress across rotations.
