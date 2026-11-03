@@ -9,7 +9,7 @@
 **Multiplayer model:** Multiplayer exploration is the current proposal; exact server size and social rules are TBD.
 
 ### High concept
-VIREL is a huge explorable world filled with plant life and unusual biological organisms. Players travel through distinct environments, discover unknown species, scan and investigate them, perform field interactions and research, then unlock abilities and knowledge that make more of the world accessible.
+VIREL is an exploration game built around a changing collection of enormous worlds filled with plant life and unusual biological organisms. Players travel through distinct environments, discover unknown species, scan and investigate them, perform field interactions and research, then unlock abilities and knowledge that make more of each world accessible.
 
 **Core fantasy:** Become an explorer who understands and learns to use the world's extraordinary plant life.
 
@@ -21,6 +21,7 @@ VIREL is a huge explorable world filled with plant life and unusual biological o
 4. **Abilities expand the world.** Plant research can unlock traversal and exploration abilities that reveal new routes and discoveries.
 5. **The ecosystem feels alive.** Time, weather, terrain, nearby organisms and world events can influence what grows and when.
 6. **Collection has depth.** The encyclopedia should reward completion, mastery and unusual discoveries without requiring every player to grind the same way.
+7. **Worlds feel alive over time.** The available world roster can change, giving players new places to explore and reasons to return.
 
 ## 3. Core experience
 
@@ -28,7 +29,19 @@ Explore → notice an unfamiliar organism → scan it → learn what is known �
 
 The loop should create stories such as finding a rare bloom after a storm, following clues to its habitat, and returning with the right research tool.
 
-## 4. Scope boundaries
+## 4. World structure
+
+VIREL is built around **multiple enormous worlds that rotate and change over time**, rather than one permanent map.
+
+- New worlds can be introduced after a number of days.
+- Existing worlds may leave the active world rotation when the roster changes.
+- Each world contains its own biomes, ecosystems, landmarks and discoveries.
+- Worlds can contain hidden sub-regions such as deep caves, underground ecosystems, secret islands and underwater areas.
+- The exact rotation schedule, number of simultaneously available worlds and return/archive rules are still TBD.
+
+The rotation should create anticipation without making important discoveries unfairly missable. Core progression must not depend on being online during a narrow time window.
+
+## 5. Scope boundaries
 
 VIREL is **not automatically**:
 - A farming or crop-tycoon game.
@@ -39,19 +52,22 @@ VIREL is **not automatically**:
 
 Farming, crafting, trading, player housing, pets, combat and PvP are all **TBD** and must not be assumed.
 
-## 5. Current confirmed direction
+## 6. Current confirmed direction
 
 - The game is named **VIREL**.
-- It takes place on a very large map.
+- It uses **stylized realism**: believable natural environments, expressive slightly exaggerated botanical designs, vibrant but controlled colors, and strong atmospheric lighting and effects.
+- The game has multiple enormous worlds that can change over time, with new worlds potentially arriving after several days.
+- Each world contains its own biomes and can include hidden sub-regions.
 - Players find plants and other botanical discoveries.
 - Plants can be scanned and interacted with.
 - Players can research/discover abilities through plants.
 - Plants have rarities and the collection system should have depth.
 
-## 6. Open decisions
+## 7. Open decisions
 
-- Exact visual style and camera.
-- World scale, server structure and whether the map is seamless or divided into streamed regions.
+- Camera perspective and movement feel.
+- Exact world rotation schedule, active world count and how returning worlds work.
+- Exact world scale and technical streaming structure.
 - Whether plants are collected physically, recorded as samples, or both.
 - Whether abilities are temporary, permanent unlocks, equipable loadout powers, or a combination.
 - Whether players can grow, cultivate or display discovered plants.
