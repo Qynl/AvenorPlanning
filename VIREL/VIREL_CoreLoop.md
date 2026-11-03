@@ -1,4 +1,4 @@
-# VIREL Core Loop
+# FLORA Core Loop
 
 Canonical document: [Core Gameplay Loop](00_Overview/Core_Loop.md).
 
