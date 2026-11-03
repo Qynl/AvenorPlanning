@@ -18,7 +18,7 @@
 Scanning begins an investigation. Players observe the species and understand its habitat or behaviour. Exact field tasks and research milestones remain TBD.
 
 ## Complete ability set
-| # | Ability | Stable ID | Unlock milestone | Initial concept |
+| # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Airstep](../../../03_Content/Abilities/skydrift/airstep.md) | SKYDRIFT_01 | TBD | Create one brief midair foothold. |
 | 2 | [Updraft](../../../03_Content/Abilities/skydrift/updraft.md) | SKYDRIFT_02 | TBD | Ride a powerful vertical current for a short lift. |
