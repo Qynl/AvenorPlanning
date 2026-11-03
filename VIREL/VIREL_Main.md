@@ -4,106 +4,109 @@
 
 **Name:** VIREL  
 **Platform:** Roblox  
-**Genre:** Large-scale open-world exploration, botanical discovery, research and ability collection.  
+**Genre:** Large-scale exploration, botanical discovery, plant-powered abilities and encounters.  
 **Perspective:** Third-person exploration with cinematic camera sequences for important interactions.  
 **Multiplayer model:** Multiplayer exploration is the current proposal; exact server size and social rules are TBD.
 
 ### High concept
-VIREL is an exploration game built around a changing collection of enormous worlds filled with plant life and unusual biological organisms. Players travel through distinct environments, discover unknown species, scan and investigate them, perform field interactions and research, then unlock abilities and knowledge that make more of each world accessible.
 
-**Core fantasy:** Become an explorer who understands and learns to use the world's extraordinary plant life.
+VIREL is an exploration-driven game built around a changing collection of enormous worlds filled with extraordinary plant life. Players discover and research unknown species, unlock complete plant-derived ability sets, and use those powers to explore, attack, interact with ecosystems and uncover secrets.
 
-## 2. Design pillars
+**Core fantasy:** Discover extraordinary plants, master their powers and use them to explore a vast living universe.
 
-1. **Exploration is the main attraction.** Reward curiosity, detours and revisiting places under different conditions.
-2. **Every discovery has identity.** Plants need memorable silhouettes, names, behaviours, habitats, rarity and useful research outcomes.
-3. **Discovery is interactive.** A scan begins an investigation; it should not instantly turn every unknown plant into a checklist entry.
-4. **Abilities expand the world.** Plant research can unlock traversal and exploration abilities that reveal new routes and discoveries.
-5. **The ecosystem feels alive.** Time, weather, terrain, nearby organisms and world events can influence what grows and when.
-6. **Collection has depth.** Reward completion, mastery and unusual discoveries without forcing every player to grind the same way.
-7. **Worlds feel alive over time.** The available world roster changes, giving players new places to explore and reasons to return.
-8. **Presentation makes discoveries memorable.** Cinematic camera work and cutscenes give important discoveries, events and unlocks a sense of occasion.
+## 2. Main gameplay pillars
 
-## 3. Core experience
+1. **Exploration:** Travel through enormous worlds, discover hidden biomes, solve environmental mysteries and reach places that were previously inaccessible.
+2. **Attacking and encounters:** Use spectacular plant-powered abilities in satisfying encounters. Combat is a core part of the game, not an afterthought. Exact enemy types and PvP rules remain TBD.
+3. **Plant discovery and powers:** Find, scan, research and master plant species. Each plant unlocks a themed ability set with multiple powers.
 
-Explore → notice an unfamiliar organism → scan it → learn what is known → perform an appropriate field interaction or experiment → record the discovery → research its properties → unlock an ability, knowledge entry or other reward → use new capabilities to explore further.
+These pillars should reinforce one another. Exploration reveals plants; plants unlock ability sets; abilities change how players explore and approach encounters; encounters and environmental challenges give players reasons to master their sets.
 
-## 4. World structure
+## 3. Design pillars
 
-VIREL is built around **multiple enormous worlds that rotate and change over time**, rather than one permanent map.
+- **Exploration is the main attraction.** Reward curiosity, detours and revisiting places under different conditions.
+- **Every discovery has identity.** Plants need memorable silhouettes, names, behaviours, habitats, rarity and distinctive ability sets.
+- **Discovery is interactive.** A scan begins an investigation; it should not instantly turn every unknown plant into a checklist entry.
+- **Ability sets are a core reward.** Every plant should feel like a new power system, not a single perk.
+- **Rarity matters in gameplay.** Higher-rarity plants generally unlock stronger, more complex and more spectacular sets.
+- **The ecosystem feels alive.** Time, weather, terrain, nearby organisms and world events can influence what grows and when.
+- **Presentation makes discoveries memorable.** Plant reveals and ability activations should have strong visual and audio identity.
+- **Worlds feel alive over time.** The available world roster changes, giving players new places to explore and reasons to return.
+
+## 4. Core experience
+
+Explore → notice an unfamiliar plant → scan and investigate → research its biology → unlock a themed ability set → master its abilities → use them to explore further and take on encounters → discover new plants and worlds.
+
+## 5. World structure
+
+VIREL is built around multiple enormous worlds that rotate and change over time, rather than one permanent map.
 
 - New worlds can be introduced after a number of days.
 - Existing worlds may leave the active world rotation when the roster changes.
 - Each world contains its own biomes, ecosystems, landmarks and discoveries.
 - Worlds can contain hidden sub-regions such as deep caves, underground ecosystems, secret islands and underwater areas.
-- The exact rotation schedule, active world count and return/archive rules are TBD.
+- Exact rotation schedule, active world count and return/archive rules are TBD.
 
 Rotation should create anticipation without making important discoveries unfairly missable. Core progression must not depend on being online during a narrow time window.
 
-## 5. Camera and cinematic presentation
+## 6. Plant ability sets
+
+A plant grants a complete themed **ability set**, usually containing multiple abilities. Set size and power generally rise with rarity:
+- Natural: usually 2 abilities.
+- Unusual: usually 2–3.
+- Distinct and Ancient: usually 3.
+- Forgotten: usually 3–4.
+- Relic: usually 4.
+- Origin: 4 or more, potentially including unique signature mechanics.
+
+These are guidelines; each plant's identity determines its set. Sets can contain exploration abilities, attacks and botanical/environmental powers.
+
+Abilities should look and sound spectacular. Every ability needs a distinct animation, VFX, sound and impact feedback. Visual intensity should rise with rarity while keeping combat and environmental readability.
+
+## 7. Camera and cinematic presentation
 
 - Third-person is the main exploration perspective.
 - Inspecting or scanning a plant can trigger a short cinematic camera sequence that highlights its details.
 - Important discoveries can receive dedicated reveal cutscenes.
 - Major story moments, world arrivals and hidden-area discoveries can use larger cutscenes.
-- Ability unlocks and major milestones should have distinctive presentation.
+- Ability-set unlocks and signature ability activations should receive distinctive presentation.
 - Routine interactions stay quick. Small scan sequences should be brief and skippable.
-- Major story scenes should also offer a skip option where appropriate.
-- Multiplayer presentation must not trap nearby players in long, unwanted sequences. Whether scenes are local, party-synchronized or world-wide is TBD.
+- Major story scenes should offer a skip option where appropriate.
+- Multiplayer presentation must not trap nearby players in long, unwanted sequences.
 
-### Cinematic moments to explore
-- **First sighting:** the camera briefly reveals a striking silhouette, movement or sound before the player scans it.
-- **Rare specimen reveal:** the environment reacts subtly, such as nearby spores drifting, petals opening or local light changing.
-- **Research breakthrough:** a short visual sequence connects the specimen's properties to a newly understood ability.
-- **World arrival:** a cinematic introduction shows the new world's landscape and a few mysterious landmarks.
-- **Hidden ecosystem reveal:** the camera pulls back to reveal the scale of a concealed habitat.
-- **Ecological event:** a storm passes, flowers bloom together, or a nocturnal ecosystem awakens.
-- **Personal field journal:** a concise illustrated entry appears after a meaningful discovery, adding a sense of expedition history.
-
-These are ideas, not all locked features. Keep the camera language consistent and avoid turning every ordinary interaction into a long cutscene.
-
-## 6. Visual direction
+## 8. Visual direction
 
 **Stylized realism** is confirmed:
 - Believable natural environments.
 - Expressive, slightly exaggerated botanical designs.
 - Vibrant but controlled colors.
 - Strong natural lighting, shadows and atmosphere.
-- Rare discoveries can have extraordinary visual effects, while ordinary environments remain beautiful and visually interesting.
+- Rare discoveries and high-rarity abilities can have extraordinary visual effects, while ordinary environments remain beautiful and visually interesting.
 
-## 7. Scope boundaries
+## 9. Scope boundaries and open decisions
 
-VIREL is not automatically:
-- A farming or crop-tycoon game.
-- A clicker based on repeatedly harvesting respawning plants.
-- A survival game with mandatory hunger, thirst or base upkeep.
-- A game where rarity simply means a stronger ability.
-- A world made interesting only by oversized plants.
+VIREL is not automatically a farming or crop-tycoon game, a clicker, or a survival game with mandatory hunger and thirst.
 
-Farming, crafting, trading, player housing, pets, combat and PvP are TBD and must not be assumed.
-
-## 8. Current confirmed direction
-
-- The game is named **VIREL**.
-- Visual style: **stylized realism**.
-- Multiple enormous worlds can change over time, with new worlds potentially arriving after several days.
-- Each world has its own biomes and can include hidden sub-regions.
-- Third-person is the main perspective.
-- Inspection, scanning and major discoveries should use cinematic presentation; the game should contain plenty of cutscenes.
-- Players find plants and other botanical discoveries, scan and interact with them, and research abilities through them.
-- Plants have rarities and the collection system should have depth.
-
-## 9. Open decisions
-
-- Movement feel and optional camera modes.
-- World rotation schedule, active world count and how returning worlds work.
+Still TBD:
+- Exact enemy types and encounter structure.
+- Whether PvP exists, and if so how it is separated or balanced.
+- Ability loadout slots and set swapping.
+- World rotation schedule and archive access.
 - Exact world scale and technical streaming structure.
-- Whether plants are collected physically, recorded as samples, or both.
-- Whether abilities are permanent, temporary, equipable or a combination.
-- Cultivation, display and player-home systems.
+- Physical specimen collection, cultivation, trading and display systems.
 - Economy and monetisation boundaries.
-- Social, co-op and competitive features.
-- Launch content size and long-term content cadence.
-- Cutscene frequency, length, skip behaviour and multiplayer presentation rules.
+- Social and co-op features.
+- Launch content size and long-term cadence.
 
-Do not silently convert proposals into confirmed decisions.
+## 10. Current confirmed direction
+
+- Name: **VIREL**.
+- Visual style: **stylized realism**.
+- Multiple enormous worlds with their own biomes and hidden sub-regions.
+- Third-person exploration and cinematic discovery presentation.
+- Plants are researched to unlock themed ability sets, not single abilities.
+- Main gameplay pillars: **exploration, attacking and plant powers**.
+- Higher-rarity plants generally provide stronger, larger and more spectacular ability sets.
+- Ability visuals and animations are a major part of the game's appeal.
+
+Do not silently convert remaining proposals into confirmed decisions.
