@@ -12,15 +12,23 @@ A towering vine with dark red thorns that grow in deliberate geometric patterns.
 
 **Ecological role:** Zone shaping and controlled thorn growth; the species should visibly affect its biome and nearby environmental clues.
 
-## Discovery and research
-Observe how its thorns reorient when nearby creatures move.
-1. Notice its unique environmental signal.
-2. Observe it in its native habitat.
-3. Complete a field investigation related to its behaviour.
-4. Record the discovery in the permanent archive.
-5. Research its abilities through three milestones.
+## Discovery and acquisition
+**Discovery clue:** Observe how its thorns reorient when nearby creatures move.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Notice its unique environmental signal.
+- Observe it in its native habitat.
+- Complete a field investigation related to its behaviour.
+- Research its abilities through three milestones.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Role | Concept |
 |---:|---|---|---|---|
 | 1 | [Briar Sweep](../../../03_Content/Abilities/thornwake/briar-sweep.md) | PLANT_26_A01 | Combat | A broad ground-level wave of soft-glowing thorns pushes nearby threats back. |
@@ -33,8 +41,8 @@ Observe how its thorns reorient when nearby creatures move.
 - Visual identity: a coherent family of shapes, colours and animations.
 - Rarity: Forgotten indicates a stronger and more complex set, not merely a visual tier.
 
-## Mastery
-Three proposed research milestones unlock the complete set. Mastery reward: plant-specific archive detail, title or cosmetic.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/myrrwood/README.md)
