@@ -1,6 +1,6 @@
 # Ability Directory
 
-VIREL currently proposes **50 plant ability sets and 150 individual abilities**. Every ability belongs to exactly one plant.
+VIREL currently proposes **50 plant ability sets and 162 individual abilities**. Every ability belongs to exactly one plant.
 
 ## Browse by plant
 - [Driftleaf ability set](./driftleaf/README.md) — 3 abilities, Natural, Windweave
@@ -37,22 +37,22 @@ VIREL currently proposes **50 plant ability sets and 150 individual abilities**.
 - [Pearlcurrent ability set](./pearlcurrent/README.md) — 3 abilities, Ancient, Tidal Prism
 - [Snowbell ability set](./snowbell/README.md) — 3 abilities, Unusual, Hailguard
 - [Rimepine ability set](./rimepine/README.md) — 3 abilities, Ancient, Glacier Crown
-- [Thunderroot ability set](./thunderroot/README.md) — 3 abilities, Relic, Stormanchor
+- [Thunderroot ability set](./thunderroot/README.md) — 4 abilities, Relic, Stormanchor
 - [Boglight ability set](./boglight/README.md) — 3 abilities, Unusual, Mireglow
 - [Duskmantle ability set](./duskmantle/README.md) — 3 abilities, Ancient, Shadowveil
 - [Lullaby Reed ability set](./lullaby-reed/README.md) — 3 abilities, Forgotten, Echo Dream
 - [Dune Lotus ability set](./dune-lotus/README.md) — 3 abilities, Unusual, Oasis Bloom
 - [Sunshard Cactus ability set](./sunshard-cactus/README.md) — 3 abilities, Distinct, Glassneedle
-- [Mirage Thorn ability set](./mirage-thorn/README.md) — 3 abilities, Relic, Horizon Trick
+- [Mirage Thorn ability set](./mirage-thorn/README.md) — 4 abilities, Relic, Horizon Trick
 - [Gloomcap ability set](./gloomcap/README.md) — 3 abilities, Distinct, Umbral Spores
 - [Crystalroot ability set](./crystalroot/README.md) — 3 abilities, Ancient, Geodeheart
-- [Deepwarden Fungus ability set](./deepwarden-fungus/README.md) — 3 abilities, Relic, Titan Mycelium
+- [Deepwarden Fungus ability set](./deepwarden-fungus/README.md) — 4 abilities, Relic, Titan Mycelium
 - [Cloudvine ability set](./cloudvine/README.md) — 3 abilities, Unusual, Skyhook
 - [Gale Orchid ability set](./gale-orchid/README.md) — 3 abilities, Ancient, Tempest Bloom
-- [Starfeather Grass ability set](./starfeather-grass/README.md) — 3 abilities, Relic, Astral Flight
+- [Starfeather Grass ability set](./starfeather-grass/README.md) — 4 abilities, Relic, Astral Flight
 - [Everseed ability set](./everseed/README.md) — 3 abilities, Forgotten, Primordial Seed
-- [Chronobloom ability set](./chronobloom/README.md) — 3 abilities, Origin, Season's Turn
-- [Heart of Verdance ability set](./heart-of-verdance/README.md) — 3 abilities, Origin, Worldheart
+- [Chronobloom ability set](./chronobloom/README.md) — 4 abilities, Origin, Season's Turn
+- [Heart of Verdance ability set](./heart-of-verdance/README.md) — 4 abilities, Origin, Worldheart
 
 ## Relationship rules
 - Parent plant page owns set identity, rarity, theme and unlock sequence.
