@@ -1,4 +1,4 @@
-# VIREL — Gameplay Systems
+# FLORA — Gameplay Systems
 
 Shared systems define rules used by multiple worlds, plants and abilities. Content-specific details belong in their individual content documents.
 
