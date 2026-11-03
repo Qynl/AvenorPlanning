@@ -51,4 +51,4 @@ Integration notes: AVENOR_Freebuff_Roblox_MCP.md.
 Existing branding and rank artwork remain in assets/.
 
 ## Separate game projects
-- **[VIREL planning](VIREL/README.md)** — independent open-world botanical exploration game. VIREL documents are separate from AVENOR design decisions.
+- **[VIREL planning](VIREL/README.md)** — independent exploration, botanical discovery and plant-powered encounters project. See the [structured VIREL documentation hub](VIREL/README.md).
