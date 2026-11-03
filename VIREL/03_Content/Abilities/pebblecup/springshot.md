@@ -2,7 +2,7 @@
 
 **Ability ID:** PEBBLECUP_03  
 **Status:** PROPOSAL  
-**Parent plant:** [Pebblecup](../../02_Content/Plants/pebblecup/README.md)  
+**Parent plant:** [Pebblecup](../../../02_Content/Plants/pebblecup/README.md)  
 **Ability set:** Stonewell  
 **Plant rarity:** Natural  
 **Set position:** 3 of 3
@@ -35,7 +35,7 @@ Release a concentrated burst of stored water and mineral particles.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/pebblecup/README.md)
+- [Parent plant](../../../02_Content/Plants/pebblecup/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
