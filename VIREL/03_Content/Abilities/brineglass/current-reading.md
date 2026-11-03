@@ -2,7 +2,7 @@
 
 **Ability ID:** BRINEGLASS_01  
 **Status:** PROPOSAL  
-**Parent plant:** [Brineglass](../../02_Content/Plants/brineglass/README.md)  
+**Parent plant:** [Brineglass](../../../02_Content/Plants/brineglass/README.md)  
 **Ability set:** Brinecraft  
 **Plant rarity:** Unusual  
 **Set position:** 1 of 3
@@ -35,7 +35,7 @@ Display local underwater current direction and strength.
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/brineglass/README.md)
+- [Parent plant](../../../02_Content/Plants/brineglass/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
