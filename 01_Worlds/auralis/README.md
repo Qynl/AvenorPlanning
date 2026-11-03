@@ -64,4 +64,4 @@ This world currently has five proposed signature species. Each species has its o
 ## Concept art
 All concept art lives in the central library: [Auralis concept art library](../../05_Presentation/Concept_Art/Worlds/auralis/README.md)
 
-The six original Auralis images and their source IDs are indexed in [Auralis image assignments](../../05_Presentation/Concept_Art/Auralis/README.md).
+That README also indexes the six supplied originals against their source IDs.
