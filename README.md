@@ -49,3 +49,6 @@ Progression: AVENOR_Progression.md, AVENOR_Presentation.md.
 Content libraries: AVENOR_Weapons.md, AVENOR_Abilities.md, AVENOR_Cosmetics.md, AVENOR_Emotes.md, AVENOR_FiringIdentities.md, AVENOR_KillEffects.md, AVENOR_WinEffects.md.
 Integration notes: AVENOR_Freebuff_Roblox_MCP.md.
 Existing branding and rank artwork remain in assets/.
+
+## Separate game projects
+- **[VIREL planning](VIREL/README.md)** — independent open-world botanical exploration game. VIREL documents are separate from AVENOR design decisions.
