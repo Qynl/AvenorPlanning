@@ -70,3 +70,20 @@ Suggested order:
 - Additional native species beyond the initial signature plants.
 
 World and biome concepts are proposals until explicitly confirmed.
+
+## Expanded native plant roster
+
+This world currently has five proposed signature species. Each species has its own research profile and linked multi-ability set.
+
+- [Worldroot](../../02_Content/Plants/worldroot/README.md)
+- [Firstlight](../../02_Content/Plants/firstlight/README.md)
+- [Everseed](../../02_Content/Plants/everseed/README.md)
+- [Chronobloom](../../02_Content/Plants/chronobloom/README.md)
+- [Heart of Verdance](../../02_Content/Plants/heart-of-verdance/README.md)
+
+## Map production requirements
+- Build a readable greybox for each major biome before final art.
+- Give each biome a landmark, a main route, an optional route and a hidden discovery route.
+- Place the five native species in distinct habitat anchors rather than scattering them randomly.
+- Define local streaming regions and test fast traversal across each boundary.
+- Keep gameplay-relevant plant clues visible at low graphics quality.
