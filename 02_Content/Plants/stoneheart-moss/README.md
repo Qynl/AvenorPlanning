@@ -14,10 +14,21 @@
 
 **Ecological role:** TBD.
 
-## Research journey
-Scanning begins an investigation. Players study the species' attachment patterns and how it responds to different stone surfaces. Exact field tasks and research milestones remain TBD.
+## Discovery and acquisition
+**Discovery clue:** Study attachment patterns on different rock types.
+
+Find the plant in the world and successfully scan it. The first successful scan acquires the plant, adds it to the permanent collection and grants ownership of its complete ability set. No further research is required to own the plant.
+
+## Further research
+After acquisition, continue investigating this plant through its own ecological clues and field observations. Further research progressively unlocks the abilities in the set, in the order listed below.
+
+Plant-specific research leads:
+- Observe its behaviour, habitat and reactions to relevant environmental conditions.
+- Follow plant-specific clues and perform suitable field observations or experiments.
 
 ## Complete ability set
+The full set belongs to the player after the first successful scan. Listed order is the ability unlock order; further plant research unlocks each ability progressively. Individual ability files are descriptions only.
+
 | # | Ability | Stable ID | Research unlock order | Initial concept |
 |---:|---|---|---|---|
 | 1 | [Stonegrip](../../../03_Content/Abilities/stoneheart-moss/stonegrip.md) | STONEHEART_MOSS_01 | TBD | Cling briefly to designated natural climbing surfaces. |
@@ -28,10 +39,8 @@ Scanning begins an investigation. Players study the species' attachment patterns
 **Set name:** Bedrock  
 **Visual signature:** Crystalline moss, layered rock plates and heavy ground growth.
 
-## Research and mastery
-- First milestone: unlock the signature ability (exact choice TBD).
-- Later milestones: unlock remaining abilities in sequence.
-- Final mastery reward: TBD.
+## Optional mastery
+After the plant's abilities have been unlocked, deeper understanding or continued use may contribute to optional mastery. Exact mastery rewards remain to be designed.
 
 ## Related links
 - [Home world](../../../01_Worlds/umbra-deep/README.md)
