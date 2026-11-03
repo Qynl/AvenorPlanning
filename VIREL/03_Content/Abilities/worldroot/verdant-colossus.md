@@ -2,7 +2,7 @@
 
 **Ability ID:** WORLDROOT_04  
 **Status:** PROPOSAL  
-**Parent plant:** [Worldroot](../../02_Content/Plants/worldroot/README.md)  
+**Parent plant:** [Worldroot](../../../02_Content/Plants/worldroot/README.md)  
 **Ability set:** Worldweave  
 **Plant rarity:** Origin  
 **Set position:** 4 of 4
@@ -35,7 +35,7 @@ Briefly summon a towering root formation that provides protection and a powerful
 Milestone: TBD. The parent plant page owns the unlock order.
 
 ## Related links
-- [Parent plant](../../02_Content/Plants/worldroot/README.md)
+- [Parent plant](../../../02_Content/Plants/worldroot/README.md)
 - [Ability rules](../../../04_Systems/Abilities/README.md)
 - [Combat](../../../04_Systems/Combat/README.md)
 
