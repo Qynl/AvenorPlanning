@@ -1,0 +1,2448 @@
+[
+  {
+    "slug": "abyssal-bloom",
+    "name": "Abyssal Bloom",
+    "id": "PLANT_31",
+    "status": "PROPOSAL",
+    "rarity": "Forgotten",
+    "homeWorld": "Pelagora",
+    "habitat": "The Midnight Trench",
+    "identity": "A dark flower with a small luminous centre surrounded by pressure-folded petals.",
+    "ecologicalRole": "Pressure fields and spatial control; its growth changes the flow and navigability of the surrounding reef.",
+    "discoveryClue": "Locate its glow without disturbing the surrounding deep-water organisms.",
+    "abilitySet": {
+      "theme": "Pressure fields and spatial control",
+      "primaryRole": "Control",
+      "visualLanguage": "translucent coral, curved water trails and luminous reef details."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Pressure Tap",
+        "file": "../../../03_Content/Abilities/abyssal-bloom/pressure-tap.md",
+        "id": "PLANT_31_A01",
+        "role": "Control",
+        "concept": "A compact pulse creates space around the player and gently displaces nearby hazards."
+      },
+      {
+        "order": 2,
+        "name": "Depth Well",
+        "file": "../../../03_Content/Abilities/abyssal-bloom/depth-well.md",
+        "id": "PLANT_31_A02",
+        "role": "Control",
+        "concept": "Creates a visible field that slows drifting environmental objects and reveals pressure currents."
+      },
+      {
+        "order": 3,
+        "name": "Abyssal Bloom",
+        "file": "../../../03_Content/Abilities/abyssal-bloom/abyssal-bloom.md",
+        "id": "PLANT_31_A03",
+        "role": "Control",
+        "concept": "A large pulse expands from a marked centre after a clear build-up, clearing a temporary safe area."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/abyssal-bloom",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "ashen-crown",
+    "name": "Ashen Crown",
+    "id": "PLANT_006",
+    "status": "PROPOSAL",
+    "rarity": "Relic",
+    "homeWorld": "Caldera Reach",
+    "habitat": "Caldera Reach, The Buried Furnace.",
+    "identity": "**Appearance:** Crown-shaped charcoal petals with glowing seams, growing around ancient mineral formations.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Follow cooled lava channels and map the mineral rings.",
+    "abilitySet": {
+      "theme": "Magma Crown",
+      "primaryRole": null,
+      "visualLanguage": "Black glass-like plates, molten seams and heavy geological pulses."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Deep-Time Survey",
+        "file": "../../../03_Content/Abilities/ashen-crown/deep-time-survey.md",
+        "id": "ASHEN_CROWN_01",
+        "role": "TBD",
+        "concept": "Reveal old geothermal routes and geological records."
+      },
+      {
+        "order": 2,
+        "name": "Crownfall",
+        "file": "../../../03_Content/Abilities/ashen-crown/crownfall.md",
+        "id": "ASHEN_CROWN_02",
+        "role": "TBD",
+        "concept": "Call up a ring of heavy mineral growth around a selected area."
+      },
+      {
+        "order": 3,
+        "name": "Faultline",
+        "file": "../../../03_Content/Abilities/ashen-crown/faultline.md",
+        "id": "ASHEN_CROWN_03",
+        "role": "TBD",
+        "concept": "Send a visible ground pulse along a short path."
+      },
+      {
+        "order": 4,
+        "name": "Obsidian Guard",
+        "file": "../../../03_Content/Abilities/ashen-crown/obsidian-guard.md",
+        "id": "ASHEN_CROWN_04",
+        "role": "TBD",
+        "concept": "Form a temporary shell of dark mineral plates."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/ashen-crown",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "ashwing-fern",
+    "name": "Ashwing Fern",
+    "id": "PLANT_29",
+    "status": "PROPOSAL",
+    "rarity": "Forgotten",
+    "homeWorld": "Caldera Reach",
+    "habitat": "The Sootwind Vents",
+    "identity": "Dark feathered fronds release glowing ash that spirals upward instead of falling.",
+    "ecologicalRole": "Thermal lift and aerial control; this plant should visibly interact with the terrain and local climate.",
+    "discoveryClue": "Follow an ash plume against the wind to locate its source.",
+    "abilitySet": {
+      "theme": "Thermal lift and aerial control",
+      "primaryRole": "Movement",
+      "visualLanguage": "volcanic stone, heat haze and glowing botanical details."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Cinder Lift",
+        "file": "../../../03_Content/Abilities/ashwing-fern/cinder-lift.md",
+        "id": "PLANT_29_A01",
+        "role": "Movement",
+        "concept": "Uses a warm updraft for a quick vertical boost."
+      },
+      {
+        "order": 2,
+        "name": "Ashtrail",
+        "file": "../../../03_Content/Abilities/ashwing-fern/ashtrail.md",
+        "id": "PLANT_29_A02",
+        "role": "Movement",
+        "concept": "Leaves a brief trail of warm air that can be followed for a second jump."
+      },
+      {
+        "order": 3,
+        "name": "Phoenix Drift",
+        "file": "../../../03_Content/Abilities/ashwing-fern/phoenix-drift.md",
+        "id": "PLANT_29_A03",
+        "role": "Movement",
+        "concept": "A long controlled glide powered by a rising thermal column, with a visible landing marker."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/ashwing-fern",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "basalt-bloom",
+    "name": "Basalt Bloom",
+    "id": "PLANT_28",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Caldera Reach",
+    "habitat": "The Basalt Stair",
+    "identity": "Heavy black flowers grow from hexagonal stone columns.",
+    "ecologicalRole": "Stone shaping and protective cover; this plant should visibly interact with the terrain and local climate.",
+    "discoveryClue": "Map the repeating column pattern to find the bloom at its centre.",
+    "abilitySet": {
+      "theme": "Stone shaping and protective cover",
+      "primaryRole": "Defense",
+      "visualLanguage": "volcanic stone, heat haze and glowing botanical details."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Basalt Rise",
+        "file": "../../../03_Content/Abilities/basalt-bloom/basalt-rise.md",
+        "id": "PLANT_28_A01",
+        "role": "Defense",
+        "concept": "Raises a short stone platform from marked ground."
+      },
+      {
+        "order": 2,
+        "name": "Obsidian Guard",
+        "file": "../../../03_Content/Abilities/basalt-bloom/obsidian-guard.md",
+        "id": "PLANT_28_A02",
+        "role": "Defense",
+        "concept": "Forms a curved slab of cooled volcanic glass as temporary cover."
+      },
+      {
+        "order": 3,
+        "name": "Caldera Ring",
+        "file": "../../../03_Content/Abilities/basalt-bloom/caldera-ring.md",
+        "id": "PLANT_28_A03",
+        "role": "Defense",
+        "concept": "Raises a ring of stone pillars that creates a protected central area."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/basalt-bloom",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "boglight",
+    "name": "Boglight",
+    "id": "PLANT_36",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Nacre Hollow",
+    "habitat": "The Lantern Fen",
+    "identity": "Small amber bulbs hover above dark wetland leaves and brighten when mist thickens.",
+    "ecologicalRole": "Wetland navigation and hidden signals; its presence changes how players read the wetland and its shifting visibility.",
+    "discoveryClue": "Follow the dimmest glow to find the plant that reacts to footsteps.",
+    "abilitySet": {
+      "theme": "Wetland navigation and hidden signals",
+      "primaryRole": "Exploration",
+      "visualLanguage": "low-contrast indigo, amber lights and reflective water."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Fenlight",
+        "file": "../../../03_Content/Abilities/boglight/fenlight.md",
+        "id": "PLANT_36_A01",
+        "role": "Exploration",
+        "concept": "Illuminates faint stepping stones and safe ground in nearby marsh."
+      },
+      {
+        "order": 2,
+        "name": "Miremark",
+        "file": "../../../03_Content/Abilities/boglight/miremark.md",
+        "id": "PLANT_36_A02",
+        "role": "Exploration",
+        "concept": "Marks a discovered route with floating lights visible through fog."
+      },
+      {
+        "order": 3,
+        "name": "Lantern Drift",
+        "file": "../../../03_Content/Abilities/boglight/lantern-drift.md",
+        "id": "PLANT_36_A03",
+        "role": "Exploration",
+        "concept": "Creates a slow-moving light cluster that guides the player through a short hidden passage."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/boglight",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "brineglass",
+    "name": "Brineglass",
+    "id": "PLANT_007",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Pelagora",
+    "habitat": "Pelagora, Shallows of Glass.",
+    "identity": "**Appearance:** Translucent ribbon leaves that shift with underwater currents.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Compare ribbon direction at different depths.",
+    "abilitySet": {
+      "theme": "Brinecraft",
+      "primaryRole": null,
+      "visualLanguage": "Clear water ribbons, refracted light and suspended droplets."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Current Reading",
+        "file": "../../../03_Content/Abilities/brineglass/current-reading.md",
+        "id": "BRINEGLASS_01",
+        "role": "TBD",
+        "concept": "Display local underwater current direction and strength."
+      },
+      {
+        "order": 2,
+        "name": "Flowdash",
+        "file": "../../../03_Content/Abilities/brineglass/flowdash.md",
+        "id": "BRINEGLASS_02",
+        "role": "TBD",
+        "concept": "Propel the player along a short water-current burst."
+      },
+      {
+        "order": 3,
+        "name": "Brine Arc",
+        "file": "../../../03_Content/Abilities/brineglass/brine-arc.md",
+        "id": "BRINEGLASS_03",
+        "role": "TBD",
+        "concept": "Shape a curved jet of water into a short-range attack."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/brineglass",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "chronobloom",
+    "name": "Chronobloom",
+    "id": "PLANT_48",
+    "status": "PROPOSAL",
+    "rarity": "Origin",
+    "homeWorld": "The First Garden",
+    "habitat": "The Stillhour Conservatory",
+    "identity": "A flower whose petals display different seasonal states at once, rotating without following the sun.",
+    "ecologicalRole": "Local environmental state and timing; this is an exceptional species connected to the oldest ecological systems in VIREL.",
+    "discoveryClue": "Observe its petal cycle and identify the moment when all seasons briefly align.",
+    "abilitySet": {
+      "theme": "Local environmental state and timing",
+      "primaryRole": "Utility",
+      "visualLanguage": "primordial botanical forms, large readable silhouettes and controlled environmental transformation."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Momentglass",
+        "file": "../../../03_Content/Abilities/chronobloom/momentglass.md",
+        "id": "PLANT_48_A01",
+        "role": "Utility",
+        "concept": "Briefly slows a selected environmental animation or moving natural mechanism."
+      },
+      {
+        "order": 2,
+        "name": "Bloom Recall",
+        "file": "../../../03_Content/Abilities/chronobloom/bloom-recall.md",
+        "id": "PLANT_48_A02",
+        "role": "Utility",
+        "concept": "Returns a supported environmental object to its last stable position."
+      },
+      {
+        "order": 3,
+        "name": "Season's Turn",
+        "file": "../../../03_Content/Abilities/chronobloom/season-s-turn.md",
+        "id": "PLANT_48_A03",
+        "role": "Utility",
+        "concept": "Temporarily changes a local garden pocket between defined seasonal states, changing its routes and plant responses."
+      },
+      {
+        "order": 4,
+        "name": "Era Bloom",
+        "file": "../../../03_Content/Abilities/chronobloom/era-bloom.md",
+        "id": "PLANT_48_A04",
+        "role": "Utility",
+        "concept": "Cycles a marked garden pocket through three defined seasonal states, revealing different routes and plant responses in sequence."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/chronobloom",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "cloudreed",
+    "name": "Cloudreed",
+    "id": "PLANT_021",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Auralis",
+    "habitat": "High wind terraces",
+    "identity": "Tall hollow reeds with pale blue plume tips that sing when air passes through them.",
+    "ecologicalRole": "Wind currents and sound navigation. The reeds indicate safe gust lanes and changing airflow.",
+    "discoveryClue": "Find the reed whose tone changes when the player stands upwind.",
+    "abilitySet": {
+      "theme": "Wind currents and sound navigation.",
+      "primaryRole": "Exploration.",
+      "visualLanguage": "Hollow reeds, pale blue plumes and concentric air ripples."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Windchime",
+        "file": "../../../03_Content/Abilities/cloudreed/windchime.md",
+        "id": "PLANT_021_A01",
+        "role": "Exploration",
+        "concept": "A short pulse sends a readable ripple through nearby air currents, revealing safe gust lanes."
+      },
+      {
+        "order": 2,
+        "name": "Guststep",
+        "file": "../../../03_Content/Abilities/cloudreed/guststep.md",
+        "id": "PLANT_021_A02",
+        "role": "Exploration",
+        "concept": "A controlled forward glide catches a nearby updraft and carries the player across a gap."
+      },
+      {
+        "order": 3,
+        "name": "Resonant Canopy",
+        "file": "../../../03_Content/Abilities/cloudreed/resonant-canopy.md",
+        "id": "PLANT_021_A03",
+        "role": "Exploration",
+        "concept": "Creates a temporary field of steady air that slows drifting hazards and supports a brief aerial route."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/cloudreed",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "cloudvine",
+    "name": "Cloudvine",
+    "id": "PLANT_45",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Zephyr Crown",
+    "habitat": "The Floating Gardens",
+    "identity": "Long pale vines hang between floating stone shelves and sway toward the strongest updraft.",
+    "ecologicalRole": "Grappling routes and aerial movement; it links separated regions into a living environmental network.",
+    "discoveryClue": "Trace a vine's movement to the updraft that keeps it suspended.",
+    "abilitySet": {
+      "theme": "Grappling routes and aerial movement",
+      "primaryRole": "Traversal",
+      "visualLanguage": "broad fungal forms, flowing vine lines and clear aerial silhouettes."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Vinepull",
+        "file": "../../../03_Content/Abilities/cloudvine/vinepull.md",
+        "id": "PLANT_45_A01",
+        "role": "Traversal",
+        "concept": "Pulls the player toward a marked natural anchor within a short range."
+      },
+      {
+        "order": 2,
+        "name": "Skyline",
+        "file": "../../../03_Content/Abilities/cloudvine/skyline.md",
+        "id": "PLANT_45_A02",
+        "role": "Traversal",
+        "concept": "Creates a temporary vine line between two visible anchors for a safe crossing."
+      },
+      {
+        "order": 3,
+        "name": "Cloud Catch",
+        "file": "../../../03_Content/Abilities/cloudvine/cloud-catch.md",
+        "id": "PLANT_45_A03",
+        "role": "Traversal",
+        "concept": "Catches a nearby rising air current and gives the player a controlled lift."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/cloudvine",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "coralweave",
+    "name": "Coralweave",
+    "id": "PLANT_30",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Pelagora",
+    "habitat": "Ribbon Reef",
+    "identity": "Flexible coral branches weave into arches and soft tunnels that sway with the tide.",
+    "ecologicalRole": "Water routes and flexible structures; its growth changes the flow and navigability of the surrounding reef.",
+    "discoveryClue": "Find the reef section that changes shape with the current.",
+    "abilitySet": {
+      "theme": "Water routes and flexible structures",
+      "primaryRole": "Traversal",
+      "visualLanguage": "translucent coral, curved water trails and luminous reef details."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Reef Grip",
+        "file": "../../../03_Content/Abilities/coralweave/reef-grip.md",
+        "id": "PLANT_30_A01",
+        "role": "Traversal",
+        "concept": "Attaches briefly to marked coral surfaces for safe movement."
+      },
+      {
+        "order": 2,
+        "name": "Current Ribbon",
+        "file": "../../../03_Content/Abilities/coralweave/current-ribbon.md",
+        "id": "PLANT_30_A02",
+        "role": "Traversal",
+        "concept": "Creates a temporary current lane that carries the player along a curved route."
+      },
+      {
+        "order": 3,
+        "name": "Living Arch",
+        "file": "../../../03_Content/Abilities/coralweave/living-arch.md",
+        "id": "PLANT_30_A03",
+        "role": "Traversal",
+        "concept": "Grows a temporary coral arch between two nearby anchor points."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/coralweave",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "crystalroot",
+    "name": "Crystalroot",
+    "id": "PLANT_43",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Umbra Deep",
+    "habitat": "The Singing Geodes",
+    "identity": "Pale roots grow through crystal seams and produce faint harmonic vibrations.",
+    "ecologicalRole": "Resonance and mineral structures; it forms part of the cave's living navigation network.",
+    "discoveryClue": "Locate the root that resonates with a nearby crystal wall.",
+    "abilitySet": {
+      "theme": "Resonance and mineral structures",
+      "primaryRole": "Utility",
+      "visualLanguage": "violet spores, mineral highlights and clear sound-wave cues."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Geode Ping",
+        "file": "../../../03_Content/Abilities/crystalroot/geode-ping.md",
+        "id": "PLANT_43_A01",
+        "role": "Utility",
+        "concept": "Sends a soft resonance that reveals hollow spaces behind nearby rock."
+      },
+      {
+        "order": 2,
+        "name": "Crystal Bridge",
+        "file": "../../../03_Content/Abilities/crystalroot/crystal-bridge.md",
+        "id": "PLANT_43_A02",
+        "role": "Utility",
+        "concept": "Grows a temporary crystalline crossing between two marked ledges."
+      },
+      {
+        "order": 3,
+        "name": "Harmonic Chamber",
+        "file": "../../../03_Content/Abilities/crystalroot/harmonic-chamber.md",
+        "id": "PLANT_43_A03",
+        "role": "Utility",
+        "concept": "Activates a group of nearby geodes to create a stable sound-and-light navigation chamber."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/crystalroot",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "deepwarden-fungus",
+    "name": "Deepwarden Fungus",
+    "id": "PLANT_44",
+    "status": "PROPOSAL",
+    "rarity": "Relic",
+    "homeWorld": "Umbra Deep",
+    "habitat": "The Root Cathedral",
+    "identity": "Enormous pale fungal shelves connect through a living network that spans the cavern ceiling.",
+    "ecologicalRole": "Mycelium networks and shared safe zones; it links separated regions into a living environmental network.",
+    "discoveryClue": "Follow the slow pulse of light through several connected shelves to find the central colony.",
+    "abilitySet": {
+      "theme": "Mycelium networks and shared safe zones",
+      "primaryRole": "Support",
+      "visualLanguage": "broad fungal forms, flowing vine lines and clear aerial silhouettes."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Mycelium Link",
+        "file": "../../../03_Content/Abilities/deepwarden-fungus/mycelium-link.md",
+        "id": "PLANT_44_A01",
+        "role": "Support",
+        "concept": "Connects two discovered fungal nodes so nearby players can see a shared route."
+      },
+      {
+        "order": 2,
+        "name": "Shelter Spore",
+        "file": "../../../03_Content/Abilities/deepwarden-fungus/shelter-spore.md",
+        "id": "PLANT_44_A02",
+        "role": "Support",
+        "concept": "Creates a temporary sheltered patch that reduces environmental pressure."
+      },
+      {
+        "order": 3,
+        "name": "Titan Network",
+        "file": "../../../03_Content/Abilities/deepwarden-fungus/titan-network.md",
+        "id": "PLANT_44_A03",
+        "role": "Support",
+        "concept": "Activates a large local mycelium network, revealing connected chambers and stabilising nearby growths."
+      },
+      {
+        "order": 4,
+        "name": "Colony Crown",
+        "file": "../../../03_Content/Abilities/deepwarden-fungus/colony-crown.md",
+        "id": "PLANT_44_A04",
+        "role": "Support",
+        "concept": "Awakens a large mycelium crown that creates a shared shelter and reveals a temporary vertical route through the cavern."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/deepwarden-fungus",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "driftleaf",
+    "name": "Driftleaf",
+    "id": "PLANT_001",
+    "status": "PROPOSAL",
+    "rarity": "Natural",
+    "homeWorld": "Auralis",
+    "habitat": "Auralis, Windstep Prairie.",
+    "identity": "**Appearance:** Broad, thin leaves with pale green surfaces and silver undersides. Patches tilt together before strong gusts.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Observe how whole patches lean before the wind changes.",
+    "abilitySet": {
+      "theme": "Windweave",
+      "primaryRole": null,
+      "visualLanguage": "Silver leaf trails, spiralling air ribbons and a brief wind-ring at activation."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Softfall",
+        "file": "../../../03_Content/Abilities/driftleaf/softfall.md",
+        "id": "DRIFTLEAF_01",
+        "role": "TBD",
+        "concept": "Slow and steer a descent."
+      },
+      {
+        "order": 2,
+        "name": "Guststep",
+        "file": "../../../03_Content/Abilities/driftleaf/guststep.md",
+        "id": "DRIFTLEAF_02",
+        "role": "TBD",
+        "concept": "Dash forward on a short burst of wind."
+      },
+      {
+        "order": 3,
+        "name": "Leafburst",
+        "file": "../../../03_Content/Abilities/driftleaf/leafburst.md",
+        "id": "DRIFTLEAF_03",
+        "role": "TBD",
+        "concept": "Release a fan of sharp, spinning leaves in a short-range attack."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/driftleaf",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "dune-lotus",
+    "name": "Dune Lotus",
+    "id": "PLANT_39",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Sereglass",
+    "habitat": "The Hidden Watercourses",
+    "identity": "A pale lotus grows in shallow sand basins, opening only when underground water rises.",
+    "ecologicalRole": "Water discovery and oasis creation; the plant helps players understand the hidden water cycle of its biome.",
+    "discoveryClue": "Trace a line of unusually cool sand to a concealed basin.",
+    "abilitySet": {
+      "theme": "Water discovery and oasis creation",
+      "primaryRole": "Support",
+      "visualLanguage": "pale petals, cool highlights and flowing water lines."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Dew Sense",
+        "file": "../../../03_Content/Abilities/dune-lotus/dew-sense.md",
+        "id": "PLANT_39_A01",
+        "role": "Support",
+        "concept": "Reveals nearby underground water traces."
+      },
+      {
+        "order": 2,
+        "name": "Oasis Pad",
+        "file": "../../../03_Content/Abilities/dune-lotus/oasis-pad.md",
+        "id": "PLANT_39_A02",
+        "role": "Support",
+        "concept": "Creates a temporary cool resting patch that reduces heat pressure."
+      },
+      {
+        "order": 3,
+        "name": "Springwell",
+        "file": "../../../03_Content/Abilities/dune-lotus/springwell.md",
+        "id": "PLANT_39_A03",
+        "role": "Support",
+        "concept": "Activates a discovered water node, briefly restoring nearby natural water features."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/dune-lotus",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "duskmantle",
+    "name": "Duskmantle",
+    "id": "PLANT_37",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Nacre Hollow",
+    "habitat": "The Drowned Cloister",
+    "identity": "Broad indigo leaves fold over one another like a cloak, reflecting moonlight at their edges.",
+    "ecologicalRole": "Soft concealment and reflected light; its presence changes how players read the wetland and its shifting visibility.",
+    "discoveryClue": "Find the leaf cluster that remains visible in still water after sunset.",
+    "abilitySet": {
+      "theme": "Soft concealment and reflected light",
+      "primaryRole": "Stealth and evasion",
+      "visualLanguage": "low-contrast indigo, amber lights and reflective water."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Duskveil",
+        "file": "../../../03_Content/Abilities/duskmantle/duskveil.md",
+        "id": "PLANT_37_A01",
+        "role": "Stealth and evasion",
+        "concept": "Briefly softens the player's outline against the environment without granting complete invisibility."
+      },
+      {
+        "order": 2,
+        "name": "Mirror Fold",
+        "file": "../../../03_Content/Abilities/duskmantle/mirror-fold.md",
+        "id": "PLANT_37_A02",
+        "role": "Stealth and evasion",
+        "concept": "Creates a stationary leaf reflection that draws attention away from a nearby route."
+      },
+      {
+        "order": 3,
+        "name": "Night Mantle",
+        "file": "../../../03_Content/Abilities/duskmantle/night-mantle.md",
+        "id": "PLANT_37_A03",
+        "role": "Stealth and evasion",
+        "concept": "Creates a broad dim-light field that makes movement cues harder for nearby creatures to track."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/duskmantle",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "echofern",
+    "name": "Echofern",
+    "id": "PLANT_004",
+    "status": "PROPOSAL",
+    "rarity": "Distinct",
+    "homeWorld": "Myrrwood",
+    "habitat": "Myrrwood, Hush Canopy.",
+    "identity": "**Appearance:** Layered blue-green fronds with reflective spots that shimmer after nearby movement.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Compare its reaction to wind, footsteps and wildlife.",
+    "abilitySet": {
+      "theme": "Resonance",
+      "primaryRole": null,
+      "visualLanguage": "Concentric translucent rings, shimmering fern particles and rippling air."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Echo Trace",
+        "file": "../../../03_Content/Abilities/echofern/echo-trace.md",
+        "id": "ECHOFERN_01",
+        "role": "TBD",
+        "concept": "Reveal recent environmental traces nearby."
+      },
+      {
+        "order": 2,
+        "name": "Resonant Wave",
+        "file": "../../../03_Content/Abilities/echofern/resonant-wave.md",
+        "id": "ECHOFERN_02",
+        "role": "TBD",
+        "concept": "Send out a broad pulse that reveals nearby points of interest and disrupts encounter targets."
+      },
+      {
+        "order": 3,
+        "name": "Reverb Strike",
+        "file": "../../../03_Content/Abilities/echofern/reverb-strike.md",
+        "id": "ECHOFERN_03",
+        "role": "TBD",
+        "concept": "Release a focused sonic burst that sends a visible ripple through the environment."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/echofern",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "emberlace",
+    "name": "Emberlace",
+    "id": "PLANT_005",
+    "status": "PROPOSAL",
+    "rarity": "Distinct",
+    "homeWorld": "Caldera Reach",
+    "habitat": "Caldera Reach, Cinder Veins.",
+    "identity": "**Appearance:** Dark red filaments around an amber centre, opening as geothermal heat rises.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Study the plant near warm mineral channels.",
+    "abilitySet": {
+      "theme": "Cinderbloom",
+      "primaryRole": null,
+      "visualLanguage": "Glowing filaments, ember motes and a dramatic flower-like flare."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Heatstep",
+        "file": "../../../03_Content/Abilities/emberlace/heatstep.md",
+        "id": "EMBERLACE_01",
+        "role": "TBD",
+        "concept": "Temporarily cross designated hot surfaces safely."
+      },
+      {
+        "order": 2,
+        "name": "Cinder Lash",
+        "file": "../../../03_Content/Abilities/emberlace/cinder-lash.md",
+        "id": "EMBERLACE_02",
+        "role": "TBD",
+        "concept": "Send a sweeping arc of glowing ember filaments."
+      },
+      {
+        "order": 3,
+        "name": "Bloomflare",
+        "file": "../../../03_Content/Abilities/emberlace/bloomflare.md",
+        "id": "EMBERLACE_03",
+        "role": "TBD",
+        "concept": "Open a temporary field of heated petals that pulses outward."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/emberlace",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "everseed",
+    "name": "Everseed",
+    "id": "PLANT_47",
+    "status": "PROPOSAL",
+    "rarity": "Forgotten",
+    "homeWorld": "The First Garden",
+    "habitat": "The Seed Vault",
+    "identity": "A seed pod that appears to contain a tiny moving landscape, with roots that respond to discoveries made nearby.",
+    "ecologicalRole": "Discovery memory and living pathways; this is an exceptional species connected to the oldest ecological systems in VIREL.",
+    "discoveryClue": "Find the pod whose internal light changes after the player records a new species.",
+    "abilitySet": {
+      "theme": "Discovery memory and living pathways",
+      "primaryRole": "Exploration",
+      "visualLanguage": "primordial botanical forms, large readable silhouettes and controlled environmental transformation."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Seedmemory",
+        "file": "../../../03_Content/Abilities/everseed/seedmemory.md",
+        "id": "PLANT_47_A01",
+        "role": "Exploration",
+        "concept": "Stores a temporary echo of a discovered landmark and marks it on the local survey."
+      },
+      {
+        "order": 2,
+        "name": "Verdant Return",
+        "file": "../../../03_Content/Abilities/everseed/verdant-return.md",
+        "id": "PLANT_47_A02",
+        "role": "Exploration",
+        "concept": "Restores a nearby natural mechanism to its previously observed state."
+      },
+      {
+        "order": 3,
+        "name": "First Sprout",
+        "file": "../../../03_Content/Abilities/everseed/first-sprout.md",
+        "id": "PLANT_47_A03",
+        "role": "Exploration",
+        "concept": "Creates a temporary living route between two previously discovered growth points."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/everseed",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "firstlight",
+    "name": "Firstlight",
+    "id": "PLANT_020",
+    "status": "PROPOSAL",
+    "rarity": "Origin",
+    "homeWorld": "The First Garden",
+    "habitat": "The First Garden, Dawn Chamber.",
+    "identity": "**Appearance:** A delicate flower with layered translucent petals that shift colour as the player approaches.",
+    "ecologicalRole": "TBD.",
+    "discoveryClue": "Combine research records from several worlds; exact puzzle remains TBD.",
+    "abilitySet": {
+      "theme": "Genesis",
+      "primaryRole": null,
+      "visualLanguage": "Layered light petals, luminous botanical patterns and a large cinematic bloom sequence."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Genesis Record",
+        "file": "../../../03_Content/Abilities/firstlight/genesis-record.md",
+        "id": "FIRSTLIGHT_01",
+        "role": "TBD",
+        "concept": "Reveal deep biological memories and major pieces of FLORA's history."
+      },
+      {
+        "order": 2,
+        "name": "First Dawn",
+        "file": "../../../03_Content/Abilities/firstlight/first-dawn.md",
+        "id": "FIRSTLIGHT_02",
+        "role": "TBD",
+        "concept": "Release a brilliant expanding wave of light that reveals the surrounding area."
+      },
+      {
+        "order": 3,
+        "name": "Lifeweave",
+        "file": "../../../03_Content/Abilities/firstlight/lifeweave.md",
+        "id": "FIRSTLIGHT_03",
+        "role": "TBD",
+        "concept": "Create a temporary field of living energy that supports exploration and affects encounter targets."
+      },
+      {
+        "order": 4,
+        "name": "Origin Bloom",
+        "file": "../../../03_Content/Abilities/firstlight/origin-bloom.md",
+        "id": "FIRSTLIGHT_04",
+        "role": "TBD",
+        "concept": "Unfold a spectacular multi-stage bloom that releases a powerful area pulse and transforms the nearby environment briefly."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/firstlight",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "frostwaker",
+    "name": "Frostwaker",
+    "id": "PLANT_009",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Veyr Peaks",
+    "habitat": "Veyr Peaks, Paleglass Shelf.",
+    "identity": "**Appearance:** Pale folded leaves around a dark bud, releasing faint mist in cold air.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Search sheltered ledges with unusual circular snow patterns.",
+    "abilitySet": {
+      "theme": "Pale Winter",
+      "primaryRole": null,
+      "visualLanguage": "Frost spreading across surfaces, crystalline petals and cold mist."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Coldbound",
+        "file": "../../../03_Content/Abilities/frostwaker/coldbound.md",
+        "id": "FROSTWAKER_01",
+        "role": "TBD",
+        "concept": "Resist designated cold conditions and reveal nearby warm refuges."
+      },
+      {
+        "order": 2,
+        "name": "Froststep",
+        "file": "../../../03_Content/Abilities/frostwaker/froststep.md",
+        "id": "FROSTWAKER_02",
+        "role": "TBD",
+        "concept": "Create a short-lived frost platform or bridge on suitable surfaces."
+      },
+      {
+        "order": 3,
+        "name": "Winter Shard",
+        "file": "../../../03_Content/Abilities/frostwaker/winter-shard.md",
+        "id": "FROSTWAKER_03",
+        "role": "TBD",
+        "concept": "Send a fan of crystalline frost fragments in an encounter."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/frostwaker",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "gale-orchid",
+    "name": "Gale Orchid",
+    "id": "PLANT_46",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Zephyr Crown",
+    "habitat": "The Wind Crown",
+    "identity": "A tall orchid with layered silver petals that rotate like a compass in strong wind.",
+    "ecologicalRole": "Wind fields and aerial route shaping; it links separated regions into a living environmental network.",
+    "discoveryClue": "Find the orchid that points toward a hidden air current even when the weather is calm.",
+    "abilitySet": {
+      "theme": "Wind fields and aerial route shaping",
+      "primaryRole": "Control",
+      "visualLanguage": "broad fungal forms, flowing vine lines and clear aerial silhouettes."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Gale Read",
+        "file": "../../../03_Content/Abilities/gale-orchid/gale-read.md",
+        "id": "PLANT_46_A01",
+        "role": "Control",
+        "concept": "Reveals nearby air currents and their direction."
+      },
+      {
+        "order": 2,
+        "name": "Crosswind",
+        "file": "../../../03_Content/Abilities/gale-orchid/crosswind.md",
+        "id": "PLANT_46_A02",
+        "role": "Control",
+        "concept": "Creates a short lateral gust that redirects drifting hazards and helps adjust an aerial route."
+      },
+      {
+        "order": 3,
+        "name": "Tempest Garden",
+        "file": "../../../03_Content/Abilities/gale-orchid/tempest-garden.md",
+        "id": "PLANT_46_A03",
+        "role": "Control",
+        "concept": "Forms a broad temporary wind field with several readable lift lanes."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/gale-orchid",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "glassfire-lily",
+    "name": "Glassfire Lily",
+    "id": "PLANT_27",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Caldera Reach",
+    "habitat": "Obsidian Shore",
+    "identity": "Translucent petals with ember-like veins and dark glass stems.",
+    "ecologicalRole": "Heat refraction and visibility; the species should visibly affect its biome and nearby environmental clues.",
+    "discoveryClue": "Find the flower that refracts heat shimmer into a stable rainbow.",
+    "abilitySet": {
+      "theme": "Heat refraction and visibility",
+      "primaryRole": "Utility",
+      "visualLanguage": "a coherent family of shapes, colours and animations."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Prism Flicker",
+        "file": "../../../03_Content/Abilities/glassfire-lily/prism-flicker.md",
+        "id": "PLANT_27_A01",
+        "role": "Utility",
+        "concept": "Bends nearby heat shimmer to reveal outlines hidden by distortion."
+      },
+      {
+        "order": 2,
+        "name": "Glassstep",
+        "file": "../../../03_Content/Abilities/glassfire-lily/glassstep.md",
+        "id": "PLANT_27_A02",
+        "role": "Utility",
+        "concept": "Creates a short-lived safe foothold over warm ground."
+      },
+      {
+        "order": 3,
+        "name": "Refraction Bloom",
+        "file": "../../../03_Content/Abilities/glassfire-lily/refraction-bloom.md",
+        "id": "PLANT_27_A03",
+        "role": "Utility",
+        "concept": "Releases a wide shimmering wave that reveals marked hazards and briefly confuses hostile growths."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/glassfire-lily",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "gloomcap",
+    "name": "Gloomcap",
+    "id": "PLANT_42",
+    "status": "PROPOSAL",
+    "rarity": "Distinct",
+    "homeWorld": "Umbra Deep",
+    "habitat": "The Blue Lantern Cavern",
+    "identity": "A wide violet cap with tiny star-like spores drifting just above its surface.",
+    "ecologicalRole": "Spore trails and underground sensing; it forms part of the cave's living navigation network.",
+    "discoveryClue": "Follow the spores that drift against the cave's natural airflow.",
+    "abilitySet": {
+      "theme": "Spore trails and underground sensing",
+      "primaryRole": "Exploration",
+      "visualLanguage": "violet spores, mineral highlights and clear sound-wave cues."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Spore Compass",
+        "file": "../../../03_Content/Abilities/gloomcap/spore-compass.md",
+        "id": "PLANT_42_A01",
+        "role": "Exploration",
+        "concept": "Reveals the direction of nearby hidden fungal networks."
+      },
+      {
+        "order": 2,
+        "name": "Glow Drift",
+        "file": "../../../03_Content/Abilities/gloomcap/glow-drift.md",
+        "id": "PLANT_42_A02",
+        "role": "Exploration",
+        "concept": "Releases a slow-moving cluster of light spores that marks a route."
+      },
+      {
+        "order": 3,
+        "name": "Umbral Map",
+        "file": "../../../03_Content/Abilities/gloomcap/umbral-map.md",
+        "id": "PLANT_42_A03",
+        "role": "Exploration",
+        "concept": "Briefly reveals connected fungal chambers on the player's local survey display."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/gloomcap",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "glowcap",
+    "name": "Glowcap",
+    "id": "PLANT_015",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Umbra Deep",
+    "habitat": "Umbra Deep, Lantern Hollows.",
+    "identity": "**Appearance:** Rounded glowing caps with tiny drifting spores.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Follow light pulses deeper into the cave system.",
+    "abilitySet": {
+      "theme": "Lumen Spores",
+      "primaryRole": null,
+      "visualLanguage": "Bioluminescent spores, glowing rings and soft volumetric light."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Living Light",
+        "file": "../../../03_Content/Abilities/glowcap/living-light.md",
+        "id": "GLOWCAP_01",
+        "role": "TBD",
+        "concept": "Create a controllable biological light source."
+      },
+      {
+        "order": 2,
+        "name": "Sporeburst",
+        "file": "../../../03_Content/Abilities/glowcap/sporeburst.md",
+        "id": "GLOWCAP_02",
+        "role": "TBD",
+        "concept": "Release a cloud of luminous spores that reveals nearby surfaces and clues."
+      },
+      {
+        "order": 3,
+        "name": "Glowpulse",
+        "file": "../../../03_Content/Abilities/glowcap/glowpulse.md",
+        "id": "GLOWCAP_03",
+        "role": "TBD",
+        "concept": "Send a bright pulse that briefly illuminates and disrupts nearby encounter targets."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/glowcap",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "heart-of-verdance",
+    "name": "Heart of Verdance",
+    "id": "PLANT_49",
+    "status": "PROPOSAL",
+    "rarity": "Origin",
+    "homeWorld": "The First Garden",
+    "habitat": "The Living Origin",
+    "identity": "A colossal flower-tree with a glowing heart and roots that disappear beyond the visible landscape.",
+    "ecologicalRole": "Large-scale ecosystem connection; this is an exceptional species connected to the oldest ecological systems in VIREL.",
+    "discoveryClue": "Follow the pulse travelling through the oldest roots and locate the place where every world-song converges.",
+    "abilitySet": {
+      "theme": "Large-scale ecosystem connection",
+      "primaryRole": "World shaping",
+      "visualLanguage": "primordial botanical forms, large readable silhouettes and controlled environmental transformation."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Worldpulse",
+        "file": "../../../03_Content/Abilities/heart-of-verdance/worldpulse.md",
+        "id": "PLANT_49_A01",
+        "role": "World shaping",
+        "concept": "Sends a broad living pulse through the local region, revealing active plant networks and hidden ecological links."
+      },
+      {
+        "order": 2,
+        "name": "Verdant Colossus",
+        "file": "../../../03_Content/Abilities/heart-of-verdance/verdant-colossus.md",
+        "id": "PLANT_49_A02",
+        "role": "World shaping",
+        "concept": "Calls a towering temporary plant form that creates safe cover and a new traversal landmark."
+      },
+      {
+        "order": 3,
+        "name": "Genesis Garden",
+        "file": "../../../03_Content/Abilities/heart-of-verdance/genesis-garden.md",
+        "id": "PLANT_49_A03",
+        "role": "World shaping",
+        "concept": "Transforms a marked clearing into a temporary living garden with new paths, light and environmental interactions."
+      },
+      {
+        "order": 4,
+        "name": "Worldroot Awakening",
+        "file": "../../../03_Content/Abilities/heart-of-verdance/worldroot-awakening.md",
+        "id": "PLANT_49_A04",
+        "role": "World shaping",
+        "concept": "Awakens a temporary network of colossal roots across a marked region, creating new traversal landmarks and revealing sealed ecological links."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/heart-of-verdance",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "hollowbark",
+    "name": "Hollowbark",
+    "id": "PLANT_24",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Myrrwood",
+    "habitat": "Rootbound Groves",
+    "identity": "A tree-like plant with a hollow glowing trunk and layered bark plates.",
+    "ecologicalRole": "Bark structures and protection; its growth should visibly shape nearby terrain and exploration clues.",
+    "discoveryClue": "Listen for the hollow resonance and locate the trunk with a living inner core.",
+    "abilitySet": {
+      "theme": "Bark structures and protection",
+      "primaryRole": "Defense",
+      "visualLanguage": "layered bark, warm root-light and natural growth patterns."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Barkskin",
+        "file": "../../../03_Content/Abilities/hollowbark/barkskin.md",
+        "id": "PLANT_24_A01",
+        "role": "Defense",
+        "concept": "Wraps the player in a brief flexible bark layer that absorbs a limited amount of encounter pressure."
+      },
+      {
+        "order": 2,
+        "name": "Root Brace",
+        "file": "../../../03_Content/Abilities/hollowbark/root-brace.md",
+        "id": "PLANT_24_A02",
+        "role": "Defense",
+        "concept": "Raises a low curved barrier from nearby soil."
+      },
+      {
+        "order": 3,
+        "name": "Heartwood Stand",
+        "file": "../../../03_Content/Abilities/hollowbark/heartwood-stand.md",
+        "id": "PLANT_24_A03",
+        "role": "Defense",
+        "concept": "Creates a temporary protective grove that offers cover and steadies nearby allies."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/hollowbark",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "lanternroot",
+    "name": "Lanternroot",
+    "id": "PLANT_25",
+    "status": "PROPOSAL",
+    "rarity": "Distinct",
+    "homeWorld": "Myrrwood",
+    "habitat": "The Lantern Galleries",
+    "identity": "Pale roots carry warm light through the soil like underground constellations.",
+    "ecologicalRole": "Light paths and hidden-route discovery; its growth should visibly shape nearby terrain and exploration clues.",
+    "discoveryClue": "Trace faint root lights to a hidden junction that only glows when approached quietly.",
+    "abilitySet": {
+      "theme": "Light paths and hidden-route discovery",
+      "primaryRole": "Exploration",
+      "visualLanguage": "layered bark, warm root-light and natural growth patterns."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Rootglow",
+        "file": "../../../03_Content/Abilities/lanternroot/rootglow.md",
+        "id": "PLANT_25_A01",
+        "role": "Exploration",
+        "concept": "Lights nearby root markings and reveals faint tracks."
+      },
+      {
+        "order": 2,
+        "name": "Lantern Line",
+        "file": "../../../03_Content/Abilities/lanternroot/lantern-line.md",
+        "id": "PLANT_25_A02",
+        "role": "Exploration",
+        "concept": "Projects a temporary line of light between two visible root nodes, highlighting a safe route."
+      },
+      {
+        "order": 3,
+        "name": "Lumen Gate",
+        "file": "../../../03_Content/Abilities/lanternroot/lumen-gate.md",
+        "id": "PLANT_25_A03",
+        "role": "Exploration",
+        "concept": "Activates a discovered root arch to open a short-lived passage between linked clearings."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/lanternroot",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "lullaby-reed",
+    "name": "Lullaby Reed",
+    "id": "PLANT_38",
+    "status": "PROPOSAL",
+    "rarity": "Forgotten",
+    "homeWorld": "Nacre Hollow",
+    "habitat": "The Humming Mire",
+    "identity": "A cluster of long silver reeds that produce layered tones when fog rolls through them.",
+    "ecologicalRole": "Sound patterns and calming fields; the plant helps players understand the hidden water cycle of its biome.",
+    "discoveryClue": "Match the reed's repeating rhythm to a distant echo across the mire.",
+    "abilitySet": {
+      "theme": "Sound patterns and calming fields",
+      "primaryRole": "Support",
+      "visualLanguage": "pale petals, cool highlights and flowing water lines."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Softnote",
+        "file": "../../../03_Content/Abilities/lullaby-reed/softnote.md",
+        "id": "PLANT_38_A01",
+        "role": "Support",
+        "concept": "Sends a gentle tone that reveals nearby echo-markers."
+      },
+      {
+        "order": 2,
+        "name": "Echo Pocket",
+        "file": "../../../03_Content/Abilities/lullaby-reed/echo-pocket.md",
+        "id": "PLANT_38_A02",
+        "role": "Support",
+        "concept": "Creates a quiet zone that dampens distracting environmental sounds and highlights important audio clues."
+      },
+      {
+        "order": 3,
+        "name": "Dream Chorus",
+        "file": "../../../03_Content/Abilities/lullaby-reed/dream-chorus.md",
+        "id": "PLANT_38_A03",
+        "role": "Support",
+        "concept": "Links several discovered sound nodes into a temporary safe route through the fog."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/lullaby-reed",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "meadowflare",
+    "name": "Meadowflare",
+    "id": "PLANT_022",
+    "status": "PROPOSAL",
+    "rarity": "Distinct",
+    "homeWorld": "Auralis",
+    "habitat": "Sunthread Fields",
+    "identity": "Broad golden petals with reflective centres that turn toward the strongest light source.",
+    "ecologicalRole": "Light bursts and area control. The species creates visible light patterns that mark environmental changes.",
+    "discoveryClue": "Compare its petal orientation at dawn and under cloud cover.",
+    "abilitySet": {
+      "theme": "Light bursts and area control.",
+      "primaryRole": "Combat.",
+      "visualLanguage": "Golden petals, focused beams and warm circular light patterns."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Solar Pulse",
+        "file": "../../../03_Content/Abilities/meadowflare/solar-pulse.md",
+        "id": "PLANT_022_A01",
+        "role": "Combat",
+        "concept": "Releases a focused flash that briefly disrupts nearby hostile growths and marks them clearly."
+      },
+      {
+        "order": 2,
+        "name": "Radiant Ring",
+        "file": "../../../03_Content/Abilities/meadowflare/radiant-ring.md",
+        "id": "PLANT_022_A02",
+        "role": "Combat",
+        "concept": "Creates a circular field of warm light that weakens incoming environmental hazards and reveals hidden traces."
+      },
+      {
+        "order": 3,
+        "name": "Sunfall",
+        "file": "../../../03_Content/Abilities/meadowflare/sunfall.md",
+        "id": "PLANT_022_A03",
+        "role": "Combat",
+        "concept": "Calls down a concentrated column of light at a marked point after a visible warning."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/meadowflare",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "mirage-thorn",
+    "name": "Mirage Thorn",
+    "id": "PLANT_41",
+    "status": "PROPOSAL",
+    "rarity": "Relic",
+    "homeWorld": "Sereglass",
+    "habitat": "The False Horizon",
+    "identity": "A rare branching thorn plant whose silhouette appears at different distances depending on the angle of the sun.",
+    "ecologicalRole": "Mirage paths and spatial misdirection; the species changes how players interpret light, distance and terrain.",
+    "discoveryClue": "Approach its apparent location from three different landmarks and compare the shadows.",
+    "abilitySet": {
+      "theme": "Mirage paths and spatial misdirection",
+      "primaryRole": "Exploration",
+      "visualLanguage": "refracted sunlight, pale glass and readable horizon cues."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Horizon Read",
+        "file": "../../../03_Content/Abilities/mirage-thorn/horizon-read.md",
+        "id": "PLANT_41_A01",
+        "role": "Exploration",
+        "concept": "Reveals which distant landmarks are genuine and which are heat mirages."
+      },
+      {
+        "order": 2,
+        "name": "Mirage Step",
+        "file": "../../../03_Content/Abilities/mirage-thorn/mirage-step.md",
+        "id": "PLANT_41_A02",
+        "role": "Exploration",
+        "concept": "Creates a brief decoy silhouette while the player makes a short lateral reposition."
+      },
+      {
+        "order": 3,
+        "name": "False Horizon",
+        "file": "../../../03_Content/Abilities/mirage-thorn/false-horizon.md",
+        "id": "PLANT_41_A03",
+        "role": "Exploration",
+        "concept": "Reveals a temporary hidden route through a series of aligned mirage markers."
+      },
+      {
+        "order": 4,
+        "name": "Horizon Fold",
+        "file": "../../../03_Content/Abilities/mirage-thorn/horizon-fold.md",
+        "id": "PLANT_41_A04",
+        "role": "Exploration",
+        "concept": "Connects several revealed mirage markers into a temporary alternate route across the false horizon."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/mirage-thorn",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "mistbell",
+    "name": "Mistbell",
+    "id": "PLANT_011",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Nacre Hollow",
+    "habitat": "Nacre Hollow, Drifting Marsh.",
+    "identity": "**Appearance:** Ivory bells surrounded by suspended droplets.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Follow the fog and observe the droplets as humidity changes.",
+    "abilitySet": {
+      "theme": "Veilmist",
+      "primaryRole": null,
+      "visualLanguage": "Rolling pearl mist, floating droplets and soft refracted light."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Moisture Sense",
+        "file": "../../../03_Content/Abilities/mistbell/moisture-sense.md",
+        "id": "MISTBELL_01",
+        "role": "TBD",
+        "concept": "Highlight nearby moisture trails and hidden pools."
+      },
+      {
+        "order": 2,
+        "name": "Mistveil",
+        "file": "../../../03_Content/Abilities/mistbell/mistveil.md",
+        "id": "MISTBELL_02",
+        "role": "TBD",
+        "concept": "Release a moving cloud of mist that obscures an area."
+      },
+      {
+        "order": 3,
+        "name": "Dewburst",
+        "file": "../../../03_Content/Abilities/mistbell/dewburst.md",
+        "id": "MISTBELL_03",
+        "role": "TBD",
+        "concept": "Send a concentrated spray of water droplets in a short-range burst."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/mistbell",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "moonlace",
+    "name": "Moonlace",
+    "id": "PLANT_012",
+    "status": "PROPOSAL",
+    "rarity": "Forgotten",
+    "homeWorld": "Nacre Hollow",
+    "habitat": "Nacre Hollow, Nightglass Fen.",
+    "identity": "**Appearance:** Dark leaves with pale threadlike veins and flowers that open in low natural light.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Visit after dusk and compare the plant under changing cloud cover.",
+    "abilitySet": {
+      "theme": "Moonveil",
+      "primaryRole": null,
+      "visualLanguage": "Pale violet light, crescent arcs and floating luminous petals."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Nocturne Sight",
+        "file": "../../../03_Content/Abilities/moonlace/nocturne-sight.md",
+        "id": "MOONLACE_01",
+        "role": "TBD",
+        "concept": "Reveal nocturnal organisms and recent traces."
+      },
+      {
+        "order": 2,
+        "name": "Moonstep",
+        "file": "../../../03_Content/Abilities/moonlace/moonstep.md",
+        "id": "MOONLACE_02",
+        "role": "TBD",
+        "concept": "Make a short, graceful dash that leaves a fading lunar afterimage."
+      },
+      {
+        "order": 3,
+        "name": "Lunarbloom",
+        "file": "../../../03_Content/Abilities/moonlace/lunarbloom.md",
+        "id": "MOONLACE_03",
+        "role": "TBD",
+        "concept": "Release a radiant crescent pulse around the player."
+      },
+      {
+        "order": 4,
+        "name": "Nightgarden",
+        "file": "../../../03_Content/Abilities/moonlace/nightgarden.md",
+        "id": "MOONLACE_04",
+        "role": "TBD",
+        "concept": "Create a temporary field of moonlit flowers that reveals movement and supports the player's next action."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/moonlace",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "pearlcurrent",
+    "name": "Pearlcurrent",
+    "id": "PLANT_32",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Pelagora",
+    "habitat": "The Pearl Maze",
+    "identity": "Pearl-like bulbs connect through translucent ribbons that follow water movement.",
+    "ecologicalRole": "Water barriers and team movement; the plant signals and subtly alters local weather conditions.",
+    "discoveryClue": "Track a pearl's changing position through the maze as the tide turns.",
+    "abilitySet": {
+      "theme": "Water barriers and team movement",
+      "primaryRole": "Support",
+      "visualLanguage": "soft snow forms, crisp ice edges and readable pale-blue cues."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Pearl Ward",
+        "file": "../../../03_Content/Abilities/pearlcurrent/pearl-ward.md",
+        "id": "PLANT_32_A01",
+        "role": "Support",
+        "concept": "Places a floating pearl that softens one incoming environmental impact."
+      },
+      {
+        "order": 2,
+        "name": "Tide Bridge",
+        "file": "../../../03_Content/Abilities/pearlcurrent/tide-bridge.md",
+        "id": "PLANT_32_A02",
+        "role": "Support",
+        "concept": "Creates a temporary flowing bridge between two water nodes."
+      },
+      {
+        "order": 3,
+        "name": "Prismatic Surge",
+        "file": "../../../03_Content/Abilities/pearlcurrent/prismatic-surge.md",
+        "id": "PLANT_32_A03",
+        "role": "Support",
+        "concept": "Sends a broad, bright current through a marked lane, carrying allies and displacing hazards."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/pearlcurrent",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "pebblecup",
+    "name": "Pebblecup",
+    "id": "PLANT_013",
+    "status": "PROPOSAL",
+    "rarity": "Natural",
+    "homeWorld": "Sereglass",
+    "habitat": "Sereglass, Drywash Basin.",
+    "identity": "**Appearance:** Stone-coloured cups that collect condensation in shaded rock clusters.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Inspect rock shadows at dawn.",
+    "abilitySet": {
+      "theme": "Stonewell",
+      "primaryRole": null,
+      "visualLanguage": "Floating stone pieces, water droplets and compact circular shields."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Moisture Mapping",
+        "file": "../../../03_Content/Abilities/pebblecup/moisture-mapping.md",
+        "id": "PEBBLECUP_01",
+        "role": "TBD",
+        "concept": "Highlight nearby hidden moisture pockets."
+      },
+      {
+        "order": 2,
+        "name": "Pebbleguard",
+        "file": "../../../03_Content/Abilities/pebblecup/pebbleguard.md",
+        "id": "PEBBLECUP_02",
+        "role": "TBD",
+        "concept": "Form a brief protective shell of compacted mineral fragments."
+      },
+      {
+        "order": 3,
+        "name": "Springshot",
+        "file": "../../../03_Content/Abilities/pebblecup/springshot.md",
+        "id": "PEBBLECUP_03",
+        "role": "TBD",
+        "concept": "Release a concentrated burst of stored water and mineral particles."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/pebblecup",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "rainbell",
+    "name": "Rainbell",
+    "id": "PLANT_023",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Auralis",
+    "habitat": "Rainmirror Pools",
+    "identity": "Glasslike bell flowers that collect droplets inside suspended leaf cups.",
+    "ecologicalRole": "Rain shaping and recovery zones. The species influences its habitat and should be integrated into local environmental storytelling.",
+    "discoveryClue": "Follow the sound of droplets to a specimen that only opens after rainfall.",
+    "abilitySet": {
+      "theme": "Rain shaping and recovery zones",
+      "primaryRole": "Support",
+      "visualLanguage": "All three abilities share a consistent colour, shape and motion language."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Drizzle Veil",
+        "file": "../../../03_Content/Abilities/rainbell/drizzle-veil.md",
+        "id": "PLANT_023_A01",
+        "role": "Support",
+        "concept": "Summons a small moving rain cloud that cools overheated terrain."
+      },
+      {
+        "order": 2,
+        "name": "Rainstep",
+        "file": "../../../03_Content/Abilities/rainbell/rainstep.md",
+        "id": "PLANT_023_A02",
+        "role": "Support",
+        "concept": "Creates a short sequence of temporary water pads over shallow gaps."
+      },
+      {
+        "order": 3,
+        "name": "Cloudburst",
+        "file": "../../../03_Content/Abilities/rainbell/cloudburst.md",
+        "id": "PLANT_023_A03",
+        "role": "Support",
+        "concept": "A large, clearly telegraphed rainfall zone that refreshes nearby plant mechanisms and pushes back hostile spores."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/rainbell",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "rimepine",
+    "name": "Rimepine",
+    "id": "PLANT_34",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Veyr Peaks",
+    "habitat": "The Crowned Glacier",
+    "identity": "A compact pine-like plant with crystalline needles that gather frost in geometric fans.",
+    "ecologicalRole": "Ice shaping and high-altitude routes; it is part of the mountain's weather and traversal ecosystem.",
+    "discoveryClue": "Find the only specimen whose needles point toward a hidden warm spring.",
+    "abilitySet": {
+      "theme": "Ice shaping and high-altitude routes",
+      "primaryRole": "Traversal",
+      "visualLanguage": "crystalline needles, sharp mountain silhouettes and clear storm cues."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Rime Climb",
+        "file": "../../../03_Content/Abilities/rimepine/rime-climb.md",
+        "id": "PLANT_34_A01",
+        "role": "Traversal",
+        "concept": "Creates brief grip points on marked ice surfaces."
+      },
+      {
+        "order": 2,
+        "name": "Glacier Step",
+        "file": "../../../03_Content/Abilities/rimepine/glacier-step.md",
+        "id": "PLANT_34_A02",
+        "role": "Traversal",
+        "concept": "Raises a short sequence of sturdy ice platforms along a visible route."
+      },
+      {
+        "order": 3,
+        "name": "Crownslide",
+        "file": "../../../03_Content/Abilities/rimepine/crownslide.md",
+        "id": "PLANT_34_A03",
+        "role": "Traversal",
+        "concept": "Creates a controlled ice path down a slope with a clear stopping marker."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/rimepine",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "skydrift",
+    "name": "Skydrift",
+    "id": "PLANT_018",
+    "status": "PROPOSAL",
+    "rarity": "Relic",
+    "homeWorld": "Zephyr Crown",
+    "habitat": "Zephyr Crown, The High Aeries.",
+    "identity": "**Appearance:** Floating leaf structures that reshape themselves around air currents.",
+    "ecologicalRole": "TBD.",
+    "discoveryClue": "Search high-altitude pockets where loose leaves circle without falling.",
+    "abilitySet": {
+      "theme": "Aetherwing",
+      "primaryRole": null,
+      "visualLanguage": "Floating leaves, curved wind trails and a dramatic wing-like formation."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Airstep",
+        "file": "../../../03_Content/Abilities/skydrift/airstep.md",
+        "id": "SKYDRIFT_01",
+        "role": "TBD",
+        "concept": "Create one brief midair foothold."
+      },
+      {
+        "order": 2,
+        "name": "Updraft",
+        "file": "../../../03_Content/Abilities/skydrift/updraft.md",
+        "id": "SKYDRIFT_02",
+        "role": "TBD",
+        "concept": "Ride a powerful vertical current for a short lift."
+      },
+      {
+        "order": 3,
+        "name": "Skyshards",
+        "file": "../../../03_Content/Abilities/skydrift/skyshards.md",
+        "id": "SKYDRIFT_03",
+        "role": "TBD",
+        "concept": "Send a spiralling formation of compressed-air leaf fragments forward."
+      },
+      {
+        "order": 4,
+        "name": "Wingspan",
+        "file": "../../../03_Content/Abilities/skydrift/wingspan.md",
+        "id": "SKYDRIFT_04",
+        "role": "TBD",
+        "concept": "Unfurl a temporary gliding form with strong directional control."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/skydrift",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "snowbell",
+    "name": "Snowbell",
+    "id": "PLANT_33",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Veyr Peaks",
+    "habitat": "The Whiteglass Slopes",
+    "identity": "Small white bells grow beneath overhanging ice shelves, chiming when snow begins to move.",
+    "ecologicalRole": "Snow barriers and cold-weather protection; the plant signals and subtly alters local weather conditions.",
+    "discoveryClue": "Follow the first bell to ring before a local snowfall.",
+    "abilitySet": {
+      "theme": "Snow barriers and cold-weather protection",
+      "primaryRole": "Defense",
+      "visualLanguage": "soft snow forms, crisp ice edges and readable pale-blue cues."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Snowmantle",
+        "file": "../../../03_Content/Abilities/snowbell/snowmantle.md",
+        "id": "PLANT_33_A01",
+        "role": "Defense",
+        "concept": "Creates a brief insulating layer that reduces environmental chill effects."
+      },
+      {
+        "order": 2,
+        "name": "Driftwall",
+        "file": "../../../03_Content/Abilities/snowbell/driftwall.md",
+        "id": "PLANT_33_A02",
+        "role": "Defense",
+        "concept": "Raises a soft bank of packed snow as temporary cover."
+      },
+      {
+        "order": 3,
+        "name": "Whiteout Dome",
+        "file": "../../../03_Content/Abilities/snowbell/whiteout-dome.md",
+        "id": "PLANT_33_A03",
+        "role": "Defense",
+        "concept": "Forms a short-lived sheltered dome that clears airborne snow from its interior."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/snowbell",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "springvine",
+    "name": "Springvine",
+    "id": "PLANT_017",
+    "status": "PROPOSAL",
+    "rarity": "Unusual",
+    "homeWorld": "Zephyr Crown",
+    "habitat": "Zephyr Crown, Windwoven Cliffs.",
+    "identity": "**Appearance:** Flexible coiled vines with bright leaf tips.",
+    "ecologicalRole": "TBD.",
+    "discoveryClue": "Observe how the coils respond to gusts and tension.",
+    "abilitySet": {
+      "theme": "Wildcoil",
+      "primaryRole": null,
+      "visualLanguage": "Fast-growing green coils, leaf trails and elastic snap effects."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Vinepull",
+        "file": "../../../03_Content/Abilities/springvine/vinepull.md",
+        "id": "SPRINGVINE_01",
+        "role": "TBD",
+        "concept": "Pull toward suitable natural anchor points."
+      },
+      {
+        "order": 2,
+        "name": "Vinebind",
+        "file": "../../../03_Content/Abilities/springvine/vinebind.md",
+        "id": "SPRINGVINE_02",
+        "role": "TBD",
+        "concept": "Send a fast-growing vine to briefly hold an encounter target."
+      },
+      {
+        "order": 3,
+        "name": "Coilburst",
+        "file": "../../../03_Content/Abilities/springvine/coilburst.md",
+        "id": "SPRINGVINE_03",
+        "role": "TBD",
+        "concept": "Release stored tension in a forward-moving vine burst."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/springvine",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "starfeather-grass",
+    "name": "Starfeather Grass",
+    "id": "PLANT_050",
+    "status": "PROPOSAL",
+    "rarity": "Relic",
+    "homeWorld": "Zephyr Crown",
+    "habitat": "The Starwind Plateau",
+    "identity": "A wide patch of silver grass whose seed heads resemble tiny stars. At night, the seed plumes lift into the air and trace the local wind currents.",
+    "ecologicalRole": "Aerial route marking and high-altitude seed dispersal.",
+    "discoveryClue": "Follow the seed plumes across the plateau and identify the patch that continues to point toward a hidden updraft after the wind changes.",
+    "abilitySet": {
+      "theme": "Star-like seeds, silver grass and aerial paths.",
+      "primaryRole": "Movement and exploration.",
+      "visualLanguage": null
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Starfall Tuft",
+        "file": "../../../03_Content/Abilities/starfeather-grass/starfall-tuft.md",
+        "id": "PLANT_050_A01",
+        "role": "Movement",
+        "concept": "A soft burst of star-shaped seeds marks a temporary route through open air."
+      },
+      {
+        "order": 2,
+        "name": "Astral Step",
+        "file": "../../../03_Content/Abilities/starfeather-grass/astral-step.md",
+        "id": "PLANT_050_A02",
+        "role": "Movement",
+        "concept": "Creates a short sequence of glowing footholds that appear along a safe aerial arc."
+      },
+      {
+        "order": 3,
+        "name": "Nightwing Canopy",
+        "file": "../../../03_Content/Abilities/starfeather-grass/nightwing-canopy.md",
+        "id": "PLANT_050_A03",
+        "role": "Movement",
+        "concept": "Unfurls a broad temporary canopy that catches an updraft and supports a controlled glide."
+      },
+      {
+        "order": 4,
+        "name": "Celestial Passage",
+        "file": "../../../03_Content/Abilities/starfeather-grass/celestial-passage.md",
+        "id": "PLANT_050_A04",
+        "role": "Movement",
+        "concept": "Creates a long temporary aerial route with several readable lift points between distant highland landmarks."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/starfeather-grass",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "stoneheart-moss",
+    "name": "Stoneheart Moss",
+    "id": "PLANT_016",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Umbra Deep",
+    "habitat": "Umbra Deep, The Vertical Archive",
+    "identity": "**Appearance:** Thick dark moss with pale crystalline flecks, growing across steep stone.",
+    "ecologicalRole": "TBD.",
+    "discoveryClue": "Study attachment patterns on different rock types.",
+    "abilitySet": {
+      "theme": "Bedrock",
+      "primaryRole": null,
+      "visualLanguage": "Crystalline moss, layered rock plates and heavy ground growth."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Stonegrip",
+        "file": "../../../03_Content/Abilities/stoneheart-moss/stonegrip.md",
+        "id": "STONEHEART_MOSS_01",
+        "role": "TBD",
+        "concept": "Cling briefly to designated natural climbing surfaces."
+      },
+      {
+        "order": 2,
+        "name": "Mossguard",
+        "file": "../../../03_Content/Abilities/stoneheart-moss/mossguard.md",
+        "id": "STONEHEART_MOSS_02",
+        "role": "TBD",
+        "concept": "Grow a layered stone-and-moss protective shell."
+      },
+      {
+        "order": 3,
+        "name": "Fault Bloom",
+        "file": "../../../03_Content/Abilities/stoneheart-moss/fault-bloom.md",
+        "id": "STONEHEART_MOSS_03",
+        "role": "TBD",
+        "concept": "Raise a short row of stone growths that can block a route or create stepping points."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/stoneheart-moss",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "stormbell",
+    "name": "Stormbell",
+    "id": "PLANT_010",
+    "status": "PROPOSAL",
+    "rarity": "Forgotten",
+    "homeWorld": "Veyr Peaks",
+    "habitat": "Veyr Peaks, Thunderline Ridge.",
+    "identity": "**Appearance:** Hanging bell blooms with metallic-looking stems that vibrate before storms.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Listen for its low ringing before distant weather changes.",
+    "abilitySet": {
+      "theme": "Tempest Choir",
+      "primaryRole": null,
+      "visualLanguage": "Electric filaments, floating bell motes and branching light patterns."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Storm Forecast",
+        "file": "../../../03_Content/Abilities/stormbell/storm-forecast.md",
+        "id": "STORMBELL_01",
+        "role": "TBD",
+        "concept": "Predict nearby storms and weather-sensitive discoveries."
+      },
+      {
+        "order": 2,
+        "name": "Bellstrike",
+        "file": "../../../03_Content/Abilities/stormbell/bellstrike.md",
+        "id": "STORMBELL_02",
+        "role": "TBD",
+        "concept": "Send a focused electrical pulse."
+      },
+      {
+        "order": 3,
+        "name": "Static Field",
+        "file": "../../../03_Content/Abilities/stormbell/static-field.md",
+        "id": "STORMBELL_03",
+        "role": "TBD",
+        "concept": "Create a temporary field of crackling energy that disrupts nearby encounter targets."
+      },
+      {
+        "order": 4,
+        "name": "Tempest Call",
+        "file": "../../../03_Content/Abilities/stormbell/tempest-call.md",
+        "id": "STORMBELL_04",
+        "role": "TBD",
+        "concept": "Summon a dramatic local storm burst centred on a marked area."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/stormbell",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "sunshard-cactus",
+    "name": "Sunshard Cactus",
+    "id": "PLANT_40",
+    "status": "PROPOSAL",
+    "rarity": "Distinct",
+    "homeWorld": "Sereglass",
+    "habitat": "The Shard Dunes",
+    "identity": "A tall pale cactus with translucent spines that scatter sunlight into small moving points.",
+    "ecologicalRole": "Light refraction and route marking; the species changes how players interpret light, distance and terrain.",
+    "discoveryClue": "Find the cactus whose shadow points away from the strongest light.",
+    "abilitySet": {
+      "theme": "Light refraction and route marking",
+      "primaryRole": "Utility",
+      "visualLanguage": "refracted sunlight, pale glass and readable horizon cues."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Shardmark",
+        "file": "../../../03_Content/Abilities/sunshard-cactus/shardmark.md",
+        "id": "PLANT_40_A01",
+        "role": "Utility",
+        "concept": "Places a bright marker on a visible surface that remains readable through heat shimmer."
+      },
+      {
+        "order": 2,
+        "name": "Prism Guard",
+        "file": "../../../03_Content/Abilities/sunshard-cactus/prism-guard.md",
+        "id": "PLANT_40_A02",
+        "role": "Utility",
+        "concept": "Creates a brief curved refraction screen that softens incoming environmental effects."
+      },
+      {
+        "order": 3,
+        "name": "Sunshard Array",
+        "file": "../../../03_Content/Abilities/sunshard-cactus/sunshard-array.md",
+        "id": "PLANT_40_A03",
+        "role": "Utility",
+        "concept": "Projects several linked light markers to reveal a safe path across the dunes."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/sunshard-cactus",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "sunspool",
+    "name": "Sunspool",
+    "id": "PLANT_002",
+    "status": "PROPOSAL",
+    "rarity": "Natural",
+    "homeWorld": "Auralis",
+    "habitat": "Auralis, Sunthread Fields.",
+    "identity": "**Appearance:** Golden spiral flowers that turn toward bright light.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Follow the direction of several flower heads and compare their position at different times.",
+    "abilitySet": {
+      "theme": "Sunthread",
+      "primaryRole": null,
+      "visualLanguage": "Golden filaments, lens-like flares and expanding sun-ring patterns."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Solar Flare",
+        "file": "../../../03_Content/Abilities/sunspool/solar-flare.md",
+        "id": "SUNSPOOL_01",
+        "role": "TBD",
+        "concept": "Release a bright, focused pulse."
+      },
+      {
+        "order": 2,
+        "name": "Sunmark",
+        "file": "../../../03_Content/Abilities/sunspool/sunmark.md",
+        "id": "SUNSPOOL_02",
+        "role": "TBD",
+        "concept": "Mark a point of interest and reveal nearby light-sensitive clues."
+      },
+      {
+        "order": 3,
+        "name": "Daybreak",
+        "file": "../../../03_Content/Abilities/sunspool/daybreak.md",
+        "id": "SUNSPOOL_03",
+        "role": "TBD",
+        "concept": "Create a short-lived radiant field that strengthens visibility and sends out a small pulse."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/sunspool",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "thornwake",
+    "name": "Thornwake",
+    "id": "PLANT_26",
+    "status": "PROPOSAL",
+    "rarity": "Forgotten",
+    "homeWorld": "Myrrwood",
+    "habitat": "The Thorn Cathedral",
+    "identity": "A towering vine with dark red thorns that grow in deliberate geometric patterns.",
+    "ecologicalRole": "Zone shaping and controlled thorn growth; the species should visibly affect its biome and nearby environmental clues.",
+    "discoveryClue": "Observe how its thorns reorient when nearby creatures move.",
+    "abilitySet": {
+      "theme": "Zone shaping and controlled thorn growth",
+      "primaryRole": "Combat",
+      "visualLanguage": "a coherent family of shapes, colours and animations."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Briar Sweep",
+        "file": "../../../03_Content/Abilities/thornwake/briar-sweep.md",
+        "id": "PLANT_26_A01",
+        "role": "Combat",
+        "concept": "A broad ground-level wave of soft-glowing thorns pushes nearby threats back."
+      },
+      {
+        "order": 2,
+        "name": "Thornwall",
+        "file": "../../../03_Content/Abilities/thornwake/thornwall.md",
+        "id": "PLANT_26_A02",
+        "role": "Combat",
+        "concept": "Raises a curved temporary hedge that blocks a route until it fades."
+      },
+      {
+        "order": 3,
+        "name": "Crown of Thorns",
+        "file": "../../../03_Content/Abilities/thornwake/crown-of-thorns.md",
+        "id": "PLANT_26_A03",
+        "role": "Combat",
+        "concept": "Marks a zone; after a clear warning, thorn growth appears in several controlled lanes."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/thornwake",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "threadroot",
+    "name": "Threadroot",
+    "id": "PLANT_003",
+    "status": "PROPOSAL",
+    "rarity": "Natural",
+    "homeWorld": "Myrrwood",
+    "habitat": "Myrrwood, Rootbound Groves.",
+    "identity": "**Appearance:** Copper-green roots that braid across the soil and connect trees.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Trace repeating root patterns between connected trees.",
+    "abilitySet": {
+      "theme": "Rootcall",
+      "primaryRole": null,
+      "visualLanguage": "Copper roots racing across the ground, soil displacement and glowing connection lines."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Rootsense",
+        "file": "../../../03_Content/Abilities/threadroot/rootsense.md",
+        "id": "THREADROOT_01",
+        "role": "TBD",
+        "concept": "Highlight nearby root networks and plant signals."
+      },
+      {
+        "order": 2,
+        "name": "Root Snare",
+        "file": "../../../03_Content/Abilities/threadroot/root-snare.md",
+        "id": "THREADROOT_02",
+        "role": "TBD",
+        "concept": "Send roots across the ground to briefly bind a target in an encounter."
+      },
+      {
+        "order": 3,
+        "name": "Rootrise",
+        "file": "../../../03_Content/Abilities/threadroot/rootrise.md",
+        "id": "THREADROOT_03",
+        "role": "TBD",
+        "concept": "Raise a short line of roots that can provide cover or a stepping route."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/threadroot",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "thunderroot",
+    "name": "Thunderroot",
+    "id": "PLANT_35",
+    "status": "PROPOSAL",
+    "rarity": "Relic",
+    "homeWorld": "Veyr Peaks",
+    "habitat": "The Thunder Shelf",
+    "identity": "Dark roots cling to exposed mountain stone while silver veins pulse before distant thunder.",
+    "ecologicalRole": "Storm timing and safe electrical paths; it is part of the mountain's weather and traversal ecosystem.",
+    "discoveryClue": "Map the timing between its pulses and the storm rolling over the ridge.",
+    "abilitySet": {
+      "theme": "Storm timing and safe electrical paths",
+      "primaryRole": "Control",
+      "visualLanguage": "crystalline needles, sharp mountain silhouettes and clear storm cues."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Static Sense",
+        "file": "../../../03_Content/Abilities/thunderroot/static-sense.md",
+        "id": "PLANT_35_A01",
+        "role": "Control",
+        "concept": "Reveals nearby charged surfaces and safe grounding points."
+      },
+      {
+        "order": 2,
+        "name": "Grounding Root",
+        "file": "../../../03_Content/Abilities/thunderroot/grounding-root.md",
+        "id": "PLANT_35_A02",
+        "role": "Control",
+        "concept": "Creates a temporary safe zone that redirects ambient storm energy into the soil."
+      },
+      {
+        "order": 3,
+        "name": "Stormanchor",
+        "file": "../../../03_Content/Abilities/thunderroot/stormanchor.md",
+        "id": "PLANT_35_A03",
+        "role": "Control",
+        "concept": "Links several marked grounding points into a large temporary field that stabilises a storm route."
+      },
+      {
+        "order": 4,
+        "name": "Stormheart Convergence",
+        "file": "../../../03_Content/Abilities/thunderroot/stormheart-convergence.md",
+        "id": "PLANT_35_A04",
+        "role": "Control",
+        "concept": "A large temporary storm field links every active grounding point in the region and opens a stable crossing through the ridge."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/thunderroot",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "tideglass",
+    "name": "Tideglass",
+    "id": "PLANT_008",
+    "status": "PROPOSAL",
+    "rarity": "Distinct",
+    "homeWorld": "Pelagora",
+    "habitat": "Pelagora, Bluefall Reef.",
+    "identity": "**Appearance:** Clear fan-shaped leaves that scatter sunlight into narrow bands.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Observe how the plant flexes as currents change.",
+    "abilitySet": {
+      "theme": "Tidal Form",
+      "primaryRole": null,
+      "visualLanguage": "Refraction bands, swirling currents and glass-clear wave surfaces."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Deep Current",
+        "file": "../../../03_Content/Abilities/tideglass/deep-current.md",
+        "id": "TIDEGLASS_01",
+        "role": "TBD",
+        "concept": "Improve underwater movement and control for a limited time."
+      },
+      {
+        "order": 2,
+        "name": "Pressure Bloom",
+        "file": "../../../03_Content/Abilities/tideglass/pressure-bloom.md",
+        "id": "TIDEGLASS_02",
+        "role": "TBD",
+        "concept": "Release a circular underwater pressure wave."
+      },
+      {
+        "order": 3,
+        "name": "Tidewall",
+        "file": "../../../03_Content/Abilities/tideglass/tidewall.md",
+        "id": "TIDEGLASS_03",
+        "role": "TBD",
+        "concept": "Raise a curved moving wall of water that can redirect movement and provide temporary cover."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/tideglass",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "veil-orchid",
+    "name": "Veil Orchid",
+    "id": "PLANT_014",
+    "status": "PROPOSAL",
+    "rarity": "Ancient",
+    "homeWorld": "Sereglass",
+    "habitat": "Sereglass, The Veiled Escarpment.",
+    "identity": "**Appearance:** Translucent petals that blend into heat shimmer.",
+    "ecologicalRole": "TBD. Define how this species affects or responds to its ecosystem before implementation.",
+    "discoveryClue": "Look for air distortion that does not match the surrounding heat.",
+    "abilitySet": {
+      "theme": "Mirage Bloom",
+      "primaryRole": null,
+      "visualLanguage": "Heat-haze distortions, prismatic petals and mirrored afterimages."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Veil Sight",
+        "file": "../../../03_Content/Abilities/veil-orchid/veil-sight.md",
+        "id": "VEIL_ORCHID_01",
+        "role": "TBD",
+        "concept": "Reveal concealed natural passages and hidden markings."
+      },
+      {
+        "order": 2,
+        "name": "Mirage Step",
+        "file": "../../../03_Content/Abilities/veil-orchid/mirage-step.md",
+        "id": "VEIL_ORCHID_02",
+        "role": "TBD",
+        "concept": "Create a short displacement with a shimmering afterimage."
+      },
+      {
+        "order": 3,
+        "name": "Glasspetal",
+        "file": "../../../03_Content/Abilities/veil-orchid/glasspetal.md",
+        "id": "VEIL_ORCHID_03",
+        "role": "TBD",
+        "concept": "Send a curved wave of refracted light that briefly confuses encounter targets."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/veil-orchid",
+      "imageCount": 0
+    }
+  },
+  {
+    "slug": "worldroot",
+    "name": "Worldroot",
+    "id": "PLANT_019",
+    "status": "PROPOSAL",
+    "rarity": "Origin",
+    "homeWorld": "The First Garden",
+    "habitat": "The First Garden, Root of All Paths.",
+    "identity": "**Appearance:** An immense living root structure with branching patterns unlike any known species.",
+    "ecologicalRole": "TBD.",
+    "discoveryClue": "Connect clues from several worlds to locate it.",
+    "abilitySet": {
+      "theme": "Worldweave",
+      "primaryRole": null,
+      "visualLanguage": "Monumental roots, glowing vein networks and landscape-scale growth."
+    },
+    "abilities": [
+      {
+        "order": 1,
+        "name": "Rootway",
+        "file": "../../../03_Content/Abilities/worldroot/rootway.md",
+        "id": "WORLDROOT_01",
+        "role": "TBD",
+        "concept": "Activate specific ancient root gates between established hidden locations."
+      },
+      {
+        "order": 2,
+        "name": "Worldbind",
+        "file": "../../../03_Content/Abilities/worldroot/worldbind.md",
+        "id": "WORLDROOT_02",
+        "role": "TBD",
+        "concept": "Raise enormous roots that reshape a local encounter space."
+      },
+      {
+        "order": 3,
+        "name": "Rootwake",
+        "file": "../../../03_Content/Abilities/worldroot/rootwake.md",
+        "id": "WORLDROOT_03",
+        "role": "TBD",
+        "concept": "Send a branching wave through the ground that reveals connected life and hidden structures."
+      },
+      {
+        "order": 4,
+        "name": "Verdant Colossus",
+        "file": "../../../03_Content/Abilities/worldroot/verdant-colossus.md",
+        "id": "WORLDROOT_04",
+        "role": "TBD",
+        "concept": "Briefly summon a towering root formation that provides protection and a powerful area effect."
+      }
+    ],
+    "art": {
+      "path": "05_Presentation/Concept_Art/Plants/worldroot",
+      "imageCount": 0
+    }
+  }
+]

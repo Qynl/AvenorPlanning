@@ -1,0 +1,841 @@
+[
+  {
+    "world": "auralis",
+    "kind": "major",
+    "name": "Glasswater Basin",
+    "slug": "Glasswater_Basin",
+    "description": "shallow lakes, reed beds and reflective streams.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/auralis/Major_Biomes/Glasswater_Basin",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "auralis",
+    "kind": "major",
+    "name": "Sunthread Fields",
+    "slug": "Sunthread_Fields",
+    "description": "bright meadows with spiral flower beds and scattered groves.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/auralis/Major_Biomes/Sunthread_Fields",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "auralis",
+    "kind": "major",
+    "name": "Windstep Prairie",
+    "slug": "Windstep_Prairie",
+    "description": "rolling grasslands, long ridges and wind-shaped vegetation.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/auralis/Major_Biomes/Windstep_Prairie",
+      "imageCount": 0,
+      "categories": []
+    }
+  },
+  {
+    "world": "auralis",
+    "kind": "hidden",
+    "name": "The Buried Meadow",
+    "slug": "Buried_Meadow",
+    "description": "a hidden underground pocket beneath the prairie, reached through a collapsed root tunnel.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/auralis/Hidden_Sub_Biomes/Buried_Meadow",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "auralis",
+    "kind": "hidden",
+    "name": "Rainmirror Pools",
+    "slug": "Rainmirror_Pools",
+    "description": "small pools that appear after heavy rain and reflect distant landmarks.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/auralis/Hidden_Sub_Biomes/Rainmirror_Pools",
+      "imageCount": 0,
+      "categories": []
+    }
+  },
+  {
+    "world": "auralis",
+    "kind": "hidden",
+    "name": "The Whispering Hollows",
+    "slug": "Whispering_Hollows",
+    "description": "shallow valleys where wind creates unusual tones.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/auralis/Hidden_Sub_Biomes/Whispering_Hollows",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "caldera-reach",
+    "kind": "major",
+    "name": "Ashen Terraces",
+    "slug": "Ashen_Terraces",
+    "description": "layered volcanic slopes with sparse resilient vegetation.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/caldera-reach/Major_Biomes/Ashen_Terraces",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "caldera-reach",
+    "kind": "major",
+    "name": "Cinder Veins",
+    "slug": "Cinder_Veins",
+    "description": "cooled lava channels and warm mineral ground.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/caldera-reach/Major_Biomes/Cinder_Veins",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "caldera-reach",
+    "kind": "major",
+    "name": "Obsidian Fields",
+    "slug": "Obsidian_Fields",
+    "description": "dark glass-like rock formations and narrow ravines.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/caldera-reach/Major_Biomes/Obsidian_Fields",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "caldera-reach",
+    "kind": "hidden",
+    "name": "The Buried Furnace",
+    "slug": "Buried_Furnace",
+    "description": "a deep geothermal chamber with old mineral structures.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/caldera-reach/Hidden_Sub_Biomes/Buried_Furnace",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "caldera-reach",
+    "kind": "hidden",
+    "name": "The Quiet Caldera",
+    "slug": "Quiet_Caldera",
+    "description": "a sheltered crater where unusual life grows around cooled rock.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/caldera-reach/Hidden_Sub_Biomes/Quiet_Caldera",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "caldera-reach",
+    "kind": "hidden",
+    "name": "Steamglass Tunnels",
+    "slug": "Steamglass_Tunnels",
+    "description": "narrow passages shaped by ancient steam vents.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/caldera-reach/Hidden_Sub_Biomes/Steamglass_Tunnels",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "myrrwood",
+    "kind": "major",
+    "name": "Fernfall Basin",
+    "slug": "Fernfall_Basin",
+    "description": "dense fern fields around streams and low waterfalls.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/myrrwood/Major_Biomes/Fernfall_Basin",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "myrrwood",
+    "kind": "major",
+    "name": "Hush Canopy",
+    "slug": "Hush_Canopy",
+    "description": "elevated branches, hanging gardens and quiet forest clearings.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/myrrwood/Major_Biomes/Hush_Canopy",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "myrrwood",
+    "kind": "major",
+    "name": "Rootbound Groves",
+    "slug": "Rootbound_Groves",
+    "description": "huge trees and exposed root networks.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/myrrwood/Major_Biomes/Rootbound_Groves",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "myrrwood",
+    "kind": "hidden",
+    "name": "Hollowheart",
+    "slug": "Hollowheart",
+    "description": "the interior of a colossal fallen tree, containing its own miniature habitat.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/myrrwood/Hidden_Sub_Biomes/Hollowheart",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "myrrwood",
+    "kind": "hidden",
+    "name": "The Still Canopy",
+    "slug": "Still_Canopy",
+    "description": "a secluded upper-forest pocket where the wind barely moves.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/myrrwood/Hidden_Sub_Biomes/Still_Canopy",
+      "imageCount": 0,
+      "categories": []
+    }
+  },
+  {
+    "world": "myrrwood",
+    "kind": "hidden",
+    "name": "The Underbough",
+    "slug": "Underbough",
+    "description": "a walkable ecosystem beneath enormous interwoven roots.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/myrrwood/Hidden_Sub_Biomes/Underbough",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "nacre-hollow",
+    "kind": "major",
+    "name": "Drifting Marsh",
+    "slug": "Drifting_Marsh",
+    "description": "broad wetlands with islands of vegetation.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/nacre-hollow/Major_Biomes/Drifting_Marsh",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "nacre-hollow",
+    "kind": "major",
+    "name": "Nightglass Fen",
+    "slug": "Nightglass_Fen",
+    "description": "dark pools, reflective water and nocturnal life.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/nacre-hollow/Major_Biomes/Nightglass_Fen",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "nacre-hollow",
+    "kind": "major",
+    "name": "Pearlreed Flats",
+    "slug": "Pearlreed_Flats",
+    "description": "open reed beds and shallow winding channels.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/nacre-hollow/Major_Biomes/Pearlreed_Flats",
+      "imageCount": 0,
+      "categories": []
+    }
+  },
+  {
+    "world": "nacre-hollow",
+    "kind": "hidden",
+    "name": "Drowned Orchard",
+    "slug": "Drowned_Orchard",
+    "description": "the remains of an ancient grove beneath shallow water.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/nacre-hollow/Hidden_Sub_Biomes/Drowned_Orchard",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "nacre-hollow",
+    "kind": "hidden",
+    "name": "The Fog Maze",
+    "slug": "Fog_Maze",
+    "description": "a shifting network of narrow channels whose landmarks are easier to read through plant clues.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/nacre-hollow/Hidden_Sub_Biomes/Fog_Maze",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "nacre-hollow",
+    "kind": "hidden",
+    "name": "The Quiet Mirror",
+    "slug": "Quiet_Mirror",
+    "description": "a hidden pool where the water surface remains unusually still.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/nacre-hollow/Hidden_Sub_Biomes/Quiet_Mirror",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "pelagora",
+    "kind": "major",
+    "name": "Bluefall Reef",
+    "slug": "Bluefall_Reef",
+    "description": "layered reefs, arches and bright underwater gardens.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/pelagora/Major_Biomes/Bluefall_Reef",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "pelagora",
+    "kind": "major",
+    "name": "The Open Reach",
+    "slug": "Open_Reach",
+    "description": "broad stretches of ocean connecting distant landforms.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/pelagora/Major_Biomes/Open_Reach",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "pelagora",
+    "kind": "major",
+    "name": "Shallows of Glass",
+    "slug": "Shallows_of_Glass",
+    "description": "clear coastal water, tidal flats and small islands.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/pelagora/Major_Biomes/Shallows_of_Glass",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "pelagora",
+    "kind": "hidden",
+    "name": "Kelp Cathedral",
+    "slug": "Kelp_Cathedral",
+    "description": "a towering underwater forest with vertical navigation routes.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/pelagora/Hidden_Sub_Biomes/Kelp_Cathedral",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "02_Alternate_Views"
+      ]
+    }
+  },
+  {
+    "world": "pelagora",
+    "kind": "hidden",
+    "name": "The Still Trench",
+    "slug": "Still_Trench",
+    "description": "a deep, sheltered region where light barely reaches.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/pelagora/Hidden_Sub_Biomes/Still_Trench",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "02_Alternate_Views"
+      ]
+    }
+  },
+  {
+    "world": "pelagora",
+    "kind": "hidden",
+    "name": "The Sunken Choir",
+    "slug": "Sunken_Choir",
+    "description": "submerged stone formations that create sounds as currents pass.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/pelagora/Hidden_Sub_Biomes/Sunken_Choir",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "sereglass",
+    "kind": "major",
+    "name": "Drywash Basin",
+    "slug": "Drywash_Basin",
+    "description": "wide dry riverbeds and scattered stone formations.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/sereglass/Major_Biomes/Drywash_Basin",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "05_Flora_and_Fauna"
+      ]
+    }
+  },
+  {
+    "world": "sereglass",
+    "kind": "major",
+    "name": "Singing Dunes",
+    "slug": "Singing_Dunes",
+    "description": "rolling dunes with wind-shaped ridges and unusual acoustic patterns.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/sereglass/Major_Biomes/Singing_Dunes",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "sereglass",
+    "kind": "major",
+    "name": "Veiled Escarpment",
+    "slug": "Veiled_Escarpment",
+    "description": "tall cliffs and heat-shimmering ledges.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/sereglass/Major_Biomes/Veiled_Escarpment",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "04_Landmarks"
+      ]
+    }
+  },
+  {
+    "world": "sereglass",
+    "kind": "hidden",
+    "name": "The Glasswind Vault",
+    "slug": "Glasswind_Vault",
+    "description": "a sheltered cavern filled with naturally polished mineral formations.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/sereglass/Hidden_Sub_Biomes/Glasswind_Vault",
+      "imageCount": 0,
+      "categories": []
+    }
+  },
+  {
+    "world": "sereglass",
+    "kind": "hidden",
+    "name": "The Underflow",
+    "slug": "Underflow",
+    "description": "a hidden underground watercourse beneath the dry basin.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/sereglass/Hidden_Sub_Biomes/Underflow",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "sereglass",
+    "kind": "hidden",
+    "name": "The Veiled Garden",
+    "slug": "Veiled_Garden",
+    "description": "a concealed habitat behind a heat-distorted rock face.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/sereglass/Hidden_Sub_Biomes/Veiled_Garden",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "the-first-garden",
+    "kind": "major",
+    "name": "Dawn Chamber",
+    "slug": "Dawn_Chamber",
+    "description": "a sheltered region with unusual light and delicate botanical formations.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/the-first-garden/Major_Biomes/Dawn_Chamber",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "the-first-garden",
+    "kind": "major",
+    "name": "Root of All Paths",
+    "slug": "Root_of_All_Paths",
+    "description": "a landscape crossed by enormous branching root structures.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/the-first-garden/Major_Biomes/Root_of_All_Paths",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "02_Alternate_Views"
+      ]
+    }
+  },
+  {
+    "world": "the-first-garden",
+    "kind": "major",
+    "name": "The Unwritten Wilds",
+    "slug": "Unwritten_Wilds",
+    "description": "an ecosystem that does not match any known world classification.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/the-first-garden/Major_Biomes/Unwritten_Wilds",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "the-first-garden",
+    "kind": "hidden",
+    "name": "The First Canopy",
+    "slug": "First_Canopy",
+    "description": "a vast upper ecosystem above the main root network.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/the-first-garden/Hidden_Sub_Biomes/First_Canopy",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "the-first-garden",
+    "kind": "hidden",
+    "name": "The Memory Basin",
+    "slug": "Memory_Basin",
+    "description": "a quiet region where environmental traces reveal fragments of ancient events.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/the-first-garden/Hidden_Sub_Biomes/Memory_Basin",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "the-first-garden",
+    "kind": "hidden",
+    "name": "The Seedless Deep",
+    "slug": "Seedless_Deep",
+    "description": "a concealed region whose organisms do not appear to reproduce in any known way.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/the-first-garden/Hidden_Sub_Biomes/Seedless_Deep",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "umbra-deep",
+    "kind": "major",
+    "name": "Blackwater Galleries",
+    "slug": "Blackwater_Galleries",
+    "description": "underground lakes and submerged passages.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/umbra-deep/Major_Biomes/Blackwater_Galleries",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "04_Landmarks"
+      ]
+    }
+  },
+  {
+    "world": "umbra-deep",
+    "kind": "major",
+    "name": "Lantern Hollows",
+    "slug": "Lantern_Hollows",
+    "description": "caverns with naturally glowing organisms.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/umbra-deep/Major_Biomes/Lantern_Hollows",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "umbra-deep",
+    "kind": "major",
+    "name": "The Vertical Archive",
+    "slug": "Vertical_Archive",
+    "description": "enormous shafts, ledges and layered stone walls.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/umbra-deep/Major_Biomes/Vertical_Archive",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "umbra-deep",
+    "kind": "hidden",
+    "name": "The Blind Garden",
+    "slug": "Blind_Garden",
+    "description": "a hidden ecosystem with almost no natural light.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/umbra-deep/Hidden_Sub_Biomes/Blind_Garden",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "umbra-deep",
+    "kind": "hidden",
+    "name": "The Crystal Lung",
+    "slug": "Crystal_Lung",
+    "description": "a chamber where mineral formations create slow, visible air currents.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/umbra-deep/Hidden_Sub_Biomes/Crystal_Lung",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "02_Alternate_Views"
+      ]
+    }
+  },
+  {
+    "world": "umbra-deep",
+    "kind": "hidden",
+    "name": "The Root Cathedral",
+    "slug": "Root_Cathedral",
+    "description": "a cavern crossed by giant roots descending from the surface.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/umbra-deep/Hidden_Sub_Biomes/Root_Cathedral",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "veyr-peaks",
+    "kind": "major",
+    "name": "Cloudpine Basin",
+    "slug": "Cloudpine_Basin",
+    "description": "high-altitude forests and misty valleys.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/veyr-peaks/Major_Biomes/Cloudpine_Basin",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "veyr-peaks",
+    "kind": "major",
+    "name": "Paleglass Shelf",
+    "slug": "Paleglass_Shelf",
+    "description": "snowy plateaus and sheltered cold-adapted vegetation.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/veyr-peaks/Major_Biomes/Paleglass_Shelf",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "veyr-peaks",
+    "kind": "major",
+    "name": "Thunderline Ridge",
+    "slug": "Thunderline_Ridge",
+    "description": "exposed mountain ridges with rapidly changing weather.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/veyr-peaks/Major_Biomes/Thunderline_Ridge",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "02_Alternate_Views"
+      ]
+    }
+  },
+  {
+    "world": "veyr-peaks",
+    "kind": "hidden",
+    "name": "Blue Hour Hollow",
+    "slug": "Blue_Hour_Hollow",
+    "description": "a sheltered valley that remains in cool twilight for much of the day.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/veyr-peaks/Hidden_Sub_Biomes/Blue_Hour_Hollow",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "02_Alternate_Views"
+      ]
+    }
+  },
+  {
+    "world": "veyr-peaks",
+    "kind": "hidden",
+    "name": "The Eye of the Storm",
+    "slug": "Eye_of_the_Storm",
+    "description": "an exposed circular ridge where weather patterns converge.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/veyr-peaks/Hidden_Sub_Biomes/Eye_of_the_Storm",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "veyr-peaks",
+    "kind": "hidden",
+    "name": "The Frozen Bellows",
+    "slug": "Frozen_Bellows",
+    "description": "ice caverns with unusual air currents.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/veyr-peaks/Hidden_Sub_Biomes/Frozen_Bellows",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "02_Alternate_Views"
+      ]
+    }
+  },
+  {
+    "world": "zephyr-crown",
+    "kind": "major",
+    "name": "Cloudgarden Fields",
+    "slug": "Cloudgarden_Fields",
+    "description": "open highland meadows above the cloud line.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/zephyr-crown/Major_Biomes/Cloudgarden_Fields",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "zephyr-crown",
+    "kind": "major",
+    "name": "The High Aeries",
+    "slug": "High_Aeries",
+    "description": "broad elevated plateaus and unusual air currents.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/zephyr-crown/Major_Biomes/High_Aeries",
+      "imageCount": 2,
+      "categories": [
+        "01_Hero_Views",
+        "02_Alternate_Views"
+      ]
+    }
+  },
+  {
+    "world": "zephyr-crown",
+    "kind": "major",
+    "name": "Windwoven Cliffs",
+    "slug": "Windwoven_Cliffs",
+    "description": "exposed cliffs and narrow natural anchor points.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/zephyr-crown/Major_Biomes/Windwoven_Cliffs",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "zephyr-crown",
+    "kind": "hidden",
+    "name": "The Farwind Shelf",
+    "slug": "Farwind_Shelf",
+    "description": "a remote plateau reachable through a chain of environmental traversal challenges.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/zephyr-crown/Hidden_Sub_Biomes/Farwind_Shelf",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "zephyr-crown",
+    "kind": "hidden",
+    "name": "The Hanging Grove",
+    "slug": "Hanging_Grove",
+    "description": "a sheltered forest growing across connected cliff ledges.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/zephyr-crown/Hidden_Sub_Biomes/Hanging_Grove",
+      "imageCount": 1,
+      "categories": [
+        "01_Hero_Views"
+      ]
+    }
+  },
+  {
+    "world": "zephyr-crown",
+    "kind": "hidden",
+    "name": "The Updraft Wells",
+    "slug": "Updraft_Wells",
+    "description": "deep vertical openings where air rises in powerful columns.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/Worlds/zephyr-crown/Hidden_Sub_Biomes/Updraft_Wells",
+      "imageCount": 0,
+      "categories": []
+    }
+  }
+]

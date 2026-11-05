@@ -55,7 +55,7 @@ Build in this order:
 2. Large landmarks.
 3. Mid-sized structures and vegetation.
 4. Foliage clusters and ground detail.
-5. Lighting, fog, sky and ambient sound.
+5. Lighting, fog, sky and ambient sound — apply the world's record in [visual_themes.json](Data/visual_themes.json) rather than eyeballing it; see [Materials, Lighting and Atmosphere](Materials_And_Lighting.md).
 6. Plant specimens, scan clues and encounter props.
 7. Cinematic framing and discovery moments.
 

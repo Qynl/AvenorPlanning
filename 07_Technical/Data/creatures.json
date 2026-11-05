@@ -1,0 +1,240 @@
+[
+  {
+    "id": "CRE-003",
+    "name": "Canopy Glider",
+    "slug": "Canopy_Glider",
+    "status": "PROPOSAL",
+    "nativeWorld": "Myrrwood",
+    "type": "Aerial gliding forest creature",
+    "signatureAbility": "Leafwind Glide",
+    "visualIdentity": "Canopy Glider is a lightweight, medium-sized creature with a streamlined body, four limbs and two enormous leaf-like gliding membranes extending from its sides. The membranes have visible leaf veins and green-to-turquoise gradients. It has a long balancing tail, expressive eyes and small branch-like structures along its head.",
+    "identificationCues": [
+      "Two large leaf-shaped membranes extending from the sides.",
+      "Visible botanical veins across the membranes.",
+      "Lightweight body and long balancing tail.",
+      "Green and turquoise palette.",
+      "Usually shown gliding between elevated trees."
+    ],
+    "habitatCues": "Myrrwood's enormous trees, elevated branches, hanging vines, giant roots and shafts of sunlight through the canopy.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Canopy_Glider",
+      "images": [
+        "CRE-003_CanopyGlider_Hero_V01.jpg"
+      ]
+    }
+  },
+  {
+    "id": "CRE-009",
+    "name": "Dune Strider",
+    "slug": "Dune_Strider",
+    "status": "PROPOSAL",
+    "nativeWorld": "Sereglass",
+    "type": "Tall desert quadruped",
+    "signatureAbility": "Mirage Spiral",
+    "visualIdentity": "Dune Strider is an elegant creature with four exceptionally long legs, a narrow body and layered sand-colored armor. Translucent leaf-like structures on its back shimmer in sunlight. Its elongated head has two delicate sensory horns and bright golden eyes. Its leg joints are adapted for walking across loose sand.",
+    "identificationCues": [
+      "Very long, slender legs.",
+      "Narrow body held high above the ground.",
+      "Layered sand-colored armor.",
+      "Translucent leaf-like structures on its back.",
+      "Elongated head, two sensory horns and golden eyes."
+    ],
+    "habitatCues": "Sereglass golden dunes, sandstone cliffs, sparse desert vegetation and heat shimmer.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Dune_Strider",
+      "images": [
+        "CRE-009_DuneStrider_Hero_V01.jpg"
+      ]
+    }
+  },
+  {
+    "id": "CRE-005",
+    "name": "Emberhorn",
+    "slug": "Emberhorn",
+    "status": "PROPOSAL",
+    "nativeWorld": "Caldera Reach",
+    "type": "Sturdy volcanic quadruped",
+    "signatureAbility": "Magma Burst",
+    "visualIdentity": "Emberhorn has a sturdy quadrupedal body protected by dark volcanic stone armor. Glowing orange cracks run across its body. Two large crystal-like horns rise from its head, while jagged obsidian plates cover its back. Small embers glow between armor plates and its eyes are bright amber.",
+    "identificationCues": [
+      "Two prominent crystal-like horns.",
+      "Dark volcanic rock and obsidian armor.",
+      "Bright orange glowing cracks.",
+      "Amber eyes and ember particles.",
+      "Heavy, sturdy quadrupedal silhouette."
+    ],
+    "habitatCues": "Caldera Reach volcanic terrain, obsidian formations, distant lava streams and geothermal vents.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Emberhorn",
+      "images": [
+        "CRE-005_Emberhorn_Hero_V01.jpg"
+      ]
+    }
+  },
+  {
+    "id": "CRE-007",
+    "name": "Frostmane",
+    "slug": "Frostmane",
+    "status": "PROPOSAL",
+    "nativeWorld": "Veyr Peaks",
+    "type": "Large mountain quadruped",
+    "signatureAbility": "Frostwave",
+    "visualIdentity": "Frostmane is a large quadrupedal creature with thick pale-blue fur, powerful legs and a magnificent flowing mane resembling layered frozen leaves. Crystal-like growths extend from its shoulders and forehead. Its fur transitions from snowy white to icy blue, with subtle glowing patterns. It has expressive eyes and an imposing but appealing silhouette.",
+    "identificationCues": [
+      "Thick pale-blue or snowy-white fur.",
+      "Large flowing mane shaped like frozen leaves.",
+      "Crystal growths on shoulders and forehead.",
+      "Large quadrupedal mountain-animal silhouette.",
+      "Icy blue palette."
+    ],
+    "habitatCues": "Veyr Peaks snowy plateaus, icy mountains, frozen trees and drifting snow.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Frostmane",
+      "images": [
+        "CRE-007_Frostmane_Hero_V01.jpg"
+      ]
+    }
+  },
+  {
+    "id": "CRE-008",
+    "name": "Mirecrawler",
+    "slug": "Mirecrawler",
+    "status": "PROPOSAL",
+    "nativeWorld": "Nacre Hollow",
+    "type": "Amphibious marsh creature",
+    "signatureAbility": "Luminous Spores",
+    "visualIdentity": "Mirecrawler has a low body and several flexible limbs. Its exterior is smooth and dark teal, with subtle violet bioluminescent markings. Mushroom-like botanical growths and translucent membranes sit along its back. Its head is wide and distinctive, with luminous eyes and small sensory tendrils. It should look strange and original, but still appealing.",
+    "identificationCues": [
+      "Low, close-to-ground body.",
+      "Several flexible limbs.",
+      "Dark teal surface with violet glowing markings.",
+      "Mushroom-like growths on its back.",
+      "Wide head, luminous eyes and sensory tendrils."
+    ],
+    "habitatCues": "Nacre Hollow wetlands, reflective pools, twisted trees, marsh plants and thick atmospheric fog.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Mirecrawler",
+      "images": [
+        "CRE-008_Mirecrawler_Hero_V01.jpg"
+      ]
+    }
+  },
+  {
+    "id": "CRE-001",
+    "name": "Mossback",
+    "slug": "Mossback",
+    "status": "PROPOSAL",
+    "nativeWorld": "Auralis",
+    "type": "Peaceful, large quadruped",
+    "signatureAbility": "Blooming Pollen",
+    "visualIdentity": "Mossback has a broad, rounded, sturdy body carried by four powerful legs. Its back is a miniature living garden: lush green moss, small plants, delicate flowers and tiny botanical growths. Its head is comparatively small, with gentle expressive eyes. The skin is natural and subtly textured, using earthy colors.",
+    "identificationCues": [
+      "Broad rounded body and four sturdy legs.",
+      "Dense moss and small flowers growing across its back.",
+      "Small head compared with its body.",
+      "Gentle, calm expression.",
+      "Overall impression: a walking moss-covered garden."
+    ],
+    "habitatCues": "Auralis golden grasslands, rolling hills, wildflowers, scattered trees and warm sunlight. Habitat is supporting evidence only.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Mossback",
+      "images": [
+        "CRE-001_Mossback_Hero_V01.jpg"
+      ]
+    }
+  },
+  {
+    "id": "CRE-010",
+    "name": "Origin Warden",
+    "slug": "Origin_Warden",
+    "status": "PROPOSAL",
+    "nativeWorld": "The First Garden",
+    "type": "Rare ancient primordial creature",
+    "signatureAbility": "Primordial Bloom",
+    "visualIdentity": "Origin Warden is an enormous, majestic creature with an elegant but powerful silhouette. Its body combines smooth natural surfaces, ancient golden roots and botanical armor. Large leaf-like structures extend from its back like a crown. Luminous green and golden patterns flow across its body. Its head has branch-like horns and brilliant emerald eyes. It should feel ancient, intelligent and deeply connected to the world.",
+    "identificationCues": [
+      "Majestic, unusually large silhouette.",
+      "Golden roots integrated into its body.",
+      "Crown-like leaf structures rising from its back.",
+      "Flowing green and golden luminous patterns.",
+      "Branch-like horns and emerald eyes."
+    ],
+    "habitatCues": "The First Garden, enormous ancient trees, extraordinary plants, glowing vegetation and root-formed primordial structures.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Origin_Warden",
+      "images": [
+        "CRE-010_OriginWarden_Hero_V01.jpg"
+      ]
+    }
+  },
+  {
+    "id": "CRE-004",
+    "name": "Rootmaw",
+    "slug": "Rootmaw",
+    "status": "PROPOSAL",
+    "nativeWorld": "Myrrwood",
+    "type": "Heavy, powerful quadruped",
+    "signatureAbility": "Root Surge",
+    "visualIdentity": "Rootmaw is a large, heavy quadruped with thick bark-like armor. Its powerful legs resemble twisted tree roots and end in sturdy wooden claws. Layered wooden plates cover its back, with moss and tiny glowing plants between them. Its head has a distinctive flower-shaped jaw made from wooden petal structures and deep amber eyes.",
+    "identificationCues": [
+      "Heavy quadrupedal body.",
+      "Bark armor and layered wooden plates.",
+      "Thick root-like limbs and wooden claws.",
+      "Flower-shaped jaw or petal-like head structures.",
+      "Moss and small plants growing between armor plates."
+    ],
+    "habitatCues": "Myrrwood ancient forest, giant exposed roots, hanging vines and dense vegetation.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Rootmaw",
+      "images": [
+        "CRE-004_Rootmaw_Hero_V01.jpg"
+      ]
+    }
+  },
+  {
+    "id": "CRE-002",
+    "name": "Thornrunner",
+    "slug": "Thornrunner",
+    "status": "PROPOSAL",
+    "nativeWorld": "Auralis",
+    "type": "Fast, agile quadruped",
+    "signatureAbility": "Golden Rush",
+    "visualIdentity": "Thornrunner has a sleek athletic body, powerful hind legs, narrower front legs and a long flexible balancing tail. Its earthy-golden skin has darker green botanical markings. Several rows of curved, backward-pointing, leaf-shaped thorns run along its spine. It has a streamlined head, expressive eyes and two small branch-like structures above its forehead.",
+    "identificationCues": [
+      "Sleek low-running quadrupedal silhouette.",
+      "Strong hind legs and long balancing tail.",
+      "Rows of backward-curving leaf-like spine thorns.",
+      "Golden and green natural color palette.",
+      "Fast, forward-leaning posture."
+    ],
+    "habitatCues": "Auralis grasslands, rolling hills, wildflowers and warm afternoon light.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Thornrunner",
+      "images": []
+    }
+  },
+  {
+    "id": "CRE-006",
+    "name": "Tidewhisper",
+    "slug": "Tidewhisper",
+    "status": "PROPOSAL",
+    "nativeWorld": "Pelagora",
+    "type": "Graceful aquatic creature",
+    "signatureAbility": "Tidal Resonance",
+    "visualIdentity": "Tidewhisper has a streamlined underwater body, long translucent fins and flowing aquatic-plant structures extending from its back and tail. Its skin uses turquoise and deep-blue gradients, with luminous markings along its sides. Its eyes glow softly. The design should feel graceful and adapted to swimming.",
+    "identificationCues": [
+      "Streamlined aquatic body.",
+      "Long translucent fins.",
+      "Flowing plant-like structures on back and tail.",
+      "Turquoise and deep-blue coloration.",
+      "Luminous side markings."
+    ],
+    "habitatCues": "Pelagora underwater forests, enormous aquatic plants, coral-like formations and sunbeams penetrating the water.",
+    "art": {
+      "path": "05_Presentation/Concept_Art/03_Creatures_and_Encounters/Tidewhisper",
+      "images": [
+        "CRE-006_Tidewhisper_Hero_V01.jpg"
+      ]
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "generatedFrom": "markdown source of truth in this repository",
+  "worlds": 10,
+  "regions": 60,
+  "regionsWithoutArt": 6,
+  "plants": 50,
+  "plantsWithoutArt": 50,
+  "abilities": 162,
+  "abilitiesWithOpenFields": 162,
+  "creatures": 10,
+  "creaturesWithoutArt": 1,
+  "assets": 78
+}

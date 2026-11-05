@@ -10,6 +10,7 @@
 ## Detailed guides
 - [Roblox Studio project structure](Roblox_Studio_Project_Structure.md)
 - [World and map building pipeline](World_Building_Pipeline.md)
+- [Materials, lighting and atmosphere](Materials_And_Lighting.md) — required visual baseline; per-world values in [Data/visual_themes.json](Data/visual_themes.json)
 - [Map performance optimisation](Map_Performance_Optimization.md)
 - [Instance streaming strategy](Instance_Streaming.md)
 - [Asset pipeline](Asset_Pipeline.md)
@@ -18,6 +19,7 @@
 - [Profiling and performance testing](Profiling_Testing.md)
 - [Per-biome performance budget template](Map_Performance_Budget_Template.md)
 - [World data and place architecture](World_Data_Architecture.md)
+- [Design data exports](Data/README.md) — generated JSON of every world, region, plant, ability, creature and image
 
 ## Suggested logical modules
 - World/region streaming and world-state service.
@@ -30,4 +32,4 @@
 - Persistence and player profile service.
 
 ## TBD
-Exact framework choices, networking conventions, data schema, server sizes and persistence implementation must be decided during technical prototyping. The project folder structure and world-building workflow are documented as proposals.
+Exact framework choices, networking conventions, server sizes and persistence implementation must be decided during technical prototyping. Content definitions already have an exported schema in [Data](Data/README.md); the runtime save schema does not exist yet. The project folder structure and world-building workflow are documented as proposals.

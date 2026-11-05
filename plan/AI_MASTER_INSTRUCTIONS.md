@@ -34,6 +34,7 @@ You are an implementation and planning assistant working on **FLORA: Beyond the 
 - Avoid unnecessary per-frame work, unbounded loops, excessive instances, and expensive repeated searches.
 - Consider StreamingEnabled, memory, replication, mobile performance, and network latency.
 - Make systems debuggable without flooding output.
+- Meet the presentation baseline in `../07_Technical/Materials_And_Lighting.md`: no default Plastic on large surfaces, no default sky at the horizon, no Voxel lighting, no single flat terrain colour. Apply the world's record from `../07_Technical/Data/visual_themes.json`.
 
 ## 5. Implementation loop
 For every task:
@@ -55,6 +56,7 @@ Do not bundle unrelated features. Split large tasks into independently testable 
 - If Studio is unavailable, say so and perform only the checks that are possible.
 - Never say "tested" when you only inspected code.
 - Record reproducible steps for bugs.
+- A built region is not done until it has been screenshotted at player eye height and compared against its concept art palette.
 
 ## 7. Documentation discipline
 - When behavior changes, update the relevant FLORA documentation.

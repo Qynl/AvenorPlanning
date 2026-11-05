@@ -34,6 +34,9 @@ All 50 canonical plant folders are under `Plants/<plant-slug>/`.
 ## Region structure
 Every major and hidden region has its own folder and eight subfolders: hero views, alternate views, aerial/top-down, landmarks, flora/fauna, environmental details, lighting/atmosphere and secrets/discoveries.
 
+## Generation prompts
+[Prompt Pack](PROMPT_PACK.md) holds copy-paste prompts for the art that is still missing: the six empty regions, all 50 plant specs, the ten world maps, the per-region top-downs and the Thornrunner sheet.
+
 ## Image handling
 Store generated images directly in their matching folders. Use `World_Region_Subject_View_V01.png`. Keep original generations unchanged and save edits as new versions. Mark selected/approved images in notes. Concept art is reference, not automatic canonical design.
 

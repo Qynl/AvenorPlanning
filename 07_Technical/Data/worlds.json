@@ -1,0 +1,762 @@
+[
+  {
+    "id": "WORLD_001",
+    "slug": "auralis",
+    "name": "Auralis",
+    "status": "PROPOSAL",
+    "identity": "A vast, welcoming world of open grasslands, warm light and enormous distant horizons.",
+    "palette": "Fresh greens, warm gold, pale blue skies and soft white stone.",
+    "explorationIdentity": "The first large-scale expedition world. Teaches reading wind, light, terrain and plant behaviour without feeling like a tiny tutorial map.",
+    "majorBiomes": [
+      {
+        "name": "Windstep Prairie",
+        "description": "rolling grasslands, long ridges and wind-shaped vegetation."
+      },
+      {
+        "name": "Sunthread Fields",
+        "description": "bright meadows with spiral flower beds and scattered groves."
+      },
+      {
+        "name": "Glasswater Basin",
+        "description": "shallow lakes, reed beds and reflective streams."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The Whispering Hollows",
+        "description": "shallow valleys where wind creates unusual tones."
+      },
+      {
+        "name": "Rainmirror Pools",
+        "description": "small pools that appear after heavy rain and reflect distant landmarks."
+      },
+      {
+        "name": "The Buried Meadow",
+        "description": "a hidden underground pocket beneath the prairie, reached through a collapsed root tunnel."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Driftleaf",
+        "path": "../../02_Content/Plants/driftleaf/README.md",
+        "detail": "Natural, Windweave"
+      },
+      {
+        "name": "Sunspool",
+        "path": "../../02_Content/Plants/sunspool/README.md",
+        "detail": "Natural, Sunthread"
+      },
+      {
+        "name": "Cloudreed",
+        "path": "../../02_Content/Plants/cloudreed/README.md",
+        "detail": null
+      },
+      {
+        "name": "Meadowflare",
+        "path": "../../02_Content/Plants/meadowflare/README.md",
+        "detail": null
+      },
+      {
+        "name": "Rainbell",
+        "path": "../../02_Content/Plants/rainbell/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/auralis",
+      "imageCount": 6
+    }
+  },
+  {
+    "id": "WORLD_003",
+    "slug": "caldera-reach",
+    "name": "Caldera Reach",
+    "status": "PROPOSAL",
+    "identity": "A volcanic world where life thrives around cooled lava, mineral channels and geothermal activity.",
+    "palette": "Basalt black, copper, ember orange, muted red and occasional turquoise mineral deposits.",
+    "explorationIdentity": "Environmental hazards, heat patterns, geological clues and careful route selection. The world should feel dangerous-looking without relying on combat.",
+    "majorBiomes": [
+      {
+        "name": "Cinder Veins",
+        "description": "cooled lava channels and warm mineral ground."
+      },
+      {
+        "name": "Ashen Terraces",
+        "description": "layered volcanic slopes with sparse resilient vegetation."
+      },
+      {
+        "name": "Obsidian Fields",
+        "description": "dark glass-like rock formations and narrow ravines."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The Buried Furnace",
+        "description": "a deep geothermal chamber with old mineral structures."
+      },
+      {
+        "name": "Steamglass Tunnels",
+        "description": "narrow passages shaped by ancient steam vents."
+      },
+      {
+        "name": "The Quiet Caldera",
+        "description": "a sheltered crater where unusual life grows around cooled rock."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Emberlace",
+        "path": "../../02_Content/Plants/emberlace/README.md",
+        "detail": "Distinct, Cinderbloom"
+      },
+      {
+        "name": "Ashen Crown",
+        "path": "../../02_Content/Plants/ashen-crown/README.md",
+        "detail": "Relic, Magma Crown"
+      },
+      {
+        "name": "Glassfire Lily",
+        "path": "../../02_Content/Plants/glassfire-lily/README.md",
+        "detail": null
+      },
+      {
+        "name": "Basalt Bloom",
+        "path": "../../02_Content/Plants/basalt-bloom/README.md",
+        "detail": null
+      },
+      {
+        "name": "Ashwing Fern",
+        "path": "../../02_Content/Plants/ashwing-fern/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/caldera-reach",
+      "imageCount": 6
+    }
+  },
+  {
+    "id": "WORLD_002",
+    "slug": "myrrwood",
+    "name": "Myrrwood",
+    "status": "PROPOSAL",
+    "identity": "An enormous ancient forest with layered canopy, giant trees and interconnected root systems.",
+    "palette": "Deep greens, mossy browns, teal shadows and shafts of warm light.",
+    "explorationIdentity": "Vertical routes, subtle environmental clues, interconnected ecosystems and discoveries that reward listening and observation.",
+    "majorBiomes": [
+      {
+        "name": "Rootbound Groves",
+        "description": "huge trees and exposed root networks."
+      },
+      {
+        "name": "Hush Canopy",
+        "description": "elevated branches, hanging gardens and quiet forest clearings."
+      },
+      {
+        "name": "Fernfall Basin",
+        "description": "dense fern fields around streams and low waterfalls."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The Underbough",
+        "description": "a walkable ecosystem beneath enormous interwoven roots."
+      },
+      {
+        "name": "Hollowheart",
+        "description": "the interior of a colossal fallen tree, containing its own miniature habitat."
+      },
+      {
+        "name": "The Still Canopy",
+        "description": "a secluded upper-forest pocket where the wind barely moves."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Threadroot",
+        "path": "../../02_Content/Plants/threadroot/README.md",
+        "detail": "Natural, Rootcall"
+      },
+      {
+        "name": "Echofern",
+        "path": "../../02_Content/Plants/echofern/README.md",
+        "detail": "Distinct, Resonance"
+      },
+      {
+        "name": "Hollowbark",
+        "path": "../../02_Content/Plants/hollowbark/README.md",
+        "detail": null
+      },
+      {
+        "name": "Lanternroot",
+        "path": "../../02_Content/Plants/lanternroot/README.md",
+        "detail": null
+      },
+      {
+        "name": "Thornwake",
+        "path": "../../02_Content/Plants/thornwake/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/myrrwood",
+      "imageCount": 7
+    }
+  },
+  {
+    "id": "WORLD_006",
+    "slug": "nacre-hollow",
+    "name": "Nacre Hollow",
+    "status": "PROPOSAL",
+    "identity": "A mysterious wetland world of shallow water, drifting fog, reflective pools and dense marsh vegetation.",
+    "palette": "Muted jade, pearl white, deep teal, soft violet and silver mist.",
+    "explorationIdentity": "Visibility, night exploration, moisture trails, subtle sound cues and returning at different times.",
+    "majorBiomes": [
+      {
+        "name": "Drifting Marsh",
+        "description": "broad wetlands with islands of vegetation."
+      },
+      {
+        "name": "Nightglass Fen",
+        "description": "dark pools, reflective water and nocturnal life."
+      },
+      {
+        "name": "Pearlreed Flats",
+        "description": "open reed beds and shallow winding channels."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The Fog Maze",
+        "description": "a shifting network of narrow channels whose landmarks are easier to read through plant clues."
+      },
+      {
+        "name": "Drowned Orchard",
+        "description": "the remains of an ancient grove beneath shallow water."
+      },
+      {
+        "name": "The Quiet Mirror",
+        "description": "a hidden pool where the water surface remains unusually still."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Mistbell",
+        "path": "../../02_Content/Plants/mistbell/README.md",
+        "detail": "Unusual, Veilmist"
+      },
+      {
+        "name": "Moonlace",
+        "path": "../../02_Content/Plants/moonlace/README.md",
+        "detail": "Forgotten, Moonveil"
+      },
+      {
+        "name": "Boglight",
+        "path": "../../02_Content/Plants/boglight/README.md",
+        "detail": null
+      },
+      {
+        "name": "Duskmantle",
+        "path": "../../02_Content/Plants/duskmantle/README.md",
+        "detail": null
+      },
+      {
+        "name": "Lullaby Reed",
+        "path": "../../02_Content/Plants/lullaby-reed/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/nacre-hollow",
+      "imageCount": 5
+    }
+  },
+  {
+    "id": "WORLD_004",
+    "slug": "pelagora",
+    "name": "Pelagora",
+    "status": "PROPOSAL",
+    "identity": "A huge ocean world with islands, reefs, deep water and submerged ecosystems.",
+    "palette": "Turquoise shallows, rich ocean blue, coral colours and deep indigo.",
+    "explorationIdentity": "Underwater navigation, depth, currents, visibility and the discovery of habitats hidden below the surface.",
+    "majorBiomes": [
+      {
+        "name": "Shallows of Glass",
+        "description": "clear coastal water, tidal flats and small islands."
+      },
+      {
+        "name": "Bluefall Reef",
+        "description": "layered reefs, arches and bright underwater gardens."
+      },
+      {
+        "name": "The Open Reach",
+        "description": "broad stretches of ocean connecting distant landforms."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The Sunken Choir",
+        "description": "submerged stone formations that create sounds as currents pass."
+      },
+      {
+        "name": "Kelp Cathedral",
+        "description": "a towering underwater forest with vertical navigation routes."
+      },
+      {
+        "name": "The Still Trench",
+        "description": "a deep, sheltered region where light barely reaches."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Brineglass",
+        "path": "../../02_Content/Plants/brineglass/README.md",
+        "detail": "Unusual, Brinecraft"
+      },
+      {
+        "name": "Tideglass",
+        "path": "../../02_Content/Plants/tideglass/README.md",
+        "detail": "Distinct, Tidal Form"
+      },
+      {
+        "name": "Coralweave",
+        "path": "../../02_Content/Plants/coralweave/README.md",
+        "detail": null
+      },
+      {
+        "name": "Abyssal Bloom",
+        "path": "../../02_Content/Plants/abyssal-bloom/README.md",
+        "detail": null
+      },
+      {
+        "name": "Pearlcurrent",
+        "path": "../../02_Content/Plants/pearlcurrent/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/pelagora",
+      "imageCount": 8
+    }
+  },
+  {
+    "id": "WORLD_007",
+    "slug": "sereglass",
+    "name": "Sereglass",
+    "status": "PROPOSAL",
+    "identity": "A desert world with enormous dunes, weathered stone, dry basins and hidden pockets of water.",
+    "palette": "Sand gold, pale cream, rust red, dusty rose and glassy blue.",
+    "explorationIdentity": "Reading terrain, locating hidden moisture, navigating heat shimmer and uncovering concealed passages.",
+    "majorBiomes": [
+      {
+        "name": "Drywash Basin",
+        "description": "wide dry riverbeds and scattered stone formations."
+      },
+      {
+        "name": "Veiled Escarpment",
+        "description": "tall cliffs and heat-shimmering ledges."
+      },
+      {
+        "name": "Singing Dunes",
+        "description": "rolling dunes with wind-shaped ridges and unusual acoustic patterns."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The Underflow",
+        "description": "a hidden underground watercourse beneath the dry basin."
+      },
+      {
+        "name": "The Veiled Garden",
+        "description": "a concealed habitat behind a heat-distorted rock face."
+      },
+      {
+        "name": "The Glasswind Vault",
+        "description": "a sheltered cavern filled with naturally polished mineral formations."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Pebblecup",
+        "path": "../../02_Content/Plants/pebblecup/README.md",
+        "detail": "Natural, Stonewell"
+      },
+      {
+        "name": "Veil Orchid",
+        "path": "../../02_Content/Plants/veil-orchid/README.md",
+        "detail": "Ancient, Mirage Bloom"
+      },
+      {
+        "name": "Dune Lotus",
+        "path": "../../02_Content/Plants/dune-lotus/README.md",
+        "detail": null
+      },
+      {
+        "name": "Sunshard Cactus",
+        "path": "../../02_Content/Plants/sunshard-cactus/README.md",
+        "detail": null
+      },
+      {
+        "name": "Mirage Thorn",
+        "path": "../../02_Content/Plants/mirage-thorn/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/sereglass",
+      "imageCount": 7
+    }
+  },
+  {
+    "id": "WORLD_010",
+    "slug": "the-first-garden",
+    "name": "The First Garden",
+    "status": "PROPOSAL",
+    "identity": "A mysterious, ancient world that feels like the source of many biological patterns found throughout FLORA.",
+    "palette": "Natural greens and stone tones with restrained luminous accents. It should feel unfamiliar without becoming a generic neon fantasy world.",
+    "explorationIdentity": "Long-term research mysteries, multi-world clue chains and discoveries that change how players understand the entire universe.",
+    "majorBiomes": [
+      {
+        "name": "Root of All Paths",
+        "description": "a landscape crossed by enormous branching root structures."
+      },
+      {
+        "name": "Dawn Chamber",
+        "description": "a sheltered region with unusual light and delicate botanical formations."
+      },
+      {
+        "name": "The Unwritten Wilds",
+        "description": "an ecosystem that does not match any known world classification."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The First Canopy",
+        "description": "a vast upper ecosystem above the main root network."
+      },
+      {
+        "name": "The Memory Basin",
+        "description": "a quiet region where environmental traces reveal fragments of ancient events."
+      },
+      {
+        "name": "The Seedless Deep",
+        "description": "a concealed region whose organisms do not appear to reproduce in any known way."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Worldroot",
+        "path": "../../02_Content/Plants/worldroot/README.md",
+        "detail": "Origin, Worldweave"
+      },
+      {
+        "name": "Firstlight",
+        "path": "../../02_Content/Plants/firstlight/README.md",
+        "detail": "Origin, Genesis"
+      },
+      {
+        "name": "Everseed",
+        "path": "../../02_Content/Plants/everseed/README.md",
+        "detail": null
+      },
+      {
+        "name": "Chronobloom",
+        "path": "../../02_Content/Plants/chronobloom/README.md",
+        "detail": null
+      },
+      {
+        "name": "Heart of Verdance",
+        "path": "../../02_Content/Plants/heart-of-verdance/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/the-first-garden",
+      "imageCount": 7
+    }
+  },
+  {
+    "id": "WORLD_008",
+    "slug": "umbra-deep",
+    "name": "Umbra Deep",
+    "status": "PROPOSAL",
+    "identity": "A vast subterranean world with enormous caverns, vertical rock formations and independent underground ecosystems.",
+    "palette": "Deep navy, charcoal, muted teal, mineral violet and carefully placed bioluminescent light.",
+    "explorationIdentity": "Darkness, vertical navigation, cave mapping, sound, biological light and hidden underground ecosystems.",
+    "majorBiomes": [
+      {
+        "name": "Lantern Hollows",
+        "description": "caverns with naturally glowing organisms."
+      },
+      {
+        "name": "The Vertical Archive",
+        "description": "enormous shafts, ledges and layered stone walls."
+      },
+      {
+        "name": "Blackwater Galleries",
+        "description": "underground lakes and submerged passages."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The Root Cathedral",
+        "description": "a cavern crossed by giant roots descending from the surface."
+      },
+      {
+        "name": "The Crystal Lung",
+        "description": "a chamber where mineral formations create slow, visible air currents."
+      },
+      {
+        "name": "The Blind Garden",
+        "description": "a hidden ecosystem with almost no natural light."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Glowcap",
+        "path": "../../02_Content/Plants/glowcap/README.md",
+        "detail": "Unusual, Lumen Spores"
+      },
+      {
+        "name": "Stoneheart Moss",
+        "path": "../../02_Content/Plants/stoneheart-moss/README.md",
+        "detail": "Ancient, Bedrock"
+      },
+      {
+        "name": "Gloomcap",
+        "path": "../../02_Content/Plants/gloomcap/README.md",
+        "detail": null
+      },
+      {
+        "name": "Crystalroot",
+        "path": "../../02_Content/Plants/crystalroot/README.md",
+        "detail": null
+      },
+      {
+        "name": "Deepwarden Fungus",
+        "path": "../../02_Content/Plants/deepwarden-fungus/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/umbra-deep",
+      "imageCount": 8
+    }
+  },
+  {
+    "id": "WORLD_005",
+    "slug": "veyr-peaks",
+    "name": "Veyr Peaks",
+    "status": "PROPOSAL",
+    "identity": "A colossal mountain world with alpine meadows, glaciers, ridges and storm systems.",
+    "palette": "Ice blue, slate grey, pine green, pale lavender and occasional warm gold.",
+    "explorationIdentity": "Altitude, weather reading, cold conditions, exposed routes and timed environmental clues.",
+    "majorBiomes": [
+      {
+        "name": "Paleglass Shelf",
+        "description": "snowy plateaus and sheltered cold-adapted vegetation."
+      },
+      {
+        "name": "Thunderline Ridge",
+        "description": "exposed mountain ridges with rapidly changing weather."
+      },
+      {
+        "name": "Cloudpine Basin",
+        "description": "high-altitude forests and misty valleys."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The Frozen Bellows",
+        "description": "ice caverns with unusual air currents."
+      },
+      {
+        "name": "The Eye of the Storm",
+        "description": "an exposed circular ridge where weather patterns converge."
+      },
+      {
+        "name": "Blue Hour Hollow",
+        "description": "a sheltered valley that remains in cool twilight for much of the day."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Frostwaker",
+        "path": "../../02_Content/Plants/frostwaker/README.md",
+        "detail": "Ancient, Pale Winter"
+      },
+      {
+        "name": "Stormbell",
+        "path": "../../02_Content/Plants/stormbell/README.md",
+        "detail": "Forgotten, Tempest Choir"
+      },
+      {
+        "name": "Snowbell",
+        "path": "../../02_Content/Plants/snowbell/README.md",
+        "detail": null
+      },
+      {
+        "name": "Rimepine",
+        "path": "../../02_Content/Plants/rimepine/README.md",
+        "detail": null
+      },
+      {
+        "name": "Thunderroot",
+        "path": "../../02_Content/Plants/thunderroot/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/veyr-peaks",
+      "imageCount": 9
+    }
+  },
+  {
+    "id": "WORLD_009",
+    "slug": "zephyr-crown",
+    "name": "Zephyr Crown",
+    "status": "PROPOSAL",
+    "identity": "A high-altitude world of immense plateaus, wind-carved cliffs, suspended-looking rock formations and rare aerial routes.",
+    "palette": "Sky blue, pale stone, cloud white, soft green and occasional violet.",
+    "explorationIdentity": "Precision movement, wind reading, vertical traversal and routes that become accessible through learned abilities.",
+    "majorBiomes": [
+      {
+        "name": "Windwoven Cliffs",
+        "description": "exposed cliffs and narrow natural anchor points."
+      },
+      {
+        "name": "The High Aeries",
+        "description": "broad elevated plateaus and unusual air currents."
+      },
+      {
+        "name": "Cloudgarden Fields",
+        "description": "open highland meadows above the cloud line."
+      }
+    ],
+    "hiddenSubBiomes": [
+      {
+        "name": "The Updraft Wells",
+        "description": "deep vertical openings where air rises in powerful columns."
+      },
+      {
+        "name": "The Hanging Grove",
+        "description": "a sheltered forest growing across connected cliff ledges."
+      },
+      {
+        "name": "The Farwind Shelf",
+        "description": "a remote plateau reachable through a chain of environmental traversal challenges."
+      }
+    ],
+    "nativePlants": [
+      {
+        "name": "Springvine",
+        "path": "../../02_Content/Plants/springvine/README.md",
+        "detail": "Unusual, Wildcoil"
+      },
+      {
+        "name": "Skydrift",
+        "path": "../../02_Content/Plants/skydrift/README.md",
+        "detail": "Relic, Aetherwing"
+      },
+      {
+        "name": "Cloudvine",
+        "path": "../../02_Content/Plants/cloudvine/README.md",
+        "detail": null
+      },
+      {
+        "name": "Gale Orchid",
+        "path": "../../02_Content/Plants/gale-orchid/README.md",
+        "detail": null
+      },
+      {
+        "name": "Starfeather Grass",
+        "path": "../../02_Content/Plants/starfeather-grass/README.md",
+        "detail": null
+      }
+    ],
+    "openDesignWork": [
+      "Region boundaries and playable scale.",
+      "Traversal routes and landmark map.",
+      "Environmental variables and event states.",
+      "Encounter locations and difficulty curve.",
+      "Streaming and performance budgets.",
+      "Additional native species beyond the initial signature plants."
+    ],
+    "art": {
+      "libraryPath": "05_Presentation/Concept_Art/Worlds/zephyr-crown",
+      "imageCount": 6
+    }
+  }
+]
